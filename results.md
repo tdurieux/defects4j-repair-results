@@ -1,229 +1,229 @@
 BugId | NopolPC | NopolC | Brutpol | Genprog | Kali | Total
 ----- | ------- | ------ | ------- | ------- | ---- | -----
-L1    | TIMEOUT | TIMEOUT | No      | TIMEOUT | No   | 0
-L2    | No      | No     | No      | ERROR   | ERROR | 0
-L3    | No      | No     | No      | ERROR   | ERROR | 0
-L4    | No      | No     | No      | ERROR   | ERROR | 0
-L5    | No      | No     | No      | ERROR   | ERROR | 0
-L6    | No      | No     | No      | ERROR   | ERROR | 0
-L7    | TIMEOUT | TIMEOUT | No      | ERROR   | ERROR | 0
-L8    | No      | No     | No      | ERROR   | ERROR | 0
-L9    | TIMEOUT | TIMEOUT | No      | ERROR   | ERROR | 0
-L10   | No      | No     | No      | ERROR   | ERROR | 0
-L11   | No      | No     | No      | ERROR   | ERROR | 0
-L12   | No      | No     | No      | ERROR   | ERROR | 0
-L13   | No      | No     | No      | TIMEOUT | No   | 0
-L14   | No      | No     | No      | TIMEOUT | No   | 0
-L15   | No      | No     | No      | TIMEOUT | No   | 0
-L16   | No      | No     | No      | TIMEOUT | No   | 0
-L17   | No      | No     | No      | TIMEOUT | No   | 0
-L18   | No      | No     | No      | TIMEOUT | No   | 0
-L19   | No      | No     | No      | TIMEOUT | No   | 0
-L20   | No      | No     | No      | TIMEOUT | No   | 0
-L21   | No      | No     | No      | ERROR   | ERROR | 0
-L22   | TIMEOUT | TIMEOUT | No      | ERROR   | ERROR | 0
-L23   | No      | No     | No      | ERROR   | ERROR | 0
-L24   | No      | No     | No      | ERROR   | ERROR | 0
-L25   | No      | No     | No      | ERROR   | ERROR | 0
-L26   | No      | No     | No      | ERROR   | ERROR | 0
-L27   | No      | No     | No      | ERROR   | ERROR | 0
-L28   | No      | No     | No      | ERROR   | ERROR | 0
-L29   | No      | No     | No      | ERROR   | ERROR | 0
-L30   | No      | No     | No      | ERROR   | ERROR | 0
-L31   | No      | No     | No      | ERROR   | ERROR | 0
-L32   | No      | No     | No      | ERROR   | ERROR | 0
-L33   | No      | No     | No      | ERROR   | ERROR | 0
-L34   | No      | No     | No      | ERROR   | ERROR | 0
-L35   | No      | No     | No      | ERROR   | ERROR | 0
-L36   | No      | No     | No      | ERROR   | ERROR | 0
-L37   | No      | No     | No      | ERROR   | ERROR | 0
-L38   | No      | No     | No      | ERROR   | ERROR | 0
-L39   | No      | No     | No      | ERROR   | ERROR | 0
-L40   | No      | No     | No      | ERROR   | ERROR | 0
-L41   | No      | No     | No      | ERROR   | ERROR | 0
-L42   | No      | No     | No      | TIMEOUT | No   | 0
-L43   | No      | No     | No      | TIMEOUT | No   | 0
-L44   | Yes     | TIMEOUT | No      | TIMEOUT | No   | 1
-L45   | No      | No     | No      | TIMEOUT | No   | 0
-L46   | No      | No     | No      | TIMEOUT | No   | 0
-L47   | No      | No     | No      | TIMEOUT | No   | 0
-L48   | TIMEOUT | TIMEOUT | No      | TIMEOUT | No   | 0
-L49   | No      | No     | No      | TIMEOUT | No   | 0
-L50   | No      | No     | No      | TIMEOUT | No   | 0
-L51   | No      | Yes    | No      | TIMEOUT | No   | 1
-L52   | No      | No     | No      | TIMEOUT | No   | 0
-L53   | TIMEOUT | TIMEOUT | No      | TIMEOUT | No   | 0
-L54   | No      | No     | No      | TIMEOUT | No   | 0
-L55   | No      | No     | No      | TIMEOUT | No   | 0
-L56   | No      | No     | No      | TIMEOUT | No   | 0
-L57   | No      | No     | No      | TIMEOUT | No   | 0
-L58   | Yes     | Yes    | No      | TIMEOUT | No   | 2
-L59   | No      | No     | No      | TIMEOUT | No   | 0
-L60   | No      | No     | No      | TIMEOUT | No   | 0
-L61   | No      | No     | No      | TIMEOUT | No   | 0
-L62   | No      | No     | No      | TIMEOUT | No   | 0
-L63   | ERROR   | No     | No      | TIMEOUT | No   | 0
-L64   | No      | No     | No      | TIMEOUT | No   | 0
-L65   | No      | No     | No      | TIMEOUT | No   | 0
-C1    | ERROR   | ERROR  | No      | TIMEOUT | No   | 0
-C2    | No      | No     | No      | TIMEOUT | No   | 0
-C3    | No      | No     | No      | TIMEOUT | No   | 0
-C4    | No      | No     | No      | TIMEOUT | No   | 0
-C5    | ERROR   | ERROR  | No      | TIMEOUT | No   | 0
-C6    | ERROR   | ERROR  | No      | TIMEOUT | No   | 0
-C7    | No      | No     | No      | TIMEOUT | No   | 0
-C8    | No      | No     | No      | ERROR   | ERROR | 0
-C9    | ERROR   | ERROR  | No      | TIMEOUT | No   | 0
-C10   | No      | No     | No      | TIMEOUT | No   | 0
-C11   | No      | No     | No      | TIMEOUT | No   | 0
-C12   | No      | No     | No      | TIMEOUT | No   | 0
-C13   | ERROR   | ERROR  | No      | TIMEOUT | No   | 0
-C14   | No      | No     | No      | TIMEOUT | No   | 0
-C15   | No      | No     | No      | TIMEOUT | No   | 0
-C16   | No      | No     | No      | TIMEOUT | No   | 0
-C17   | ERROR   | ERROR  | No      | TIMEOUT | No   | 0
-C18   | No      | No     | No      | TIMEOUT | No   | 0
-C19   | No      | No     | No      | TIMEOUT | No   | 0
-C20   | No      | No     | No      | TIMEOUT | No   | 0
-C21   | ERROR   | ERROR  | No      | TIMEOUT | No   | 0
-C22   | No      | No     | No      | TIMEOUT | No   | 0
-C23   | No      | No     | No      | TIMEOUT | No   | 0
-C24   | No      | No     | No      | TIMEOUT | No   | 0
-C25   | ERROR   | ERROR  | No      | TIMEOUT | No   | 0
-C26   | No      | No     | No      | TIMEOUT | No   | 0
-M1    | No      | No     | No      | ERROR   | No   | 0
-M2    | No      | No     | No      | No      | Yes  | 1
-M3    | No      | No     | No      | TIMEOUT | No   | 0
-M4    | No      | No     | No      | TIMEOUT | No   | 0
-M5    | No      | No     | No      | TIMEOUT | No   | 0
-M6    | No      | No     | No      | ERROR   | ERROR | 0
-M7    | TIMEOUT | TIMEOUT | No      | TIMEOUT | No   | 0
-M8    | No      | No     | No      | Yes     | Yes  | 2
-M9    | No      | No     | No      | TIMEOUT | No   | 0
-M10   | No      | No     | No      | TIMEOUT | No   | 0
-M11   | No      | No     | No      | TIMEOUT | No   | 0
-M12   | No      | No     | No      | TIMEOUT | No   | 0
-M13   | No      | No     | No      | TIMEOUT | No   | 0
-M14   | No      | No     | No      | TIMEOUT | No   | 0
-M15   | TIMEOUT | TIMEOUT | No      | TIMEOUT | No   | 0
-M16   | No      | No     | No      | TIMEOUT | No   | 0
-M17   | No      | No     | No      | TIMEOUT | No   | 0
-M18   | TIMEOUT | TIMEOUT | No      | TIMEOUT | No   | 0
-M19   | TIMEOUT | TIMEOUT | No      | TIMEOUT | No   | 0
-M20   | TIMEOUT | TIMEOUT | No      | ERROR   | ERROR | 0
-M21   | No      | No     | No      | TIMEOUT | No   | 0
-M22   | No      | No     | No      | TIMEOUT | No   | 0
-M23   | No      | No     | No      | TIMEOUT | No   | 0
-M24   | TIMEOUT | No     | No      | TIMEOUT | No   | 0
-M25   | No      | No     | No      | TIMEOUT | No   | 0
-M26   | No      | No     | No      | TIMEOUT | No   | 0
-M27   | No      | No     | No      | TIMEOUT | No   | 0
-M28   | No      | No     | No      | TIMEOUT | No   | 0
-M29   | No      | No     | No      | TIMEOUT | No   | 0
-M30   | No      | No     | No      | TIMEOUT | No   | 0
-M31   | No      | No     | No      | TIMEOUT | No   | 0
-M32   | Yes     | TIMEOUT | No      | TIMEOUT | No   | 1
-M33   | Yes     | Yes    | No      | TIMEOUT | No   | 2
-M34   | No      | No     | No      | TIMEOUT | No   | 0
-M35   | ERROR   | ERROR  | No      | ERROR   | ERROR | 0
-M36   | No      | No     | No      | TIMEOUT | No   | 0
-M37   | No      | No     | No      | TIMEOUT | No   | 0
-M38   | No      | No     | No      | TIMEOUT | No   | 0
-M39   | No      | No     | No      | TIMEOUT | No   | 0
-M40   | TIMEOUT | Yes    | No      | ERROR   | No   | 1
-M41   | Yes     | Yes    | No      | TIMEOUT | No   | 2
-M42   | No      | No     | No      | TIMEOUT | No   | 0
-M43   | No      | TIMEOUT | No      | TIMEOUT | No   | 0
-M44   | No      | No     | No      | Yes     | No   | 1
-M45   | No      | No     | No      | TIMEOUT | No   | 0
-M46   | No      | No     | No      | TIMEOUT | No   | 0
-M47   | No      | No     | No      | TIMEOUT | No   | 0
-M48   | No      | No     | No      | TIMEOUT | No   | 0
-M49   | Yes     | No     | No      | Yes     | Yes  | 3
-M50   | Yes     | Yes    | No      | Yes     | Yes  | 4
-M51   | No      | No     | No      | ERROR   | ERROR | 0
-M52   | No      | No     | No      | TIMEOUT | No   | 0
-M53   | No      | No     | No      | No      | No   | 0
-M54   | No      | No     | No      | TIMEOUT | TIMEOUT | 0
-M55   | No      | No     | No      | TIMEOUT | No   | 0
-M56   | No      | No     | No      | No      | No   | 0
-M57   | TIMEOUT | Yes    | No      | TIMEOUT | No   | 1
-M58   | TIMEOUT | Yes    | No      | ERROR   | No   | 1
-M59   | No      | No     | No      | TIMEOUT | No   | 0
-M60   | No      | No     | No      | TIMEOUT | No   | 0
-M61   | No      | No     | No      | TIMEOUT | No   | 0
-M62   | No      | No     | No      | TIMEOUT | No   | 0
-M63   | No      | No     | No      | TIMEOUT | No   | 0
-M64   | No      | No     | No      | Yes     | No   | 1
-M65   | No      | No     | No      | TIMEOUT | No   | 0
-M66   | No      | No     | No      | TIMEOUT | No   | 0
-M67   | No      | No     | No      | TIMEOUT | No   | 0
-M68   | No      | No     | No      | TIMEOUT | No   | 0
-M69   | Yes     | TIMEOUT | No      | TIMEOUT | No   | 1
-M70   | No      | No     | No      | Yes     | No   | 1
-M71   | No      | No     | No      | Yes     | TIMEOUT | 1
-M72   | No      | No     | No      | TIMEOUT | No   | 0
-M73   | No      | Yes    | No      | Yes     | No   | 2
-M74   | No      | No     | No      | TIMEOUT | TIMEOUT | 0
-M75   | No      | No     | No      | TIMEOUT | No   | 0
-M76   | No      | No     | No      | TIMEOUT | No   | 0
-M77   | No      | No     | No      | TIMEOUT | No   | 0
-M78   | Yes     | TIMEOUT | No      | Yes     | Yes  | 3
-M79   | Yes     | No     | No      | No      | No   | 1
-M80   | Yes     | TIMEOUT | No      | Yes     | Yes  | 3
-M81   | Yes     | Yes    | No      | Yes     | Yes  | 4
-M82   | Yes     | No     | No      | Yes     | Yes  | 3
-M83   | No      | No     | No      | TIMEOUT | No   | 0
-M84   | No      | No     | No      | TIMEOUT | No   | 0
-M85   | ERROR   | ERROR  | No      | Yes     | Yes  | 2
-M86   | No      | No     | No      | TIMEOUT | No   | 0
-M87   | Yes     | Yes    | No      | TIMEOUT | No   | 2
-M88   | Yes     | TIMEOUT | No      | TIMEOUT | No   | 1
-M89   | No      | No     | No      | ERROR   | ERROR | 0
-M90   | No      | No     | No      | ERROR   | ERROR | 0
-M91   | No      | No     | No      | ERROR   | ERROR | 0
-M92   | No      | No     | No      | ERROR   | ERROR | 0
-M93   | No      | No     | No      | ERROR   | ERROR | 0
-M94   | No      | No     | No      | ERROR   | ERROR | 0
-M95   | No      | No     | No      | ERROR   | ERROR | 0
-M96   | No      | No     | No      | ERROR   | ERROR | 0
-M97   | Yes     | Yes    | No      | ERROR   | ERROR | 2
-M98   | No      | No     | No      | ERROR   | ERROR | 0
-M99   | Yes     | Yes    | No      | TIMEOUT | No   | 2
-M100  | No      | No     | No      | TIMEOUT | No   | 0
-M101  | No      | No     | No      | TIMEOUT | No   | 0
-M102  | No      | No     | No      | TIMEOUT | No   | 0
-M103  | No      | No     | No      | TIMEOUT | No   | 0
-M104  | No      | No     | No      | TIMEOUT | No   | 0
-M105  | Yes     | No     | No      | TIMEOUT | No   | 1
-M106  | No      | No     | No      | TIMEOUT | No   | 0
-T1    | ERROR   | ERROR  | No      | TIMEOUT | No   | 0
-T2    | No      | No     | No      | TIMEOUT | No   | 0
-T3    | No      | No     | No      | TIMEOUT | No   | 0
-T4    | No      | No     | No      | TIMEOUT | No   | 0
-T5    | No      | No     | No      | TIMEOUT | No   | 0
-T6    | No      | No     | No      | TIMEOUT | No   | 0
-T7    | No      | No     | No      | TIMEOUT | No   | 0
-T8    | No      | No     | No      | TIMEOUT | No   | 0
-T9    | No      | No     | No      | TIMEOUT | No   | 0
-T10   | No      | No     | No      | TIMEOUT | No   | 0
-T11   | No      | No     | No      | TIMEOUT | No   | 0
-T12   | No      | No     | No      | ERROR   | ERROR | 0
-T13   | No      | No     | No      | ERROR   | ERROR | 0
-T14   | No      | No     | No      | ERROR   | ERROR | 0
-T15   | No      | No     | No      | ERROR   | ERROR | 0
-T16   | No      | No     | No      | ERROR   | ERROR | 0
-T17   | No      | No     | No      | ERROR   | ERROR | 0
-T18   | No      | No     | No      | ERROR   | ERROR | 0
-T19   | No      | No     | No      | ERROR   | ERROR | 0
-T20   | No      | No     | No      | ERROR   | ERROR | 0
-T21   | No      | No     | No      | ERROR   | ERROR | 0
-T22   | No      | No     | No      | ERROR   | ERROR | 0
-T23   | No      | No     | No      | ERROR   | ERROR | 0
-T24   | No      | No     | No      | ERROR   | ERROR | 0
-T25   | No      | No     | No      | ERROR   | ERROR | 0
-T26   | No      | No     | No      | ERROR   | ERROR | 0
-T27   | No      | No     | No      | ERROR   | ERROR | 0
+L1    | TIMEOUT | TIMEOUT |         | TIMEOUT | No   | 0
+L2    |         |        |         | ERROR   | ERROR | 0
+L3    |         |        |         | ERROR   | ERROR | 0
+L4    |         |        |         | ERROR   | ERROR | 0
+L5    |         |        |         | ERROR   | ERROR | 0
+L6    |         |        |         | ERROR   | ERROR | 0
+L7    | TIMEOUT | TIMEOUT |         | ERROR   | ERROR | 0
+L8    |         |        |         | ERROR   | ERROR | 0
+L9    | TIMEOUT | TIMEOUT |         | ERROR   | ERROR | 0
+L10   |         |        |         | ERROR   | ERROR | 0
+L11   |         |        |         | ERROR   | ERROR | 0
+L12   |         |        |         | ERROR   | ERROR | 0
+L13   |         |        |         | TIMEOUT | No   | 0
+L14   |         |        |         | TIMEOUT | No   | 0
+L15   |         |        |         | TIMEOUT | No   | 0
+L16   |         |        |         | TIMEOUT | No   | 0
+L17   |         |        |         | TIMEOUT | No   | 0
+L18   |         |        |         | TIMEOUT | No   | 0
+L19   |         |        |         | TIMEOUT | No   | 0
+L20   |         |        |         | TIMEOUT | No   | 0
+L21   |         |        |         | ERROR   | ERROR | 0
+L22   | TIMEOUT | TIMEOUT |         | ERROR   | ERROR | 0
+L23   |         |        |         | ERROR   | ERROR | 0
+L24   |         |        |         | ERROR   | ERROR | 0
+L25   |         |        |         | ERROR   | ERROR | 0
+L26   |         |        |         | ERROR   | ERROR | 0
+L27   | No      | No     |         | ERROR   | ERROR | 0
+L28   |         |        |         | ERROR   | ERROR | 0
+L29   |         |        |         | ERROR   | ERROR | 0
+L30   |         |        |         | ERROR   | ERROR | 0
+L31   |         |        |         | ERROR   | ERROR | 0
+L32   |         |        |         | ERROR   | ERROR | 0
+L33   |         |        |         | ERROR   | ERROR | 0
+L34   |         |        |         | ERROR   | ERROR | 0
+L35   |         |        |         | ERROR   | ERROR | 0
+L36   |         |        |         | ERROR   | ERROR | 0
+L37   |         |        |         | ERROR   | ERROR | 0
+L38   |         |        |         | ERROR   | ERROR | 0
+L39   |         |        |         | ERROR   | ERROR | 0
+L40   |         |        |         | ERROR   | ERROR | 0
+L41   |         |        |         | ERROR   | ERROR | 0
+L42   |         |        |         | TIMEOUT | No   | 0
+L43   |         |        |         | TIMEOUT | No   | 0
+L44   | Yes     | TIMEOUT |         | TIMEOUT | No   | 1
+L45   |         |        |         | TIMEOUT | No   | 0
+L46   |         |        |         | TIMEOUT | No   | 0
+L47   |         |        |         | TIMEOUT | No   | 0
+L48   | TIMEOUT | TIMEOUT |         | TIMEOUT | No   | 0
+L49   |         |        |         | TIMEOUT | No   | 0
+L50   |         |        |         | TIMEOUT | No   | 0
+L51   | No      | Yes    |         | TIMEOUT | No   | 1
+L52   |         |        |         | TIMEOUT | No   | 0
+L53   | TIMEOUT | TIMEOUT |         | TIMEOUT | No   | 0
+L54   |         |        |         | TIMEOUT | No   | 0
+L55   |         |        |         | TIMEOUT | No   | 0
+L56   |         |        |         | TIMEOUT | No   | 0
+L57   |         |        |         | TIMEOUT | No   | 0
+L58   | Yes     | Yes    |         | TIMEOUT | No   | 2
+L59   |         |        |         | TIMEOUT | No   | 0
+L60   | No      | No     |         | TIMEOUT | No   | 0
+L61   |         |        |         | TIMEOUT | No   | 0
+L62   |         |        |         | TIMEOUT | No   | 0
+L63   | ERROR   | No     |         | TIMEOUT | No   | 0
+L64   |         |        |         | TIMEOUT | No   | 0
+L65   |         |        |         | TIMEOUT | No   | 0
+C1    | ERROR   | ERROR  |         | TIMEOUT | No   | 0
+C2    |         |        |         | TIMEOUT | No   | 0
+C3    |         |        |         | TIMEOUT | No   | 0
+C4    |         |        |         | TIMEOUT | No   | 0
+C5    | ERROR   | ERROR  |         | TIMEOUT | No   | 0
+C6    | ERROR   | ERROR  |         | TIMEOUT | No   | 0
+C7    |         |        |         | TIMEOUT | No   | 0
+C8    |         |        |         | ERROR   | ERROR | 0
+C9    | ERROR   | ERROR  |         | TIMEOUT | No   | 0
+C10   |         |        |         | TIMEOUT | No   | 0
+C11   |         |        |         | TIMEOUT | No   | 0
+C12   |         |        |         | TIMEOUT | No   | 0
+C13   | ERROR   | ERROR  |         | TIMEOUT | No   | 0
+C14   |         |        |         | TIMEOUT | No   | 0
+C15   |         |        |         | TIMEOUT | No   | 0
+C16   |         |        |         | TIMEOUT | No   | 0
+C17   | ERROR   | ERROR  |         | TIMEOUT | No   | 0
+C18   |         |        |         | TIMEOUT | No   | 0
+C19   |         |        |         | TIMEOUT | No   | 0
+C20   |         |        |         | TIMEOUT | No   | 0
+C21   | ERROR   | ERROR  |         | TIMEOUT | No   | 0
+C22   |         |        |         | TIMEOUT | No   | 0
+C23   |         |        |         | TIMEOUT | No   | 0
+C24   |         |        |         | TIMEOUT | No   | 0
+C25   | ERROR   | ERROR  |         | TIMEOUT | No   | 0
+C26   |         |        |         | TIMEOUT | No   | 0
+M1    | No      | No     |         | ERROR   | No   | 0
+M2    |         |        |         | No      | Yes  | 1
+M3    |         |        |         | TIMEOUT | No   | 0
+M4    |         |        |         | TIMEOUT | No   | 0
+M5    | No      | No     |         | TIMEOUT | No   | 0
+M6    |         |        |         | ERROR   | ERROR | 0
+M7    | TIMEOUT | TIMEOUT |         | TIMEOUT | No   | 0
+M8    |         |        |         | Yes     | Yes  | 2
+M9    |         |        |         | TIMEOUT | No   | 0
+M10   |         |        |         | TIMEOUT | No   | 0
+M11   |         |        |         | TIMEOUT | No   | 0
+M12   |         |        |         | TIMEOUT | No   | 0
+M13   |         |        |         | TIMEOUT | No   | 0
+M14   |         |        |         | TIMEOUT | No   | 0
+M15   | TIMEOUT | TIMEOUT |         | TIMEOUT | No   | 0
+M16   |         |        |         | TIMEOUT | No   | 0
+M17   |         |        |         | TIMEOUT | No   | 0
+M18   | TIMEOUT | TIMEOUT |         | TIMEOUT | No   | 0
+M19   | TIMEOUT | TIMEOUT |         | TIMEOUT | No   | 0
+M20   | TIMEOUT | TIMEOUT |         | ERROR   | ERROR | 0
+M21   |         |        |         | TIMEOUT | No   | 0
+M22   |         |        |         | TIMEOUT | No   | 0
+M23   |         |        |         | TIMEOUT | No   | 0
+M24   | TIMEOUT | No     |         | TIMEOUT | No   | 0
+M25   |         |        |         | TIMEOUT | No   | 0
+M26   |         |        |         | TIMEOUT | No   | 0
+M27   |         |        |         | TIMEOUT | No   | 0
+M28   |         |        |         | TIMEOUT | No   | 0
+M29   |         |        |         | TIMEOUT | No   | 0
+M30   | No      | No     |         | TIMEOUT | No   | 0
+M31   |         |        |         | TIMEOUT | No   | 0
+M32   | Yes     | TIMEOUT |         | TIMEOUT | No   | 1
+M33   | Yes     | Yes    |         | TIMEOUT | No   | 2
+M34   |         |        |         | TIMEOUT | No   | 0
+M35   | ERROR   | ERROR  |         | ERROR   | ERROR | 0
+M36   |         |        |         | TIMEOUT | No   | 0
+M37   |         |        |         | TIMEOUT | No   | 0
+M38   |         |        |         | TIMEOUT | No   | 0
+M39   |         |        |         | TIMEOUT | No   | 0
+M40   | TIMEOUT | Yes    |         | ERROR   | No   | 1
+M41   | Yes     | Yes    |         | TIMEOUT | No   | 2
+M42   |         |        |         | TIMEOUT | No   | 0
+M43   | No      | TIMEOUT |         | TIMEOUT | No   | 0
+M44   |         |        |         | Yes     | No   | 1
+M45   |         |        |         | TIMEOUT | No   | 0
+M46   | No      | No     |         | TIMEOUT | No   | 0
+M47   |         |        |         | TIMEOUT | No   | 0
+M48   |         |        |         | TIMEOUT | No   | 0
+M49   | Yes     | No     |         | Yes     | Yes  | 3
+M50   | Yes     | Yes    |         | Yes     | Yes  | 4
+M51   |         |        |         | ERROR   | ERROR | 0
+M52   | No      | No     |         | TIMEOUT | No   | 0
+M53   |         |        |         | No      | No   | 0
+M54   |         |        |         | TIMEOUT | TIMEOUT | 0
+M55   |         |        |         | TIMEOUT | No   | 0
+M56   |         |        |         | No      | No   | 0
+M57   | TIMEOUT | Yes    |         | TIMEOUT | No   | 1
+M58   | TIMEOUT | Yes    |         | ERROR   | No   | 1
+M59   |         |        |         | TIMEOUT | No   | 0
+M60   |         |        |         | TIMEOUT | No   | 0
+M61   |         |        |         | TIMEOUT | No   | 0
+M62   |         |        |         | TIMEOUT | No   | 0
+M63   |         |        |         | TIMEOUT | No   | 0
+M64   |         |        |         | Yes     | No   | 1
+M65   |         |        |         | TIMEOUT | No   | 0
+M66   |         |        |         | TIMEOUT | No   | 0
+M67   |         |        |         | TIMEOUT | No   | 0
+M68   |         |        |         | TIMEOUT | No   | 0
+M69   | Yes     | TIMEOUT |         | TIMEOUT | No   | 1
+M70   |         |        |         | Yes     | No   | 1
+M71   |         |        |         | Yes     | TIMEOUT | 1
+M72   |         |        |         | TIMEOUT | No   | 0
+M73   | No      | Yes    |         | Yes     | No   | 2
+M74   |         |        |         | TIMEOUT | TIMEOUT | 0
+M75   |         |        |         | TIMEOUT | No   | 0
+M76   |         |        |         | TIMEOUT | No   | 0
+M77   |         |        |         | TIMEOUT | No   | 0
+M78   | Yes     | TIMEOUT |         | Yes     | Yes  | 3
+M79   | Yes     | No     |         | No      | No   | 1
+M80   | Yes     | TIMEOUT |         | Yes     | Yes  | 3
+M81   | Yes     | Yes    |         | Yes     | Yes  | 4
+M82   | Yes     | No     |         | Yes     | Yes  | 3
+M83   |         |        |         | TIMEOUT | No   | 0
+M84   |         |        |         | TIMEOUT | No   | 0
+M85   | ERROR   | ERROR  |         | Yes     | Yes  | 2
+M86   |         |        |         | TIMEOUT | No   | 0
+M87   | Yes     | Yes    |         | TIMEOUT | No   | 2
+M88   | Yes     | TIMEOUT |         | TIMEOUT | No   | 1
+M89   |         |        |         | ERROR   | ERROR | 0
+M90   |         |        |         | ERROR   | ERROR | 0
+M91   |         |        |         | ERROR   | ERROR | 0
+M92   |         |        |         | ERROR   | ERROR | 0
+M93   |         |        |         | ERROR   | ERROR | 0
+M94   |         |        |         | ERROR   | ERROR | 0
+M95   |         |        |         | ERROR   | ERROR | 0
+M96   |         |        |         | ERROR   | ERROR | 0
+M97   | Yes     | Yes    |         | ERROR   | ERROR | 2
+M98   |         |        |         | ERROR   | ERROR | 0
+M99   | Yes     | Yes    |         | TIMEOUT | No   | 2
+M100  |         |        |         | TIMEOUT | No   | 0
+M101  |         |        |         | TIMEOUT | No   | 0
+M102  |         |        |         | TIMEOUT | No   | 0
+M103  |         |        |         | TIMEOUT | No   | 0
+M104  |         |        |         | TIMEOUT | No   | 0
+M105  | Yes     | No     |         | TIMEOUT | No   | 1
+M106  |         |        |         | TIMEOUT | No   | 0
+T1    | ERROR   | ERROR  |         | TIMEOUT | No   | 0
+T2    |         |        |         | TIMEOUT | No   | 0
+T3    |         |        |         | TIMEOUT | No   | 0
+T4    |         |        |         | TIMEOUT | No   | 0
+T5    |         |        |         | TIMEOUT | No   | 0
+T6    |         |        |         | TIMEOUT | No   | 0
+T7    |         |        |         | TIMEOUT | No   | 0
+T8    |         |        |         | TIMEOUT | No   | 0
+T9    |         |        |         | TIMEOUT | No   | 0
+T10   |         |        |         | TIMEOUT | No   | 0
+T11   |         |        |         | TIMEOUT | No   | 0
+T12   |         |        |         | ERROR   | ERROR | 0
+T13   |         |        |         | ERROR   | ERROR | 0
+T14   |         |        |         | ERROR   | ERROR | 0
+T15   |         |        |         | ERROR   | ERROR | 0
+T16   |         |        |         | ERROR   | ERROR | 0
+T17   |         |        |         | ERROR   | ERROR | 0
+T18   |         |        |         | ERROR   | ERROR | 0
+T19   |         |        |         | ERROR   | ERROR | 0
+T20   |         |        |         | ERROR   | ERROR | 0
+T21   |         |        |         | ERROR   | ERROR | 0
+T22   |         |        |         | ERROR   | ERROR | 0
+T23   |         |        |         | ERROR   | ERROR | 0
+T24   |         |        |         | ERROR   | ERROR | 0
+T25   |         |        |         | ERROR   | ERROR | 0
+T26   |         |        |         | ERROR   | ERROR | 0
+T27   |         |        |         | ERROR   | ERROR | 0
 Total | 18      | 13     | 0       | 13      | 9    | 53
 
 
