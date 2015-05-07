@@ -1,0 +1,330 @@
+{
+    "date": "2015-05-07T08:46:36.751372", 
+    "executedTest": 1633, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.lang.time.DateUtilsTest", 
+            "method": "testTruncateLang59"
+        }
+    ], 
+    "node": "griffon-1.nancy.grid5000.fr\n", 
+    "successfulTest": 1632, 
+    "suspicious": {
+        "org.apache.commons.lang.time.DateUtils:543": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 543, 
+            "metrics": {
+                "ample": 0.9993872549019608, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.9993876301285975
+            }, 
+            "nf": 0, 
+            "np": 1631, 
+            "rank": 1
+        }, 
+        "org.apache.commons.lang.time.DateUtils:546": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 546, 
+            "metrics": {
+                "ample": 0.9993872549019608, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.9993876301285975
+            }, 
+            "nf": 0, 
+            "np": 1631, 
+            "rank": 2
+        }, 
+        "org.apache.commons.lang.time.DateUtils:547": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 547, 
+            "metrics": {
+                "ample": 0.9993872549019608, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.9993876301285975
+            }, 
+            "nf": 0, 
+            "np": 1631, 
+            "rank": 3
+        }, 
+        "org.apache.commons.lang.time.DateUtils:548": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 548, 
+            "metrics": {
+                "ample": 0.9993872549019608, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.9993876301285975
+            }, 
+            "nf": 0, 
+            "np": 1631, 
+            "rank": 4
+        }, 
+        "org.apache.commons.lang.time.DateUtils:549": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 549, 
+            "metrics": {
+                "ample": 0.9993872549019608, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.9993876301285975
+            }, 
+            "nf": 0, 
+            "np": 1631, 
+            "rank": 5
+        }, 
+        "org.apache.commons.lang.time.DateUtils:620": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 620, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 6
+        }, 
+        "org.apache.commons.lang.time.DateUtils:624": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 624, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 7
+        }, 
+        "org.apache.commons.lang.time.DateUtils:625": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 625, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 8
+        }, 
+        "org.apache.commons.lang.time.DateUtils:626": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 626, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 9
+        }, 
+        "org.apache.commons.lang.time.DateUtils:627": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 627, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 10
+        }, 
+        "org.apache.commons.lang.time.DateUtils:629": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 629, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 11
+        }, 
+        "org.apache.commons.lang.time.DateUtils:646": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 646, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 12
+        }, 
+        "org.apache.commons.lang.time.DateUtils:650": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 650, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 13
+        }, 
+        "org.apache.commons.lang.time.DateUtils:651": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 651, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 14
+        }, 
+        "org.apache.commons.lang.time.DateUtils:653": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 653, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 15
+        }, 
+        "org.apache.commons.lang.time.DateUtils:683": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 683, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 16
+        }, 
+        "org.apache.commons.lang.time.DateUtils:684": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 684, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 17
+        }, 
+        "org.apache.commons.lang.time.DateUtils:685": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 685, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 18
+        }, 
+        "org.apache.commons.lang.time.DateUtils:687": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 687, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 19
+        }, 
+        "org.apache.commons.lang.time.DateUtils:689": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 689, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 20
+        }, 
+        "org.apache.commons.lang.time.DateUtils:692": {
+            "class": "org.apache.commons.lang.time.DateUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 692, 
+            "metrics": {
+                "ample": 0.9975490196078431, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9975550122249389
+            }, 
+            "nf": 0, 
+            "np": 1628, 
+            "rank": 21
+        }
+    }
+}

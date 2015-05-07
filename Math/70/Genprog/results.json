@@ -1,0 +1,34 @@
+{
+    "date": "2015-05-07T00:27:13.561936", 
+    "gen": "49", 
+    "node": "graphene-67.nancy.grid5000.fr\n", 
+    "operations": [
+        {
+            "generation": 49, 
+            "patch": "return solve(f, min, max)", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BisectionSolver", 
+                "line": 72
+            }
+        }
+    ], 
+    "patches": "1", 
+    "programVariant": "98", 
+    "timeEvaluation": "15060", 
+    "timeTotal": "45923", 
+    "timeVal1": [
+        170, 
+        160, 
+        162, 
+        170, 
+        168, 
+        183, 
+        162, 
+        161, 
+        163, 
+        165
+    ], 
+    "timeVal2": [
+        10824
+    ]
+}

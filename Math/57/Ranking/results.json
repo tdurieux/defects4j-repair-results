@@ -1,0 +1,870 @@
+{
+    "date": "2015-05-07T08:44:51.276778", 
+    "executedTest": 2383, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest", 
+            "method": "testSmallDistances"
+        }
+    ], 
+    "node": "griffon-8.nancy.grid5000.fr\n", 
+    "successfulTest": 2382, 
+    "suspicious": {
+        "org.apache.commons.math.stat.clustering.Cluster:55": {
+            "class": "org.apache.commons.math.stat.clustering.Cluster", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 55, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 41
+        }, 
+        "org.apache.commons.math.stat.clustering.Cluster:56": {
+            "class": "org.apache.commons.math.stat.clustering.Cluster", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 56, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 42
+        }, 
+        "org.apache.commons.math.stat.clustering.Cluster:71": {
+            "class": "org.apache.commons.math.stat.clustering.Cluster", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 71, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 43
+        }, 
+        "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:52": {
+            "class": "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint", 
+            "ef": 1, 
+            "ep": 7, 
+            "line": 52, 
+            "metrics": {
+                "ample": 0.9970612930310663, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.997069903725408
+            }, 
+            "nf": 0, 
+            "np": 2375, 
+            "rank": 56
+        }, 
+        "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:57": {
+            "class": "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 57, 
+            "metrics": {
+                "ample": 0.998320738874895, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9983235540653815
+            }, 
+            "nf": 0, 
+            "np": 2378, 
+            "rank": 45
+        }, 
+        "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:77": {
+            "class": "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 77, 
+            "metrics": {
+                "ample": 0.998320738874895, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9983235540653815
+            }, 
+            "nf": 0, 
+            "np": 2378, 
+            "rank": 46
+        }, 
+        "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:80": {
+            "class": "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 80, 
+            "metrics": {
+                "ample": 0.998320738874895, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9983235540653815
+            }, 
+            "nf": 0, 
+            "np": 2378, 
+            "rank": 47
+        }, 
+        "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:81": {
+            "class": "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 81, 
+            "metrics": {
+                "ample": 0.998320738874895, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9983235540653815
+            }, 
+            "nf": 0, 
+            "np": 2378, 
+            "rank": 48
+        }, 
+        "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:84": {
+            "class": "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 84, 
+            "metrics": {
+                "ample": 0.998320738874895, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9983235540653815
+            }, 
+            "nf": 0, 
+            "np": 2378, 
+            "rank": 49
+        }, 
+        "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:85": {
+            "class": "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 85, 
+            "metrics": {
+                "ample": 0.998320738874895, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9983235540653815
+            }, 
+            "nf": 0, 
+            "np": 2378, 
+            "rank": 50
+        }, 
+        "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:86": {
+            "class": "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 86, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 44
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:100": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 100, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 19
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:134": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 134, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 1
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:146": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 146, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 20
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:147": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 147, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 21
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:148": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 148, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 22
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:149": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 149, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 23
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:150": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 150, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 24
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:164": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 164, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 25
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:165": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 165, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 26
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:168": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 168, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 27
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:169": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 169, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 28
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:171": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 171, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 29
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:172": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 172, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 30
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:175": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 175, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 2
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:176": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 176, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 3
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:177": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 177, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 4
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:178": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 178, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 5
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:179": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 179, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 6
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:180": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 180, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 7
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:181": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 181, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 8
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:186": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 186, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 9
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:187": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 187, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 10
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:188": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 188, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 11
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:189": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 189, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 12
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:190": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 190, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 13
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:191": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 191, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 14
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:194": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 194, 
+            "metrics": {
+                "ample": 0.9991603694374476, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9991610738255035
+            }, 
+            "nf": 0, 
+            "np": 2380, 
+            "rank": 15
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:196": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 196, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 31
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:321": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 321, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 32
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:322": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 322, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 33
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:323": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 323, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 34
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:324": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 324, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 35
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:325": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 325, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 36
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:326": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 326, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 37
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:327": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 327, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 38
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:329": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 329, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 39
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:330": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 330, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 40
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:95": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 95, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 16
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:96": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 96, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 17
+        }, 
+        "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer:99": {
+            "class": "org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 99, 
+            "metrics": {
+                "ample": 0.9987405541561712, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.99874213836478
+            }, 
+            "nf": 0, 
+            "np": 2379, 
+            "rank": 18
+        }, 
+        "org.apache.commons.math.util.FastMath:277": {
+            "class": "org.apache.commons.math.util.FastMath", 
+            "ef": 1, 
+            "ep": 544, 
+            "line": 277, 
+            "metrics": {
+                "ample": 0.7716204869857263, 
+                "gzoltar": 0.042835293687811936, 
+                "ochiai": 0.042835293687811936, 
+                "tarantula": 0.8140806561859194
+            }, 
+            "nf": 0, 
+            "np": 1838, 
+            "rank": 57
+        }, 
+        "org.apache.commons.math.util.MathUtils:1873": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 1873, 
+            "metrics": {
+                "ample": 0.9979009235936188, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9979053204859656
+            }, 
+            "nf": 0, 
+            "np": 2377, 
+            "rank": 51
+        }, 
+        "org.apache.commons.math.util.MathUtils:1874": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 1874, 
+            "metrics": {
+                "ample": 0.9979009235936188, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9979053204859656
+            }, 
+            "nf": 0, 
+            "np": 2377, 
+            "rank": 52
+        }, 
+        "org.apache.commons.math.util.MathUtils:1875": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 1875, 
+            "metrics": {
+                "ample": 0.9979009235936188, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9979053204859656
+            }, 
+            "nf": 0, 
+            "np": 2377, 
+            "rank": 53
+        }, 
+        "org.apache.commons.math.util.MathUtils:1876": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 1876, 
+            "metrics": {
+                "ample": 0.9979009235936188, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9979053204859656
+            }, 
+            "nf": 0, 
+            "np": 2377, 
+            "rank": 54
+        }, 
+        "org.apache.commons.math.util.MathUtils:1878": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 1878, 
+            "metrics": {
+                "ample": 0.9979009235936188, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9979053204859656
+            }, 
+            "nf": 0, 
+            "np": 2377, 
+            "rank": 55
+        }
+    }
+}

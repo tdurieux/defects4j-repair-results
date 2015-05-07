@@ -1,0 +1,15 @@
+{
+    "date": "2015-05-07T07:41:12.719335", 
+    "executionTime": 55319, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 4, 
+    "nbSMTVariable": 44, 
+    "nbStatement": 16, 
+    "node": "griffon-34.nancy.grid5000.fr\n", 
+    "patch": "org.apache.commons.math.linear.EigenDecompositionImpl.this.cachedD!=null", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+        "line": 1137
+    }, 
+    "patchType": "PRECONDITION"
+}

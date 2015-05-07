@@ -1,0 +1,4107 @@
+{
+    "date": "2015-05-07T08:51:54.728354", 
+    "executedTest": 3459, 
+    "failedTest": 4, 
+    "failedTestDetails": [
+        {
+            "class": "org.jfree.chart.plot.junit.CategoryPlotTests", 
+            "method": "testGetRangeAxisIndex"
+        }, 
+        {
+            "class": "org.jfree.chart.plot.junit.CategoryPlotTests", 
+            "method": "testGetDomainAxisIndex"
+        }, 
+        {
+            "class": "org.jfree.chart.plot.junit.CategoryPlotTests", 
+            "method": "testGetRangeAxisIndex"
+        }, 
+        {
+            "class": "org.jfree.chart.plot.junit.CategoryPlotTests", 
+            "method": "testGetDomainAxisIndex"
+        }
+    ], 
+    "node": "griffon-41.nancy.grid5000.fr\n", 
+    "successfulTest": 3455, 
+    "suspicious": {
+        "org.jfree.chart.axis.Axis:1000": {
+            "class": "org.jfree.chart.axis.Axis", 
+            "ef": 4, 
+            "ep": 354, 
+            "line": 1000, 
+            "metrics": {
+                "ample": 0.8975397973950796, 
+                "gzoltar": 0.10570328451633798, 
+                "ochiai": 0.10570328451633798, 
+                "tarantula": 0.9070622210553951
+            }, 
+            "nf": 0, 
+            "np": 3101, 
+            "rank": 159
+        }, 
+        "org.jfree.chart.axis.Axis:1035": {
+            "class": "org.jfree.chart.axis.Axis", 
+            "ef": 4, 
+            "ep": 431, 
+            "line": 1035, 
+            "metrics": {
+                "ample": 0.8752532561505065, 
+                "gzoltar": 0.09589266029707683, 
+                "ochiai": 0.09589266029707683, 
+                "tarantula": 0.8890890375707667
+            }, 
+            "nf": 0, 
+            "np": 3024, 
+            "rank": 251
+        }, 
+        "org.jfree.chart.axis.Axis:1036": {
+            "class": "org.jfree.chart.axis.Axis", 
+            "ef": 4, 
+            "ep": 431, 
+            "line": 1036, 
+            "metrics": {
+                "ample": 0.8752532561505065, 
+                "gzoltar": 0.09589266029707683, 
+                "ochiai": 0.09589266029707683, 
+                "tarantula": 0.8890890375707667
+            }, 
+            "nf": 0, 
+            "np": 3024, 
+            "rank": 252
+        }, 
+        "org.jfree.chart.axis.Axis:1042": {
+            "class": "org.jfree.chart.axis.Axis", 
+            "ef": 4, 
+            "ep": 431, 
+            "line": 1042, 
+            "metrics": {
+                "ample": 0.8752532561505065, 
+                "gzoltar": 0.09589266029707683, 
+                "ochiai": 0.09589266029707683, 
+                "tarantula": 0.8890890375707667
+            }, 
+            "nf": 0, 
+            "np": 3024, 
+            "rank": 253
+        }, 
+        "org.jfree.chart.axis.Axis:763": {
+            "class": "org.jfree.chart.axis.Axis", 
+            "ef": 4, 
+            "ep": 225, 
+            "line": 763, 
+            "metrics": {
+                "ample": 0.934876989869754, 
+                "gzoltar": 0.13216372009101796, 
+                "ochiai": 0.13216372009101796, 
+                "tarantula": 0.938858695652174
+            }, 
+            "nf": 0, 
+            "np": 3230, 
+            "rank": 110
+        }, 
+        "org.jfree.chart.axis.Axis:764": {
+            "class": "org.jfree.chart.axis.Axis", 
+            "ef": 4, 
+            "ep": 225, 
+            "line": 764, 
+            "metrics": {
+                "ample": 0.934876989869754, 
+                "gzoltar": 0.13216372009101796, 
+                "ochiai": 0.13216372009101796, 
+                "tarantula": 0.938858695652174
+            }, 
+            "nf": 0, 
+            "np": 3230, 
+            "rank": 111
+        }, 
+        "org.jfree.chart.axis.Axis:765": {
+            "class": "org.jfree.chart.axis.Axis", 
+            "ef": 4, 
+            "ep": 225, 
+            "line": 765, 
+            "metrics": {
+                "ample": 0.934876989869754, 
+                "gzoltar": 0.13216372009101796, 
+                "ochiai": 0.13216372009101796, 
+                "tarantula": 0.938858695652174
+            }, 
+            "nf": 0, 
+            "np": 3230, 
+            "rank": 112
+        }, 
+        "org.jfree.chart.axis.Axis:767": {
+            "class": "org.jfree.chart.axis.Axis", 
+            "ef": 4, 
+            "ep": 225, 
+            "line": 767, 
+            "metrics": {
+                "ample": 0.934876989869754, 
+                "gzoltar": 0.13216372009101796, 
+                "ochiai": 0.13216372009101796, 
+                "tarantula": 0.938858695652174
+            }, 
+            "nf": 0, 
+            "np": 3230, 
+            "rank": 113
+        }, 
+        "org.jfree.chart.axis.Axis:885": {
+            "class": "org.jfree.chart.axis.Axis", 
+            "ef": 4, 
+            "ep": 422, 
+            "line": 885, 
+            "metrics": {
+                "ample": 0.8778581765557163, 
+                "gzoltar": 0.09690031662230184, 
+                "ochiai": 0.09690031662230184, 
+                "tarantula": 0.8911529533144184
+            }, 
+            "nf": 0, 
+            "np": 3033, 
+            "rank": 246
+        }, 
+        "org.jfree.chart.axis.Axis:898": {
+            "class": "org.jfree.chart.axis.Axis", 
+            "ef": 4, 
+            "ep": 354, 
+            "line": 898, 
+            "metrics": {
+                "ample": 0.8975397973950796, 
+                "gzoltar": 0.10570328451633798, 
+                "ochiai": 0.10570328451633798, 
+                "tarantula": 0.9070622210553951
+            }, 
+            "nf": 0, 
+            "np": 3101, 
+            "rank": 155
+        }, 
+        "org.jfree.chart.axis.Axis:899": {
+            "class": "org.jfree.chart.axis.Axis", 
+            "ef": 4, 
+            "ep": 354, 
+            "line": 899, 
+            "metrics": {
+                "ample": 0.8975397973950796, 
+                "gzoltar": 0.10570328451633798, 
+                "ochiai": 0.10570328451633798, 
+                "tarantula": 0.9070622210553951
+            }, 
+            "nf": 0, 
+            "np": 3101, 
+            "rank": 156
+        }, 
+        "org.jfree.chart.axis.Axis:900": {
+            "class": "org.jfree.chart.axis.Axis", 
+            "ef": 4, 
+            "ep": 354, 
+            "line": 900, 
+            "metrics": {
+                "ample": 0.8975397973950796, 
+                "gzoltar": 0.10570328451633798, 
+                "ochiai": 0.10570328451633798, 
+                "tarantula": 0.9070622210553951
+            }, 
+            "nf": 0, 
+            "np": 3101, 
+            "rank": 157
+        }, 
+        "org.jfree.chart.axis.Axis:999": {
+            "class": "org.jfree.chart.axis.Axis", 
+            "ef": 4, 
+            "ep": 355, 
+            "line": 999, 
+            "metrics": {
+                "ample": 0.8972503617945007, 
+                "gzoltar": 0.10570328451633798, 
+                "ochiai": 0.1055559627938519, 
+                "tarantula": 0.9068241469816273
+            }, 
+            "nf": 0, 
+            "np": 3100, 
+            "rank": 158
+        }, 
+        "org.jfree.chart.axis.CategoryAxis:827": {
+            "class": "org.jfree.chart.axis.CategoryAxis", 
+            "ef": 4, 
+            "ep": 186, 
+            "line": 827, 
+            "metrics": {
+                "ample": 0.9461649782923299, 
+                "gzoltar": 0.14509525002200233, 
+                "ochiai": 0.14509525002200233, 
+                "tarantula": 0.9489151332051635
+            }, 
+            "nf": 0, 
+            "np": 3269, 
+            "rank": 38
+        }, 
+        "org.jfree.chart.axis.NumberAxis:238": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 238, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 124
+        }, 
+        "org.jfree.chart.axis.NumberAxis:273": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 273, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 125
+        }, 
+        "org.jfree.chart.axis.NumberAxis:411": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 411, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 126
+        }, 
+        "org.jfree.chart.axis.NumberAxis:412": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 412, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 127
+        }, 
+        "org.jfree.chart.axis.NumberAxis:414": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 414, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 128
+        }, 
+        "org.jfree.chart.axis.NumberAxis:421": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 354, 
+            "line": 421, 
+            "metrics": {
+                "ample": 0.8975397973950796, 
+                "gzoltar": 0.10570328451633798, 
+                "ochiai": 0.10570328451633798, 
+                "tarantula": 0.9070622210553951
+            }, 
+            "nf": 0, 
+            "np": 3101, 
+            "rank": 153
+        }, 
+        "org.jfree.chart.axis.NumberAxis:422": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 354, 
+            "line": 422, 
+            "metrics": {
+                "ample": 0.8975397973950796, 
+                "gzoltar": 0.10570328451633798, 
+                "ochiai": 0.10570328451633798, 
+                "tarantula": 0.9070622210553951
+            }, 
+            "nf": 0, 
+            "np": 3101, 
+            "rank": 154
+        }, 
+        "org.jfree.chart.axis.NumberAxis:423": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 328, 
+            "line": 423, 
+            "metrics": {
+                "ample": 0.9050651230101302, 
+                "gzoltar": 0.10976425998969035, 
+                "ochiai": 0.10976425998969035, 
+                "tarantula": 0.9132963256674598
+            }, 
+            "nf": 0, 
+            "np": 3127, 
+            "rank": 119
+        }, 
+        "org.jfree.chart.axis.NumberAxis:426": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 426, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 129
+        }, 
+        "org.jfree.chart.axis.NumberAxis:427": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 427, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 130
+        }, 
+        "org.jfree.chart.axis.NumberAxis:429": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 429, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 131
+        }, 
+        "org.jfree.chart.axis.NumberAxis:430": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 430, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 132
+        }, 
+        "org.jfree.chart.axis.NumberAxis:431": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 80, 
+            "line": 431, 
+            "metrics": {
+                "ample": 0.9768451519536903, 
+                "gzoltar": 0.2182178902359924, 
+                "ochiai": 0.2182178902359924, 
+                "tarantula": 0.9773691654879774
+            }, 
+            "nf": 0, 
+            "np": 3375, 
+            "rank": 23
+        }, 
+        "org.jfree.chart.axis.NumberAxis:434": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 434, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 133
+        }, 
+        "org.jfree.chart.axis.NumberAxis:435": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 435, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 134
+        }, 
+        "org.jfree.chart.axis.NumberAxis:436": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 436, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 135
+        }, 
+        "org.jfree.chart.axis.NumberAxis:440": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 440, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 136
+        }, 
+        "org.jfree.chart.axis.NumberAxis:445": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 445, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 137
+        }, 
+        "org.jfree.chart.axis.NumberAxis:446": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 318, 
+            "line": 446, 
+            "metrics": {
+                "ample": 0.907959479015919, 
+                "gzoltar": 0.11145564251507056, 
+                "ochiai": 0.11145564251507056, 
+                "tarantula": 0.9157169361250993
+            }, 
+            "nf": 0, 
+            "np": 3137, 
+            "rank": 117
+        }, 
+        "org.jfree.chart.axis.NumberAxis:447": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 318, 
+            "line": 447, 
+            "metrics": {
+                "ample": 0.907959479015919, 
+                "gzoltar": 0.11145564251507056, 
+                "ochiai": 0.11145564251507056, 
+                "tarantula": 0.9157169361250993
+            }, 
+            "nf": 0, 
+            "np": 3137, 
+            "rank": 118
+        }, 
+        "org.jfree.chart.axis.NumberAxis:449": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 449, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 138
+        }, 
+        "org.jfree.chart.axis.NumberAxis:452": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 452, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 139
+        }, 
+        "org.jfree.chart.axis.NumberAxis:453": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 453, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 140
+        }, 
+        "org.jfree.chart.axis.NumberAxis:458": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 458, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 141
+        }, 
+        "org.jfree.chart.axis.NumberAxis:459": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 459, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 142
+        }, 
+        "org.jfree.chart.axis.NumberAxis:482": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 482, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 143
+        }, 
+        "org.jfree.chart.axis.NumberAxis:483": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 483, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 144
+        }, 
+        "org.jfree.chart.axis.NumberAxis:487": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 487, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 145
+        }, 
+        "org.jfree.chart.axis.NumberAxis:489": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 489, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 146
+        }, 
+        "org.jfree.chart.axis.NumberAxis:490": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 242, 
+            "line": 490, 
+            "metrics": {
+                "ample": 0.9299565846599132, 
+                "gzoltar": 0.12751534261266764, 
+                "ochiai": 0.12751534261266764, 
+                "tarantula": 0.9345415201514742
+            }, 
+            "nf": 0, 
+            "np": 3213, 
+            "rank": 114
+        }, 
+        "org.jfree.chart.axis.NumberAxis:502": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 502, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 147
+        }, 
+        "org.jfree.chart.axis.NumberAxis:505": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 342, 
+            "line": 505, 
+            "metrics": {
+                "ample": 0.901013024602026, 
+                "gzoltar": 0.10752066611409407, 
+                "ochiai": 0.10752066611409407, 
+                "tarantula": 0.9099288912299184
+            }, 
+            "nf": 0, 
+            "np": 3113, 
+            "rank": 148
+        }, 
+        "org.jfree.chart.axis.NumberAxis:701": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 701, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 162
+        }, 
+        "org.jfree.chart.axis.NumberAxis:702": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 702, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 163
+        }, 
+        "org.jfree.chart.axis.NumberAxis:703": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 703, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 164
+        }, 
+        "org.jfree.chart.axis.NumberAxis:704": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 704, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 165
+        }, 
+        "org.jfree.chart.axis.NumberAxis:705": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 705, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 166
+        }, 
+        "org.jfree.chart.axis.NumberAxis:706": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 706, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 167
+        }, 
+        "org.jfree.chart.axis.NumberAxis:707": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 707, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 168
+        }, 
+        "org.jfree.chart.axis.NumberAxis:708": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 708, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 169
+        }, 
+        "org.jfree.chart.axis.NumberAxis:709": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 709, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 170
+        }, 
+        "org.jfree.chart.axis.NumberAxis:710": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 710, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 171
+        }, 
+        "org.jfree.chart.axis.NumberAxis:711": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 711, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 172
+        }, 
+        "org.jfree.chart.axis.NumberAxis:712": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 712, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 173
+        }, 
+        "org.jfree.chart.axis.NumberAxis:716": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 716, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 174
+        }, 
+        "org.jfree.chart.axis.NumberAxis:717": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 717, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 175
+        }, 
+        "org.jfree.chart.axis.NumberAxis:718": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 718, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 176
+        }, 
+        "org.jfree.chart.axis.NumberAxis:719": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 719, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 177
+        }, 
+        "org.jfree.chart.axis.NumberAxis:720": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 720, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 178
+        }, 
+        "org.jfree.chart.axis.NumberAxis:721": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 721, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 179
+        }, 
+        "org.jfree.chart.axis.NumberAxis:722": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 722, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 180
+        }, 
+        "org.jfree.chart.axis.NumberAxis:723": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 723, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 181
+        }, 
+        "org.jfree.chart.axis.NumberAxis:724": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 724, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 182
+        }, 
+        "org.jfree.chart.axis.NumberAxis:725": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 725, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 183
+        }, 
+        "org.jfree.chart.axis.NumberAxis:726": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 726, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 184
+        }, 
+        "org.jfree.chart.axis.NumberAxis:727": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 727, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 185
+        }, 
+        "org.jfree.chart.axis.NumberAxis:728": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 728, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 186
+        }, 
+        "org.jfree.chart.axis.NumberAxis:729": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 729, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 187
+        }, 
+        "org.jfree.chart.axis.NumberAxis:730": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 730, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 188
+        }, 
+        "org.jfree.chart.axis.NumberAxis:731": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 731, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 189
+        }, 
+        "org.jfree.chart.axis.NumberAxis:732": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 732, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 190
+        }, 
+        "org.jfree.chart.axis.NumberAxis:733": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 733, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 191
+        }, 
+        "org.jfree.chart.axis.NumberAxis:734": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 734, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 192
+        }, 
+        "org.jfree.chart.axis.NumberAxis:736": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 736, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 193
+        }, 
+        "org.jfree.chart.axis.NumberAxis:737": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 737, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 194
+        }, 
+        "org.jfree.chart.axis.NumberAxis:738": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 738, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 195
+        }, 
+        "org.jfree.chart.axis.NumberAxis:739": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 739, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 196
+        }, 
+        "org.jfree.chart.axis.NumberAxis:740": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 740, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 197
+        }, 
+        "org.jfree.chart.axis.NumberAxis:741": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 741, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 198
+        }, 
+        "org.jfree.chart.axis.NumberAxis:742": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 742, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 199
+        }, 
+        "org.jfree.chart.axis.NumberAxis:743": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 743, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 200
+        }, 
+        "org.jfree.chart.axis.NumberAxis:744": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 744, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 201
+        }, 
+        "org.jfree.chart.axis.NumberAxis:745": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 745, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 202
+        }, 
+        "org.jfree.chart.axis.NumberAxis:746": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 746, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 203
+        }, 
+        "org.jfree.chart.axis.NumberAxis:747": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 747, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 204
+        }, 
+        "org.jfree.chart.axis.NumberAxis:748": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 748, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 205
+        }, 
+        "org.jfree.chart.axis.NumberAxis:749": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 749, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 206
+        }, 
+        "org.jfree.chart.axis.NumberAxis:750": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 750, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 207
+        }, 
+        "org.jfree.chart.axis.NumberAxis:751": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 751, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 208
+        }, 
+        "org.jfree.chart.axis.NumberAxis:752": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 752, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 209
+        }, 
+        "org.jfree.chart.axis.NumberAxis:753": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 753, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 210
+        }, 
+        "org.jfree.chart.axis.NumberAxis:754": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 754, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 211
+        }, 
+        "org.jfree.chart.axis.NumberAxis:756": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 756, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 212
+        }, 
+        "org.jfree.chart.axis.NumberAxis:757": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 757, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 213
+        }, 
+        "org.jfree.chart.axis.NumberAxis:758": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 758, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 214
+        }, 
+        "org.jfree.chart.axis.NumberAxis:759": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 759, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 215
+        }, 
+        "org.jfree.chart.axis.NumberAxis:760": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 760, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 216
+        }, 
+        "org.jfree.chart.axis.NumberAxis:761": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 761, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 217
+        }, 
+        "org.jfree.chart.axis.NumberAxis:762": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 762, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 218
+        }, 
+        "org.jfree.chart.axis.NumberAxis:763": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 763, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 219
+        }, 
+        "org.jfree.chart.axis.NumberAxis:764": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 764, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 220
+        }, 
+        "org.jfree.chart.axis.NumberAxis:765": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 765, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 221
+        }, 
+        "org.jfree.chart.axis.NumberAxis:766": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 766, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 222
+        }, 
+        "org.jfree.chart.axis.NumberAxis:767": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 767, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 223
+        }, 
+        "org.jfree.chart.axis.NumberAxis:768": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 768, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 224
+        }, 
+        "org.jfree.chart.axis.NumberAxis:769": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 769, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 225
+        }, 
+        "org.jfree.chart.axis.NumberAxis:770": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 770, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 226
+        }, 
+        "org.jfree.chart.axis.NumberAxis:771": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 771, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 227
+        }, 
+        "org.jfree.chart.axis.NumberAxis:772": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 772, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 228
+        }, 
+        "org.jfree.chart.axis.NumberAxis:773": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 773, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 229
+        }, 
+        "org.jfree.chart.axis.NumberAxis:774": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 774, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 230
+        }, 
+        "org.jfree.chart.axis.NumberAxis:776": {
+            "class": "org.jfree.chart.axis.NumberAxis", 
+            "ef": 4, 
+            "ep": 392, 
+            "line": 776, 
+            "metrics": {
+                "ample": 0.8865412445730825, 
+                "gzoltar": 0.10050378152592121, 
+                "ochiai": 0.10050378152592121, 
+                "tarantula": 0.898102417468157
+            }, 
+            "nf": 0, 
+            "np": 3063, 
+            "rank": 231
+        }, 
+        "org.jfree.chart.axis.TickUnit:106": {
+            "class": "org.jfree.chart.axis.TickUnit", 
+            "ef": 4, 
+            "ep": 464, 
+            "line": 106, 
+            "metrics": {
+                "ample": 0.8657018813314038, 
+                "gzoltar": 0.09245003270420485, 
+                "ochiai": 0.09245003270420485, 
+                "tarantula": 0.8816024496044909
+            }, 
+            "nf": 0, 
+            "np": 2991, 
+            "rank": 263
+        }, 
+        "org.jfree.chart.axis.TickUnit:144": {
+            "class": "org.jfree.chart.axis.TickUnit", 
+            "ef": 4, 
+            "ep": 464, 
+            "line": 144, 
+            "metrics": {
+                "ample": 0.8657018813314038, 
+                "gzoltar": 0.09245003270420485, 
+                "ochiai": 0.09245003270420485, 
+                "tarantula": 0.8816024496044909
+            }, 
+            "nf": 0, 
+            "np": 2991, 
+            "rank": 264
+        }, 
+        "org.jfree.chart.axis.TickUnit:145": {
+            "class": "org.jfree.chart.axis.TickUnit", 
+            "ef": 4, 
+            "ep": 464, 
+            "line": 145, 
+            "metrics": {
+                "ample": 0.8657018813314038, 
+                "gzoltar": 0.09245003270420485, 
+                "ochiai": 0.09245003270420485, 
+                "tarantula": 0.8816024496044909
+            }, 
+            "nf": 0, 
+            "np": 2991, 
+            "rank": 265
+        }, 
+        "org.jfree.chart.axis.TickUnit:146": {
+            "class": "org.jfree.chart.axis.TickUnit", 
+            "ef": 4, 
+            "ep": 464, 
+            "line": 146, 
+            "metrics": {
+                "ample": 0.8657018813314038, 
+                "gzoltar": 0.09245003270420485, 
+                "ochiai": 0.09245003270420485, 
+                "tarantula": 0.8816024496044909
+            }, 
+            "nf": 0, 
+            "np": 2991, 
+            "rank": 266
+        }, 
+        "org.jfree.chart.axis.TickUnit:147": {
+            "class": "org.jfree.chart.axis.TickUnit", 
+            "ef": 4, 
+            "ep": 464, 
+            "line": 147, 
+            "metrics": {
+                "ample": 0.8657018813314038, 
+                "gzoltar": 0.09245003270420485, 
+                "ochiai": 0.09245003270420485, 
+                "tarantula": 0.8816024496044909
+            }, 
+            "nf": 0, 
+            "np": 2991, 
+            "rank": 267
+        }, 
+        "org.jfree.chart.axis.TickUnit:149": {
+            "class": "org.jfree.chart.axis.TickUnit", 
+            "ef": 4, 
+            "ep": 396, 
+            "line": 149, 
+            "metrics": {
+                "ample": 0.885383502170767, 
+                "gzoltar": 0.1, 
+                "ochiai": 0.1, 
+                "tarantula": 0.8971695663464035
+            }, 
+            "nf": 0, 
+            "np": 3059, 
+            "rank": 234
+        }, 
+        "org.jfree.chart.axis.TickUnit:150": {
+            "class": "org.jfree.chart.axis.TickUnit", 
+            "ef": 4, 
+            "ep": 396, 
+            "line": 150, 
+            "metrics": {
+                "ample": 0.885383502170767, 
+                "gzoltar": 0.1, 
+                "ochiai": 0.1, 
+                "tarantula": 0.8971695663464035
+            }, 
+            "nf": 0, 
+            "np": 3059, 
+            "rank": 235
+        }, 
+        "org.jfree.chart.axis.TickUnits:90": {
+            "class": "org.jfree.chart.axis.TickUnits", 
+            "ef": 4, 
+            "ep": 464, 
+            "line": 90, 
+            "metrics": {
+                "ample": 0.8657018813314038, 
+                "gzoltar": 0.09245003270420485, 
+                "ochiai": 0.09245003270420485, 
+                "tarantula": 0.8816024496044909
+            }, 
+            "nf": 0, 
+            "np": 2991, 
+            "rank": 259
+        }, 
+        "org.jfree.chart.axis.TickUnits:93": {
+            "class": "org.jfree.chart.axis.TickUnits", 
+            "ef": 4, 
+            "ep": 464, 
+            "line": 93, 
+            "metrics": {
+                "ample": 0.8657018813314038, 
+                "gzoltar": 0.09245003270420485, 
+                "ochiai": 0.09245003270420485, 
+                "tarantula": 0.8816024496044909
+            }, 
+            "nf": 0, 
+            "np": 2991, 
+            "rank": 260
+        }, 
+        "org.jfree.chart.axis.TickUnits:94": {
+            "class": "org.jfree.chart.axis.TickUnits", 
+            "ef": 4, 
+            "ep": 464, 
+            "line": 94, 
+            "metrics": {
+                "ample": 0.8657018813314038, 
+                "gzoltar": 0.09245003270420485, 
+                "ochiai": 0.09245003270420485, 
+                "tarantula": 0.8816024496044909
+            }, 
+            "nf": 0, 
+            "np": 2991, 
+            "rank": 261
+        }, 
+        "org.jfree.chart.axis.TickUnits:95": {
+            "class": "org.jfree.chart.axis.TickUnits", 
+            "ef": 4, 
+            "ep": 464, 
+            "line": 95, 
+            "metrics": {
+                "ample": 0.8657018813314038, 
+                "gzoltar": 0.09245003270420485, 
+                "ochiai": 0.09245003270420485, 
+                "tarantula": 0.8816024496044909
+            }, 
+            "nf": 0, 
+            "np": 2991, 
+            "rank": 262
+        }, 
+        "org.jfree.chart.axis.ValueAxis:1027": {
+            "class": "org.jfree.chart.axis.ValueAxis", 
+            "ef": 4, 
+            "ep": 88, 
+            "line": 1027, 
+            "metrics": {
+                "ample": 0.9745296671490593, 
+                "gzoltar": 0.20851441405707477, 
+                "ochiai": 0.20851441405707477, 
+                "tarantula": 0.9751622918430708
+            }, 
+            "nf": 0, 
+            "np": 3367, 
+            "rank": 35
+        }, 
+        "org.jfree.chart.axis.ValueAxis:1059": {
+            "class": "org.jfree.chart.axis.ValueAxis", 
+            "ef": 4, 
+            "ep": 352, 
+            "line": 1059, 
+            "metrics": {
+                "ample": 0.8981186685962373, 
+                "gzoltar": 0.105999788000636, 
+                "ochiai": 0.105999788000636, 
+                "tarantula": 0.907538744418177
+            }, 
+            "nf": 0, 
+            "np": 3103, 
+            "rank": 150
+        }, 
+        "org.jfree.chart.axis.ValueAxis:1092": {
+            "class": "org.jfree.chart.axis.ValueAxis", 
+            "ef": 4, 
+            "ep": 352, 
+            "line": 1092, 
+            "metrics": {
+                "ample": 0.8981186685962373, 
+                "gzoltar": 0.105999788000636, 
+                "ochiai": 0.105999788000636, 
+                "tarantula": 0.907538744418177
+            }, 
+            "nf": 0, 
+            "np": 3103, 
+            "rank": 151
+        }, 
+        "org.jfree.chart.axis.ValueAxis:1122": {
+            "class": "org.jfree.chart.axis.ValueAxis", 
+            "ef": 4, 
+            "ep": 352, 
+            "line": 1122, 
+            "metrics": {
+                "ample": 0.8981186685962373, 
+                "gzoltar": 0.105999788000636, 
+                "ochiai": 0.105999788000636, 
+                "tarantula": 0.907538744418177
+            }, 
+            "nf": 0, 
+            "np": 3103, 
+            "rank": 152
+        }, 
+        "org.jfree.chart.axis.ValueAxis:1236": {
+            "class": "org.jfree.chart.axis.ValueAxis", 
+            "ef": 4, 
+            "ep": 414, 
+            "line": 1236, 
+            "metrics": {
+                "ample": 0.8801736613603474, 
+                "gzoltar": 0.0978231976089037, 
+                "ochiai": 0.0978231976089037, 
+                "tarantula": 0.8929956060997674
+            }, 
+            "nf": 0, 
+            "np": 3041, 
+            "rank": 239
+        }, 
+        "org.jfree.chart.axis.ValueAxis:1239": {
+            "class": "org.jfree.chart.axis.ValueAxis", 
+            "ef": 4, 
+            "ep": 414, 
+            "line": 1239, 
+            "metrics": {
+                "ample": 0.8801736613603474, 
+                "gzoltar": 0.0978231976089037, 
+                "ochiai": 0.0978231976089037, 
+                "tarantula": 0.8929956060997674
+            }, 
+            "nf": 0, 
+            "np": 3041, 
+            "rank": 240
+        }, 
+        "org.jfree.chart.axis.ValueAxis:1242": {
+            "class": "org.jfree.chart.axis.ValueAxis", 
+            "ef": 4, 
+            "ep": 414, 
+            "line": 1242, 
+            "metrics": {
+                "ample": 0.8801736613603474, 
+                "gzoltar": 0.0978231976089037, 
+                "ochiai": 0.0978231976089037, 
+                "tarantula": 0.8929956060997674
+            }, 
+            "nf": 0, 
+            "np": 3041, 
+            "rank": 241
+        }, 
+        "org.jfree.chart.axis.ValueAxis:1243": {
+            "class": "org.jfree.chart.axis.ValueAxis", 
+            "ef": 4, 
+            "ep": 414, 
+            "line": 1243, 
+            "metrics": {
+                "ample": 0.8801736613603474, 
+                "gzoltar": 0.0978231976089037, 
+                "ochiai": 0.0978231976089037, 
+                "tarantula": 0.8929956060997674
+            }, 
+            "nf": 0, 
+            "np": 3041, 
+            "rank": 242
+        }, 
+        "org.jfree.chart.axis.ValueAxis:1246": {
+            "class": "org.jfree.chart.axis.ValueAxis", 
+            "ef": 4, 
+            "ep": 414, 
+            "line": 1246, 
+            "metrics": {
+                "ample": 0.8801736613603474, 
+                "gzoltar": 0.0978231976089037, 
+                "ochiai": 0.0978231976089037, 
+                "tarantula": 0.8929956060997674
+            }, 
+            "nf": 0, 
+            "np": 3041, 
+            "rank": 243
+        }, 
+        "org.jfree.chart.axis.ValueAxis:929": {
+            "class": "org.jfree.chart.axis.ValueAxis", 
+            "ef": 4, 
+            "ep": 380, 
+            "line": 929, 
+            "metrics": {
+                "ample": 0.8900144717800289, 
+                "gzoltar": 0.10206207261596577, 
+                "ochiai": 0.10206207261596577, 
+                "tarantula": 0.9009126466753585
+            }, 
+            "nf": 0, 
+            "np": 3075, 
+            "rank": 160
+        }, 
+        "org.jfree.chart.axis.ValueAxis:975": {
+            "class": "org.jfree.chart.axis.ValueAxis", 
+            "ef": 4, 
+            "ep": 352, 
+            "line": 975, 
+            "metrics": {
+                "ample": 0.8981186685962373, 
+                "gzoltar": 0.105999788000636, 
+                "ochiai": 0.105999788000636, 
+                "tarantula": 0.907538744418177
+            }, 
+            "nf": 0, 
+            "np": 3103, 
+            "rank": 149
+        }, 
+        "org.jfree.chart.event.ChartChangeEvent:131": {
+            "class": "org.jfree.chart.event.ChartChangeEvent", 
+            "ef": 4, 
+            "ep": 394, 
+            "line": 131, 
+            "metrics": {
+                "ample": 0.8859623733719247, 
+                "gzoltar": 0.1002509414234171, 
+                "ochiai": 0.1002509414234171, 
+                "tarantula": 0.8976357495453365
+            }, 
+            "nf": 0, 
+            "np": 3061, 
+            "rank": 232
+        }, 
+        "org.jfree.chart.event.ChartChangeEvent:132": {
+            "class": "org.jfree.chart.event.ChartChangeEvent", 
+            "ef": 4, 
+            "ep": 394, 
+            "line": 132, 
+            "metrics": {
+                "ample": 0.8859623733719247, 
+                "gzoltar": 0.1002509414234171, 
+                "ochiai": 0.1002509414234171, 
+                "tarantula": 0.8976357495453365
+            }, 
+            "nf": 0, 
+            "np": 3061, 
+            "rank": 233
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1032": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1032, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 69
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1033": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1033, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 70
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1062": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1062, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 71
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1066": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1066, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 72
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1067": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1067, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 73
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1070": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1070, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 74
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1126": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1126, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 75
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1127": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1127, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 76
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1128": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1128, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 77
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1129": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 192, 
+            "line": 1129, 
+            "metrics": {
+                "ample": 0.9444283646888567, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9473539895804771
+            }, 
+            "nf": 0, 
+            "np": 3263, 
+            "rank": 40
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1132": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1132, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 78
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1155": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1155, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 79
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1156": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1156, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 80
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1157": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1157, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 81
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1159": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1159, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 82
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1222": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1222, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 83
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1224": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1224, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 84
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1225": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1225, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 85
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1255": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1255, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 86
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1257": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1257, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 87
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1258": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1258, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 88
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1836": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1836, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 89
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1837": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1837, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 90
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1838": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1838, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 91
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1839": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1839, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 92
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1840": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 192, 
+            "line": 1840, 
+            "metrics": {
+                "ample": 0.9444283646888567, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9473539895804771
+            }, 
+            "nf": 0, 
+            "np": 3263, 
+            "rank": 41
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1843": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1843, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 93
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1847": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1847, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 94
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1848": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1848, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 95
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1849": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1849, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 96
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:1852": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 1852, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 97
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:2068": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 2068, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 98
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:2069": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 2069, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 99
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:2083": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 2083, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 100
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:2092": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 2092, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 101
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:2093": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 2093, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 102
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:2095": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 2095, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 103
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:2096": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 2096, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 104
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:2097": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 2097, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 105
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:2099": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 2099, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 106
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:2101": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 2101, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 107
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:2102": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 2102, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 108
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:2103": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 2103, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 109
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:3139": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 192, 
+            "line": 3139, 
+            "metrics": {
+                "ample": 0.9444283646888567, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9473539895804771
+            }, 
+            "nf": 0, 
+            "np": 3263, 
+            "rank": 42
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:3140": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 192, 
+            "line": 3140, 
+            "metrics": {
+                "ample": 0.9444283646888567, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9473539895804771
+            }, 
+            "nf": 0, 
+            "np": 3263, 
+            "rank": 43
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:3142": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 192, 
+            "line": 3142, 
+            "metrics": {
+                "ample": 0.9444283646888567, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9473539895804771
+            }, 
+            "nf": 0, 
+            "np": 3263, 
+            "rank": 44
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:3143": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 192, 
+            "line": 3143, 
+            "metrics": {
+                "ample": 0.9444283646888567, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9473539895804771
+            }, 
+            "nf": 0, 
+            "np": 3263, 
+            "rank": 45
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:3144": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 190, 
+            "line": 3144, 
+            "metrics": {
+                "ample": 0.9450072358900145, 
+                "gzoltar": 0.14359163172354764, 
+                "ochiai": 0.14359163172354764, 
+                "tarantula": 0.9478737997256517
+            }, 
+            "nf": 0, 
+            "np": 3265, 
+            "rank": 39
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:3146": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 20, 
+            "line": 3146, 
+            "metrics": {
+                "ample": 0.49421128798842257, 
+                "gzoltar": 0.21320071635561041, 
+                "ochiai": 0.21320071635561041, 
+                "tarantula": 0.9885550786838342
+            }, 
+            "nf": 2, 
+            "np": 3435, 
+            "rank": 34
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:3152": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 192, 
+            "line": 3152, 
+            "metrics": {
+                "ample": 0.9444283646888567, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9473539895804771
+            }, 
+            "nf": 0, 
+            "np": 3263, 
+            "rank": 46
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:3153": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 192, 
+            "line": 3153, 
+            "metrics": {
+                "ample": 0.9444283646888567, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9473539895804771
+            }, 
+            "nf": 0, 
+            "np": 3263, 
+            "rank": 47
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:3160": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 192, 
+            "line": 3160, 
+            "metrics": {
+                "ample": 0.9444283646888567, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9473539895804771
+            }, 
+            "nf": 0, 
+            "np": 3263, 
+            "rank": 48
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:3207": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 192, 
+            "line": 3207, 
+            "metrics": {
+                "ample": 0.9444283646888567, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9473539895804771
+            }, 
+            "nf": 0, 
+            "np": 3263, 
+            "rank": 49
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:3208": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 192, 
+            "line": 3208, 
+            "metrics": {
+                "ample": 0.9444283646888567, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9473539895804771
+            }, 
+            "nf": 0, 
+            "np": 3263, 
+            "rank": 50
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:3209": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 192, 
+            "line": 3209, 
+            "metrics": {
+                "ample": 0.9444283646888567, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9473539895804771
+            }, 
+            "nf": 0, 
+            "np": 3263, 
+            "rank": 51
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:3210": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 192, 
+            "line": 3210, 
+            "metrics": {
+                "ample": 0.9444283646888567, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9473539895804771
+            }, 
+            "nf": 0, 
+            "np": 3263, 
+            "rank": 52
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:3225": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 192, 
+            "line": 3225, 
+            "metrics": {
+                "ample": 0.9444283646888567, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9473539895804771
+            }, 
+            "nf": 0, 
+            "np": 3263, 
+            "rank": 53
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:640": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 14, 
+            "line": 640, 
+            "metrics": {
+                "ample": 0.4959479015918958, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9919609532012633
+            }, 
+            "nf": 2, 
+            "np": 3441, 
+            "rank": 13
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:641": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 14, 
+            "line": 641, 
+            "metrics": {
+                "ample": 0.4959479015918958, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9919609532012633
+            }, 
+            "nf": 2, 
+            "np": 3441, 
+            "rank": 14
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:652": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 14, 
+            "line": 652, 
+            "metrics": {
+                "ample": 0.4959479015918958, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9919609532012633
+            }, 
+            "nf": 2, 
+            "np": 3441, 
+            "rank": 15
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:653": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 14, 
+            "line": 653, 
+            "metrics": {
+                "ample": 0.4959479015918958, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9919609532012633
+            }, 
+            "nf": 2, 
+            "np": 3441, 
+            "rank": 16
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:656": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 14, 
+            "line": 656, 
+            "metrics": {
+                "ample": 0.4959479015918958, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9919609532012633
+            }, 
+            "nf": 2, 
+            "np": 3441, 
+            "rank": 17
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:657": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 8, 
+            "line": 657, 
+            "metrics": {
+                "ample": 0.49768451519536905, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9953903774128493
+            }, 
+            "nf": 2, 
+            "np": 3447, 
+            "rank": 7
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:659": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 14, 
+            "line": 659, 
+            "metrics": {
+                "ample": 0.4959479015918958, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9919609532012633
+            }, 
+            "nf": 2, 
+            "np": 3441, 
+            "rank": 18
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:660": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 14, 
+            "line": 660, 
+            "metrics": {
+                "ample": 0.4959479015918958, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9919609532012633
+            }, 
+            "nf": 2, 
+            "np": 3441, 
+            "rank": 19
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:661": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 8, 
+            "line": 661, 
+            "metrics": {
+                "ample": 0.49768451519536905, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9953903774128493
+            }, 
+            "nf": 2, 
+            "np": 3447, 
+            "rank": 8
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:662": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 8, 
+            "line": 662, 
+            "metrics": {
+                "ample": 0.49768451519536905, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9953903774128493
+            }, 
+            "nf": 2, 
+            "np": 3447, 
+            "rank": 9
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:664": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 14, 
+            "line": 664, 
+            "metrics": {
+                "ample": 0.4959479015918958, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9919609532012633
+            }, 
+            "nf": 2, 
+            "np": 3441, 
+            "rank": 20
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:665": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 14, 
+            "line": 665, 
+            "metrics": {
+                "ample": 0.4959479015918958, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9919609532012633
+            }, 
+            "nf": 2, 
+            "np": 3441, 
+            "rank": 21
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:667": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 14, 
+            "line": 667, 
+            "metrics": {
+                "ample": 0.4959479015918958, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9919609532012633
+            }, 
+            "nf": 2, 
+            "np": 3441, 
+            "rank": 22
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:695": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 695, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 2, 
+            "np": 3455, 
+            "rank": 6
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:752": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 752, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 54
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:753": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 753, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 55
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:785": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 785, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 56
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:789": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 789, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 57
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:790": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 790, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 58
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:793": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 793, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 59
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:852": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 852, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 60
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:853": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 853, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 61
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:854": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 854, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 62
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:855": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 186, 
+            "line": 855, 
+            "metrics": {
+                "ample": 0.9461649782923299, 
+                "gzoltar": 0.14509525002200233, 
+                "ochiai": 0.14509525002200233, 
+                "tarantula": 0.9489151332051635
+            }, 
+            "nf": 0, 
+            "np": 3269, 
+            "rank": 37
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:858": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 858, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 63
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:868": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 118, 
+            "line": 868, 
+            "metrics": {
+                "ample": 0.4658465991316932, 
+                "gzoltar": 0.09128709291752768, 
+                "ochiai": 0.09128709291752768, 
+                "tarantula": 0.9360606881603902
+            }, 
+            "nf": 2, 
+            "np": 3337, 
+            "rank": 268
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:879": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 879, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 64
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:880": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 880, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 65
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:881": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 881, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 66
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:883": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 883, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 67
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:890": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 4, 
+            "ep": 204, 
+            "line": 890, 
+            "metrics": {
+                "ample": 0.9409551374819103, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9442470620388085
+            }, 
+            "nf": 0, 
+            "np": 3251, 
+            "rank": 68
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:911": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 20, 
+            "line": 911, 
+            "metrics": {
+                "ample": 0.49421128798842257, 
+                "gzoltar": 0.21320071635561041, 
+                "ochiai": 0.21320071635561041, 
+                "tarantula": 0.9885550786838342
+            }, 
+            "nf": 2, 
+            "np": 3435, 
+            "rank": 24
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:912": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 20, 
+            "line": 912, 
+            "metrics": {
+                "ample": 0.49421128798842257, 
+                "gzoltar": 0.21320071635561041, 
+                "ochiai": 0.21320071635561041, 
+                "tarantula": 0.9885550786838342
+            }, 
+            "nf": 2, 
+            "np": 3435, 
+            "rank": 25
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:923": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 20, 
+            "line": 923, 
+            "metrics": {
+                "ample": 0.49421128798842257, 
+                "gzoltar": 0.21320071635561041, 
+                "ochiai": 0.21320071635561041, 
+                "tarantula": 0.9885550786838342
+            }, 
+            "nf": 2, 
+            "np": 3435, 
+            "rank": 26
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:924": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 20, 
+            "line": 924, 
+            "metrics": {
+                "ample": 0.49421128798842257, 
+                "gzoltar": 0.21320071635561041, 
+                "ochiai": 0.21320071635561041, 
+                "tarantula": 0.9885550786838342
+            }, 
+            "nf": 2, 
+            "np": 3435, 
+            "rank": 27
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:927": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 20, 
+            "line": 927, 
+            "metrics": {
+                "ample": 0.49421128798842257, 
+                "gzoltar": 0.21320071635561041, 
+                "ochiai": 0.21320071635561041, 
+                "tarantula": 0.9885550786838342
+            }, 
+            "nf": 2, 
+            "np": 3435, 
+            "rank": 28
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:928": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 14, 
+            "line": 928, 
+            "metrics": {
+                "ample": 0.4959479015918958, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9919609532012633
+            }, 
+            "nf": 2, 
+            "np": 3441, 
+            "rank": 10
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:930": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 20, 
+            "line": 930, 
+            "metrics": {
+                "ample": 0.49421128798842257, 
+                "gzoltar": 0.21320071635561041, 
+                "ochiai": 0.21320071635561041, 
+                "tarantula": 0.9885550786838342
+            }, 
+            "nf": 2, 
+            "np": 3435, 
+            "rank": 29
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:931": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 20, 
+            "line": 931, 
+            "metrics": {
+                "ample": 0.49421128798842257, 
+                "gzoltar": 0.21320071635561041, 
+                "ochiai": 0.21320071635561041, 
+                "tarantula": 0.9885550786838342
+            }, 
+            "nf": 2, 
+            "np": 3435, 
+            "rank": 30
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:932": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 14, 
+            "line": 932, 
+            "metrics": {
+                "ample": 0.4959479015918958, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9919609532012633
+            }, 
+            "nf": 2, 
+            "np": 3441, 
+            "rank": 11
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:933": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 14, 
+            "line": 933, 
+            "metrics": {
+                "ample": 0.4959479015918958, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9919609532012633
+            }, 
+            "nf": 2, 
+            "np": 3441, 
+            "rank": 12
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:935": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 20, 
+            "line": 935, 
+            "metrics": {
+                "ample": 0.49421128798842257, 
+                "gzoltar": 0.21320071635561041, 
+                "ochiai": 0.21320071635561041, 
+                "tarantula": 0.9885550786838342
+            }, 
+            "nf": 2, 
+            "np": 3435, 
+            "rank": 31
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:936": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 20, 
+            "line": 936, 
+            "metrics": {
+                "ample": 0.49421128798842257, 
+                "gzoltar": 0.21320071635561041, 
+                "ochiai": 0.21320071635561041, 
+                "tarantula": 0.9885550786838342
+            }, 
+            "nf": 2, 
+            "np": 3435, 
+            "rank": 32
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:938": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 20, 
+            "line": 938, 
+            "metrics": {
+                "ample": 0.49421128798842257, 
+                "gzoltar": 0.21320071635561041, 
+                "ochiai": 0.21320071635561041, 
+                "tarantula": 0.9885550786838342
+            }, 
+            "nf": 2, 
+            "np": 3435, 
+            "rank": 33
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:968": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 968, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 2, 
+            "np": 3455, 
+            "rank": 1
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:969": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 969, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 2, 
+            "np": 3455, 
+            "rank": 2
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:970": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 970, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 2, 
+            "np": 3455, 
+            "rank": 3
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:971": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 971, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 2, 
+            "np": 3455, 
+            "rank": 4
+        }, 
+        "org.jfree.chart.plot.CategoryPlot:976": {
+            "class": "org.jfree.chart.plot.CategoryPlot", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 976, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 2, 
+            "np": 3455, 
+            "rank": 5
+        }, 
+        "org.jfree.chart.plot.Marker:534": {
+            "class": "org.jfree.chart.plot.Marker", 
+            "ef": 4, 
+            "ep": 249, 
+            "line": 534, 
+            "metrics": {
+                "ample": 0.9279305354558611, 
+                "gzoltar": 0.1259881576697424, 
+                "ochiai": 0.1257389226923863, 
+                "tarantula": 0.9327753779697625
+            }, 
+            "nf": 0, 
+            "np": 3206, 
+            "rank": 115
+        }, 
+        "org.jfree.chart.plot.Marker:535": {
+            "class": "org.jfree.chart.plot.Marker", 
+            "ef": 4, 
+            "ep": 248, 
+            "line": 535, 
+            "metrics": {
+                "ample": 0.9282199710564399, 
+                "gzoltar": 0.1259881576697424, 
+                "ochiai": 0.1259881576697424, 
+                "tarantula": 0.9330272751822847
+            }, 
+            "nf": 0, 
+            "np": 3207, 
+            "rank": 116
+        }, 
+        "org.jfree.chart.plot.Plot:435": {
+            "class": "org.jfree.chart.plot.Plot", 
+            "ef": 4, 
+            "ep": 384, 
+            "line": 435, 
+            "metrics": {
+                "ample": 0.8888567293777134, 
+                "gzoltar": 0.10153461651336192, 
+                "ochiai": 0.10153461651336192, 
+                "tarantula": 0.8999739515498828
+            }, 
+            "nf": 0, 
+            "np": 3071, 
+            "rank": 161
+        }, 
+        "org.jfree.chart.plot.Plot:890": {
+            "class": "org.jfree.chart.plot.Plot", 
+            "ef": 4, 
+            "ep": 492, 
+            "line": 890, 
+            "metrics": {
+                "ample": 0.8575976845151954, 
+                "gzoltar": 0.08980265101338746, 
+                "ochiai": 0.08980265101338746, 
+                "tarantula": 0.8753483658474791
+            }, 
+            "nf": 0, 
+            "np": 2963, 
+            "rank": 269
+        }, 
+        "org.jfree.chart.plot.Plot:891": {
+            "class": "org.jfree.chart.plot.Plot", 
+            "ef": 4, 
+            "ep": 492, 
+            "line": 891, 
+            "metrics": {
+                "ample": 0.8575976845151954, 
+                "gzoltar": 0.08980265101338746, 
+                "ochiai": 0.08980265101338746, 
+                "tarantula": 0.8753483658474791
+            }, 
+            "nf": 0, 
+            "np": 2963, 
+            "rank": 270
+        }, 
+        "org.jfree.chart.plot.Plot:896": {
+            "class": "org.jfree.chart.plot.Plot", 
+            "ef": 4, 
+            "ep": 492, 
+            "line": 896, 
+            "metrics": {
+                "ample": 0.8575976845151954, 
+                "gzoltar": 0.08980265101338746, 
+                "ochiai": 0.08980265101338746, 
+                "tarantula": 0.8753483658474791
+            }, 
+            "nf": 0, 
+            "np": 2963, 
+            "rank": 271
+        }, 
+        "org.jfree.chart.util.AbstractObjectList:107": {
+            "class": "org.jfree.chart.util.AbstractObjectList", 
+            "ef": 4, 
+            "ep": 430, 
+            "line": 107, 
+            "metrics": {
+                "ample": 0.8755426917510853, 
+                "gzoltar": 0.09600307214746386, 
+                "ochiai": 0.09600307214746386, 
+                "tarantula": 0.8893178893178892
+            }, 
+            "nf": 0, 
+            "np": 3025, 
+            "rank": 247
+        }, 
+        "org.jfree.chart.util.AbstractObjectList:108": {
+            "class": "org.jfree.chart.util.AbstractObjectList", 
+            "ef": 4, 
+            "ep": 430, 
+            "line": 108, 
+            "metrics": {
+                "ample": 0.8755426917510853, 
+                "gzoltar": 0.09600307214746386, 
+                "ochiai": 0.09600307214746386, 
+                "tarantula": 0.8893178893178892
+            }, 
+            "nf": 0, 
+            "np": 3025, 
+            "rank": 248
+        }, 
+        "org.jfree.chart.util.AbstractObjectList:109": {
+            "class": "org.jfree.chart.util.AbstractObjectList", 
+            "ef": 4, 
+            "ep": 430, 
+            "line": 109, 
+            "metrics": {
+                "ample": 0.8755426917510853, 
+                "gzoltar": 0.09600307214746386, 
+                "ochiai": 0.09600307214746386, 
+                "tarantula": 0.8893178893178892
+            }, 
+            "nf": 0, 
+            "np": 3025, 
+            "rank": 249
+        }, 
+        "org.jfree.chart.util.AbstractObjectList:111": {
+            "class": "org.jfree.chart.util.AbstractObjectList", 
+            "ef": 4, 
+            "ep": 430, 
+            "line": 111, 
+            "metrics": {
+                "ample": 0.8755426917510853, 
+                "gzoltar": 0.09600307214746386, 
+                "ochiai": 0.09600307214746386, 
+                "tarantula": 0.8893178893178892
+            }, 
+            "nf": 0, 
+            "np": 3025, 
+            "rank": 250
+        }, 
+        "org.jfree.chart.util.AbstractObjectList:121": {
+            "class": "org.jfree.chart.util.AbstractObjectList", 
+            "ef": 4, 
+            "ep": 432, 
+            "line": 121, 
+            "metrics": {
+                "ample": 0.8749638205499276, 
+                "gzoltar": 0.09578262852211514, 
+                "ochiai": 0.09578262852211514, 
+                "tarantula": 0.8888603035760227
+            }, 
+            "nf": 0, 
+            "np": 3023, 
+            "rank": 254
+        }, 
+        "org.jfree.chart.util.AbstractObjectList:124": {
+            "class": "org.jfree.chart.util.AbstractObjectList", 
+            "ef": 4, 
+            "ep": 432, 
+            "line": 124, 
+            "metrics": {
+                "ample": 0.8749638205499276, 
+                "gzoltar": 0.09578262852211514, 
+                "ochiai": 0.09578262852211514, 
+                "tarantula": 0.8888603035760227
+            }, 
+            "nf": 0, 
+            "np": 3023, 
+            "rank": 255
+        }, 
+        "org.jfree.chart.util.AbstractObjectList:129": {
+            "class": "org.jfree.chart.util.AbstractObjectList", 
+            "ef": 4, 
+            "ep": 432, 
+            "line": 129, 
+            "metrics": {
+                "ample": 0.8749638205499276, 
+                "gzoltar": 0.09578262852211514, 
+                "ochiai": 0.09578262852211514, 
+                "tarantula": 0.8888603035760227
+            }, 
+            "nf": 0, 
+            "np": 3023, 
+            "rank": 256
+        }, 
+        "org.jfree.chart.util.AbstractObjectList:130": {
+            "class": "org.jfree.chart.util.AbstractObjectList", 
+            "ef": 4, 
+            "ep": 432, 
+            "line": 130, 
+            "metrics": {
+                "ample": 0.8749638205499276, 
+                "gzoltar": 0.09578262852211514, 
+                "ochiai": 0.09578262852211514, 
+                "tarantula": 0.8888603035760227
+            }, 
+            "nf": 0, 
+            "np": 3023, 
+            "rank": 257
+        }, 
+        "org.jfree.chart.util.AbstractObjectList:131": {
+            "class": "org.jfree.chart.util.AbstractObjectList", 
+            "ef": 4, 
+            "ep": 432, 
+            "line": 131, 
+            "metrics": {
+                "ample": 0.8749638205499276, 
+                "gzoltar": 0.09578262852211514, 
+                "ochiai": 0.09578262852211514, 
+                "tarantula": 0.8888603035760227
+            }, 
+            "nf": 0, 
+            "np": 3023, 
+            "rank": 258
+        }, 
+        "org.jfree.chart.util.AbstractObjectList:147": {
+            "class": "org.jfree.chart.util.AbstractObjectList", 
+            "ef": 4, 
+            "ep": 806, 
+            "line": 147, 
+            "metrics": {
+                "ample": 0.7667149059334298, 
+                "gzoltar": 0.07027283689263066, 
+                "ochiai": 0.07027283689263066, 
+                "tarantula": 0.8108425252288195
+            }, 
+            "nf": 0, 
+            "np": 2649, 
+            "rank": 272
+        }, 
+        "org.jfree.chart.util.AbstractObjectList:159": {
+            "class": "org.jfree.chart.util.AbstractObjectList", 
+            "ef": 4, 
+            "ep": 332, 
+            "line": 159, 
+            "metrics": {
+                "ample": 0.9039073806078147, 
+                "gzoltar": 0.1091089451179962, 
+                "ochiai": 0.1091089451179962, 
+                "tarantula": 0.9123316609453394
+            }, 
+            "nf": 0, 
+            "np": 3123, 
+            "rank": 121
+        }, 
+        "org.jfree.chart.util.AbstractObjectList:160": {
+            "class": "org.jfree.chart.util.AbstractObjectList", 
+            "ef": 4, 
+            "ep": 332, 
+            "line": 160, 
+            "metrics": {
+                "ample": 0.9039073806078147, 
+                "gzoltar": 0.1091089451179962, 
+                "ochiai": 0.1091089451179962, 
+                "tarantula": 0.9123316609453394
+            }, 
+            "nf": 0, 
+            "np": 3123, 
+            "rank": 122
+        }, 
+        "org.jfree.chart.util.AbstractObjectList:161": {
+            "class": "org.jfree.chart.util.AbstractObjectList", 
+            "ef": 4, 
+            "ep": 330, 
+            "line": 161, 
+            "metrics": {
+                "ample": 0.9044862518089725, 
+                "gzoltar": 0.10943513103291655, 
+                "ochiai": 0.10943513103291655, 
+                "tarantula": 0.9128137384412153
+            }, 
+            "nf": 0, 
+            "np": 3125, 
+            "rank": 120
+        }, 
+        "org.jfree.chart.util.AbstractObjectList:164": {
+            "class": "org.jfree.chart.util.AbstractObjectList", 
+            "ef": 4, 
+            "ep": 160, 
+            "line": 164, 
+            "metrics": {
+                "ample": 0.9536903039073806, 
+                "gzoltar": 0.15617376188860607, 
+                "ochiai": 0.15617376188860607, 
+                "tarantula": 0.9557399723374826
+            }, 
+            "nf": 0, 
+            "np": 3295, 
+            "rank": 36
+        }, 
+        "org.jfree.chart.util.ObjectList:107": {
+            "class": "org.jfree.chart.util.ObjectList", 
+            "ef": 4, 
+            "ep": 332, 
+            "line": 107, 
+            "metrics": {
+                "ample": 0.9039073806078147, 
+                "gzoltar": 0.1091089451179962, 
+                "ochiai": 0.1091089451179962, 
+                "tarantula": 0.9123316609453394
+            }, 
+            "nf": 0, 
+            "np": 3123, 
+            "rank": 123
+        }, 
+        "org.jfree.chart.util.ObjectList:85": {
+            "class": "org.jfree.chart.util.ObjectList", 
+            "ef": 4, 
+            "ep": 398, 
+            "line": 85, 
+            "metrics": {
+                "ample": 0.8848046309696093, 
+                "gzoltar": 0.09975093361076329, 
+                "ochiai": 0.09975093361076329, 
+                "tarantula": 0.8967038671165327
+            }, 
+            "nf": 0, 
+            "np": 3057, 
+            "rank": 236
+        }, 
+        "org.jfree.chart.util.ObjectList:95": {
+            "class": "org.jfree.chart.util.ObjectList", 
+            "ef": 4, 
+            "ep": 400, 
+            "line": 95, 
+            "metrics": {
+                "ample": 0.8842257597684515, 
+                "gzoltar": 0.09950371902099892, 
+                "ochiai": 0.09950371902099892, 
+                "tarantula": 0.8962386511024644
+            }, 
+            "nf": 0, 
+            "np": 3055, 
+            "rank": 237
+        }, 
+        "org.jfree.chart.util.ObjectList:96": {
+            "class": "org.jfree.chart.util.ObjectList", 
+            "ef": 4, 
+            "ep": 400, 
+            "line": 96, 
+            "metrics": {
+                "ample": 0.8842257597684515, 
+                "gzoltar": 0.09950371902099892, 
+                "ochiai": 0.09950371902099892, 
+                "tarantula": 0.8962386511024644
+            }, 
+            "nf": 0, 
+            "np": 3055, 
+            "rank": 238
+        }, 
+        "org.jfree.data.Range:108": {
+            "class": "org.jfree.data.Range", 
+            "ef": 4, 
+            "ep": 420, 
+            "line": 108, 
+            "metrics": {
+                "ample": 0.8784370477568741, 
+                "gzoltar": 0.09712858623572641, 
+                "ochiai": 0.09712858623572641, 
+                "tarantula": 0.8916129032258064
+            }, 
+            "nf": 0, 
+            "np": 3035, 
+            "rank": 245
+        }, 
+        "org.jfree.data.Range:99": {
+            "class": "org.jfree.data.Range", 
+            "ef": 4, 
+            "ep": 420, 
+            "line": 99, 
+            "metrics": {
+                "ample": 0.8784370477568741, 
+                "gzoltar": 0.09712858623572641, 
+                "ochiai": 0.09712858623572641, 
+                "tarantula": 0.8916129032258064
+            }, 
+            "nf": 0, 
+            "np": 3035, 
+            "rank": 244
+        }
+    }
+}

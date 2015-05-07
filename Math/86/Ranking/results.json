@@ -1,0 +1,2089 @@
+{
+    "date": "2015-05-07T08:41:55.255756", 
+    "executedTest": 1894, 
+    "failedTest": 2, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.math.linear.CholeskyDecompositionImplTest", 
+            "method": "testMath274"
+        }, 
+        {
+            "class": "org.apache.commons.math.linear.CholeskyDecompositionImplTest", 
+            "method": "testNotPositiveDefinite"
+        }
+    ], 
+    "node": "griffon-14.nancy.grid5000.fr\n", 
+    "successfulTest": 1892, 
+    "suspicious": {
+        "org.apache.commons.math.linear.AbstractRealMatrix:1000": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 1000, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 9
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:1002": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 1002, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 10
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:1003": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 1003, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 11
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:1004": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 1004, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 12
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:1005": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 1005, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 13
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:1007": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 1007, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 14
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:1009": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 1009, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 15
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:1012": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 1012, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 16
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:1013": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 1013, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 17
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:639": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 2, 
+            "ep": 102, 
+            "line": 639, 
+            "metrics": {
+                "ample": 0.9460887949260042, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9488465396188566
+            }, 
+            "nf": 0, 
+            "np": 1790, 
+            "rank": 25
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:991": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 991, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 1
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:992": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 992, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 2
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:993": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 993, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 3
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:994": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 994, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 4
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:995": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 995, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 5
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:996": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 996, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 6
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:998": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 998, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 7
+        }, 
+        "org.apache.commons.math.linear.AbstractRealMatrix:999": {
+            "class": "org.apache.commons.math.linear.AbstractRealMatrix", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 999, 
+            "metrics": {
+                "ample": 0.49841437632135305, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968387776606955
+            }, 
+            "nf": 1, 
+            "np": 1889, 
+            "rank": 8
+        }, 
+        "org.apache.commons.math.linear.CholeskyDecompositionImpl:154": {
+            "class": "org.apache.commons.math.linear.CholeskyDecompositionImpl", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 154, 
+            "metrics": {
+                "ample": 0.4973572938689218, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.9947423764458465
+            }, 
+            "nf": 1, 
+            "np": 1887, 
+            "rank": 18
+        }, 
+        "org.apache.commons.math.linear.CholeskyDecompositionImpl:155": {
+            "class": "org.apache.commons.math.linear.CholeskyDecompositionImpl", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 155, 
+            "metrics": {
+                "ample": 0.4973572938689218, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.9947423764458465
+            }, 
+            "nf": 1, 
+            "np": 1887, 
+            "rank": 19
+        }, 
+        "org.apache.commons.math.linear.CholeskyDecompositionImpl:157": {
+            "class": "org.apache.commons.math.linear.CholeskyDecompositionImpl", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 157, 
+            "metrics": {
+                "ample": 0.4973572938689218, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.9947423764458465
+            }, 
+            "nf": 1, 
+            "np": 1887, 
+            "rank": 20
+        }, 
+        "org.apache.commons.math.linear.CholeskyDecompositionImpl:163": {
+            "class": "org.apache.commons.math.linear.CholeskyDecompositionImpl", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 163, 
+            "metrics": {
+                "ample": 0.4973572938689218, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.9947423764458465
+            }, 
+            "nf": 1, 
+            "np": 1887, 
+            "rank": 21
+        }, 
+        "org.apache.commons.math.linear.CholeskyDecompositionImpl:164": {
+            "class": "org.apache.commons.math.linear.CholeskyDecompositionImpl", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 164, 
+            "metrics": {
+                "ample": 0.4973572938689218, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.9947423764458465
+            }, 
+            "nf": 1, 
+            "np": 1887, 
+            "rank": 22
+        }, 
+        "org.apache.commons.math.linear.CholeskyDecompositionImpl:168": {
+            "class": "org.apache.commons.math.linear.CholeskyDecompositionImpl", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 168, 
+            "metrics": {
+                "ample": 0.4973572938689218, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.9947423764458465
+            }, 
+            "nf": 1, 
+            "np": 1887, 
+            "rank": 23
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1214": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 118, 
+            "line": 1214, 
+            "metrics": {
+                "ample": 0.4376321353065539, 
+                "gzoltar": 0.06482037235521644, 
+                "ochiai": 0.06482037235521644, 
+                "tarantula": 0.8890977443609022
+            }, 
+            "nf": 1, 
+            "np": 1774, 
+            "rank": 123
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1215": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 118, 
+            "line": 1215, 
+            "metrics": {
+                "ample": 0.4376321353065539, 
+                "gzoltar": 0.06482037235521644, 
+                "ochiai": 0.06482037235521644, 
+                "tarantula": 0.8890977443609022
+            }, 
+            "nf": 1, 
+            "np": 1774, 
+            "rank": 124
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1216": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 118, 
+            "line": 1216, 
+            "metrics": {
+                "ample": 0.4376321353065539, 
+                "gzoltar": 0.06482037235521644, 
+                "ochiai": 0.06482037235521644, 
+                "tarantula": 0.8890977443609022
+            }, 
+            "nf": 1, 
+            "np": 1774, 
+            "rank": 125
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1218": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 118, 
+            "line": 1218, 
+            "metrics": {
+                "ample": 0.4376321353065539, 
+                "gzoltar": 0.06482037235521644, 
+                "ochiai": 0.06482037235521644, 
+                "tarantula": 0.8890977443609022
+            }, 
+            "nf": 1, 
+            "np": 1774, 
+            "rank": 126
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1281": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1281, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 103
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1282": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1282, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 104
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1283": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1283, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 105
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1286": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1286, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 106
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1287": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1287, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 107
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1288": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1288, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 108
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1291": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1291, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 109
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1292": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1292, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 110
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1293": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1293, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 111
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1294": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1294, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 112
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1295": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1295, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 113
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1296": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1296, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 114
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1297": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1297, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 115
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1298": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1298, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 116
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1299": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1299, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 117
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1300": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1300, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 118
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1305": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1305, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 119
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1310": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 79, 
+            "line": 1310, 
+            "metrics": {
+                "ample": 0.4582452431289641, 
+                "gzoltar": 0.07905694150420949, 
+                "ochiai": 0.07905694150420949, 
+                "tarantula": 0.9229268292682927
+            }, 
+            "nf": 1, 
+            "np": 1813, 
+            "rank": 120
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1317": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 223, 
+            "line": 1317, 
+            "metrics": {
+                "ample": 0.8821353065539113, 
+                "gzoltar": 0.09428090415820634, 
+                "ochiai": 0.09428090415820634, 
+                "tarantula": 0.8945626477541372
+            }, 
+            "nf": 0, 
+            "np": 1669, 
+            "rank": 72
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1323": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 221, 
+            "line": 1323, 
+            "metrics": {
+                "ample": 0.8831923890063424, 
+                "gzoltar": 0.09470274476207569, 
+                "ochiai": 0.09470274476207569, 
+                "tarantula": 0.8954093705631803
+            }, 
+            "nf": 0, 
+            "np": 1671, 
+            "rank": 67
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1626": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 194, 
+            "line": 1626, 
+            "metrics": {
+                "ample": 0.897463002114165, 
+                "gzoltar": 0.10101525445522107, 
+                "ochiai": 0.10101525445522107, 
+                "tarantula": 0.9069990412272292
+            }, 
+            "nf": 0, 
+            "np": 1698, 
+            "rank": 66
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:1635": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 234, 
+            "line": 1635, 
+            "metrics": {
+                "ample": 0.8763213530655392, 
+                "gzoltar": 0.09205746178983235, 
+                "ochiai": 0.09205746178983235, 
+                "tarantula": 0.8899341486359361
+            }, 
+            "nf": 0, 
+            "np": 1658, 
+            "rank": 101
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:206": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 206, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 45
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:207": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 207, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 46
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:208": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 208, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 47
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:209": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 209, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 48
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:212": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 212, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 49
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:213": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 213, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 50
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:214": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 214, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 51
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:222": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 222, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 52
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:223": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 223, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 53
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:224": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 224, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 54
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:225": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 225, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 55
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:226": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 226, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 56
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:227": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 227, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 57
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:228": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 228, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 58
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:229": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 229, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 59
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:230": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 230, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 60
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:233": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 233, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 61
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:234": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 234, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 62
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:237": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 237, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 63
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:238": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 238, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 64
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:244": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 179, 
+            "line": 244, 
+            "metrics": {
+                "ample": 0.9053911205073996, 
+                "gzoltar": 0.10511766624552735, 
+                "ochiai": 0.10511766624552735, 
+                "tarantula": 0.9135683244809272
+            }, 
+            "nf": 0, 
+            "np": 1713, 
+            "rank": 65
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:262": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 168, 
+            "line": 262, 
+            "metrics": {
+                "ample": 0.41120507399577166, 
+                "gzoltar": 0.05439282932204212, 
+                "ochiai": 0.05439282932204212, 
+                "tarantula": 0.8491921005385996
+            }, 
+            "nf": 1, 
+            "np": 1724, 
+            "rank": 127
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:263": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 168, 
+            "line": 263, 
+            "metrics": {
+                "ample": 0.41120507399577166, 
+                "gzoltar": 0.05439282932204212, 
+                "ochiai": 0.05439282932204212, 
+                "tarantula": 0.8491921005385996
+            }, 
+            "nf": 1, 
+            "np": 1724, 
+            "rank": 128
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:265": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 168, 
+            "line": 265, 
+            "metrics": {
+                "ample": 0.41120507399577166, 
+                "gzoltar": 0.05439282932204212, 
+                "ochiai": 0.05439282932204212, 
+                "tarantula": 0.8491921005385996
+            }, 
+            "nf": 1, 
+            "np": 1724, 
+            "rank": 129
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:266": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 168, 
+            "line": 266, 
+            "metrics": {
+                "ample": 0.41120507399577166, 
+                "gzoltar": 0.05439282932204212, 
+                "ochiai": 0.05439282932204212, 
+                "tarantula": 0.8491921005385996
+            }, 
+            "nf": 1, 
+            "np": 1724, 
+            "rank": 130
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:267": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 168, 
+            "line": 267, 
+            "metrics": {
+                "ample": 0.41120507399577166, 
+                "gzoltar": 0.05439282932204212, 
+                "ochiai": 0.05439282932204212, 
+                "tarantula": 0.8491921005385996
+            }, 
+            "nf": 1, 
+            "np": 1724, 
+            "rank": 131
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:268": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 168, 
+            "line": 268, 
+            "metrics": {
+                "ample": 0.41120507399577166, 
+                "gzoltar": 0.05439282932204212, 
+                "ochiai": 0.05439282932204212, 
+                "tarantula": 0.8491921005385996
+            }, 
+            "nf": 1, 
+            "np": 1724, 
+            "rank": 132
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:269": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 168, 
+            "line": 269, 
+            "metrics": {
+                "ample": 0.41120507399577166, 
+                "gzoltar": 0.05439282932204212, 
+                "ochiai": 0.05439282932204212, 
+                "tarantula": 0.8491921005385996
+            }, 
+            "nf": 1, 
+            "np": 1724, 
+            "rank": 133
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:270": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 168, 
+            "line": 270, 
+            "metrics": {
+                "ample": 0.41120507399577166, 
+                "gzoltar": 0.05439282932204212, 
+                "ochiai": 0.05439282932204212, 
+                "tarantula": 0.8491921005385996
+            }, 
+            "nf": 1, 
+            "np": 1724, 
+            "rank": 134
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:271": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 168, 
+            "line": 271, 
+            "metrics": {
+                "ample": 0.41120507399577166, 
+                "gzoltar": 0.05439282932204212, 
+                "ochiai": 0.05439282932204212, 
+                "tarantula": 0.8491921005385996
+            }, 
+            "nf": 1, 
+            "np": 1724, 
+            "rank": 135
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:272": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 168, 
+            "line": 272, 
+            "metrics": {
+                "ample": 0.41120507399577166, 
+                "gzoltar": 0.05439282932204212, 
+                "ochiai": 0.05439282932204212, 
+                "tarantula": 0.8491921005385996
+            }, 
+            "nf": 1, 
+            "np": 1724, 
+            "rank": 136
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:273": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 168, 
+            "line": 273, 
+            "metrics": {
+                "ample": 0.41120507399577166, 
+                "gzoltar": 0.05439282932204212, 
+                "ochiai": 0.05439282932204212, 
+                "tarantula": 0.8491921005385996
+            }, 
+            "nf": 1, 
+            "np": 1724, 
+            "rank": 137
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:274": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 168, 
+            "line": 274, 
+            "metrics": {
+                "ample": 0.41120507399577166, 
+                "gzoltar": 0.05439282932204212, 
+                "ochiai": 0.05439282932204212, 
+                "tarantula": 0.8491921005385996
+            }, 
+            "nf": 1, 
+            "np": 1724, 
+            "rank": 138
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:278": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 168, 
+            "line": 278, 
+            "metrics": {
+                "ample": 0.41120507399577166, 
+                "gzoltar": 0.05439282932204212, 
+                "ochiai": 0.05439282932204212, 
+                "tarantula": 0.8491921005385996
+            }, 
+            "nf": 1, 
+            "np": 1724, 
+            "rank": 139
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:492": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 55, 
+            "line": 492, 
+            "metrics": {
+                "ample": 0.47093023255813954, 
+                "gzoltar": 0.0944911182523068, 
+                "ochiai": 0.0944911182523068, 
+                "tarantula": 0.9450549450549449
+            }, 
+            "nf": 1, 
+            "np": 1837, 
+            "rank": 68
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:555": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 555, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 73
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:557": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 557, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 74
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:560": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 560, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 75
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:561": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 561, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 76
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:563": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 563, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 77
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:564": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 564, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 78
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:566": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 566, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 79
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:567": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 567, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 80
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:568": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 568, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 81
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:569": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 569, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 82
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:570": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 570, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 83
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:573": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 573, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 84
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:576": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 576, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 85
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:577": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 577, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 86
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:578": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 578, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 87
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:579": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 579, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 88
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:580": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 580, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 89
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:581": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 581, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 90
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:582": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 582, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 91
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:583": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 583, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 92
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:584": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 584, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 93
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:585": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 585, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 94
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:586": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 586, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 95
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:587": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 587, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 96
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:588": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 44, 
+            "line": 588, 
+            "metrics": {
+                "ample": 0.47674418604651164, 
+                "gzoltar": 0.10540925533894598, 
+                "ochiai": 0.10540925533894598, 
+                "tarantula": 0.9555555555555555
+            }, 
+            "nf": 1, 
+            "np": 1848, 
+            "rank": 42
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:592": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 44, 
+            "line": 592, 
+            "metrics": {
+                "ample": 0.47674418604651164, 
+                "gzoltar": 0.10540925533894598, 
+                "ochiai": 0.10540925533894598, 
+                "tarantula": 0.9555555555555555
+            }, 
+            "nf": 1, 
+            "np": 1848, 
+            "rank": 43
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:593": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 44, 
+            "line": 593, 
+            "metrics": {
+                "ample": 0.47674418604651164, 
+                "gzoltar": 0.10540925533894598, 
+                "ochiai": 0.10540925533894598, 
+                "tarantula": 0.9555555555555555
+            }, 
+            "nf": 1, 
+            "np": 1848, 
+            "rank": 44
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:595": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 595, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 97
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:596": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 55, 
+            "line": 596, 
+            "metrics": {
+                "ample": 0.47093023255813954, 
+                "gzoltar": 0.0944911182523068, 
+                "ochiai": 0.0944911182523068, 
+                "tarantula": 0.9450549450549449
+            }, 
+            "nf": 1, 
+            "np": 1837, 
+            "rank": 69
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:597": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 55, 
+            "line": 597, 
+            "metrics": {
+                "ample": 0.47093023255813954, 
+                "gzoltar": 0.0944911182523068, 
+                "ochiai": 0.0944911182523068, 
+                "tarantula": 0.9450549450549449
+            }, 
+            "nf": 1, 
+            "np": 1837, 
+            "rank": 70
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:599": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 599, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 98
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:605": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 605, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 99
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:610": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 1, 
+            "ep": 56, 
+            "line": 610, 
+            "metrics": {
+                "ample": 0.4704016913319239, 
+                "gzoltar": 0.0936585811581694, 
+                "ochiai": 0.0936585811581694, 
+                "tarantula": 0.9441117764471058
+            }, 
+            "nf": 1, 
+            "np": 1836, 
+            "rank": 100
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:618": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 618, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 26
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:619": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 619, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 27
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:621": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 621, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 28
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:622": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 622, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 29
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:623": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 623, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 30
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:624": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 624, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 31
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:625": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 625, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 32
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:626": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 626, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 33
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:627": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 627, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 34
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:628": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 628, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 35
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:629": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 629, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 36
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:630": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 630, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 37
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:634": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 634, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 38
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:635": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 635, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 39
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:636": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 636, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 40
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:64": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 222, 
+            "line": 64, 
+            "metrics": {
+                "ample": 0.8826638477801269, 
+                "gzoltar": 0.079555728417573, 
+                "ochiai": 0.0944911182523068, 
+                "tarantula": 0.8949858088930938
+            }, 
+            "nf": 0, 
+            "np": 1670, 
+            "rank": 102
+        }, 
+        "org.apache.commons.math.linear.DenseRealMatrix:640": {
+            "class": "org.apache.commons.math.linear.DenseRealMatrix", 
+            "ef": 2, 
+            "ep": 141, 
+            "line": 640, 
+            "metrics": {
+                "ample": 0.9254756871035941, 
+                "gzoltar": 0.11826247919781652, 
+                "ochiai": 0.11826247919781652, 
+                "tarantula": 0.9306443679291687
+            }, 
+            "nf": 0, 
+            "np": 1751, 
+            "rank": 41
+        }, 
+        "org.apache.commons.math.linear.MatrixUtils:627": {
+            "class": "org.apache.commons.math.linear.MatrixUtils", 
+            "ef": 1, 
+            "ep": 88, 
+            "line": 627, 
+            "metrics": {
+                "ample": 0.4534883720930233, 
+                "gzoltar": 0.07495316889958614, 
+                "ochiai": 0.07495316889958614, 
+                "tarantula": 0.9148936170212767
+            }, 
+            "nf": 1, 
+            "np": 1804, 
+            "rank": 121
+        }, 
+        "org.apache.commons.math.linear.MatrixUtils:633": {
+            "class": "org.apache.commons.math.linear.MatrixUtils", 
+            "ef": 1, 
+            "ep": 88, 
+            "line": 633, 
+            "metrics": {
+                "ample": 0.4534883720930233, 
+                "gzoltar": 0.07495316889958614, 
+                "ochiai": 0.07495316889958614, 
+                "tarantula": 0.9148936170212767
+            }, 
+            "nf": 1, 
+            "np": 1804, 
+            "rank": 122
+        }, 
+        "org.apache.commons.math.linear.MatrixUtils:88": {
+            "class": "org.apache.commons.math.linear.MatrixUtils", 
+            "ef": 2, 
+            "ep": 90, 
+            "line": 88, 
+            "metrics": {
+                "ample": 0.952431289640592, 
+                "gzoltar": 0.14744195615489714, 
+                "ochiai": 0.14744195615489714, 
+                "tarantula": 0.9545913218970736
+            }, 
+            "nf": 0, 
+            "np": 1802, 
+            "rank": 24
+        }
+    }
+}

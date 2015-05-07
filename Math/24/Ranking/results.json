@@ -1,0 +1,3435 @@
+{
+    "date": "2015-05-07T08:53:52.875610", 
+    "executedTest": 4095, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizerTest", 
+            "method": "testMath855"
+        }
+    ], 
+    "node": "griffon-29.nancy.grid5000.fr\n", 
+    "successfulTest": 4094, 
+    "suspicious": {
+        "org.apache.commons.math3.analysis.FunctionUtils$4:144": {
+            "class": "org.apache.commons.math3.analysis.FunctionUtils$4", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 144, 
+            "metrics": {
+                "ample": 0.9997557401074744, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.9997557997557998
+            }, 
+            "nf": 0, 
+            "np": 4093, 
+            "rank": 2
+        }, 
+        "org.apache.commons.math3.analysis.FunctionUtils$4:145": {
+            "class": "org.apache.commons.math3.analysis.FunctionUtils$4", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 145, 
+            "metrics": {
+                "ample": 0.9997557401074744, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.9997557997557998
+            }, 
+            "nf": 0, 
+            "np": 4093, 
+            "rank": 3
+        }, 
+        "org.apache.commons.math3.analysis.FunctionUtils$4:146": {
+            "class": "org.apache.commons.math3.analysis.FunctionUtils$4", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 146, 
+            "metrics": {
+                "ample": 0.9997557401074744, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.9997557997557998
+            }, 
+            "nf": 0, 
+            "np": 4093, 
+            "rank": 4
+        }, 
+        "org.apache.commons.math3.analysis.FunctionUtils$4:148": {
+            "class": "org.apache.commons.math3.analysis.FunctionUtils$4", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 148, 
+            "metrics": {
+                "ample": 0.9997557401074744, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.9997557997557998
+            }, 
+            "nf": 0, 
+            "np": 4093, 
+            "rank": 5
+        }, 
+        "org.apache.commons.math3.analysis.FunctionUtils:141": {
+            "class": "org.apache.commons.math3.analysis.FunctionUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 141, 
+            "metrics": {
+                "ample": 0.9997557401074744, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.9997557997557998
+            }, 
+            "nf": 0, 
+            "np": 4093, 
+            "rank": 1
+        }, 
+        "org.apache.commons.math3.analysis.function.Sin:36": {
+            "class": "org.apache.commons.math3.analysis.function.Sin", 
+            "ef": 1, 
+            "ep": 77, 
+            "line": 36, 
+            "metrics": {
+                "ample": 0.9811919882755251, 
+                "gzoltar": 0.11322770341445956, 
+                "ochiai": 0.11322770341445956, 
+                "tarantula": 0.9815391992327979
+            }, 
+            "nf": 0, 
+            "np": 4017, 
+            "rank": 127
+        }, 
+        "org.apache.commons.math3.analysis.function.StepFunction:84": {
+            "class": "org.apache.commons.math3.analysis.function.StepFunction", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 84, 
+            "metrics": {
+                "ample": 0.9992672203224231, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9992677568952892
+            }, 
+            "nf": 0, 
+            "np": 4091, 
+            "rank": 6
+        }, 
+        "org.apache.commons.math3.analysis.function.StepFunction:85": {
+            "class": "org.apache.commons.math3.analysis.function.StepFunction", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 85, 
+            "metrics": {
+                "ample": 0.9992672203224231, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9992677568952892
+            }, 
+            "nf": 0, 
+            "np": 4091, 
+            "rank": 7
+        }, 
+        "org.apache.commons.math3.analysis.function.StepFunction:87": {
+            "class": "org.apache.commons.math3.analysis.function.StepFunction", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 87, 
+            "metrics": {
+                "ample": 0.9992672203224231, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9992677568952892
+            }, 
+            "nf": 0, 
+            "np": 4091, 
+            "rank": 8
+        }, 
+        "org.apache.commons.math3.analysis.function.StepFunction:89": {
+            "class": "org.apache.commons.math3.analysis.function.StepFunction", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 89, 
+            "metrics": {
+                "ample": 0.9992672203224231, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9992677568952892
+            }, 
+            "nf": 0, 
+            "np": 4091, 
+            "rank": 9
+        }, 
+        "org.apache.commons.math3.analysis.function.StepFunction:90": {
+            "class": "org.apache.commons.math3.analysis.function.StepFunction", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 90, 
+            "metrics": {
+                "ample": 0.9992672203224231, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9992677568952892
+            }, 
+            "nf": 0, 
+            "np": 4091, 
+            "rank": 10
+        }, 
+        "org.apache.commons.math3.analysis.function.StepFunction:96": {
+            "class": "org.apache.commons.math3.analysis.function.StepFunction", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 96, 
+            "metrics": {
+                "ample": 0.9992672203224231, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9992677568952892
+            }, 
+            "nf": 0, 
+            "np": 4091, 
+            "rank": 11
+        }, 
+        "org.apache.commons.math3.analysis.function.StepFunction:99": {
+            "class": "org.apache.commons.math3.analysis.function.StepFunction", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 99, 
+            "metrics": {
+                "ample": 0.9992672203224231, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9992677568952892
+            }, 
+            "nf": 0, 
+            "np": 4091, 
+            "rank": 12
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:104": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 104, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 105
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:107": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 107, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 106
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:108": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 108, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 107
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:117": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 117, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 108
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:120": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 120, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 109
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:125": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 125, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 110
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:126": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 126, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 111
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:127": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 127, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 112
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:128": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 128, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 113
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:129": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 129, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 114
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:130": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 130, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 115
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:131": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 131, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 116
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:134": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 134, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 117
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:142": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 7, 
+            "line": 142, 
+            "metrics": {
+                "ample": 0.9982901807523205, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9982930992440869
+            }, 
+            "nf": 0, 
+            "np": 4087, 
+            "rank": 19
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:149": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 149, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 118
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:66": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 66, 
+            "metrics": {
+                "ample": 0.9985344406448461, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9985365853658538
+            }, 
+            "nf": 0, 
+            "np": 4088, 
+            "rank": 18
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:73": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 73, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 101
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:79": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 79, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 102
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:85": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 85, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 103
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer:91": {
+            "class": "org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 91, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 104
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:110": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 110, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 87
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:111": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 111, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 88
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:112": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 112, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 89
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:113": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 113, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 90
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:116": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 116, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 91
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:121": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 121, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 92
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:122": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 122, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 93
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:123": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 123, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 94
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:129": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 129, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 95
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:130": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 130, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 96
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:131": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 131, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 97
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:132": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 132, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 98
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:133": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 133, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 99
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:134": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 134, 
+            "metrics": {
+                "ample": 0.9963361016121153, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9963494767583353
+            }, 
+            "nf": 0, 
+            "np": 4079, 
+            "rank": 100
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:135": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 135, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 29
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:138": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 138, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 30
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:139": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 139, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 31
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:141": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 141, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 32
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:142": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 142, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 33
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:145": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 145, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 34
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:147": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 147, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 35
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:148": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 148, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 36
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:149": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 149, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 37
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:152": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 152, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 38
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:153": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 153, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 39
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:154": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 154, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 40
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:155": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 155, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 41
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:156": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 156, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 42
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:157": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 157, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 43
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:159": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 159, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 44
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:160": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 160, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 45
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:161": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 161, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 46
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:162": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 162, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 47
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:163": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 163, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 48
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:165": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 165, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 49
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:166": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 166, 
+            "metrics": {
+                "ample": 0.9968246213971665, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9968346725103482
+            }, 
+            "nf": 0, 
+            "np": 4081, 
+            "rank": 28
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:168": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 168, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 50
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:171": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 171, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 51
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:172": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 172, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 52
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:174": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 174, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 53
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:178": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 178, 
+            "metrics": {
+                "ample": 0.9970688812896922, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9970774476376034
+            }, 
+            "nf": 0, 
+            "np": 4082, 
+            "rank": 25
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:179": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 179, 
+            "metrics": {
+                "ample": 0.9970688812896922, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9970774476376034
+            }, 
+            "nf": 0, 
+            "np": 4082, 
+            "rank": 26
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:182": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 182, 
+            "metrics": {
+                "ample": 0.9970688812896922, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9970774476376034
+            }, 
+            "nf": 0, 
+            "np": 4082, 
+            "rank": 27
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:183": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 183, 
+            "metrics": {
+                "ample": 0.9987787005373717, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9987801902903147
+            }, 
+            "nf": 0, 
+            "np": 4089, 
+            "rank": 13
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:184": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 184, 
+            "metrics": {
+                "ample": 0.9987787005373717, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9987801902903147
+            }, 
+            "nf": 0, 
+            "np": 4089, 
+            "rank": 14
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:191": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 191, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 54
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:192": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 192, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 55
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:196": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 196, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 56
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:200": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 200, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 57
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:203": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 203, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 58
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:205": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 205, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 59
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:209": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 209, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 60
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:210": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 210, 
+            "metrics": {
+                "ample": 0.9978016609672692, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9978064830611747
+            }, 
+            "nf": 0, 
+            "np": 4085, 
+            "rank": 21
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:211": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 211, 
+            "metrics": {
+                "ample": 0.9985344406448461, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9985365853658538
+            }, 
+            "nf": 0, 
+            "np": 4088, 
+            "rank": 15
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:216": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 216, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 61
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:219": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 219, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 62
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:220": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 220, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 63
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:225": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 225, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 64
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:226": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 226, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 65
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:228": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 228, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 66
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:235": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 235, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 67
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:236": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 236, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 68
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:237": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 237, 
+            "metrics": {
+                "ample": 0.9970688812896922, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9970774476376034
+            }, 
+            "nf": 0, 
+            "np": 4082, 
+            "rank": 24
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:239": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 239, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 69
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:241": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 241, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 70
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:242": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 242, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 71
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:243": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 243, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 72
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:244": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 244, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 73
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:245": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 245, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 74
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:246": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 246, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 75
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:248": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 248, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 76
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:249": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 249, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 77
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:251": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 11, 
+            "line": 251, 
+            "metrics": {
+                "ample": 0.9973131411822179, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.997320341047503
+            }, 
+            "nf": 0, 
+            "np": 4083, 
+            "rank": 23
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:253": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 253, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 78
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:255": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 255, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 79
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:256": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 256, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 80
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:257": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 257, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 81
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:258": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 258, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 82
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:259": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 7, 
+            "line": 259, 
+            "metrics": {
+                "ample": 0.9982901807523205, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9982930992440869
+            }, 
+            "nf": 0, 
+            "np": 4087, 
+            "rank": 20
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:262": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 262, 
+            "metrics": {
+                "ample": 0.9985344406448461, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9985365853658538
+            }, 
+            "nf": 0, 
+            "np": 4088, 
+            "rank": 16
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:263": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 263, 
+            "metrics": {
+                "ample": 0.9985344406448461, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9985365853658538
+            }, 
+            "nf": 0, 
+            "np": 4088, 
+            "rank": 17
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:266": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 266, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 83
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:267": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 267, 
+            "metrics": {
+                "ample": 0.9978016609672692, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9978064830611747
+            }, 
+            "nf": 0, 
+            "np": 4085, 
+            "rank": 22
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:269": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 269, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 84
+        }, 
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizer:270": {
+            "class": "org.apache.commons.math3.optimization.univariate.BrentOptimizer", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 270, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 85
+        }, 
+        "org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair:56": {
+            "class": "org.apache.commons.math3.optimization.univariate.UnivariatePointValuePair", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 56, 
+            "metrics": {
+                "ample": 0.9965803615046409, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9965920155793573
+            }, 
+            "nf": 0, 
+            "np": 4080, 
+            "rank": 86
+        }, 
+        "org.apache.commons.math3.util.FastMath$CodyWaite:3827": {
+            "class": "org.apache.commons.math3.util.FastMath$CodyWaite", 
+            "ef": 1, 
+            "ep": 268, 
+            "line": 3827, 
+            "metrics": {
+                "ample": 0.9345383488031265, 
+                "gzoltar": 0.06097107608496923, 
+                "ochiai": 0.06097107608496923, 
+                "tarantula": 0.9385602934433745
+            }, 
+            "nf": 0, 
+            "np": 3826, 
+            "rank": 145
+        }, 
+        "org.apache.commons.math3.util.FastMath$CodyWaite:3833": {
+            "class": "org.apache.commons.math3.util.FastMath$CodyWaite", 
+            "ef": 1, 
+            "ep": 268, 
+            "line": 3833, 
+            "metrics": {
+                "ample": 0.9345383488031265, 
+                "gzoltar": 0.06097107608496923, 
+                "ochiai": 0.06097107608496923, 
+                "tarantula": 0.9385602934433745
+            }, 
+            "nf": 0, 
+            "np": 3826, 
+            "rank": 146
+        }, 
+        "org.apache.commons.math3.util.FastMath$CodyWaite:3839": {
+            "class": "org.apache.commons.math3.util.FastMath$CodyWaite", 
+            "ef": 1, 
+            "ep": 268, 
+            "line": 3839, 
+            "metrics": {
+                "ample": 0.9345383488031265, 
+                "gzoltar": 0.06097107608496923, 
+                "ochiai": 0.06097107608496923, 
+                "tarantula": 0.9385602934433745
+            }, 
+            "nf": 0, 
+            "np": 3826, 
+            "rank": 147
+        }, 
+        "org.apache.commons.math3.util.FastMath:1653": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 350, 
+            "line": 1653, 
+            "metrics": {
+                "ample": 0.9145090376160234, 
+                "gzoltar": 0.05337605126836238, 
+                "ochiai": 0.05337605126836238, 
+                "tarantula": 0.9212421242124212
+            }, 
+            "nf": 0, 
+            "np": 3744, 
+            "rank": 200
+        }, 
+        "org.apache.commons.math3.util.FastMath:1655": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 350, 
+            "line": 1655, 
+            "metrics": {
+                "ample": 0.9145090376160234, 
+                "gzoltar": 0.05337605126836238, 
+                "ochiai": 0.05337605126836238, 
+                "tarantula": 0.9212421242124212
+            }, 
+            "nf": 0, 
+            "np": 3744, 
+            "rank": 201
+        }, 
+        "org.apache.commons.math3.util.FastMath:1656": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 350, 
+            "line": 1656, 
+            "metrics": {
+                "ample": 0.9145090376160234, 
+                "gzoltar": 0.05337605126836238, 
+                "ochiai": 0.05337605126836238, 
+                "tarantula": 0.9212421242124212
+            }, 
+            "nf": 0, 
+            "np": 3744, 
+            "rank": 202
+        }, 
+        "org.apache.commons.math3.util.FastMath:1657": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 350, 
+            "line": 1657, 
+            "metrics": {
+                "ample": 0.9145090376160234, 
+                "gzoltar": 0.05337605126836238, 
+                "ochiai": 0.05337605126836238, 
+                "tarantula": 0.9212421242124212
+            }, 
+            "nf": 0, 
+            "np": 3744, 
+            "rank": 203
+        }, 
+        "org.apache.commons.math3.util.FastMath:1658": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 350, 
+            "line": 1658, 
+            "metrics": {
+                "ample": 0.9145090376160234, 
+                "gzoltar": 0.05337605126836238, 
+                "ochiai": 0.05337605126836238, 
+                "tarantula": 0.9212421242124212
+            }, 
+            "nf": 0, 
+            "np": 3744, 
+            "rank": 204
+        }, 
+        "org.apache.commons.math3.util.FastMath:1661": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 350, 
+            "line": 1661, 
+            "metrics": {
+                "ample": 0.9145090376160234, 
+                "gzoltar": 0.05337605126836238, 
+                "ochiai": 0.05337605126836238, 
+                "tarantula": 0.9212421242124212
+            }, 
+            "nf": 0, 
+            "np": 3744, 
+            "rank": 205
+        }, 
+        "org.apache.commons.math3.util.FastMath:1663": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 350, 
+            "line": 1663, 
+            "metrics": {
+                "ample": 0.9145090376160234, 
+                "gzoltar": 0.05337605126836238, 
+                "ochiai": 0.05337605126836238, 
+                "tarantula": 0.9212421242124212
+            }, 
+            "nf": 0, 
+            "np": 3744, 
+            "rank": 206
+        }, 
+        "org.apache.commons.math3.util.FastMath:1673": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 350, 
+            "line": 1673, 
+            "metrics": {
+                "ample": 0.9145090376160234, 
+                "gzoltar": 0.05337605126836238, 
+                "ochiai": 0.05337605126836238, 
+                "tarantula": 0.9212421242124212
+            }, 
+            "nf": 0, 
+            "np": 3744, 
+            "rank": 207
+        }, 
+        "org.apache.commons.math3.util.FastMath:1675": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 350, 
+            "line": 1675, 
+            "metrics": {
+                "ample": 0.9145090376160234, 
+                "gzoltar": 0.05337605126836238, 
+                "ochiai": 0.05337605126836238, 
+                "tarantula": 0.9212421242124212
+            }, 
+            "nf": 0, 
+            "np": 3744, 
+            "rank": 208
+        }, 
+        "org.apache.commons.math3.util.FastMath:1676": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 350, 
+            "line": 1676, 
+            "metrics": {
+                "ample": 0.9145090376160234, 
+                "gzoltar": 0.05337605126836238, 
+                "ochiai": 0.05337605126836238, 
+                "tarantula": 0.9212421242124212
+            }, 
+            "nf": 0, 
+            "np": 3744, 
+            "rank": 209
+        }, 
+        "org.apache.commons.math3.util.FastMath:1677": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 350, 
+            "line": 1677, 
+            "metrics": {
+                "ample": 0.9145090376160234, 
+                "gzoltar": 0.05337605126836238, 
+                "ochiai": 0.05337605126836238, 
+                "tarantula": 0.9212421242124212
+            }, 
+            "nf": 0, 
+            "np": 3744, 
+            "rank": 210
+        }, 
+        "org.apache.commons.math3.util.FastMath:1678": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 350, 
+            "line": 1678, 
+            "metrics": {
+                "ample": 0.9145090376160234, 
+                "gzoltar": 0.05337605126836238, 
+                "ochiai": 0.05337605126836238, 
+                "tarantula": 0.9212421242124212
+            }, 
+            "nf": 0, 
+            "np": 3744, 
+            "rank": 211
+        }, 
+        "org.apache.commons.math3.util.FastMath:1679": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 350, 
+            "line": 1679, 
+            "metrics": {
+                "ample": 0.9145090376160234, 
+                "gzoltar": 0.05337605126836238, 
+                "ochiai": 0.05337605126836238, 
+                "tarantula": 0.9212421242124212
+            }, 
+            "nf": 0, 
+            "np": 3744, 
+            "rank": 212
+        }, 
+        "org.apache.commons.math3.util.FastMath:1681": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 350, 
+            "line": 1681, 
+            "metrics": {
+                "ample": 0.9145090376160234, 
+                "gzoltar": 0.05337605126836238, 
+                "ochiai": 0.05337605126836238, 
+                "tarantula": 0.9212421242124212
+            }, 
+            "nf": 0, 
+            "np": 3744, 
+            "rank": 213
+        }, 
+        "org.apache.commons.math3.util.FastMath:1692": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1692, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 169
+        }, 
+        "org.apache.commons.math3.util.FastMath:1693": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1693, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 170
+        }, 
+        "org.apache.commons.math3.util.FastMath:1696": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1696, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 171
+        }, 
+        "org.apache.commons.math3.util.FastMath:1697": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1697, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 172
+        }, 
+        "org.apache.commons.math3.util.FastMath:1698": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1698, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 173
+        }, 
+        "org.apache.commons.math3.util.FastMath:1699": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1699, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 174
+        }, 
+        "org.apache.commons.math3.util.FastMath:1702": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1702, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 175
+        }, 
+        "org.apache.commons.math3.util.FastMath:1703": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1703, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 176
+        }, 
+        "org.apache.commons.math3.util.FastMath:1704": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1704, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 177
+        }, 
+        "org.apache.commons.math3.util.FastMath:1705": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1705, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 178
+        }, 
+        "org.apache.commons.math3.util.FastMath:1708": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1708, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 179
+        }, 
+        "org.apache.commons.math3.util.FastMath:1709": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1709, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 180
+        }, 
+        "org.apache.commons.math3.util.FastMath:1710": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1710, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 181
+        }, 
+        "org.apache.commons.math3.util.FastMath:1711": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1711, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 182
+        }, 
+        "org.apache.commons.math3.util.FastMath:1737": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1737, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 183
+        }, 
+        "org.apache.commons.math3.util.FastMath:1738": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1738, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 184
+        }, 
+        "org.apache.commons.math3.util.FastMath:1740": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1740, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 185
+        }, 
+        "org.apache.commons.math3.util.FastMath:1741": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1741, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 186
+        }, 
+        "org.apache.commons.math3.util.FastMath:1742": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1742, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 187
+        }, 
+        "org.apache.commons.math3.util.FastMath:1743": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1743, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 188
+        }, 
+        "org.apache.commons.math3.util.FastMath:1744": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1744, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 189
+        }, 
+        "org.apache.commons.math3.util.FastMath:1746": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1746, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 190
+        }, 
+        "org.apache.commons.math3.util.FastMath:1747": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1747, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 191
+        }, 
+        "org.apache.commons.math3.util.FastMath:1748": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1748, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 192
+        }, 
+        "org.apache.commons.math3.util.FastMath:1749": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1749, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 193
+        }, 
+        "org.apache.commons.math3.util.FastMath:1750": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1750, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 194
+        }, 
+        "org.apache.commons.math3.util.FastMath:1752": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1752, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 195
+        }, 
+        "org.apache.commons.math3.util.FastMath:1767": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1767, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 196
+        }, 
+        "org.apache.commons.math3.util.FastMath:1794": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1794, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 197
+        }, 
+        "org.apache.commons.math3.util.FastMath:1795": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 312, 
+            "line": 1795, 
+            "metrics": {
+                "ample": 0.923790913531998, 
+                "gzoltar": 0.05652334189442215, 
+                "ochiai": 0.05652334189442215, 
+                "tarantula": 0.9291874716295959
+            }, 
+            "nf": 0, 
+            "np": 3782, 
+            "rank": 154
+        }, 
+        "org.apache.commons.math3.util.FastMath:1797": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 312, 
+            "line": 1797, 
+            "metrics": {
+                "ample": 0.923790913531998, 
+                "gzoltar": 0.05652334189442215, 
+                "ochiai": 0.05652334189442215, 
+                "tarantula": 0.9291874716295959
+            }, 
+            "nf": 0, 
+            "np": 3782, 
+            "rank": 155
+        }, 
+        "org.apache.commons.math3.util.FastMath:1798": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 312, 
+            "line": 1798, 
+            "metrics": {
+                "ample": 0.923790913531998, 
+                "gzoltar": 0.05652334189442215, 
+                "ochiai": 0.05652334189442215, 
+                "tarantula": 0.9291874716295959
+            }, 
+            "nf": 0, 
+            "np": 3782, 
+            "rank": 156
+        }, 
+        "org.apache.commons.math3.util.FastMath:1799": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 312, 
+            "line": 1799, 
+            "metrics": {
+                "ample": 0.923790913531998, 
+                "gzoltar": 0.05652334189442215, 
+                "ochiai": 0.05652334189442215, 
+                "tarantula": 0.9291874716295959
+            }, 
+            "nf": 0, 
+            "np": 3782, 
+            "rank": 157
+        }, 
+        "org.apache.commons.math3.util.FastMath:1800": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 312, 
+            "line": 1800, 
+            "metrics": {
+                "ample": 0.923790913531998, 
+                "gzoltar": 0.05652334189442215, 
+                "ochiai": 0.05652334189442215, 
+                "tarantula": 0.9291874716295959
+            }, 
+            "nf": 0, 
+            "np": 3782, 
+            "rank": 158
+        }, 
+        "org.apache.commons.math3.util.FastMath:1803": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1803, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 198
+        }, 
+        "org.apache.commons.math3.util.FastMath:1805": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 332, 
+            "line": 1805, 
+            "metrics": {
+                "ample": 0.918905715681485, 
+                "gzoltar": 0.0547996624351191, 
+                "ochiai": 0.0547996624351191, 
+                "tarantula": 0.9249887031179393
+            }, 
+            "nf": 0, 
+            "np": 3762, 
+            "rank": 199
+        }, 
+        "org.apache.commons.math3.util.FastMath:1816": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 311, 
+            "line": 1816, 
+            "metrics": {
+                "ample": 0.9240351734245237, 
+                "gzoltar": 0.05661385170722978, 
+                "ochiai": 0.05661385170722978, 
+                "tarantula": 0.9293984108967084
+            }, 
+            "nf": 0, 
+            "np": 3783, 
+            "rank": 148
+        }, 
+        "org.apache.commons.math3.util.FastMath:1817": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 311, 
+            "line": 1817, 
+            "metrics": {
+                "ample": 0.9240351734245237, 
+                "gzoltar": 0.05661385170722978, 
+                "ochiai": 0.05661385170722978, 
+                "tarantula": 0.9293984108967084
+            }, 
+            "nf": 0, 
+            "np": 3783, 
+            "rank": 149
+        }, 
+        "org.apache.commons.math3.util.FastMath:1819": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 311, 
+            "line": 1819, 
+            "metrics": {
+                "ample": 0.9240351734245237, 
+                "gzoltar": 0.05661385170722978, 
+                "ochiai": 0.05661385170722978, 
+                "tarantula": 0.9293984108967084
+            }, 
+            "nf": 0, 
+            "np": 3783, 
+            "rank": 150
+        }, 
+        "org.apache.commons.math3.util.FastMath:1820": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 311, 
+            "line": 1820, 
+            "metrics": {
+                "ample": 0.9240351734245237, 
+                "gzoltar": 0.05661385170722978, 
+                "ochiai": 0.05661385170722978, 
+                "tarantula": 0.9293984108967084
+            }, 
+            "nf": 0, 
+            "np": 3783, 
+            "rank": 151
+        }, 
+        "org.apache.commons.math3.util.FastMath:1821": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 311, 
+            "line": 1821, 
+            "metrics": {
+                "ample": 0.9240351734245237, 
+                "gzoltar": 0.05661385170722978, 
+                "ochiai": 0.05661385170722978, 
+                "tarantula": 0.9293984108967084
+            }, 
+            "nf": 0, 
+            "np": 3783, 
+            "rank": 152
+        }, 
+        "org.apache.commons.math3.util.FastMath:1823": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 311, 
+            "line": 1823, 
+            "metrics": {
+                "ample": 0.9240351734245237, 
+                "gzoltar": 0.05661385170722978, 
+                "ochiai": 0.05661385170722978, 
+                "tarantula": 0.9293984108967084
+            }, 
+            "nf": 0, 
+            "np": 3783, 
+            "rank": 153
+        }, 
+        "org.apache.commons.math3.util.FastMath:2201": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 326, 
+            "line": 2201, 
+            "metrics": {
+                "ample": 0.920371275036639, 
+                "gzoltar": 0.0553001263609331, 
+                "ochiai": 0.0553001263609331, 
+                "tarantula": 0.9262443438914028
+            }, 
+            "nf": 0, 
+            "np": 3768, 
+            "rank": 163
+        }, 
+        "org.apache.commons.math3.util.FastMath:2202": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 326, 
+            "line": 2202, 
+            "metrics": {
+                "ample": 0.920371275036639, 
+                "gzoltar": 0.0553001263609331, 
+                "ochiai": 0.0553001263609331, 
+                "tarantula": 0.9262443438914028
+            }, 
+            "nf": 0, 
+            "np": 3768, 
+            "rank": 164
+        }, 
+        "org.apache.commons.math3.util.FastMath:2204": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 326, 
+            "line": 2204, 
+            "metrics": {
+                "ample": 0.920371275036639, 
+                "gzoltar": 0.0553001263609331, 
+                "ochiai": 0.0553001263609331, 
+                "tarantula": 0.9262443438914028
+            }, 
+            "nf": 0, 
+            "np": 3768, 
+            "rank": 165
+        }, 
+        "org.apache.commons.math3.util.FastMath:2207": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 326, 
+            "line": 2207, 
+            "metrics": {
+                "ample": 0.920371275036639, 
+                "gzoltar": 0.0553001263609331, 
+                "ochiai": 0.0553001263609331, 
+                "tarantula": 0.9262443438914028
+            }, 
+            "nf": 0, 
+            "np": 3768, 
+            "rank": 166
+        }, 
+        "org.apache.commons.math3.util.FastMath:2208": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 326, 
+            "line": 2208, 
+            "metrics": {
+                "ample": 0.920371275036639, 
+                "gzoltar": 0.0553001263609331, 
+                "ochiai": 0.0553001263609331, 
+                "tarantula": 0.9262443438914028
+            }, 
+            "nf": 0, 
+            "np": 3768, 
+            "rank": 167
+        }, 
+        "org.apache.commons.math3.util.FastMath:2214": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 326, 
+            "line": 2214, 
+            "metrics": {
+                "ample": 0.920371275036639, 
+                "gzoltar": 0.0553001263609331, 
+                "ochiai": 0.0553001263609331, 
+                "tarantula": 0.9262443438914028
+            }, 
+            "nf": 0, 
+            "np": 3768, 
+            "rank": 168
+        }, 
+        "org.apache.commons.math3.util.FastMath:2222": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 325, 
+            "line": 2222, 
+            "metrics": {
+                "ample": 0.9206155349291646, 
+                "gzoltar": 0.05538487756217113, 
+                "ochiai": 0.05538487756217113, 
+                "tarantula": 0.9264539488572076
+            }, 
+            "nf": 0, 
+            "np": 3769, 
+            "rank": 162
+        }, 
+        "org.apache.commons.math3.util.FastMath:2227": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 321, 
+            "line": 2227, 
+            "metrics": {
+                "ample": 0.9215925744992672, 
+                "gzoltar": 0.05572782125753528, 
+                "ochiai": 0.05572782125753528, 
+                "tarantula": 0.9272933182332956
+            }, 
+            "nf": 0, 
+            "np": 3773, 
+            "rank": 159
+        }, 
+        "org.apache.commons.math3.util.FastMath:2237": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 261, 
+            "line": 2237, 
+            "metrics": {
+                "ample": 0.936248168050806, 
+                "gzoltar": 0.06178020632152154, 
+                "ochiai": 0.06178020632152154, 
+                "tarantula": 0.9400688863375432
+            }, 
+            "nf": 0, 
+            "np": 3833, 
+            "rank": 141
+        }, 
+        "org.apache.commons.math3.util.FastMath:2238": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 261, 
+            "line": 2238, 
+            "metrics": {
+                "ample": 0.936248168050806, 
+                "gzoltar": 0.06178020632152154, 
+                "ochiai": 0.06178020632152154, 
+                "tarantula": 0.9400688863375432
+            }, 
+            "nf": 0, 
+            "np": 3833, 
+            "rank": 142
+        }, 
+        "org.apache.commons.math3.util.FastMath:2239": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 261, 
+            "line": 2239, 
+            "metrics": {
+                "ample": 0.936248168050806, 
+                "gzoltar": 0.06178020632152154, 
+                "ochiai": 0.06178020632152154, 
+                "tarantula": 0.9400688863375432
+            }, 
+            "nf": 0, 
+            "np": 3833, 
+            "rank": 143
+        }, 
+        "org.apache.commons.math3.util.FastMath:2240": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 261, 
+            "line": 2240, 
+            "metrics": {
+                "ample": 0.936248168050806, 
+                "gzoltar": 0.06178020632152154, 
+                "ochiai": 0.06178020632152154, 
+                "tarantula": 0.9400688863375432
+            }, 
+            "nf": 0, 
+            "np": 3833, 
+            "rank": 144
+        }, 
+        "org.apache.commons.math3.util.FastMath:2243": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 321, 
+            "line": 2243, 
+            "metrics": {
+                "ample": 0.9215925744992672, 
+                "gzoltar": 0.05572782125753528, 
+                "ochiai": 0.05572782125753528, 
+                "tarantula": 0.9272933182332956
+            }, 
+            "nf": 0, 
+            "np": 3773, 
+            "rank": 160
+        }, 
+        "org.apache.commons.math3.util.FastMath:2247": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 321, 
+            "line": 2247, 
+            "metrics": {
+                "ample": 0.9215925744992672, 
+                "gzoltar": 0.05572782125753528, 
+                "ochiai": 0.05572782125753528, 
+                "tarantula": 0.9272933182332956
+            }, 
+            "nf": 0, 
+            "np": 3773, 
+            "rank": 161
+        }, 
+        "org.apache.commons.math3.util.FastMath:2253": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 246, 
+            "line": 2253, 
+            "metrics": {
+                "ample": 0.9399120664386907, 
+                "gzoltar": 0.06362847629757777, 
+                "ochiai": 0.06362847629757777, 
+                "tarantula": 0.9433179723502305
+            }, 
+            "nf": 0, 
+            "np": 3848, 
+            "rank": 140
+        }, 
+        "org.apache.commons.math3.util.FastMath:2255": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 187, 
+            "line": 2255, 
+            "metrics": {
+                "ample": 0.954323400097704, 
+                "gzoltar": 0.07293249574894728, 
+                "ochiai": 0.07293249574894728, 
+                "tarantula": 0.9563186171455267
+            }, 
+            "nf": 0, 
+            "np": 3907, 
+            "rank": 139
+        }, 
+        "org.apache.commons.math3.util.FastMath:2974": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 796, 
+            "line": 2974, 
+            "metrics": {
+                "ample": 0.8055691255495847, 
+                "gzoltar": 0.03542181734879073, 
+                "ochiai": 0.03542181734879073, 
+                "tarantula": 0.8372188139059304
+            }, 
+            "nf": 0, 
+            "np": 3298, 
+            "rank": 227
+        }, 
+        "org.apache.commons.math3.util.FastMath:2992": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 1583, 
+            "line": 2992, 
+            "metrics": {
+                "ample": 0.6133365901319003, 
+                "gzoltar": 0.025125945381480302, 
+                "ochiai": 0.025125945381480302, 
+                "tarantula": 0.7211555398978333
+            }, 
+            "nf": 0, 
+            "np": 2511, 
+            "rank": 228
+        }, 
+        "org.apache.commons.math3.util.FastMath:3396": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 542, 
+            "line": 3396, 
+            "metrics": {
+                "ample": 0.8676111382510991, 
+                "gzoltar": 0.04291410754228745, 
+                "ochiai": 0.04291410754228745, 
+                "tarantula": 0.8830888697152718
+            }, 
+            "nf": 0, 
+            "np": 3552, 
+            "rank": 214
+        }, 
+        "org.apache.commons.math3.util.Incrementor:114": {
+            "class": "org.apache.commons.math3.util.Incrementor", 
+            "ef": 1, 
+            "ep": 163, 
+            "line": 114, 
+            "metrics": {
+                "ample": 0.9601856375183195, 
+                "gzoltar": 0.07808688094430304, 
+                "ochiai": 0.07808688094430304, 
+                "tarantula": 0.9617101245008222
+            }, 
+            "nf": 0, 
+            "np": 3931, 
+            "rank": 138
+        }, 
+        "org.apache.commons.math3.util.Incrementor:155": {
+            "class": "org.apache.commons.math3.util.Incrementor", 
+            "ef": 1, 
+            "ep": 584, 
+            "line": 155, 
+            "metrics": {
+                "ample": 0.857352222765022, 
+                "gzoltar": 0.041344911529736156, 
+                "ochiai": 0.041344911529736156, 
+                "tarantula": 0.8751603249251818
+            }, 
+            "nf": 0, 
+            "np": 3510, 
+            "rank": 218
+        }, 
+        "org.apache.commons.math3.util.Incrementor:158": {
+            "class": "org.apache.commons.math3.util.Incrementor", 
+            "ef": 1, 
+            "ep": 583, 
+            "line": 158, 
+            "metrics": {
+                "ample": 0.8575964826575476, 
+                "gzoltar": 0.0413802944301184, 
+                "ochiai": 0.0413802944301184, 
+                "tarantula": 0.8753474449433398
+            }, 
+            "nf": 0, 
+            "np": 3511, 
+            "rank": 217
+        }, 
+        "org.apache.commons.math3.util.Incrementor:164": {
+            "class": "org.apache.commons.math3.util.Incrementor", 
+            "ef": 1, 
+            "ep": 602, 
+            "line": 164, 
+            "metrics": {
+                "ample": 0.8529555446995604, 
+                "gzoltar": 0.040723148118768406, 
+                "ochiai": 0.040723148118768406, 
+                "tarantula": 0.8718057921635434
+            }, 
+            "nf": 0, 
+            "np": 3492, 
+            "rank": 219
+        }, 
+        "org.apache.commons.math3.util.Incrementor:165": {
+            "class": "org.apache.commons.math3.util.Incrementor", 
+            "ef": 1, 
+            "ep": 602, 
+            "line": 165, 
+            "metrics": {
+                "ample": 0.8529555446995604, 
+                "gzoltar": 0.040723148118768406, 
+                "ochiai": 0.040723148118768406, 
+                "tarantula": 0.8718057921635434
+            }, 
+            "nf": 0, 
+            "np": 3492, 
+            "rank": 220
+        }, 
+        "org.apache.commons.math3.util.Incrementor:96": {
+            "class": "org.apache.commons.math3.util.Incrementor", 
+            "ef": 1, 
+            "ep": 566, 
+            "line": 96, 
+            "metrics": {
+                "ample": 0.8617489008304836, 
+                "gzoltar": 0.0419960525565808, 
+                "ochiai": 0.0419960525565808, 
+                "tarantula": 0.8785407725321889
+            }, 
+            "nf": 0, 
+            "np": 3528, 
+            "rank": 215
+        }, 
+        "org.apache.commons.math3.util.Incrementor:97": {
+            "class": "org.apache.commons.math3.util.Incrementor", 
+            "ef": 1, 
+            "ep": 566, 
+            "line": 97, 
+            "metrics": {
+                "ample": 0.8617489008304836, 
+                "gzoltar": 0.0419960525565808, 
+                "ochiai": 0.0419960525565808, 
+                "tarantula": 0.8785407725321889
+            }, 
+            "nf": 0, 
+            "np": 3528, 
+            "rank": 216
+        }, 
+        "org.apache.commons.math3.util.MathArrays:228": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 140, 
+            "line": 228, 
+            "metrics": {
+                "ample": 0.9658036150464093, 
+                "gzoltar": 0.0842151921066519, 
+                "ochiai": 0.0842151921066519, 
+                "tarantula": 0.9669343410486537
+            }, 
+            "nf": 0, 
+            "np": 3954, 
+            "rank": 133
+        }, 
+        "org.apache.commons.math3.util.MathArrays:229": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 140, 
+            "line": 229, 
+            "metrics": {
+                "ample": 0.9658036150464093, 
+                "gzoltar": 0.0842151921066519, 
+                "ochiai": 0.0842151921066519, 
+                "tarantula": 0.9669343410486537
+            }, 
+            "nf": 0, 
+            "np": 3954, 
+            "rank": 134
+        }, 
+        "org.apache.commons.math3.util.MathArrays:233": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 140, 
+            "line": 233, 
+            "metrics": {
+                "ample": 0.9658036150464093, 
+                "gzoltar": 0.0842151921066519, 
+                "ochiai": 0.0842151921066519, 
+                "tarantula": 0.9669343410486537
+            }, 
+            "nf": 0, 
+            "np": 3954, 
+            "rank": 135
+        }, 
+        "org.apache.commons.math3.util.MathArrays:234": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 137, 
+            "line": 234, 
+            "metrics": {
+                "ample": 0.9665363947239863, 
+                "gzoltar": 0.08512565307587486, 
+                "ochiai": 0.08512565307587486, 
+                "tarantula": 0.9676199480028361
+            }, 
+            "nf": 0, 
+            "np": 3957, 
+            "rank": 130
+        }, 
+        "org.apache.commons.math3.util.MathArrays:236": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 137, 
+            "line": 236, 
+            "metrics": {
+                "ample": 0.9665363947239863, 
+                "gzoltar": 0.08512565307587486, 
+                "ochiai": 0.08512565307587486, 
+                "tarantula": 0.9676199480028361
+            }, 
+            "nf": 0, 
+            "np": 3957, 
+            "rank": 131
+        }, 
+        "org.apache.commons.math3.util.MathArrays:237": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 137, 
+            "line": 237, 
+            "metrics": {
+                "ample": 0.9665363947239863, 
+                "gzoltar": 0.08512565307587486, 
+                "ochiai": 0.08512565307587486, 
+                "tarantula": 0.9676199480028361
+            }, 
+            "nf": 0, 
+            "np": 3957, 
+            "rank": 132
+        }, 
+        "org.apache.commons.math3.util.MathArrays:262": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 135, 
+            "line": 262, 
+            "metrics": {
+                "ample": 0.9670249145090376, 
+                "gzoltar": 0.08574929257125441, 
+                "ochiai": 0.08574929257125441, 
+                "tarantula": 0.9680775597067866
+            }, 
+            "nf": 0, 
+            "np": 3959, 
+            "rank": 129
+        }, 
+        "org.apache.commons.math3.util.MathArrays:265": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 140, 
+            "line": 265, 
+            "metrics": {
+                "ample": 0.9658036150464093, 
+                "gzoltar": 0.0842151921066519, 
+                "ochiai": 0.0842151921066519, 
+                "tarantula": 0.9669343410486537
+            }, 
+            "nf": 0, 
+            "np": 3954, 
+            "rank": 136
+        }, 
+        "org.apache.commons.math3.util.MathArrays:267": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 132, 
+            "line": 267, 
+            "metrics": {
+                "ample": 0.9677576941866146, 
+                "gzoltar": 0.086710996952412, 
+                "ochiai": 0.086710996952412, 
+                "tarantula": 0.9687647893989588
+            }, 
+            "nf": 0, 
+            "np": 3962, 
+            "rank": 128
+        }, 
+        "org.apache.commons.math3.util.MathArrays:289": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 46, 
+            "line": 289, 
+            "metrics": {
+                "ample": 0.9887640449438202, 
+                "gzoltar": 0.14586499149789456, 
+                "ochiai": 0.14586499149789456, 
+                "tarantula": 0.9888888888888888
+            }, 
+            "nf": 0, 
+            "np": 4048, 
+            "rank": 123
+        }, 
+        "org.apache.commons.math3.util.MathArrays:290": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 40, 
+            "line": 290, 
+            "metrics": {
+                "ample": 0.9902296042989741, 
+                "gzoltar": 0.15617376188860607, 
+                "ochiai": 0.15617376188860607, 
+                "tarantula": 0.9903241412675376
+            }, 
+            "nf": 0, 
+            "np": 4054, 
+            "rank": 121
+        }, 
+        "org.apache.commons.math3.util.MathArrays:300": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 45, 
+            "line": 300, 
+            "metrics": {
+                "ample": 0.9890083048363458, 
+                "gzoltar": 0.14744195615489714, 
+                "ochiai": 0.14744195615489714, 
+                "tarantula": 0.9891278086494322
+            }, 
+            "nf": 0, 
+            "np": 4049, 
+            "rank": 122
+        }, 
+        "org.apache.commons.math3.util.MathArrays:301": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 39, 
+            "line": 301, 
+            "metrics": {
+                "ample": 0.9904738641914997, 
+                "gzoltar": 0.15811388300841897, 
+                "ochiai": 0.15811388300841897, 
+                "tarantula": 0.9905637551415438
+            }, 
+            "nf": 0, 
+            "np": 4055, 
+            "rank": 120
+        }, 
+        "org.apache.commons.math3.util.MathArrays:532": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 35, 
+            "line": 532, 
+            "metrics": {
+                "ample": 0.9914509037616024, 
+                "gzoltar": 0.16666666666666666, 
+                "ochiai": 0.16666666666666666, 
+                "tarantula": 0.9915233712763382
+            }, 
+            "nf": 0, 
+            "np": 4059, 
+            "rank": 119
+        }, 
+        "org.apache.commons.math3.util.MathArrays:560": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 62, 
+            "line": 560, 
+            "metrics": {
+                "ample": 0.9848558866634098, 
+                "gzoltar": 0.1259881576697424, 
+                "ochiai": 0.1259881576697424, 
+                "tarantula": 0.9850818094321463
+            }, 
+            "nf": 0, 
+            "np": 4032, 
+            "rank": 124
+        }, 
+        "org.apache.commons.math3.util.MathArrays:561": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 62, 
+            "line": 561, 
+            "metrics": {
+                "ample": 0.9848558866634098, 
+                "gzoltar": 0.1259881576697424, 
+                "ochiai": 0.1259881576697424, 
+                "tarantula": 0.9850818094321463
+            }, 
+            "nf": 0, 
+            "np": 4032, 
+            "rank": 125
+        }, 
+        "org.apache.commons.math3.util.MathArrays:562": {
+            "class": "org.apache.commons.math3.util.MathArrays", 
+            "ef": 1, 
+            "ep": 62, 
+            "line": 562, 
+            "metrics": {
+                "ample": 0.9848558866634098, 
+                "gzoltar": 0.1259881576697424, 
+                "ochiai": 0.1259881576697424, 
+                "tarantula": 0.9850818094321463
+            }, 
+            "nf": 0, 
+            "np": 4032, 
+            "rank": 126
+        }, 
+        "org.apache.commons.math3.util.Precision:243": {
+            "class": "org.apache.commons.math3.util.Precision", 
+            "ef": 1, 
+            "ep": 144, 
+            "line": 243, 
+            "metrics": {
+                "ample": 0.9648265754763068, 
+                "gzoltar": 0.08304547985373997, 
+                "ochiai": 0.08304547985373997, 
+                "tarantula": 0.9660217083529967
+            }, 
+            "nf": 0, 
+            "np": 3950, 
+            "rank": 137
+        }, 
+        "org.apache.commons.math3.util.Precision:307": {
+            "class": "org.apache.commons.math3.util.Precision", 
+            "ef": 1, 
+            "ep": 736, 
+            "line": 307, 
+            "metrics": {
+                "ample": 0.8202247191011236, 
+                "gzoltar": 0.03683547343418787, 
+                "ochiai": 0.03683547343418787, 
+                "tarantula": 0.8476190476190476
+            }, 
+            "nf": 0, 
+            "np": 3358, 
+            "rank": 221
+        }, 
+        "org.apache.commons.math3.util.Precision:308": {
+            "class": "org.apache.commons.math3.util.Precision", 
+            "ef": 1, 
+            "ep": 736, 
+            "line": 308, 
+            "metrics": {
+                "ample": 0.8202247191011236, 
+                "gzoltar": 0.03683547343418787, 
+                "ochiai": 0.03683547343418787, 
+                "tarantula": 0.8476190476190476
+            }, 
+            "nf": 0, 
+            "np": 3358, 
+            "rank": 222
+        }, 
+        "org.apache.commons.math3.util.Precision:311": {
+            "class": "org.apache.commons.math3.util.Precision", 
+            "ef": 1, 
+            "ep": 736, 
+            "line": 311, 
+            "metrics": {
+                "ample": 0.8202247191011236, 
+                "gzoltar": 0.03683547343418787, 
+                "ochiai": 0.03683547343418787, 
+                "tarantula": 0.8476190476190476
+            }, 
+            "nf": 0, 
+            "np": 3358, 
+            "rank": 223
+        }, 
+        "org.apache.commons.math3.util.Precision:314": {
+            "class": "org.apache.commons.math3.util.Precision", 
+            "ef": 1, 
+            "ep": 736, 
+            "line": 314, 
+            "metrics": {
+                "ample": 0.8202247191011236, 
+                "gzoltar": 0.03683547343418787, 
+                "ochiai": 0.03683547343418787, 
+                "tarantula": 0.8476190476190476
+            }, 
+            "nf": 0, 
+            "np": 3358, 
+            "rank": 224
+        }, 
+        "org.apache.commons.math3.util.Precision:318": {
+            "class": "org.apache.commons.math3.util.Precision", 
+            "ef": 1, 
+            "ep": 736, 
+            "line": 318, 
+            "metrics": {
+                "ample": 0.8202247191011236, 
+                "gzoltar": 0.03683547343418787, 
+                "ochiai": 0.03683547343418787, 
+                "tarantula": 0.8476190476190476
+            }, 
+            "nf": 0, 
+            "np": 3358, 
+            "rank": 225
+        }, 
+        "org.apache.commons.math3.util.Precision:320": {
+            "class": "org.apache.commons.math3.util.Precision", 
+            "ef": 1, 
+            "ep": 736, 
+            "line": 320, 
+            "metrics": {
+                "ample": 0.8202247191011236, 
+                "gzoltar": 0.03683547343418787, 
+                "ochiai": 0.03683547343418787, 
+                "tarantula": 0.8476190476190476
+            }, 
+            "nf": 0, 
+            "np": 3358, 
+            "rank": 226
+        }
+    }
+}

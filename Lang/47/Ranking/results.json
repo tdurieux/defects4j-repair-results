@@ -1,0 +1,184 @@
+{
+    "date": "2015-05-07T08:48:35.138908", 
+    "executedTest": 1829, 
+    "failedTest": 2, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.lang.text.StrBuilderTest", 
+            "method": "testLang412Left"
+        }, 
+        {
+            "class": "org.apache.commons.lang.text.StrBuilderTest", 
+            "method": "testLang412Right"
+        }
+    ], 
+    "node": "griffon-59.nancy.grid5000.fr\n", 
+    "successfulTest": 1827, 
+    "suspicious": {
+        "org.apache.commons.lang.text.StrBuilder:1183": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 1183, 
+            "metrics": {
+                "ample": 0.4989053092501368, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9978154014199891
+            }, 
+            "nf": 1, 
+            "np": 1825, 
+            "rank": 2
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1184": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 1184, 
+            "metrics": {
+                "ample": 0.4989053092501368, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9978154014199891
+            }, 
+            "nf": 1, 
+            "np": 1825, 
+            "rank": 3
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1185": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 1185, 
+            "metrics": {
+                "ample": 0.4989053092501368, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9978154014199891
+            }, 
+            "nf": 1, 
+            "np": 1825, 
+            "rank": 4
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1186": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 1186, 
+            "metrics": {
+                "ample": 0.4989053092501368, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9978154014199891
+            }, 
+            "nf": 1, 
+            "np": 1825, 
+            "rank": 5
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1227": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 1227, 
+            "metrics": {
+                "ample": 0.49835796387520526, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9967266775777414
+            }, 
+            "nf": 1, 
+            "np": 1824, 
+            "rank": 6
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1228": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 1228, 
+            "metrics": {
+                "ample": 0.49835796387520526, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9967266775777414
+            }, 
+            "nf": 1, 
+            "np": 1824, 
+            "rank": 7
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1229": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 1229, 
+            "metrics": {
+                "ample": 0.49835796387520526, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9967266775777414
+            }, 
+            "nf": 1, 
+            "np": 1824, 
+            "rank": 8
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1230": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 1230, 
+            "metrics": {
+                "ample": 0.49835796387520526, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9967266775777414
+            }, 
+            "nf": 1, 
+            "np": 1824, 
+            "rank": 9
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:158": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 3, 
+            "line": 158, 
+            "metrics": {
+                "ample": 0.9983579638752053, 
+                "gzoltar": 0.6324555320336759, 
+                "ochiai": 0.6324555320336759, 
+                "tarantula": 0.9983606557377048
+            }, 
+            "nf": 0, 
+            "np": 1824, 
+            "rank": 1
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:228": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 191, 
+            "line": 228, 
+            "metrics": {
+                "ample": 0.8954570333880678, 
+                "gzoltar": 0.10179731971185753, 
+                "ochiai": 0.10179731971185753, 
+                "tarantula": 0.9053518334985133
+            }, 
+            "nf": 0, 
+            "np": 1636, 
+            "rank": 10
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:233": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 191, 
+            "line": 233, 
+            "metrics": {
+                "ample": 0.8954570333880678, 
+                "gzoltar": 0.10179731971185753, 
+                "ochiai": 0.10179731971185753, 
+                "tarantula": 0.9053518334985133
+            }, 
+            "nf": 0, 
+            "np": 1636, 
+            "rank": 11
+        }
+    }
+}

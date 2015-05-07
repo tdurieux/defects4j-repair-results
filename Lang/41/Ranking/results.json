@@ -1,0 +1,229 @@
+{
+    "date": "2015-05-07T08:48:42.696455", 
+    "executedTest": 1624, 
+    "failedTest": 2, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.lang.ClassUtilsTest", 
+            "method": "test_getShortClassName_Class"
+        }, 
+        {
+            "class": "org.apache.commons.lang.ClassUtilsTest", 
+            "method": "test_getPackageName_Class"
+        }
+    ], 
+    "node": "griffon-1.nancy.grid5000.fr\n", 
+    "successfulTest": 1622, 
+    "suspicious": {
+        "org.apache.commons.lang.ClassUtils:169": {
+            "class": "org.apache.commons.lang.ClassUtils", 
+            "ef": 1, 
+            "ep": 25, 
+            "line": 169, 
+            "metrics": {
+                "ample": 0.4845869297163995, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9700956937799042
+            }, 
+            "nf": 1, 
+            "np": 1597, 
+            "rank": 6
+        }, 
+        "org.apache.commons.lang.ClassUtils:170": {
+            "class": "org.apache.commons.lang.ClassUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 170, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 1622, 
+            "rank": 1
+        }, 
+        "org.apache.commons.lang.ClassUtils:172": {
+            "class": "org.apache.commons.lang.ClassUtils", 
+            "ef": 1, 
+            "ep": 25, 
+            "line": 172, 
+            "metrics": {
+                "ample": 0.4845869297163995, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9700956937799042
+            }, 
+            "nf": 1, 
+            "np": 1597, 
+            "rank": 7
+        }, 
+        "org.apache.commons.lang.ClassUtils:184": {
+            "class": "org.apache.commons.lang.ClassUtils", 
+            "ef": 1, 
+            "ep": 29, 
+            "line": 184, 
+            "metrics": {
+                "ample": 0.48212083847102344, 
+                "gzoltar": 0.12909944487358055, 
+                "ochiai": 0.12909944487358055, 
+                "tarantula": 0.9654761904761904
+            }, 
+            "nf": 1, 
+            "np": 1593, 
+            "rank": 8
+        }, 
+        "org.apache.commons.lang.ClassUtils:187": {
+            "class": "org.apache.commons.lang.ClassUtils", 
+            "ef": 1, 
+            "ep": 29, 
+            "line": 187, 
+            "metrics": {
+                "ample": 0.48212083847102344, 
+                "gzoltar": 0.12909944487358055, 
+                "ochiai": 0.12909944487358055, 
+                "tarantula": 0.9654761904761904
+            }, 
+            "nf": 1, 
+            "np": 1593, 
+            "rank": 9
+        }, 
+        "org.apache.commons.lang.ClassUtils:191": {
+            "class": "org.apache.commons.lang.ClassUtils", 
+            "ef": 1, 
+            "ep": 29, 
+            "line": 191, 
+            "metrics": {
+                "ample": 0.48212083847102344, 
+                "gzoltar": 0.12909944487358055, 
+                "ochiai": 0.12909944487358055, 
+                "tarantula": 0.9654761904761904
+            }, 
+            "nf": 1, 
+            "np": 1593, 
+            "rank": 10
+        }, 
+        "org.apache.commons.lang.ClassUtils:192": {
+            "class": "org.apache.commons.lang.ClassUtils", 
+            "ef": 1, 
+            "ep": 29, 
+            "line": 192, 
+            "metrics": {
+                "ample": 0.48212083847102344, 
+                "gzoltar": 0.12909944487358055, 
+                "ochiai": 0.12909944487358055, 
+                "tarantula": 0.9654761904761904
+            }, 
+            "nf": 1, 
+            "np": 1593, 
+            "rank": 11
+        }, 
+        "org.apache.commons.lang.ClassUtils:194": {
+            "class": "org.apache.commons.lang.ClassUtils", 
+            "ef": 1, 
+            "ep": 29, 
+            "line": 194, 
+            "metrics": {
+                "ample": 0.48212083847102344, 
+                "gzoltar": 0.12909944487358055, 
+                "ochiai": 0.12909944487358055, 
+                "tarantula": 0.9654761904761904
+            }, 
+            "nf": 1, 
+            "np": 1593, 
+            "rank": 12
+        }, 
+        "org.apache.commons.lang.ClassUtils:195": {
+            "class": "org.apache.commons.lang.ClassUtils", 
+            "ef": 1, 
+            "ep": 29, 
+            "line": 195, 
+            "metrics": {
+                "ample": 0.48212083847102344, 
+                "gzoltar": 0.12909944487358055, 
+                "ochiai": 0.12909944487358055, 
+                "tarantula": 0.9654761904761904
+            }, 
+            "nf": 1, 
+            "np": 1593, 
+            "rank": 13
+        }, 
+        "org.apache.commons.lang.ClassUtils:196": {
+            "class": "org.apache.commons.lang.ClassUtils", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 196, 
+            "metrics": {
+                "ample": 0.4969173859432799, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.993872549019608
+            }, 
+            "nf": 1, 
+            "np": 1617, 
+            "rank": 5
+        }, 
+        "org.apache.commons.lang.ClassUtils:198": {
+            "class": "org.apache.commons.lang.ClassUtils", 
+            "ef": 1, 
+            "ep": 29, 
+            "line": 198, 
+            "metrics": {
+                "ample": 0.48212083847102344, 
+                "gzoltar": 0.12909944487358055, 
+                "ochiai": 0.12909944487358055, 
+                "tarantula": 0.9654761904761904
+            }, 
+            "nf": 1, 
+            "np": 1593, 
+            "rank": 14
+        }, 
+        "org.apache.commons.lang.ClassUtils:224": {
+            "class": "org.apache.commons.lang.ClassUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 224, 
+            "metrics": {
+                "ample": 0.499383477188656, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9987684729064039
+            }, 
+            "nf": 1, 
+            "np": 1621, 
+            "rank": 3
+        }, 
+        "org.apache.commons.lang.ClassUtils:225": {
+            "class": "org.apache.commons.lang.ClassUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 225, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 1622, 
+            "rank": 2
+        }, 
+        "org.apache.commons.lang.ClassUtils:227": {
+            "class": "org.apache.commons.lang.ClassUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 227, 
+            "metrics": {
+                "ample": 0.499383477188656, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9987684729064039
+            }, 
+            "nf": 1, 
+            "np": 1621, 
+            "rank": 4
+        }
+    }
+}

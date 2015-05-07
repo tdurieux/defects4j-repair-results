@@ -1,0 +1,139 @@
+{
+    "date": "2015-05-07T08:49:17.803890", 
+    "executedTest": 1721, 
+    "failedTest": 2, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest", 
+            "method": "testContainsAnyCharArrayWithSupplementaryChars"
+        }, 
+        {
+            "class": "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest", 
+            "method": "testContainsAnyStringWithSupplementaryChars"
+        }
+    ], 
+    "node": "griffon-41.nancy.grid5000.fr\n", 
+    "successfulTest": 1719, 
+    "suspicious": {
+        "org.apache.commons.lang3.StringUtils:1441": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 1441, 
+            "metrics": {
+                "ample": 0.997673065735893, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9976784677887406
+            }, 
+            "nf": 0, 
+            "np": 1715, 
+            "rank": 1
+        }, 
+        "org.apache.commons.lang3.StringUtils:1444": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 1444, 
+            "metrics": {
+                "ample": 0.997673065735893, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9976784677887406
+            }, 
+            "nf": 0, 
+            "np": 1715, 
+            "rank": 2
+        }, 
+        "org.apache.commons.lang3.StringUtils:1445": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 1445, 
+            "metrics": {
+                "ample": 0.997673065735893, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9976784677887406
+            }, 
+            "nf": 0, 
+            "np": 1715, 
+            "rank": 3
+        }, 
+        "org.apache.commons.lang3.StringUtils:1446": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 1446, 
+            "metrics": {
+                "ample": 0.997673065735893, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9976784677887406
+            }, 
+            "nf": 0, 
+            "np": 1715, 
+            "rank": 4
+        }, 
+        "org.apache.commons.lang3.StringUtils:1447": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 1447, 
+            "metrics": {
+                "ample": 0.997673065735893, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9976784677887406
+            }, 
+            "nf": 0, 
+            "np": 1715, 
+            "rank": 5
+        }, 
+        "org.apache.commons.lang3.StringUtils:1448": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 1448, 
+            "metrics": {
+                "ample": 0.997673065735893, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9976784677887406
+            }, 
+            "nf": 0, 
+            "np": 1715, 
+            "rank": 6
+        }, 
+        "org.apache.commons.lang3.StringUtils:1483": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1483, 
+            "metrics": {
+                "ample": 0.49941826643397325, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988378849506101
+            }, 
+            "nf": 1, 
+            "np": 1718, 
+            "rank": 7
+        }, 
+        "org.apache.commons.lang3.StringUtils:1486": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1486, 
+            "metrics": {
+                "ample": 0.49941826643397325, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988378849506101
+            }, 
+            "nf": 1, 
+            "np": 1718, 
+            "rank": 8
+        }
+    }
+}

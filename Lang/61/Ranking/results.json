@@ -1,0 +1,604 @@
+{
+    "date": "2015-05-07T08:47:16.424609", 
+    "executedTest": 1683, 
+    "failedTest": 2, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.lang.text.StrBuilderTest", 
+            "method": "testIndexOfLang294"
+        }, 
+        {
+            "class": "org.apache.commons.lang.text.StrBuilderTest", 
+            "method": "testLang294"
+        }
+    ], 
+    "node": "griffon-1.nancy.grid5000.fr\n", 
+    "successfulTest": 1681, 
+    "suspicious": {
+        "org.apache.commons.lang.text.StrBuilder:1114": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 13, 
+            "line": 1114, 
+            "metrics": {
+                "ample": 0.992266508030934, 
+                "gzoltar": 0.3651483716701107, 
+                "ochiai": 0.3651483716701107, 
+                "tarantula": 0.9923258559622194
+            }, 
+            "nf": 0, 
+            "np": 1668, 
+            "rank": 26
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1115": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 13, 
+            "line": 1115, 
+            "metrics": {
+                "ample": 0.992266508030934, 
+                "gzoltar": 0.3651483716701107, 
+                "ochiai": 0.3651483716701107, 
+                "tarantula": 0.9923258559622194
+            }, 
+            "nf": 0, 
+            "np": 1668, 
+            "rank": 27
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1116": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 13, 
+            "line": 1116, 
+            "metrics": {
+                "ample": 0.992266508030934, 
+                "gzoltar": 0.3651483716701107, 
+                "ochiai": 0.3651483716701107, 
+                "tarantula": 0.9923258559622194
+            }, 
+            "nf": 0, 
+            "np": 1668, 
+            "rank": 28
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1184": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1184, 
+            "metrics": {
+                "ample": 0.4994051160023795, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988116458704694
+            }, 
+            "nf": 1, 
+            "np": 1680, 
+            "rank": 1
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1185": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1185, 
+            "metrics": {
+                "ample": 0.4994051160023795, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988116458704694
+            }, 
+            "nf": 1, 
+            "np": 1680, 
+            "rank": 2
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1186": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1186, 
+            "metrics": {
+                "ample": 0.4994051160023795, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988116458704694
+            }, 
+            "nf": 1, 
+            "np": 1680, 
+            "rank": 3
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1187": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1187, 
+            "metrics": {
+                "ample": 0.4994051160023795, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988116458704694
+            }, 
+            "nf": 1, 
+            "np": 1680, 
+            "rank": 4
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1188": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1188, 
+            "metrics": {
+                "ample": 0.4994051160023795, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988116458704694
+            }, 
+            "nf": 1, 
+            "np": 1680, 
+            "rank": 5
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1189": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1189, 
+            "metrics": {
+                "ample": 0.4994051160023795, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988116458704694
+            }, 
+            "nf": 1, 
+            "np": 1680, 
+            "rank": 6
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1202": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1202, 
+            "metrics": {
+                "ample": 0.4994051160023795, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988116458704694
+            }, 
+            "nf": 1, 
+            "np": 1680, 
+            "rank": 7
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1203": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1203, 
+            "metrics": {
+                "ample": 0.4994051160023795, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988116458704694
+            }, 
+            "nf": 1, 
+            "np": 1680, 
+            "rank": 8
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1204": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1204, 
+            "metrics": {
+                "ample": 0.4994051160023795, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988116458704694
+            }, 
+            "nf": 1, 
+            "np": 1680, 
+            "rank": 9
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1205": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1205, 
+            "metrics": {
+                "ample": 0.4994051160023795, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988116458704694
+            }, 
+            "nf": 1, 
+            "np": 1680, 
+            "rank": 10
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1206": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1206, 
+            "metrics": {
+                "ample": 0.4994051160023795, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988116458704694
+            }, 
+            "nf": 1, 
+            "np": 1680, 
+            "rank": 11
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1209": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1209, 
+            "metrics": {
+                "ample": 0.4994051160023795, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988116458704694
+            }, 
+            "nf": 1, 
+            "np": 1680, 
+            "rank": 12
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1747": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1747, 
+            "metrics": {
+                "ample": 0.4994051160023795, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988116458704694
+            }, 
+            "nf": 1, 
+            "np": 1680, 
+            "rank": 13
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1761": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 7, 
+            "line": 1761, 
+            "metrics": {
+                "ample": 0.9958358120166567, 
+                "gzoltar": 0.47140452079103173, 
+                "ochiai": 0.47140452079103173, 
+                "tarantula": 0.9958530805687205
+            }, 
+            "nf": 0, 
+            "np": 1674, 
+            "rank": 14
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1762": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 7, 
+            "line": 1762, 
+            "metrics": {
+                "ample": 0.9958358120166567, 
+                "gzoltar": 0.47140452079103173, 
+                "ochiai": 0.47140452079103173, 
+                "tarantula": 0.9958530805687205
+            }, 
+            "nf": 0, 
+            "np": 1674, 
+            "rank": 15
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1765": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 7, 
+            "line": 1765, 
+            "metrics": {
+                "ample": 0.9958358120166567, 
+                "gzoltar": 0.47140452079103173, 
+                "ochiai": 0.47140452079103173, 
+                "tarantula": 0.9958530805687205
+            }, 
+            "nf": 0, 
+            "np": 1674, 
+            "rank": 16
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1766": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 7, 
+            "line": 1766, 
+            "metrics": {
+                "ample": 0.9958358120166567, 
+                "gzoltar": 0.47140452079103173, 
+                "ochiai": 0.47140452079103173, 
+                "tarantula": 0.9958530805687205
+            }, 
+            "nf": 0, 
+            "np": 1674, 
+            "rank": 17
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1769": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 7, 
+            "line": 1769, 
+            "metrics": {
+                "ample": 0.9958358120166567, 
+                "gzoltar": 0.47140452079103173, 
+                "ochiai": 0.47140452079103173, 
+                "tarantula": 0.9958530805687205
+            }, 
+            "nf": 0, 
+            "np": 1674, 
+            "rank": 18
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1772": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 7, 
+            "line": 1772, 
+            "metrics": {
+                "ample": 0.9958358120166567, 
+                "gzoltar": 0.47140452079103173, 
+                "ochiai": 0.47140452079103173, 
+                "tarantula": 0.9958530805687205
+            }, 
+            "nf": 0, 
+            "np": 1674, 
+            "rank": 19
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1775": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 7, 
+            "line": 1775, 
+            "metrics": {
+                "ample": 0.9958358120166567, 
+                "gzoltar": 0.47140452079103173, 
+                "ochiai": 0.47140452079103173, 
+                "tarantula": 0.9958530805687205
+            }, 
+            "nf": 0, 
+            "np": 1674, 
+            "rank": 20
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1777": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 7, 
+            "line": 1777, 
+            "metrics": {
+                "ample": 0.9958358120166567, 
+                "gzoltar": 0.47140452079103173, 
+                "ochiai": 0.47140452079103173, 
+                "tarantula": 0.9958530805687205
+            }, 
+            "nf": 0, 
+            "np": 1674, 
+            "rank": 21
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1778": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 7, 
+            "line": 1778, 
+            "metrics": {
+                "ample": 0.9958358120166567, 
+                "gzoltar": 0.47140452079103173, 
+                "ochiai": 0.47140452079103173, 
+                "tarantula": 0.9958530805687205
+            }, 
+            "nf": 0, 
+            "np": 1674, 
+            "rank": 22
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1779": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 7, 
+            "line": 1779, 
+            "metrics": {
+                "ample": 0.9958358120166567, 
+                "gzoltar": 0.47140452079103173, 
+                "ochiai": 0.47140452079103173, 
+                "tarantula": 0.9958530805687205
+            }, 
+            "nf": 0, 
+            "np": 1674, 
+            "rank": 23
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1780": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 7, 
+            "line": 1780, 
+            "metrics": {
+                "ample": 0.9958358120166567, 
+                "gzoltar": 0.47140452079103173, 
+                "ochiai": 0.47140452079103173, 
+                "tarantula": 0.9958530805687205
+            }, 
+            "nf": 0, 
+            "np": 1674, 
+            "rank": 24
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:1783": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 7, 
+            "line": 1783, 
+            "metrics": {
+                "ample": 0.9958358120166567, 
+                "gzoltar": 0.47140452079103173, 
+                "ochiai": 0.47140452079103173, 
+                "tarantula": 0.9958530805687205
+            }, 
+            "nf": 0, 
+            "np": 1674, 
+            "rank": 25
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:182": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 169, 
+            "line": 182, 
+            "metrics": {
+                "ample": 0.8994646044021416, 
+                "gzoltar": 0.10814761408717503, 
+                "ochiai": 0.10814761408717503, 
+                "tarantula": 0.9086486486486486
+            }, 
+            "nf": 0, 
+            "np": 1512, 
+            "rank": 37
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:228": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 169, 
+            "line": 228, 
+            "metrics": {
+                "ample": 0.8994646044021416, 
+                "gzoltar": 0.10814761408717503, 
+                "ochiai": 0.10814761408717503, 
+                "tarantula": 0.9086486486486486
+            }, 
+            "nf": 0, 
+            "np": 1512, 
+            "rank": 38
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:233": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 169, 
+            "line": 233, 
+            "metrics": {
+                "ample": 0.8994646044021416, 
+                "gzoltar": 0.10814761408717503, 
+                "ochiai": 0.10814761408717503, 
+                "tarantula": 0.9086486486486486
+            }, 
+            "nf": 0, 
+            "np": 1512, 
+            "rank": 39
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:469": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 113, 
+            "line": 469, 
+            "metrics": {
+                "ample": 0.9327781082688875, 
+                "gzoltar": 0.1318760946791574, 
+                "ochiai": 0.1318760946791574, 
+                "tarantula": 0.9370122630992196
+            }, 
+            "nf": 0, 
+            "np": 1568, 
+            "rank": 33
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:472": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 113, 
+            "line": 472, 
+            "metrics": {
+                "ample": 0.9327781082688875, 
+                "gzoltar": 0.1318760946791574, 
+                "ochiai": 0.1318760946791574, 
+                "tarantula": 0.9370122630992196
+            }, 
+            "nf": 0, 
+            "np": 1568, 
+            "rank": 34
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:473": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 113, 
+            "line": 473, 
+            "metrics": {
+                "ample": 0.9327781082688875, 
+                "gzoltar": 0.1318760946791574, 
+                "ochiai": 0.1318760946791574, 
+                "tarantula": 0.9370122630992196
+            }, 
+            "nf": 0, 
+            "np": 1568, 
+            "rank": 35
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:474": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 112, 
+            "line": 474, 
+            "metrics": {
+                "ample": 0.933372992266508, 
+                "gzoltar": 0.13245323570650439, 
+                "ochiai": 0.13245323570650439, 
+                "tarantula": 0.9375348577802565
+            }, 
+            "nf": 0, 
+            "np": 1569, 
+            "rank": 29
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:475": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 112, 
+            "line": 475, 
+            "metrics": {
+                "ample": 0.933372992266508, 
+                "gzoltar": 0.13245323570650439, 
+                "ochiai": 0.13245323570650439, 
+                "tarantula": 0.9375348577802565
+            }, 
+            "nf": 0, 
+            "np": 1569, 
+            "rank": 30
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:476": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 112, 
+            "line": 476, 
+            "metrics": {
+                "ample": 0.933372992266508, 
+                "gzoltar": 0.13245323570650439, 
+                "ochiai": 0.13245323570650439, 
+                "tarantula": 0.9375348577802565
+            }, 
+            "nf": 0, 
+            "np": 1569, 
+            "rank": 31
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:477": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 112, 
+            "line": 477, 
+            "metrics": {
+                "ample": 0.933372992266508, 
+                "gzoltar": 0.13245323570650439, 
+                "ochiai": 0.13245323570650439, 
+                "tarantula": 0.9375348577802565
+            }, 
+            "nf": 0, 
+            "np": 1569, 
+            "rank": 32
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:479": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 2, 
+            "ep": 113, 
+            "line": 479, 
+            "metrics": {
+                "ample": 0.9327781082688875, 
+                "gzoltar": 0.1318760946791574, 
+                "ochiai": 0.1318760946791574, 
+                "tarantula": 0.9370122630992196
+            }, 
+            "nf": 0, 
+            "np": 1568, 
+            "rank": 36
+        }
+    }
+}

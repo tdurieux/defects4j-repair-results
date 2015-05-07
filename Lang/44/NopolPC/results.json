@@ -1,0 +1,15 @@
+{
+    "date": "2015-05-07T07:47:58.891744", 
+    "executionTime": 60102, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 5, 
+    "nbSMTVariable": 23, 
+    "nbStatement": 18, 
+    "node": "graphite-4.nancy.grid5000.fr\n", 
+    "patch": "(numeric.length())!=(0)", 
+    "patchLocation": {
+        "className": "org.apache.commons.lang.NumberUtils", 
+        "line": 193
+    }, 
+    "patchType": "PRECONDITION"
+}

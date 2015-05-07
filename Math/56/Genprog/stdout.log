@@ -1,0 +1,40 @@
+export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_56 /tmp/math_56_Genprog;cd /tmp/math_56_Genprog;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/tdurieux/results/Math/56/Genprog/result
+cd /tmp/math_56_Genprog;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -dependencies lib/ -failing org.apache.commons.math.util.MultidimensionalCounterTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_56_Genprog;
+
+2015-05-06 23:11:17,623 INFO main - ProgramVariant 1266
+ 
+ operation: 
+location= org.apache.commons.math.util.MultidimensionalCounter
+ line= 239
+ original statement= count += idx
+ fixed statement= "while (count < index) {
+	count += idx;
+	++idx;
+}"
+ generation= 633
+ 
+ ----
+2015-05-06 23:11:17,623 INFO main - Time Evolution(ms): 1253704
+2015-05-06 23:11:17,623 INFO main - 
+----stats: 
+2015-05-06 23:11:17,623 INFO main - 
+spaces: [513]: [13, 69, 69, 69, 11, 69, 69, 7, 69, 5, 69, 69, 69, 6, 69, 69, 69, 69, 7, 6, 69, 69, 69, 10, 69, 69, 13, 69, 69, 524, 69, 69, 524, 13, 69, 13, 69, 13, 524, 115, 69, 5, 69, 6, 69, 5, 13, 7, 5, 69, 69, 69, 1, 69, 69, 69, 69, 69, 69, 13, 69, 6, 13, 13, 7, 69, 6, 69, 69, 69, 10, 69, 69, 13, 10, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 2, 69, 69, 69, 5, 7, 69, 69, 6, 69, 69, 12, 5, 5, 69, 69, 69, 5, 69, 69, 69, 69, 10, 13, 69, 69, 2, 69, 69, 69, 6, 69, 2, 10, 69, 5, 13, 69, 5, 5, 69, 69, 5, 69, 6, 13, 6, 69, 5, 69, 69, 69, 13, 69, 69, 69, 6, 13, 69, 7, 524, 69, 5, 7, 7, 69, 69, 10, 524, 69, 69, 69, 69, 69, 69, 69, 5, 69, 69, 69, 12, 69, 69, 69, 69, 10, 69, 69, 69, 6, 69, 10, 69, 69, 69, 13, 69, 10, 69, 69, 5, 69, 69, 5, 69, 69, 6, 69, 10, 69, 69, 69, 69, 69, 69, 69, 69, 13, 69, 6, 69, 69, 69, 7, 13, 69, 69, 69, 69, 13, 69, 524, 5, 69, 69, 69, 69, 69, 69, 69, 6, 5, 69, 13, 6, 69, 69, 69, 69, 69, 69, 2, 69, 69, 69, 69, 69, 6, 5, 69, 13, 69, 69, 6, 10, 7, 69, 6, 69, 69, 6, 7, 69, 69, 6, 69, 69, 69, 6, 10, 6, 69, 69, 69, 7, 115, 69, 69, 69, 69, 10, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 7, 69, 69, 13, 69, 524, 7, 69, 69, 6, 5, 10, 69, 69, 13, 69, 524, 69, 69, 69, 69, 7, 5, 5, 10, 69, 69, 69, 5, 13, 6, 69, 69, 6, 7, 10, 69, 6, 69, 69, 69, 69, 6, 7, 69, 69, 69, 69, 2, 69, 69, 69, 69, 69, 69, 69, 13, 2, 11, 5, 69, 69, 69, 69, 69, 69, 69, 69, 13, 69, 69, 10, 10, 6, 69, 69, 69, 69, 13, 69, 13, 69, 5, 10, 69, 6, 69, 69, 524, 69, 69, 524, 69, 69, 7, 13, 69, 69, 69, 6, 5, 7, 69, 5, 69, 69, 69, 69, 69, 6, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 10, 69, 6, 69, 69, 5, 69, 5, 69, 69, 69, 69, 11, 6, 69, 69, 69, 10, 10, 69, 5, 6, 10, 69, 115, 69, 69, 69, 69, 69, 69, 69, 5, 69, 11, 69, 69, 69, 524, 69, 69, 69, 69, 69, 69, 69, 7, 69, 2, 69, 69, 69, 6, 69, 11, 69, 69, 69, 69, 69, 6, 69, 69, 69, 7, 69, 69, 5, 69, 69, 69, 69, 7, 69, 69, 69, 69, 69, 69, 7, 69, 69, 5, 11, 6, 69, 69, 69, 69, 69, 89, 6, 1, 69, 69, 69, 69, 5, 6, 69, 69]
+time val1 [192]: [245, 244, 60001, 242, 244, 245, 248, 242, 241, 241, 241, 255, 249, 244, 240, 242, 239, 240, 246, 240, 243, 241, 242, 246, 244, 435, 242, 242, 257, 246, 244, 241, 241, 240, 241, 243, 240, 242, 241, 242, 243, 240, 242, 60001, 244, 241, 242, 241, 241, 244, 239, 60001, 243, 247, 244, 242, 240, 242, 241, 240, 241, 254, 242, 240, 239, 241, 246, 244, 240, 241, 246, 240, 241, 242, 241, 240, 242, 244, 257, 241, 241, 240, 241, 241, 242, 241, 241, 242, 240, 60001, 244, 60001, 244, 240, 240, 241, 243, 240, 243, 241, 242, 241, 245, 60001, 244, 240, 241, 243, 241, 240, 242, 259, 243, 239, 242, 241, 241, 258, 241, 240, 240, 247, 241, 240, 241, 241, 240, 242, 241, 241, 243, 241, 60001, 243, 240, 240, 60002, 60001, 243, 241, 60001, 241, 60001, 243, 240, 246, 240, 242, 241, 240, 240, 60001, 60001, 60001, 243, 60001, 242, 239, 240, 243, 60001, 244, 240, 240, 242, 240, 241, 240, 240, 241, 242, 60001, 244, 242, 242, 241, 240, 241, 247, 60001, 60001, 254, 242, 242, 242, 241, 250, 241, 239, 239, 241, 241]
+time val2 [1]: [25390]
+#gen: 633
+#patches: 1
+#RightCompilation: 191
+#WrongCompilation: 442
+#FailingTestCaseExecution: 192
+#RegressionTestExecution: 1
+#TestcasesExecutedval1: 865
+#TestcasesExecutedval2: 2270
+#FailingTestCase: 5
+#RegressionTestCases: 2270
+#OfAppliedOp: 633
+#NotAppliedOp: 0
+#InmutatedGen: 49
+#unfinishValidation: 0
+2015-05-06 23:11:17,624 INFO fr.inria.main.AbstractMain - Time Total(ms): 1396422
+

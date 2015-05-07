@@ -1,0 +1,43 @@
+java.lang.IllegalArgumentException: The validation process does not execute well the test cases
+ Exception in thread "main" java.util.MissingResourceException: Can't find bundle for base name META-INF/localization/LocalizedFormats, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:1499)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1322)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.exception.util.LocalizedFormats.getLocalizedString(LocalizedFormats.java:20)
+	at org.apache.commons.math.exception.util.MessageFactory.buildMessage(MessageFactory.java:13)
+	at org.apache.commons.math.exception.MathRuntimeException.getMessage(MathRuntimeException.java:102)
+	at org.apache.commons.math.exception.MathRuntimeException.getMessage(MathRuntimeException.java:108)
+	at org.junit.runner.notification.Failure.toString(Failure.java:59)
+	at fr.inria.astor.junitexec.JUnitTestExecutor.runinBackground(JUnitTestExecutor.java:40)
+	at fr.inria.astor.junitexec.JUnitTestExecutor.main(JUnitTestExecutor.java:104)
+
+	at fr.inria.astor.core.validation.executors.JUnitExecutorProcess.getTestResult(JUnitExecutorProcess.java:130)
+	at fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:78)
+	at fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:34)
+	at fr.inria.astor.core.validation.validators.ProcessValidator.validate(ProcessValidator.java:58)
+	at fr.inria.astor.core.loop.evolutionary.EvolutionaryEngine.validateInstance(EvolutionaryEngine.java:746)
+	at fr.inria.astor.core.loop.evolutionary.EvolutionaryEngine.processCreatedVariant(EvolutionaryEngine.java:345)
+	at fr.inria.astor.core.loop.evolutionary.EvolutionaryEngine.processGenerations(EvolutionaryEngine.java:211)
+	at fr.inria.astor.core.loop.evolutionary.EvolutionaryEngine.startEvolution(EvolutionaryEngine.java:127)
+	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:137)
+	at fr.inria.main.evolution.MainjGenProg.main(MainjGenProg.java:171)
+Exception in thread "main" java.lang.AssertionError: The validation process does not execute well the test cases
+ Exception in thread "main" java.util.MissingResourceException: Can't find bundle for base name META-INF/localization/LocalizedFormats, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:1499)
+	at java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1322)
+	at java.util.ResourceBundle.getBundle(ResourceBundle.java:795)
+	at org.apache.commons.math.exception.util.LocalizedFormats.getLocalizedString(LocalizedFormats.java:20)
+	at org.apache.commons.math.exception.util.MessageFactory.buildMessage(MessageFactory.java:13)
+	at org.apache.commons.math.exception.MathRuntimeException.getMessage(MathRuntimeException.java:102)
+	at org.apache.commons.math.exception.MathRuntimeException.getMessage(MathRuntimeException.java:108)
+	at org.junit.runner.notification.Failure.toString(Failure.java:59)
+	at fr.inria.astor.junitexec.JUnitTestExecutor.runinBackground(JUnitTestExecutor.java:40)
+	at fr.inria.astor.junitexec.JUnitTestExecutor.main(JUnitTestExecutor.java:104)
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:140)
+	at fr.inria.main.evolution.MainjGenProg.main(MainjGenProg.java:171)
+
+real	3m13.981s
+user	4m17.376s
+sys	0m3.168s

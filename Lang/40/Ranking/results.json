@@ -1,0 +1,75 @@
+{
+    "date": "2015-05-07T08:48:49.068918", 
+    "executedTest": 1643, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.lang.StringUtilsEqualsIndexOfTest", 
+            "method": "testContainsIgnoreCase_LocaleIndependence"
+        }
+    ], 
+    "node": "griffon-74.nancy.grid5000.fr\n", 
+    "successfulTest": 1642, 
+    "suspicious": {
+        "org.apache.commons.lang.StringUtils:1015": {
+            "class": "org.apache.commons.lang.StringUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 1015, 
+            "metrics": {
+                "ample": 0.9981729598051157, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.998176291793313
+            }, 
+            "nf": 0, 
+            "np": 1639, 
+            "rank": 4
+        }, 
+        "org.apache.commons.lang.StringUtils:1018": {
+            "class": "org.apache.commons.lang.StringUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 1018, 
+            "metrics": {
+                "ample": 0.9987819732034104, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9987834549878345
+            }, 
+            "nf": 0, 
+            "np": 1640, 
+            "rank": 3
+        }, 
+        "org.apache.commons.lang.StringUtils:1045": {
+            "class": "org.apache.commons.lang.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1045, 
+            "metrics": {
+                "ample": 0.9993909866017052, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.9993913572732805
+            }, 
+            "nf": 0, 
+            "np": 1641, 
+            "rank": 1
+        }, 
+        "org.apache.commons.lang.StringUtils:1048": {
+            "class": "org.apache.commons.lang.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 1048, 
+            "metrics": {
+                "ample": 0.9993909866017052, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.9993913572732805
+            }, 
+            "nf": 0, 
+            "np": 1641, 
+            "rank": 2
+        }
+    }
+}

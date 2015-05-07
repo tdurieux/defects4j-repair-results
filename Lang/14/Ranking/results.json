@@ -1,0 +1,30 @@
+{
+    "date": "2015-05-07T08:50:15.687493", 
+    "executedTest": 2073, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest", 
+            "method": "testEquals"
+        }
+    ], 
+    "node": "griffon-34.nancy.grid5000.fr\n", 
+    "successfulTest": 2072, 
+    "suspicious": {
+        "org.apache.commons.lang3.StringUtils:782": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 16, 
+            "line": 782, 
+            "metrics": {
+                "ample": 0.9922779922779923, 
+                "gzoltar": 0.24253562503633297, 
+                "ochiai": 0.24253562503633297, 
+                "tarantula": 0.9923371647509579
+            }, 
+            "nf": 0, 
+            "np": 2056, 
+            "rank": 1
+        }
+    }
+}

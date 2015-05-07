@@ -1,0 +1,26 @@
+{
+    "date": "2015-05-07T08:53:22.319617", 
+    "executedTest": 3550, 
+    "failedTest": 4, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.math3.genetics.ElitisticListPopulationTest", 
+            "method": "testChromosomeListConstructorTooLow"
+        }, 
+        {
+            "class": "org.apache.commons.math3.genetics.ElitisticListPopulationTest", 
+            "method": "testConstructorTooHigh"
+        }, 
+        {
+            "class": "org.apache.commons.math3.genetics.ElitisticListPopulationTest", 
+            "method": "testConstructorTooLow"
+        }, 
+        {
+            "class": "org.apache.commons.math3.genetics.ElitisticListPopulationTest", 
+            "method": "testChromosomeListConstructorTooHigh"
+        }
+    ], 
+    "node": "griffon-62.nancy.grid5000.fr\n", 
+    "successfulTest": 3546, 
+    "suspicious": {}
+}

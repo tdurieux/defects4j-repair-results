@@ -1,0 +1,79 @@
+{
+    "date": "2015-05-07T08:52:31.030232", 
+    "executedTest": 3540, 
+    "failedTest": 2, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.math.fraction.BigFractionTest", 
+            "method": "testFloatValueForLargeNumeratorAndDenominator"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.BigFractionTest", 
+            "method": "testDoubleValueForLargeNumeratorAndDenominator"
+        }
+    ], 
+    "node": "griffon-13.nancy.grid5000.fr\n", 
+    "successfulTest": 3538, 
+    "suspicious": {
+        "org.apache.commons.math.fraction.BigFraction:685": {
+            "class": "org.apache.commons.math.fraction.BigFraction", 
+            "ef": 1, 
+            "ep": 25, 
+            "line": 685, 
+            "metrics": {
+                "ample": 0.49293386093838326, 
+                "gzoltar": 0.1386750490563073, 
+                "ochiai": 0.1386750490563073, 
+                "tarantula": 0.9860646599777035
+            }, 
+            "nf": 1, 
+            "np": 3513, 
+            "rank": 4
+        }, 
+        "org.apache.commons.math.fraction.BigFraction:729": {
+            "class": "org.apache.commons.math.fraction.BigFraction", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 729, 
+            "metrics": {
+                "ample": 0.49971735443753534, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9994350282485874
+            }, 
+            "nf": 1, 
+            "np": 3537, 
+            "rank": 1
+        }, 
+        "org.apache.commons.math.util.MathUtils:244": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 2, 
+            "ep": 45, 
+            "line": 244, 
+            "metrics": {
+                "ample": 0.9872809496890899, 
+                "gzoltar": 0.20628424925175867, 
+                "ochiai": 0.20628424925175867, 
+                "tarantula": 0.98744069215741
+            }, 
+            "nf": 0, 
+            "np": 3493, 
+            "rank": 3
+        }, 
+        "org.apache.commons.math.util.MathUtils:247": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 2, 
+            "ep": 44, 
+            "line": 247, 
+            "metrics": {
+                "ample": 0.9875635952515546, 
+                "gzoltar": 0.20851441405707477, 
+                "ochiai": 0.20851441405707477, 
+                "tarantula": 0.987716359575656
+            }, 
+            "nf": 0, 
+            "np": 3494, 
+            "rank": 2
+        }
+    }
+}

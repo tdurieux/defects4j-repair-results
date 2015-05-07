@@ -1,0 +1,29 @@
+export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_58 /tmp/math_58_Kali;cd /tmp/math_58_Kali;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/tdurieux/results/Math/58/Kali/result
+cd /tmp/math_58_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.optimization.fitting.GaussianFitterTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_58_Kali;
+ NOT Found solution
+2015-05-07 01:12:00,123 INFO main - Number solutions:0
+2015-05-07 01:12:00,123 INFO main - All variants:
+2015-05-07 01:12:00,123 INFO main - Time Evolution(ms): 2492859
+2015-05-07 01:12:00,123 INFO main - 
+----stats: 
+2015-05-07 01:12:00,123 INFO main - 
+spaces: [0]: []
+time val1 [287]: [299, 336, 307, 293, 300, 284, 182, 171, 292, 317, 302, 272, 303, 289, 289, 292, 294, 298, 294, 296, 294, 292, 293, 293, 298, 298, 296, 273, 294, 323, 324, 294, 202, 293, 294, 291, 283, 344, 337, 288, 286, 319, 324, 323, 60001, 60001, 295, 346, 293, 270, 273, 265, 266, 264, 268, 267, 264, 294, 282, 60001, 1581, 1587, 293, 60001, 295, 201, 322, 273, 280, 293, 294, 293, 293, 284, 295, 293, 293, 293, 294, 293, 293, 292, 282, 285, 275, 282, 272, 274, 280, 60001, 60001, 353, 60001, 364, 272, 293, 284, 60001, 272, 272, 274, 60002, 60001, 60001, 60001, 289, 275, 275, 293, 273, 275, 271, 272, 318, 60001, 278, 293, 293, 294, 275, 274, 60001, 60001, 278, 273, 273, 294, 60001, 289, 264, 10319, 294, 60001, 60001, 60001, 60002, 60001, 60001, 275, 332, 332, 265, 294, 296, 284, 294, 293, 325, 264, 265, 266, 266, 282, 276, 265, 292, 286, 294, 60002, 279, 278, 294, 294, 292, 293, 283, 266, 265, 272, 268, 265, 273, 296, 293, 267, 269, 269, 273, 274, 297, 297, 297, 299, 300, 267, 60001, 1698, 295, 277, 282, 293, 294, 291, 291, 266, 291, 293, 290, 282, 265, 265, 298, 390, 10299, 4784, 273, 337, 275, 60002, 60001, 273, 270, 271, 280, 271, 274, 267, 262, 264, 264, 264, 264, 266, 295, 295, 266, 266, 265, 267, 265, 274, 266, 265, 273, 60001, 267, 265, 269, 283, 267, 264, 265, 294, 537, 302, 273, 60001, 359, 60002, 267, 264, 265, 293, 265, 294, 270, 270, 271, 294, 266, 265, 265, 265, 293, 275, 249, 294, 262, 294, 175, 273, 264, 293, 261, 284, 294, 295, 284, 293, 295, 282, 268, 294, 250, 261, 263, 293]
+time val2 [15]: [30834, 30669, 30639, 30772, 30659, 30946, 30839, 30684, 30700, 30594, 30898, 31167, 30834, 30728, 189100]
+#gen: 456
+#patches: 0
+#RightCompilation: 286
+#WrongCompilation: 169
+#FailingTestCaseExecution: 287
+#RegressionTestExecution: 15
+#TestcasesExecutedval1: 2064
+#TestcasesExecutedval2: 33360
+#FailingTestCase: 8
+#RegressionTestCases: 2224
+#OfAppliedOp: 455
+#NotAppliedOp: 0
+#InmutatedGen: 0
+#unfinishValidation: 0
+2015-05-07 01:12:00,124 INFO fr.inria.main.AbstractMain - Time Total(ms): 2633990
+

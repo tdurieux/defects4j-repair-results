@@ -1,0 +1,79 @@
+{
+    "date": "2015-05-07T08:41:34.903550", 
+    "executedTest": 1692, 
+    "failedTest": 2, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.math.stat.FrequencyTest", 
+            "method": "testAddNonComparable"
+        }, 
+        {
+            "class": "junit.framework.TestSuite$1", 
+            "method": "warning"
+        }
+    ], 
+    "node": "graphite-3.nancy.grid5000.fr\n", 
+    "successfulTest": 1690, 
+    "suspicious": {
+        "org.apache.commons.math.stat.Frequency:107": {
+            "class": "org.apache.commons.math.stat.Frequency", 
+            "ef": 1, 
+            "ep": 27, 
+            "line": 107, 
+            "metrics": {
+                "ample": 0.4840236686390533, 
+                "gzoltar": 0.1336306209562122, 
+                "ochiai": 0.1336306209562122, 
+                "tarantula": 0.9690366972477064
+            }, 
+            "nf": 1, 
+            "np": 1663, 
+            "rank": 2
+        }, 
+        "org.apache.commons.math.stat.Frequency:108": {
+            "class": "org.apache.commons.math.stat.Frequency", 
+            "ef": 1, 
+            "ep": 27, 
+            "line": 108, 
+            "metrics": {
+                "ample": 0.4840236686390533, 
+                "gzoltar": 0.1336306209562122, 
+                "ochiai": 0.1336306209562122, 
+                "tarantula": 0.9690366972477064
+            }, 
+            "nf": 1, 
+            "np": 1663, 
+            "rank": 3
+        }, 
+        "org.apache.commons.math.stat.Frequency:112": {
+            "class": "org.apache.commons.math.stat.Frequency", 
+            "ef": 1, 
+            "ep": 27, 
+            "line": 112, 
+            "metrics": {
+                "ample": 0.4840236686390533, 
+                "gzoltar": 0.1336306209562122, 
+                "ochiai": 0.1336306209562122, 
+                "tarantula": 0.9690366972477064
+            }, 
+            "nf": 1, 
+            "np": 1663, 
+            "rank": 4
+        }, 
+        "org.apache.commons.math.stat.Frequency:120": {
+            "class": "org.apache.commons.math.stat.Frequency", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 120, 
+            "metrics": {
+                "ample": 0.49940828402366866, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988179669030733
+            }, 
+            "nf": 1, 
+            "np": 1689, 
+            "rank": 1
+        }
+    }
+}

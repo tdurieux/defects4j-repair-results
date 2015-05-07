@@ -1,0 +1,345 @@
+{
+    "date": "2015-05-07T08:50:08.966275", 
+    "executedTest": 1902, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormatTest", 
+            "method": "testEscapedQuote_LANG_477"
+        }
+    ], 
+    "node": "griffon-4.nancy.grid5000.fr\n", 
+    "successfulTest": 1901, 
+    "suspicious": {
+        "org.apache.commons.lang.text.ExtendedMessageFormat:143": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 143, 
+            "metrics": {
+                "ample": 0.9968437664387164, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9968536969061352
+            }, 
+            "nf": 0, 
+            "np": 1895, 
+            "rank": 19
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:144": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 144, 
+            "metrics": {
+                "ample": 0.9968437664387164, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9968536969061352
+            }, 
+            "nf": 0, 
+            "np": 1895, 
+            "rank": 20
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:145": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 145, 
+            "metrics": {
+                "ample": 0.9968437664387164, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9968536969061352
+            }, 
+            "nf": 0, 
+            "np": 1895, 
+            "rank": 21
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:146": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 146, 
+            "metrics": {
+                "ample": 0.9968437664387164, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9968536969061352
+            }, 
+            "nf": 0, 
+            "np": 1895, 
+            "rank": 22
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:148": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 148, 
+            "metrics": {
+                "ample": 0.9984218832193582, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9984243697478993
+            }, 
+            "nf": 0, 
+            "np": 1898, 
+            "rank": 7
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:149": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 149, 
+            "metrics": {
+                "ample": 0.9984218832193582, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9984243697478993
+            }, 
+            "nf": 0, 
+            "np": 1898, 
+            "rank": 8
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:150": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 150, 
+            "metrics": {
+                "ample": 0.9984218832193582, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9984243697478993
+            }, 
+            "nf": 0, 
+            "np": 1898, 
+            "rank": 9
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:152": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 152, 
+            "metrics": {
+                "ample": 0.9984218832193582, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9984243697478993
+            }, 
+            "nf": 0, 
+            "np": 1898, 
+            "rank": 10
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:153": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 153, 
+            "metrics": {
+                "ample": 0.9984218832193582, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9984243697478993
+            }, 
+            "nf": 0, 
+            "np": 1898, 
+            "rank": 11
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:154": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 154, 
+            "metrics": {
+                "ample": 0.9984218832193582, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9984243697478993
+            }, 
+            "nf": 0, 
+            "np": 1898, 
+            "rank": 12
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:155": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 155, 
+            "metrics": {
+                "ample": 0.9984218832193582, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9984243697478993
+            }, 
+            "nf": 0, 
+            "np": 1898, 
+            "rank": 13
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:156": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 156, 
+            "metrics": {
+                "ample": 0.9984218832193582, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9984243697478993
+            }, 
+            "nf": 0, 
+            "np": 1898, 
+            "rank": 14
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:158": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 158, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 1901, 
+            "rank": 1
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:159": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 159, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 1901, 
+            "rank": 2
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:187": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 187, 
+            "metrics": {
+                "ample": 0.9984218832193582, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9984243697478993
+            }, 
+            "nf": 0, 
+            "np": 1898, 
+            "rank": 15
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:188": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 188, 
+            "metrics": {
+                "ample": 0.9984218832193582, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9984243697478993
+            }, 
+            "nf": 0, 
+            "np": 1898, 
+            "rank": 16
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:403": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 403, 
+            "metrics": {
+                "ample": 0.9984218832193582, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9984243697478993
+            }, 
+            "nf": 0, 
+            "np": 1898, 
+            "rank": 17
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:404": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 404, 
+            "metrics": {
+                "ample": 0.9984218832193582, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9984243697478993
+            }, 
+            "nf": 0, 
+            "np": 1898, 
+            "rank": 18
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:419": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 419, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 1901, 
+            "rank": 3
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:420": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 420, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 1901, 
+            "rank": 4
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:421": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 421, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 1901, 
+            "rank": 5
+        }, 
+        "org.apache.commons.lang.text.ExtendedMessageFormat:422": {
+            "class": "org.apache.commons.lang.text.ExtendedMessageFormat", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 422, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 1901, 
+            "rank": 6
+        }
+    }
+}

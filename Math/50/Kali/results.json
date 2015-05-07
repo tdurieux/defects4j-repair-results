@@ -1,0 +1,48 @@
+{
+    "date": "2015-05-07T02:33:39.513709", 
+    "gen": "39", 
+    "node": "graphene-20.nancy.grid5000.fr\n", 
+    "operations": [
+        {
+            "generation": 2, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver", 
+                "line": 191
+            }
+        }
+    ], 
+    "patches": "1", 
+    "programVariant": "3", 
+    "timeEvaluation": "97431", 
+    "timeTotal": "276138", 
+    "timeVal1": [
+        263, 
+        263, 
+        266, 
+        274, 
+        284, 
+        276, 
+        287, 
+        278, 
+        262, 
+        277, 
+        281, 
+        271, 
+        270, 
+        270, 
+        253, 
+        261, 
+        276, 
+        264, 
+        264, 
+        264, 
+        255, 
+        261, 
+        252
+    ], 
+    "timeVal2": [
+        44296, 
+        43854
+    ]
+}

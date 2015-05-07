@@ -1,0 +1,30 @@
+{
+    "date": "2015-05-07T08:49:34.292292", 
+    "executedTest": 1821, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.lang3.text.translate.EntityArraysTest", 
+            "method": "testISO8859_1_ESCAPE"
+        }
+    ], 
+    "node": "griffon-63.nancy.grid5000.fr\n", 
+    "successfulTest": 1820, 
+    "suspicious": {
+        "org.apache.commons.lang3.text.translate.EntityArrays:30": {
+            "class": "org.apache.commons.lang3.text.translate.EntityArrays", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 30, 
+            "metrics": {
+                "ample": 0.9994505494505495, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.99945085118067
+            }, 
+            "nf": 0, 
+            "np": 1819, 
+            "rank": 1
+        }
+    }
+}

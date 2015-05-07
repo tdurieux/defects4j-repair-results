@@ -1,0 +1,15 @@
+{
+    "date": "2015-05-07T07:41:52.716187", 
+    "executionTime": 34697, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 124, 
+    "nbSMTVariable": 18, 
+    "nbStatement": 1, 
+    "node": "griffon-17.nancy.grid5000.fr\n", 
+    "patch": "(org.apache.commons.math.optimization.linear.SimplexTableau.this.numSlackVariables)<(org.apache.commons.math.optimization.linear.SimplexTableau.this.constraints.size())", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+        "line": 352
+    }, 
+    "patchType": "PRECONDITION"
+}

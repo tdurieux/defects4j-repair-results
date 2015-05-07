@@ -1,0 +1,18 @@
+java.io.FileNotFoundException: Source './target/tests' does not exist
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1368)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1261)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1230)
+	at fr.inria.astor.core.setup.ProjectRepairFacade.copyOriginalBin(ProjectRepairFacade.java:119)
+	at fr.inria.astor.core.setup.ProjectRepairFacade.setupTempDirectories(ProjectRepairFacade.java:58)
+	at fr.inria.main.evolution.MainjGenProg.initProject(MainjGenProg.java:44)
+	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:122)
+	at fr.inria.main.evolution.MainjGenProg.main(MainjGenProg.java:171)
+Exception in thread "main" java.lang.IllegalArgumentException: No suspicious gen for analyze
+	at fr.inria.main.evolution.MainjGenProg.statementMode(MainjGenProg.java:110)
+	at fr.inria.main.evolution.MainjGenProg.statementMode(MainjGenProg.java:50)
+	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:126)
+	at fr.inria.main.evolution.MainjGenProg.main(MainjGenProg.java:171)
+
+real	0m2.218s
+user	0m2.092s
+sys	0m0.384s

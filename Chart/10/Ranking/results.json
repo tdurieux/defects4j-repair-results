@@ -1,0 +1,34 @@
+{
+    "date": "2015-05-07T08:52:20.648484", 
+    "executedTest": 3625, 
+    "failedTest": 2, 
+    "failedTestDetails": [
+        {
+            "class": "org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests", 
+            "method": "testGenerateURLFragment"
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests", 
+            "method": "testGenerateURLFragment"
+        }
+    ], 
+    "node": "griffon-20.nancy.grid5000.fr\n", 
+    "successfulTest": 3623, 
+    "suspicious": {
+        "org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator:58": {
+            "class": "org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 58, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 3623, 
+            "rank": 1
+        }
+    }
+}

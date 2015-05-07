@@ -1,0 +1,29 @@
+export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_33 /tmp/math_33_Kali;cd /tmp/math_33_Kali;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/tdurieux/results/Math/33/Kali/result
+cd /tmp/math_33_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math3.optimization.linear.SimplexSolverTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_33_Kali;
+ NOT Found solution
+2015-05-07 00:43:30,256 INFO main - Number solutions:0
+2015-05-07 00:43:30,256 INFO main - All variants:
+2015-05-07 00:43:30,256 INFO main - Time Evolution(ms): 150911
+2015-05-07 00:43:30,256 INFO main - 
+----stats: 
+2015-05-07 00:43:30,256 INFO main - 
+spaces: [0]: []
+time val1 [128]: [367, 368, 401, 378, 368, 372, 372, 371, 372, 367, 425, 365, 371, 366, 368, 376, 371, 365, 352, 351, 352, 366, 369, 374, 366, 371, 60001, 372, 363, 397, 367, 365, 366, 265, 366, 368, 349, 365, 366, 364, 369, 371, 369, 275, 367, 366, 317, 259, 259, 368, 260, 264, 264, 264, 366, 372, 266, 366, 367, 365, 368, 309, 313, 315, 368, 361, 368, 372, 371, 298, 260, 260, 264, 216, 216, 370, 367, 366, 360, 264, 264, 369, 299, 367, 265, 264, 369, 367, 360, 361, 389, 362, 361, 370, 367, 366, 371, 368, 370, 296, 275, 371, 371, 371, 295, 246, 248, 366, 246, 247, 264, 264, 366, 367, 322, 346, 368, 295, 297, 370, 371, 366, 297, 298, 367, 388, 367, 379]
+time val2 [0]: []
+#gen: 227
+#patches: 0
+#RightCompilation: 127
+#WrongCompilation: 99
+#FailingTestCaseExecution: 128
+#RegressionTestExecution: 0
+#TestcasesExecutedval1: 3048
+#TestcasesExecutedval2: 0
+#FailingTestCase: 24
+#RegressionTestCases: 0
+#OfAppliedOp: 226
+#NotAppliedOp: 0
+#InmutatedGen: 0
+#unfinishValidation: 0
+2015-05-07 00:43:30,257 INFO fr.inria.main.AbstractMain - Time Total(ms): 679156
+

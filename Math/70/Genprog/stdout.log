@@ -1,0 +1,37 @@
+export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_70 /tmp/math_70_Genprog;cd /tmp/math_70_Genprog;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/tdurieux/results/Math/70/Genprog/result
+cd /tmp/math_70_Genprog;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -dependencies lib/ -failing org.apache.commons.math.analysis.solvers.BisectionSolverTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_70_Genprog;
+
+2015-05-06 22:27:13,134 INFO main - ProgramVariant 98
+ 
+ operation: 
+location= org.apache.commons.math.analysis.solvers.BisectionSolver
+ line= 72
+ original statement= return solve(min, max)
+ fixed statement= "return solve(f, min, max)"
+ generation= 49
+ 
+ ----
+2015-05-06 22:27:13,134 INFO main - Time Evolution(ms): 15060
+2015-05-06 22:27:13,134 INFO main - 
+----stats: 
+2015-05-06 22:27:13,134 INFO main - 
+spaces: [35]: [24, 24, 24, 24, 24, 4, 24, 24, 24, 6, 24, 4, 24, 24, 24, 24, 4, 6, 24, 24, 24, 6, 24, 24, 24, 6, 5, 5, 24, 24, 4, 5, 4, 24, 4]
+time val1 [10]: [170, 160, 162, 170, 168, 183, 162, 161, 163, 165]
+time val2 [1]: [10824]
+#gen: 49
+#patches: 1
+#RightCompilation: 9
+#WrongCompilation: 40
+#FailingTestCaseExecution: 10
+#RegressionTestExecution: 1
+#TestcasesExecutedval1: 120
+#TestcasesExecutedval2: 2074
+#FailingTestCase: 12
+#RegressionTestCases: 2074
+#OfAppliedOp: 49
+#NotAppliedOp: 0
+#InmutatedGen: 1
+#unfinishValidation: 0
+2015-05-06 22:27:13,134 INFO fr.inria.main.AbstractMain - Time Total(ms): 45923
+

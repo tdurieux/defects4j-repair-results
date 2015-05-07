@@ -1,0 +1,1621 @@
+{
+    "date": "2015-05-07T08:41:11.214368", 
+    "executedTest": 1095, 
+    "failedTest": 35, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testFloatValue"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testAbs"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testAdd"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testSubtract"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testReciprocal"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testEpsilonLimitConstructor"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testGetReducedFraction"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testConstructorDouble"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testCompareTo"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testDoubleConstructor"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testLongValue"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testDigitLimitConstructor"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testIntValue"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testDivide"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testMultiply"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testEqualsAndHashCode"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testNegate"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testGoldenRatio"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testIntegerOverflow"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testDoubleValue"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionTest", 
+            "method": "testConstructor"
+        }, 
+        {
+            "class": "org.apache.commons.math.optimization.MultiDirectionalTest", 
+            "method": "testCostExceptions"
+        }, 
+        {
+            "class": "org.apache.commons.math.optimization.MultiDirectionalTest", 
+            "method": "testRosenbrock"
+        }, 
+        {
+            "class": "org.apache.commons.math.optimization.MultiDirectionalTest", 
+            "method": "testPowell"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionFormatTest", 
+            "method": "testFormatImproperNegative"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionFormatTest", 
+            "method": "testFormatImproper"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionFormatTest", 
+            "method": "testParseProper"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionFormatTest", 
+            "method": "testParseProperNegative"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionFormatTest", 
+            "method": "testParse"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionFormatTest", 
+            "method": "testFormatZero"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionFormatTest", 
+            "method": "testFormatNegative"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionFormatTest", 
+            "method": "testParseInteger"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionFormatTest", 
+            "method": "testFormat"
+        }, 
+        {
+            "class": "org.apache.commons.math.fraction.FractionFormatTest", 
+            "method": "testParseNegative"
+        }, 
+        {
+            "class": "org.apache.commons.math.analysis.BrentSolverTest", 
+            "method": "testRootEndpoints"
+        }
+    ], 
+    "node": "griffon-38.nancy.grid5000.fr\n", 
+    "successfulTest": 1060, 
+    "suspicious": {
+        "org.apache.commons.math.analysis.BrentSolver:128": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 31, 
+            "line": 128, 
+            "metrics": {
+                "ample": 0.0006738544474393544, 
+                "gzoltar": 0.02988071523335984, 
+                "ochiai": 0.02988071523335984, 
+                "tarantula": 0.49417249417249415
+            }, 
+            "nf": 34, 
+            "np": 1029, 
+            "rank": 86
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:129": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 31, 
+            "line": 129, 
+            "metrics": {
+                "ample": 0.0006738544474393544, 
+                "gzoltar": 0.02988071523335984, 
+                "ochiai": 0.02988071523335984, 
+                "tarantula": 0.49417249417249415
+            }, 
+            "nf": 34, 
+            "np": 1029, 
+            "rank": 87
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:131": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 31, 
+            "line": 131, 
+            "metrics": {
+                "ample": 0.0006738544474393544, 
+                "gzoltar": 0.02988071523335984, 
+                "ochiai": 0.02988071523335984, 
+                "tarantula": 0.49417249417249415
+            }, 
+            "nf": 34, 
+            "np": 1029, 
+            "rank": 88
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:132": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 31, 
+            "line": 132, 
+            "metrics": {
+                "ample": 0.0006738544474393544, 
+                "gzoltar": 0.02988071523335984, 
+                "ochiai": 0.02988071523335984, 
+                "tarantula": 0.49417249417249415
+            }, 
+            "nf": 34, 
+            "np": 1029, 
+            "rank": 89
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:135": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 31, 
+            "line": 135, 
+            "metrics": {
+                "ample": 0.0006738544474393544, 
+                "gzoltar": 0.02988071523335984, 
+                "ochiai": 0.02988071523335984, 
+                "tarantula": 0.49417249417249415
+            }, 
+            "nf": 34, 
+            "np": 1029, 
+            "rank": 90
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:136": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 136, 
+            "metrics": {
+                "ample": 0.025741239892183288, 
+                "gzoltar": 0.08451542547285165, 
+                "ochiai": 0.08451542547285165, 
+                "tarantula": 0.9098712446351931
+            }, 
+            "nf": 34, 
+            "np": 1057, 
+            "rank": 68
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:143": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 28, 
+            "line": 143, 
+            "metrics": {
+                "ample": 0.002156334231805928, 
+                "gzoltar": 0.03138824102871723, 
+                "ochiai": 0.03138824102871723, 
+                "tarantula": 0.5196078431372548
+            }, 
+            "nf": 34, 
+            "np": 1032, 
+            "rank": 79
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:168": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 28, 
+            "line": 168, 
+            "metrics": {
+                "ample": 0.002156334231805928, 
+                "gzoltar": 0.03138824102871723, 
+                "ochiai": 0.03138824102871723, 
+                "tarantula": 0.5196078431372548
+            }, 
+            "nf": 34, 
+            "np": 1032, 
+            "rank": 80
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:169": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 28, 
+            "line": 169, 
+            "metrics": {
+                "ample": 0.002156334231805928, 
+                "gzoltar": 0.03138824102871723, 
+                "ochiai": 0.03138824102871723, 
+                "tarantula": 0.5196078431372548
+            }, 
+            "nf": 34, 
+            "np": 1032, 
+            "rank": 81
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:171": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 28, 
+            "line": 171, 
+            "metrics": {
+                "ample": 0.002156334231805928, 
+                "gzoltar": 0.03138824102871723, 
+                "ochiai": 0.03138824102871723, 
+                "tarantula": 0.5196078431372548
+            }, 
+            "nf": 34, 
+            "np": 1032, 
+            "rank": 82
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:172": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 28, 
+            "line": 172, 
+            "metrics": {
+                "ample": 0.002156334231805928, 
+                "gzoltar": 0.03138824102871723, 
+                "ochiai": 0.03138824102871723, 
+                "tarantula": 0.5196078431372548
+            }, 
+            "nf": 34, 
+            "np": 1032, 
+            "rank": 83
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:173": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 28, 
+            "line": 173, 
+            "metrics": {
+                "ample": 0.002156334231805928, 
+                "gzoltar": 0.03138824102871723, 
+                "ochiai": 0.03138824102871723, 
+                "tarantula": 0.5196078431372548
+            }, 
+            "nf": 34, 
+            "np": 1032, 
+            "rank": 84
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:175": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 26, 
+            "line": 175, 
+            "metrics": {
+                "ample": 0.004043126684636116, 
+                "gzoltar": 0.03253000243161777, 
+                "ochiai": 0.03253000243161777, 
+                "tarantula": 0.5380710659898477
+            }, 
+            "nf": 34, 
+            "np": 1034, 
+            "rank": 72
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:176": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 26, 
+            "line": 176, 
+            "metrics": {
+                "ample": 0.004043126684636116, 
+                "gzoltar": 0.03253000243161777, 
+                "ochiai": 0.03253000243161777, 
+                "tarantula": 0.5380710659898477
+            }, 
+            "nf": 34, 
+            "np": 1034, 
+            "rank": 73
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:177": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 26, 
+            "line": 177, 
+            "metrics": {
+                "ample": 0.004043126684636116, 
+                "gzoltar": 0.03253000243161777, 
+                "ochiai": 0.03253000243161777, 
+                "tarantula": 0.5380710659898477
+            }, 
+            "nf": 34, 
+            "np": 1034, 
+            "rank": 74
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:178": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 26, 
+            "line": 178, 
+            "metrics": {
+                "ample": 0.004043126684636116, 
+                "gzoltar": 0.03253000243161777, 
+                "ochiai": 0.03253000243161777, 
+                "tarantula": 0.5380710659898477
+            }, 
+            "nf": 34, 
+            "np": 1034, 
+            "rank": 75
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:179": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 26, 
+            "line": 179, 
+            "metrics": {
+                "ample": 0.004043126684636116, 
+                "gzoltar": 0.03253000243161777, 
+                "ochiai": 0.03253000243161777, 
+                "tarantula": 0.5380710659898477
+            }, 
+            "nf": 34, 
+            "np": 1034, 
+            "rank": 76
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:180": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 26, 
+            "line": 180, 
+            "metrics": {
+                "ample": 0.004043126684636116, 
+                "gzoltar": 0.03253000243161777, 
+                "ochiai": 0.03253000243161777, 
+                "tarantula": 0.5380710659898477
+            }, 
+            "nf": 34, 
+            "np": 1034, 
+            "rank": 77
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:182": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 28, 
+            "line": 182, 
+            "metrics": {
+                "ample": 0.002156334231805928, 
+                "gzoltar": 0.03138824102871723, 
+                "ochiai": 0.03138824102871723, 
+                "tarantula": 0.5196078431372548
+            }, 
+            "nf": 34, 
+            "np": 1032, 
+            "rank": 85
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:186": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 16, 
+            "line": 186, 
+            "metrics": {
+                "ample": 0.013477088948787061, 
+                "gzoltar": 0.040996003084539386, 
+                "ochiai": 0.040996003084539386, 
+                "tarantula": 0.654320987654321
+            }, 
+            "nf": 34, 
+            "np": 1044, 
+            "rank": 69
+        }, 
+        "org.apache.commons.math.analysis.BrentSolver:187": {
+            "class": "org.apache.commons.math.analysis.BrentSolver", 
+            "ef": 1, 
+            "ep": 16, 
+            "line": 187, 
+            "metrics": {
+                "ample": 0.013477088948787061, 
+                "gzoltar": 0.040996003084539386, 
+                "ochiai": 0.040996003084539386, 
+                "tarantula": 0.654320987654321
+            }, 
+            "nf": 34, 
+            "np": 1044, 
+            "rank": 70
+        }, 
+        "org.apache.commons.math.analysis.SinFunction:37": {
+            "class": "org.apache.commons.math.analysis.SinFunction", 
+            "ef": 1, 
+            "ep": 26, 
+            "line": 37, 
+            "metrics": {
+                "ample": 0.004043126684636116, 
+                "gzoltar": 0.03253000243161777, 
+                "ochiai": 0.03253000243161777, 
+                "tarantula": 0.5380710659898477
+            }, 
+            "nf": 34, 
+            "np": 1034, 
+            "rank": 78
+        }, 
+        "org.apache.commons.math.analysis.UnivariateRealSolverImpl:140": {
+            "class": "org.apache.commons.math.analysis.UnivariateRealSolverImpl", 
+            "ef": 1, 
+            "ep": 45, 
+            "line": 140, 
+            "metrics": {
+                "ample": 0.013881401617250672, 
+                "gzoltar": 0.024922239313961342, 
+                "ochiai": 0.024922239313961342, 
+                "tarantula": 0.40227703984819735
+            }, 
+            "nf": 34, 
+            "np": 1015, 
+            "rank": 93
+        }, 
+        "org.apache.commons.math.analysis.UnivariateRealSolverImpl:141": {
+            "class": "org.apache.commons.math.analysis.UnivariateRealSolverImpl", 
+            "ef": 1, 
+            "ep": 45, 
+            "line": 141, 
+            "metrics": {
+                "ample": 0.013881401617250672, 
+                "gzoltar": 0.024922239313961342, 
+                "ochiai": 0.024922239313961342, 
+                "tarantula": 0.40227703984819735
+            }, 
+            "nf": 34, 
+            "np": 1015, 
+            "rank": 94
+        }, 
+        "org.apache.commons.math.analysis.UnivariateRealSolverImpl:142": {
+            "class": "org.apache.commons.math.analysis.UnivariateRealSolverImpl", 
+            "ef": 1, 
+            "ep": 45, 
+            "line": 142, 
+            "metrics": {
+                "ample": 0.013881401617250672, 
+                "gzoltar": 0.024922239313961342, 
+                "ochiai": 0.024922239313961342, 
+                "tarantula": 0.40227703984819735
+            }, 
+            "nf": 34, 
+            "np": 1015, 
+            "rank": 95
+        }, 
+        "org.apache.commons.math.analysis.UnivariateRealSolverImpl:143": {
+            "class": "org.apache.commons.math.analysis.UnivariateRealSolverImpl", 
+            "ef": 1, 
+            "ep": 45, 
+            "line": 143, 
+            "metrics": {
+                "ample": 0.013881401617250672, 
+                "gzoltar": 0.024922239313961342, 
+                "ochiai": 0.024922239313961342, 
+                "tarantula": 0.40227703984819735
+            }, 
+            "nf": 34, 
+            "np": 1015, 
+            "rank": 96
+        }, 
+        "org.apache.commons.math.analysis.UnivariateRealSolverImpl:149": {
+            "class": "org.apache.commons.math.analysis.UnivariateRealSolverImpl", 
+            "ef": 1, 
+            "ep": 37, 
+            "line": 149, 
+            "metrics": {
+                "ample": 0.006334231805929919, 
+                "gzoltar": 0.027420424855354085, 
+                "ochiai": 0.027420424855354085, 
+                "tarantula": 0.4501061571125265
+            }, 
+            "nf": 34, 
+            "np": 1023, 
+            "rank": 91
+        }, 
+        "org.apache.commons.math.analysis.UnivariateRealSolverImpl:150": {
+            "class": "org.apache.commons.math.analysis.UnivariateRealSolverImpl", 
+            "ef": 1, 
+            "ep": 37, 
+            "line": 150, 
+            "metrics": {
+                "ample": 0.006334231805929919, 
+                "gzoltar": 0.027420424855354085, 
+                "ochiai": 0.027420424855354085, 
+                "tarantula": 0.4501061571125265
+            }, 
+            "nf": 34, 
+            "np": 1023, 
+            "rank": 92
+        }, 
+        "org.apache.commons.math.analysis.UnivariateRealSolverImpl:169": {
+            "class": "org.apache.commons.math.analysis.UnivariateRealSolverImpl", 
+            "ef": 1, 
+            "ep": 24, 
+            "line": 169, 
+            "metrics": {
+                "ample": 0.005929919137466308, 
+                "gzoltar": 0.033806170189140665, 
+                "ochiai": 0.033806170189140665, 
+                "tarantula": 0.5578947368421052
+            }, 
+            "nf": 34, 
+            "np": 1036, 
+            "rank": 71
+        }, 
+        "org.apache.commons.math.analysis.UnivariateRealSolverImpl:295": {
+            "class": "org.apache.commons.math.analysis.UnivariateRealSolverImpl", 
+            "ef": 1, 
+            "ep": 50, 
+            "line": 295, 
+            "metrics": {
+                "ample": 0.01859838274932615, 
+                "gzoltar": 0.023669053416557544, 
+                "ochiai": 0.023669053416557544, 
+                "tarantula": 0.37722419928825623
+            }, 
+            "nf": 34, 
+            "np": 1010, 
+            "rank": 97
+        }, 
+        "org.apache.commons.math.analysis.UnivariateRealSolverImpl:300": {
+            "class": "org.apache.commons.math.analysis.UnivariateRealSolverImpl", 
+            "ef": 1, 
+            "ep": 50, 
+            "line": 300, 
+            "metrics": {
+                "ample": 0.01859838274932615, 
+                "gzoltar": 0.023669053416557544, 
+                "ochiai": 0.023669053416557544, 
+                "tarantula": 0.37722419928825623
+            }, 
+            "nf": 34, 
+            "np": 1010, 
+            "rank": 98
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:114": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 10, 
+            "ep": 6, 
+            "line": 114, 
+            "metrics": {
+                "ample": 0.28005390835579513, 
+                "gzoltar": 0.4225771273642583, 
+                "ochiai": 0.4225771273642583, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 25, 
+            "np": 1054, 
+            "rank": 4
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:115": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 10, 
+            "ep": 6, 
+            "line": 115, 
+            "metrics": {
+                "ample": 0.28005390835579513, 
+                "gzoltar": 0.4225771273642583, 
+                "ochiai": 0.4225771273642583, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 25, 
+            "np": 1054, 
+            "rank": 5
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:132": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 10, 
+            "ep": 6, 
+            "line": 132, 
+            "metrics": {
+                "ample": 0.28005390835579513, 
+                "gzoltar": 0.4225771273642583, 
+                "ochiai": 0.4225771273642583, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 25, 
+            "np": 1054, 
+            "rank": 6
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:133": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 10, 
+            "ep": 6, 
+            "line": 133, 
+            "metrics": {
+                "ample": 0.28005390835579513, 
+                "gzoltar": 0.4225771273642583, 
+                "ochiai": 0.4225771273642583, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 25, 
+            "np": 1054, 
+            "rank": 7
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:154": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 10, 
+            "ep": 6, 
+            "line": 154, 
+            "metrics": {
+                "ample": 0.28005390835579513, 
+                "gzoltar": 0.4225771273642583, 
+                "ochiai": 0.4225771273642583, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 25, 
+            "np": 1054, 
+            "rank": 8
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:155": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 10, 
+            "ep": 6, 
+            "line": 155, 
+            "metrics": {
+                "ample": 0.28005390835579513, 
+                "gzoltar": 0.4225771273642583, 
+                "ochiai": 0.4225771273642583, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 25, 
+            "np": 1054, 
+            "rank": 9
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:156": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 10, 
+            "ep": 6, 
+            "line": 156, 
+            "metrics": {
+                "ample": 0.28005390835579513, 
+                "gzoltar": 0.4225771273642583, 
+                "ochiai": 0.4225771273642583, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 25, 
+            "np": 1054, 
+            "rank": 10
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:157": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 10, 
+            "ep": 6, 
+            "line": 157, 
+            "metrics": {
+                "ample": 0.28005390835579513, 
+                "gzoltar": 0.4225771273642583, 
+                "ochiai": 0.4225771273642583, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 25, 
+            "np": 1054, 
+            "rank": 11
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:225": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 4, 
+            "ep": 3, 
+            "line": 225, 
+            "metrics": {
+                "ample": 0.111455525606469, 
+                "gzoltar": 0.25555062599997597, 
+                "ochiai": 0.25555062599997597, 
+                "tarantula": 0.9758342922899885
+            }, 
+            "nf": 31, 
+            "np": 1057, 
+            "rank": 36
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:233": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 4, 
+            "line": 233, 
+            "metrics": {
+                "ample": 0.13908355795148247, 
+                "gzoltar": 0.2817180849095055, 
+                "ochiai": 0.2817180849095055, 
+                "tarantula": 0.9742647058823529
+            }, 
+            "nf": 30, 
+            "np": 1056, 
+            "rank": 35
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:244": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 244, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 17
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:245": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 245, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 18
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:261": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 261, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 19
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:264": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 264, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 20
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:267": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 267, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 21
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:268": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 268, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 22
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:277": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 2, 
+            "line": 277, 
+            "metrics": {
+                "ample": 0.14097035040431266, 
+                "gzoltar": 0.3194382824999699, 
+                "ochiai": 0.3194382824999699, 
+                "tarantula": 0.9869646182495344
+            }, 
+            "nf": 30, 
+            "np": 1058, 
+            "rank": 12
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:278": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 2, 
+            "line": 278, 
+            "metrics": {
+                "ample": 0.14097035040431266, 
+                "gzoltar": 0.3194382824999699, 
+                "ochiai": 0.3194382824999699, 
+                "tarantula": 0.9869646182495344
+            }, 
+            "nf": 30, 
+            "np": 1058, 
+            "rank": 13
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:279": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 2, 
+            "line": 279, 
+            "metrics": {
+                "ample": 0.14097035040431266, 
+                "gzoltar": 0.3194382824999699, 
+                "ochiai": 0.3194382824999699, 
+                "tarantula": 0.9869646182495344
+            }, 
+            "nf": 30, 
+            "np": 1058, 
+            "rank": 14
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:283": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 283, 
+            "metrics": {
+                "ample": 0.02857142857142857, 
+                "gzoltar": 0.1690308509457033, 
+                "ochiai": 0.1690308509457033, 
+                "tarantula": 1.0
+            }, 
+            "nf": 34, 
+            "np": 1060, 
+            "rank": 61
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:286": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 286, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 54
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:291": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 291, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 51
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:292": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 292, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 52
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:293": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 293, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 53
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:297": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 297, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 55
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:300": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 300, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 56
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:301": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 301, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 57
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:309": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 309, 
+            "metrics": {
+                "ample": 0.05714285714285714, 
+                "gzoltar": 0.23904572186687872, 
+                "ochiai": 0.23904572186687872, 
+                "tarantula": 1.0
+            }, 
+            "nf": 33, 
+            "np": 1060, 
+            "rank": 41
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:360": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 360, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 23
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:361": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 361, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 24
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:362": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 362, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 25
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:371": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 371, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 26
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:372": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 372, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 27
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:373": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 373, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 28
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:375": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 375, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 29
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:378": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 378, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 30
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:379": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 379, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 31
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:380": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 380, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 32
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:382": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 382, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 33
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:383": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 2, 
+            "line": 383, 
+            "metrics": {
+                "ample": 0.14097035040431266, 
+                "gzoltar": 0.3194382824999699, 
+                "ochiai": 0.3194382824999699, 
+                "tarantula": 0.9869646182495344
+            }, 
+            "nf": 30, 
+            "np": 1058, 
+            "rank": 15
+        }, 
+        "org.apache.commons.math.fraction.FractionFormat:387": {
+            "class": "org.apache.commons.math.fraction.FractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 387, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 34
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:116": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 116, 
+            "metrics": {
+                "ample": 0.053369272237196765, 
+                "gzoltar": 0.13801311186847084, 
+                "ochiai": 0.13801311186847084, 
+                "tarantula": 0.9380530973451328
+            }, 
+            "nf": 33, 
+            "np": 1056, 
+            "rank": 67
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:133": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 5, 
+            "ep": 3, 
+            "line": 133, 
+            "metrics": {
+                "ample": 0.14002695417789757, 
+                "gzoltar": 0.2988071523335984, 
+                "ochiai": 0.2988071523335984, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 30, 
+            "np": 1057, 
+            "rank": 16
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:134": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 3, 
+            "line": 134, 
+            "metrics": {
+                "ample": 0.05431266846361186, 
+                "gzoltar": 0.15118578920369088, 
+                "ochiai": 0.15118578920369088, 
+                "tarantula": 0.952808988764045
+            }, 
+            "nf": 33, 
+            "np": 1057, 
+            "rank": 62
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:138": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 3, 
+            "line": 138, 
+            "metrics": {
+                "ample": 0.05431266846361186, 
+                "gzoltar": 0.15118578920369088, 
+                "ochiai": 0.15118578920369088, 
+                "tarantula": 0.952808988764045
+            }, 
+            "nf": 33, 
+            "np": 1057, 
+            "rank": 63
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:141": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 3, 
+            "line": 141, 
+            "metrics": {
+                "ample": 0.05431266846361186, 
+                "gzoltar": 0.15118578920369088, 
+                "ochiai": 0.15118578920369088, 
+                "tarantula": 0.952808988764045
+            }, 
+            "nf": 33, 
+            "np": 1057, 
+            "rank": 64
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:144": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 3, 
+            "line": 144, 
+            "metrics": {
+                "ample": 0.05431266846361186, 
+                "gzoltar": 0.15118578920369088, 
+                "ochiai": 0.15118578920369088, 
+                "tarantula": 0.952808988764045
+            }, 
+            "nf": 33, 
+            "np": 1057, 
+            "rank": 65
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:145": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 3, 
+            "line": 145, 
+            "metrics": {
+                "ample": 0.05431266846361186, 
+                "gzoltar": 0.15118578920369088, 
+                "ochiai": 0.15118578920369088, 
+                "tarantula": 0.952808988764045
+            }, 
+            "nf": 33, 
+            "np": 1057, 
+            "rank": 66
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:154": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 2, 
+            "line": 154, 
+            "metrics": {
+                "ample": 0.05525606469002695, 
+                "gzoltar": 0.1690308509457033, 
+                "ochiai": 0.1690308509457033, 
+                "tarantula": 0.9680365296803654
+            }, 
+            "nf": 33, 
+            "np": 1058, 
+            "rank": 58
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:157": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 2, 
+            "line": 157, 
+            "metrics": {
+                "ample": 0.05525606469002695, 
+                "gzoltar": 0.1690308509457033, 
+                "ochiai": 0.1690308509457033, 
+                "tarantula": 0.9680365296803654
+            }, 
+            "nf": 33, 
+            "np": 1058, 
+            "rank": 59
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:158": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 2, 
+            "line": 158, 
+            "metrics": {
+                "ample": 0.05525606469002695, 
+                "gzoltar": 0.1690308509457033, 
+                "ochiai": 0.1690308509457033, 
+                "tarantula": 0.9680365296803654
+            }, 
+            "nf": 33, 
+            "np": 1058, 
+            "rank": 60
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:166": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 166, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 42
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:173": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 173, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 43
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:174": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 174, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 44
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:175": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 175, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 45
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:182": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 182, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 46
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:193": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 193, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 47
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:196": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 196, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 48
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:197": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 197, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 49
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:205": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 205, 
+            "metrics": {
+                "ample": 0.05619946091644205, 
+                "gzoltar": 0.19518001458970666, 
+                "ochiai": 0.19518001458970666, 
+                "tarantula": 0.9837587006960556
+            }, 
+            "nf": 33, 
+            "np": 1059, 
+            "rank": 50
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:211": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 211, 
+            "metrics": {
+                "ample": 0.05714285714285714, 
+                "gzoltar": 0.23904572186687872, 
+                "ochiai": 0.23904572186687872, 
+                "tarantula": 1.0
+            }, 
+            "nf": 33, 
+            "np": 1060, 
+            "rank": 37
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:212": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 212, 
+            "metrics": {
+                "ample": 0.05714285714285714, 
+                "gzoltar": 0.23904572186687872, 
+                "ochiai": 0.23904572186687872, 
+                "tarantula": 1.0
+            }, 
+            "nf": 33, 
+            "np": 1060, 
+            "rank": 38
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:213": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 213, 
+            "metrics": {
+                "ample": 0.05714285714285714, 
+                "gzoltar": 0.23904572186687872, 
+                "ochiai": 0.23904572186687872, 
+                "tarantula": 1.0
+            }, 
+            "nf": 33, 
+            "np": 1060, 
+            "rank": 39
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:214": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 214, 
+            "metrics": {
+                "ample": 0.05714285714285714, 
+                "gzoltar": 0.23904572186687872, 
+                "ochiai": 0.23904572186687872, 
+                "tarantula": 1.0
+            }, 
+            "nf": 33, 
+            "np": 1060, 
+            "rank": 40
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:224": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 10, 
+            "ep": 6, 
+            "line": 224, 
+            "metrics": {
+                "ample": 0.28005390835579513, 
+                "gzoltar": 0.4225771273642583, 
+                "ochiai": 0.4225771273642583, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 25, 
+            "np": 1054, 
+            "rank": 1
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:228": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 10, 
+            "ep": 6, 
+            "line": 228, 
+            "metrics": {
+                "ample": 0.28005390835579513, 
+                "gzoltar": 0.4225771273642583, 
+                "ochiai": 0.4225771273642583, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 25, 
+            "np": 1054, 
+            "rank": 2
+        }, 
+        "org.apache.commons.math.fraction.ProperFractionFormat:229": {
+            "class": "org.apache.commons.math.fraction.ProperFractionFormat", 
+            "ef": 10, 
+            "ep": 6, 
+            "line": 229, 
+            "metrics": {
+                "ample": 0.28005390835579513, 
+                "gzoltar": 0.4225771273642583, 
+                "ochiai": 0.4225771273642583, 
+                "tarantula": 0.9805735430157262
+            }, 
+            "nf": 25, 
+            "np": 1054, 
+            "rank": 3
+        }
+    }
+}

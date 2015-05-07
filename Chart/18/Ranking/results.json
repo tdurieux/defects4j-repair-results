@@ -1,0 +1,1063 @@
+{
+    "date": "2015-05-07T08:51:53.999125", 
+    "executedTest": 3495, 
+    "failedTest": 8, 
+    "failedTestDetails": [
+        {
+            "class": "org.jfree.data.junit.DefaultKeyedValuesTests", 
+            "method": "testRemoveValue"
+        }, 
+        {
+            "class": "org.jfree.data.junit.DefaultKeyedValuesTests", 
+            "method": "testGetIndex2"
+        }, 
+        {
+            "class": "org.jfree.data.junit.DefaultKeyedValues2DTests", 
+            "method": "testRemoveColumnByKey"
+        }, 
+        {
+            "class": "org.jfree.data.junit.DefaultKeyedValues2DTests", 
+            "method": "testRemoveColumnByKey"
+        }, 
+        {
+            "class": "org.jfree.data.junit.DefaultKeyedValuesTests", 
+            "method": "testRemoveValue"
+        }, 
+        {
+            "class": "org.jfree.data.junit.DefaultKeyedValuesTests", 
+            "method": "testGetIndex2"
+        }, 
+        {
+            "class": "org.jfree.data.category.junit.DefaultCategoryDatasetTests", 
+            "method": "testBug1835955"
+        }, 
+        {
+            "class": "org.jfree.data.category.junit.DefaultCategoryDatasetTests", 
+            "method": "testBug1835955"
+        }
+    ], 
+    "node": "griffon-4.nancy.grid5000.fr\n", 
+    "successfulTest": 3487, 
+    "suspicious": {
+        "org.jfree.data.DefaultKeyedValues2D:182": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 270, 
+            "line": 182, 
+            "metrics": {
+                "ample": 0.4225695440206481, 
+                "gzoltar": 0.0854357657716761, 
+                "ochiai": 0.0854357657716761, 
+                "tarantula": 0.8659051403029552
+            }, 
+            "nf": 4, 
+            "np": 3217, 
+            "rank": 48
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:185": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 270, 
+            "line": 185, 
+            "metrics": {
+                "ample": 0.4225695440206481, 
+                "gzoltar": 0.0854357657716761, 
+                "ochiai": 0.0854357657716761, 
+                "tarantula": 0.8659051403029552
+            }, 
+            "nf": 4, 
+            "np": 3217, 
+            "rank": 49
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:189": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 250, 
+            "line": 189, 
+            "metrics": {
+                "ample": 0.42830513335245196, 
+                "gzoltar": 0.08873565094161139, 
+                "ochiai": 0.08873565094161139, 
+                "tarantula": 0.874592425382493
+            }, 
+            "nf": 4, 
+            "np": 3237, 
+            "rank": 43
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:303": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 250, 
+            "line": 303, 
+            "metrics": {
+                "ample": 0.42830513335245196, 
+                "gzoltar": 0.08873565094161139, 
+                "ochiai": 0.08873565094161139, 
+                "tarantula": 0.874592425382493
+            }, 
+            "nf": 4, 
+            "np": 3237, 
+            "rank": 44
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:304": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 250, 
+            "line": 304, 
+            "metrics": {
+                "ample": 0.42830513335245196, 
+                "gzoltar": 0.08873565094161139, 
+                "ochiai": 0.08873565094161139, 
+                "tarantula": 0.874592425382493
+            }, 
+            "nf": 4, 
+            "np": 3237, 
+            "rank": 45
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:320": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 270, 
+            "line": 320, 
+            "metrics": {
+                "ample": 0.4225695440206481, 
+                "gzoltar": 0.0854357657716761, 
+                "ochiai": 0.0854357657716761, 
+                "tarantula": 0.8659051403029552
+            }, 
+            "nf": 4, 
+            "np": 3217, 
+            "rank": 50
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:322": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 270, 
+            "line": 322, 
+            "metrics": {
+                "ample": 0.4225695440206481, 
+                "gzoltar": 0.0854357657716761, 
+                "ochiai": 0.0854357657716761, 
+                "tarantula": 0.8659051403029552
+            }, 
+            "nf": 4, 
+            "np": 3217, 
+            "rank": 51
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:323": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 176, 
+            "line": 323, 
+            "metrics": {
+                "ample": 0.44952681388012616, 
+                "gzoltar": 0.10540925533894598, 
+                "ochiai": 0.10540925533894598, 
+                "tarantula": 0.9083094555873925
+            }, 
+            "nf": 4, 
+            "np": 3311, 
+            "rank": 42
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:326": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 270, 
+            "line": 326, 
+            "metrics": {
+                "ample": 0.4225695440206481, 
+                "gzoltar": 0.0854357657716761, 
+                "ochiai": 0.0854357657716761, 
+                "tarantula": 0.8659051403029552
+            }, 
+            "nf": 4, 
+            "np": 3217, 
+            "rank": 52
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:327": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 270, 
+            "line": 327, 
+            "metrics": {
+                "ample": 0.4225695440206481, 
+                "gzoltar": 0.0854357657716761, 
+                "ochiai": 0.0854357657716761, 
+                "tarantula": 0.8659051403029552
+            }, 
+            "nf": 4, 
+            "np": 3217, 
+            "rank": 53
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:333": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 250, 
+            "line": 333, 
+            "metrics": {
+                "ample": 0.42830513335245196, 
+                "gzoltar": 0.08873565094161139, 
+                "ochiai": 0.08873565094161139, 
+                "tarantula": 0.874592425382493
+            }, 
+            "nf": 4, 
+            "np": 3237, 
+            "rank": 46
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:334": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 250, 
+            "line": 334, 
+            "metrics": {
+                "ample": 0.42830513335245196, 
+                "gzoltar": 0.08873565094161139, 
+                "ochiai": 0.08873565094161139, 
+                "tarantula": 0.874592425382493
+            }, 
+            "nf": 4, 
+            "np": 3237, 
+            "rank": 47
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:337": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 270, 
+            "line": 337, 
+            "metrics": {
+                "ample": 0.4225695440206481, 
+                "gzoltar": 0.0854357657716761, 
+                "ochiai": 0.0854357657716761, 
+                "tarantula": 0.8659051403029552
+            }, 
+            "nf": 4, 
+            "np": 3217, 
+            "rank": 54
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:339": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 270, 
+            "line": 339, 
+            "metrics": {
+                "ample": 0.4225695440206481, 
+                "gzoltar": 0.0854357657716761, 
+                "ochiai": 0.0854357657716761, 
+                "tarantula": 0.8659051403029552
+            }, 
+            "nf": 4, 
+            "np": 3217, 
+            "rank": 55
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:340": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 270, 
+            "line": 340, 
+            "metrics": {
+                "ample": 0.4225695440206481, 
+                "gzoltar": 0.0854357657716761, 
+                "ochiai": 0.0854357657716761, 
+                "tarantula": 0.8659051403029552
+            }, 
+            "nf": 4, 
+            "np": 3217, 
+            "rank": 56
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:341": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 270, 
+            "line": 341, 
+            "metrics": {
+                "ample": 0.4225695440206481, 
+                "gzoltar": 0.0854357657716761, 
+                "ochiai": 0.0854357657716761, 
+                "tarantula": 0.8659051403029552
+            }, 
+            "nf": 4, 
+            "np": 3217, 
+            "rank": 57
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:343": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 270, 
+            "line": 343, 
+            "metrics": {
+                "ample": 0.4225695440206481, 
+                "gzoltar": 0.0854357657716761, 
+                "ochiai": 0.0854357657716761, 
+                "tarantula": 0.8659051403029552
+            }, 
+            "nf": 4, 
+            "np": 3217, 
+            "rank": 58
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:450": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 0, 
+            "line": 450, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 4, 
+            "np": 3487, 
+            "rank": 9
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:451": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 0, 
+            "line": 451, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 4, 
+            "np": 3487, 
+            "rank": 10
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:452": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 0, 
+            "line": 452, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 4, 
+            "np": 3487, 
+            "rank": 11
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:453": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 0, 
+            "line": 453, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 4, 
+            "np": 3487, 
+            "rank": 12
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:454": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 0, 
+            "line": 454, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 4, 
+            "np": 3487, 
+            "rank": 13
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:455": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 0, 
+            "line": 455, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 4, 
+            "np": 3487, 
+            "rank": 14
+        }, 
+        "org.jfree.data.DefaultKeyedValues2D:456": {
+            "class": "org.jfree.data.DefaultKeyedValues2D", 
+            "ef": 4, 
+            "ep": 0, 
+            "line": 456, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 4, 
+            "np": 3487, 
+            "rank": 15
+        }, 
+        "org.jfree.data.DefaultKeyedValues:150": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 352, 
+            "line": 150, 
+            "metrics": {
+                "ample": 0.8990536277602523, 
+                "gzoltar": 0.14907119849998599, 
+                "ochiai": 0.14907119849998599, 
+                "tarantula": 0.9083094555873925
+            }, 
+            "nf": 0, 
+            "np": 3135, 
+            "rank": 38
+        }, 
+        "org.jfree.data.DefaultKeyedValues:153": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 352, 
+            "line": 153, 
+            "metrics": {
+                "ample": 0.8990536277602523, 
+                "gzoltar": 0.14907119849998599, 
+                "ochiai": 0.14907119849998599, 
+                "tarantula": 0.9083094555873925
+            }, 
+            "nf": 0, 
+            "np": 3135, 
+            "rank": 39
+        }, 
+        "org.jfree.data.DefaultKeyedValues:154": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 352, 
+            "line": 154, 
+            "metrics": {
+                "ample": 0.8990536277602523, 
+                "gzoltar": 0.14907119849998599, 
+                "ochiai": 0.14907119849998599, 
+                "tarantula": 0.9083094555873925
+            }, 
+            "nf": 0, 
+            "np": 3135, 
+            "rank": 40
+        }, 
+        "org.jfree.data.DefaultKeyedValues:155": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 352, 
+            "line": 155, 
+            "metrics": {
+                "ample": 0.8990536277602523, 
+                "gzoltar": 0.14907119849998599, 
+                "ochiai": 0.14907119849998599, 
+                "tarantula": 0.9083094555873925
+            }, 
+            "nf": 0, 
+            "np": 3135, 
+            "rank": 41
+        }, 
+        "org.jfree.data.DefaultKeyedValues:157": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 272, 
+            "line": 157, 
+            "metrics": {
+                "ample": 0.9219959850874677, 
+                "gzoltar": 0.1690308509457033, 
+                "ochiai": 0.1690308509457033, 
+                "tarantula": 0.9276403298749667
+            }, 
+            "nf": 0, 
+            "np": 3215, 
+            "rank": 30
+        }, 
+        "org.jfree.data.DefaultKeyedValues:197": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 2, 
+            "ep": 8, 
+            "line": 197, 
+            "metrics": {
+                "ample": 0.24770576426727847, 
+                "gzoltar": 0.22360679774997896, 
+                "ochiai": 0.22360679774997896, 
+                "tarantula": 0.9909065075305485
+            }, 
+            "nf": 6, 
+            "np": 3479, 
+            "rank": 28
+        }, 
+        "org.jfree.data.DefaultKeyedValues:198": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 2, 
+            "ep": 8, 
+            "line": 198, 
+            "metrics": {
+                "ample": 0.24770576426727847, 
+                "gzoltar": 0.22360679774997896, 
+                "ochiai": 0.22360679774997896, 
+                "tarantula": 0.9909065075305485
+            }, 
+            "nf": 6, 
+            "np": 3479, 
+            "rank": 29
+        }, 
+        "org.jfree.data.DefaultKeyedValues:209": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 4, 
+            "ep": 32, 
+            "line": 209, 
+            "metrics": {
+                "ample": 0.49082305706911383, 
+                "gzoltar": 0.23570226039551587, 
+                "ochiai": 0.23570226039551587, 
+                "tarantula": 0.981976907913264
+            }, 
+            "nf": 4, 
+            "np": 3455, 
+            "rank": 26
+        }, 
+        "org.jfree.data.DefaultKeyedValues:210": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 4, 
+            "ep": 32, 
+            "line": 210, 
+            "metrics": {
+                "ample": 0.49082305706911383, 
+                "gzoltar": 0.23570226039551587, 
+                "ochiai": 0.23570226039551587, 
+                "tarantula": 0.981976907913264
+            }, 
+            "nf": 4, 
+            "np": 3455, 
+            "rank": 27
+        }, 
+        "org.jfree.data.DefaultKeyedValues:229": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 350, 
+            "line": 229, 
+            "metrics": {
+                "ample": 0.8996271866934328, 
+                "gzoltar": 0.14948701855038718, 
+                "ochiai": 0.14948701855038718, 
+                "tarantula": 0.9087829033098774
+            }, 
+            "nf": 0, 
+            "np": 3137, 
+            "rank": 31
+        }, 
+        "org.jfree.data.DefaultKeyedValues:232": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 350, 
+            "line": 232, 
+            "metrics": {
+                "ample": 0.8996271866934328, 
+                "gzoltar": 0.14948701855038718, 
+                "ochiai": 0.14948701855038718, 
+                "tarantula": 0.9087829033098774
+            }, 
+            "nf": 0, 
+            "np": 3137, 
+            "rank": 32
+        }, 
+        "org.jfree.data.DefaultKeyedValues:233": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 350, 
+            "line": 233, 
+            "metrics": {
+                "ample": 0.8996271866934328, 
+                "gzoltar": 0.14948701855038718, 
+                "ochiai": 0.14948701855038718, 
+                "tarantula": 0.9087829033098774
+            }, 
+            "nf": 0, 
+            "np": 3137, 
+            "rank": 33
+        }, 
+        "org.jfree.data.DefaultKeyedValues:234": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 4, 
+            "ep": 28, 
+            "line": 234, 
+            "metrics": {
+                "ample": 0.4919701749354746, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9841941857183177
+            }, 
+            "nf": 4, 
+            "np": 3459, 
+            "rank": 25
+        }, 
+        "org.jfree.data.DefaultKeyedValues:238": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 350, 
+            "line": 238, 
+            "metrics": {
+                "ample": 0.8996271866934328, 
+                "gzoltar": 0.14948701855038718, 
+                "ochiai": 0.14948701855038718, 
+                "tarantula": 0.9087829033098774
+            }, 
+            "nf": 0, 
+            "np": 3137, 
+            "rank": 34
+        }, 
+        "org.jfree.data.DefaultKeyedValues:239": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 350, 
+            "line": 239, 
+            "metrics": {
+                "ample": 0.8996271866934328, 
+                "gzoltar": 0.14948701855038718, 
+                "ochiai": 0.14948701855038718, 
+                "tarantula": 0.9087829033098774
+            }, 
+            "nf": 0, 
+            "np": 3137, 
+            "rank": 35
+        }, 
+        "org.jfree.data.DefaultKeyedValues:240": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 350, 
+            "line": 240, 
+            "metrics": {
+                "ample": 0.8996271866934328, 
+                "gzoltar": 0.14948701855038718, 
+                "ochiai": 0.14948701855038718, 
+                "tarantula": 0.9087829033098774
+            }, 
+            "nf": 0, 
+            "np": 3137, 
+            "rank": 36
+        }, 
+        "org.jfree.data.DefaultKeyedValues:242": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 350, 
+            "line": 242, 
+            "metrics": {
+                "ample": 0.8996271866934328, 
+                "gzoltar": 0.14948701855038718, 
+                "ochiai": 0.14948701855038718, 
+                "tarantula": 0.9087829033098774
+            }, 
+            "nf": 0, 
+            "np": 3137, 
+            "rank": 37
+        }, 
+        "org.jfree.data.DefaultKeyedValues:299": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 2, 
+            "ep": 2, 
+            "line": 299, 
+            "metrics": {
+                "ample": 0.2494264410668196, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9977110157367668
+            }, 
+            "nf": 6, 
+            "np": 3485, 
+            "rank": 20
+        }, 
+        "org.jfree.data.DefaultKeyedValues:300": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 2, 
+            "ep": 2, 
+            "line": 300, 
+            "metrics": {
+                "ample": 0.2494264410668196, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9977110157367668
+            }, 
+            "nf": 6, 
+            "np": 3485, 
+            "rank": 21
+        }, 
+        "org.jfree.data.DefaultKeyedValues:301": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 2, 
+            "ep": 2, 
+            "line": 301, 
+            "metrics": {
+                "ample": 0.2494264410668196, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9977110157367668
+            }, 
+            "nf": 6, 
+            "np": 3485, 
+            "rank": 22
+        }, 
+        "org.jfree.data.DefaultKeyedValues:302": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 2, 
+            "ep": 2, 
+            "line": 302, 
+            "metrics": {
+                "ample": 0.2494264410668196, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9977110157367668
+            }, 
+            "nf": 6, 
+            "np": 3485, 
+            "rank": 23
+        }, 
+        "org.jfree.data.DefaultKeyedValues:304": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 2, 
+            "ep": 2, 
+            "line": 304, 
+            "metrics": {
+                "ample": 0.2494264410668196, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9977110157367668
+            }, 
+            "nf": 6, 
+            "np": 3485, 
+            "rank": 24
+        }, 
+        "org.jfree.data.DefaultKeyedValues:316": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 0, 
+            "line": 316, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 3487, 
+            "rank": 1
+        }, 
+        "org.jfree.data.DefaultKeyedValues:317": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 0, 
+            "line": 317, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 3487, 
+            "rank": 2
+        }, 
+        "org.jfree.data.DefaultKeyedValues:320": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 0, 
+            "line": 320, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 3487, 
+            "rank": 3
+        }, 
+        "org.jfree.data.DefaultKeyedValues:321": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 321, 
+            "metrics": {
+                "ample": 0.25, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 1.0
+            }, 
+            "nf": 6, 
+            "np": 3487, 
+            "rank": 16
+        }, 
+        "org.jfree.data.DefaultKeyedValues:323": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 0, 
+            "line": 323, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 3487, 
+            "rank": 4
+        }, 
+        "org.jfree.data.DefaultKeyedValues:335": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 0, 
+            "line": 335, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 3487, 
+            "rank": 5
+        }, 
+        "org.jfree.data.DefaultKeyedValues:336": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 0, 
+            "line": 336, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 3487, 
+            "rank": 6
+        }, 
+        "org.jfree.data.DefaultKeyedValues:337": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 0, 
+            "line": 337, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 3487, 
+            "rank": 7
+        }, 
+        "org.jfree.data.DefaultKeyedValues:339": {
+            "class": "org.jfree.data.DefaultKeyedValues", 
+            "ef": 8, 
+            "ep": 0, 
+            "line": 339, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 3487, 
+            "rank": 8
+        }, 
+        "org.jfree.data.category.DefaultCategoryDataset:218": {
+            "class": "org.jfree.data.category.DefaultCategoryDataset", 
+            "ef": 2, 
+            "ep": 204, 
+            "line": 218, 
+            "metrics": {
+                "ample": 0.1914969888156008, 
+                "gzoltar": 0.04926646390821466, 
+                "ochiai": 0.04926646390821466, 
+                "tarantula": 0.8103648617243783
+            }, 
+            "nf": 6, 
+            "np": 3283, 
+            "rank": 61
+        }, 
+        "org.jfree.data.category.DefaultCategoryDataset:219": {
+            "class": "org.jfree.data.category.DefaultCategoryDataset", 
+            "ef": 2, 
+            "ep": 204, 
+            "line": 219, 
+            "metrics": {
+                "ample": 0.1914969888156008, 
+                "gzoltar": 0.04926646390821466, 
+                "ochiai": 0.04926646390821466, 
+                "tarantula": 0.8103648617243783
+            }, 
+            "nf": 6, 
+            "np": 3283, 
+            "rank": 62
+        }, 
+        "org.jfree.data.category.DefaultCategoryDataset:220": {
+            "class": "org.jfree.data.category.DefaultCategoryDataset", 
+            "ef": 2, 
+            "ep": 204, 
+            "line": 220, 
+            "metrics": {
+                "ample": 0.1914969888156008, 
+                "gzoltar": 0.04926646390821466, 
+                "ochiai": 0.04926646390821466, 
+                "tarantula": 0.8103648617243783
+            }, 
+            "nf": 6, 
+            "np": 3283, 
+            "rank": 63
+        }, 
+        "org.jfree.data.category.DefaultCategoryDataset:233": {
+            "class": "org.jfree.data.category.DefaultCategoryDataset", 
+            "ef": 2, 
+            "ep": 124, 
+            "line": 233, 
+            "metrics": {
+                "ample": 0.21443934614281618, 
+                "gzoltar": 0.0629940788348712, 
+                "ochiai": 0.0629940788348712, 
+                "tarantula": 0.8754707506904343
+            }, 
+            "nf": 6, 
+            "np": 3363, 
+            "rank": 59
+        }, 
+        "org.jfree.data.category.DefaultCategoryDataset:234": {
+            "class": "org.jfree.data.category.DefaultCategoryDataset", 
+            "ef": 2, 
+            "ep": 124, 
+            "line": 234, 
+            "metrics": {
+                "ample": 0.21443934614281618, 
+                "gzoltar": 0.0629940788348712, 
+                "ochiai": 0.0629940788348712, 
+                "tarantula": 0.8754707506904343
+            }, 
+            "nf": 6, 
+            "np": 3363, 
+            "rank": 60
+        }, 
+        "org.jfree.data.category.DefaultCategoryDataset:350": {
+            "class": "org.jfree.data.category.DefaultCategoryDataset", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 350, 
+            "metrics": {
+                "ample": 0.25, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 1.0
+            }, 
+            "nf": 6, 
+            "np": 3487, 
+            "rank": 17
+        }, 
+        "org.jfree.data.category.DefaultCategoryDataset:351": {
+            "class": "org.jfree.data.category.DefaultCategoryDataset", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 351, 
+            "metrics": {
+                "ample": 0.25, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 1.0
+            }, 
+            "nf": 6, 
+            "np": 3487, 
+            "rank": 18
+        }, 
+        "org.jfree.data.category.DefaultCategoryDataset:352": {
+            "class": "org.jfree.data.category.DefaultCategoryDataset", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 352, 
+            "metrics": {
+                "ample": 0.25, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 1.0
+            }, 
+            "nf": 6, 
+            "np": 3487, 
+            "rank": 19
+        }, 
+        "org.jfree.data.general.AbstractDataset:170": {
+            "class": "org.jfree.data.general.AbstractDataset", 
+            "ef": 2, 
+            "ep": 688, 
+            "line": 170, 
+            "metrics": {
+                "ample": 0.052695726985947794, 
+                "gzoltar": 0.026919095102908276, 
+                "ochiai": 0.026919095102908276, 
+                "tarantula": 0.5589036704600097
+            }, 
+            "nf": 6, 
+            "np": 2799, 
+            "rank": 64
+        }, 
+        "org.jfree.data.general.AbstractDataset:171": {
+            "class": "org.jfree.data.general.AbstractDataset", 
+            "ef": 2, 
+            "ep": 688, 
+            "line": 171, 
+            "metrics": {
+                "ample": 0.052695726985947794, 
+                "gzoltar": 0.026919095102908276, 
+                "ochiai": 0.026919095102908276, 
+                "tarantula": 0.5589036704600097
+            }, 
+            "nf": 6, 
+            "np": 2799, 
+            "rank": 65
+        }, 
+        "org.jfree.data.general.AbstractDataset:184": {
+            "class": "org.jfree.data.general.AbstractDataset", 
+            "ef": 2, 
+            "ep": 770, 
+            "line": 184, 
+            "metrics": {
+                "ample": 0.029179810725552063, 
+                "gzoltar": 0.025449329927964382, 
+                "ochiai": 0.025449329927964382, 
+                "tarantula": 0.5309882747068677
+            }, 
+            "nf": 6, 
+            "np": 2717, 
+            "rank": 66
+        }, 
+        "org.jfree.data.general.AbstractDataset:185": {
+            "class": "org.jfree.data.general.AbstractDataset", 
+            "ef": 2, 
+            "ep": 770, 
+            "line": 185, 
+            "metrics": {
+                "ample": 0.029179810725552063, 
+                "gzoltar": 0.025449329927964382, 
+                "ochiai": 0.025449329927964382, 
+                "tarantula": 0.5309882747068677
+            }, 
+            "nf": 6, 
+            "np": 2717, 
+            "rank": 67
+        }, 
+        "org.jfree.data.general.AbstractDataset:192": {
+            "class": "org.jfree.data.general.AbstractDataset", 
+            "ef": 2, 
+            "ep": 770, 
+            "line": 192, 
+            "metrics": {
+                "ample": 0.029179810725552063, 
+                "gzoltar": 0.025449329927964382, 
+                "ochiai": 0.025449329927964382, 
+                "tarantula": 0.5309882747068677
+            }, 
+            "nf": 6, 
+            "np": 2717, 
+            "rank": 68
+        }
+    }
+}

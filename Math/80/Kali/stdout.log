@@ -1,0 +1,108 @@
+export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_80 /tmp/math_80_Kali;cd /tmp/math_80_Kali;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/tdurieux/results/Math/80/Kali/result
+cd /tmp/math_80_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.linear.EigenDecompositionImplTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_80_Kali;
+
+2015-05-07 00:48:27,398 INFO main - ProgramVariant 16
+ 
+ operation: 
+location= org.apache.commons.math.linear.EigenDecompositionImpl
+ line= 1136
+ original statement= for (int i = 0 ; i < j ; i += 4) {
+	for (int k = 0 ; k < 4 ; k += step) {
+		final double tmp = work[(i + k)];
+		work[(i + k)] = work[(j - k)];
+		work[(j - k)] = tmp;
+	}
+	j -= 4;
+}
+ fix (remove original statement) "for (int i = 0 ; i < j ; i += 4) {
+	for (int k = 0 ; k < 4 ; k += step) {
+		final double tmp = work[(i + k)];
+		work[(i + k)] = work[(j - k)];
+		work[(j - k)] = tmp;
+	}
+	j -= 4;
+}"
+ generation= 15
+ 
+ ----ProgramVariant 17
+ 
+ operation: 
+location= org.apache.commons.math.linear.EigenDecompositionImpl
+ line= 1137
+ original statement= for (int k = 0 ; k < 4 ; k += step) {
+	final double tmp = work[(i + k)];
+	work[(i + k)] = work[(j - k)];
+	work[(j - k)] = tmp;
+}
+ fix (remove original statement) "for (int k = 0 ; k < 4 ; k += step) {
+	final double tmp = work[(i + k)];
+	work[(i + k)] = work[(j - k)];
+	work[(j - k)] = tmp;
+}"
+ generation= 16
+ 
+ ----ProgramVariant 96
+ 
+ operation: 
+location= org.apache.commons.math.linear.EigenDecompositionImpl
+ line= 840
+ original statement= flipIfWarranted(n, 2)
+ fix (remove original statement) "flipIfWarranted(n, 2)"
+ generation= 95
+ 
+ ----ProgramVariant 176
+ 
+ operation: 
+location= org.apache.commons.math.linear.EigenDecompositionImpl
+ line= 1133
+ original statement= if ((1.5 * (work[pingPong])) < (work[((4 * (n - 1)) + (pingPong))])) {
+	int j = (4 * n) - 1;
+	for (int i = 0 ; i < j ; i += 4) {
+		for (int k = 0 ; k < 4 ; k += step) {
+			final double tmp = work[(i + k)];
+			work[(i + k)] = work[(j - k)];
+			work[(j - k)] = tmp;
+		}
+		j -= 4;
+	}
+	return true;
+} 
+ fix (remove original statement) "if ((1.5 * (work[pingPong])) < (work[((4 * (n - 1)) + (pingPong))])) {
+	int j = (4 * n) - 1;
+	for (int i = 0 ; i < j ; i += 4) {
+		for (int k = 0 ; k < 4 ; k += step) {
+			final double tmp = work[(i + k)];
+			work[(i + k)] = work[(j - k)];
+			work[(j - k)] = tmp;
+		}
+		j -= 4;
+	}
+	return true;
+} "
+ generation= 175
+ 
+ ----
+2015-05-07 00:48:27,398 INFO main - Time Evolution(ms): 1313497
+2015-05-07 00:48:27,398 INFO main - 
+----stats: 
+2015-05-07 00:48:27,398 INFO main - 
+spaces: [0]: []
+time val1 [326]: [327, 326, 500, 347, 328, 333, 326, 329, 328, 325, 325, 341, 326, 328, 315, 315, 317, 327, 326, 333, 329, 325, 337, 325, 332, 328, 326, 326, 326, 325, 325, 326, 331, 60002, 322, 319, 326, 327, 326, 327, 327, 329, 328, 328, 327, 327, 327, 327, 327, 60001, 332, 326, 328, 337, 318, 319, 327, 327, 327, 327, 328, 333, 334, 318, 318, 320, 318, 319, 327, 290, 296, 326, 315, 291, 327, 327, 325, 325, 326, 325, 327, 290, 326, 325, 60001, 332, 327, 330, 326, 329, 325, 325, 326, 328, 327, 60001, 327, 323, 358, 352, 326, 301, 325, 325, 327, 318, 299, 289, 290, 290, 330, 320, 330, 326, 358, 320, 319, 60001, 60001, 321, 60001, 60001, 327, 319, 319, 318, 60001, 60001, 329, 326, 455, 359, 462, 339, 60001, 326, 60001, 338, 317, 354, 319, 352, 325, 333, 332, 329, 323, 333, 329, 327, 325, 327, 322, 334, 330, 322, 333, 331, 318, 309, 318, 318, 312, 290, 288, 327, 291, 327, 60001, 327, 306, 381, 370, 330, 321, 60001, 322, 349, 316, 481, 60001, 338, 60001, 320, 351, 323, 349, 321, 344, 322, 321, 323, 321, 331, 323, 340, 317, 319, 320, 319, 319, 331, 318, 317, 319, 60001, 344, 333, 318, 316, 318, 320, 319, 318, 320, 318, 363, 371, 378, 353, 318, 324, 319, 318, 319, 318, 323, 320, 317, 319, 319, 318, 320, 318, 319, 318, 318, 317, 318, 320, 321, 323, 322, 317, 318, 331, 319, 320, 318, 318, 319, 318, 319, 318, 339, 318, 319, 319, 319, 319, 319, 318, 319, 319, 317, 318, 318, 319, 319, 319, 317, 318, 319, 60001, 321, 314, 319, 320, 319, 317, 330, 317, 320, 339, 319, 320, 318, 300, 316, 299, 317, 319, 319, 314, 318, 318, 318, 322, 327, 320, 318, 299, 299, 339, 331, 320, 342, 299, 319, 319, 319, 317, 319, 347, 346, 347, 346, 347, 349, 320, 349, 317, 349, 348, 349, 318]
+time val2 [5]: [9318, 8989, 8207, 9094, 9189]
+#gen: 489
+#patches: 4
+#RightCompilation: 325
+#WrongCompilation: 163
+#FailingTestCaseExecution: 326
+#RegressionTestExecution: 5
+#TestcasesExecutedval1: 5544
+#TestcasesExecutedval2: 9970
+#FailingTestCase: 18
+#RegressionTestCases: 1994
+#OfAppliedOp: 488
+#NotAppliedOp: 0
+#InmutatedGen: 0
+#unfinishValidation: 0
+2015-05-07 00:48:27,399 INFO fr.inria.main.AbstractMain - Time Total(ms): 1344825
+

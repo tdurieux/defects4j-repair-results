@@ -1,0 +1,15 @@
+Exception in thread "main" spoon.compiler.ModelBuildingException: Syntax error, static imports are only available if source level is 1.5 or greater at /tmp/lang_3_Genprog/outputMutation/MainjGenProg-./src/default/org/apache/commons/lang3/RangeTest.java:20
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.report(JDTBasedSpoonCompiler.java:537)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblems(JDTBasedSpoonCompiler.java:553)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:509)
+	at fr.inria.astor.core.manipulation.MutationSupporter.buildModel(MutationSupporter.java:86)
+	at fr.inria.astor.core.loop.evolutionary.JGenProg.initModel(JGenProg.java:109)
+	at fr.inria.astor.core.loop.evolutionary.JGenProg.initPopulation(JGenProg.java:57)
+	at fr.inria.main.evolution.MainjGenProg.statementMode(MainjGenProg.java:112)
+	at fr.inria.main.evolution.MainjGenProg.statementMode(MainjGenProg.java:50)
+	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:126)
+	at fr.inria.main.evolution.MainjGenProg.main(MainjGenProg.java:171)
+
+real	0m36.356s
+user	1m5.460s
+sys	0m1.752s

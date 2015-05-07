@@ -1,0 +1,15 @@
+{
+    "date": "2015-05-07T07:40:51.456635", 
+    "executionTime": 74165, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 461, 
+    "nbSMTVariable": 11, 
+    "nbStatement": 90, 
+    "node": "griffon-17.nancy.grid5000.fr\n", 
+    "patch": "((!((1)<(min)))||((yMax)<=(org.apache.commons.math.analysis.BrentSolver.serialVersionUID)))&&((yMin * yMax) >= 0)", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.analysis.BrentSolver", 
+        "line": 135
+    }, 
+    "patchType": "CONDITIONAL"
+}

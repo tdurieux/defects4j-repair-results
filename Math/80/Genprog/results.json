@@ -1,0 +1,40 @@
+{
+    "date": "2015-05-07T00:26:39.581950", 
+    "gen": "30", 
+    "node": "graphene-66.nancy.grid5000.fr\n", 
+    "operations": [
+        {
+            "generation": 30, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
+                "line": 1137
+            }
+        }
+    ], 
+    "patches": "1", 
+    "programVariant": "60", 
+    "timeEvaluation": "24309", 
+    "timeTotal": "55541", 
+    "timeVal1": [
+        329, 
+        328, 
+        326, 
+        333, 
+        318, 
+        328, 
+        324, 
+        326, 
+        328, 
+        349, 
+        330, 
+        328, 
+        331, 
+        334, 
+        455, 
+        315
+    ], 
+    "timeVal2": [
+        8913
+    ]
+}

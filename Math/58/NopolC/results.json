@@ -1,0 +1,15 @@
+{
+    "date": "2015-05-07T07:47:43.187722", 
+    "executionTime": 740659, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 925, 
+    "nbSMTVariable": 42, 
+    "nbStatement": 92, 
+    "node": "griffon-41.nancy.grid5000.fr\n", 
+    "patch": "(fp > 0)||((!((org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.this.orthoTolerance)<(gNorm)))&&(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.this.permutation!=null))", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
+        "line": 613
+    }, 
+    "patchType": "CONDITIONAL"
+}

@@ -1,0 +1,1204 @@
+{
+    "date": "2015-05-07T08:52:40.291065", 
+    "executedTest": 3641, 
+    "failedTest": 2, 
+    "failedTestDetails": [
+        {
+            "class": "org.jfree.data.time.junit.TimePeriodValuesTests", 
+            "method": "testGetMaxMiddleIndex"
+        }, 
+        {
+            "class": "org.jfree.data.time.junit.TimePeriodValuesTests", 
+            "method": "testGetMaxMiddleIndex"
+        }
+    ], 
+    "node": "griffon-74.nancy.grid5000.fr\n", 
+    "successfulTest": 3639, 
+    "suspicious": {
+        "org.jfree.data.general.Series:313": {
+            "class": "org.jfree.data.general.Series", 
+            "ef": 2, 
+            "ep": 522, 
+            "line": 313, 
+            "metrics": {
+                "ample": 0.8565539983511954, 
+                "gzoltar": 0.06178020632152154, 
+                "ochiai": 0.06178020632152154, 
+                "tarantula": 0.8745493871665465
+            }, 
+            "nf": 0, 
+            "np": 3117, 
+            "rank": 74
+        }, 
+        "org.jfree.data.general.Series:314": {
+            "class": "org.jfree.data.general.Series", 
+            "ef": 2, 
+            "ep": 522, 
+            "line": 314, 
+            "metrics": {
+                "ample": 0.8565539983511954, 
+                "gzoltar": 0.06178020632152154, 
+                "ochiai": 0.06178020632152154, 
+                "tarantula": 0.8745493871665465
+            }, 
+            "nf": 0, 
+            "np": 3117, 
+            "rank": 75
+        }, 
+        "org.jfree.data.general.Series:316": {
+            "class": "org.jfree.data.general.Series", 
+            "ef": 2, 
+            "ep": 522, 
+            "line": 316, 
+            "metrics": {
+                "ample": 0.8565539983511954, 
+                "gzoltar": 0.06178020632152154, 
+                "ochiai": 0.06178020632152154, 
+                "tarantula": 0.8745493871665465
+            }, 
+            "nf": 0, 
+            "np": 3117, 
+            "rank": 76
+        }, 
+        "org.jfree.data.general.Series:326": {
+            "class": "org.jfree.data.general.Series", 
+            "ef": 2, 
+            "ep": 522, 
+            "line": 326, 
+            "metrics": {
+                "ample": 0.8565539983511954, 
+                "gzoltar": 0.06178020632152154, 
+                "ochiai": 0.06178020632152154, 
+                "tarantula": 0.8745493871665465
+            }, 
+            "nf": 0, 
+            "np": 3117, 
+            "rank": 77
+        }, 
+        "org.jfree.data.general.Series:327": {
+            "class": "org.jfree.data.general.Series", 
+            "ef": 2, 
+            "ep": 522, 
+            "line": 327, 
+            "metrics": {
+                "ample": 0.8565539983511954, 
+                "gzoltar": 0.06178020632152154, 
+                "ochiai": 0.06178020632152154, 
+                "tarantula": 0.8745493871665465
+            }, 
+            "nf": 0, 
+            "np": 3117, 
+            "rank": 78
+        }, 
+        "org.jfree.data.general.Series:334": {
+            "class": "org.jfree.data.general.Series", 
+            "ef": 2, 
+            "ep": 522, 
+            "line": 334, 
+            "metrics": {
+                "ample": 0.8565539983511954, 
+                "gzoltar": 0.06178020632152154, 
+                "ochiai": 0.06178020632152154, 
+                "tarantula": 0.8745493871665465
+            }, 
+            "nf": 0, 
+            "np": 3117, 
+            "rank": 79
+        }, 
+        "org.jfree.data.time.RegularTimePeriod:182": {
+            "class": "org.jfree.data.time.RegularTimePeriod", 
+            "ef": 2, 
+            "ep": 38, 
+            "line": 182, 
+            "metrics": {
+                "ample": 0.9895575707611981, 
+                "gzoltar": 0.22360679774997896, 
+                "ochiai": 0.22360679774997896, 
+                "tarantula": 0.9896654881697036
+            }, 
+            "nf": 0, 
+            "np": 3601, 
+            "rank": 61
+        }, 
+        "org.jfree.data.time.RegularTimePeriod:194": {
+            "class": "org.jfree.data.time.RegularTimePeriod", 
+            "ef": 2, 
+            "ep": 38, 
+            "line": 194, 
+            "metrics": {
+                "ample": 0.9895575707611981, 
+                "gzoltar": 0.22360679774997896, 
+                "ochiai": 0.22360679774997896, 
+                "tarantula": 0.9896654881697036
+            }, 
+            "nf": 0, 
+            "np": 3601, 
+            "rank": 62
+        }, 
+        "org.jfree.data.time.SimpleTimePeriod:100": {
+            "class": "org.jfree.data.time.SimpleTimePeriod", 
+            "ef": 2, 
+            "ep": 44, 
+            "line": 100, 
+            "metrics": {
+                "ample": 0.9879087661445453, 
+                "gzoltar": 0.20851441405707477, 
+                "ochiai": 0.20851441405707477, 
+                "tarantula": 0.9880532174857453
+            }, 
+            "nf": 0, 
+            "np": 3595, 
+            "rank": 64
+        }, 
+        "org.jfree.data.time.SimpleTimePeriod:120": {
+            "class": "org.jfree.data.time.SimpleTimePeriod", 
+            "ef": 2, 
+            "ep": 42, 
+            "line": 120, 
+            "metrics": {
+                "ample": 0.9884583676834295, 
+                "gzoltar": 0.21320071635561041, 
+                "ochiai": 0.21320071635561041, 
+                "tarantula": 0.9885900570497148
+            }, 
+            "nf": 0, 
+            "np": 3597, 
+            "rank": 63
+        }, 
+        "org.jfree.data.time.TimePeriodValue:97": {
+            "class": "org.jfree.data.time.TimePeriodValue", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 97, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 58
+        }, 
+        "org.jfree.data.time.TimePeriodValues:205": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 205, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 11
+        }, 
+        "org.jfree.data.time.TimePeriodValues:243": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 243, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 12
+        }, 
+        "org.jfree.data.time.TimePeriodValues:246": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 246, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 13
+        }, 
+        "org.jfree.data.time.TimePeriodValues:247": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 247, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 14
+        }, 
+        "org.jfree.data.time.TimePeriodValues:248": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 248, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 15
+        }, 
+        "org.jfree.data.time.TimePeriodValues:249": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 249, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 16
+        }, 
+        "org.jfree.data.time.TimePeriodValues:259": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 259, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 17
+        }, 
+        "org.jfree.data.time.TimePeriodValues:260": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 260, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 18
+        }, 
+        "org.jfree.data.time.TimePeriodValues:261": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 261, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 19
+        }, 
+        "org.jfree.data.time.TimePeriodValues:263": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 263, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 20
+        }, 
+        "org.jfree.data.time.TimePeriodValues:264": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 264, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 21
+        }, 
+        "org.jfree.data.time.TimePeriodValues:266": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 266, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 22
+        }, 
+        "org.jfree.data.time.TimePeriodValues:267": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 8, 
+            "line": 267, 
+            "metrics": {
+                "ample": 0.9978015938444628, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.99780641623252
+            }, 
+            "nf": 0, 
+            "np": 3631, 
+            "rank": 2
+        }, 
+        "org.jfree.data.time.TimePeriodValues:269": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 269, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 23
+        }, 
+        "org.jfree.data.time.TimePeriodValues:271": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 271, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 24
+        }, 
+        "org.jfree.data.time.TimePeriodValues:274": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 274, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 25
+        }, 
+        "org.jfree.data.time.TimePeriodValues:275": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 275, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 26
+        }, 
+        "org.jfree.data.time.TimePeriodValues:277": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 277, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 27
+        }, 
+        "org.jfree.data.time.TimePeriodValues:278": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 278, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 28
+        }, 
+        "org.jfree.data.time.TimePeriodValues:280": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 280, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 29
+        }, 
+        "org.jfree.data.time.TimePeriodValues:282": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 282, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 30
+        }, 
+        "org.jfree.data.time.TimePeriodValues:285": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 285, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 31
+        }, 
+        "org.jfree.data.time.TimePeriodValues:286": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 286, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 32
+        }, 
+        "org.jfree.data.time.TimePeriodValues:288": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 288, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 33
+        }, 
+        "org.jfree.data.time.TimePeriodValues:290": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 290, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 34
+        }, 
+        "org.jfree.data.time.TimePeriodValues:291": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 291, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 35
+        }, 
+        "org.jfree.data.time.TimePeriodValues:292": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 8, 
+            "line": 292, 
+            "metrics": {
+                "ample": 0.9978015938444628, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.99780641623252
+            }, 
+            "nf": 0, 
+            "np": 3631, 
+            "rank": 3
+        }, 
+        "org.jfree.data.time.TimePeriodValues:294": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 294, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 36
+        }, 
+        "org.jfree.data.time.TimePeriodValues:296": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 296, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 37
+        }, 
+        "org.jfree.data.time.TimePeriodValues:299": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 299, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 38
+        }, 
+        "org.jfree.data.time.TimePeriodValues:300": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 300, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 39
+        }, 
+        "org.jfree.data.time.TimePeriodValues:302": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 302, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 40
+        }, 
+        "org.jfree.data.time.TimePeriodValues:304": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 304, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 41
+        }, 
+        "org.jfree.data.time.TimePeriodValues:305": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 305, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 42
+        }, 
+        "org.jfree.data.time.TimePeriodValues:306": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 306, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 43
+        }, 
+        "org.jfree.data.time.TimePeriodValues:308": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 308, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 44
+        }, 
+        "org.jfree.data.time.TimePeriodValues:310": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 310, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 45
+        }, 
+        "org.jfree.data.time.TimePeriodValues:313": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 313, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 46
+        }, 
+        "org.jfree.data.time.TimePeriodValues:314": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 314, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 47
+        }, 
+        "org.jfree.data.time.TimePeriodValues:316": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 316, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 48
+        }, 
+        "org.jfree.data.time.TimePeriodValues:317": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 8, 
+            "line": 317, 
+            "metrics": {
+                "ample": 0.9978015938444628, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.99780641623252
+            }, 
+            "nf": 0, 
+            "np": 3631, 
+            "rank": 4
+        }, 
+        "org.jfree.data.time.TimePeriodValues:319": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 319, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 49
+        }, 
+        "org.jfree.data.time.TimePeriodValues:321": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 321, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 50
+        }, 
+        "org.jfree.data.time.TimePeriodValues:324": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 324, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 51
+        }, 
+        "org.jfree.data.time.TimePeriodValues:325": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 325, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 52
+        }, 
+        "org.jfree.data.time.TimePeriodValues:327": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 327, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 53
+        }, 
+        "org.jfree.data.time.TimePeriodValues:328": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 328, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 54
+        }, 
+        "org.jfree.data.time.TimePeriodValues:330": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 330, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 55
+        }, 
+        "org.jfree.data.time.TimePeriodValues:332": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 332, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 56
+        }, 
+        "org.jfree.data.time.TimePeriodValues:335": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 335, 
+            "metrics": {
+                "ample": 0.9934047815333883, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9934479934479935
+            }, 
+            "nf": 0, 
+            "np": 3615, 
+            "rank": 57
+        }, 
+        "org.jfree.data.time.TimePeriodValues:363": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 18, 
+            "line": 363, 
+            "metrics": {
+                "ample": 0.9950535861500412, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9950779327317473
+            }, 
+            "nf": 0, 
+            "np": 3621, 
+            "rank": 5
+        }, 
+        "org.jfree.data.time.TimePeriodValues:364": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 18, 
+            "line": 364, 
+            "metrics": {
+                "ample": 0.9950535861500412, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9950779327317473
+            }, 
+            "nf": 0, 
+            "np": 3621, 
+            "rank": 6
+        }, 
+        "org.jfree.data.time.TimePeriodValues:365": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 18, 
+            "line": 365, 
+            "metrics": {
+                "ample": 0.9950535861500412, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9950779327317473
+            }, 
+            "nf": 0, 
+            "np": 3621, 
+            "rank": 7
+        }, 
+        "org.jfree.data.time.TimePeriodValues:375": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 18, 
+            "line": 375, 
+            "metrics": {
+                "ample": 0.9950535861500412, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9950779327317473
+            }, 
+            "nf": 0, 
+            "np": 3621, 
+            "rank": 8
+        }, 
+        "org.jfree.data.time.TimePeriodValues:376": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 18, 
+            "line": 376, 
+            "metrics": {
+                "ample": 0.9950535861500412, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9950779327317473
+            }, 
+            "nf": 0, 
+            "np": 3621, 
+            "rank": 9
+        }, 
+        "org.jfree.data.time.TimePeriodValues:377": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 18, 
+            "line": 377, 
+            "metrics": {
+                "ample": 0.9950535861500412, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9950779327317473
+            }, 
+            "nf": 0, 
+            "np": 3621, 
+            "rank": 10
+        }, 
+        "org.jfree.data.time.TimePeriodValues:552": {
+            "class": "org.jfree.data.time.TimePeriodValues", 
+            "ef": 2, 
+            "ep": 2, 
+            "line": 552, 
+            "metrics": {
+                "ample": 0.9994503984611157, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.9994507003570446
+            }, 
+            "nf": 0, 
+            "np": 3637, 
+            "rank": 1
+        }, 
+        "org.jfree.data.time.Year:150": {
+            "class": "org.jfree.data.time.Year", 
+            "ef": 2, 
+            "ep": 28, 
+            "line": 150, 
+            "metrics": {
+                "ample": 0.9923055784556197, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9923643305154076
+            }, 
+            "nf": 0, 
+            "np": 3611, 
+            "rank": 59
+        }, 
+        "org.jfree.data.time.Year:164": {
+            "class": "org.jfree.data.time.Year", 
+            "ef": 2, 
+            "ep": 28, 
+            "line": 164, 
+            "metrics": {
+                "ample": 0.9923055784556197, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9923643305154076
+            }, 
+            "nf": 0, 
+            "np": 3611, 
+            "rank": 60
+        }, 
+        "org.jfree.data.time.Year:176": {
+            "class": "org.jfree.data.time.Year", 
+            "ef": 2, 
+            "ep": 170, 
+            "line": 176, 
+            "metrics": {
+                "ample": 0.9532838691948338, 
+                "gzoltar": 0.10783277320343841, 
+                "ochiai": 0.10783277320343841, 
+                "tarantula": 0.9553688632186926
+            }, 
+            "nf": 0, 
+            "np": 3469, 
+            "rank": 65
+        }, 
+        "org.jfree.data.time.Year:177": {
+            "class": "org.jfree.data.time.Year", 
+            "ef": 2, 
+            "ep": 170, 
+            "line": 177, 
+            "metrics": {
+                "ample": 0.9532838691948338, 
+                "gzoltar": 0.10783277320343841, 
+                "ochiai": 0.10783277320343841, 
+                "tarantula": 0.9553688632186926
+            }, 
+            "nf": 0, 
+            "np": 3469, 
+            "rank": 66
+        }, 
+        "org.jfree.data.time.Year:178": {
+            "class": "org.jfree.data.time.Year", 
+            "ef": 2, 
+            "ep": 170, 
+            "line": 178, 
+            "metrics": {
+                "ample": 0.9532838691948338, 
+                "gzoltar": 0.10783277320343841, 
+                "ochiai": 0.10783277320343841, 
+                "tarantula": 0.9553688632186926
+            }, 
+            "nf": 0, 
+            "np": 3469, 
+            "rank": 67
+        }, 
+        "org.jfree.data.time.Year:233": {
+            "class": "org.jfree.data.time.Year", 
+            "ef": 2, 
+            "ep": 170, 
+            "line": 233, 
+            "metrics": {
+                "ample": 0.9532838691948338, 
+                "gzoltar": 0.10783277320343841, 
+                "ochiai": 0.10783277320343841, 
+                "tarantula": 0.9553688632186926
+            }, 
+            "nf": 0, 
+            "np": 3469, 
+            "rank": 68
+        }, 
+        "org.jfree.data.time.Year:234": {
+            "class": "org.jfree.data.time.Year", 
+            "ef": 2, 
+            "ep": 170, 
+            "line": 234, 
+            "metrics": {
+                "ample": 0.9532838691948338, 
+                "gzoltar": 0.10783277320343841, 
+                "ochiai": 0.10783277320343841, 
+                "tarantula": 0.9553688632186926
+            }, 
+            "nf": 0, 
+            "np": 3469, 
+            "rank": 69
+        }, 
+        "org.jfree.data.time.Year:237": {
+            "class": "org.jfree.data.time.Year", 
+            "ef": 2, 
+            "ep": 170, 
+            "line": 237, 
+            "metrics": {
+                "ample": 0.9532838691948338, 
+                "gzoltar": 0.10783277320343841, 
+                "ochiai": 0.10783277320343841, 
+                "tarantula": 0.9553688632186926
+            }, 
+            "nf": 0, 
+            "np": 3469, 
+            "rank": 70
+        }, 
+        "org.jfree.data.time.Year:252": {
+            "class": "org.jfree.data.time.Year", 
+            "ef": 2, 
+            "ep": 170, 
+            "line": 252, 
+            "metrics": {
+                "ample": 0.9532838691948338, 
+                "gzoltar": 0.10783277320343841, 
+                "ochiai": 0.10783277320343841, 
+                "tarantula": 0.9553688632186926
+            }, 
+            "nf": 0, 
+            "np": 3469, 
+            "rank": 71
+        }, 
+        "org.jfree.data.time.Year:253": {
+            "class": "org.jfree.data.time.Year", 
+            "ef": 2, 
+            "ep": 170, 
+            "line": 253, 
+            "metrics": {
+                "ample": 0.9532838691948338, 
+                "gzoltar": 0.10783277320343841, 
+                "ochiai": 0.10783277320343841, 
+                "tarantula": 0.9553688632186926
+            }, 
+            "nf": 0, 
+            "np": 3469, 
+            "rank": 72
+        }, 
+        "org.jfree.data.time.Year:256": {
+            "class": "org.jfree.data.time.Year", 
+            "ef": 2, 
+            "ep": 170, 
+            "line": 256, 
+            "metrics": {
+                "ample": 0.9532838691948338, 
+                "gzoltar": 0.10783277320343841, 
+                "ochiai": 0.10783277320343841, 
+                "tarantula": 0.9553688632186926
+            }, 
+            "nf": 0, 
+            "np": 3469, 
+            "rank": 73
+        }
+    }
+}

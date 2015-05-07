@@ -1,0 +1,71 @@
+{
+    "date": "2015-05-07T02:33:09.582943", 
+    "gen": "81", 
+    "node": "graphene-21.nancy.grid5000.fr\n", 
+    "operations": [
+        {
+            "generation": 34, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.util.OpenIntToDoubleHashMap", 
+                "line": 399
+            }
+        }
+    ], 
+    "patches": "1", 
+    "programVariant": "35", 
+    "timeEvaluation": "69594", 
+    "timeTotal": "248244", 
+    "timeVal1": [
+        325, 
+        318, 
+        335, 
+        317, 
+        327, 
+        323, 
+        301, 
+        318, 
+        317, 
+        319, 
+        294, 
+        294, 
+        320, 
+        322, 
+        323, 
+        291, 
+        294, 
+        297, 
+        323, 
+        306, 
+        328, 
+        321, 
+        312, 
+        319, 
+        318, 
+        318, 
+        318, 
+        318, 
+        300, 
+        288, 
+        319, 
+        308, 
+        323, 
+        302, 
+        328, 
+        300, 
+        317, 
+        300, 
+        301, 
+        292, 
+        306, 
+        323, 
+        319, 
+        316, 
+        317, 
+        321, 
+        317
+    ], 
+    "timeVal2": [
+        44140
+    ]
+}

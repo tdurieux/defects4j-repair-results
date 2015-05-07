@@ -1,0 +1,2959 @@
+{
+    "date": "2015-05-07T08:50:15.256319", 
+    "executedTest": 2047, 
+    "failedTest": 2, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.lang3.reflect.TypeUtilsTest", 
+            "method": "testGetTypeArguments"
+        }, 
+        {
+            "class": "org.apache.commons.lang3.reflect.TypeUtilsTest", 
+            "method": "testIsAssignable"
+        }
+    ], 
+    "node": "griffon-35.nancy.grid5000.fr\n", 
+    "successfulTest": 2045, 
+    "suspicious": {
+        "org.apache.commons.lang3.ArrayUtils:320": {
+            "class": "org.apache.commons.lang3.ArrayUtils", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 320, 
+            "metrics": {
+                "ample": 0.49755501222493886, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.9951338199513383
+            }, 
+            "nf": 1, 
+            "np": 2040, 
+            "rank": 149
+        }, 
+        "org.apache.commons.lang3.ArrayUtils:323": {
+            "class": "org.apache.commons.lang3.ArrayUtils", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 323, 
+            "metrics": {
+                "ample": 0.49755501222493886, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.9951338199513383
+            }, 
+            "nf": 1, 
+            "np": 2040, 
+            "rank": 150
+        }, 
+        "org.apache.commons.lang3.ClassUtils:589": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 2, 
+            "ep": 8, 
+            "line": 589, 
+            "metrics": {
+                "ample": 0.9960880195599022, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9961032635168047
+            }, 
+            "nf": 0, 
+            "np": 2037, 
+            "rank": 126
+        }, 
+        "org.apache.commons.lang3.ClassUtils:620": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 2, 
+            "ep": 23, 
+            "line": 620, 
+            "metrics": {
+                "ample": 0.9887530562347189, 
+                "gzoltar": 0.282842712474619, 
+                "ochiai": 0.282842712474619, 
+                "tarantula": 0.9888781431334623
+            }, 
+            "nf": 0, 
+            "np": 2022, 
+            "rank": 151
+        }, 
+        "org.apache.commons.lang3.ClassUtils:624": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 2, 
+            "ep": 23, 
+            "line": 624, 
+            "metrics": {
+                "ample": 0.9887530562347189, 
+                "gzoltar": 0.282842712474619, 
+                "ochiai": 0.282842712474619, 
+                "tarantula": 0.9888781431334623
+            }, 
+            "nf": 0, 
+            "np": 2022, 
+            "rank": 152
+        }, 
+        "org.apache.commons.lang3.ClassUtils:628": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 2, 
+            "ep": 23, 
+            "line": 628, 
+            "metrics": {
+                "ample": 0.9887530562347189, 
+                "gzoltar": 0.282842712474619, 
+                "ochiai": 0.282842712474619, 
+                "tarantula": 0.9888781431334623
+            }, 
+            "nf": 0, 
+            "np": 2022, 
+            "rank": 153
+        }, 
+        "org.apache.commons.lang3.ClassUtils:629": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 2, 
+            "ep": 21, 
+            "line": 629, 
+            "metrics": {
+                "ample": 0.9897310513447433, 
+                "gzoltar": 0.29488391230979427, 
+                "ochiai": 0.29488391230979427, 
+                "tarantula": 0.989835430784124
+            }, 
+            "nf": 0, 
+            "np": 2024, 
+            "rank": 147
+        }, 
+        "org.apache.commons.lang3.ClassUtils:630": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 630, 
+            "metrics": {
+                "ample": 0.49706601466992667, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9941662615459406
+            }, 
+            "nf": 1, 
+            "np": 2039, 
+            "rank": 158
+        }, 
+        "org.apache.commons.lang3.ClassUtils:631": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 631, 
+            "metrics": {
+                "ample": 0.49706601466992667, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9941662615459406
+            }, 
+            "nf": 1, 
+            "np": 2039, 
+            "rank": 159
+        }, 
+        "org.apache.commons.lang3.ClassUtils:635": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 2, 
+            "ep": 21, 
+            "line": 635, 
+            "metrics": {
+                "ample": 0.9897310513447433, 
+                "gzoltar": 0.29488391230979427, 
+                "ochiai": 0.29488391230979427, 
+                "tarantula": 0.989835430784124
+            }, 
+            "nf": 0, 
+            "np": 2024, 
+            "rank": 148
+        }, 
+        "org.apache.commons.lang3.ClassUtils:642": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 2, 
+            "ep": 23, 
+            "line": 642, 
+            "metrics": {
+                "ample": 0.9887530562347189, 
+                "gzoltar": 0.282842712474619, 
+                "ochiai": 0.282842712474619, 
+                "tarantula": 0.9888781431334623
+            }, 
+            "nf": 0, 
+            "np": 2022, 
+            "rank": 154
+        }, 
+        "org.apache.commons.lang3.ClassUtils:645": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 2, 
+            "ep": 23, 
+            "line": 645, 
+            "metrics": {
+                "ample": 0.9887530562347189, 
+                "gzoltar": 0.282842712474619, 
+                "ochiai": 0.282842712474619, 
+                "tarantula": 0.9888781431334623
+            }, 
+            "nf": 0, 
+            "np": 2022, 
+            "rank": 155
+        }, 
+        "org.apache.commons.lang3.ClassUtils:689": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 2, 
+            "ep": 20, 
+            "line": 689, 
+            "metrics": {
+                "ample": 0.9902200488997555, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9903147699757869
+            }, 
+            "nf": 0, 
+            "np": 2025, 
+            "rank": 146
+        }, 
+        "org.apache.commons.lang3.ClassUtils:705": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 705, 
+            "metrics": {
+                "ample": 0.49559902200489, 
+                "gzoltar": 0.22360679774997896, 
+                "ochiai": 0.22360679774997896, 
+                "tarantula": 0.9912748424624332
+            }, 
+            "nf": 1, 
+            "np": 2036, 
+            "rank": 160
+        }, 
+        "org.apache.commons.lang3.ClassUtils:706": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 706, 
+            "metrics": {
+                "ample": 0.49559902200489, 
+                "gzoltar": 0.22360679774997896, 
+                "ochiai": 0.22360679774997896, 
+                "tarantula": 0.9912748424624332
+            }, 
+            "nf": 1, 
+            "np": 2036, 
+            "rank": 161
+        }, 
+        "org.apache.commons.lang3.ClassUtils:707": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 707, 
+            "metrics": {
+                "ample": 0.49559902200489, 
+                "gzoltar": 0.22360679774997896, 
+                "ochiai": 0.22360679774997896, 
+                "tarantula": 0.9912748424624332
+            }, 
+            "nf": 1, 
+            "np": 2036, 
+            "rank": 162
+        }, 
+        "org.apache.commons.lang3.ClassUtils:709": {
+            "class": "org.apache.commons.lang3.ClassUtils", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 709, 
+            "metrics": {
+                "ample": 0.49559902200489, 
+                "gzoltar": 0.22360679774997896, 
+                "ochiai": 0.22360679774997896, 
+                "tarantula": 0.9912748424624332
+            }, 
+            "nf": 1, 
+            "np": 2036, 
+            "rank": 163
+        }, 
+        "org.apache.commons.lang3.JavaVersion:105": {
+            "class": "org.apache.commons.lang3.JavaVersion", 
+            "ef": 2, 
+            "ep": 25, 
+            "line": 105, 
+            "metrics": {
+                "ample": 0.9877750611246944, 
+                "gzoltar": 0.2721655269759087, 
+                "ochiai": 0.2721655269759087, 
+                "tarantula": 0.9879227053140095
+            }, 
+            "nf": 0, 
+            "np": 2020, 
+            "rank": 157
+        }, 
+        "org.apache.commons.lang3.StringEscapeUtils:433": {
+            "class": "org.apache.commons.lang3.StringEscapeUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 433, 
+            "metrics": {
+                "ample": 0.4980440097799511, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9961032635168047
+            }, 
+            "nf": 1, 
+            "np": 2041, 
+            "rank": 145
+        }, 
+        "org.apache.commons.lang3.SystemUtils:1371": {
+            "class": "org.apache.commons.lang3.SystemUtils", 
+            "ef": 2, 
+            "ep": 24, 
+            "line": 1371, 
+            "metrics": {
+                "ample": 0.9882640586797066, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9884001933301112
+            }, 
+            "nf": 0, 
+            "np": 2021, 
+            "rank": 156
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:113": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 113, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 61
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:115": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 115, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 62
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:120": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 120, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 63
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:121": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 121, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 8
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:125": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 125, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 64
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:126": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 126, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 65
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:129": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 129, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 66
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:131": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 131, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 67
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:134": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 134, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 9
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:136": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 136, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 10
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:140": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 140, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 11
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:154": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 154, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 12
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:155": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 155, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 13
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:181": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 181, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 129
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:187": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 187, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 130
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:192": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 192, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 131
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:193": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 193, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 14
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:197": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 197, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 132
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:200": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 200, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 133
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:203": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 203, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 134
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:210": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 210, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 135
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:211": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 211, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 15
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:215": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 215, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 136
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:219": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 219, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 137
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:220": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 220, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 138
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:221": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 221, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 139
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:226": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 226, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 140
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:230": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 230, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 98
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:232": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 232, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 141
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:234": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 234, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 142
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:250": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 250, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 16
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:256": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 256, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 17
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:261": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 261, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 18
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:262": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 262, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 19
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:265": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 265, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 20
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:267": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 267, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 21
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:268": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 268, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 22
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:271": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 271, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 23
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:275": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 275, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 24
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:277": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 277, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 25
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:326": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 326, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 102
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:332": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 332, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 103
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:337": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 337, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 104
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:341": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 341, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 105
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:342": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 342, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 106
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:344": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 344, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 107
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:345": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 345, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 26
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:346": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 346, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 27
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:347": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 347, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 28
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:349": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 349, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 29
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:352": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 352, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 30
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:357": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 357, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 31
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:358": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 358, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 32
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:359": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 359, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 33
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:364": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 364, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 34
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:367": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 367, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 35
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:372": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 372, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 36
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:373": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 373, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 37
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:374": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 374, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 38
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:379": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 379, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 39
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:382": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 382, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 108
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:385": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 385, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 109
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:387": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 387, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 40
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:391": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 391, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 110
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:394": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 394, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 111
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:396": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 396, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 41
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:400": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 400, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 112
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:460": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 460, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 113
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:471": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 471, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 114
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:522": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 522, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 96
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:535": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 3, 
+            "line": 535, 
+            "metrics": {
+                "ample": 0.9985330073349633, 
+                "gzoltar": 0.6324555320336759, 
+                "ochiai": 0.6324555320336759, 
+                "tarantula": 0.9985351562500001
+            }, 
+            "nf": 0, 
+            "np": 2042, 
+            "rank": 50
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:536": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 3, 
+            "line": 536, 
+            "metrics": {
+                "ample": 0.9985330073349633, 
+                "gzoltar": 0.6324555320336759, 
+                "ochiai": 0.6324555320336759, 
+                "tarantula": 0.9985351562500001
+            }, 
+            "nf": 0, 
+            "np": 2042, 
+            "rank": 51
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:539": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 3, 
+            "line": 539, 
+            "metrics": {
+                "ample": 0.9985330073349633, 
+                "gzoltar": 0.6324555320336759, 
+                "ochiai": 0.6324555320336759, 
+                "tarantula": 0.9985351562500001
+            }, 
+            "nf": 0, 
+            "np": 2042, 
+            "rank": 52
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:540": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 3, 
+            "line": 540, 
+            "metrics": {
+                "ample": 0.9985330073349633, 
+                "gzoltar": 0.6324555320336759, 
+                "ochiai": 0.6324555320336759, 
+                "tarantula": 0.9985351562500001
+            }, 
+            "nf": 0, 
+            "np": 2042, 
+            "rank": 53
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:588": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 588, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 68
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:591": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 591, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 69
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:595": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 595, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 70
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:598": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 598, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 71
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:600": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 600, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 2045, 
+            "rank": 1
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:601": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 601, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 2045, 
+            "rank": 2
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:603": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 0, 
+            "line": 603, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 2045, 
+            "rank": 3
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:605": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 605, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 72
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:610": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 610, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 73
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:612": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 612, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 74
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:615": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 615, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 75
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:616": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 616, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 76
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:617": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 617, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 77
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:621": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 621, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 78
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:623": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 623, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 79
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:627": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 627, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 115
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:641": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 3, 
+            "line": 641, 
+            "metrics": {
+                "ample": 0.9985330073349633, 
+                "gzoltar": 0.6324555320336759, 
+                "ochiai": 0.6324555320336759, 
+                "tarantula": 0.9985351562500001
+            }, 
+            "nf": 0, 
+            "np": 2042, 
+            "rank": 54
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:646": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 3, 
+            "line": 646, 
+            "metrics": {
+                "ample": 0.9985330073349633, 
+                "gzoltar": 0.6324555320336759, 
+                "ochiai": 0.6324555320336759, 
+                "tarantula": 0.9985351562500001
+            }, 
+            "nf": 0, 
+            "np": 2042, 
+            "rank": 55
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:648": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 648, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 5
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:65": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 65, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 58
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:655": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 655, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 6
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:659": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 3, 
+            "line": 659, 
+            "metrics": {
+                "ample": 0.9985330073349633, 
+                "gzoltar": 0.6324555320336759, 
+                "ochiai": 0.6324555320336759, 
+                "tarantula": 0.9985351562500001
+            }, 
+            "nf": 0, 
+            "np": 2042, 
+            "rank": 56
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:663": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 3, 
+            "line": 663, 
+            "metrics": {
+                "ample": 0.9985330073349633, 
+                "gzoltar": 0.6324555320336759, 
+                "ochiai": 0.6324555320336759, 
+                "tarantula": 0.9985351562500001
+            }, 
+            "nf": 0, 
+            "np": 2042, 
+            "rank": 57
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:664": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 1, 
+            "line": 664, 
+            "metrics": {
+                "ample": 0.9995110024449878, 
+                "gzoltar": 0.8164965809277261, 
+                "ochiai": 0.8164965809277261, 
+                "tarantula": 0.9995112414467253
+            }, 
+            "nf": 0, 
+            "np": 2044, 
+            "rank": 4
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:668": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 668, 
+            "metrics": {
+                "ample": 0.4985330073349633, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9970745977571915
+            }, 
+            "nf": 1, 
+            "np": 2042, 
+            "rank": 144
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:787": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 787, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 80
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:789": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 789, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 81
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:79": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 79, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 59
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:791": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 791, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 82
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:794": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 794, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 83
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:795": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 795, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 84
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:797": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 797, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 85
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:798": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 798, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 86
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:80": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 80, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 60
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:808": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 808, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 87
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:810": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 810, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 88
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:815": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 815, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 89
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:816": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 816, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 90
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:822": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 822, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 97
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:83": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 83, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 127
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:84": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 84, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 128
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:865": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 865, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 116
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:866": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 866, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 117
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:87": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 87, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 99
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:88": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 88, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 7
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:91": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 91, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 100
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:915": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 915, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 118
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:917": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 917, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 119
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:92": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 92, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 101
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:930": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 930, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 120
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:932": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 932, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 121
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:974": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 974, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 91
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:981": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 981, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 92
+        }, 
+        "org.apache.commons.lang3.reflect.TypeUtils:985": {
+            "class": "org.apache.commons.lang3.reflect.TypeUtils", 
+            "ef": 2, 
+            "ep": 4, 
+            "line": 985, 
+            "metrics": {
+                "ample": 0.9980440097799511, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 0, 
+            "np": 2041, 
+            "rank": 93
+        }, 
+        "org.apache.commons.lang3.text.translate.AggregateTranslator:51": {
+            "class": "org.apache.commons.lang3.text.translate.AggregateTranslator", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 51, 
+            "metrics": {
+                "ample": 0.49119804400977995, 
+                "gzoltar": 0.16222142113076254, 
+                "ochiai": 0.16222142113076254, 
+                "tarantula": 0.9827006246996637
+            }, 
+            "nf": 1, 
+            "np": 2027, 
+            "rank": 168
+        }, 
+        "org.apache.commons.lang3.text.translate.AggregateTranslator:52": {
+            "class": "org.apache.commons.lang3.text.translate.AggregateTranslator", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 52, 
+            "metrics": {
+                "ample": 0.49119804400977995, 
+                "gzoltar": 0.16222142113076254, 
+                "ochiai": 0.16222142113076254, 
+                "tarantula": 0.9827006246996637
+            }, 
+            "nf": 1, 
+            "np": 2027, 
+            "rank": 169
+        }, 
+        "org.apache.commons.lang3.text.translate.AggregateTranslator:53": {
+            "class": "org.apache.commons.lang3.text.translate.AggregateTranslator", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 53, 
+            "metrics": {
+                "ample": 0.49119804400977995, 
+                "gzoltar": 0.16222142113076254, 
+                "ochiai": 0.16222142113076254, 
+                "tarantula": 0.9827006246996637
+            }, 
+            "nf": 1, 
+            "np": 2027, 
+            "rank": 170
+        }, 
+        "org.apache.commons.lang3.text.translate.AggregateTranslator:54": {
+            "class": "org.apache.commons.lang3.text.translate.AggregateTranslator", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 54, 
+            "metrics": {
+                "ample": 0.4936430317848411, 
+                "gzoltar": 0.1889822365046136, 
+                "ochiai": 0.1889822365046136, 
+                "tarantula": 0.987445678416224
+            }, 
+            "nf": 1, 
+            "np": 2032, 
+            "rank": 166
+        }, 
+        "org.apache.commons.lang3.text.translate.AggregateTranslator:57": {
+            "class": "org.apache.commons.lang3.text.translate.AggregateTranslator", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 57, 
+            "metrics": {
+                "ample": 0.49266503667481665, 
+                "gzoltar": 0.17677669529663687, 
+                "ochiai": 0.17677669529663687, 
+                "tarantula": 0.9855421686746988
+            }, 
+            "nf": 1, 
+            "np": 2030, 
+            "rank": 167
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:108": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 108, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 122
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:109": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 109, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 123
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:110": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 110, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 124
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:111": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 111, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 125
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:54": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 34, 
+            "line": 54, 
+            "metrics": {
+                "ample": 0.48337408312958435, 
+                "gzoltar": 0.11952286093343936, 
+                "ochiai": 0.11952286093343936, 
+                "tarantula": 0.9678182678655939
+            }, 
+            "nf": 1, 
+            "np": 2011, 
+            "rank": 186
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:58": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 34, 
+            "line": 58, 
+            "metrics": {
+                "ample": 0.48337408312958435, 
+                "gzoltar": 0.11952286093343936, 
+                "ochiai": 0.11952286093343936, 
+                "tarantula": 0.9678182678655939
+            }, 
+            "nf": 1, 
+            "np": 2011, 
+            "rank": 187
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:59": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 34, 
+            "line": 59, 
+            "metrics": {
+                "ample": 0.48337408312958435, 
+                "gzoltar": 0.11952286093343936, 
+                "ochiai": 0.11952286093343936, 
+                "tarantula": 0.9678182678655939
+            }, 
+            "nf": 1, 
+            "np": 2011, 
+            "rank": 188
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:60": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 33, 
+            "line": 60, 
+            "metrics": {
+                "ample": 0.4838630806845966, 
+                "gzoltar": 0.12126781251816648, 
+                "ochiai": 0.12126781251816648, 
+                "tarantula": 0.9687351965892942
+            }, 
+            "nf": 1, 
+            "np": 2012, 
+            "rank": 185
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:76": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 36, 
+            "line": 76, 
+            "metrics": {
+                "ample": 0.4823960880195599, 
+                "gzoltar": 0.11624763874381928, 
+                "ochiai": 0.11624763874381928, 
+                "tarantula": 0.9659896079357582
+            }, 
+            "nf": 1, 
+            "np": 2009, 
+            "rank": 190
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:79": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 36, 
+            "line": 79, 
+            "metrics": {
+                "ample": 0.4823960880195599, 
+                "gzoltar": 0.11624763874381928, 
+                "ochiai": 0.11624763874381928, 
+                "tarantula": 0.9659896079357582
+            }, 
+            "nf": 1, 
+            "np": 2009, 
+            "rank": 191
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:82": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 36, 
+            "line": 82, 
+            "metrics": {
+                "ample": 0.4823960880195599, 
+                "gzoltar": 0.11624763874381928, 
+                "ochiai": 0.11624763874381928, 
+                "tarantula": 0.9659896079357582
+            }, 
+            "nf": 1, 
+            "np": 2009, 
+            "rank": 192
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:83": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 36, 
+            "line": 83, 
+            "metrics": {
+                "ample": 0.4823960880195599, 
+                "gzoltar": 0.11624763874381928, 
+                "ochiai": 0.11624763874381928, 
+                "tarantula": 0.9659896079357582
+            }, 
+            "nf": 1, 
+            "np": 2009, 
+            "rank": 193
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:84": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 36, 
+            "line": 84, 
+            "metrics": {
+                "ample": 0.4823960880195599, 
+                "gzoltar": 0.11624763874381928, 
+                "ochiai": 0.11624763874381928, 
+                "tarantula": 0.9659896079357582
+            }, 
+            "nf": 1, 
+            "np": 2009, 
+            "rank": 194
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:85": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 36, 
+            "line": 85, 
+            "metrics": {
+                "ample": 0.4823960880195599, 
+                "gzoltar": 0.11624763874381928, 
+                "ochiai": 0.11624763874381928, 
+                "tarantula": 0.9659896079357582
+            }, 
+            "nf": 1, 
+            "np": 2009, 
+            "rank": 195
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:86": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 36, 
+            "line": 86, 
+            "metrics": {
+                "ample": 0.4823960880195599, 
+                "gzoltar": 0.11624763874381928, 
+                "ochiai": 0.11624763874381928, 
+                "tarantula": 0.9659896079357582
+            }, 
+            "nf": 1, 
+            "np": 2009, 
+            "rank": 196
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:87": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 24, 
+            "line": 87, 
+            "metrics": {
+                "ample": 0.4882640586797066, 
+                "gzoltar": 0.1414213562373095, 
+                "ochiai": 0.1414213562373095, 
+                "tarantula": 0.9770664118490204
+            }, 
+            "nf": 1, 
+            "np": 2021, 
+            "rank": 178
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:88": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 24, 
+            "line": 88, 
+            "metrics": {
+                "ample": 0.4882640586797066, 
+                "gzoltar": 0.1414213562373095, 
+                "ochiai": 0.1414213562373095, 
+                "tarantula": 0.9770664118490204
+            }, 
+            "nf": 1, 
+            "np": 2021, 
+            "rank": 179
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:89": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 24, 
+            "line": 89, 
+            "metrics": {
+                "ample": 0.4882640586797066, 
+                "gzoltar": 0.1414213562373095, 
+                "ochiai": 0.1414213562373095, 
+                "tarantula": 0.9770664118490204
+            }, 
+            "nf": 1, 
+            "np": 2021, 
+            "rank": 180
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:90": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 24, 
+            "line": 90, 
+            "metrics": {
+                "ample": 0.4882640586797066, 
+                "gzoltar": 0.1414213562373095, 
+                "ochiai": 0.1414213562373095, 
+                "tarantula": 0.9770664118490204
+            }, 
+            "nf": 1, 
+            "np": 2021, 
+            "rank": 181
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:94": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 29, 
+            "line": 94, 
+            "metrics": {
+                "ample": 0.4858190709046455, 
+                "gzoltar": 0.12909944487358055, 
+                "ochiai": 0.12909944487358055, 
+                "tarantula": 0.9724203518782691
+            }, 
+            "nf": 1, 
+            "np": 2016, 
+            "rank": 182
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:95": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 29, 
+            "line": 95, 
+            "metrics": {
+                "ample": 0.4858190709046455, 
+                "gzoltar": 0.12909944487358055, 
+                "ochiai": 0.12909944487358055, 
+                "tarantula": 0.9724203518782691
+            }, 
+            "nf": 1, 
+            "np": 2016, 
+            "rank": 183
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:97": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 29, 
+            "line": 97, 
+            "metrics": {
+                "ample": 0.4858190709046455, 
+                "gzoltar": 0.12909944487358055, 
+                "ochiai": 0.12909944487358055, 
+                "tarantula": 0.9724203518782691
+            }, 
+            "nf": 1, 
+            "np": 2016, 
+            "rank": 184
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:98": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 35, 
+            "line": 98, 
+            "metrics": {
+                "ample": 0.4828850855745721, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.966903073286052
+            }, 
+            "nf": 1, 
+            "np": 2010, 
+            "rank": 189
+        }, 
+        "org.apache.commons.lang3.text.translate.EntityArrays:138": {
+            "class": "org.apache.commons.lang3.text.translate.EntityArrays", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 138, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 42
+        }, 
+        "org.apache.commons.lang3.text.translate.EntityArrays:147": {
+            "class": "org.apache.commons.lang3.text.translate.EntityArrays", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 147, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 95
+        }, 
+        "org.apache.commons.lang3.text.translate.EntityArrays:34": {
+            "class": "org.apache.commons.lang3.text.translate.EntityArrays", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 34, 
+            "metrics": {
+                "ample": 0.49951100244498775, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9990229604298975
+            }, 
+            "nf": 1, 
+            "np": 2044, 
+            "rank": 94
+        }, 
+        "org.apache.commons.lang3.text.translate.EntityArrays:349": {
+            "class": "org.apache.commons.lang3.text.translate.EntityArrays", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 349, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 43
+        }, 
+        "org.apache.commons.lang3.text.translate.EntityArrays:358": {
+            "class": "org.apache.commons.lang3.text.translate.EntityArrays", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 358, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 44
+        }, 
+        "org.apache.commons.lang3.text.translate.EntityArrays:370": {
+            "class": "org.apache.commons.lang3.text.translate.EntityArrays", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 370, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 45
+        }, 
+        "org.apache.commons.lang3.text.translate.EntityArrays:377": {
+            "class": "org.apache.commons.lang3.text.translate.EntityArrays", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 377, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 46
+        }, 
+        "org.apache.commons.lang3.text.translate.EntityArrays:386": {
+            "class": "org.apache.commons.lang3.text.translate.EntityArrays", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 386, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 47
+        }, 
+        "org.apache.commons.lang3.text.translate.EntityArrays:395": {
+            "class": "org.apache.commons.lang3.text.translate.EntityArrays", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 395, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 48
+        }, 
+        "org.apache.commons.lang3.text.translate.EntityArrays:408": {
+            "class": "org.apache.commons.lang3.text.translate.EntityArrays", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 408, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 2045, 
+            "rank": 49
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:65": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 19, 
+            "line": 65, 
+            "metrics": {
+                "ample": 0.4907090464547677, 
+                "gzoltar": 0.15811388300841897, 
+                "ochiai": 0.15811388300841897, 
+                "tarantula": 0.9817570811329813
+            }, 
+            "nf": 1, 
+            "np": 2026, 
+            "rank": 172
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:66": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 19, 
+            "line": 66, 
+            "metrics": {
+                "ample": 0.4907090464547677, 
+                "gzoltar": 0.15811388300841897, 
+                "ochiai": 0.15811388300841897, 
+                "tarantula": 0.9817570811329813
+            }, 
+            "nf": 1, 
+            "np": 2026, 
+            "rank": 173
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:70": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 19, 
+            "line": 70, 
+            "metrics": {
+                "ample": 0.4907090464547677, 
+                "gzoltar": 0.15811388300841897, 
+                "ochiai": 0.15811388300841897, 
+                "tarantula": 0.9817570811329813
+            }, 
+            "nf": 1, 
+            "np": 2026, 
+            "rank": 174
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:71": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 19, 
+            "line": 71, 
+            "metrics": {
+                "ample": 0.4907090464547677, 
+                "gzoltar": 0.15811388300841897, 
+                "ochiai": 0.15811388300841897, 
+                "tarantula": 0.9817570811329813
+            }, 
+            "nf": 1, 
+            "np": 2026, 
+            "rank": 175
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:72": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 19, 
+            "line": 72, 
+            "metrics": {
+                "ample": 0.4907090464547677, 
+                "gzoltar": 0.15811388300841897, 
+                "ochiai": 0.15811388300841897, 
+                "tarantula": 0.9817570811329813
+            }, 
+            "nf": 1, 
+            "np": 2026, 
+            "rank": 176
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:73": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 19, 
+            "line": 73, 
+            "metrics": {
+                "ample": 0.4907090464547677, 
+                "gzoltar": 0.15811388300841897, 
+                "ochiai": 0.15811388300841897, 
+                "tarantula": 0.9817570811329813
+            }, 
+            "nf": 1, 
+            "np": 2026, 
+            "rank": 177
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:74": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 11, 
+            "line": 74, 
+            "metrics": {
+                "ample": 0.49462102689486553, 
+                "gzoltar": 0.20412414523193154, 
+                "ochiai": 0.20412414523193154, 
+                "tarantula": 0.9893565553942912
+            }, 
+            "nf": 1, 
+            "np": 2034, 
+            "rank": 164
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:75": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 11, 
+            "line": 75, 
+            "metrics": {
+                "ample": 0.49462102689486553, 
+                "gzoltar": 0.20412414523193154, 
+                "ochiai": 0.20412414523193154, 
+                "tarantula": 0.9893565553942912
+            }, 
+            "nf": 1, 
+            "np": 2034, 
+            "rank": 165
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:78": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 78, 
+            "metrics": {
+                "ample": 0.49119804400977995, 
+                "gzoltar": 0.16222142113076254, 
+                "ochiai": 0.16222142113076254, 
+                "tarantula": 0.9827006246996637
+            }, 
+            "nf": 1, 
+            "np": 2027, 
+            "rank": 171
+        }, 
+        "org.apache.commons.lang3.text.translate.UnicodeEscaper:85": {
+            "class": "org.apache.commons.lang3.text.translate.UnicodeEscaper", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 85, 
+            "metrics": {
+                "ample": 0.49902200488997556, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9980478282088823
+            }, 
+            "nf": 1, 
+            "np": 2043, 
+            "rank": 143
+        }
+    }
+}

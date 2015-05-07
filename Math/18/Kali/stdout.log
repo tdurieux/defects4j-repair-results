@@ -1,0 +1,29 @@
+export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_18 /tmp/math_18_Kali;cd /tmp/math_18_Kali;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/tdurieux/results/Math/18/Kali/result
+cd /tmp/math_18_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math3.optimization.direct.CMAESOptimizerTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_18_Kali;
+ NOT Found solution
+2015-05-07 01:10:44,055 INFO main - Number solutions:0
+2015-05-07 01:10:44,055 INFO main - All variants:
+2015-05-07 01:10:44,055 INFO main - Time Evolution(ms): 1495873
+2015-05-07 01:10:44,055 INFO main - 
+----stats: 
+2015-05-07 01:10:44,055 INFO main - 
+spaces: [0]: []
+time val1 [341]: [5466, 5524, 5478, 5461, 5460, 5614, 5594, 5834, 5752, 5846, 5858, 6000, 6124, 6176, 5574, 5778, 5817, 5656, 5529, 5391, 5807, 5436, 5799, 5454, 5730, 5753, 5860, 5431, 5627, 5626, 5531, 5941, 667, 641, 1237, 13056, 15858, 2239, 17108, 6124, 1394, 5430, 5597, 5417, 21678, 20723, 21503, 5448, 2688, 1273, 28177, 5693, 5420, 5523, 4963, 4879, 5950, 5993, 5921, 1270, 1288, 1301, 1291, 1301, 1326, 1290, 3513, 3486, 6095, 6096, 5503, 5165, 255, 217, 5467, 5445, 258, 404, 324, 325, 12491, 408, 385, 15695, 13875, 8738, 3944, 5424, 5492, 418, 5417, 5403, 5663, 5525, 408, 391, 5472, 5550, 5560, 5503, 7493, 5454, 5480, 5458, 6066, 5500, 5531, 5522, 5834, 5396, 404, 403, 401, 390, 5472, 5577, 5371, 249, 19535, 257, 350, 405, 349, 1287, 391, 8935, 11468, 434, 8243, 8870, 6189, 5530, 609, 323, 247, 4790, 351, 247, 5642, 251, 263, 1191, 1262, 261, 267, 5453, 5484, 1978, 1956, 12354, 8742, 8761, 5549, 5573, 831, 341, 342, 16796, 781, 749, 7683, 7699, 8406, 408, 404, 405, 405, 405, 404, 426, 428, 430, 1403, 1390, 1425, 2392, 2382, 409, 407, 2383, 2360, 419, 410, 416, 1321, 1262, 1313, 349, 352, 7710, 534, 532, 532, 532, 5761, 5677, 5450, 5522, 825, 804, 811, 827, 818, 819, 341, 343, 343, 670, 658, 5466, 5436, 5449, 5321, 5336, 5466, 5484, 1954, 351, 352, 351, 5529, 1315, 1265, 5445, 5471, 5576, 399, 399, 398, 5450, 435, 435, 380, 378, 379, 5756, 5888, 5729, 5803, 1311, 1341, 798, 1288, 1253, 1320, 1339, 5412, 5499, 1364, 1336, 669, 636, 643, 633, 645, 674, 5438, 215, 216, 5749, 417, 417, 5602, 1291, 1253, 1269, 5574, 5444, 5386, 5800, 1230, 1232, 1669, 1427, 5802, 5447, 5506, 5451, 5411, 5427, 5444, 5369, 5394, 3473, 60001, 5354, 5762, 5487, 5462, 5495, 5479, 5428, 5454, 5457, 5519, 1275, 1242, 1341, 1308, 1258, 1314, 1296, 1267, 1677, 2626, 1277, 1265, 1353, 1325, 5487, 5393, 5478, 1301, 1232, 5981, 5405, 5490, 5466, 5497, 276, 5481, 267, 216, 215, 257, 5250, 5493, 5805, 5856, 5749, 5074, 5404, 270, 5446, 5483, 5426, 5760, 5450, 2715, 2659, 2660]
+time val2 [0]: []
+#gen: 568
+#patches: 0
+#RightCompilation: 340
+#WrongCompilation: 227
+#FailingTestCaseExecution: 341
+#RegressionTestExecution: 0
+#TestcasesExecutedval1: 8840
+#TestcasesExecutedval2: 0
+#FailingTestCase: 26
+#RegressionTestCases: 0
+#OfAppliedOp: 567
+#NotAppliedOp: 0
+#InmutatedGen: 0
+#unfinishValidation: 0
+2015-05-07 01:10:44,055 INFO fr.inria.main.AbstractMain - Time Total(ms): 2075791
+

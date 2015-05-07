@@ -1,0 +1,15 @@
+{
+    "date": "2015-05-07T07:38:23.174063", 
+    "executionTime": 65902, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 120, 
+    "nbSMTVariable": 30, 
+    "nbStatement": 127, 
+    "node": "griffon-91.nancy.grid5000.fr\n", 
+    "patch": "((1)!=(org.apache.commons.math.optimization.linear.SimplexTableau.this.numSlackVariables))&&(!(restrictToNonNegative))", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+        "line": 160
+    }, 
+    "patchType": "CONDITIONAL"
+}

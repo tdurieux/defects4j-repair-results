@@ -1,0 +1,484 @@
+{
+    "date": "2015-05-07T08:49:55.060242", 
+    "executedTest": 1876, 
+    "failedTest": 2, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.lang3.StringUtilsTest", 
+            "method": "testJoin_ArrayChar"
+        }, 
+        {
+            "class": "org.apache.commons.lang3.StringUtilsTest", 
+            "method": "testJoin_Objectarray"
+        }
+    ], 
+    "node": "griffon-56.nancy.grid5000.fr\n", 
+    "successfulTest": 1874, 
+    "suspicious": {
+        "org.apache.commons.lang3.StringUtils:3230": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 3230, 
+            "metrics": {
+                "ample": 0.4989327641408751, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.997870074547391
+            }, 
+            "nf": 1, 
+            "np": 1872, 
+            "rank": 18
+        }, 
+        "org.apache.commons.lang3.StringUtils:3256": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 3256, 
+            "metrics": {
+                "ample": 0.4994663820704376, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9989339019189766
+            }, 
+            "nf": 1, 
+            "np": 1873, 
+            "rank": 2
+        }, 
+        "org.apache.commons.lang3.StringUtils:3257": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 3257, 
+            "metrics": {
+                "ample": 0.5, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 1.0
+            }, 
+            "nf": 1, 
+            "np": 1874, 
+            "rank": 1
+        }, 
+        "org.apache.commons.lang3.StringUtils:3260": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 3260, 
+            "metrics": {
+                "ample": 0.4994663820704376, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9989339019189766
+            }, 
+            "nf": 1, 
+            "np": 1873, 
+            "rank": 3
+        }, 
+        "org.apache.commons.lang3.StringUtils:3290": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 3290, 
+            "metrics": {
+                "ample": 0.4994663820704376, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9989339019189766
+            }, 
+            "nf": 1, 
+            "np": 1873, 
+            "rank": 4
+        }, 
+        "org.apache.commons.lang3.StringUtils:3293": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 3293, 
+            "metrics": {
+                "ample": 0.4994663820704376, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9989339019189766
+            }, 
+            "nf": 1, 
+            "np": 1873, 
+            "rank": 5
+        }, 
+        "org.apache.commons.lang3.StringUtils:3294": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 3294, 
+            "metrics": {
+                "ample": 0.4994663820704376, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9989339019189766
+            }, 
+            "nf": 1, 
+            "np": 1873, 
+            "rank": 6
+        }, 
+        "org.apache.commons.lang3.StringUtils:3295": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 3295, 
+            "metrics": {
+                "ample": 0.4994663820704376, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9989339019189766
+            }, 
+            "nf": 1, 
+            "np": 1873, 
+            "rank": 7
+        }, 
+        "org.apache.commons.lang3.StringUtils:3298": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 3298, 
+            "metrics": {
+                "ample": 0.4994663820704376, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9989339019189766
+            }, 
+            "nf": 1, 
+            "np": 1873, 
+            "rank": 8
+        }, 
+        "org.apache.commons.lang3.StringUtils:3299": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 3299, 
+            "metrics": {
+                "ample": 0.4994663820704376, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9989339019189766
+            }, 
+            "nf": 1, 
+            "np": 1873, 
+            "rank": 9
+        }, 
+        "org.apache.commons.lang3.StringUtils:3301": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 3301, 
+            "metrics": {
+                "ample": 0.4994663820704376, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9989339019189766
+            }, 
+            "nf": 1, 
+            "np": 1873, 
+            "rank": 10
+        }, 
+        "org.apache.commons.lang3.StringUtils:3302": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 3302, 
+            "metrics": {
+                "ample": 0.4994663820704376, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9989339019189766
+            }, 
+            "nf": 1, 
+            "np": 1873, 
+            "rank": 11
+        }, 
+        "org.apache.commons.lang3.StringUtils:3303": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 3303, 
+            "metrics": {
+                "ample": 0.4994663820704376, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9989339019189766
+            }, 
+            "nf": 1, 
+            "np": 1873, 
+            "rank": 12
+        }, 
+        "org.apache.commons.lang3.StringUtils:3305": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 3305, 
+            "metrics": {
+                "ample": 0.4994663820704376, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9989339019189766
+            }, 
+            "nf": 1, 
+            "np": 1873, 
+            "rank": 13
+        }, 
+        "org.apache.commons.lang3.StringUtils:3306": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 3306, 
+            "metrics": {
+                "ample": 0.4994663820704376, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9989339019189766
+            }, 
+            "nf": 1, 
+            "np": 1873, 
+            "rank": 14
+        }, 
+        "org.apache.commons.lang3.StringUtils:3309": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 3309, 
+            "metrics": {
+                "ample": 0.4994663820704376, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9989339019189766
+            }, 
+            "nf": 1, 
+            "np": 1873, 
+            "rank": 15
+        }, 
+        "org.apache.commons.lang3.StringUtils:3336": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 3336, 
+            "metrics": {
+                "ample": 0.4983991462113127, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968085106382978
+            }, 
+            "nf": 1, 
+            "np": 1871, 
+            "rank": 19
+        }, 
+        "org.apache.commons.lang3.StringUtils:3337": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 3337, 
+            "metrics": {
+                "ample": 0.4989327641408751, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.997870074547391
+            }, 
+            "nf": 1, 
+            "np": 1872, 
+            "rank": 16
+        }, 
+        "org.apache.commons.lang3.StringUtils:3339": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 3339, 
+            "metrics": {
+                "ample": 0.4983991462113127, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968085106382978
+            }, 
+            "nf": 1, 
+            "np": 1871, 
+            "rank": 20
+        }, 
+        "org.apache.commons.lang3.StringUtils:3370": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 3370, 
+            "metrics": {
+                "ample": 0.4983991462113127, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968085106382978
+            }, 
+            "nf": 1, 
+            "np": 1871, 
+            "rank": 21
+        }, 
+        "org.apache.commons.lang3.StringUtils:3373": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 3373, 
+            "metrics": {
+                "ample": 0.4983991462113127, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968085106382978
+            }, 
+            "nf": 1, 
+            "np": 1871, 
+            "rank": 22
+        }, 
+        "org.apache.commons.lang3.StringUtils:3374": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 3374, 
+            "metrics": {
+                "ample": 0.4983991462113127, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968085106382978
+            }, 
+            "nf": 1, 
+            "np": 1871, 
+            "rank": 23
+        }, 
+        "org.apache.commons.lang3.StringUtils:3379": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 3379, 
+            "metrics": {
+                "ample": 0.4983991462113127, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968085106382978
+            }, 
+            "nf": 1, 
+            "np": 1871, 
+            "rank": 24
+        }, 
+        "org.apache.commons.lang3.StringUtils:3380": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 3380, 
+            "metrics": {
+                "ample": 0.4983991462113127, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968085106382978
+            }, 
+            "nf": 1, 
+            "np": 1871, 
+            "rank": 25
+        }, 
+        "org.apache.commons.lang3.StringUtils:3381": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 3381, 
+            "metrics": {
+                "ample": 0.4989327641408751, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.997870074547391
+            }, 
+            "nf": 1, 
+            "np": 1872, 
+            "rank": 17
+        }, 
+        "org.apache.commons.lang3.StringUtils:3384": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 3384, 
+            "metrics": {
+                "ample": 0.4983991462113127, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968085106382978
+            }, 
+            "nf": 1, 
+            "np": 1871, 
+            "rank": 26
+        }, 
+        "org.apache.commons.lang3.StringUtils:3387": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 3387, 
+            "metrics": {
+                "ample": 0.4983991462113127, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968085106382978
+            }, 
+            "nf": 1, 
+            "np": 1871, 
+            "rank": 27
+        }, 
+        "org.apache.commons.lang3.StringUtils:3389": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 3389, 
+            "metrics": {
+                "ample": 0.4983991462113127, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968085106382978
+            }, 
+            "nf": 1, 
+            "np": 1871, 
+            "rank": 28
+        }, 
+        "org.apache.commons.lang3.StringUtils:3390": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 3390, 
+            "metrics": {
+                "ample": 0.4983991462113127, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968085106382978
+            }, 
+            "nf": 1, 
+            "np": 1871, 
+            "rank": 29
+        }, 
+        "org.apache.commons.lang3.StringUtils:3393": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 3393, 
+            "metrics": {
+                "ample": 0.4983991462113127, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968085106382978
+            }, 
+            "nf": 1, 
+            "np": 1871, 
+            "rank": 30
+        }, 
+        "org.apache.commons.lang3.StringUtils:3397": {
+            "class": "org.apache.commons.lang3.StringUtils", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 3397, 
+            "metrics": {
+                "ample": 0.4983991462113127, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.9968085106382978
+            }, 
+            "nf": 1, 
+            "np": 1871, 
+            "rank": 31
+        }
+    }
+}

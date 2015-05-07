@@ -1,0 +1,2925 @@
+{
+    "date": "2015-05-07T08:41:43.509228", 
+    "executedTest": 1880, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolverTest", 
+            "method": "testMath272"
+        }
+    ], 
+    "node": "griffon-32.nancy.grid5000.fr\n", 
+    "successfulTest": 1879, 
+    "suspicious": {
+        "org.apache.commons.math.linear.RealMatrixImpl:314": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 314, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 176
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:315": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 315, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 177
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:320": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 320, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 178
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:325": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 325, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 179
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:326": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 326, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 180
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:330": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 330, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 181
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:331": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 331, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 182
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:334": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 334, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 183
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:335": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 335, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 184
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:336": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 336, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 185
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:341": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 341, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 186
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:343": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 343, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 187
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:347": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 347, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 188
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:354": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 45, 
+            "line": 354, 
+            "metrics": {
+                "ample": 0.9760510910058542, 
+                "gzoltar": 0.14744195615489714, 
+                "ochiai": 0.14744195615489714, 
+                "tarantula": 0.9766112266112266
+            }, 
+            "nf": 0, 
+            "np": 1834, 
+            "rank": 172
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:367": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 48, 
+            "line": 367, 
+            "metrics": {
+                "ample": 0.9744544970729111, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9750908147379347
+            }, 
+            "nf": 0, 
+            "np": 1831, 
+            "rank": 173
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:372": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 48, 
+            "line": 372, 
+            "metrics": {
+                "ample": 0.9744544970729111, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9750908147379347
+            }, 
+            "nf": 0, 
+            "np": 1831, 
+            "rank": 174
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:373": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 48, 
+            "line": 373, 
+            "metrics": {
+                "ample": 0.9744544970729111, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9750908147379347
+            }, 
+            "nf": 0, 
+            "np": 1831, 
+            "rank": 175
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:404": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 84, 
+            "line": 404, 
+            "metrics": {
+                "ample": 0.9552953698775944, 
+                "gzoltar": 0.10846522890932808, 
+                "ochiai": 0.10846522890932808, 
+                "tarantula": 0.957208354559348
+            }, 
+            "nf": 0, 
+            "np": 1795, 
+            "rank": 192
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:410": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 84, 
+            "line": 410, 
+            "metrics": {
+                "ample": 0.9552953698775944, 
+                "gzoltar": 0.10846522890932808, 
+                "ochiai": 0.10846522890932808, 
+                "tarantula": 0.957208354559348
+            }, 
+            "nf": 0, 
+            "np": 1795, 
+            "rank": 193
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:622": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 622, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 189
+        }, 
+        "org.apache.commons.math.linear.RealMatrixImpl:623": {
+            "class": "org.apache.commons.math.linear.RealMatrixImpl", 
+            "ef": 1, 
+            "ep": 75, 
+            "line": 623, 
+            "metrics": {
+                "ample": 0.9600851516764236, 
+                "gzoltar": 0.11470786693528087, 
+                "ochiai": 0.11470786693528087, 
+                "tarantula": 0.9616171954964177
+            }, 
+            "nf": 0, 
+            "np": 1804, 
+            "rank": 190
+        }, 
+        "org.apache.commons.math.linear.RealVectorImpl:1157": {
+            "class": "org.apache.commons.math.linear.RealVectorImpl", 
+            "ef": 1, 
+            "ep": 83, 
+            "line": 1157, 
+            "metrics": {
+                "ample": 0.9558275678552421, 
+                "gzoltar": 0.1091089451179962, 
+                "ochiai": 0.1091089451179962, 
+                "tarantula": 0.9576962283384302
+            }, 
+            "nf": 0, 
+            "np": 1796, 
+            "rank": 191
+        }, 
+        "org.apache.commons.math.linear.RealVectorImpl:1287": {
+            "class": "org.apache.commons.math.linear.RealVectorImpl", 
+            "ef": 1, 
+            "ep": 37, 
+            "line": 1287, 
+            "metrics": {
+                "ample": 0.9803086748270357, 
+                "gzoltar": 0.16222142113076254, 
+                "ochiai": 0.16222142113076254, 
+                "tarantula": 0.9806889352818373
+            }, 
+            "nf": 0, 
+            "np": 1842, 
+            "rank": 171
+        }, 
+        "org.apache.commons.math.linear.RealVectorImpl:1292": {
+            "class": "org.apache.commons.math.linear.RealVectorImpl", 
+            "ef": 1, 
+            "ep": 36, 
+            "line": 1292, 
+            "metrics": {
+                "ample": 0.9808408728046834, 
+                "gzoltar": 0.1643989873053573, 
+                "ochiai": 0.1643989873053573, 
+                "tarantula": 0.981201044386423
+            }, 
+            "nf": 0, 
+            "np": 1843, 
+            "rank": 170
+        }, 
+        "org.apache.commons.math.linear.RealVectorImpl:854": {
+            "class": "org.apache.commons.math.linear.RealVectorImpl", 
+            "ef": 1, 
+            "ep": 31, 
+            "line": 854, 
+            "metrics": {
+                "ample": 0.9835018626929217, 
+                "gzoltar": 0.17677669529663687, 
+                "ochiai": 0.17677669529663687, 
+                "tarantula": 0.9837696335078534
+            }, 
+            "nf": 0, 
+            "np": 1848, 
+            "rank": 169
+        }, 
+        "org.apache.commons.math.linear.RealVectorImpl:884": {
+            "class": "org.apache.commons.math.linear.RealVectorImpl", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 884, 
+            "metrics": {
+                "ample": 0.9936136242682277, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9936541512427288
+            }, 
+            "nf": 0, 
+            "np": 1867, 
+            "rank": 96
+        }, 
+        "org.apache.commons.math.linear.RealVectorImpl:885": {
+            "class": "org.apache.commons.math.linear.RealVectorImpl", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 885, 
+            "metrics": {
+                "ample": 0.9936136242682277, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9936541512427288
+            }, 
+            "nf": 0, 
+            "np": 1867, 
+            "rank": 97
+        }, 
+        "org.apache.commons.math.linear.RealVectorImpl:886": {
+            "class": "org.apache.commons.math.linear.RealVectorImpl", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 886, 
+            "metrics": {
+                "ample": 0.9936136242682277, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9936541512427288
+            }, 
+            "nf": 0, 
+            "np": 1867, 
+            "rank": 98
+        }, 
+        "org.apache.commons.math.linear.RealVectorImpl:887": {
+            "class": "org.apache.commons.math.linear.RealVectorImpl", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 887, 
+            "metrics": {
+                "ample": 0.9936136242682277, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9936541512427288
+            }, 
+            "nf": 0, 
+            "np": 1867, 
+            "rank": 99
+        }, 
+        "org.apache.commons.math.linear.RealVectorImpl:889": {
+            "class": "org.apache.commons.math.linear.RealVectorImpl", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 889, 
+            "metrics": {
+                "ample": 0.9936136242682277, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9936541512427288
+            }, 
+            "nf": 0, 
+            "np": 1867, 
+            "rank": 100
+        }, 
+        "org.apache.commons.math.optimization.RealPointValuePair:70": {
+            "class": "org.apache.commons.math.optimization.RealPointValuePair", 
+            "ef": 1, 
+            "ep": 16, 
+            "line": 70, 
+            "metrics": {
+                "ample": 0.9914848323576371, 
+                "gzoltar": 0.24253562503633297, 
+                "ochiai": 0.24253562503633297, 
+                "tarantula": 0.99155672823219
+            }, 
+            "nf": 0, 
+            "np": 1863, 
+            "rank": 168
+        }, 
+        "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer:100": {
+            "class": "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 100, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 49
+        }, 
+        "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer:101": {
+            "class": "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 101, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 50
+        }, 
+        "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer:102": {
+            "class": "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 102, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 51
+        }, 
+        "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer:103": {
+            "class": "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 103, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 52
+        }, 
+        "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer:105": {
+            "class": "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 105, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 53
+        }, 
+        "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer:108": {
+            "class": "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 108, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 54
+        }, 
+        "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer:67": {
+            "class": "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 67, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 45
+        }, 
+        "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer:68": {
+            "class": "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 68, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 46
+        }, 
+        "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer:86": {
+            "class": "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 86, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 47
+        }, 
+        "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer:91": {
+            "class": "org.apache.commons.math.optimization.linear.AbstractLinearOptimizer", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 91, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 48
+        }, 
+        "org.apache.commons.math.optimization.linear.LinearConstraint:168": {
+            "class": "org.apache.commons.math.optimization.linear.LinearConstraint", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 168, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 121
+        }, 
+        "org.apache.commons.math.optimization.linear.LinearConstraint:176": {
+            "class": "org.apache.commons.math.optimization.linear.LinearConstraint", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 176, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 122
+        }, 
+        "org.apache.commons.math.optimization.linear.LinearConstraint:184": {
+            "class": "org.apache.commons.math.optimization.linear.LinearConstraint", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 184, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 123
+        }, 
+        "org.apache.commons.math.optimization.linear.LinearObjectiveFunction:75": {
+            "class": "org.apache.commons.math.optimization.linear.LinearObjectiveFunction", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 75, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 124
+        }, 
+        "org.apache.commons.math.optimization.linear.LinearObjectiveFunction:83": {
+            "class": "org.apache.commons.math.optimization.linear.LinearObjectiveFunction", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 83, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 125
+        }, 
+        "org.apache.commons.math.optimization.linear.LinearObjectiveFunction:92": {
+            "class": "org.apache.commons.math.optimization.linear.LinearObjectiveFunction", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 92, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 4
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:102": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 102, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 76
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:104": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 104, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 77
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:105": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 105, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 78
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:106": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 106, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 79
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:111": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 111, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 80
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:112": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 112, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 81
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:115": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 115, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 82
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:116": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 116, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 83
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:117": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 117, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 84
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:118": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 118, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 85
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:121": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 121, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 86
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:129": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 129, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 31
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:132": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 132, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 32
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:133": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 133, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 33
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:134": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 134, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 34
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:137": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 137, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 35
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:146": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 146, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 36
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:149": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 149, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 37
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:150": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 150, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 38
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:154": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 154, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 18
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:167": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 167, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 87
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:171": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 171, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 39
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:172": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 172, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 40
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:176": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 176, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 41
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:179": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 179, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 19
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:185": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 185, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 88
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:187": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 187, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 89
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:188": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 188, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 42
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:189": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 189, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 43
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:192": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 192, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 20
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:59": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 59, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 59
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:60": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 60, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 60
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:61": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 61, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 61
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:62": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 62, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 62
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:63": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 63, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 63
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:64": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 64, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 64
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:67": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 67, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 65
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:77": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 77, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 66
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:78": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 78, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 67
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:79": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 79, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 68
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:80": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 80, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 69
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:81": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 81, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 70
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:82": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 82, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 71
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:83": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 83, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 72
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:84": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 84, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 73
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:85": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 85, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 74
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexSolver:89": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 89, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 75
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:126": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 126, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 126
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:127": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 127, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 127
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:129": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 129, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 128
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:130": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 130, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 129
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:133": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 133, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 130
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:134": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 134, 
+            "metrics": {
+                "ample": 0.9936136242682277, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9936541512427288
+            }, 
+            "nf": 0, 
+            "np": 1867, 
+            "rank": 101
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:136": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 136, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 131
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:137": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 137, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 132
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:138": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 138, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 133
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:140": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 140, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 134
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:141": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 141, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 135
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:144": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 144, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 136
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:150": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 150, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 137
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:151": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 151, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 138
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:152": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 152, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 139
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:153": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 153, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 140
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:154": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 154, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 141
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:157": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 157, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 142
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:160": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 160, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 143
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:166": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 166, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 144
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:169": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 169, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 145
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:171": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 171, 
+            "metrics": {
+                "ample": 0.9936136242682277, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9936541512427288
+            }, 
+            "nf": 0, 
+            "np": 1867, 
+            "rank": 102
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:172": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 172, 
+            "metrics": {
+                "ample": 0.9973390101117616, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9973460721868366
+            }, 
+            "nf": 0, 
+            "np": 1874, 
+            "rank": 2
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:176": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 176, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 146
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:178": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 178, 
+            "metrics": {
+                "ample": 0.9936136242682277, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9936541512427288
+            }, 
+            "nf": 0, 
+            "np": 1867, 
+            "rank": 103
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:179": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 179, 
+            "metrics": {
+                "ample": 0.9936136242682277, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9936541512427288
+            }, 
+            "nf": 0, 
+            "np": 1867, 
+            "rank": 104
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:183": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 183, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 147
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:190": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 190, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 148
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:198": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 198, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 149
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:199": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 199, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 150
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:200": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 200, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 151
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:201": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 201, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 152
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:202": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 202, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 153
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:211": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 211, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 154
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:216": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 216, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 155
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:225": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 225, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 156
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:234": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 234, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 157
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:235": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 235, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 158
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:236": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 236, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 159
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:237": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 237, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 160
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:239": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 239, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 161
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:240": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 240, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 162
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:248": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 248, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 163
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:249": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 249, 
+            "metrics": {
+                "ample": 0.9936136242682277, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9936541512427288
+            }, 
+            "nf": 0, 
+            "np": 1867, 
+            "rank": 105
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:250": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 250, 
+            "metrics": {
+                "ample": 0.9936136242682277, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9936541512427288
+            }, 
+            "nf": 0, 
+            "np": 1867, 
+            "rank": 106
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:252": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 252, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 164
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:273": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 273, 
+            "metrics": {
+                "ample": 0.99308142629058, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9931289640591966
+            }, 
+            "nf": 0, 
+            "np": 1866, 
+            "rank": 108
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:274": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 274, 
+            "metrics": {
+                "ample": 0.99308142629058, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9931289640591966
+            }, 
+            "nf": 0, 
+            "np": 1866, 
+            "rank": 109
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:275": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 275, 
+            "metrics": {
+                "ample": 0.99308142629058, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9931289640591966
+            }, 
+            "nf": 0, 
+            "np": 1866, 
+            "rank": 110
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:276": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 276, 
+            "metrics": {
+                "ample": 0.99308142629058, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9931289640591966
+            }, 
+            "nf": 0, 
+            "np": 1866, 
+            "rank": 111
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:277": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 277, 
+            "metrics": {
+                "ample": 0.99308142629058, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9931289640591966
+            }, 
+            "nf": 0, 
+            "np": 1866, 
+            "rank": 112
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:279": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 7, 
+            "line": 279, 
+            "metrics": {
+                "ample": 0.9962746141564662, 
+                "gzoltar": 0.35355339059327373, 
+                "ochiai": 0.35355339059327373, 
+                "tarantula": 0.996288441145281
+            }, 
+            "nf": 0, 
+            "np": 1872, 
+            "rank": 3
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:283": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 283, 
+            "metrics": {
+                "ample": 0.99308142629058, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9931289640591966
+            }, 
+            "nf": 0, 
+            "np": 1866, 
+            "rank": 113
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:290": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 290, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 44
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:293": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 293, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 21
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:294": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 294, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 22
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:295": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 295, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 23
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:296": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 296, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 24
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:297": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 297, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 25
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:298": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 298, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 26
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:300": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 300, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 27
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:302": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 302, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 28
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:303": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 303, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 29
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:304": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 304, 
+            "metrics": {
+                "ample": 0.9952102182011708, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9952330508474576
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 30
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:314": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 314, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 165
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:315": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 14, 
+            "line": 315, 
+            "metrics": {
+                "ample": 0.9925492283129325, 
+                "gzoltar": 0.2581988897471611, 
+                "ochiai": 0.2581988897471611, 
+                "tarantula": 0.9926043317485473
+            }, 
+            "nf": 0, 
+            "np": 1865, 
+            "rank": 166
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:325": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 325, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 5
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:326": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 326, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 6
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:327": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 327, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 7
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:328": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 328, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 8
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:331": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 331, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 9
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:343": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 343, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 10
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:344": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 344, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 11
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:345": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 345, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 12
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:346": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 346, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 13
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:350": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 350, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 14
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:351": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 351, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 15
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:352": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 352, 
+            "metrics": {
+                "ample": 0.9989356040447046, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.998936735778841
+            }, 
+            "nf": 0, 
+            "np": 1877, 
+            "rank": 1
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:355": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 355, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 16
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:368": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 368, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 55
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:369": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 369, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 56
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:371": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 371, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 57
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:385": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 385, 
+            "metrics": {
+                "ample": 0.99308142629058, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9931289640591966
+            }, 
+            "nf": 0, 
+            "np": 1866, 
+            "rank": 114
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:386": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 386, 
+            "metrics": {
+                "ample": 0.99308142629058, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9931289640591966
+            }, 
+            "nf": 0, 
+            "np": 1866, 
+            "rank": 115
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:389": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 389, 
+            "metrics": {
+                "ample": 0.99308142629058, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9931289640591966
+            }, 
+            "nf": 0, 
+            "np": 1866, 
+            "rank": 116
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:396": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 396, 
+            "metrics": {
+                "ample": 0.99308142629058, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9931289640591966
+            }, 
+            "nf": 0, 
+            "np": 1866, 
+            "rank": 117
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:404": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 404, 
+            "metrics": {
+                "ample": 0.99308142629058, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9931289640591966
+            }, 
+            "nf": 0, 
+            "np": 1866, 
+            "rank": 118
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:413": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 413, 
+            "metrics": {
+                "ample": 0.99308142629058, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9931289640591966
+            }, 
+            "nf": 0, 
+            "np": 1866, 
+            "rank": 119
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:431": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 431, 
+            "metrics": {
+                "ample": 0.99308142629058, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9931289640591966
+            }, 
+            "nf": 0, 
+            "np": 1866, 
+            "rank": 120
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:439": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 12, 
+            "line": 439, 
+            "metrics": {
+                "ample": 0.9936136242682277, 
+                "gzoltar": 0.2773500981126146, 
+                "ochiai": 0.2773500981126146, 
+                "tarantula": 0.9936541512427288
+            }, 
+            "nf": 0, 
+            "np": 1867, 
+            "rank": 107
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:447": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 11, 
+            "line": 447, 
+            "metrics": {
+                "ample": 0.9941458222458754, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.9941798941798942
+            }, 
+            "nf": 0, 
+            "np": 1868, 
+            "rank": 95
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:470": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 8, 
+            "line": 470, 
+            "metrics": {
+                "ample": 0.9957424161788185, 
+                "gzoltar": 0.3333333333333333, 
+                "ochiai": 0.3333333333333333, 
+                "tarantula": 0.9957604663487015
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 17
+        }, 
+        "org.apache.commons.math.optimization.linear.SimplexTableau:486": {
+            "class": "org.apache.commons.math.optimization.linear.SimplexTableau", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 486, 
+            "metrics": {
+                "ample": 0.9946780202235231, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9947061937533087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 58
+        }, 
+        "org.apache.commons.math.util.MathUtils:367": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 11, 
+            "line": 367, 
+            "metrics": {
+                "ample": 0.9941458222458754, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.9941798941798942
+            }, 
+            "nf": 0, 
+            "np": 1868, 
+            "rank": 90
+        }, 
+        "org.apache.commons.math.util.MathUtils:368": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 11, 
+            "line": 368, 
+            "metrics": {
+                "ample": 0.9941458222458754, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.9941798941798942
+            }, 
+            "nf": 0, 
+            "np": 1868, 
+            "rank": 91
+        }, 
+        "org.apache.commons.math.util.MathUtils:369": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 11, 
+            "line": 369, 
+            "metrics": {
+                "ample": 0.9941458222458754, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.9941798941798942
+            }, 
+            "nf": 0, 
+            "np": 1868, 
+            "rank": 92
+        }, 
+        "org.apache.commons.math.util.MathUtils:370": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 11, 
+            "line": 370, 
+            "metrics": {
+                "ample": 0.9941458222458754, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.9941798941798942
+            }, 
+            "nf": 0, 
+            "np": 1868, 
+            "rank": 93
+        }, 
+        "org.apache.commons.math.util.MathUtils:372": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 11, 
+            "line": 372, 
+            "metrics": {
+                "ample": 0.9941458222458754, 
+                "gzoltar": 0.2886751345948129, 
+                "ochiai": 0.2886751345948129, 
+                "tarantula": 0.9941798941798942
+            }, 
+            "nf": 0, 
+            "np": 1868, 
+            "rank": 94
+        }, 
+        "org.apache.commons.math.util.MathUtils:395": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 95, 
+            "line": 395, 
+            "metrics": {
+                "ample": 0.9494411921234699, 
+                "gzoltar": 0.10206207261596577, 
+                "ochiai": 0.10206207261596577, 
+                "tarantula": 0.9518743667679839
+            }, 
+            "nf": 0, 
+            "np": 1784, 
+            "rank": 194
+        }, 
+        "org.apache.commons.math.util.MathUtils:411": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 411, 
+            "metrics": {
+                "ample": 0.9920170303352848, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9920802534318901
+            }, 
+            "nf": 0, 
+            "np": 1864, 
+            "rank": 167
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "date": "2015-05-07T07:57:57.262064", 
+    "executionTime": 1023673, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 2, 
+    "nbSMTVariable": 9, 
+    "nbStatement": 47, 
+    "node": "griffon-2.nancy.grid5000.fr\n", 
+    "patch": "(0)!=(minValue)", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.optimization.linear.SimplexSolver", 
+        "line": 63
+    }, 
+    "patchType": "PRECONDITION"
+}

@@ -1,0 +1,1290 @@
+{
+    "date": "2015-05-07T08:47:54.189876", 
+    "executedTest": 3194, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.math.stat.descriptive.moment.VarianceTest", 
+            "method": "testEvaluateArraySegmentWeighted"
+        }
+    ], 
+    "node": "griffon-35.nancy.grid5000.fr\n", 
+    "successfulTest": 3193, 
+    "suspicious": {
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:163": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 221, 
+            "line": 163, 
+            "metrics": {
+                "ample": 0.9307860945818979, 
+                "gzoltar": 0.06711560552140243, 
+                "ochiai": 0.06711560552140243, 
+                "tarantula": 0.9352665495020505
+            }, 
+            "nf": 0, 
+            "np": 2972, 
+            "rank": 80
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:167": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 221, 
+            "line": 167, 
+            "metrics": {
+                "ample": 0.9307860945818979, 
+                "gzoltar": 0.06711560552140243, 
+                "ochiai": 0.06711560552140243, 
+                "tarantula": 0.9352665495020505
+            }, 
+            "nf": 0, 
+            "np": 2972, 
+            "rank": 81
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:171": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 221, 
+            "line": 171, 
+            "metrics": {
+                "ample": 0.9307860945818979, 
+                "gzoltar": 0.06711560552140243, 
+                "ochiai": 0.06711560552140243, 
+                "tarantula": 0.9352665495020505
+            }, 
+            "nf": 0, 
+            "np": 2972, 
+            "rank": 82
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:175": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 221, 
+            "line": 175, 
+            "metrics": {
+                "ample": 0.9307860945818979, 
+                "gzoltar": 0.06711560552140243, 
+                "ochiai": 0.06711560552140243, 
+                "tarantula": 0.9352665495020505
+            }, 
+            "nf": 0, 
+            "np": 2972, 
+            "rank": 83
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:180": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 221, 
+            "line": 180, 
+            "metrics": {
+                "ample": 0.9307860945818979, 
+                "gzoltar": 0.06711560552140243, 
+                "ochiai": 0.06711560552140243, 
+                "tarantula": 0.9352665495020505
+            }, 
+            "nf": 0, 
+            "np": 2972, 
+            "rank": 84
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:184": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 218, 
+            "line": 184, 
+            "metrics": {
+                "ample": 0.9317256498590667, 
+                "gzoltar": 0.06757373783994859, 
+                "ochiai": 0.06757373783994859, 
+                "tarantula": 0.9360891234242158
+            }, 
+            "nf": 0, 
+            "np": 2975, 
+            "rank": 79
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:222": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 222, 
+            "metrics": {
+                "ample": 0.9981208894456624, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9981244138793373
+            }, 
+            "nf": 0, 
+            "np": 3187, 
+            "rank": 42
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:258": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 258, 
+            "metrics": {
+                "ample": 0.996868149076104, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9968779269434905
+            }, 
+            "nf": 0, 
+            "np": 3183, 
+            "rank": 53
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:262": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 262, 
+            "metrics": {
+                "ample": 0.996868149076104, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9968779269434905
+            }, 
+            "nf": 0, 
+            "np": 3183, 
+            "rank": 54
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:266": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 266, 
+            "metrics": {
+                "ample": 0.996868149076104, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9968779269434905
+            }, 
+            "nf": 0, 
+            "np": 3183, 
+            "rank": 55
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:267": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 267, 
+            "metrics": {
+                "ample": 0.996868149076104, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9968779269434905
+            }, 
+            "nf": 0, 
+            "np": 3183, 
+            "rank": 56
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:268": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 268, 
+            "metrics": {
+                "ample": 0.996868149076104, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9968779269434905
+            }, 
+            "nf": 0, 
+            "np": 3183, 
+            "rank": 57
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:271": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 271, 
+            "metrics": {
+                "ample": 0.996868149076104, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9968779269434905
+            }, 
+            "nf": 0, 
+            "np": 3183, 
+            "rank": 58
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:274": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 10, 
+            "line": 274, 
+            "metrics": {
+                "ample": 0.996868149076104, 
+                "gzoltar": 0.30151134457776363, 
+                "ochiai": 0.30151134457776363, 
+                "tarantula": 0.9968779269434905
+            }, 
+            "nf": 0, 
+            "np": 3183, 
+            "rank": 59
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:277": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 277, 
+            "metrics": {
+                "ample": 0.9971813341684935, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9971892567145535
+            }, 
+            "nf": 0, 
+            "np": 3184, 
+            "rank": 49
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:278": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 278, 
+            "metrics": {
+                "ample": 0.9971813341684935, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9971892567145535
+            }, 
+            "nf": 0, 
+            "np": 3184, 
+            "rank": 50
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:282": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 282, 
+            "metrics": {
+                "ample": 0.9971813341684935, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9971892567145535
+            }, 
+            "nf": 0, 
+            "np": 3184, 
+            "rank": 51
+        }, 
+        "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic:286": {
+            "class": "org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic", 
+            "ef": 1, 
+            "ep": 9, 
+            "line": 286, 
+            "metrics": {
+                "ample": 0.9971813341684935, 
+                "gzoltar": 0.31622776601683794, 
+                "ochiai": 0.31622776601683794, 
+                "tarantula": 0.9971892567145535
+            }, 
+            "nf": 0, 
+            "np": 3184, 
+            "rank": 52
+        }, 
+        "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:121": {
+            "class": "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest", 
+            "ef": 1, 
+            "ep": 17, 
+            "line": 121, 
+            "metrics": {
+                "ample": 0.9946758534293768, 
+                "gzoltar": 0.23570226039551587, 
+                "ochiai": 0.23570226039551587, 
+                "tarantula": 0.9947040498442367
+            }, 
+            "nf": 0, 
+            "np": 3176, 
+            "rank": 60
+        }, 
+        "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:122": {
+            "class": "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest", 
+            "ef": 1, 
+            "ep": 17, 
+            "line": 122, 
+            "metrics": {
+                "ample": 0.9946758534293768, 
+                "gzoltar": 0.23570226039551587, 
+                "ochiai": 0.23570226039551587, 
+                "tarantula": 0.9947040498442367
+            }, 
+            "nf": 0, 
+            "np": 3176, 
+            "rank": 61
+        }, 
+        "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:125": {
+            "class": "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 125, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 2
+        }, 
+        "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:126": {
+            "class": "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 126, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 3
+        }, 
+        "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:127": {
+            "class": "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 127, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 4
+        }, 
+        "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:128": {
+            "class": "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 128, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 5
+        }, 
+        "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:129": {
+            "class": "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 129, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 6
+        }, 
+        "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest:130": {
+            "class": "org.apache.commons.math.stat.descriptive.UnivariateStatisticAbstractTest", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 130, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 7
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.FirstMoment:117": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.FirstMoment", 
+            "ef": 1, 
+            "ep": 125, 
+            "line": 117, 
+            "metrics": {
+                "ample": 0.9608518634512997, 
+                "gzoltar": 0.0890870806374748, 
+                "ochiai": 0.0890870806374748, 
+                "tarantula": 0.9623267028330319
+            }, 
+            "nf": 0, 
+            "np": 3068, 
+            "rank": 74
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.FirstMoment:118": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.FirstMoment", 
+            "ef": 1, 
+            "ep": 125, 
+            "line": 118, 
+            "metrics": {
+                "ample": 0.9608518634512997, 
+                "gzoltar": 0.0890870806374748, 
+                "ochiai": 0.0890870806374748, 
+                "tarantula": 0.9623267028330319
+            }, 
+            "nf": 0, 
+            "np": 3068, 
+            "rank": 75
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.FirstMoment:119": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.FirstMoment", 
+            "ef": 1, 
+            "ep": 125, 
+            "line": 119, 
+            "metrics": {
+                "ample": 0.9608518634512997, 
+                "gzoltar": 0.0890870806374748, 
+                "ochiai": 0.0890870806374748, 
+                "tarantula": 0.9623267028330319
+            }, 
+            "nf": 0, 
+            "np": 3068, 
+            "rank": 76
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.FirstMoment:120": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.FirstMoment", 
+            "ef": 1, 
+            "ep": 125, 
+            "line": 120, 
+            "metrics": {
+                "ample": 0.9608518634512997, 
+                "gzoltar": 0.0890870806374748, 
+                "ochiai": 0.0890870806374748, 
+                "tarantula": 0.9623267028330319
+            }, 
+            "nf": 0, 
+            "np": 3068, 
+            "rank": 77
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.FirstMoment:121": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.FirstMoment", 
+            "ef": 1, 
+            "ep": 125, 
+            "line": 121, 
+            "metrics": {
+                "ample": 0.9608518634512997, 
+                "gzoltar": 0.0890870806374748, 
+                "ochiai": 0.0890870806374748, 
+                "tarantula": 0.9623267028330319
+            }, 
+            "nf": 0, 
+            "np": 3068, 
+            "rank": 78
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Mean:205": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Mean", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 205, 
+            "metrics": {
+                "ample": 0.998434074538052, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9984365228267668
+            }, 
+            "nf": 0, 
+            "np": 3188, 
+            "rank": 34
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Mean:206": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Mean", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 206, 
+            "metrics": {
+                "ample": 0.998434074538052, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9984365228267668
+            }, 
+            "nf": 0, 
+            "np": 3188, 
+            "rank": 35
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Mean:209": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Mean", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 209, 
+            "metrics": {
+                "ample": 0.998434074538052, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9984365228267668
+            }, 
+            "nf": 0, 
+            "np": 3188, 
+            "rank": 36
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Mean:210": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Mean", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 210, 
+            "metrics": {
+                "ample": 0.998434074538052, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9984365228267668
+            }, 
+            "nf": 0, 
+            "np": 3188, 
+            "rank": 37
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Mean:213": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Mean", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 213, 
+            "metrics": {
+                "ample": 0.998434074538052, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9984365228267668
+            }, 
+            "nf": 0, 
+            "np": 3188, 
+            "rank": 38
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Mean:214": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Mean", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 214, 
+            "metrics": {
+                "ample": 0.998434074538052, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9984365228267668
+            }, 
+            "nf": 0, 
+            "np": 3188, 
+            "rank": 39
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Mean:215": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Mean", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 215, 
+            "metrics": {
+                "ample": 0.998434074538052, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9984365228267668
+            }, 
+            "nf": 0, 
+            "np": 3188, 
+            "rank": 40
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Mean:217": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Mean", 
+            "ef": 1, 
+            "ep": 5, 
+            "line": 217, 
+            "metrics": {
+                "ample": 0.998434074538052, 
+                "gzoltar": 0.4082482904638631, 
+                "ochiai": 0.4082482904638631, 
+                "tarantula": 0.9984365228267668
+            }, 
+            "nf": 0, 
+            "np": 3188, 
+            "rank": 41
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.SecondMoment:92": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.SecondMoment", 
+            "ef": 1, 
+            "ep": 110, 
+            "line": 92, 
+            "metrics": {
+                "ample": 0.9655496398371437, 
+                "gzoltar": 0.0949157995752499, 
+                "ochiai": 0.0949157995752499, 
+                "tarantula": 0.9666969421737813
+            }, 
+            "nf": 0, 
+            "np": 3083, 
+            "rank": 71
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.SecondMoment:93": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.SecondMoment", 
+            "ef": 1, 
+            "ep": 110, 
+            "line": 93, 
+            "metrics": {
+                "ample": 0.9655496398371437, 
+                "gzoltar": 0.0949157995752499, 
+                "ochiai": 0.0949157995752499, 
+                "tarantula": 0.9666969421737813
+            }, 
+            "nf": 0, 
+            "np": 3083, 
+            "rank": 72
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.SecondMoment:94": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.SecondMoment", 
+            "ef": 1, 
+            "ep": 110, 
+            "line": 94, 
+            "metrics": {
+                "ample": 0.9655496398371437, 
+                "gzoltar": 0.0949157995752499, 
+                "ochiai": 0.0949157995752499, 
+                "tarantula": 0.9666969421737813
+            }, 
+            "nf": 0, 
+            "np": 3083, 
+            "rank": 73
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:204": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 67, 
+            "line": 204, 
+            "metrics": {
+                "ample": 0.9790165988098967, 
+                "gzoltar": 0.12126781251816648, 
+                "ochiai": 0.12126781251816648, 
+                "tarantula": 0.9794478527607362
+            }, 
+            "nf": 0, 
+            "np": 3126, 
+            "rank": 62
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:205": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 67, 
+            "line": 205, 
+            "metrics": {
+                "ample": 0.9790165988098967, 
+                "gzoltar": 0.12126781251816648, 
+                "ochiai": 0.12126781251816648, 
+                "tarantula": 0.9794478527607362
+            }, 
+            "nf": 0, 
+            "np": 3126, 
+            "rank": 63
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:207": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 67, 
+            "line": 207, 
+            "metrics": {
+                "ample": 0.9790165988098967, 
+                "gzoltar": 0.12126781251816648, 
+                "ochiai": 0.12126781251816648, 
+                "tarantula": 0.9794478527607362
+            }, 
+            "nf": 0, 
+            "np": 3126, 
+            "rank": 64
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:316": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 316, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 8
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:318": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 318, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 9
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:319": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 319, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 10
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:320": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 320, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 11
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:322": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 322, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 12
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:323": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 323, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 13
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:324": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 324, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 14
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:325": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 325, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 15
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:328": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 328, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 16
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:370": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 370, 
+            "metrics": {
+                "ample": 0.9996868149076104, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.9996869129618033
+            }, 
+            "nf": 0, 
+            "np": 3192, 
+            "rank": 1
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:504": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 504, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 17
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:506": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 506, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 18
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:507": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 507, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 19
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:509": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 509, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 20
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:510": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 510, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 21
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:511": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 511, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 22
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:512": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 512, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 23
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:513": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 513, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 24
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:514": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 514, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 25
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:515": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 515, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 26
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:516": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 516, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 27
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:519": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 519, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 28
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:520": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 520, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 29
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:521": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 521, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 30
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:524": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 524, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 31
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:525": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 525, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 32
+        }, 
+        "org.apache.commons.math.stat.descriptive.moment.Variance:531": {
+            "class": "org.apache.commons.math.stat.descriptive.moment.Variance", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 531, 
+            "metrics": {
+                "ample": 0.9993736298152208, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9993740219092331
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 33
+        }, 
+        "org.apache.commons.math.stat.descriptive.summary.Sum:120": {
+            "class": "org.apache.commons.math.stat.descriptive.summary.Sum", 
+            "ef": 1, 
+            "ep": 97, 
+            "line": 120, 
+            "metrics": {
+                "ample": 0.9696210460382085, 
+                "gzoltar": 0.10101525445522107, 
+                "ochiai": 0.10101525445522107, 
+                "tarantula": 0.970516717325228
+            }, 
+            "nf": 0, 
+            "np": 3096, 
+            "rank": 65
+        }, 
+        "org.apache.commons.math.stat.descriptive.summary.Sum:121": {
+            "class": "org.apache.commons.math.stat.descriptive.summary.Sum", 
+            "ef": 1, 
+            "ep": 97, 
+            "line": 121, 
+            "metrics": {
+                "ample": 0.9696210460382085, 
+                "gzoltar": 0.10101525445522107, 
+                "ochiai": 0.10101525445522107, 
+                "tarantula": 0.970516717325228
+            }, 
+            "nf": 0, 
+            "np": 3096, 
+            "rank": 66
+        }, 
+        "org.apache.commons.math.stat.descriptive.summary.Sum:122": {
+            "class": "org.apache.commons.math.stat.descriptive.summary.Sum", 
+            "ef": 1, 
+            "ep": 97, 
+            "line": 122, 
+            "metrics": {
+                "ample": 0.9696210460382085, 
+                "gzoltar": 0.10101525445522107, 
+                "ochiai": 0.10101525445522107, 
+                "tarantula": 0.970516717325228
+            }, 
+            "nf": 0, 
+            "np": 3096, 
+            "rank": 67
+        }, 
+        "org.apache.commons.math.stat.descriptive.summary.Sum:123": {
+            "class": "org.apache.commons.math.stat.descriptive.summary.Sum", 
+            "ef": 1, 
+            "ep": 97, 
+            "line": 123, 
+            "metrics": {
+                "ample": 0.9696210460382085, 
+                "gzoltar": 0.10101525445522107, 
+                "ochiai": 0.10101525445522107, 
+                "tarantula": 0.970516717325228
+            }, 
+            "nf": 0, 
+            "np": 3096, 
+            "rank": 68
+        }, 
+        "org.apache.commons.math.stat.descriptive.summary.Sum:124": {
+            "class": "org.apache.commons.math.stat.descriptive.summary.Sum", 
+            "ef": 1, 
+            "ep": 97, 
+            "line": 124, 
+            "metrics": {
+                "ample": 0.9696210460382085, 
+                "gzoltar": 0.10101525445522107, 
+                "ochiai": 0.10101525445522107, 
+                "tarantula": 0.970516717325228
+            }, 
+            "nf": 0, 
+            "np": 3096, 
+            "rank": 69
+        }, 
+        "org.apache.commons.math.stat.descriptive.summary.Sum:127": {
+            "class": "org.apache.commons.math.stat.descriptive.summary.Sum", 
+            "ef": 1, 
+            "ep": 97, 
+            "line": 127, 
+            "metrics": {
+                "ample": 0.9696210460382085, 
+                "gzoltar": 0.10101525445522107, 
+                "ochiai": 0.10101525445522107, 
+                "tarantula": 0.970516717325228
+            }, 
+            "nf": 0, 
+            "np": 3096, 
+            "rank": 70
+        }, 
+        "org.apache.commons.math.stat.descriptive.summary.Sum:159": {
+            "class": "org.apache.commons.math.stat.descriptive.summary.Sum", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 159, 
+            "metrics": {
+                "ample": 0.9981208894456624, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9981244138793373
+            }, 
+            "nf": 0, 
+            "np": 3187, 
+            "rank": 43
+        }, 
+        "org.apache.commons.math.stat.descriptive.summary.Sum:160": {
+            "class": "org.apache.commons.math.stat.descriptive.summary.Sum", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 160, 
+            "metrics": {
+                "ample": 0.9981208894456624, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9981244138793373
+            }, 
+            "nf": 0, 
+            "np": 3187, 
+            "rank": 44
+        }, 
+        "org.apache.commons.math.stat.descriptive.summary.Sum:161": {
+            "class": "org.apache.commons.math.stat.descriptive.summary.Sum", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 161, 
+            "metrics": {
+                "ample": 0.9981208894456624, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9981244138793373
+            }, 
+            "nf": 0, 
+            "np": 3187, 
+            "rank": 45
+        }, 
+        "org.apache.commons.math.stat.descriptive.summary.Sum:162": {
+            "class": "org.apache.commons.math.stat.descriptive.summary.Sum", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 162, 
+            "metrics": {
+                "ample": 0.9981208894456624, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9981244138793373
+            }, 
+            "nf": 0, 
+            "np": 3187, 
+            "rank": 46
+        }, 
+        "org.apache.commons.math.stat.descriptive.summary.Sum:163": {
+            "class": "org.apache.commons.math.stat.descriptive.summary.Sum", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 163, 
+            "metrics": {
+                "ample": 0.9981208894456624, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9981244138793373
+            }, 
+            "nf": 0, 
+            "np": 3187, 
+            "rank": 47
+        }, 
+        "org.apache.commons.math.stat.descriptive.summary.Sum:166": {
+            "class": "org.apache.commons.math.stat.descriptive.summary.Sum", 
+            "ef": 1, 
+            "ep": 6, 
+            "line": 166, 
+            "metrics": {
+                "ample": 0.9981208894456624, 
+                "gzoltar": 0.3779644730092272, 
+                "ochiai": 0.3779644730092272, 
+                "tarantula": 0.9981244138793373
+            }, 
+            "nf": 0, 
+            "np": 3187, 
+            "rank": 48
+        }, 
+        "org.apache.commons.math.util.FastMath:375": {
+            "class": "org.apache.commons.math.util.FastMath", 
+            "ef": 1, 
+            "ep": 998, 
+            "line": 375, 
+            "metrics": {
+                "ample": 0.6874412777951769, 
+                "gzoltar": 0.03163859985841663, 
+                "ochiai": 0.03163859985841663, 
+                "tarantula": 0.761870675256502
+            }, 
+            "nf": 0, 
+            "np": 2195, 
+            "rank": 85
+        }
+    }
+}

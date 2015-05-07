@@ -1,0 +1,15 @@
+{
+    "date": "2015-05-07T07:49:17.697776", 
+    "executionTime": 835013, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 4149, 
+    "nbSMTVariable": 18, 
+    "nbStatement": 6, 
+    "node": "griffon-66.nancy.grid5000.fr\n", 
+    "patch": "(f0)<(-1)", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver", 
+        "line": 186
+    }, 
+    "patchType": "CONDITIONAL"
+}

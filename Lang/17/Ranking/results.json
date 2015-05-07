@@ -1,0 +1,375 @@
+{
+    "date": "2015-05-07T08:50:01.612981", 
+    "executedTest": 1903, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.lang3.StringEscapeUtilsTest", 
+            "method": "testLang720"
+        }
+    ], 
+    "node": "griffon-91.nancy.grid5000.fr\n", 
+    "successfulTest": 1902, 
+    "suspicious": {
+        "org.apache.commons.lang3.StringEscapeUtils:506": {
+            "class": "org.apache.commons.lang3.StringEscapeUtils", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 506, 
+            "metrics": {
+                "ample": 0.9994742376445847, 
+                "gzoltar": 0.7071067811865475, 
+                "ochiai": 0.7071067811865475, 
+                "tarantula": 0.999474513925381
+            }, 
+            "nf": 0, 
+            "np": 1901, 
+            "rank": 1
+        }, 
+        "org.apache.commons.lang3.text.translate.AggregateTranslator:51": {
+            "class": "org.apache.commons.lang3.text.translate.AggregateTranslator", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 51, 
+            "metrics": {
+                "ample": 0.9921135646687698, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9921752738654147
+            }, 
+            "nf": 0, 
+            "np": 1887, 
+            "rank": 3
+        }, 
+        "org.apache.commons.lang3.text.translate.AggregateTranslator:52": {
+            "class": "org.apache.commons.lang3.text.translate.AggregateTranslator", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 52, 
+            "metrics": {
+                "ample": 0.9921135646687698, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9921752738654147
+            }, 
+            "nf": 0, 
+            "np": 1887, 
+            "rank": 4
+        }, 
+        "org.apache.commons.lang3.text.translate.AggregateTranslator:53": {
+            "class": "org.apache.commons.lang3.text.translate.AggregateTranslator", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 53, 
+            "metrics": {
+                "ample": 0.9921135646687698, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9921752738654147
+            }, 
+            "nf": 0, 
+            "np": 1887, 
+            "rank": 5
+        }, 
+        "org.apache.commons.lang3.text.translate.AggregateTranslator:57": {
+            "class": "org.apache.commons.lang3.text.translate.AggregateTranslator", 
+            "ef": 1, 
+            "ep": 13, 
+            "line": 57, 
+            "metrics": {
+                "ample": 0.9931650893796005, 
+                "gzoltar": 0.2672612419124244, 
+                "ochiai": 0.2672612419124244, 
+                "tarantula": 0.9932114882506528
+            }, 
+            "nf": 0, 
+            "np": 1889, 
+            "rank": 2
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:105": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 32, 
+            "line": 105, 
+            "metrics": {
+                "ample": 0.9831756046267087, 
+                "gzoltar": 0.17407765595569785, 
+                "ochiai": 0.17407765595569785, 
+                "tarantula": 0.9834539813857291
+            }, 
+            "nf": 0, 
+            "np": 1870, 
+            "rank": 18
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:54": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 31, 
+            "line": 54, 
+            "metrics": {
+                "ample": 0.9837013669821241, 
+                "gzoltar": 0.17677669529663687, 
+                "ochiai": 0.17677669529663687, 
+                "tarantula": 0.983962752198655
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 15
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:58": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 31, 
+            "line": 58, 
+            "metrics": {
+                "ample": 0.9837013669821241, 
+                "gzoltar": 0.17677669529663687, 
+                "ochiai": 0.17677669529663687, 
+                "tarantula": 0.983962752198655
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 16
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:59": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 31, 
+            "line": 59, 
+            "metrics": {
+                "ample": 0.9837013669821241, 
+                "gzoltar": 0.17677669529663687, 
+                "ochiai": 0.17677669529663687, 
+                "tarantula": 0.983962752198655
+            }, 
+            "nf": 0, 
+            "np": 1871, 
+            "rank": 17
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:60": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 30, 
+            "line": 60, 
+            "metrics": {
+                "ample": 0.9842271293375394, 
+                "gzoltar": 0.1796053020267749, 
+                "ochiai": 0.1796053020267749, 
+                "tarantula": 0.9844720496894411
+            }, 
+            "nf": 0, 
+            "np": 1872, 
+            "rank": 14
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:76": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 33, 
+            "line": 76, 
+            "metrics": {
+                "ample": 0.9826498422712934, 
+                "gzoltar": 0.17149858514250882, 
+                "ochiai": 0.17149858514250882, 
+                "tarantula": 0.9829457364341087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 19
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:79": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 33, 
+            "line": 79, 
+            "metrics": {
+                "ample": 0.9826498422712934, 
+                "gzoltar": 0.17149858514250882, 
+                "ochiai": 0.17149858514250882, 
+                "tarantula": 0.9829457364341087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 20
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:82": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 33, 
+            "line": 82, 
+            "metrics": {
+                "ample": 0.9826498422712934, 
+                "gzoltar": 0.17149858514250882, 
+                "ochiai": 0.17149858514250882, 
+                "tarantula": 0.9829457364341087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 21
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:83": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 33, 
+            "line": 83, 
+            "metrics": {
+                "ample": 0.9826498422712934, 
+                "gzoltar": 0.17149858514250882, 
+                "ochiai": 0.17149858514250882, 
+                "tarantula": 0.9829457364341087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 22
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:86": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 33, 
+            "line": 86, 
+            "metrics": {
+                "ample": 0.9826498422712934, 
+                "gzoltar": 0.17149858514250882, 
+                "ochiai": 0.17149858514250882, 
+                "tarantula": 0.9829457364341087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 23
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:88": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 33, 
+            "line": 88, 
+            "metrics": {
+                "ample": 0.9826498422712934, 
+                "gzoltar": 0.17149858514250882, 
+                "ochiai": 0.17149858514250882, 
+                "tarantula": 0.9829457364341087
+            }, 
+            "nf": 0, 
+            "np": 1869, 
+            "rank": 24
+        }, 
+        "org.apache.commons.lang3.text.translate.CharSequenceTranslator:89": {
+            "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
+            "ef": 1, 
+            "ep": 23, 
+            "line": 89, 
+            "metrics": {
+                "ample": 0.9879074658254469, 
+                "gzoltar": 0.20412414523193154, 
+                "ochiai": 0.20412414523193154, 
+                "tarantula": 0.9880519480519481
+            }, 
+            "nf": 0, 
+            "np": 1879, 
+            "rank": 13
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:65": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 16, 
+            "line": 65, 
+            "metrics": {
+                "ample": 0.9915878023133544, 
+                "gzoltar": 0.24253562503633297, 
+                "ochiai": 0.24253562503633297, 
+                "tarantula": 0.9916579770594369
+            }, 
+            "nf": 0, 
+            "np": 1886, 
+            "rank": 7
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:66": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 16, 
+            "line": 66, 
+            "metrics": {
+                "ample": 0.9915878023133544, 
+                "gzoltar": 0.24253562503633297, 
+                "ochiai": 0.24253562503633297, 
+                "tarantula": 0.9916579770594369
+            }, 
+            "nf": 0, 
+            "np": 1886, 
+            "rank": 8
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:70": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 16, 
+            "line": 70, 
+            "metrics": {
+                "ample": 0.9915878023133544, 
+                "gzoltar": 0.24253562503633297, 
+                "ochiai": 0.24253562503633297, 
+                "tarantula": 0.9916579770594369
+            }, 
+            "nf": 0, 
+            "np": 1886, 
+            "rank": 9
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:71": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 16, 
+            "line": 71, 
+            "metrics": {
+                "ample": 0.9915878023133544, 
+                "gzoltar": 0.24253562503633297, 
+                "ochiai": 0.24253562503633297, 
+                "tarantula": 0.9916579770594369
+            }, 
+            "nf": 0, 
+            "np": 1886, 
+            "rank": 10
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:72": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 16, 
+            "line": 72, 
+            "metrics": {
+                "ample": 0.9915878023133544, 
+                "gzoltar": 0.24253562503633297, 
+                "ochiai": 0.24253562503633297, 
+                "tarantula": 0.9916579770594369
+            }, 
+            "nf": 0, 
+            "np": 1886, 
+            "rank": 11
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:73": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 16, 
+            "line": 73, 
+            "metrics": {
+                "ample": 0.9915878023133544, 
+                "gzoltar": 0.24253562503633297, 
+                "ochiai": 0.24253562503633297, 
+                "tarantula": 0.9916579770594369
+            }, 
+            "nf": 0, 
+            "np": 1886, 
+            "rank": 12
+        }, 
+        "org.apache.commons.lang3.text.translate.LookupTranslator:78": {
+            "class": "org.apache.commons.lang3.text.translate.LookupTranslator", 
+            "ef": 1, 
+            "ep": 15, 
+            "line": 78, 
+            "metrics": {
+                "ample": 0.9921135646687698, 
+                "gzoltar": 0.25, 
+                "ochiai": 0.25, 
+                "tarantula": 0.9921752738654147
+            }, 
+            "nf": 0, 
+            "np": 1887, 
+            "rank": 6
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "date": "2015-05-07T00:28:20.074982", 
+    "gen": "45", 
+    "node": "graphene-73.nancy.grid5000.fr\n", 
+    "operations": [
+        {
+            "generation": 45, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+                "line": 198
+            }
+        }
+    ], 
+    "patches": "1", 
+    "programVariant": "90", 
+    "timeEvaluation": "132659", 
+    "timeTotal": "159262", 
+    "timeVal1": [
+        222, 
+        220, 
+        210, 
+        225, 
+        227, 
+        224, 
+        222, 
+        60001, 
+        225, 
+        212, 
+        223, 
+        224, 
+        60001, 
+        221
+    ], 
+    "timeVal2": [
+        6880
+    ]
+}

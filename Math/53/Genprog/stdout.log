@@ -1,0 +1,39 @@
+export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_53 /tmp/math_53_Genprog;cd /tmp/math_53_Genprog;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/tdurieux/results/Math/53/Genprog/result
+cd /tmp/math_53_Genprog;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -dependencies lib/ -failing org.apache.commons.math.complex.ComplexTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_53_Genprog;
+
+2015-05-06 23:15:02,738 INFO main - ProgramVariant 700
+ 
+ operation: 
+location= org.apache.commons.math.complex.Complex
+ line= 152
+ original statement= org.apache.commons.math.util.MathUtils.checkNotNull(rhs)
+ fixed statement= "if ((isNaN) || (rhs.isNaN)) {
+	return org.apache.commons.math.complex.Complex.NaN;
+} "
+ generation= 350
+ 
+ ----
+2015-05-06 23:15:02,738 INFO main - Time Evolution(ms): 54228
+2015-05-06 23:15:02,738 INFO main - 
+----stats: 
+2015-05-06 23:15:02,738 INFO main - 
+spaces: [262]: [147, 147, 147, 147, 147, 147, 70, 147, 70, 147, 147, 70, 9, 70, 147, 70, 9, 147, 147, 70, 70, 70, 147, 147, 147, 147, 147, 147, 147, 70, 9, 147, 70, 70, 70, 147, 70, 147, 147, 147, 70, 70, 147, 147, 9, 9, 70, 147, 147, 147, 70, 147, 147, 70, 70, 147, 147, 147, 147, 9, 147, 147, 147, 147, 147, 147, 9, 147, 9, 70, 147, 70, 147, 147, 147, 70, 147, 147, 70, 147, 147, 147, 70, 70, 147, 147, 70, 9, 70, 147, 147, 70, 147, 70, 147, 70, 70, 9, 147, 147, 9, 70, 147, 147, 147, 70, 70, 70, 147, 147, 147, 147, 147, 147, 70, 70, 147, 147, 147, 147, 147, 70, 70, 147, 147, 147, 147, 147, 70, 147, 147, 147, 70, 147, 147, 70, 70, 70, 147, 70, 147, 70, 147, 147, 70, 9, 70, 147, 147, 147, 70, 147, 147, 147, 147, 147, 70, 147, 70, 70, 147, 70, 147, 70, 147, 70, 70, 147, 147, 147, 147, 147, 147, 147, 147, 147, 147, 147, 147, 147, 147, 147, 147, 147, 147, 147, 147, 147, 70, 147, 70, 147, 147, 147, 147, 9, 70, 147, 147, 147, 147, 147, 147, 70, 9, 147, 9, 70, 9, 147, 147, 147, 147, 147, 147, 70, 70, 70, 147, 147, 147, 147, 147, 70, 70, 147, 70, 147, 147, 9, 147, 9, 147, 147, 147, 147, 147, 147, 147, 147, 70, 147, 9, 147, 147, 70, 147, 147, 70, 70, 147, 147, 147, 147, 147, 70, 147, 70, 9, 147, 147, 147]
+time val1 [63]: [316, 309, 313, 316, 309, 312, 314, 312, 309, 310, 312, 310, 310, 310, 307, 308, 307, 314, 312, 307, 310, 310, 309, 307, 541, 306, 307, 311, 310, 308, 307, 308, 308, 308, 311, 312, 311, 309, 312, 310, 309, 309, 308, 312, 311, 310, 311, 308, 308, 307, 305, 363, 306, 307, 308, 305, 314, 307, 307, 308, 307, 306, 305]
+time val2 [1]: [24569]
+#gen: 350
+#patches: 1
+#RightCompilation: 62
+#WrongCompilation: 288
+#FailingTestCaseExecution: 63
+#RegressionTestExecution: 1
+#TestcasesExecutedval1: 6174
+#TestcasesExecutedval2: 2395
+#FailingTestCase: 98
+#RegressionTestCases: 2395
+#OfAppliedOp: 350
+#NotAppliedOp: 0
+#InmutatedGen: 15
+#unfinishValidation: 0
+2015-05-06 23:15:02,738 INFO fr.inria.main.AbstractMain - Time Total(ms): 192619
+

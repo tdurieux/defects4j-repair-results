@@ -1,0 +1,75 @@
+{
+    "date": "2015-05-07T08:44:52.470700", 
+    "executedTest": 2401, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.math.geometry.Vector3DTest", 
+            "method": "testCrossProductCancellation"
+        }
+    ], 
+    "node": "griffon-22.nancy.grid5000.fr\n", 
+    "successfulTest": 2400, 
+    "suspicious": {
+        "org.apache.commons.math.geometry.Vector3D:181": {
+            "class": "org.apache.commons.math.geometry.Vector3D", 
+            "ef": 1, 
+            "ep": 39, 
+            "line": 181, 
+            "metrics": {
+                "ample": 0.98375, 
+                "gzoltar": 0.15811388300841897, 
+                "ochiai": 0.15811388300841897, 
+                "tarantula": 0.9840098400984009
+            }, 
+            "nf": 0, 
+            "np": 2361, 
+            "rank": 2
+        }, 
+        "org.apache.commons.math.geometry.Vector3D:189": {
+            "class": "org.apache.commons.math.geometry.Vector3D", 
+            "ef": 1, 
+            "ep": 39, 
+            "line": 189, 
+            "metrics": {
+                "ample": 0.98375, 
+                "gzoltar": 0.15811388300841897, 
+                "ochiai": 0.15811388300841897, 
+                "tarantula": 0.9840098400984009
+            }, 
+            "nf": 0, 
+            "np": 2361, 
+            "rank": 3
+        }, 
+        "org.apache.commons.math.geometry.Vector3D:197": {
+            "class": "org.apache.commons.math.geometry.Vector3D", 
+            "ef": 1, 
+            "ep": 39, 
+            "line": 197, 
+            "metrics": {
+                "ample": 0.98375, 
+                "gzoltar": 0.15811388300841897, 
+                "ochiai": 0.15811388300841897, 
+                "tarantula": 0.9840098400984009
+            }, 
+            "nf": 0, 
+            "np": 2361, 
+            "rank": 4
+        }, 
+        "org.apache.commons.math.geometry.Vector3D:458": {
+            "class": "org.apache.commons.math.geometry.Vector3D", 
+            "ef": 1, 
+            "ep": 3, 
+            "line": 458, 
+            "metrics": {
+                "ample": 0.99875, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9987515605493134
+            }, 
+            "nf": 0, 
+            "np": 2397, 
+            "rank": 1
+        }
+    }
+}

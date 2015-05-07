@@ -1,0 +1,135 @@
+{
+    "date": "2015-05-07T08:42:44.723286", 
+    "executedTest": 2282, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.math.util.MathUtilsTest", 
+            "method": "testArrayEquals"
+        }
+    ], 
+    "node": "griffon-32.nancy.grid5000.fr\n", 
+    "successfulTest": 2281, 
+    "suspicious": {
+        "org.apache.commons.math.util.MathUtils:423": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 423, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 2281, 
+            "rank": 1
+        }, 
+        "org.apache.commons.math.util.MathUtils:529": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 529, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 2281, 
+            "rank": 2
+        }, 
+        "org.apache.commons.math.util.MathUtils:530": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 530, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 2281, 
+            "rank": 3
+        }, 
+        "org.apache.commons.math.util.MathUtils:532": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 532, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 2281, 
+            "rank": 4
+        }, 
+        "org.apache.commons.math.util.MathUtils:533": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 533, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 2281, 
+            "rank": 5
+        }, 
+        "org.apache.commons.math.util.MathUtils:535": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 535, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 2281, 
+            "rank": 6
+        }, 
+        "org.apache.commons.math.util.MathUtils:536": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 536, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 2281, 
+            "rank": 7
+        }, 
+        "org.apache.commons.math.util.MathUtils:540": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 0, 
+            "line": 540, 
+            "metrics": {
+                "ample": 1.0, 
+                "gzoltar": 1.0, 
+                "ochiai": 1.0, 
+                "tarantula": 1.0
+            }, 
+            "nf": 0, 
+            "np": 2281, 
+            "rank": 8
+        }
+    }
+}

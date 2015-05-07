@@ -1,0 +1,15 @@
+{
+    "date": "2015-05-07T07:55:08.848962", 
+    "executionTime": 1045333, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 24, 
+    "nbSMTVariable": 20, 
+    "nbStatement": 221, 
+    "node": "griffon-65.nancy.grid5000.fr\n", 
+    "patch": "((!(((boundary.size())-(plusList.size()))<(minusList.size())))&&((1)<=(plusList.size())))||((minusList.size())==((boundary.size())+(-1)))", 
+    "patchLocation": {
+        "className": "org.apache.commons.math3.geometry.partitioning.AbstractRegion", 
+        "line": 214
+    }, 
+    "patchType": "PRECONDITION"
+}

@@ -1,0 +1,34 @@
+{
+    "date": "2015-05-07T08:41:39.967679", 
+    "executedTest": 1692, 
+    "failedTest": 2, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.math.stat.FrequencyTest", 
+            "method": "testAddNonComparable"
+        }, 
+        {
+            "class": "junit.framework.TestSuite$1", 
+            "method": "warning"
+        }
+    ], 
+    "node": "griffon-15.nancy.grid5000.fr\n", 
+    "successfulTest": 1690, 
+    "suspicious": {
+        "org.apache.commons.math.stat.Frequency:110": {
+            "class": "org.apache.commons.math.stat.Frequency", 
+            "ef": 1, 
+            "ep": 1, 
+            "line": 110, 
+            "metrics": {
+                "ample": 0.49940828402366866, 
+                "gzoltar": 0.5, 
+                "ochiai": 0.5, 
+                "tarantula": 0.9988179669030733
+            }, 
+            "nf": 1, 
+            "np": 1689, 
+            "rank": 1
+        }
+    }
+}

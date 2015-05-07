@@ -1,0 +1,33 @@
+{
+    "date": "2015-05-07T01:27:53.068128", 
+    "gen": "35", 
+    "node": "graphene-22.nancy.grid5000.fr\n", 
+    "operations": [
+        {
+            "generation": 35, 
+            "patch": "this.allowed = org.apache.commons.math.analysis.solvers.AllowedSolution.ANY_SIDE", 
+            "patchLocation": {
+                "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver", 
+                "line": 191
+            }
+        }
+    ], 
+    "patches": "1", 
+    "programVariant": "70", 
+    "timeEvaluation": "49659", 
+    "timeTotal": "229256", 
+    "timeVal1": [
+        267, 
+        272, 
+        279, 
+        274, 
+        272, 
+        277, 
+        265, 
+        253, 
+        258
+    ], 
+    "timeVal2": [
+        44346
+    ]
+}

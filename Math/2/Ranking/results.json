@@ -1,0 +1,1380 @@
+{
+    "date": "2015-05-07T08:52:46.909383", 
+    "executedTest": 5195, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistributionTest", 
+            "method": "testMath1021"
+        }
+    ], 
+    "node": "griffon-10.nancy.grid5000.fr\n", 
+    "successfulTest": 5194, 
+    "suspicious": {
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:101": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 84, 
+            "line": 101, 
+            "metrics": {
+                "ample": 0.9838274932614556, 
+                "gzoltar": 0.10846522890932808, 
+                "ochiai": 0.10846522890932808, 
+                "tarantula": 0.9840848806366047
+            }, 
+            "nf": 0, 
+            "np": 5110, 
+            "rank": 52
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:105": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 77, 
+            "line": 105, 
+            "metrics": {
+                "ample": 0.9851752021563343, 
+                "gzoltar": 0.11322770341445956, 
+                "ochiai": 0.11322770341445956, 
+                "tarantula": 0.9853917662682603
+            }, 
+            "nf": 0, 
+            "np": 5117, 
+            "rank": 46
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:106": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 77, 
+            "line": 106, 
+            "metrics": {
+                "ample": 0.9851752021563343, 
+                "gzoltar": 0.11322770341445956, 
+                "ochiai": 0.11322770341445956, 
+                "tarantula": 0.9853917662682603
+            }, 
+            "nf": 0, 
+            "np": 5117, 
+            "rank": 47
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:109": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 77, 
+            "line": 109, 
+            "metrics": {
+                "ample": 0.9851752021563343, 
+                "gzoltar": 0.11322770341445956, 
+                "ochiai": 0.11322770341445956, 
+                "tarantula": 0.9853917662682603
+            }, 
+            "nf": 0, 
+            "np": 5117, 
+            "rank": 48
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:114": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 77, 
+            "line": 114, 
+            "metrics": {
+                "ample": 0.9851752021563343, 
+                "gzoltar": 0.11322770341445956, 
+                "ochiai": 0.11322770341445956, 
+                "tarantula": 0.9853917662682603
+            }, 
+            "nf": 0, 
+            "np": 5117, 
+            "rank": 49
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:118": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 77, 
+            "line": 118, 
+            "metrics": {
+                "ample": 0.9851752021563343, 
+                "gzoltar": 0.11322770341445956, 
+                "ochiai": 0.11322770341445956, 
+                "tarantula": 0.9853917662682603
+            }, 
+            "nf": 0, 
+            "np": 5117, 
+            "rank": 50
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:119": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 77, 
+            "line": 119, 
+            "metrics": {
+                "ample": 0.9851752021563343, 
+                "gzoltar": 0.11322770341445956, 
+                "ochiai": 0.11322770341445956, 
+                "tarantula": 0.9853917662682603
+            }, 
+            "nf": 0, 
+            "np": 5117, 
+            "rank": 51
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:125": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 69, 
+            "line": 125, 
+            "metrics": {
+                "ample": 0.9867154408933385, 
+                "gzoltar": 0.11952286093343936, 
+                "ochiai": 0.11952286093343936, 
+                "tarantula": 0.9868896066882007
+            }, 
+            "nf": 0, 
+            "np": 5125, 
+            "rank": 23
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:126": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 69, 
+            "line": 126, 
+            "metrics": {
+                "ample": 0.9867154408933385, 
+                "gzoltar": 0.11952286093343936, 
+                "ochiai": 0.11952286093343936, 
+                "tarantula": 0.9868896066882007
+            }, 
+            "nf": 0, 
+            "np": 5125, 
+            "rank": 24
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:127": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 69, 
+            "line": 127, 
+            "metrics": {
+                "ample": 0.9867154408933385, 
+                "gzoltar": 0.11952286093343936, 
+                "ochiai": 0.11952286093343936, 
+                "tarantula": 0.9868896066882007
+            }, 
+            "nf": 0, 
+            "np": 5125, 
+            "rank": 25
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:129": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 69, 
+            "line": 129, 
+            "metrics": {
+                "ample": 0.9867154408933385, 
+                "gzoltar": 0.11952286093343936, 
+                "ochiai": 0.11952286093343936, 
+                "tarantula": 0.9868896066882007
+            }, 
+            "nf": 0, 
+            "np": 5125, 
+            "rank": 26
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:130": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 62, 
+            "line": 130, 
+            "metrics": {
+                "ample": 0.9880631497882172, 
+                "gzoltar": 0.1259881576697424, 
+                "ochiai": 0.1259881576697424, 
+                "tarantula": 0.9882039573820395
+            }, 
+            "nf": 0, 
+            "np": 5132, 
+            "rank": 16
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:131": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 62, 
+            "line": 131, 
+            "metrics": {
+                "ample": 0.9880631497882172, 
+                "gzoltar": 0.1259881576697424, 
+                "ochiai": 0.1259881576697424, 
+                "tarantula": 0.9882039573820395
+            }, 
+            "nf": 0, 
+            "np": 5132, 
+            "rank": 17
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:132": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 62, 
+            "line": 132, 
+            "metrics": {
+                "ample": 0.9880631497882172, 
+                "gzoltar": 0.1259881576697424, 
+                "ochiai": 0.1259881576697424, 
+                "tarantula": 0.9882039573820395
+            }, 
+            "nf": 0, 
+            "np": 5132, 
+            "rank": 18
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:135": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 62, 
+            "line": 135, 
+            "metrics": {
+                "ample": 0.9880631497882172, 
+                "gzoltar": 0.1259881576697424, 
+                "ochiai": 0.1259881576697424, 
+                "tarantula": 0.9882039573820395
+            }, 
+            "nf": 0, 
+            "np": 5132, 
+            "rank": 19
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:136": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 62, 
+            "line": 136, 
+            "metrics": {
+                "ample": 0.9880631497882172, 
+                "gzoltar": 0.1259881576697424, 
+                "ochiai": 0.1259881576697424, 
+                "tarantula": 0.9882039573820395
+            }, 
+            "nf": 0, 
+            "np": 5132, 
+            "rank": 20
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:137": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 62, 
+            "line": 137, 
+            "metrics": {
+                "ample": 0.9880631497882172, 
+                "gzoltar": 0.1259881576697424, 
+                "ochiai": 0.1259881576697424, 
+                "tarantula": 0.9882039573820395
+            }, 
+            "nf": 0, 
+            "np": 5132, 
+            "rank": 21
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:138": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 62, 
+            "line": 138, 
+            "metrics": {
+                "ample": 0.9880631497882172, 
+                "gzoltar": 0.1259881576697424, 
+                "ochiai": 0.1259881576697424, 
+                "tarantula": 0.9882039573820395
+            }, 
+            "nf": 0, 
+            "np": 5132, 
+            "rank": 22
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:142": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 69, 
+            "line": 142, 
+            "metrics": {
+                "ample": 0.9867154408933385, 
+                "gzoltar": 0.11952286093343936, 
+                "ochiai": 0.11952286093343936, 
+                "tarantula": 0.9868896066882007
+            }, 
+            "nf": 0, 
+            "np": 5125, 
+            "rank": 27
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:158": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 69, 
+            "line": 158, 
+            "metrics": {
+                "ample": 0.9867154408933385, 
+                "gzoltar": 0.11952286093343936, 
+                "ochiai": 0.11952286093343936, 
+                "tarantula": 0.9868896066882007
+            }, 
+            "nf": 0, 
+            "np": 5125, 
+            "rank": 28
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:176": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 69, 
+            "line": 176, 
+            "metrics": {
+                "ample": 0.9867154408933385, 
+                "gzoltar": 0.11952286093343936, 
+                "ochiai": 0.11952286093343936, 
+                "tarantula": 0.9868896066882007
+            }, 
+            "nf": 0, 
+            "np": 5125, 
+            "rank": 29
+        }, 
+        "org.apache.commons.math3.distribution.AbstractIntegerDistribution:193": {
+            "class": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+            "ef": 1, 
+            "ep": 53, 
+            "line": 193, 
+            "metrics": {
+                "ample": 0.9897959183673469, 
+                "gzoltar": 0.13608276348795434, 
+                "ochiai": 0.13608276348795434, 
+                "tarantula": 0.98989898989899
+            }, 
+            "nf": 0, 
+            "np": 5141, 
+            "rank": 15
+        }, 
+        "org.apache.commons.math3.distribution.HypergeometricDistribution:161": {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+            "ef": 1, 
+            "ep": 20, 
+            "line": 161, 
+            "metrics": {
+                "ample": 0.9961494031574895, 
+                "gzoltar": 0.2182178902359924, 
+                "ochiai": 0.2182178902359924, 
+                "tarantula": 0.9961641733793631
+            }, 
+            "nf": 0, 
+            "np": 5174, 
+            "rank": 12
+        }, 
+        "org.apache.commons.math3.distribution.HypergeometricDistribution:170": {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+            "ef": 1, 
+            "ep": 20, 
+            "line": 170, 
+            "metrics": {
+                "ample": 0.9961494031574895, 
+                "gzoltar": 0.2182178902359924, 
+                "ochiai": 0.2182178902359924, 
+                "tarantula": 0.9961641733793631
+            }, 
+            "nf": 0, 
+            "np": 5174, 
+            "rank": 13
+        }, 
+        "org.apache.commons.math3.distribution.HypergeometricDistribution:179": {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+            "ef": 1, 
+            "ep": 20, 
+            "line": 179, 
+            "metrics": {
+                "ample": 0.9961494031574895, 
+                "gzoltar": 0.2182178902359924, 
+                "ochiai": 0.2182178902359924, 
+                "tarantula": 0.9961641733793631
+            }, 
+            "nf": 0, 
+            "np": 5174, 
+            "rank": 14
+        }, 
+        "org.apache.commons.math3.distribution.HypergeometricDistribution:268": {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 268, 
+            "metrics": {
+                "ample": 0.9965344628417405, 
+                "gzoltar": 0.22941573387056174, 
+                "ochiai": 0.22941573387056174, 
+                "tarantula": 0.9965464313123562
+            }, 
+            "nf": 0, 
+            "np": 5176, 
+            "rank": 1
+        }, 
+        "org.apache.commons.math3.distribution.HypergeometricDistribution:279": {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 279, 
+            "metrics": {
+                "ample": 0.9965344628417405, 
+                "gzoltar": 0.22941573387056174, 
+                "ochiai": 0.22941573387056174, 
+                "tarantula": 0.9965464313123562
+            }, 
+            "nf": 0, 
+            "np": 5176, 
+            "rank": 2
+        }, 
+        "org.apache.commons.math3.distribution.HypergeometricDistribution:280": {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 280, 
+            "metrics": {
+                "ample": 0.9965344628417405, 
+                "gzoltar": 0.22941573387056174, 
+                "ochiai": 0.22941573387056174, 
+                "tarantula": 0.9965464313123562
+            }, 
+            "nf": 0, 
+            "np": 5176, 
+            "rank": 3
+        }, 
+        "org.apache.commons.math3.distribution.HypergeometricDistribution:281": {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 281, 
+            "metrics": {
+                "ample": 0.9965344628417405, 
+                "gzoltar": 0.22941573387056174, 
+                "ochiai": 0.22941573387056174, 
+                "tarantula": 0.9965464313123562
+            }, 
+            "nf": 0, 
+            "np": 5176, 
+            "rank": 4
+        }, 
+        "org.apache.commons.math3.distribution.HypergeometricDistribution:283": {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 283, 
+            "metrics": {
+                "ample": 0.9965344628417405, 
+                "gzoltar": 0.22941573387056174, 
+                "ochiai": 0.22941573387056174, 
+                "tarantula": 0.9965464313123562
+            }, 
+            "nf": 0, 
+            "np": 5176, 
+            "rank": 5
+        }, 
+        "org.apache.commons.math3.distribution.HypergeometricDistribution:292": {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 292, 
+            "metrics": {
+                "ample": 0.9965344628417405, 
+                "gzoltar": 0.22941573387056174, 
+                "ochiai": 0.22941573387056174, 
+                "tarantula": 0.9965464313123562
+            }, 
+            "nf": 0, 
+            "np": 5176, 
+            "rank": 6
+        }, 
+        "org.apache.commons.math3.distribution.HypergeometricDistribution:293": {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 293, 
+            "metrics": {
+                "ample": 0.9965344628417405, 
+                "gzoltar": 0.22941573387056174, 
+                "ochiai": 0.22941573387056174, 
+                "tarantula": 0.9965464313123562
+            }, 
+            "nf": 0, 
+            "np": 5176, 
+            "rank": 7
+        }, 
+        "org.apache.commons.math3.distribution.HypergeometricDistribution:294": {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 294, 
+            "metrics": {
+                "ample": 0.9965344628417405, 
+                "gzoltar": 0.22941573387056174, 
+                "ochiai": 0.22941573387056174, 
+                "tarantula": 0.9965464313123562
+            }, 
+            "nf": 0, 
+            "np": 5176, 
+            "rank": 8
+        }, 
+        "org.apache.commons.math3.distribution.HypergeometricDistribution:295": {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 295, 
+            "metrics": {
+                "ample": 0.9965344628417405, 
+                "gzoltar": 0.22941573387056174, 
+                "ochiai": 0.22941573387056174, 
+                "tarantula": 0.9965464313123562
+            }, 
+            "nf": 0, 
+            "np": 5176, 
+            "rank": 9
+        }, 
+        "org.apache.commons.math3.distribution.HypergeometricDistribution:308": {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 308, 
+            "metrics": {
+                "ample": 0.9965344628417405, 
+                "gzoltar": 0.22941573387056174, 
+                "ochiai": 0.22941573387056174, 
+                "tarantula": 0.9965464313123562
+            }, 
+            "nf": 0, 
+            "np": 5176, 
+            "rank": 10
+        }, 
+        "org.apache.commons.math3.distribution.HypergeometricDistribution:321": {
+            "class": "org.apache.commons.math3.distribution.HypergeometricDistribution", 
+            "ef": 1, 
+            "ep": 18, 
+            "line": 321, 
+            "metrics": {
+                "ample": 0.9965344628417405, 
+                "gzoltar": 0.22941573387056174, 
+                "ochiai": 0.22941573387056174, 
+                "tarantula": 0.9965464313123562
+            }, 
+            "nf": 0, 
+            "np": 5176, 
+            "rank": 11
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:105": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 105, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 30
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:106": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 106, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 31
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:107": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 107, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 32
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:108": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 108, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 33
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:109": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 109, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 34
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:110": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 110, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 35
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:111": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 111, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 36
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:112": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 112, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 37
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:119": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 119, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 38
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:120": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 120, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 39
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:121": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 121, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 40
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:122": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 122, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 41
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:123": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 123, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 42
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:124": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 124, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 43
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:125": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 125, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 44
+        }, 
+        "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest:126": {
+            "class": "org.apache.commons.math3.distribution.IntegerDistributionAbstractTest", 
+            "ef": 1, 
+            "ep": 71, 
+            "line": 126, 
+            "metrics": {
+                "ample": 0.9863303812090874, 
+                "gzoltar": 0.11785113019775793, 
+                "ochiai": 0.11785113019775793, 
+                "tarantula": 0.9865147198480531
+            }, 
+            "nf": 0, 
+            "np": 5123, 
+            "rank": 45
+        }, 
+        "org.apache.commons.math3.random.AbstractWell:154": {
+            "class": "org.apache.commons.math3.random.AbstractWell", 
+            "ef": 1, 
+            "ep": 1238, 
+            "line": 154, 
+            "metrics": {
+                "ample": 0.7616480554485945, 
+                "gzoltar": 0.028409549486356805, 
+                "ochiai": 0.028409549486356805, 
+                "tarantula": 0.8075248756218906
+            }, 
+            "nf": 0, 
+            "np": 3956, 
+            "rank": 80
+        }, 
+        "org.apache.commons.math3.random.AbstractWell:155": {
+            "class": "org.apache.commons.math3.random.AbstractWell", 
+            "ef": 1, 
+            "ep": 780, 
+            "line": 155, 
+            "metrics": {
+                "ample": 0.8498267231420871, 
+                "gzoltar": 0.03578281334822566, 
+                "ochiai": 0.03578281334822566, 
+                "tarantula": 0.8694342149313693
+            }, 
+            "nf": 0, 
+            "np": 4414, 
+            "rank": 75
+        }, 
+        "org.apache.commons.math3.random.AbstractWell:156": {
+            "class": "org.apache.commons.math3.random.AbstractWell", 
+            "ef": 1, 
+            "ep": 780, 
+            "line": 156, 
+            "metrics": {
+                "ample": 0.8498267231420871, 
+                "gzoltar": 0.03578281334822566, 
+                "ochiai": 0.03578281334822566, 
+                "tarantula": 0.8694342149313693
+            }, 
+            "nf": 0, 
+            "np": 4414, 
+            "rank": 76
+        }, 
+        "org.apache.commons.math3.random.AbstractWell:159": {
+            "class": "org.apache.commons.math3.random.AbstractWell", 
+            "ef": 1, 
+            "ep": 1238, 
+            "line": 159, 
+            "metrics": {
+                "ample": 0.7616480554485945, 
+                "gzoltar": 0.028409549486356805, 
+                "ochiai": 0.028409549486356805, 
+                "tarantula": 0.8075248756218906
+            }, 
+            "nf": 0, 
+            "np": 3956, 
+            "rank": 81
+        }, 
+        "org.apache.commons.math3.random.AbstractWell:161": {
+            "class": "org.apache.commons.math3.random.AbstractWell", 
+            "ef": 1, 
+            "ep": 1238, 
+            "line": 161, 
+            "metrics": {
+                "ample": 0.7616480554485945, 
+                "gzoltar": 0.028409549486356805, 
+                "ochiai": 0.028409549486356805, 
+                "tarantula": 0.8075248756218906
+            }, 
+            "nf": 0, 
+            "np": 3956, 
+            "rank": 82
+        }, 
+        "org.apache.commons.math3.random.AbstractWell:162": {
+            "class": "org.apache.commons.math3.random.AbstractWell", 
+            "ef": 1, 
+            "ep": 1238, 
+            "line": 162, 
+            "metrics": {
+                "ample": 0.7616480554485945, 
+                "gzoltar": 0.028409549486356805, 
+                "ochiai": 0.028409549486356805, 
+                "tarantula": 0.8075248756218906
+            }, 
+            "nf": 0, 
+            "np": 3956, 
+            "rank": 83
+        }, 
+        "org.apache.commons.math3.random.AbstractWell:163": {
+            "class": "org.apache.commons.math3.random.AbstractWell", 
+            "ef": 1, 
+            "ep": 1238, 
+            "line": 163, 
+            "metrics": {
+                "ample": 0.7616480554485945, 
+                "gzoltar": 0.028409549486356805, 
+                "ochiai": 0.028409549486356805, 
+                "tarantula": 0.8075248756218906
+            }, 
+            "nf": 0, 
+            "np": 3956, 
+            "rank": 84
+        }, 
+        "org.apache.commons.math3.random.AbstractWell:164": {
+            "class": "org.apache.commons.math3.random.AbstractWell", 
+            "ef": 1, 
+            "ep": 1238, 
+            "line": 164, 
+            "metrics": {
+                "ample": 0.7616480554485945, 
+                "gzoltar": 0.028409549486356805, 
+                "ochiai": 0.028409549486356805, 
+                "tarantula": 0.8075248756218906
+            }, 
+            "nf": 0, 
+            "np": 3956, 
+            "rank": 85
+        }, 
+        "org.apache.commons.math3.random.AbstractWell:168": {
+            "class": "org.apache.commons.math3.random.AbstractWell", 
+            "ef": 1, 
+            "ep": 1238, 
+            "line": 168, 
+            "metrics": {
+                "ample": 0.7616480554485945, 
+                "gzoltar": 0.028409549486356805, 
+                "ochiai": 0.028409549486356805, 
+                "tarantula": 0.8075248756218906
+            }, 
+            "nf": 0, 
+            "np": 3956, 
+            "rank": 86
+        }, 
+        "org.apache.commons.math3.random.AbstractWell:169": {
+            "class": "org.apache.commons.math3.random.AbstractWell", 
+            "ef": 1, 
+            "ep": 1238, 
+            "line": 169, 
+            "metrics": {
+                "ample": 0.7616480554485945, 
+                "gzoltar": 0.028409549486356805, 
+                "ochiai": 0.028409549486356805, 
+                "tarantula": 0.8075248756218906
+            }, 
+            "nf": 0, 
+            "np": 3956, 
+            "rank": 87
+        }, 
+        "org.apache.commons.math3.random.AbstractWell:170": {
+            "class": "org.apache.commons.math3.random.AbstractWell", 
+            "ef": 1, 
+            "ep": 1238, 
+            "line": 170, 
+            "metrics": {
+                "ample": 0.7616480554485945, 
+                "gzoltar": 0.028409549486356805, 
+                "ochiai": 0.028409549486356805, 
+                "tarantula": 0.8075248756218906
+            }, 
+            "nf": 0, 
+            "np": 3956, 
+            "rank": 88
+        }, 
+        "org.apache.commons.math3.random.AbstractWell:179": {
+            "class": "org.apache.commons.math3.random.AbstractWell", 
+            "ef": 1, 
+            "ep": 1156, 
+            "line": 179, 
+            "metrics": {
+                "ample": 0.777435502502888, 
+                "gzoltar": 0.029399051601892736, 
+                "ochiai": 0.029399051601892736, 
+                "tarantula": 0.8179527559055118
+            }, 
+            "nf": 0, 
+            "np": 4038, 
+            "rank": 78
+        }, 
+        "org.apache.commons.math3.random.AbstractWell:180": {
+            "class": "org.apache.commons.math3.random.AbstractWell", 
+            "ef": 1, 
+            "ep": 1156, 
+            "line": 180, 
+            "metrics": {
+                "ample": 0.777435502502888, 
+                "gzoltar": 0.029399051601892736, 
+                "ochiai": 0.029399051601892736, 
+                "tarantula": 0.8179527559055118
+            }, 
+            "nf": 0, 
+            "np": 4038, 
+            "rank": 79
+        }, 
+        "org.apache.commons.math3.random.BitsStreamGenerator:195": {
+            "class": "org.apache.commons.math3.random.BitsStreamGenerator", 
+            "ef": 1, 
+            "ep": 1336, 
+            "line": 195, 
+            "metrics": {
+                "ample": 0.7427801309202926, 
+                "gzoltar": 0.02734854943722097, 
+                "ochiai": 0.02734854943722097, 
+                "tarantula": 0.795405819295559
+            }, 
+            "nf": 0, 
+            "np": 3858, 
+            "rank": 89
+        }, 
+        "org.apache.commons.math3.random.BitsStreamGenerator:196": {
+            "class": "org.apache.commons.math3.random.BitsStreamGenerator", 
+            "ef": 1, 
+            "ep": 1336, 
+            "line": 196, 
+            "metrics": {
+                "ample": 0.7427801309202926, 
+                "gzoltar": 0.02734854943722097, 
+                "ochiai": 0.02734854943722097, 
+                "tarantula": 0.795405819295559
+            }, 
+            "nf": 0, 
+            "np": 3858, 
+            "rank": 90
+        }, 
+        "org.apache.commons.math3.random.BitsStreamGenerator:90": {
+            "class": "org.apache.commons.math3.random.BitsStreamGenerator", 
+            "ef": 1, 
+            "ep": 439, 
+            "line": 90, 
+            "metrics": {
+                "ample": 0.9154793993068926, 
+                "gzoltar": 0.04767312946227962, 
+                "ochiai": 0.04767312946227962, 
+                "tarantula": 0.9220663944612107
+            }, 
+            "nf": 0, 
+            "np": 4755, 
+            "rank": 72
+        }, 
+        "org.apache.commons.math3.random.BitsStreamGenerator:91": {
+            "class": "org.apache.commons.math3.random.BitsStreamGenerator", 
+            "ef": 1, 
+            "ep": 439, 
+            "line": 91, 
+            "metrics": {
+                "ample": 0.9154793993068926, 
+                "gzoltar": 0.04767312946227962, 
+                "ochiai": 0.04767312946227962, 
+                "tarantula": 0.9220663944612107
+            }, 
+            "nf": 0, 
+            "np": 4755, 
+            "rank": 73
+        }, 
+        "org.apache.commons.math3.random.BitsStreamGenerator:92": {
+            "class": "org.apache.commons.math3.random.BitsStreamGenerator", 
+            "ef": 1, 
+            "ep": 439, 
+            "line": 92, 
+            "metrics": {
+                "ample": 0.9154793993068926, 
+                "gzoltar": 0.04767312946227962, 
+                "ochiai": 0.04767312946227962, 
+                "tarantula": 0.9220663944612107
+            }, 
+            "nf": 0, 
+            "np": 4755, 
+            "rank": 74
+        }, 
+        "org.apache.commons.math3.random.Well19937c:100": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 100, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 64
+        }, 
+        "org.apache.commons.math3.random.Well19937c:101": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 101, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 65
+        }, 
+        "org.apache.commons.math3.random.Well19937c:102": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 102, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 66
+        }, 
+        "org.apache.commons.math3.random.Well19937c:103": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 103, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 67
+        }, 
+        "org.apache.commons.math3.random.Well19937c:108": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 108, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 68
+        }, 
+        "org.apache.commons.math3.random.Well19937c:109": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 109, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 69
+        }, 
+        "org.apache.commons.math3.random.Well19937c:111": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 111, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 70
+        }, 
+        "org.apache.commons.math3.random.Well19937c:86": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 86, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 53
+        }, 
+        "org.apache.commons.math3.random.Well19937c:87": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 87, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 54
+        }, 
+        "org.apache.commons.math3.random.Well19937c:89": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 89, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 55
+        }, 
+        "org.apache.commons.math3.random.Well19937c:90": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 90, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 56
+        }, 
+        "org.apache.commons.math3.random.Well19937c:91": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 91, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 57
+        }, 
+        "org.apache.commons.math3.random.Well19937c:92": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 92, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 58
+        }, 
+        "org.apache.commons.math3.random.Well19937c:94": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 94, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 59
+        }, 
+        "org.apache.commons.math3.random.Well19937c:95": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 95, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 60
+        }, 
+        "org.apache.commons.math3.random.Well19937c:96": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 96, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 61
+        }, 
+        "org.apache.commons.math3.random.Well19937c:97": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 97, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 62
+        }, 
+        "org.apache.commons.math3.random.Well19937c:98": {
+            "class": "org.apache.commons.math3.random.Well19937c", 
+            "ef": 1, 
+            "ep": 184, 
+            "line": 98, 
+            "metrics": {
+                "ample": 0.9645745090489026, 
+                "gzoltar": 0.07352146220938077, 
+                "ochiai": 0.07352146220938077, 
+                "tarantula": 0.9657865377463741
+            }, 
+            "nf": 0, 
+            "np": 5010, 
+            "rank": 63
+        }, 
+        "org.apache.commons.math3.util.FastMath:3429": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 816, 
+            "line": 3429, 
+            "metrics": {
+                "ample": 0.842895648825568, 
+                "gzoltar": 0.03498557142706598, 
+                "ochiai": 0.03498557142706598, 
+                "tarantula": 0.8642262895174708
+            }, 
+            "nf": 0, 
+            "np": 4378, 
+            "rank": 77
+        }, 
+        "org.apache.commons.math3.util.FastMath:3497": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 384, 
+            "line": 3497, 
+            "metrics": {
+                "ample": 0.9260685406237967, 
+                "gzoltar": 0.050964719143762556, 
+                "ochiai": 0.050964719143762556, 
+                "tarantula": 0.9311581211903909
+            }, 
+            "nf": 0, 
+            "np": 4810, 
+            "rank": 71
+        }, 
+        "org.apache.commons.math3.util.FastMath:385": {
+            "class": "org.apache.commons.math3.util.FastMath", 
+            "ef": 1, 
+            "ep": 2003, 
+            "line": 385, 
+            "metrics": {
+                "ample": 0.6143627262225645, 
+                "gzoltar": 0.022338352580438516, 
+                "ochiai": 0.022338352580438516, 
+                "tarantula": 0.7216895928859247
+            }, 
+            "nf": 0, 
+            "np": 3191, 
+            "rank": 91
+        }
+    }
+}

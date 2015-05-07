@@ -1,0 +1,15 @@
+{
+    "date": "2015-05-07T07:36:13.753647", 
+    "executionTime": 44363, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 20, 
+    "nbSMTVariable": 13, 
+    "nbStatement": 16, 
+    "node": "griffon-29.nancy.grid5000.fr\n", 
+    "patch": "((initial)<=(lower))||((!((1)!=(lower)))&&((org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.this.result)<(1)))", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
+        "line": 225
+    }, 
+    "patchType": "CONDITIONAL"
+}

@@ -1,0 +1,29 @@
+export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_21 /tmp/math_21_Kali;cd /tmp/math_21_Kali;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
+/home/tdurieux/results/Math/21/Kali/result
+cd /tmp/math_21_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest:org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_21_Kali;
+ NOT Found solution
+2015-05-07 00:44:31,413 INFO main - Number solutions:0
+2015-05-07 00:44:31,413 INFO main - All variants:
+2015-05-07 00:44:31,413 INFO main - Time Evolution(ms): 27876
+2015-05-07 00:44:31,413 INFO main - 
+----stats: 
+2015-05-07 00:44:31,413 INFO main - 
+spaces: [0]: []
+time val1 [70]: [193, 221, 206, 209, 202, 208, 202, 203, 204, 204, 202, 207, 205, 214, 203, 204, 203, 204, 202, 204, 207, 204, 202, 203, 201, 199, 200, 206, 203, 210, 202, 216, 201, 201, 201, 203, 204, 205, 205, 205, 204, 203, 217, 206, 219, 202, 205, 206, 206, 206, 200, 203, 200, 204, 203, 203, 203, 205, 204, 206, 203, 201, 201, 202, 183, 203, 205, 202, 201, 204]
+time val2 [0]: []
+#gen: 118
+#patches: 0
+#RightCompilation: 69
+#WrongCompilation: 48
+#FailingTestCaseExecution: 70
+#RegressionTestExecution: 0
+#TestcasesExecutedval1: 420
+#TestcasesExecutedval2: 0
+#FailingTestCase: 6
+#RegressionTestCases: 0
+#OfAppliedOp: 117
+#NotAppliedOp: 0
+#InmutatedGen: 0
+#unfinishValidation: 0
+2015-05-07 00:44:31,414 INFO fr.inria.main.AbstractMain - Time Total(ms): 576590
+

@@ -1,0 +1,135 @@
+{
+    "date": "2015-05-07T08:47:28.333706", 
+    "executedTest": 1687, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.lang.text.StrBuilderAppendInsertTest", 
+            "method": "testLang299"
+        }
+    ], 
+    "node": "griffon-67.nancy.grid5000.fr\n", 
+    "successfulTest": 1686, 
+    "suspicious": {
+        "org.apache.commons.lang.text.StrBuilder:228": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 172, 
+            "line": 228, 
+            "metrics": {
+                "ample": 0.8979833926453143, 
+                "gzoltar": 0.07602859212697055, 
+                "ochiai": 0.07602859212697055, 
+                "tarantula": 0.907427341227126
+            }, 
+            "nf": 0, 
+            "np": 1514, 
+            "rank": 7
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:233": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 172, 
+            "line": 233, 
+            "metrics": {
+                "ample": 0.8979833926453143, 
+                "gzoltar": 0.07602859212697055, 
+                "ochiai": 0.07602859212697055, 
+                "tarantula": 0.907427341227126
+            }, 
+            "nf": 0, 
+            "np": 1514, 
+            "rank": 8
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:879": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 879, 
+            "metrics": {
+                "ample": 0.9988137603795967, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9988151658767771
+            }, 
+            "nf": 0, 
+            "np": 1684, 
+            "rank": 1
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:880": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 880, 
+            "metrics": {
+                "ample": 0.9988137603795967, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9988151658767771
+            }, 
+            "nf": 0, 
+            "np": 1684, 
+            "rank": 2
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:881": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 881, 
+            "metrics": {
+                "ample": 0.9988137603795967, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9988151658767771
+            }, 
+            "nf": 0, 
+            "np": 1684, 
+            "rank": 3
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:882": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 882, 
+            "metrics": {
+                "ample": 0.9988137603795967, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9988151658767771
+            }, 
+            "nf": 0, 
+            "np": 1684, 
+            "rank": 4
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:883": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 883, 
+            "metrics": {
+                "ample": 0.9988137603795967, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9988151658767771
+            }, 
+            "nf": 0, 
+            "np": 1684, 
+            "rank": 5
+        }, 
+        "org.apache.commons.lang.text.StrBuilder:884": {
+            "class": "org.apache.commons.lang.text.StrBuilder", 
+            "ef": 1, 
+            "ep": 2, 
+            "line": 884, 
+            "metrics": {
+                "ample": 0.9988137603795967, 
+                "gzoltar": 0.5773502691896258, 
+                "ochiai": 0.5773502691896258, 
+                "tarantula": 0.9988151658767771
+            }, 
+            "nf": 0, 
+            "np": 1684, 
+            "rank": 6
+        }
+    }
+}

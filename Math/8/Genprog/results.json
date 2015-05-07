@@ -1,0 +1,35 @@
+{
+    "date": "2015-05-07T01:54:57.844752", 
+    "gen": "22", 
+    "node": "graphene-72.nancy.grid5000.fr\n", 
+    "operations": [
+        {
+            "generation": 22, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.distribution.DiscreteDistribution", 
+                "line": 189
+            }
+        }
+    ], 
+    "patches": "1", 
+    "programVariant": "44", 
+    "timeEvaluation": "163860", 
+    "timeTotal": "1026500", 
+    "timeVal1": [
+        265, 
+        274, 
+        295, 
+        267, 
+        266, 
+        249, 
+        247, 
+        264, 
+        265, 
+        249, 
+        267
+    ], 
+    "timeVal2": [
+        157612
+    ]
+}

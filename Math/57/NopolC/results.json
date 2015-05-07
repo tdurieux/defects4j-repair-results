@@ -1,0 +1,15 @@
+{
+    "date": "2015-05-07T08:33:33.588051", 
+    "executionTime": 3493483, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 6, 
+    "nbSMTVariable": 11, 
+    "nbStatement": 50, 
+    "node": "griffon-62.nancy.grid5000.fr\n", 
+    "patch": "((1)<(otherPoint.length))&&((point[i]) != (otherPoint[i]))", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.stat.clustering.EuclideanIntegerPoint", 
+        "line": 85
+    }, 
+    "patchType": "CONDITIONAL"
+}

@@ -1,0 +1,14 @@
+Exception in thread "main" spoon.compiler.ModelBuildingException: Syntax error, parameterized types are only available if source level is 1.5 or greater at /tmp/math_97_Kali/outputMutation/MainjGenProg-./src/default/org/apache/commons/math/fraction/Fraction.java:28
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.report(JDTBasedSpoonCompiler.java:537)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblems(JDTBasedSpoonCompiler.java:553)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:509)
+	at fr.inria.astor.core.manipulation.MutationSupporter.buildModel(MutationSupporter.java:86)
+	at fr.inria.astor.core.loop.evolutionary.JGenProg.initModel(JGenProg.java:109)
+	at fr.inria.astor.core.loop.evolutionary.JGenProg.initPopulation(JGenProg.java:57)
+	at fr.inria.main.evolution.MainjGenProg.statementMode(MainjGenProg.java:112)
+	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:129)
+	at fr.inria.main.evolution.MainjGenProg.main(MainjGenProg.java:171)
+
+real	0m18.991s
+user	0m40.279s
+sys	0m1.004s

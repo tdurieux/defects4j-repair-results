@@ -1,0 +1,58 @@
+{
+    "date": "2015-05-07T02:55:29.321407", 
+    "gen": "37", 
+    "node": "graphene-14.nancy.grid5000.fr\n", 
+    "operations": [
+        {
+            "generation": 21, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+                "line": 137
+            }
+        }, 
+        {
+            "generation": 22, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+                "line": 138
+            }
+        }, 
+        {
+            "generation": 26, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+                "line": 129
+            }
+        }
+    ], 
+    "patches": "3", 
+    "programVariant": "22", 
+    "timeEvaluation": "361459", 
+    "timeTotal": "730431", 
+    "timeVal1": [
+        272, 
+        304, 
+        304, 
+        282, 
+        287, 
+        281, 
+        268, 
+        305, 
+        307, 
+        305, 
+        272, 
+        280, 
+        276, 
+        276, 
+        279, 
+        279
+    ], 
+    "timeVal2": [
+        118238, 
+        118292, 
+        118105
+    ]
+}

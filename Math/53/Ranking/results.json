@@ -1,0 +1,135 @@
+{
+    "date": "2015-05-07T08:44:46.545722", 
+    "executedTest": 2525, 
+    "failedTest": 1, 
+    "failedTestDetails": [
+        {
+            "class": "org.apache.commons.math.complex.ComplexTest", 
+            "method": "testAddNaN"
+        }
+    ], 
+    "node": "griffon-14.nancy.grid5000.fr\n", 
+    "successfulTest": 2524, 
+    "suspicious": {
+        "org.apache.commons.math.complex.Complex:152": {
+            "class": "org.apache.commons.math.complex.Complex", 
+            "ef": 1, 
+            "ep": 19, 
+            "line": 152, 
+            "metrics": {
+                "ample": 0.992472266244057, 
+                "gzoltar": 0.22360679774997896, 
+                "ochiai": 0.22360679774997896, 
+                "tarantula": 0.9925285096342902
+            }, 
+            "nf": 0, 
+            "np": 2505, 
+            "rank": 1
+        }, 
+        "org.apache.commons.math.complex.Complex:153": {
+            "class": "org.apache.commons.math.complex.Complex", 
+            "ef": 1, 
+            "ep": 19, 
+            "line": 153, 
+            "metrics": {
+                "ample": 0.992472266244057, 
+                "gzoltar": 0.22360679774997896, 
+                "ochiai": 0.22360679774997896, 
+                "tarantula": 0.9925285096342902
+            }, 
+            "nf": 0, 
+            "np": 2505, 
+            "rank": 2
+        }, 
+        "org.apache.commons.math.complex.Complex:299": {
+            "class": "org.apache.commons.math.complex.Complex", 
+            "ef": 1, 
+            "ep": 103, 
+            "line": 299, 
+            "metrics": {
+                "ample": 0.9591917591125199, 
+                "gzoltar": 0.09805806756909202, 
+                "ochiai": 0.09805806756909202, 
+                "tarantula": 0.9607917776931862
+            }, 
+            "nf": 0, 
+            "np": 2421, 
+            "rank": 6
+        }, 
+        "org.apache.commons.math.complex.Complex:308": {
+            "class": "org.apache.commons.math.complex.Complex", 
+            "ef": 1, 
+            "ep": 102, 
+            "line": 308, 
+            "metrics": {
+                "ample": 0.9595879556259905, 
+                "gzoltar": 0.09853292781642932, 
+                "ochiai": 0.09853292781642932, 
+                "tarantula": 0.9611576542269612
+            }, 
+            "nf": 0, 
+            "np": 2422, 
+            "rank": 5
+        }, 
+        "org.apache.commons.math.complex.Complex:319": {
+            "class": "org.apache.commons.math.complex.Complex", 
+            "ef": 1, 
+            "ep": 23, 
+            "line": 319, 
+            "metrics": {
+                "ample": 0.9908874801901744, 
+                "gzoltar": 0.20412414523193154, 
+                "ochiai": 0.20412414523193154, 
+                "tarantula": 0.9909697683549274
+            }, 
+            "nf": 0, 
+            "np": 2501, 
+            "rank": 3
+        }, 
+        "org.apache.commons.math.complex.Complex:997": {
+            "class": "org.apache.commons.math.complex.Complex", 
+            "ef": 1, 
+            "ep": 69, 
+            "line": 997, 
+            "metrics": {
+                "ample": 0.972662440570523, 
+                "gzoltar": 0.11952286093343936, 
+                "ochiai": 0.11952286093343936, 
+                "tarantula": 0.9733898958735054
+            }, 
+            "nf": 0, 
+            "np": 2455, 
+            "rank": 4
+        }, 
+        "org.apache.commons.math.util.MathUtils:2331": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 485, 
+            "line": 2331, 
+            "metrics": {
+                "ample": 0.8078446909667195, 
+                "gzoltar": 0.045360921162651446, 
+                "ochiai": 0.045360921162651446, 
+                "tarantula": 0.8388168826852774
+            }, 
+            "nf": 0, 
+            "np": 2039, 
+            "rank": 8
+        }, 
+        "org.apache.commons.math.util.MathUtils:2334": {
+            "class": "org.apache.commons.math.util.MathUtils", 
+            "ef": 1, 
+            "ep": 480, 
+            "line": 2334, 
+            "metrics": {
+                "ample": 0.8098256735340729, 
+                "gzoltar": 0.04559607525875532, 
+                "ochiai": 0.04559607525875532, 
+                "tarantula": 0.8402130492676432
+            }, 
+            "nf": 0, 
+            "np": 2044, 
+            "rank": 7
+        }
+    }
+}
