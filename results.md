@@ -2457,8 +2457,14 @@ org.apache.commons.lang.NumberUtils:193 (Suspicious rank: 18)
 (numeric.length())!=(0)
 ```
 
-Execution time: 51020ms
-Grid5000 node : griffon-71.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 18
+
+Execution time: 0:00:51.020000
+
+Grid5000 node: griffon-71.nancy.grid5000.fr
+
 
 # Lang 45
 
@@ -2645,8 +2651,14 @@ org.apache.commons.lang.StringEscapeUtils:242 (Suspicious rank: 1)
 escapeSingleQuote
 ```
 
-Execution time: 45222ms
-Grid5000 node : griffon-68.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 1
+
+Execution time: 0:00:45.222000
+
+Grid5000 node: griffon-68.nancy.grid5000.fr
+
 
 # Lang 47
 
@@ -2847,8 +2859,14 @@ org.apache.commons.lang.BooleanUtils:672 (Suspicious rank: 10)
 str!=null
 ```
 
-Execution time: 48859ms
-Grid5000 node : griffon-23.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 10
+
+Execution time: 0:00:48.859000
+
+Grid5000 node: griffon-23.nancy.grid5000.fr
+
 
 # Lang 52
 
@@ -2990,8 +3008,14 @@ org.apache.commons.lang.time.StopWatch:118 (Suspicious rank: 7)
 (org.apache.commons.lang.time.StopWatch.this.stopTime)<(org.apache.commons.lang.time.StopWatch.STATE_RUNNING)
 ```
 
-Execution time: 86368ms
-Grid5000 node : griffon-63.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 7
+
+Execution time: 0:01:26.368000
+
+Grid5000 node: griffon-63.nancy.grid5000.fr
+
 
 # Lang 56
 
@@ -3114,8 +3138,14 @@ org.apache.commons.lang.math.NumberUtils:464 (Suspicious rank: 1)
 (-1)<(expPos)
 ```
 
-Execution time: 43466ms
-Grid5000 node : griffon-59.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 1
+
+Execution time: 0:00:43.466000
+
+Grid5000 node: griffon-59.nancy.grid5000.fr
+
 
 ## NopolC 
 
@@ -3124,8 +3154,14 @@ org.apache.commons.lang.math.NumberUtils:452 (Suspicious rank: 20)
 ((dec == null) && (exp == null))
 ```
 
-Execution time: 79036ms
-Grid5000 node : griffon-23.nancy.grid5000.fr
+Nb Angelic value: 3
+
+Nb analyzed Statement: 20
+
+Execution time: 0:01:19.036000
+
+Grid5000 node: griffon-23.nancy.grid5000.fr
+
 
 # Lang 59
 
@@ -3745,8 +3781,14 @@ org.jfree.data.xy.XYSeries:561 (Suspicious rank: 3)
 !(org.jfree.data.xy.XYSeries.this.allowDuplicateXValues)
 ```
 
-Execution time: 54629ms
-Grid5000 node : griffon-22.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 3
+
+Execution time: 0:00:54.629000
+
+Grid5000 node: griffon-22.nancy.grid5000.fr
+
 
 # Chart 6
 
@@ -3932,8 +3974,14 @@ org.jfree.data.time.TimeSeries:940 (Suspicious rank: 10)
 (org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.length())==(org.jfree.data.time.TimeSeries.this.data.size())
 ```
 
-Execution time: 55886ms
-Grid5000 node : griffon-41.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 10
+
+Execution time: 0:00:55.886000
+
+Grid5000 node: griffon-41.nancy.grid5000.fr
+
 
 ## NopolC 
 
@@ -3942,8 +3990,14 @@ org.jfree.data.time.TimeSeries:935 (Suspicious rank: 8)
 ((org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.length())==(startIndex))||((!((startIndex)!=(1)))&&(start!=null))
 ```
 
-Execution time: 55372ms
-Grid5000 node : griffon-9.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 8
+
+Execution time: 0:00:55.372000
+
+Grid5000 node: griffon-9.nancy.grid5000.fr
+
 
 # Chart 10
 
@@ -5157,8 +5211,14 @@ org.jfree.chart.block.BorderArrangement:482 (Suspicious rank: 38)
 null!=null
 ```
 
-Execution time: 62523ms
-Grid5000 node : griffon-33.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 38
+
+Execution time: 0:01:02.523000
+
+Grid5000 node: griffon-33.nancy.grid5000.fr
+
 
 # Chart 14
 
@@ -5388,8 +5448,14 @@ org.jfree.data.time.TimeSeries:880 (Suspicious rank: 1)
 (1)==(start)
 ```
 
-Execution time: 54296ms
-Grid5000 node : griffon-14.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 1
+
+Execution time: 0:00:54.296000
+
+Grid5000 node: griffon-14.nancy.grid5000.fr
+
 
 ## NopolC 
 
@@ -5398,8 +5464,14 @@ org.jfree.data.time.TimeSeries:879 (Suspicious rank: 4)
 (org.jfree.data.time.TimeSeries.this.range.length()==0)||(((org.jfree.data.time.TimeSeries.this.data.size())!=(start))&&(end < start))
 ```
 
-Execution time: 54494ms
-Grid5000 node : griffon-68.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 4
+
+Execution time: 0:00:54.494000
+
+Grid5000 node: griffon-68.nancy.grid5000.fr
+
 
 # Chart 18
 
@@ -5842,8 +5914,14 @@ org.jfree.data.Range:335 (Suspicious rank: 9)
 ((((-1)-(1))+(org.jfree.data.Range.this.upper))<=(0))||((org.jfree.data.Range.this.lower)<(((-1)-(1))+(org.jfree.data.Range.this.upper)))
 ```
 
-Execution time: 55170ms
-Grid5000 node : griffon-59.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 9
+
+Execution time: 0:00:55.170000
+
+Grid5000 node: griffon-59.nancy.grid5000.fr
+
 
 # Chart 22
 
@@ -6466,8 +6544,14 @@ org.jfree.chart.renderer.category.StatisticalBarRenderer:207 (Suspicious rank: 4
 (org.jfree.chart.renderer.category.StatisticalBarRenderer.serialVersionUID)==(1)
 ```
 
-Execution time: 54925ms
-Grid5000 node : griffon-59.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 4
+
+Execution time: 0:00:54.925000
+
+Grid5000 node: griffon-59.nancy.grid5000.fr
+
 
 ## NopolC 
 
@@ -6476,8 +6560,14 @@ org.jfree.data.statistics.DefaultStatisticalCategoryDataset:110 (Suspicious rank
 !(((1)==(org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValue))||((org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValueIncStdDev)<=(org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValue)))
 ```
 
-Execution time: 58080ms
-Grid5000 node : griffon-68.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 8
+
+Execution time: 0:00:58.080000
+
+Grid5000 node: griffon-68.nancy.grid5000.fr
+
 
 # Chart 26
 
@@ -6666,8 +6756,10 @@ org.apache.commons.math3.distribution.AbstractIntegerDistribution:137 (Suspiciou
 remove
 ```
 
-Execution time: 571631ms
+Execution time: 0:09:31.631000
+
 Grid5000 node : griffon-15.nancy.grid5000.fr
+
 
 ## Kali 
 
@@ -6686,8 +6778,10 @@ org.apache.commons.math3.distribution.AbstractIntegerDistribution:129 (Suspiciou
 remove
 ```
 
-Execution time: 708689ms
+Execution time: 0:11:48.689000
+
 Grid5000 node : graphene-74.nancy.grid5000.fr
+
 
 # Math 3
 
@@ -7061,8 +7155,10 @@ org.apache.commons.math3.distribution.DiscreteDistribution:190
 remove
 ```
 
-Execution time: 1165235ms
+Execution time: 0:19:25.235000
+
 Grid5000 node : griffon-23.nancy.grid5000.fr
+
 
 ## Kali 
 
@@ -7076,8 +7172,10 @@ org.apache.commons.math3.distribution.DiscreteDistribution:190
 remove
 ```
 
-Execution time: 1393326ms
+Execution time: 0:23:13.326000
+
 Grid5000 node : griffon-39.nancy.grid5000.fr
+
 
 # Math 9
 
@@ -8389,8 +8487,14 @@ org.apache.commons.math3.geometry.partitioning.AbstractRegion:214 (Suspicious ra
 ((!(((boundary.size())-(plusList.size()))<(minusList.size())))&&((1)<=(plusList.size())))||((minusList.size())==((boundary.size())+(-1)))
 ```
 
-Execution time: 838491ms
-Grid5000 node : graphene-63.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 221
+
+Execution time: 0:13:58.491000
+
+Grid5000 node: graphene-63.nancy.grid5000.fr
+
 
 # Math 33
 
@@ -8427,8 +8531,14 @@ org.apache.commons.math3.optimization.linear.SimplexTableau:339 (Suspicious rank
 (org.apache.commons.math3.optimization.linear.SimplexTableau.this.constraints.size())!=(org.apache.commons.math3.optimization.linear.SimplexTableau.this.numSlackVariables)
 ```
 
-Execution time: 882897ms
-Grid5000 node : griffon-85.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 20
+
+Execution time: 0:14:42.897000
+
+Grid5000 node: griffon-85.nancy.grid5000.fr
+
 
 ## NopolC 
 
@@ -8437,8 +8547,14 @@ org.apache.commons.math3.optimization.linear.SimplexTableau:338 (Suspicious rank
 !(((org.apache.commons.math3.optimization.linear.SimplexTableau.this.numSlackVariables)==(org.apache.commons.math3.optimization.linear.SimplexTableau.this.constraints.size()))||((entry)<=(0)))
 ```
 
-Execution time: 893340ms
-Grid5000 node : griffon-5.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 22
+
+Execution time: 0:14:53.340000
+
+Grid5000 node: griffon-5.nancy.grid5000.fr
+
 
 # Math 34
 
@@ -8792,8 +8908,14 @@ org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:260 (Susp
 (((xA)<=(absYA))||((signChangeIndex - start) >= (end - signChangeIndex)))&&(x!=null)
 ```
 
-Execution time: 590580ms
-Grid5000 node : griffon-58.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 31
+
+Execution time: 0:09:50.580000
+
+Grid5000 node: griffon-58.nancy.grid5000.fr
+
 
 ## Genprog 
 
@@ -8802,8 +8924,10 @@ org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:296 (Susp
 java.lang.System.arraycopy(y, 1, y, 0, nbPoints)
 ```
 
-Execution time: 2193786ms
+Execution time: 0:36:33.786000
+
 Grid5000 node : griffon-33.nancy.grid5000.fr
+
 
 # Math 41
 
@@ -8873,8 +8997,14 @@ org.apache.commons.math.optimization.linear.SimplexTableau:317 (Suspicious rank:
 !((org.apache.commons.math.optimization.linear.SimplexTableau.this.restrictToNonNegative)&&(((org.apache.commons.math.optimization.linear.SimplexTableau.this.numSlackVariables)<=(org.apache.commons.math.optimization.linear.SimplexTableau.this.epsilon))||(org.apache.commons.math.optimization.linear.SimplexTableau.this.constraints.isEmpty())))
 ```
 
-Execution time: 3261223ms
-Grid5000 node : graphene-7.nancy.grid5000.fr
+Nb Angelic value: 9
+
+Nb analyzed Statement: 24
+
+Execution time: 0:54:21.223000
+
+Grid5000 node: graphene-7.nancy.grid5000.fr
+
 
 # Math 43
 
@@ -8979,8 +9109,10 @@ org.apache.commons.math.ode.AbstractIntegrator:325 (Suspicious rank: 31)
 statesInitialized = false
 ```
 
-Execution time: 621176ms
+Execution time: 0:10:21.176000
+
 Grid5000 node : griffon-32.nancy.grid5000.fr
+
 
 # Math 45
 
@@ -9215,8 +9347,14 @@ org.apache.commons.math.linear.OpenMapRealVector:667 (Suspicious rank: 14)
 (org.apache.commons.math.linear.OpenMapRealVector.this.epsilon)==(org.apache.commons.math.linear.OpenMapRealVector.DEFAULT_ZERO_TOLERANCE)
 ```
 
-Execution time: 348486ms
-Grid5000 node : griffon-22.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 14
+
+Execution time: 0:05:48.486000
+
+Grid5000 node: griffon-22.nancy.grid5000.fr
+
 
 ## Genprog 
 
@@ -9225,8 +9363,10 @@ org.apache.commons.math.util.OpenIntToDoubleHashMap:399 (Suspicious rank: 44)
 remove
 ```
 
-Execution time: 370072ms
+Execution time: 0:06:10.072000
+
 Grid5000 node : griffon-32.nancy.grid5000.fr
+
 
 ## Kali 
 
@@ -9235,8 +9375,10 @@ org.apache.commons.math.util.OpenIntToDoubleHashMap:399 (Suspicious rank: 44)
 remove
 ```
 
-Execution time: 297796ms
+Execution time: 0:04:57.796000
+
 Grid5000 node : griffon-8.nancy.grid5000.fr
+
 
 # Math 50
 
@@ -9280,8 +9422,14 @@ org.apache.commons.math.analysis.solvers.BaseSecantSolver:186 (Suspicious rank: 
 !(((x)==(1))||(((1)<(x))&&(inverted)))
 ```
 
-Execution time: 1384425ms
-Grid5000 node : griffon-11.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 6
+
+Execution time: 0:23:04.425000
+
+Grid5000 node: griffon-11.nancy.grid5000.fr
+
 
 ## NopolC 
 
@@ -9290,8 +9438,14 @@ org.apache.commons.math.analysis.solvers.BaseSecantSolver:186 (Suspicious rank: 
 (f0)<(-1)
 ```
 
-Execution time: 819406ms
-Grid5000 node : griffon-38.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 6
+
+Execution time: 0:13:39.406000
+
+Grid5000 node: griffon-38.nancy.grid5000.fr
+
 
 ## Genprog 
 
@@ -9300,8 +9454,10 @@ org.apache.commons.math.analysis.solvers.BaseSecantSolver:191 (Suspicious rank: 
 this.allowed = org.apache.commons.math.analysis.solvers.AllowedSolution.ANY_SIDE
 ```
 
-Execution time: 229256ms
+Execution time: 0:03:49.256000
+
 Grid5000 node : graphene-22.nancy.grid5000.fr
+
 
 ## Kali 
 
@@ -9310,8 +9466,10 @@ org.apache.commons.math.analysis.solvers.BaseSecantSolver:191 (Suspicious rank: 
 remove
 ```
 
-Execution time: 289932ms
+Execution time: 0:04:49.932000
+
 Grid5000 node : graphene-74.nancy.grid5000.fr
+
 
 # Math 51
 
@@ -9764,8 +9922,14 @@ org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:85 (Suspicious ran
 ((1)<(otherPoint.length))&&((point[i]) != (otherPoint[i]))
 ```
 
-Execution time: 3334911ms
-Grid5000 node : griffon-15.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 50
+
+Execution time: 0:55:34.911000
+
+Grid5000 node: griffon-15.nancy.grid5000.fr
+
 
 # Math 58
 
@@ -9804,8 +9968,14 @@ org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:613 (Su
 (fp > 0)||((gNorm)<=(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.this.orthoTolerance))
 ```
 
-Execution time: 516207ms
-Grid5000 node : graphene-77.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 92
+
+Execution time: 0:08:36.207000
+
+Grid5000 node: graphene-77.nancy.grid5000.fr
+
 
 # Math 59
 
@@ -10439,8 +10609,10 @@ org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:426 (Su
 current = new org.apache.commons.math.optimization.VectorialPointValuePair(point , objective)
 ```
 
-Execution time: 340881ms
+Execution time: 0:05:40.881000
+
 Grid5000 node : graphene-2.nancy.grid5000.fr
+
 
 # Math 65
 
@@ -10804,8 +10976,14 @@ org.apache.commons.math.stat.correlation.PearsonsCorrelation:189 (Suspicious ran
 ((1)-((-1)+(-1)))<=(nVars)
 ```
 
-Execution time: 51147ms
-Grid5000 node : griffon-2.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 14
+
+Execution time: 0:00:51.147000
+
+Grid5000 node: griffon-2.nancy.grid5000.fr
+
 
 # Math 70
 
@@ -10842,8 +11020,10 @@ org.apache.commons.math.analysis.solvers.BisectionSolver:72 (Suspicious rank: 1)
 return solve(f, min, max)
 ```
 
-Execution time: 50511ms
+Execution time: 0:00:50.511000
+
 Grid5000 node : griffon-39.nancy.grid5000.fr
+
 
 # Math 71
 
@@ -11050,8 +11230,14 @@ org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:225 (Suspiciou
 ((initial)<=(lower))||((!((1)!=(lower)))&&((org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.this.result)<(1)))
 ```
 
-Execution time: 39290ms
-Grid5000 node : graphene-77.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 16
+
+Execution time: 0:00:39.290000
+
+Grid5000 node: graphene-77.nancy.grid5000.fr
+
 
 ## Genprog 
 
@@ -11060,8 +11246,10 @@ org.apache.commons.math.analysis.solvers.BrentSolver:132 (Suspicious rank: 1)
 return solve(f, min, max)
 ```
 
-Execution time: 59061ms
+Execution time: 0:00:59.061000
+
 Grid5000 node : griffon-13.nancy.grid5000.fr
+
 
 # Math 74
 
@@ -11462,8 +11650,14 @@ org.apache.commons.math.analysis.solvers.BrentSolver:282 (Suspicious rank: 8)
 (-1)<=(delta)
 ```
 
-Execution time: 62677ms
-Grid5000 node : griffon-33.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 8
+
+Execution time: 0:01:02.677000
+
+Grid5000 node: griffon-33.nancy.grid5000.fr
+
 
 ## Genprog 
 
@@ -11472,8 +11666,10 @@ org.apache.commons.math.ode.events.EventState:179 (Suspicious rank: 47)
 ta = tb
 ```
 
-Execution time: 197091ms
+Execution time: 0:03:17.091000
+
 Grid5000 node : griffon-62.nancy.grid5000.fr
+
 
 ## Kali 
 
@@ -11482,8 +11678,10 @@ org.apache.commons.math.ode.events.EventState:283 (Suspicious rank: 56)
 remove
 ```
 
-Execution time: 76086ms
+Execution time: 0:01:16.086000
+
 Grid5000 node : graphene-74.nancy.grid5000.fr
+
 
 # Math 79
 
@@ -11524,8 +11722,14 @@ org.apache.commons.math.util.MathUtils:1627 (Suspicious rank: 103)
 (p2!=null)&&(!(((dp)<=((org.apache.commons.math.util.MathUtils.TWO_PI)-((org.apache.commons.math.util.MathUtils.FACTORIALS.length)+(org.apache.commons.math.util.MathUtils.FACTORIALS.length))))||(((org.apache.commons.math.util.MathUtils.FACTORIALS.length)+(org.apache.commons.math.util.MathUtils.FACTORIALS.length))<(dp))))
 ```
 
-Execution time: 1484847ms
-Grid5000 node : graphene-7.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 26
+
+Execution time: 0:24:44.847000
+
+Grid5000 node: graphene-7.nancy.grid5000.fr
+
 
 # Math 80
 
@@ -11562,8 +11766,14 @@ org.apache.commons.math.linear.EigenDecompositionImpl:1137 (Suspicious rank: 16)
 org.apache.commons.math.linear.EigenDecompositionImpl.this.cachedD!=null
 ```
 
-Execution time: 56581ms
-Grid5000 node : griffon-5.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 16
+
+Execution time: 0:00:56.581000
+
+Grid5000 node: griffon-5.nancy.grid5000.fr
+
 
 ## Genprog 
 
@@ -11572,8 +11782,10 @@ org.apache.commons.math.linear.EigenDecompositionImpl:1137 (Suspicious rank: 16)
 remove
 ```
 
-Execution time: 138138ms
+Execution time: 0:02:18.138000
+
 Grid5000 node : griffon-63.nancy.grid5000.fr
+
 
 ## Kali 
 
@@ -11602,8 +11814,10 @@ org.apache.commons.math.linear.EigenDecompositionImpl:1133 (Suspicious rank: 195
 remove
 ```
 
-Execution time: 1404050ms
+Execution time: 0:23:24.050000
+
 Grid5000 node : griffon-56.nancy.grid5000.fr
+
 
 # Math 81
 
@@ -11666,8 +11880,14 @@ org.apache.commons.math.linear.EigenDecompositionImpl:1540 (Suspicious rank: 10)
 (org.apache.commons.math.linear.EigenDecompositionImpl.this.eMin)!=(b2)
 ```
 
-Execution time: 51424ms
-Grid5000 node : griffon-33.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 10
+
+Execution time: 0:00:51.424000
+
+Grid5000 node: griffon-33.nancy.grid5000.fr
+
 
 ## NopolC 
 
@@ -11676,8 +11896,14 @@ org.apache.commons.math.linear.EigenDecompositionImpl:1534 (Suspicious rank: 8)
 (org.apache.commons.math.linear.EigenDecompositionImpl.TOLERANCE)<=(org.apache.commons.math.linear.EigenDecompositionImpl.this.lowerSpectra)
 ```
 
-Execution time: 42722ms
-Grid5000 node : graphene-7.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 8
+
+Execution time: 0:00:42.722000
+
+Grid5000 node: graphene-7.nancy.grid5000.fr
+
 
 ## Genprog 
 
@@ -11686,8 +11912,10 @@ org.apache.commons.math.linear.EigenDecompositionImpl:1477 (Suspicious rank: 17)
 remove
 ```
 
-Execution time: 323435ms
+Execution time: 0:05:23.435000
+
 Grid5000 node : griffon-23.nancy.grid5000.fr
+
 
 ## Kali 
 
@@ -11721,8 +11949,10 @@ org.apache.commons.math.linear.EigenDecompositionImpl:1518 (Suspicious rank: 41)
 remove
 ```
 
-Execution time: 1318785ms
+Execution time: 0:21:58.785000
+
 Grid5000 node : griffon-11.nancy.grid5000.fr
+
 
 # Math 82
 
@@ -11764,8 +11994,14 @@ org.apache.commons.math.optimization.linear.SimplexSolver:63 (Suspicious rank: 4
 (0)!=(minValue)
 ```
 
-Execution time: 902112ms
-Grid5000 node : graphene-65.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 47
+
+Execution time: 0:15:02.112000
+
+Grid5000 node: graphene-65.nancy.grid5000.fr
+
 
 ## Genprog 
 
@@ -11774,8 +12010,10 @@ org.apache.commons.math.optimization.linear.SimplexSolver:63 (Suspicious rank: 4
 remove
 ```
 
-Execution time: 127811ms
+Execution time: 0:02:07.811000
+
 Grid5000 node : griffon-62.nancy.grid5000.fr
+
 
 ## Kali 
 
@@ -11784,8 +12022,10 @@ org.apache.commons.math.optimization.linear.SimplexSolver:63 (Suspicious rank: 4
 remove
 ```
 
-Execution time: 144165ms
+Execution time: 0:02:24.165000
+
 Grid5000 node : griffon-5.nancy.grid5000.fr
+
 
 # Math 83
 
@@ -11906,8 +12146,14 @@ org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198
 (fa)==(maximumIterations)
 ```
 
-Execution time: 40818ms
-Grid5000 node : graphene-7.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 46
+
+Execution time: 0:00:40.818000
+
+Grid5000 node: graphene-7.nancy.grid5000.fr
+
 
 ## Genprog 
 
@@ -11916,8 +12162,10 @@ org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:199
 remove
 ```
 
-Execution time: 349160ms
+Execution time: 0:05:49.160000
+
 Grid5000 node : griffon-30.nancy.grid5000.fr
+
 
 ## Kali 
 
@@ -11931,8 +12179,10 @@ org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198
 remove
 ```
 
-Execution time: 353615ms
+Execution time: 0:05:53.615000
+
 Grid5000 node : griffon-23.nancy.grid5000.fr
+
 
 # Math 86
 
@@ -12022,8 +12272,14 @@ org.apache.commons.math.optimization.linear.SimplexTableau:161 (Suspicious rank:
 (org.apache.commons.math.optimization.linear.SimplexTableau.this.numSlackVariables)!=(1)
 ```
 
-Execution time: 848969ms
-Grid5000 node : graphene-68.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 25
+
+Execution time: 0:14:08.969000
+
+Grid5000 node: graphene-68.nancy.grid5000.fr
+
 
 ## NopolC 
 
@@ -12032,8 +12288,14 @@ org.apache.commons.math.optimization.linear.SimplexTableau:160 (Suspicious rank:
 ((1)!=(org.apache.commons.math.optimization.linear.SimplexTableau.this.numSlackVariables))&&(!(restrictToNonNegative))
 ```
 
-Execution time: 56196ms
-Grid5000 node : graphene-72.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 127
+
+Execution time: 0:00:56.196000
+
+Grid5000 node: graphene-72.nancy.grid5000.fr
+
 
 # Math 88
 
@@ -12116,8 +12378,14 @@ org.apache.commons.math.optimization.linear.SimplexTableau:352 (Suspicious rank:
 (org.apache.commons.math.optimization.linear.SimplexTableau.this.numSlackVariables)<(org.apache.commons.math.optimization.linear.SimplexTableau.this.constraints.size())
 ```
 
-Execution time: 29910ms
-Grid5000 node : graphene-65.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 1
+
+Execution time: 0:00:29.910000
+
+Grid5000 node: graphene-65.nancy.grid5000.fr
+
 
 # Math 89
 
@@ -12766,8 +13034,10 @@ org.apache.commons.math.distribution.FDistributionImpl:144 (Suspicious rank: 105
 return 0.0
 ```
 
-Execution time: 428860ms
+Execution time: 0:07:08.860000
+
 Grid5000 node : griffon-62.nancy.grid5000.fr
+
 
 # Math 96
 
@@ -12956,8 +13226,14 @@ org.apache.commons.math.analysis.BrentSolver:136 (Suspicious rank: 68)
 (min)<=(1)
 ```
 
-Execution time: 38484ms
-Grid5000 node : griffon-17.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 68
+
+Execution time: 0:00:38.484000
+
+Grid5000 node: griffon-17.nancy.grid5000.fr
+
 
 ## NopolC 
 
@@ -12966,8 +13242,14 @@ org.apache.commons.math.analysis.BrentSolver:135 (Suspicious rank: 90)
 (((yMin)<(yMax))&&((yMin * yMax) >= 0))||((min)==(yMin))
 ```
 
-Execution time: 71768ms
-Grid5000 node : griffon-10.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 90
+
+Execution time: 0:01:11.768000
+
+Grid5000 node: griffon-10.nancy.grid5000.fr
+
 
 # Math 98
 
@@ -13155,8 +13437,14 @@ org.apache.commons.math.analysis.BrentSolver:136 (Suspicious rank: 68)
 (min)<=(1)
 ```
 
-Execution time: 38830ms
-Grid5000 node : griffon-5.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 68
+
+Execution time: 0:00:38.830000
+
+Grid5000 node: griffon-5.nancy.grid5000.fr
+
 
 ## NopolC 
 
@@ -13165,8 +13453,14 @@ org.apache.commons.math.analysis.BrentSolver:135 (Suspicious rank: 90)
 ((!((1)<(min)))||((yMax)<=(org.apache.commons.math.analysis.BrentSolver.serialVersionUID)))&&((yMin * yMax) >= 0)
 ```
 
-Execution time: 54214ms
-Grid5000 node : graphene-68.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 90
+
+Execution time: 0:00:54.214000
+
+Grid5000 node: graphene-68.nancy.grid5000.fr
+
 
 # Math 100
 
@@ -13617,8 +13911,14 @@ org.apache.commons.math.stat.regression.SimpleRegression:107 (Suspicious rank: 6
 (((y)<=(x))&&((y)<=(x)))||(!((1)<(x)))
 ```
 
-Execution time: 29559ms
-Grid5000 node : griffon-12.nancy.grid5000.fr
+Nb Angelic value: 1
+
+Nb analyzed Statement: 69
+
+Execution time: 0:00:29.559000
+
+Grid5000 node: griffon-12.nancy.grid5000.fr
+
 
 # Math 106
 
