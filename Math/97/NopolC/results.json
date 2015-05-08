@@ -1,11 +1,11 @@
 {
-    "date": "2015-05-07T07:36:36.651911", 
-    "executionTime": 72020, 
+    "date": "2015-05-08T03:26:49.051355", 
+    "executionTime": 71768, 
     "nbAngelicValue": 1, 
     "nbSMTInput": 461, 
     "nbSMTVariable": 11, 
     "nbStatement": 90, 
-    "node": "griffon-12.nancy.grid5000.fr\n", 
+    "node": "griffon-10.nancy.grid5000.fr\n", 
     "patch": "(((yMin)<(yMax))&&((yMin * yMax) >= 0))||((min)==(yMin))", 
     "patchLocation": {
         "className": "org.apache.commons.math.analysis.BrentSolver", 

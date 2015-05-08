@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/84/Kali/result
 cd /tmp/math_84_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.optimization.direct.MultiDirectionalTest:org.apache.commons.math.optimization.direct.MultiDirectionalTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_84_Kali;
  NOT Found solution
-2015-05-07 00:32:17,216 INFO main - Number solutions:0
-2015-05-07 00:32:17,216 INFO main - All variants:
-2015-05-07 00:32:17,216 INFO main - Time Evolution(ms): 373180
-2015-05-07 00:32:17,216 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 373344
+
 ----stats: 
-2015-05-07 00:32:17,216 INFO main - 
+
 spaces: [0]: []
-time val1 [53]: [214, 60001, 197, 203, 205, 176, 178, 225, 213, 170, 199, 164, 217, 219, 203, 216, 207, 187, 187, 193, 202, 225, 191, 60002, 60002, 211, 202, 183, 188, 191, 165, 163, 202, 205, 163, 204, 203, 202, 162, 162, 171, 215, 220, 173, 60001, 60001, 60001, 191, 166, 228, 185, 185, 227]
+time val1 [53]: [214, 60002, 196, 207, 206, 173, 173, 237, 217, 171, 205, 165, 218, 216, 204, 218, 211, 189, 191, 192, 207, 232, 191, 60001, 60001, 212, 207, 185, 188, 189, 166, 165, 205, 205, 165, 206, 206, 206, 165, 164, 172, 216, 219, 173, 60001, 60001, 60001, 194, 166, 229, 188, 188, 228]
 time val2 [0]: []
 #gen: 88
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:32:17,216 INFO fr.inria.main.AbstractMain - Time Total(ms): 400247
+Time Total(ms): 400393
 

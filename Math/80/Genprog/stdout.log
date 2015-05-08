@@ -2,7 +2,7 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/80/Genprog/result
 cd /tmp/math_80_Genprog;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -dependencies lib/ -failing org.apache.commons.math.linear.EigenDecompositionImplTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_80_Genprog;
 
-2015-05-06 22:26:39,133 INFO main - ProgramVariant 60
+ProgramVariant 146
  
  operation: 
 location= org.apache.commons.math.linear.EigenDecompositionImpl
@@ -17,29 +17,29 @@ location= org.apache.commons.math.linear.EigenDecompositionImpl
 	work[(i + k)] = work[(j - k)];
 	work[(j - k)] = tmp;
 }"
- generation= 30
+ generation= 73
  
  ----
-2015-05-06 22:26:39,133 INFO main - Time Evolution(ms): 24309
-2015-05-06 22:26:39,133 INFO main - 
+Time Evolution(ms): 101830
+
 ----stats: 
-2015-05-06 22:26:39,133 INFO main - 
-spaces: [21]: [770, 770, 770, 770, 300, 770, 200, 770, 770, 2, 770, 300, 770, 770, 770, 770, 770, 770, 770, 200, 300]
-time val1 [16]: [329, 328, 326, 333, 318, 328, 324, 326, 328, 349, 330, 328, 331, 334, 455, 315]
-time val2 [1]: [8913]
-#gen: 30
+
+spaces: [55]: [770, 770, 770, 2, 770, 770, 770, 770, 770, 770, 770, 770, 770, 770, 770, 300, 770, 770, 770, 770, 770, 770, 770, 770, 770, 770, 300, 770, 770, 770, 770, 456, 86, 200, 200, 770, 770, 86, 200, 770, 300, 86, 770, 770, 770, 770, 770, 770, 300, 770, 200, 770, 770, 456, 770]
+time val1 [24]: [380, 376, 374, 381, 60001, 379, 376, 375, 376, 368, 382, 377, 376, 366, 378, 376, 377, 380, 378, 375, 371, 379, 383, 368]
+time val2 [1]: [10527]
+#gen: 73
 #patches: 1
-#RightCompilation: 15
-#WrongCompilation: 15
-#FailingTestCaseExecution: 16
+#RightCompilation: 23
+#WrongCompilation: 50
+#FailingTestCaseExecution: 24
 #RegressionTestExecution: 1
-#TestcasesExecutedval1: 288
+#TestcasesExecutedval1: 414
 #TestcasesExecutedval2: 1994
 #FailingTestCase: 18
 #RegressionTestCases: 1994
-#OfAppliedOp: 30
+#OfAppliedOp: 73
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-06 22:26:39,133 INFO fr.inria.main.AbstractMain - Time Total(ms): 55541
+Time Total(ms): 138138
 

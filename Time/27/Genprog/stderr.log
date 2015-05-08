@@ -1,18 +1,49 @@
-java.io.FileNotFoundException: Source './target/classes' does not exist
-	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1368)
-	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1261)
-	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1230)
-	at fr.inria.astor.core.setup.ProjectRepairFacade.copyOriginalBin(ProjectRepairFacade.java:119)
-	at fr.inria.astor.core.setup.ProjectRepairFacade.setupTempDirectories(ProjectRepairFacade.java:56)
-	at fr.inria.main.evolution.MainjGenProg.initProject(MainjGenProg.java:44)
-	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:122)
+java.lang.IllegalArgumentException: The validation process does not execute well the test cases
+ Exception in thread "main" java.lang.ExceptionInInitializerError
+	at org.joda.time.format.TestPeriodFormatterBuilder.<clinit>(TestPeriodFormatterBuilder.java:37)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:191)
+	at fr.inria.astor.junitexec.JUnitTestExecutor.main(JUnitTestExecutor.java:106)
+Caused by: java.lang.IllegalArgumentException: DateTimeZone must not be null
+	at org.joda.time.chrono.ZonedChronology.getInstance(ZonedChronology.java:14)
+	at org.joda.time.chrono.ISOChronology.getInstance(ISOChronology.java:39)
+	at org.joda.time.chrono.ISOChronology.getInstance(ISOChronology.java:24)
+	at org.joda.time.DateTimeUtils.getChronology(DateTimeUtils.java:101)
+	at org.joda.time.base.BasePeriod.<init>(BasePeriod.java:95)
+	at org.joda.time.Period.<init>(Period.java:271)
+	at org.joda.time.Period.<clinit>(Period.java:63)
+	... 4 more
+
+	at fr.inria.astor.core.validation.executors.JUnitExecutorProcess.getTestResult(JUnitExecutorProcess.java:130)
+	at fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:78)
+	at fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:34)
+	at fr.inria.astor.core.validation.validators.ProcessValidator.validate(ProcessValidator.java:58)
+	at fr.inria.astor.core.loop.evolutionary.EvolutionaryEngine.validateInstance(EvolutionaryEngine.java:746)
+	at fr.inria.astor.core.loop.evolutionary.EvolutionaryEngine.processCreatedVariant(EvolutionaryEngine.java:345)
+	at fr.inria.astor.core.loop.evolutionary.EvolutionaryEngine.processGenerations(EvolutionaryEngine.java:211)
+	at fr.inria.astor.core.loop.evolutionary.EvolutionaryEngine.startEvolution(EvolutionaryEngine.java:127)
+	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:137)
 	at fr.inria.main.evolution.MainjGenProg.main(MainjGenProg.java:171)
-Exception in thread "main" java.lang.IllegalArgumentException: No suspicious gen for analyze
-	at fr.inria.main.evolution.MainjGenProg.statementMode(MainjGenProg.java:110)
-	at fr.inria.main.evolution.MainjGenProg.statementMode(MainjGenProg.java:50)
-	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:126)
+Exception in thread "main" java.lang.AssertionError: The validation process does not execute well the test cases
+ Exception in thread "main" java.lang.ExceptionInInitializerError
+	at org.joda.time.format.TestPeriodFormatterBuilder.<clinit>(TestPeriodFormatterBuilder.java:37)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:191)
+	at fr.inria.astor.junitexec.JUnitTestExecutor.main(JUnitTestExecutor.java:106)
+Caused by: java.lang.IllegalArgumentException: DateTimeZone must not be null
+	at org.joda.time.chrono.ZonedChronology.getInstance(ZonedChronology.java:14)
+	at org.joda.time.chrono.ISOChronology.getInstance(ISOChronology.java:39)
+	at org.joda.time.chrono.ISOChronology.getInstance(ISOChronology.java:24)
+	at org.joda.time.DateTimeUtils.getChronology(DateTimeUtils.java:101)
+	at org.joda.time.base.BasePeriod.<init>(BasePeriod.java:95)
+	at org.joda.time.Period.<init>(Period.java:271)
+	at org.joda.time.Period.<clinit>(Period.java:63)
+	... 4 more
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:140)
 	at fr.inria.main.evolution.MainjGenProg.main(MainjGenProg.java:171)
 
-real	0m2.774s
-user	0m2.004s
-sys	0m0.328s
+real	5m52.422s
+user	7m10.151s
+sys	0m7.652s

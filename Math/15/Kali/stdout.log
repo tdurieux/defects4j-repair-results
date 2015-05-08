@@ -2,15 +2,15 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/15/Kali/result
 cd /tmp/math_15_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math3.util.FastMathTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_15_Kali;
  NOT Found solution
-2015-05-07 00:57:08,673 INFO main - Number solutions:0
-2015-05-07 00:57:08,673 INFO main - All variants:
-2015-05-07 00:57:08,673 INFO main - Time Evolution(ms): 670206
-2015-05-07 00:57:08,673 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 907871
+
 ----stats: 
-2015-05-07 00:57:08,673 INFO main - 
+
 spaces: [0]: []
-time val1 [54]: [9158, 9196, 9084, 8809, 8920, 60001, 60002, 9112, 9183, 9152, 9206, 9105, 9194, 9047, 9073, 355, 354, 9169, 9222, 9107, 9135, 9221, 366, 353, 9155, 354, 365, 633, 17067, 9452, 17111, 16963, 642, 188, 2951, 9175, 9164, 9169, 9146, 9205, 9094, 400, 9156, 373, 394, 395, 9082, 9195, 9181, 396, 9198, 400, 9203, 9164]
-time val2 [2]: [86175, 86499]
+time val1 [54]: [12931, 12962, 13042, 12637, 12584, 60001, 60001, 12875, 12824, 13124, 12868, 12755, 12910, 12911, 13036, 419, 417, 13176, 12911, 12887, 13147, 12941, 422, 417, 12885, 420, 417, 762, 24198, 13305, 24180, 24118, 764, 217, 4046, 13129, 13006, 12953, 13111, 12869, 13069, 468, 13045, 456, 454, 451, 12938, 12830, 12820, 460, 12905, 459, 12899, 12943]
+time val2 [2]: [141325, 116385]
 #gen: 75
 #patches: 0
 #RightCompilation: 53
@@ -25,5 +25,5 @@ time val2 [2]: [86175, 86499]
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:57:08,673 INFO fr.inria.main.AbstractMain - Time Total(ms): 1191782
+Time Total(ms): 1542566
 

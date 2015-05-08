@@ -1,10 +1,10 @@
 {
-    "date": "2015-05-07T00:26:39.581950", 
-    "gen": "30", 
-    "node": "graphene-66.nancy.grid5000.fr\n", 
+    "date": "2015-05-08T02:00:35.772361", 
+    "gen": "73", 
+    "node": "griffon-63.nancy.grid5000.fr\n", 
     "operations": [
         {
-            "generation": 30, 
+            "generation": 73, 
             "patch": "remove", 
             "patchLocation": {
                 "className": "org.apache.commons.math.linear.EigenDecompositionImpl", 
@@ -13,28 +13,36 @@
         }
     ], 
     "patches": "1", 
-    "programVariant": "60", 
-    "timeEvaluation": "24309", 
-    "timeTotal": "55541", 
+    "programVariant": "146", 
+    "timeEvaluation": "101830", 
+    "timeTotal": "138138", 
     "timeVal1": [
-        329, 
-        328, 
-        326, 
-        333, 
-        318, 
-        328, 
-        324, 
-        326, 
-        328, 
-        349, 
-        330, 
-        328, 
-        331, 
-        334, 
-        455, 
-        315
+        380, 
+        376, 
+        374, 
+        381, 
+        60001, 
+        379, 
+        376, 
+        375, 
+        376, 
+        368, 
+        382, 
+        377, 
+        376, 
+        366, 
+        378, 
+        376, 
+        377, 
+        380, 
+        378, 
+        375, 
+        371, 
+        379, 
+        383, 
+        368
     ], 
     "timeVal2": [
-        8913
+        10527
     ]
 }

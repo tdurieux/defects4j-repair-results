@@ -2,36 +2,36 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/81/Genprog/result
 cd /tmp/math_81_Genprog;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -dependencies lib/ -failing org.apache.commons.math.linear.EigenDecompositionImplTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_81_Genprog;
 
-2015-05-06 22:30:48,803 INFO main - ProgramVariant 184
+ProgramVariant 206
  
  operation: 
 location= org.apache.commons.math.linear.EigenDecompositionImpl
- line= 1481
- original statement= b2 = (work[(nn - 5)]) / (work[(nn - 7)])
- fix (remove original statement) "b2 = (work[(nn - 5)]) / (work[(nn - 7)])"
- generation= 92
+ line= 1477
+ original statement= a2 = 0.0
+ fix (remove original statement) "a2 = 0.0"
+ generation= 103
  
  ----
-2015-05-06 22:30:48,803 INFO main - Time Evolution(ms): 275911
-2015-05-06 22:30:48,803 INFO main - 
+Time Evolution(ms): 286707
+
 ----stats: 
-2015-05-06 22:30:48,803 INFO main - 
-spaces: [69]: [766, 766, 766, 766, 766, 198, 766, 766, 766, 298, 198, 766, 766, 198, 298, 766, 766, 55, 766, 766, 766, 9, 766, 766, 86, 766, 766, 86, 86, 298, 766, 766, 766, 766, 766, 766, 86, 766, 766, 766, 766, 55, 198, 86, 766, 298, 766, 766, 86, 766, 766, 26, 766, 766, 198, 766, 766, 766, 298, 198, 766, 766, 298, 766, 766, 766, 766, 766, 86]
-time val1 [36]: [319, 319, 332, 319, 318, 321, 296, 330, 357, 319, 296, 60001, 321, 330, 320, 318, 320, 325, 338, 358, 332, 318, 331, 331, 317, 960, 60001, 295, 319, 320, 319, 317, 60001, 60001, 293, 317]
-time val2 [1]: [8863]
-#gen: 92
+
+spaces: [77]: [298, 766, 198, 298, 198, 766, 766, 198, 298, 198, 766, 298, 766, 86, 55, 766, 766, 766, 766, 766, 766, 766, 298, 185, 36, 2, 55, 766, 766, 298, 49, 185, 766, 766, 298, 766, 198, 766, 766, 766, 298, 49, 766, 298, 766, 86, 766, 198, 766, 766, 766, 766, 766, 766, 766, 766, 298, 298, 766, 766, 766, 766, 766, 766, 766, 198, 766, 766, 766, 766, 766, 766, 766, 86, 766, 766, 766]
+time val1 [43]: [369, 368, 363, 366, 366, 368, 364, 381, 367, 365, 365, 60001, 360, 367, 382, 366, 364, 365, 366, 365, 366, 367, 60001, 367, 364, 348, 370, 365, 60001, 360, 375, 365, 371, 364, 375, 366, 60001, 367, 373, 365, 367, 366, 367]
+time val2 [1]: [10423]
+#gen: 103
 #patches: 1
-#RightCompilation: 35
-#WrongCompilation: 57
-#FailingTestCaseExecution: 36
+#RightCompilation: 42
+#WrongCompilation: 61
+#FailingTestCaseExecution: 43
 #RegressionTestExecution: 1
-#TestcasesExecutedval1: 544
+#TestcasesExecutedval1: 663
 #TestcasesExecutedval2: 1993
 #FailingTestCase: 17
 #RegressionTestCases: 1993
-#OfAppliedOp: 92
+#OfAppliedOp: 103
 #NotAppliedOp: 0
 #InmutatedGen: 1
 #unfinishValidation: 0
-2015-05-06 22:30:48,804 INFO fr.inria.main.AbstractMain - Time Total(ms): 306660
+Time Total(ms): 323435
 

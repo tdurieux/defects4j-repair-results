@@ -1,38 +1,53 @@
 {
-    "date": "2015-05-07T00:28:20.074982", 
-    "gen": "45", 
-    "node": "graphene-73.nancy.grid5000.fr\n", 
+    "date": "2015-05-08T02:02:17.627419", 
+    "gen": "85", 
+    "node": "griffon-30.nancy.grid5000.fr\n", 
     "operations": [
         {
-            "generation": 45, 
+            "generation": 85, 
             "patch": "remove", 
             "patchLocation": {
                 "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
-                "line": 198
+                "line": 199
             }
         }
     ], 
     "patches": "1", 
-    "programVariant": "90", 
-    "timeEvaluation": "132659", 
-    "timeTotal": "159262", 
+    "programVariant": "170", 
+    "timeEvaluation": "319697", 
+    "timeTotal": "349160", 
     "timeVal1": [
-        222, 
-        220, 
-        210, 
-        225, 
-        227, 
-        224, 
-        222, 
+        242, 
+        253, 
+        251, 
+        253, 
+        241, 
+        249, 
+        253, 
+        237, 
+        251, 
+        60002, 
+        60002, 
+        254, 
+        252, 
+        254, 
+        239, 
+        252, 
+        250, 
+        252, 
+        243, 
+        250, 
         60001, 
-        225, 
-        212, 
-        223, 
-        224, 
+        234, 
+        60002, 
+        251, 
         60001, 
-        221
+        253, 
+        252, 
+        251, 
+        247
     ], 
     "timeVal2": [
-        6880
+        7719
     ]
 }

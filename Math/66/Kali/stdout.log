@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/66/Kali/result
 cd /tmp/math_66_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest:org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest:org.apache.commons.math.optimization.univariate.BrentOptimizerTest:org.apache.commons.math.optimization.univariate.BrentOptimizerTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_66_Kali;
  NOT Found solution
-2015-05-07 00:45:45,067 INFO main - Number solutions:0
-2015-05-07 00:45:45,067 INFO main - All variants:
-2015-05-07 00:45:45,067 INFO main - Time Evolution(ms): 1055575
-2015-05-07 00:45:45,067 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 1062530
+
 ----stats: 
-2015-05-07 00:45:45,067 INFO main - 
+
 spaces: [0]: []
-time val1 [119]: [228, 217, 217, 236, 217, 231, 218, 218, 230, 219, 219, 219, 216, 219, 227, 221, 217, 218, 219, 219, 219, 218, 222, 228, 248, 224, 217, 218, 60001, 60002, 229, 221, 224, 219, 226, 217, 223, 220, 60001, 270, 249, 242, 240, 235, 230, 232, 247, 219, 246, 229, 232, 60002, 60001, 60001, 208, 60001, 60001, 249, 60001, 60001, 225, 222, 227, 218, 223, 219, 60001, 243, 60001, 60001, 236, 237, 231, 242, 231, 219, 58664, 218, 219, 219, 218, 219, 218, 223, 223, 218, 217, 214, 60001, 60002, 221, 218, 213, 218, 207, 222, 217, 60001, 221, 218, 218, 219, 218, 218, 217, 218, 218, 217, 222, 220, 222, 219, 218, 219, 219, 218, 218, 220, 217]
+time val1 [119]: [245, 247, 245, 264, 241, 251, 246, 247, 251, 245, 247, 248, 246, 245, 247, 248, 244, 251, 247, 248, 248, 246, 247, 249, 260, 253, 246, 248, 60001, 60001, 252, 248, 251, 248, 247, 245, 247, 254, 60001, 254, 252, 251, 253, 253, 249, 246, 251, 234, 239, 244, 245, 60001, 60001, 60001, 237, 60001, 60001, 247, 60001, 60001, 250, 249, 248, 246, 250, 249, 60001, 244, 60001, 60001, 248, 247, 251, 250, 247, 253, 60001, 248, 249, 247, 248, 246, 248, 255, 247, 246, 247, 246, 60001, 60001, 248, 246, 241, 245, 246, 247, 247, 60001, 248, 247, 248, 246, 247, 245, 243, 247, 246, 247, 247, 247, 245, 247, 246, 245, 247, 246, 247, 243, 245]
 time val2 [0]: []
 #gen: 181
 #patches: 0
@@ -17,7 +17,7 @@ time val2 [0]: []
 #WrongCompilation: 62
 #FailingTestCaseExecution: 119
 #RegressionTestExecution: 0
-#TestcasesExecutedval1: 1442
+#TestcasesExecutedval1: 1428
 #TestcasesExecutedval2: 0
 #FailingTestCase: 14
 #RegressionTestCases: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:45:45,067 INFO fr.inria.main.AbstractMain - Time Total(ms): 1088389
+Time Total(ms): 1100464
 

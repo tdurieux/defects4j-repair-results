@@ -1,15 +1,15 @@
 {
-    "date": "2015-05-07T08:27:12.884881", 
-    "executionTime": 3098111, 
-    "nbAngelicValue": 3, 
-    "nbSMTInput": 3, 
-    "nbSMTVariable": 6, 
-    "nbStatement": 6, 
-    "node": "griffon-10.nancy.grid5000.fr\n", 
-    "patch": "(((-1)-(1))*((-1)-(1)))<(((-1)-(1))+(length))", 
+    "date": "2015-05-08T04:02:52.818512", 
+    "executionTime": 710509, 
+    "nbAngelicValue": 8, 
+    "nbSMTInput": 139, 
+    "nbSMTVariable": 13, 
+    "nbStatement": 77, 
+    "node": "griffon-85.nancy.grid5000.fr\n", 
+    "patch": null, 
     "patchLocation": {
-        "className": "org.apache.commons.math.stat.descriptive.moment.Variance", 
-        "line": 322
+        "className": null, 
+        "line": null
     }, 
-    "patchType": "CONDITIONAL"
+    "patchType": null
 }

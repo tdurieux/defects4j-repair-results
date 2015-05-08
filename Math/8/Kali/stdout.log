@@ -2,7 +2,7 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/8/Kali/result
 cd /tmp/math_8_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math3.distribution.DiscreteRealDistributionTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_8_Kali;
 
-2015-05-07 01:00:41,817 INFO main - ProgramVariant 4
+ProgramVariant 4
  
  operation: 
 location= org.apache.commons.math3.distribution.DiscreteDistribution
@@ -25,13 +25,13 @@ location= org.apache.commons.math3.distribution.DiscreteDistribution
  generation= 4
  
  ----
-2015-05-07 01:00:41,817 INFO main - Time Evolution(ms): 278647
-2015-05-07 01:00:41,817 INFO main - 
+Time Evolution(ms): 404726
+
 ----stats: 
-2015-05-07 01:00:41,817 INFO main - 
+
 spaces: [0]: []
-time val1 [18]: [266, 274, 294, 265, 253, 249, 251, 248, 267, 263, 199, 263, 201, 197, 278, 255, 259, 254]
-time val2 [2]: [135344, 135365]
+time val1 [18]: [309, 312, 315, 310, 298, 290, 289, 290, 312, 311, 215, 311, 226, 227, 325, 300, 299, 302]
+time val2 [2]: [197434, 197915]
 #gen: 25
 #patches: 2
 #RightCompilation: 17
@@ -46,5 +46,5 @@ time val2 [2]: [135344, 135365]
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 01:00:41,817 INFO fr.inria.main.AbstractMain - Time Total(ms): 1145198
+Time Total(ms): 1393326
 

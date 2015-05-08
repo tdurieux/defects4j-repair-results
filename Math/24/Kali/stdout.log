@@ -2,15 +2,15 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/24/Kali/result
 cd /tmp/math_24_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math3.optimization.univariate.BrentOptimizerTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_24_Kali;
  NOT Found solution
-2015-05-07 00:52:12,615 INFO main - Number solutions:0
-2015-05-07 00:52:12,615 INFO main - All variants:
-2015-05-07 00:52:12,615 INFO main - Time Evolution(ms): 555591
-2015-05-07 00:52:12,615 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 821980
+
 ----stats: 
-2015-05-07 00:52:12,615 INFO main - 
+
 spaces: [0]: []
-time val1 [74]: [229, 225, 218, 209, 212, 212, 219, 225, 211, 223, 213, 212, 223, 60001, 230, 219, 234, 224, 225, 227, 216, 60001, 226, 224, 222, 235, 220, 220, 221, 221, 215, 228, 228, 244, 231, 224, 223, 233, 228, 231, 212, 216, 205, 210, 225, 220, 221, 218, 223, 220, 219, 228, 222, 225, 230, 221, 210, 223, 221, 219, 210, 203, 210, 210, 226, 217, 229, 226, 189, 218, 220, 210, 209, 209]
-time val2 [5]: [81702, 81778, 81960, 81502, 81802]
+time val1 [74]: [239, 247, 239, 241, 241, 241, 243, 256, 240, 254, 240, 238, 254, 60001, 257, 253, 254, 252, 256, 256, 244, 60001, 258, 252, 252, 252, 255, 250, 252, 253, 242, 260, 259, 260, 264, 256, 255, 261, 256, 255, 244, 238, 233, 241, 256, 252, 253, 251, 254, 255, 251, 257, 251, 258, 259, 254, 242, 250, 251, 250, 240, 231, 240, 238, 257, 231, 261, 254, 216, 248, 250, 238, 239, 239]
+time val2 [5]: [134418, 134350, 134109, 134190, 133824]
 #gen: 122
 #patches: 0
 #RightCompilation: 73
@@ -25,5 +25,5 @@ time val2 [5]: [81702, 81778, 81960, 81502, 81802]
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:52:12,615 INFO fr.inria.main.AbstractMain - Time Total(ms): 1101183
+Time Total(ms): 1479287
 

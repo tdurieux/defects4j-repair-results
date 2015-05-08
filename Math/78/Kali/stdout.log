@@ -2,7 +2,7 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/78/Kali/result
 cd /tmp/math_78_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.ode.events.EventStateTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_78_Kali;
 
-2015-05-07 00:27:29,176 INFO main - ProgramVariant 51
+ProgramVariant 51
  
  operation: 
 location= org.apache.commons.math.ode.events.EventState
@@ -12,13 +12,13 @@ location= org.apache.commons.math.ode.events.EventState
  generation= 50
  
  ----
-2015-05-07 00:27:29,176 INFO main - Time Evolution(ms): 47799
-2015-05-07 00:27:29,176 INFO main - 
+Time Evolution(ms): 47140
+
 ----stats: 
-2015-05-07 00:27:29,176 INFO main - 
+
 spaces: [0]: []
-time val1 [40]: [164, 163, 167, 258, 158, 156, 175, 162, 181, 158, 159, 165, 162, 157, 174, 156, 165, 167, 166, 156, 165, 166, 155, 155, 156, 164, 155, 166, 163, 164, 154, 165, 158, 158, 175, 174, 159, 163, 158, 174]
-time val2 [4]: [9291, 9231, 9077, 9311]
+time val1 [40]: [168, 164, 168, 184, 158, 157, 175, 163, 183, 159, 160, 169, 158, 160, 173, 157, 164, 169, 164, 157, 165, 167, 155, 157, 154, 166, 154, 163, 162, 164, 156, 163, 162, 160, 175, 177, 157, 163, 157, 174]
+time val2 [4]: [8910, 9161, 9121, 9209]
 #gen: 62
 #patches: 1
 #RightCompilation: 39
@@ -33,5 +33,5 @@ time val2 [4]: [9291, 9231, 9077, 9311]
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:27:29,176 INFO fr.inria.main.AbstractMain - Time Total(ms): 76759
+Time Total(ms): 76086
 

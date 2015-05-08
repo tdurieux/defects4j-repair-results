@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/67/Kali/result
 cd /tmp/math_67_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizerTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_67_Kali;
  NOT Found solution
-2015-05-07 00:39:54,974 INFO main - Number solutions:0
-2015-05-07 00:39:54,974 INFO main - All variants:
-2015-05-07 00:39:54,974 INFO main - Time Evolution(ms): 712512
-2015-05-07 00:39:54,974 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 720931
+
 ----stats: 
-2015-05-07 00:39:54,974 INFO main - 
+
 spaces: [0]: []
-time val1 [89]: [172, 173, 168, 158, 168, 172, 169, 166, 60001, 170, 171, 178, 175, 174, 170, 167, 168, 166, 188, 159, 169, 172, 168, 168, 167, 168, 173, 169, 167, 170, 168, 171, 172, 172, 167, 167, 169, 167, 168, 60002, 191, 176, 178, 177, 176, 184, 197, 183, 176, 177, 193, 183, 177, 177, 177, 178, 60002, 60001, 60001, 60001, 193, 60001, 60001, 171, 177, 168, 169, 167, 167, 60001, 185, 60001, 60001, 178, 333, 234, 193, 182, 194, 33418, 168, 168, 169, 168, 184, 168, 190, 168, 169]
+time val1 [89]: [194, 195, 193, 181, 190, 194, 195, 193, 60001, 195, 194, 195, 193, 200, 193, 192, 191, 191, 216, 183, 192, 196, 189, 191, 193, 192, 193, 192, 196, 194, 192, 192, 192, 194, 191, 193, 193, 193, 192, 60001, 194, 192, 195, 191, 191, 199, 192, 193, 195, 190, 190, 198, 192, 197, 197, 190, 60001, 60001, 60001, 60001, 196, 60001, 60001, 195, 193, 194, 191, 192, 193, 60001, 195, 60001, 60001, 197, 192, 191, 194, 190, 212, 39301, 194, 192, 193, 192, 210, 193, 218, 192, 193]
 time val2 [0]: []
 #gen: 129
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:39:54,975 INFO fr.inria.main.AbstractMain - Time Total(ms): 746237
+Time Total(ms): 758670
 

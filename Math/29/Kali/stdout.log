@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/29/Kali/result
 cd /tmp/math_29_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math3.linear.SparseRealVectorTest:org.apache.commons.math3.linear.SparseRealVectorTest:org.apache.commons.math3.linear.SparseRealVectorTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_29_Kali;
  NOT Found solution
-2015-05-07 00:50:38,416 INFO main - Number solutions:0
-2015-05-07 00:50:38,416 INFO main - All variants:
-2015-05-07 00:50:38,416 INFO main - Time Evolution(ms): 533796
-2015-05-07 00:50:38,416 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 564676
+
 ----stats: 
-2015-05-07 00:50:38,417 INFO main - 
+
 spaces: [0]: []
-time val1 [74]: [414, 414, 414, 425, 417, 379, 416, 428, 415, 365, 363, 368, 414, 373, 415, 432, 422, 60001, 60001, 416, 60002, 419, 416, 414, 417, 60001, 401, 409, 397, 404, 400, 45752, 393, 394, 396, 416, 415, 366, 355, 415, 376, 359, 361, 414, 418, 417, 357, 415, 369, 415, 361, 354, 415, 416, 417, 416, 413, 362, 367, 418, 356, 361, 355, 357, 60001, 60002, 60001, 419, 415, 412, 415, 413, 414, 413]
+time val1 [74]: [504, 479, 481, 478, 481, 426, 479, 482, 479, 419, 419, 425, 477, 429, 479, 484, 485, 60002, 60001, 482, 60001, 480, 480, 465, 480, 60001, 463, 461, 461, 465, 462, 60001, 460, 455, 455, 481, 479, 424, 408, 481, 437, 415, 416, 480, 477, 480, 411, 477, 422, 480, 416, 407, 478, 478, 479, 480, 478, 416, 422, 480, 410, 414, 405, 410, 60001, 60001, 60001, 483, 479, 481, 481, 476, 480, 480]
 time val2 [0]: []
 #gen: 127
 #patches: 0
@@ -17,7 +17,7 @@ time val2 [0]: []
 #WrongCompilation: 53
 #FailingTestCaseExecution: 74
 #RegressionTestExecution: 0
-#TestcasesExecutedval1: 14070
+#TestcasesExecutedval1: 13860
 #TestcasesExecutedval2: 0
 #FailingTestCase: 210
 #RegressionTestCases: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:50:38,417 INFO fr.inria.main.AbstractMain - Time Total(ms): 1062634
+Time Total(ms): 1175235
 

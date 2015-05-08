@@ -1,0 +1,15 @@
+{
+    "date": "2015-05-08T03:29:45.553482", 
+    "executionTime": 40818, 
+    "nbAngelicValue": 1, 
+    "nbSMTInput": 303, 
+    "nbSMTVariable": 17, 
+    "nbStatement": 46, 
+    "node": "graphene-7.nancy.grid5000.fr\n", 
+    "patch": "(fa)==(maximumIterations)", 
+    "patchLocation": {
+        "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
+        "line": 198
+    }, 
+    "patchType": "CONDITIONAL"
+}

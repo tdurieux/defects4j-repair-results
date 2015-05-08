@@ -1,11 +1,11 @@
 {
-    "date": "2015-05-07T07:36:13.753647", 
-    "executionTime": 44363, 
+    "date": "2015-05-08T03:33:45.846326", 
+    "executionTime": 39290, 
     "nbAngelicValue": 1, 
     "nbSMTInput": 20, 
     "nbSMTVariable": 13, 
     "nbStatement": 16, 
-    "node": "griffon-29.nancy.grid5000.fr\n", 
+    "node": "graphene-77.nancy.grid5000.fr\n", 
     "patch": "((initial)<=(lower))||((!((1)!=(lower)))&&((org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.this.result)<(1)))", 
     "patchLocation": {
         "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 

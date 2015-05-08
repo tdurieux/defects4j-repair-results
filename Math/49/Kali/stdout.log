@@ -2,7 +2,7 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/49/Kali/result
 cd /tmp/math_49_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.linear.SparseRealVectorTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_49_Kali;
 
-2015-05-07 00:33:09,089 INFO main - ProgramVariant 35
+ProgramVariant 35
  
  operation: 
 location= org.apache.commons.math.util.OpenIntToDoubleHashMap
@@ -12,13 +12,13 @@ location= org.apache.commons.math.util.OpenIntToDoubleHashMap
  generation= 34
  
  ----
-2015-05-07 00:33:09,089 INFO main - Time Evolution(ms): 69594
-2015-05-07 00:33:09,090 INFO main - 
+Time Evolution(ms): 86854
+
 ----stats: 
-2015-05-07 00:33:09,090 INFO main - 
+
 spaces: [0]: []
-time val1 [47]: [325, 318, 335, 317, 327, 323, 301, 318, 317, 319, 294, 294, 320, 322, 323, 291, 294, 297, 323, 306, 328, 321, 312, 319, 318, 318, 318, 318, 300, 288, 319, 308, 323, 302, 328, 300, 317, 300, 301, 292, 306, 323, 319, 316, 317, 321, 317]
-time val2 [1]: [44140]
+time val1 [47]: [376, 369, 373, 365, 369, 369, 347, 368, 369, 368, 341, 340, 369, 368, 369, 337, 335, 344, 369, 356, 370, 369, 360, 371, 369, 368, 370, 369, 346, 332, 368, 343, 369, 344, 371, 352, 366, 346, 346, 336, 347, 370, 366, 367, 368, 368, 369]
+time val2 [1]: [56426]
 #gen: 81
 #patches: 1
 #RightCompilation: 46
@@ -33,5 +33,5 @@ time val2 [1]: [44140]
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:33:09,090 INFO fr.inria.main.AbstractMain - Time Total(ms): 248244
+Time Total(ms): 297796
 

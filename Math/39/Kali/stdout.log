@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/39/Kali/result
 cd /tmp/math_39_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_39_Kali;
  NOT Found solution
-2015-05-07 00:49:34,664 INFO main - Number solutions:0
-2015-05-07 00:49:34,664 INFO main - All variants:
-2015-05-07 00:49:34,664 INFO main - Time Evolution(ms): 821269
-2015-05-07 00:49:34,664 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 832366
+
 ----stats: 
-2015-05-07 00:49:34,664 INFO main - 
+
 spaces: [0]: []
-time val1 [42]: [352, 322, 319, 198, 204, 220, 215, 199, 216, 212, 327, 60002, 288, 210, 200, 60001, 60002, 60002, 60001, 60002, 60001, 60001, 238, 1867, 7599, 7822, 2029, 240, 210, 218, 325, 60001, 315, 297, 268, 60001, 302, 304, 60001, 60002, 332, 60001]
+time val1 [42]: [359, 360, 360, 230, 229, 240, 237, 236, 240, 240, 357, 60001, 319, 228, 238, 60001, 60001, 60001, 60002, 60001, 60001, 60001, 272, 2373, 9821, 9944, 2549, 270, 238, 235, 338, 60002, 358, 334, 301, 60001, 341, 332, 60002, 60001, 362, 60002]
 time val2 [0]: []
 #gen: 62
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:49:34,665 INFO fr.inria.main.AbstractMain - Time Total(ms): 1084126
+Time Total(ms): 1145157
 

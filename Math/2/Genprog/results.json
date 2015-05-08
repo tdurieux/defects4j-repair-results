@@ -1,18 +1,28 @@
 {
-    "date": "2015-05-07T02:06:32.362823", 
-    "gen": "5", 
-    "node": "graphene-75.nancy.grid5000.fr\n", 
-    "operations": [], 
+    "date": "2015-05-08T03:30:05.568422", 
+    "gen": "6", 
+    "node": "griffon-15.nancy.grid5000.fr\n", 
+    "operations": [
+        {
+            "generation": 6, 
+            "patch": "remove", 
+            "patchLocation": {
+                "className": "org.apache.commons.math3.distribution.AbstractIntegerDistribution", 
+                "line": 137
+            }
+        }
+    ], 
     "patches": "1", 
-    "programVariant": "10", 
-    "timeEvaluation": "124776", 
-    "timeTotal": "471184", 
+    "programVariant": "12", 
+    "timeEvaluation": "158634", 
+    "timeTotal": "571631", 
     "timeVal1": [
-        268, 
-        286, 
-        308
+        320, 
+        319, 
+        319, 
+        352
     ], 
     "timeVal2": [
-        123133
+        156348
     ]
 }

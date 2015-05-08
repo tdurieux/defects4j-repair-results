@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/4/Kali/result
 cd /tmp/math_4_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math3.geometry.euclidean.threed.SubLineTest:org.apache.commons.math3.geometry.euclidean.twod.SubLineTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_4_Kali;
  NOT Found solution
-2015-05-07 00:48:40,135 INFO main - Number solutions:0
-2015-05-07 00:48:40,135 INFO main - All variants:
-2015-05-07 00:48:40,135 INFO main - Time Evolution(ms): 23101
-2015-05-07 00:48:40,135 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 30240
+
 ----stats: 
-2015-05-07 00:48:40,135 INFO main - 
+
 spaces: [0]: []
-time val1 [17]: [194, 205, 203, 204, 207, 203, 204, 204, 206, 206, 205, 204, 205, 207, 207, 207, 208]
+time val1 [17]: [226, 232, 235, 233, 232, 232, 231, 227, 234, 232, 234, 232, 234, 233, 233, 234, 234]
 time val2 [0]: []
 #gen: 61
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:48:40,135 INFO fr.inria.main.AbstractMain - Time Total(ms): 346497
+Time Total(ms): 438405
 

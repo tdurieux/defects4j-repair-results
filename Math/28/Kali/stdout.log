@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/28/Kali/result
 cd /tmp/math_28_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math3.optimization.linear.SimplexSolverTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_28_Kali;
  NOT Found solution
-2015-05-07 00:43:11,584 INFO main - Number solutions:0
-2015-05-07 00:43:11,584 INFO main - All variants:
-2015-05-07 00:43:11,584 INFO main - Time Evolution(ms): 29968
-2015-05-07 00:43:11,584 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 38614
+
 ----stats: 
-2015-05-07 00:43:11,584 INFO main - 
+
 spaces: [0]: []
-time val1 [1]: [348]
+time val1 [1]: [404]
 time val2 [0]: []
 #gen: 223
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:43:11,584 INFO fr.inria.main.AbstractMain - Time Total(ms): 600762
+Time Total(ms): 669468
 

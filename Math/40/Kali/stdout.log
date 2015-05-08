@@ -2,28 +2,28 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/40/Kali/result
 cd /tmp/math_40_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_40_Kali;
  NOT Found solution
-2015-05-07 01:03:09,876 INFO main - Number solutions:0
-2015-05-07 01:03:09,876 INFO main - All variants:
-2015-05-07 01:03:09,876 INFO main - Time Evolution(ms): 1653255
-2015-05-07 01:03:09,876 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 1542819
+
 ----stats: 
-2015-05-07 01:03:09,876 INFO main - 
+
 spaces: [0]: []
-time val1 [46]: [218, 220, 58331, 230, 220, 226, 224, 60001, 2291, 2256, 206, 223, 228, 221, 60001, 206, 200, 222, 215, 220, 228, 231, 236, 229, 223, 221, 221, 222, 225, 205, 60001, 226, 220, 226, 233, 225, 204, 202, 214, 221, 214, 223, 203, 214, 202, 223]
-time val2 [3]: [115185, 640005, 640005]
+time val1 [46]: [251, 253, 60002, 258, 237, 255, 255, 60002, 2748, 2700, 238, 255, 260, 254, 60001, 241, 230, 254, 238, 253, 261, 262, 260, 259, 255, 258, 253, 255, 258, 233, 60001, 260, 255, 259, 260, 265, 236, 233, 244, 254, 244, 255, 234, 245, 229, 255]
+time val2 [2]: [640008, 640007]
 #gen: 84
 #patches: 0
 #RightCompilation: 45
 #WrongCompilation: 38
 #FailingTestCaseExecution: 46
-#RegressionTestExecution: 3
-#TestcasesExecutedval1: 645
-#TestcasesExecutedval2: 3068
+#RegressionTestExecution: 2
+#TestcasesExecutedval1: 630
+#TestcasesExecutedval2: 0
 #FailingTestCase: 15
-#RegressionTestCases: 3068
+#RegressionTestCases: 0
 #OfAppliedOp: 83
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 2
-2015-05-07 01:03:09,876 INFO fr.inria.main.AbstractMain - Time Total(ms): 1912573
+Time Total(ms): 1855752
 

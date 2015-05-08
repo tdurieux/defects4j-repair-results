@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Chart/14/Kali/result
 cd /tmp/chart_14_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.jfree.chart.plot.junit.CategoryPlotTests:org.jfree.chart.plot.junit.CategoryPlotTests:org.jfree.chart.plot.junit.XYPlotTests:org.jfree.chart.plot.junit.XYPlotTests: -package org.jfree -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 4 -maxgen 1000000 -population 1 -srcjavafolder source/ -srctestfolder tests/ -binjavafolder build/ -bintestfolder build-tests/;rm -rf /tmp/chart_14_Kali;
  NOT Found solution
-2015-05-07 01:56:28,539 INFO main - Number solutions:0
-2015-05-07 01:56:28,539 INFO main - All variants:
-2015-05-07 01:56:28,539 INFO main - Time Evolution(ms): 24593
-2015-05-07 01:56:28,539 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 32630
+
 ----stats: 
-2015-05-07 01:56:28,539 INFO main - 
+
 spaces: [0]: []
-time val1 [1]: [1227]
+time val1 [1]: [1417]
 time val2 [0]: []
 #gen: 66
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 01:56:28,539 INFO fr.inria.main.AbstractMain - Time Total(ms): 61779
+Time Total(ms): 76041
 

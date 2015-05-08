@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/56/Kali/result
 cd /tmp/math_56_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.util.MultidimensionalCounterTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_56_Kali;
  NOT Found solution
-2015-05-07 00:32:42,345 INFO main - Number solutions:0
-2015-05-07 00:32:42,346 INFO main - All variants:
-2015-05-07 00:32:42,346 INFO main - Time Evolution(ms): 131743
-2015-05-07 00:32:42,346 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 133729
+
 ----stats: 
-2015-05-07 00:32:42,346 INFO main - 
+
 spaces: [0]: []
-time val1 [26]: [245, 242, 252, 243, 244, 242, 239, 242, 243, 240, 60001, 241, 252, 245, 243, 248, 60001, 242, 243, 240, 245, 240, 241, 259, 255, 184]
+time val1 [26]: [283, 284, 286, 280, 282, 281, 283, 282, 281, 281, 60001, 285, 281, 282, 281, 279, 60001, 283, 281, 282, 282, 281, 281, 286, 280, 211]
 time val2 [0]: []
 #gen: 43
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:32:42,346 INFO fr.inria.main.AbstractMain - Time Total(ms): 271208
+Time Total(ms): 308213
 

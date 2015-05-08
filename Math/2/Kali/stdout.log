@@ -2,7 +2,7 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/2/Kali/result
 cd /tmp/math_2_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math3.distribution.HypergeometricDistributionTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_2_Kali;
 
-2015-05-07 00:55:28,803 INFO main - ProgramVariant 22
+ProgramVariant 22
  
  operation: 
 location= org.apache.commons.math3.distribution.AbstractIntegerDistribution
@@ -56,13 +56,13 @@ location= org.apache.commons.math3.distribution.AbstractIntegerDistribution
  generation= 26
  
  ----
-2015-05-07 00:55:28,803 INFO main - Time Evolution(ms): 361459
-2015-05-07 00:55:28,803 INFO main - 
+Time Evolution(ms): 364173
+
 ----stats: 
-2015-05-07 00:55:28,803 INFO main - 
+
 spaces: [0]: []
-time val1 [16]: [272, 304, 304, 282, 287, 281, 268, 305, 307, 305, 272, 280, 276, 276, 279, 279]
-time val2 [3]: [118238, 118292, 118105]
+time val1 [16]: [267, 305, 303, 283, 288, 281, 269, 305, 306, 306, 269, 276, 275, 275, 277, 280]
+time val2 [3]: [119436, 118923, 119121]
 #gen: 37
 #patches: 3
 #RightCompilation: 15
@@ -77,5 +77,5 @@ time val2 [3]: [118238, 118292, 118105]
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:55:28,803 INFO fr.inria.main.AbstractMain - Time Total(ms): 730431
+Time Total(ms): 708689
 

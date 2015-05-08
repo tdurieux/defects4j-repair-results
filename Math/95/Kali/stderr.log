@@ -1,14 +1,4 @@
-Exception in thread "main" spoon.compiler.ModelBuildingException: Type mismatch: cannot convert from Object to int[] at /tmp/math_95_Kali/outputMutation/MainjGenProg-./src/default/org/apache/commons/math/linear/LUDecompositionImpl.java:239
-	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.report(JDTBasedSpoonCompiler.java:537)
-	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.reportProblems(JDTBasedSpoonCompiler.java:553)
-	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:509)
-	at fr.inria.astor.core.manipulation.MutationSupporter.buildModel(MutationSupporter.java:86)
-	at fr.inria.astor.core.loop.evolutionary.JGenProg.initModel(JGenProg.java:109)
-	at fr.inria.astor.core.loop.evolutionary.JGenProg.initPopulation(JGenProg.java:57)
-	at fr.inria.main.evolution.MainjGenProg.statementMode(MainjGenProg.java:112)
-	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:129)
-	at fr.inria.main.evolution.MainjGenProg.main(MainjGenProg.java:171)
 
-real	0m21.143s
-user	0m45.119s
-sys	0m1.224s
+real	1m27.390s
+user	1m54.991s
+sys	0m2.148s

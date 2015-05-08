@@ -2,15 +2,15 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Lang/18/Kali/result
 cd /tmp/lang_18_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.lang3.time.FastDateFormatTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/tests/;rm -rf /tmp/lang_18_Kali;
  NOT Found solution
-2015-05-07 01:14:07,456 INFO main - Number solutions:0
-2015-05-07 01:14:07,456 INFO main - All variants:
-2015-05-07 01:14:07,456 INFO main - Time Evolution(ms): 13011
-2015-05-07 01:14:07,456 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 14898
+
 ----stats: 
-2015-05-07 01:14:07,456 INFO main - 
+
 spaces: [0]: []
-time val1 [18]: [243, 240, 248, 240, 234, 238, 238, 238, 234, 234, 236, 240, 237, 237, 235, 234, 243, 234]
-time val2 [1]: [9751]
+time val1 [18]: [274, 273, 277, 272, 271, 271, 273, 272, 270, 270, 272, 270, 273, 271, 269, 271, 272, 269]
+time val2 [1]: [10429]
 #gen: 36
 #patches: 0
 #RightCompilation: 17
@@ -25,5 +25,5 @@ time val2 [1]: [9751]
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 01:14:07,456 INFO fr.inria.main.AbstractMain - Time Total(ms): 45176
+Time Total(ms): 50528
 

@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/30/Kali/result
 cd /tmp/math_30_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math3.stat.inference.MannWhitneyUTestTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_30_Kali;
  NOT Found solution
-2015-05-07 00:42:10,504 INFO main - Number solutions:0
-2015-05-07 00:42:10,504 INFO main - All variants:
-2015-05-07 00:42:10,504 INFO main - Time Evolution(ms): 8352
-2015-05-07 00:42:10,504 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 9660
+
 ----stats: 
-2015-05-07 00:42:10,504 INFO main - 
+
 spaces: [0]: []
-time val1 [23]: [200, 198, 199, 199, 195, 201, 196, 202, 197, 229, 197, 179, 183, 193, 205, 202, 203, 189, 190, 198, 199, 198, 196]
+time val1 [23]: [230, 233, 230, 231, 230, 230, 230, 235, 230, 259, 223, 220, 219, 223, 227, 228, 227, 218, 220, 228, 229, 228, 229]
 time val2 [0]: []
 #gen: 39
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:42:10,504 INFO fr.inria.main.AbstractMain - Time Total(ms): 560899
+Time Total(ms): 616877
 

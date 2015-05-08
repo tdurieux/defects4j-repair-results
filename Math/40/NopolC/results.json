@@ -1,11 +1,11 @@
 {
-    "date": "2015-05-07T07:46:31.702031", 
-    "executionTime": 654581, 
+    "date": "2015-05-08T04:01:11.256019", 
+    "executionTime": 590580, 
     "nbAngelicValue": 1, 
     "nbSMTInput": 697, 
     "nbSMTVariable": 31, 
     "nbStatement": 31, 
-    "node": "graphite-4.nancy.grid5000.fr\n", 
+    "node": "griffon-58.nancy.grid5000.fr\n", 
     "patch": "(((xA)<=(absYA))||((signChangeIndex - start) >= (end - signChangeIndex)))&&(x!=null)", 
     "patchLocation": {
         "className": "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver", 

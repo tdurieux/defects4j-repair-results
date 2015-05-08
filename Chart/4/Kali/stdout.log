@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Chart/4/Kali/result
 cd /tmp/chart_4_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.jfree.chart.axis.junit.LogAxisTests:org.jfree.chart.axis.junit.LogAxisTests:org.jfree.chart.axis.junit.NumberAxisTests:org.jfree.chart.axis.junit.NumberAxisTests:org.jfree.chart.axis.junit.ValueAxisTests:org.jfree.chart.junit.JFreeChartTests:org.jfree.chart.junit.ScatterPlotTests:org.jfree.chart.junit.ScatterPlotTests:org.jfree.chart.junit.ScatterPlotTests:org.jfree.chart.junit.TimeSeriesChartTests:org.jfree.chart.junit.TimeSeriesChartTests:org.jfree.chart.junit.TimeSeriesChartTests:org.jfree.chart.junit.XYAreaChartTests:org.jfree.chart.junit.XYAreaChartTests:org.jfree.chart.junit.XYAreaChartTests:org.jfree.chart.junit.XYStepAreaChartTests:org.jfree.chart.junit.XYStepAreaChartTests:org.jfree.chart.junit.XYStepAreaChartTests:org.jfree.chart.junit.XYStepChartTests:org.jfree.chart.junit.XYStepChartTests:org.jfree.chart.junit.XYStepChartTests:org.jfree.chart.plot.junit.XYPlotTests: -package org.jfree -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 4 -maxgen 1000000 -population 1 -srcjavafolder source/ -srctestfolder tests/ -binjavafolder build/ -bintestfolder build-tests/;rm -rf /tmp/chart_4_Kali;
  NOT Found solution
-2015-05-07 02:03:44,266 INFO main - Number solutions:0
-2015-05-07 02:03:44,266 INFO main - All variants:
-2015-05-07 02:03:44,266 INFO main - Time Evolution(ms): 278706
-2015-05-07 02:03:44,266 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 380979
+
 ----stats: 
-2015-05-07 02:03:44,266 INFO main - 
+
 spaces: [0]: []
-time val1 [1]: [1263]
+time val1 [1]: [1454]
 time val2 [0]: []
 #gen: 515
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 02:03:44,266 INFO fr.inria.main.AbstractMain - Time Total(ms): 320072
+Time Total(ms): 431632
 

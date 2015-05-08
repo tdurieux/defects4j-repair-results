@@ -1,11 +1,11 @@
 {
-    "date": "2015-05-07T07:52:24.339516", 
-    "executionTime": 880213, 
+    "date": "2015-05-08T05:18:32.065692", 
+    "executionTime": 882897, 
     "nbAngelicValue": 1, 
     "nbSMTInput": 17, 
     "nbSMTVariable": 27, 
-    "nbStatement": 6, 
-    "node": "griffon-56.nancy.grid5000.fr\n", 
+    "nbStatement": 20, 
+    "node": "griffon-85.nancy.grid5000.fr\n", 
     "patch": "(org.apache.commons.math3.optimization.linear.SimplexTableau.this.constraints.size())!=(org.apache.commons.math3.optimization.linear.SimplexTableau.this.numSlackVariables)", 
     "patchLocation": {
         "className": "org.apache.commons.math3.optimization.linear.SimplexTableau", 

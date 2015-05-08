@@ -2,36 +2,36 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/49/Genprog/result
 cd /tmp/math_49_Genprog;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -dependencies lib/ -failing org.apache.commons.math.linear.SparseRealVectorTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_49_Genprog;
 
-2015-05-06 23:28:24,049 INFO main - ProgramVariant 394
+ProgramVariant 364
  
  operation: 
 location= org.apache.commons.math.util.OpenIntToDoubleHashMap
  line= 399
  original statement= ++(count)
  fix (remove original statement) "++(count)"
- generation= 197
+ generation= 182
  
  ----
-2015-05-06 23:28:24,050 INFO main - Time Evolution(ms): 82178
-2015-05-06 23:28:24,050 INFO main - 
+Time Evolution(ms): 167040
+
 ----stats: 
-2015-05-06 23:28:24,050 INFO main - 
-spaces: [138]: [171, 343, 91, 343, 226, 171, 34, 171, 36, 343, 171, 34, 26, 91, 171, 3, 343, 34, 91, 171, 3, 34, 343, 63, 171, 26, 171, 34, 75, 171, 226, 171, 171, 36, 63, 171, 171, 171, 36, 343, 91, 343, 26, 171, 171, 171, 171, 171, 343, 171, 171, 171, 171, 23, 91, 343, 171, 343, 171, 343, 75, 36, 43, 343, 343, 91, 171, 26, 171, 26, 343, 343, 343, 171, 171, 343, 343, 26, 75, 343, 171, 343, 343, 171, 91, 171, 343, 171, 23, 343, 343, 171, 171, 171, 343, 343, 171, 75, 343, 343, 343, 343, 171, 91, 171, 171, 343, 36, 75, 171, 171, 171, 171, 26, 343, 75, 75, 343, 171, 171, 34, 343, 13, 343, 343, 43, 171, 343, 226, 171, 36, 91, 75, 171, 343, 36, 171, 343]
-time val1 [53]: [328, 331, 302, 319, 323, 300, 288, 322, 292, 320, 312, 311, 287, 317, 320, 296, 288, 319, 319, 317, 318, 320, 319, 298, 319, 318, 321, 320, 319, 318, 319, 299, 319, 321, 328, 300, 318, 317, 320, 335, 317, 287, 322, 318, 288, 320, 318, 318, 317, 322, 316, 317, 310]
-time val2 [1]: [44291]
-#gen: 197
+
+spaces: [127]: [171, 171, 171, 34, 343, 343, 343, 171, 171, 226, 343, 171, 36, 171, 171, 171, 171, 343, 343, 343, 34, 171, 171, 171, 26, 36, 171, 343, 171, 6, 171, 36, 343, 36, 226, 75, 343, 343, 171, 343, 343, 171, 171, 171, 171, 4, 43, 343, 171, 13, 171, 13, 343, 343, 343, 26, 13, 171, 5, 343, 226, 171, 171, 4, 75, 171, 343, 91, 91, 226, 63, 343, 171, 1, 91, 36, 26, 63, 343, 31, 171, 171, 171, 343, 171, 171, 343, 43, 171, 43, 343, 171, 343, 6, 26, 23, 91, 226, 34, 343, 171, 171, 36, 171, 171, 171, 36, 226, 171, 171, 171, 171, 343, 171, 343, 343, 343, 26, 343, 343, 343, 171, 343, 343, 343, 343, 171]
+time val1 [54]: [376, 365, 367, 370, 368, 367, 368, 335, 337, 340, 372, 366, 337, 365, 346, 367, 368, 368, 367, 368, 367, 367, 347, 369, 358, 339, 369, 354, 364, 370, 367, 352, 345, 366, 333, 368, 366, 370, 370, 366, 369, 367, 366, 366, 368, 367, 345, 351, 368, 367, 368, 337, 367, 360]
+time val2 [2]: [61209, 61380]
+#gen: 182
 #patches: 1
-#RightCompilation: 52
-#WrongCompilation: 145
-#FailingTestCaseExecution: 53
-#RegressionTestExecution: 1
-#TestcasesExecutedval1: 477
-#TestcasesExecutedval2: 2824
+#RightCompilation: 53
+#WrongCompilation: 129
+#FailingTestCaseExecution: 54
+#RegressionTestExecution: 2
+#TestcasesExecutedval1: 486
+#TestcasesExecutedval2: 5648
 #FailingTestCase: 9
 #RegressionTestCases: 2824
-#OfAppliedOp: 197
+#OfAppliedOp: 182
 #NotAppliedOp: 0
-#InmutatedGen: 0
+#InmutatedGen: 2
 #unfinishValidation: 0
-2015-05-06 23:28:24,050 INFO fr.inria.main.AbstractMain - Time Total(ms): 261426
+Time Total(ms): 370072
 

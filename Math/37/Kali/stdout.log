@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/37/Kali/result
 cd /tmp/math_37_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.complex.ComplexTest:org.apache.commons.math.complex.ComplexTest:org.apache.commons.math.complex.ComplexTest:org.apache.commons.math.complex.ComplexTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_37_Kali;
  NOT Found solution
-2015-05-07 00:41:09,820 INFO main - Number solutions:0
-2015-05-07 00:41:09,820 INFO main - All variants:
-2015-05-07 00:41:09,820 INFO main - Time Evolution(ms): 78486
-2015-05-07 00:41:09,820 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 97705
+
 ----stats: 
-2015-05-07 00:41:09,820 INFO main - 
+
 spaces: [0]: []
-time val1 [101]: [407, 406, 407, 407, 425, 406, 403, 406, 405, 405, 403, 406, 406, 406, 409, 401, 405, 402, 404, 404, 405, 404, 405, 435, 404, 405, 406, 406, 404, 405, 405, 407, 406, 408, 405, 406, 406, 405, 405, 406, 406, 416, 407, 408, 405, 405, 405, 405, 404, 405, 404, 406, 400, 405, 405, 403, 400, 407, 402, 406, 404, 407, 402, 405, 404, 408, 405, 401, 405, 404, 408, 404, 405, 406, 407, 399, 405, 406, 404, 403, 404, 404, 405, 407, 405, 405, 404, 406, 406, 405, 407, 407, 405, 408, 406, 406, 405, 407, 405, 405, 407]
+time val1 [101]: [470, 464, 468, 467, 464, 465, 464, 466, 467, 466, 466, 464, 467, 466, 466, 468, 468, 464, 465, 465, 467, 465, 466, 469, 465, 466, 469, 468, 469, 468, 468, 469, 465, 470, 470, 467, 467, 467, 468, 467, 468, 468, 469, 469, 467, 468, 468, 465, 466, 470, 465, 474, 463, 465, 467, 465, 463, 467, 464, 465, 464, 467, 465, 467, 464, 465, 467, 463, 466, 466, 468, 466, 469, 467, 465, 463, 467, 466, 465, 465, 467, 467, 466, 469, 464, 467, 467, 464, 470, 469, 467, 467, 469, 470, 467, 469, 465, 468, 467, 467, 467]
 time val2 [0]: []
 #gen: 191
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:41:09,821 INFO fr.inria.main.AbstractMain - Time Total(ms): 561874
+Time Total(ms): 683244
 

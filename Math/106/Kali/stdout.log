@@ -1,15 +1,15 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_106 /tmp/math_106_Kali;cd /tmp/math_106_Kali;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
 /home/tdurieux/results/Math/106/Kali/result
-cd /tmp/math_106_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.fraction.FractionFormatTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 3 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_106_Kali;
+cd /tmp/math_106_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.fraction.FractionFormatTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 3 -maxgen 1000000 -population 1 -srcjavafolder src/java/ -srctestfolder src/test/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_106_Kali;
  NOT Found solution
-2015-05-07 00:27:45,328 INFO main - Number solutions:0
-2015-05-07 00:27:45,329 INFO main - All variants:
-2015-05-07 00:27:45,329 INFO main - Time Evolution(ms): 610148
-2015-05-07 00:27:45,329 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 611787
+
 ----stats: 
-2015-05-07 00:27:45,329 INFO main - 
+
 spaces: [0]: []
-time val1 [38]: [182, 181, 179, 179, 183, 178, 187, 186, 180, 184, 181, 178, 181, 181, 185, 179, 181, 181, 180, 180, 189, 179, 182, 60001, 60001, 60001, 60001, 183, 180, 60001, 60001, 60002, 180, 179, 182, 60001, 60001, 60001]
+time val1 [38]: [210, 209, 209, 206, 206, 207, 208, 208, 206, 209, 208, 208, 208, 206, 208, 207, 207, 207, 207, 209, 207, 207, 207, 60001, 60002, 60002, 60001, 209, 207, 60002, 60001, 60001, 210, 207, 208, 60001, 60001, 60001]
 time val2 [0]: []
 #gen: 75
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:27:45,329 INFO fr.inria.main.AbstractMain - Time Total(ms): 622503
+Time Total(ms): 626168
 

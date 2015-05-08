@@ -1,3 +1,37 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_95 /tmp/math_95_Genprog;cd /tmp/math_95_Genprog;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
 /home/tdurieux/results/Math/95/Genprog/result
-cd /tmp/math_95_Genprog;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -dependencies lib/ -failing org.apache.commons.math.distribution.FDistributionTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 3 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_95_Genprog;
+cd /tmp/math_95_Genprog;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -dependencies lib/ -failing org.apache.commons.math.distribution.FDistributionTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 6 -maxgen 1000000 -population 1 -srcjavafolder src/java/ -srctestfolder src/test/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_95_Genprog;
+
+ProgramVariant 658
+ 
+ operation: 
+location= org.apache.commons.math.distribution.FDistributionImpl
+ line= 144
+ original statement= return (getDenominatorDegreesOfFreedom()) / ((getDenominatorDegreesOfFreedom()) - 2.0)
+ fixed statement= "return 0.0"
+ generation= 329
+ 
+ ----
+Time Evolution(ms): 406022
+
+----stats: 
+
+spaces: [280]: [26, 9, 33, 9, 26, 4, 9, 4, 6, 26, 26, 26, 26, 18, 6, 18, 26, 26, 33, 9, 26, 26, 18, 26, 26, 26, 26, 5, 18, 3, 26, 18, 26, 26, 33, 26, 26, 26, 18, 33, 4, 26, 26, 6, 26, 33, 26, 26, 26, 33, 26, 5, 18, 5, 26, 5, 26, 26, 9, 26, 33, 9, 5, 9, 26, 26, 18, 5, 5, 6, 9, 26, 26, 26, 26, 3, 26, 26, 26, 18, 5, 26, 5, 26, 9, 18, 26, 26, 9, 18, 3, 26, 26, 6, 33, 4, 26, 26, 4, 26, 5, 26, 26, 26, 26, 26, 33, 26, 26, 26, 33, 33, 26, 26, 18, 5, 26, 26, 18, 26, 26, 5, 5, 33, 26, 9, 5, 5, 26, 3, 26, 3, 26, 18, 5, 33, 26, 26, 26, 5, 4, 26, 5, 26, 4, 3, 9, 26, 26, 5, 26, 26, 18, 33, 18, 26, 18, 5, 9, 33, 33, 26, 26, 26, 26, 5, 26, 9, 9, 26, 26, 26, 26, 9, 26, 26, 5, 5, 33, 26, 26, 9, 26, 26, 9, 3, 26, 26, 33, 26, 5, 9, 33, 5, 26, 33, 9, 18, 26, 33, 5, 26, 26, 33, 26, 33, 26, 26, 26, 18, 4, 5, 26, 5, 26, 26, 26, 5, 26, 26, 9, 26, 26, 26, 5, 9, 4, 9, 1, 9, 26, 26, 26, 33, 9, 5, 26, 3, 5, 26, 9, 18, 18, 26, 26, 26, 26, 18, 26, 26, 26, 26, 26, 26, 26, 26, 5, 26, 26, 33, 5, 26, 26, 9, 26, 18, 26, 26, 33, 18, 26, 18, 5, 4, 5, 33, 9, 6, 26, 9]
+time val1 [92]: [202, 198, 194, 208, 200, 193, 198, 199, 191, 198, 198, 200, 200, 200, 198, 199, 193, 197, 194, 199, 199, 209, 60002, 195, 198, 199, 189, 198, 215, 192, 195, 199, 199, 197, 234, 60001, 200, 198, 198, 196, 206, 198, 202, 200, 198, 11434, 209, 220, 192, 215, 194, 60001, 199, 194, 195, 197, 60001, 775, 195, 200, 192, 199, 198, 190, 224, 224, 191, 196, 197, 198, 198, 233, 197, 200, 196, 60001, 200, 197, 198, 198, 221, 785, 60001, 201, 783, 197, 197, 198, 197, 192, 197, 207]
+time val2 [1]: [7061]
+#gen: 329
+#patches: 1
+#RightCompilation: 91
+#WrongCompilation: 238
+#FailingTestCaseExecution: 92
+#RegressionTestExecution: 1
+#TestcasesExecutedval1: 774
+#TestcasesExecutedval2: 1191
+#FailingTestCase: 9
+#RegressionTestCases: 1191
+#OfAppliedOp: 329
+#NotAppliedOp: 0
+#InmutatedGen: 28
+#unfinishValidation: 0
+Time Total(ms): 428860
+

@@ -2,36 +2,38 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/71/Genprog/result
 cd /tmp/math_71_Genprog;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -dependencies lib/ -failing org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest:org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_71_Genprog;
 
-2015-05-06 22:30:43,029 INFO main - ProgramVariant 160
+ProgramVariant 138
  
  operation: 
 location= org.apache.commons.math.ode.events.EventState
- line= 175
- original statement= final double h = (t1 - (t0)) / n
- fixed statement= "pendingEvent = true"
- generation= 80
+ line= 228
+ original statement= solver.setMaximalIterationCount(maxIterationCount)
+ fixed statement= "if ((pendingEvent) && ((java.lang.Math.abs((t1 - (pendingEventTime)))) <= (convergence))) {
+	return false;
+} "
+ generation= 69
  
  ----
-2015-05-06 22:30:43,029 INFO main - Time Evolution(ms): 221629
-2015-05-06 22:30:43,029 INFO main - 
+Time Evolution(ms): 575575
+
 ----stats: 
-2015-05-06 22:30:43,029 INFO main - 
-spaces: [59]: [98, 9, 68, 110, 20, 9, 35, 35, 48, 98, 9, 17, 68, 9, 110, 110, 18, 98, 34, 7, 18, 86, 17, 48, 5, 68, 33, 86, 98, 68, 13, 12, 98, 68, 86, 18, 17, 98, 68, 9, 6, 98, 86, 86, 8, 68, 5, 45, 68, 110, 13, 110, 38, 12, 68, 86, 98, 68, 86]
-time val1 [30]: [453, 439, 60001, 440, 437, 231, 433, 432, 434, 433, 437, 439, 451, 433, 364, 432, 316, 438, 436, 60001, 429, 447, 435, 372, 364, 60001, 443, 1241, 438, 440]
-time val2 [2]: [10286, 10438]
-#gen: 80
+
+spaces: [55]: [45, 72, 33, 86, 20, 68, 104, 13, 32, 11, 86, 9, 20, 32, 68, 4, 98, 64, 110, 9, 17, 104, 68, 110, 48, 68, 110, 35, 86, 68, 98, 68, 33, 48, 48, 68, 45, 104, 98, 48, 110, 86, 48, 110, 68, 17, 48, 86, 20, 110, 98, 11, 68, 18, 86]
+time val1 [37]: [517, 484, 482, 60001, 488, 395, 1360, 480, 60001, 392, 509, 409, 486, 418, 484, 379, 485, 481, 481, 481, 483, 477, 60001, 484, 522, 60001, 60001, 479, 60001, 483, 481, 480, 493, 60001, 60001, 60001, 491]
+time val2 [1]: [11672]
+#gen: 69
 #patches: 1
-#RightCompilation: 29
-#WrongCompilation: 51
-#FailingTestCaseExecution: 30
-#RegressionTestExecution: 2
-#TestcasesExecutedval1: 513
-#TestcasesExecutedval2: 4118
+#RightCompilation: 36
+#WrongCompilation: 33
+#FailingTestCaseExecution: 37
+#RegressionTestExecution: 1
+#TestcasesExecutedval1: 532
+#TestcasesExecutedval2: 2059
 #FailingTestCase: 19
 #RegressionTestCases: 2059
-#OfAppliedOp: 80
+#OfAppliedOp: 69
 #NotAppliedOp: 0
-#InmutatedGen: 0
+#InmutatedGen: 1
 #unfinishValidation: 0
-2015-05-06 22:30:43,029 INFO fr.inria.main.AbstractMain - Time Total(ms): 253020
+Time Total(ms): 613174
 

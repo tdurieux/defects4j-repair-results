@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/43/Kali/result
 cd /tmp/math_43_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:org.apache.commons.math.stat.descriptive.SummaryStatisticsTest:org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest:org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest:org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_43_Kali;
  NOT Found solution
-2015-05-07 00:34:26,852 INFO main - Number solutions:0
-2015-05-07 00:34:26,852 INFO main - All variants:
-2015-05-07 00:34:26,852 INFO main - Time Evolution(ms): 61219
-2015-05-07 00:34:26,852 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 75792
+
 ----stats: 
-2015-05-07 00:34:26,852 INFO main - 
+
 spaces: [0]: []
-time val1 [100]: [311, 286, 293, 292, 295, 305, 293, 286, 291, 292, 297, 293, 300, 293, 294, 295, 292, 293, 288, 297, 302, 292, 296, 294, 310, 295, 292, 297, 296, 293, 292, 293, 293, 293, 293, 293, 292, 292, 295, 293, 294, 291, 294, 294, 293, 292, 294, 293, 292, 292, 292, 294, 293, 292, 292, 291, 292, 291, 292, 292, 292, 292, 292, 292, 291, 294, 292, 293, 292, 292, 293, 292, 292, 294, 292, 293, 293, 292, 292, 292, 293, 295, 291, 294, 294, 293, 291, 292, 292, 292, 292, 293, 293, 307, 291, 295, 292, 293, 293, 292]
+time val1 [100]: [339, 329, 336, 336, 338, 333, 338, 328, 336, 337, 337, 340, 336, 336, 336, 336, 339, 336, 330, 335, 338, 339, 338, 337, 340, 337, 336, 336, 336, 336, 335, 337, 336, 336, 338, 335, 341, 337, 337, 338, 338, 336, 337, 337, 335, 337, 335, 337, 337, 334, 337, 335, 334, 337, 337, 334, 336, 336, 338, 335, 337, 334, 334, 336, 337, 335, 337, 338, 338, 337, 337, 338, 338, 337, 335, 337, 338, 338, 336, 339, 336, 337, 337, 335, 337, 337, 336, 336, 338, 336, 338, 335, 335, 338, 361, 337, 336, 336, 339, 336]
 time val2 [0]: []
 #gen: 137
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:34:26,852 INFO fr.inria.main.AbstractMain - Time Total(ms): 297209
+Time Total(ms): 387370
 

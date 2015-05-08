@@ -2,7 +2,7 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/50/Kali/result
 cd /tmp/math_50_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_50_Kali;
 
-2015-05-07 00:33:39,037 INFO main - ProgramVariant 3
+ProgramVariant 3
  
  operation: 
 location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
@@ -12,13 +12,13 @@ location= org.apache.commons.math.analysis.solvers.BaseSecantSolver
  generation= 2
  
  ----
-2015-05-07 00:33:39,037 INFO main - Time Evolution(ms): 97431
-2015-05-07 00:33:39,037 INFO main - 
+Time Evolution(ms): 104835
+
 ----stats: 
-2015-05-07 00:33:39,037 INFO main - 
+
 spaces: [0]: []
-time val1 [23]: [263, 263, 266, 274, 284, 276, 287, 278, 262, 277, 281, 271, 270, 270, 253, 261, 276, 264, 264, 264, 255, 261, 252]
-time val2 [2]: [44296, 43854]
+time val1 [23]: [268, 259, 263, 261, 279, 261, 283, 265, 260, 275, 283, 258, 259, 265, 251, 258, 273, 259, 262, 260, 252, 260, 253]
+time val2 [2]: [47984, 47923]
 #gen: 39
 #patches: 1
 #RightCompilation: 22
@@ -33,5 +33,5 @@ time val2 [2]: [44296, 43854]
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:33:39,038 INFO fr.inria.main.AbstractMain - Time Total(ms): 276138
+Time Total(ms): 289932
 

@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Time/10/Kali/result
 cd /tmp/time_10_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.joda.time.TestMonths:org.joda.time.TestDays: -package org.joda -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/time_10_Kali;
  NOT Found solution
-2015-05-06 22:24:54,146 INFO main - Number solutions:0
-2015-05-06 22:24:54,147 INFO main - All variants:
-2015-05-06 22:24:54,147 INFO main - Time Evolution(ms): 1283
-2015-05-06 22:24:54,147 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 1494
+
 ----stats: 
-2015-05-06 22:24:54,147 INFO main - 
+
 spaces: [0]: []
-time val1 [2]: [332, 319]
+time val1 [2]: [368, 371]
 time val2 [0]: []
 #gen: 4
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-06 22:24:54,147 INFO fr.inria.main.AbstractMain - Time Total(ms): 38460
+Time Total(ms): 44459
 

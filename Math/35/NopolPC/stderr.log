@@ -1,7 +1,7 @@
 java.lang.RuntimeException: No suspicious statements found.
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:78)
-	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:72)
-	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:51)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:71)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:52)
 	at fr.inria.lille.repair.Main.main(Main.java:60)
 
 Usage: java -jar nopol.jar
@@ -39,6 +39,6 @@ Usage: java -jar nopol.jar
         The compliance level of the project. (default: 7)
 
 
-real	10m18.967s
-user	11m0.105s
-sys	0m2.196s
+real	9m55.498s
+user	10m38.372s
+sys	0m2.468s

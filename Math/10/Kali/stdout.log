@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/10/Kali/result
 cd /tmp/math_10_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_10_Kali;
  NOT Found solution
-2015-05-07 00:59:28,288 INFO main - Number solutions:0
-2015-05-07 00:59:28,288 INFO main - All variants:
-2015-05-07 00:59:28,288 INFO main - Time Evolution(ms): 172442
-2015-05-07 00:59:28,288 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 172767
+
 ----stats: 
-2015-05-07 00:59:28,288 INFO main - 
+
 spaces: [0]: []
-time val1 [63]: [1495, 1460, 1463, 1451, 1455, 1468, 1449, 1468, 1450, 1460, 1467, 1490, 1454, 1562, 1590, 1576, 1423, 1563, 1574, 1562, 1564, 1428, 1553, 1510, 1494, 1572, 1409, 1349, 1355, 1370, 1305, 1311, 1298, 1289, 1195, 1205, 1261, 1106, 1144, 1469, 1064, 1109, 1077, 1460, 1463, 1011, 1005, 1008, 1486, 1494, 1399, 1396, 60001, 974, 972, 974, 968, 753, 820, 837, 765, 856, 848]
+time val1 [63]: [1486, 1455, 1464, 1460, 1472, 1455, 1467, 1478, 1456, 1469, 1470, 1496, 1466, 1629, 1575, 1558, 1429, 1582, 1575, 1580, 1560, 1429, 1564, 1513, 1501, 1582, 1424, 1354, 1364, 1373, 1316, 1308, 1300, 1289, 1200, 1196, 1262, 1114, 1149, 1482, 1068, 1112, 1070, 1472, 1473, 998, 1011, 1011, 1486, 1499, 1407, 1408, 60001, 980, 975, 977, 975, 757, 825, 839, 766, 861, 852]
 time val2 [0]: []
 #gen: 115
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:59:28,288 INFO fr.inria.main.AbstractMain - Time Total(ms): 1098287
+Time Total(ms): 946478
 

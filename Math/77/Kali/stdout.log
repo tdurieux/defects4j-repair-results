@@ -2,14 +2,14 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Math/77/Kali/result
 cd /tmp/math_77_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.math.linear.ArrayRealVectorTest:org.apache.commons.math.linear.SparseRealVectorTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_77_Kali;
  NOT Found solution
-2015-05-07 00:26:57,148 INFO main - Number solutions:0
-2015-05-07 00:26:57,148 INFO main - All variants:
-2015-05-07 00:26:57,148 INFO main - Time Evolution(ms): 17975
-2015-05-07 00:26:57,148 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 18109
+
 ----stats: 
-2015-05-07 00:26:57,148 INFO main - 
+
 spaces: [0]: []
-time val1 [35]: [263, 255, 276, 255, 254, 255, 256, 254, 268, 261, 254, 278, 281, 264, 255, 255, 253, 259, 231, 254, 264, 228, 235, 261, 252, 253, 234, 229, 231, 243, 253, 259, 253, 255, 252]
+time val1 [35]: [264, 254, 263, 420, 254, 257, 257, 255, 256, 261, 253, 267, 278, 253, 253, 254, 253, 259, 230, 254, 254, 229, 233, 263, 252, 256, 232, 229, 228, 241, 253, 258, 254, 253, 253]
 time val2 [0]: []
 #gen: 64
 #patches: 0
@@ -25,5 +25,5 @@ time val2 [0]: []
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 00:26:57,149 INFO fr.inria.main.AbstractMain - Time Total(ms): 47661
+Time Total(ms): 47835
 

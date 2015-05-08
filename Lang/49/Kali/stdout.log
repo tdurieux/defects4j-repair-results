@@ -1,16 +1,16 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/lang/lang_49 /tmp/lang_49_Kali;cd /tmp/lang_49_Kali;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Lang/lib/* lib/;find . -type f -name "package-info.java" -delete;
 /home/tdurieux/results/Lang/49/Kali/result
-cd /tmp/lang_49_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.lang.math.FractionTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 3 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/tests/;rm -rf /tmp/lang_49_Kali;
+cd /tmp/lang_49_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.lang.math.FractionTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 3 -maxgen 1000000 -population 1 -srcjavafolder src/java/ -srctestfolder src/test/ -binjavafolder target/classes/ -bintestfolder target/tests/;rm -rf /tmp/lang_49_Kali;
  NOT Found solution
-2015-05-07 01:18:45,322 INFO main - Number solutions:0
-2015-05-07 01:18:45,322 INFO main - All variants:
-2015-05-07 01:18:45,322 INFO main - Time Evolution(ms): 604842
-2015-05-07 01:18:45,322 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 605212
+
 ----stats: 
-2015-05-07 01:18:45,322 INFO main - 
+
 spaces: [0]: []
-time val1 [21]: [263, 252, 250, 249, 251, 254, 60001, 60001, 60001, 60001, 174, 253, 178, 60001, 60002, 60001, 60002, 60001, 60002, 254, 252]
-time val2 [1]: [7101]
+time val1 [21]: [258, 250, 250, 252, 250, 254, 60001, 60001, 60001, 60001, 176, 251, 179, 60001, 60001, 60001, 60001, 60001, 60002, 251, 251]
+time val2 [1]: [7092]
 #gen: 29
 #patches: 0
 #RightCompilation: 20
@@ -25,5 +25,5 @@ time val2 [1]: [7101]
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 01:18:45,322 INFO fr.inria.main.AbstractMain - Time Total(ms): 637925
+Time Total(ms): 637943
 

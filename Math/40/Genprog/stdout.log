@@ -1,3 +1,37 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_40 /tmp/math_40_Genprog;cd /tmp/math_40_Genprog;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
 /home/tdurieux/results/Math/40/Genprog/result
 cd /tmp/math_40_Genprog;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -dependencies lib/ -failing org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_40_Genprog;
+
+ProgramVariant 354
+ 
+ operation: 
+location= org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver
+ line= 296
+ original statement= java.lang.System.arraycopy(y, start, y, 0, nbPoints)
+ fixed statement= "java.lang.System.arraycopy(y, 1, y, 0, nbPoints)"
+ generation= 177
+ 
+ ----
+Time Evolution(ms): 1909454
+
+----stats: 
+
+spaces: [144]: [19, 23, 8, 116, 116, 116, 116, 116, 116, 70, 19, 70, 39, 116, 116, 116, 116, 3, 116, 21, 19, 116, 116, 116, 8, 70, 8, 116, 116, 1, 39, 1, 70, 39, 116, 1, 19, 3, 116, 116, 116, 116, 116, 116, 116, 19, 116, 116, 9, 1, 116, 116, 21, 17, 39, 70, 39, 39, 116, 116, 116, 3, 39, 21, 16, 5, 70, 116, 19, 34, 1, 39, 116, 116, 16, 39, 39, 3, 9, 116, 34, 116, 116, 116, 116, 116, 116, 3, 70, 116, 70, 116, 3, 70, 16, 70, 70, 116, 116, 16, 70, 116, 70, 116, 70, 17, 70, 21, 116, 19, 116, 116, 116, 12, 21, 70, 34, 17, 116, 9, 17, 116, 9, 116, 116, 21, 116, 17, 116, 116, 21, 116, 21, 116, 116, 34, 5, 70, 19, 19, 116, 70, 116, 12]
+time val1 [72]: [250, 254, 60002, 259, 253, 60002, 256, 254, 254, 254, 234, 262, 234, 255, 253, 233, 2979, 256, 257, 261, 250, 231, 229, 254, 254, 60001, 257, 60001, 260, 254, 60001, 254, 253, 253, 238, 60001, 60001, 255, 255, 257, 259, 257, 252, 257, 234, 259, 253, 251, 235, 256, 257, 256, 236, 253, 231, 60001, 255, 60001, 259, 253, 253, 253, 252, 253, 234, 256, 253, 250, 240, 254, 2755, 240]
+time val2 [3]: [640007, 640006, 55839]
+#gen: 177
+#patches: 1
+#RightCompilation: 71
+#WrongCompilation: 106
+#FailingTestCaseExecution: 72
+#RegressionTestExecution: 3
+#TestcasesExecutedval1: 945
+#TestcasesExecutedval2: 3068
+#FailingTestCase: 15
+#RegressionTestCases: 3068
+#OfAppliedOp: 177
+#NotAppliedOp: 0
+#InmutatedGen: 7
+#unfinishValidation: 2
+Time Total(ms): 2193786
+

@@ -2,15 +2,15 @@ export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/
 /home/tdurieux/results/Lang/16/Kali/result
 cd /tmp/lang_16_Kali;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -failing org.apache.commons.lang3.math.NumberUtilsTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/tests/;rm -rf /tmp/lang_16_Kali;
  NOT Found solution
-2015-05-07 01:14:30,430 INFO main - Number solutions:0
-2015-05-07 01:14:30,430 INFO main - All variants:
-2015-05-07 01:14:30,430 INFO main - Time Evolution(ms): 10657
-2015-05-07 01:14:30,430 INFO main - 
+Number solutions:0
+All variants:
+Time Evolution(ms): 12189
+
 ----stats: 
-2015-05-07 01:14:30,430 INFO main - 
+
 spaces: [0]: []
-time val1 [26]: [216, 225, 211, 215, 214, 213, 213, 213, 214, 213, 209, 214, 212, 215, 218, 212, 216, 213, 212, 210, 212, 216, 211, 214, 212, 212]
-time val2 [1]: [10012]
+time val1 [26]: [249, 255, 247, 249, 248, 247, 247, 248, 247, 246, 245, 246, 246, 243, 248, 245, 248, 248, 246, 246, 246, 250, 246, 246, 247, 245]
+time val2 [1]: [10487]
 #gen: 56
 #patches: 0
 #RightCompilation: 25
@@ -25,5 +25,5 @@ time val2 [1]: [10012]
 #NotAppliedOp: 0
 #InmutatedGen: 0
 #unfinishValidation: 0
-2015-05-07 01:14:30,430 INFO fr.inria.main.AbstractMain - Time Total(ms): 43802
+Time Total(ms): 48676
 
