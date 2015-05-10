@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:48:00.421864", 
+    "date": "2015-05-10T23:33:25.083492", 
     "executedTest": 1691, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,42 @@
             "method": "testLang303"
         }
     ], 
-    "node": "griffon-9.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.lang.time.FastDateFormat", 
+            "line": 140
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.time.FastDateFormat", 
+            "line": 144
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.time.FastDateFormat", 
+            "line": 1020
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.time.FastDateFormat", 
+            "line": 1021
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.time.FastDateFormat", 
+            "line": 1022
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.time.FastDateFormat", 
+            "line": 1023
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.time.FastDateFormat", 
+            "line": 1024
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.time.FastDateFormat", 
+            "line": 1025
+        }
+    ], 
+    "nbsuspicious": 40, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 1690, 
     "suspicious": {
         "org.apache.commons.lang.SerializationUtils:101": {
@@ -24,7 +59,11 @@
             }, 
             "nf": 0, 
             "np": 1667, 
-            "rank": 40
+            "rank": {
+                "ample": 40, 
+                "ochiai": 40, 
+                "tarantula": 40
+            }
         }, 
         "org.apache.commons.lang.SerializationUtils:104": {
             "class": "org.apache.commons.lang.SerializationUtils", 
@@ -39,7 +78,11 @@
             }, 
             "nf": 0, 
             "np": 1669, 
-            "rank": 38
+            "rank": {
+                "ample": 37, 
+                "ochiai": 38, 
+                "tarantula": 37
+            }
         }, 
         "org.apache.commons.lang.SerializationUtils:107": {
             "class": "org.apache.commons.lang.SerializationUtils", 
@@ -54,7 +97,11 @@
             }, 
             "nf": 0, 
             "np": 1669, 
-            "rank": 39
+            "rank": {
+                "ample": 38, 
+                "ochiai": 39, 
+                "tarantula": 38
+            }
         }, 
         "org.apache.commons.lang.SerializationUtils:108": {
             "class": "org.apache.commons.lang.SerializationUtils", 
@@ -69,7 +116,11 @@
             }, 
             "nf": 0, 
             "np": 1670, 
-            "rank": 37
+            "rank": {
+                "ample": 35, 
+                "ochiai": 37, 
+                "tarantula": 35
+            }
         }, 
         "org.apache.commons.lang.SerializationUtils:111": {
             "class": "org.apache.commons.lang.SerializationUtils", 
@@ -84,7 +135,11 @@
             }, 
             "nf": 0, 
             "np": 1686, 
-            "rank": 8
+            "rank": {
+                "ample": 8, 
+                "ochiai": 8, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.lang.SerializationUtils:113": {
             "class": "org.apache.commons.lang.SerializationUtils", 
@@ -99,7 +154,11 @@
             }, 
             "nf": 0, 
             "np": 1686, 
-            "rank": 9
+            "rank": {
+                "ample": 7, 
+                "ochiai": 9, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.lang.SerializationUtils:114": {
             "class": "org.apache.commons.lang.SerializationUtils", 
@@ -114,7 +173,11 @@
             }, 
             "nf": 0, 
             "np": 1669, 
-            "rank": 10
+            "rank": {
+                "ample": 39, 
+                "ochiai": 10, 
+                "tarantula": 39
+            }
         }, 
         "org.apache.commons.lang.SerializationUtils:115": {
             "class": "org.apache.commons.lang.SerializationUtils", 
@@ -129,7 +192,11 @@
             }, 
             "nf": 0, 
             "np": 1670, 
-            "rank": 5
+            "rank": {
+                "ample": 36, 
+                "ochiai": 5, 
+                "tarantula": 36
+            }
         }, 
         "org.apache.commons.lang.SerializationUtils:132": {
             "class": "org.apache.commons.lang.SerializationUtils", 
@@ -144,7 +211,11 @@
             }, 
             "nf": 0, 
             "np": 1673, 
-            "rank": 35
+            "rank": {
+                "ample": 27, 
+                "ochiai": 35, 
+                "tarantula": 27
+            }
         }, 
         "org.apache.commons.lang.SerializationUtils:133": {
             "class": "org.apache.commons.lang.SerializationUtils", 
@@ -159,7 +230,11 @@
             }, 
             "nf": 0, 
             "np": 1673, 
-            "rank": 36
+            "rank": {
+                "ample": 31, 
+                "ochiai": 36, 
+                "tarantula": 31
+            }
         }, 
         "org.apache.commons.lang.exception.ExceptionUtils:431": {
             "class": "org.apache.commons.lang.exception.ExceptionUtils", 
@@ -174,7 +249,11 @@
             }, 
             "nf": 0, 
             "np": 1679, 
-            "rank": 18
+            "rank": {
+                "ample": 19, 
+                "ochiai": 18, 
+                "tarantula": 19
+            }
         }, 
         "org.apache.commons.lang.exception.NestableDelegate:311": {
             "class": "org.apache.commons.lang.exception.NestableDelegate", 
@@ -189,7 +268,11 @@
             }, 
             "nf": 0, 
             "np": 1681, 
-            "rank": 13
+            "rank": {
+                "ample": 14, 
+                "ochiai": 13, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.lang.exception.NestableDelegate:313": {
             "class": "org.apache.commons.lang.exception.NestableDelegate", 
@@ -204,7 +287,11 @@
             }, 
             "nf": 0, 
             "np": 1681, 
-            "rank": 14
+            "rank": {
+                "ample": 13, 
+                "ochiai": 14, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.lang.exception.NestableDelegate:314": {
             "class": "org.apache.commons.lang.exception.NestableDelegate", 
@@ -219,7 +306,11 @@
             }, 
             "nf": 0, 
             "np": 1681, 
-            "rank": 15
+            "rank": {
+                "ample": 11, 
+                "ochiai": 15, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.lang.exception.NestableDelegate:315": {
             "class": "org.apache.commons.lang.exception.NestableDelegate", 
@@ -234,7 +325,11 @@
             }, 
             "nf": 0, 
             "np": 1681, 
-            "rank": 16
+            "rank": {
+                "ample": 12, 
+                "ochiai": 16, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.lang.exception.NestableDelegate:319": {
             "class": "org.apache.commons.lang.exception.NestableDelegate", 
@@ -249,7 +344,11 @@
             }, 
             "nf": 0, 
             "np": 1681, 
-            "rank": 17
+            "rank": {
+                "ample": 15, 
+                "ochiai": 17, 
+                "tarantula": 15
+            }
         }, 
         "org.apache.commons.lang.exception.NestableRuntimeException:102": {
             "class": "org.apache.commons.lang.exception.NestableRuntimeException", 
@@ -264,7 +363,11 @@
             }, 
             "nf": 0, 
             "np": 1675, 
-            "rank": 23
+            "rank": {
+                "ample": 21, 
+                "ochiai": 23, 
+                "tarantula": 21
+            }
         }, 
         "org.apache.commons.lang.exception.NestableRuntimeException:113": {
             "class": "org.apache.commons.lang.exception.NestableRuntimeException", 
@@ -279,7 +382,11 @@
             }, 
             "nf": 0, 
             "np": 1682, 
-            "rank": 12
+            "rank": {
+                "ample": 10, 
+                "ochiai": 12, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.lang.exception.NestableRuntimeException:115": {
             "class": "org.apache.commons.lang.exception.NestableRuntimeException", 
@@ -294,7 +401,11 @@
             }, 
             "nf": 0, 
             "np": 1686, 
-            "rank": 6
+            "rank": {
+                "ample": 6, 
+                "ochiai": 6, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.lang.exception.NestableRuntimeException:116": {
             "class": "org.apache.commons.lang.exception.NestableRuntimeException", 
@@ -309,7 +420,11 @@
             }, 
             "nf": 0, 
             "np": 1686, 
-            "rank": 7
+            "rank": {
+                "ample": 5, 
+                "ochiai": 7, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.lang.exception.NestableRuntimeException:193": {
             "class": "org.apache.commons.lang.exception.NestableRuntimeException", 
@@ -324,7 +439,11 @@
             }, 
             "nf": 0, 
             "np": 1689, 
-            "rank": 1
+            "rank": {
+                "ample": 2, 
+                "ochiai": 1, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.lang.exception.NestableRuntimeException:194": {
             "class": "org.apache.commons.lang.exception.NestableRuntimeException", 
@@ -339,7 +458,11 @@
             }, 
             "nf": 0, 
             "np": 1689, 
-            "rank": 2
+            "rank": {
+                "ample": 1, 
+                "ochiai": 2, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.lang.exception.NestableRuntimeException:200": {
             "class": "org.apache.commons.lang.exception.NestableRuntimeException", 
@@ -354,7 +477,11 @@
             }, 
             "nf": 0, 
             "np": 1687, 
-            "rank": 3
+            "rank": {
+                "ample": 3, 
+                "ochiai": 3, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.lang.exception.NestableRuntimeException:201": {
             "class": "org.apache.commons.lang.exception.NestableRuntimeException", 
@@ -369,7 +496,11 @@
             }, 
             "nf": 0, 
             "np": 1687, 
-            "rank": 4
+            "rank": {
+                "ample": 4, 
+                "ochiai": 4, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:1002": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -384,7 +515,11 @@
             }, 
             "nf": 0, 
             "np": 1673, 
-            "rank": 28
+            "rank": {
+                "ample": 22, 
+                "ochiai": 28, 
+                "tarantula": 22
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:1003": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -399,7 +534,11 @@
             }, 
             "nf": 0, 
             "np": 1673, 
-            "rank": 29
+            "rank": {
+                "ample": 33, 
+                "ochiai": 29, 
+                "tarantula": 33
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:1004": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -414,7 +553,11 @@
             }, 
             "nf": 0, 
             "np": 1673, 
-            "rank": 30
+            "rank": {
+                "ample": 28, 
+                "ochiai": 30, 
+                "tarantula": 28
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:1005": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -429,7 +572,11 @@
             }, 
             "nf": 0, 
             "np": 1673, 
-            "rank": 31
+            "rank": {
+                "ample": 25, 
+                "ochiai": 31, 
+                "tarantula": 25
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:1006": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -444,7 +591,11 @@
             }, 
             "nf": 0, 
             "np": 1673, 
-            "rank": 32
+            "rank": {
+                "ample": 34, 
+                "ochiai": 32, 
+                "tarantula": 34
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:1007": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -459,7 +610,11 @@
             }, 
             "nf": 0, 
             "np": 1673, 
-            "rank": 33
+            "rank": {
+                "ample": 30, 
+                "ochiai": 33, 
+                "tarantula": 30
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:1008": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -474,7 +629,11 @@
             }, 
             "nf": 0, 
             "np": 1673, 
-            "rank": 34
+            "rank": {
+                "ample": 32, 
+                "ochiai": 34, 
+                "tarantula": 32
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:167": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -489,7 +648,11 @@
             }, 
             "nf": 0, 
             "np": 1683, 
-            "rank": 11
+            "rank": {
+                "ample": 9, 
+                "ochiai": 11, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:213": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -504,7 +667,11 @@
             }, 
             "nf": 0, 
             "np": 1673, 
-            "rank": 24
+            "rank": {
+                "ample": 29, 
+                "ochiai": 24, 
+                "tarantula": 29
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:214": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -519,7 +686,11 @@
             }, 
             "nf": 0, 
             "np": 1673, 
-            "rank": 25
+            "rank": {
+                "ample": 24, 
+                "ochiai": 25, 
+                "tarantula": 24
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:215": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -534,7 +705,11 @@
             }, 
             "nf": 0, 
             "np": 1673, 
-            "rank": 26
+            "rank": {
+                "ample": 23, 
+                "ochiai": 26, 
+                "tarantula": 23
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:220": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -549,7 +724,11 @@
             }, 
             "nf": 0, 
             "np": 1673, 
-            "rank": 27
+            "rank": {
+                "ample": 26, 
+                "ochiai": 27, 
+                "tarantula": 26
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:980": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -564,7 +743,11 @@
             }, 
             "nf": 0, 
             "np": 1679, 
-            "rank": 19
+            "rank": {
+                "ample": 18, 
+                "ochiai": 19, 
+                "tarantula": 18
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:983": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -579,7 +762,11 @@
             }, 
             "nf": 0, 
             "np": 1679, 
-            "rank": 20
+            "rank": {
+                "ample": 17, 
+                "ochiai": 20, 
+                "tarantula": 17
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:984": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -594,7 +781,11 @@
             }, 
             "nf": 0, 
             "np": 1679, 
-            "rank": 21
+            "rank": {
+                "ample": 16, 
+                "ochiai": 21, 
+                "tarantula": 16
+            }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:991": {
             "class": "org.apache.commons.lang.time.FastDateFormat", 
@@ -609,7 +800,11 @@
             }, 
             "nf": 0, 
             "np": 1679, 
-            "rank": 22
+            "rank": {
+                "ample": 20, 
+                "ochiai": 22, 
+                "tarantula": 20
+            }
         }
     }
 }

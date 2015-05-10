@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:49:25.104908", 
+    "date": "2015-05-10T23:33:27.318042", 
     "executedTest": 1760, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,14 @@
             "method": "testJavaVersionAsInt"
         }
     ], 
-    "node": "griffon-67.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.lang3.SystemUtils", 
+            "line": 1672
+        }
+    ], 
+    "nbsuspicious": 10, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 1759, 
     "suspicious": {
         "org.apache.commons.lang3.SystemUtils:1673": {
@@ -24,7 +31,11 @@
             }, 
             "nf": 0, 
             "np": 1759, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.lang3.SystemUtils:1716": {
             "class": "org.apache.commons.lang3.SystemUtils", 
@@ -39,7 +50,11 @@
             }, 
             "nf": 0, 
             "np": 1757, 
-            "rank": 10
+            "rank": {
+                "ample": 10, 
+                "ochiai": 10, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.lang3.SystemUtils:1717": {
             "class": "org.apache.commons.lang3.SystemUtils", 
@@ -54,7 +69,11 @@
             }, 
             "nf": 0, 
             "np": 1758, 
-            "rank": 9
+            "rank": {
+                "ample": 2, 
+                "ochiai": 9, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.lang3.SystemUtils:1792": {
             "class": "org.apache.commons.lang3.SystemUtils", 
@@ -69,7 +88,11 @@
             }, 
             "nf": 0, 
             "np": 1758, 
-            "rank": 2
+            "rank": {
+                "ample": 6, 
+                "ochiai": 2, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.lang3.SystemUtils:1795": {
             "class": "org.apache.commons.lang3.SystemUtils", 
@@ -84,7 +107,11 @@
             }, 
             "nf": 0, 
             "np": 1758, 
-            "rank": 3
+            "rank": {
+                "ample": 3, 
+                "ochiai": 3, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.lang3.SystemUtils:1796": {
             "class": "org.apache.commons.lang3.SystemUtils", 
@@ -99,7 +126,11 @@
             }, 
             "nf": 0, 
             "np": 1758, 
-            "rank": 4
+            "rank": {
+                "ample": 5, 
+                "ochiai": 4, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.lang3.SystemUtils:1797": {
             "class": "org.apache.commons.lang3.SystemUtils", 
@@ -114,7 +145,11 @@
             }, 
             "nf": 0, 
             "np": 1758, 
-            "rank": 5
+            "rank": {
+                "ample": 4, 
+                "ochiai": 5, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.lang3.SystemUtils:1800": {
             "class": "org.apache.commons.lang3.SystemUtils", 
@@ -129,7 +164,11 @@
             }, 
             "nf": 0, 
             "np": 1758, 
-            "rank": 6
+            "rank": {
+                "ample": 7, 
+                "ochiai": 6, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.lang3.SystemUtils:1803": {
             "class": "org.apache.commons.lang3.SystemUtils", 
@@ -144,7 +183,11 @@
             }, 
             "nf": 0, 
             "np": 1758, 
-            "rank": 7
+            "rank": {
+                "ample": 8, 
+                "ochiai": 7, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.lang3.SystemUtils:1806": {
             "class": "org.apache.commons.lang3.SystemUtils", 
@@ -159,7 +202,11 @@
             }, 
             "nf": 0, 
             "np": 1758, 
-            "rank": 8
+            "rank": {
+                "ample": 9, 
+                "ochiai": 8, 
+                "tarantula": 9
+            }
         }
     }
 }

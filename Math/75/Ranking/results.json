@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:42:27.724378", 
+    "date": "2015-05-10T23:33:21.917430", 
     "executedTest": 2135, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,14 @@
             "method": "testPcts"
         }
     ], 
-    "node": "graphite-3.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.math.stat.Frequency", 
+            "line": 303
+        }
+    ], 
+    "nbsuspicious": 50, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 2134, 
     "suspicious": {
         "org.apache.commons.math.stat.Frequency$NaturalComparator:541": {
@@ -24,7 +31,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 23
+            "rank": {
+                "ample": 11, 
+                "ochiai": 23, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.math.stat.Frequency$NaturalComparator:561": {
             "class": "org.apache.commons.math.stat.Frequency$NaturalComparator", 
@@ -39,7 +50,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 22
+            "rank": {
+                "ample": 12, 
+                "ochiai": 22, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:133": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -54,7 +69,11 @@
             }, 
             "nf": 0, 
             "np": 2103, 
-            "rank": 44
+            "rank": {
+                "ample": 46, 
+                "ochiai": 44, 
+                "tarantula": 46
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:134": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -69,7 +88,11 @@
             }, 
             "nf": 0, 
             "np": 2103, 
-            "rank": 45
+            "rank": {
+                "ample": 50, 
+                "ochiai": 45, 
+                "tarantula": 50
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:138": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -84,7 +107,11 @@
             }, 
             "nf": 0, 
             "np": 2103, 
-            "rank": 46
+            "rank": {
+                "ample": 48, 
+                "ochiai": 46, 
+                "tarantula": 48
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:139": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -99,7 +126,11 @@
             }, 
             "nf": 0, 
             "np": 2103, 
-            "rank": 47
+            "rank": {
+                "ample": 49, 
+                "ochiai": 47, 
+                "tarantula": 49
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:140": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -114,7 +145,11 @@
             }, 
             "nf": 0, 
             "np": 2103, 
-            "rank": 48
+            "rank": {
+                "ample": 44, 
+                "ochiai": 48, 
+                "tarantula": 44
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:142": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -129,7 +164,11 @@
             }, 
             "nf": 0, 
             "np": 2105, 
-            "rank": 37
+            "rank": {
+                "ample": 36, 
+                "ochiai": 37, 
+                "tarantula": 36
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:149": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -144,7 +183,11 @@
             }, 
             "nf": 0, 
             "np": 2103, 
-            "rank": 49
+            "rank": {
+                "ample": 45, 
+                "ochiai": 49, 
+                "tarantula": 45
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:150": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -159,7 +202,11 @@
             }, 
             "nf": 0, 
             "np": 2103, 
-            "rank": 50
+            "rank": {
+                "ample": 47, 
+                "ochiai": 50, 
+                "tarantula": 47
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:158": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -174,7 +221,11 @@
             }, 
             "nf": 0, 
             "np": 2120, 
-            "rank": 33
+            "rank": {
+                "ample": 35, 
+                "ochiai": 33, 
+                "tarantula": 35
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:159": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -189,7 +240,11 @@
             }, 
             "nf": 0, 
             "np": 2121, 
-            "rank": 32
+            "rank": {
+                "ample": 32, 
+                "ochiai": 32, 
+                "tarantula": 32
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:177": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -204,7 +259,11 @@
             }, 
             "nf": 0, 
             "np": 2120, 
-            "rank": 34
+            "rank": {
+                "ample": 34, 
+                "ochiai": 34, 
+                "tarantula": 34
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:178": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -219,7 +278,11 @@
             }, 
             "nf": 0, 
             "np": 2120, 
-            "rank": 35
+            "rank": {
+                "ample": 33, 
+                "ochiai": 35, 
+                "tarantula": 33
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:215": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -234,7 +297,11 @@
             }, 
             "nf": 0, 
             "np": 2126, 
-            "rank": 28
+            "rank": {
+                "ample": 31, 
+                "ochiai": 28, 
+                "tarantula": 31
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:216": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -249,7 +316,11 @@
             }, 
             "nf": 0, 
             "np": 2126, 
-            "rank": 29
+            "rank": {
+                "ample": 30, 
+                "ochiai": 29, 
+                "tarantula": 30
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:217": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -264,7 +335,11 @@
             }, 
             "nf": 0, 
             "np": 2126, 
-            "rank": 30
+            "rank": {
+                "ample": 29, 
+                "ochiai": 30, 
+                "tarantula": 29
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:218": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -279,7 +354,11 @@
             }, 
             "nf": 0, 
             "np": 2127, 
-            "rank": 27
+            "rank": {
+                "ample": 27, 
+                "ochiai": 27, 
+                "tarantula": 27
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:220": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -294,7 +373,11 @@
             }, 
             "nf": 0, 
             "np": 2126, 
-            "rank": 31
+            "rank": {
+                "ample": 28, 
+                "ochiai": 31, 
+                "tarantula": 28
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:244": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -309,7 +392,11 @@
             }, 
             "nf": 0, 
             "np": 2104, 
-            "rank": 38
+            "rank": {
+                "ample": 38, 
+                "ochiai": 38, 
+                "tarantula": 38
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:247": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -324,7 +411,11 @@
             }, 
             "nf": 0, 
             "np": 2104, 
-            "rank": 39
+            "rank": {
+                "ample": 40, 
+                "ochiai": 39, 
+                "tarantula": 40
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:249": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -339,7 +430,11 @@
             }, 
             "nf": 0, 
             "np": 2104, 
-            "rank": 40
+            "rank": {
+                "ample": 39, 
+                "ochiai": 40, 
+                "tarantula": 39
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:250": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -354,7 +449,11 @@
             }, 
             "nf": 0, 
             "np": 2104, 
-            "rank": 41
+            "rank": {
+                "ample": 43, 
+                "ochiai": 41, 
+                "tarantula": 43
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:251": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -369,7 +468,11 @@
             }, 
             "nf": 0, 
             "np": 2105, 
-            "rank": 36
+            "rank": {
+                "ample": 37, 
+                "ochiai": 36, 
+                "tarantula": 37
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:255": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -384,7 +487,11 @@
             }, 
             "nf": 0, 
             "np": 2104, 
-            "rank": 42
+            "rank": {
+                "ample": 41, 
+                "ochiai": 42, 
+                "tarantula": 41
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:256": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -399,7 +506,11 @@
             }, 
             "nf": 0, 
             "np": 2104, 
-            "rank": 43
+            "rank": {
+                "ample": 42, 
+                "ochiai": 43, 
+                "tarantula": 42
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:303": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -414,7 +525,11 @@
             }, 
             "nf": 0, 
             "np": 2134, 
-            "rank": 1
+            "rank": {
+                "ample": 2, 
+                "ochiai": 1, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:316": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -429,7 +544,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 8
+            "rank": {
+                "ample": 22, 
+                "ochiai": 8, 
+                "tarantula": 22
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:317": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -444,7 +563,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 9
+            "rank": {
+                "ample": 23, 
+                "ochiai": 9, 
+                "tarantula": 23
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:320": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -459,7 +582,11 @@
             }, 
             "nf": 0, 
             "np": 2131, 
-            "rank": 6
+            "rank": {
+                "ample": 6, 
+                "ochiai": 6, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:331": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -474,7 +601,11 @@
             }, 
             "nf": 0, 
             "np": 2133, 
-            "rank": 3
+            "rank": {
+                "ample": 3, 
+                "ochiai": 3, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:342": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -489,7 +620,11 @@
             }, 
             "nf": 0, 
             "np": 2134, 
-            "rank": 2
+            "rank": {
+                "ample": 1, 
+                "ochiai": 2, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:382": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -504,7 +639,11 @@
             }, 
             "nf": 0, 
             "np": 2129, 
-            "rank": 24
+            "rank": {
+                "ample": 24, 
+                "ochiai": 24, 
+                "tarantula": 24
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:385": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -519,7 +658,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 10
+            "rank": {
+                "ample": 8, 
+                "ochiai": 10, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:386": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -534,7 +677,11 @@
             }, 
             "nf": 0, 
             "np": 2132, 
-            "rank": 4
+            "rank": {
+                "ample": 4, 
+                "ochiai": 4, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:388": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -549,7 +696,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 11
+            "rank": {
+                "ample": 10, 
+                "ochiai": 11, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:389": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -564,7 +715,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 12
+            "rank": {
+                "ample": 9, 
+                "ochiai": 12, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:390": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -579,7 +734,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 13
+            "rank": {
+                "ample": 18, 
+                "ochiai": 13, 
+                "tarantula": 18
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:392": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -594,7 +753,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 14
+            "rank": {
+                "ample": 16, 
+                "ochiai": 14, 
+                "tarantula": 16
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:395": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -609,7 +772,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 15
+            "rank": {
+                "ample": 21, 
+                "ochiai": 15, 
+                "tarantula": 21
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:396": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -624,7 +791,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 16
+            "rank": {
+                "ample": 13, 
+                "ochiai": 16, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:397": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -639,7 +810,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 17
+            "rank": {
+                "ample": 19, 
+                "ochiai": 17, 
+                "tarantula": 19
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:401": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -654,7 +829,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 18
+            "rank": {
+                "ample": 15, 
+                "ochiai": 18, 
+                "tarantula": 15
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:403": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -669,7 +848,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 19
+            "rank": {
+                "ample": 14, 
+                "ochiai": 19, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:407": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -684,7 +867,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 20
+            "rank": {
+                "ample": 17, 
+                "ochiai": 20, 
+                "tarantula": 17
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:408": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -699,7 +886,11 @@
             }, 
             "nf": 0, 
             "np": 2131, 
-            "rank": 7
+            "rank": {
+                "ample": 7, 
+                "ochiai": 7, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:444": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -714,7 +905,11 @@
             }, 
             "nf": 0, 
             "np": 2132, 
-            "rank": 5
+            "rank": {
+                "ample": 5, 
+                "ochiai": 5, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:491": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -729,7 +924,11 @@
             }, 
             "nf": 0, 
             "np": 2129, 
-            "rank": 25
+            "rank": {
+                "ample": 25, 
+                "ochiai": 25, 
+                "tarantula": 25
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:492": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -744,7 +943,11 @@
             }, 
             "nf": 0, 
             "np": 2129, 
-            "rank": 26
+            "rank": {
+                "ample": 26, 
+                "ochiai": 26, 
+                "tarantula": 26
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:495": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -759,7 +962,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 21
+            "rank": {
+                "ample": 20, 
+                "ochiai": 21, 
+                "tarantula": 20
+            }
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:50:25.536939", 
+    "date": "2015-05-10T23:33:27.829368", 
     "executedTest": 2137, 
     "failedTest": 2, 
     "failedTestDetails": [
@@ -12,7 +12,58 @@
             "method": "testLANG805"
         }
     ], 
-    "node": "griffon-63.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.lang3.RandomStringUtils", 
+            "line": 230
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.RandomStringUtils", 
+            "line": 231
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.RandomStringUtils", 
+            "line": 232
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.RandomStringUtils", 
+            "line": 235
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.RandomStringUtils", 
+            "line": 236
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.RandomStringUtils", 
+            "line": 237
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.RandomStringUtils", 
+            "line": 238
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.RandomStringUtils", 
+            "line": 239
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.RandomStringUtils", 
+            "line": 240
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.RandomStringUtils", 
+            "line": 241
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.RandomStringUtils", 
+            "line": 242
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.RandomStringUtils", 
+            "line": 243
+        }
+    ], 
+    "nbsuspicious": 19, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 2135, 
     "suspicious": {
         "org.apache.commons.lang3.RandomStringUtils:143": {
@@ -28,7 +79,11 @@
             }, 
             "nf": 1, 
             "np": 2130, 
-            "rank": 18
+            "rank": {
+                "ample": 18, 
+                "ochiai": 18, 
+                "tarantula": 18
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:163": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -43,7 +98,11 @@
             }, 
             "nf": 1, 
             "np": 2129, 
-            "rank": 19
+            "rank": {
+                "ample": 19, 
+                "ochiai": 19, 
+                "tarantula": 19
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:225": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -58,7 +117,11 @@
             }, 
             "nf": 0, 
             "np": 2128, 
-            "rank": 8
+            "rank": {
+                "ample": 8, 
+                "ochiai": 8, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:227": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -73,7 +136,11 @@
             }, 
             "nf": 0, 
             "np": 2128, 
-            "rank": 9
+            "rank": {
+                "ample": 9, 
+                "ochiai": 9, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:228": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -88,7 +155,11 @@
             }, 
             "nf": 1, 
             "np": 2135, 
-            "rank": 1
+            "rank": {
+                "ample": 14, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:231": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -103,7 +174,11 @@
             }, 
             "nf": 0, 
             "np": 2128, 
-            "rank": 10
+            "rank": {
+                "ample": 12, 
+                "ochiai": 10, 
+                "tarantula": 16
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:232": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -118,7 +193,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 5
+            "rank": {
+                "ample": 6, 
+                "ochiai": 5, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:233": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -133,7 +212,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 6
+            "rank": {
+                "ample": 5, 
+                "ochiai": 6, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:234": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -148,7 +231,11 @@
             }, 
             "nf": 0, 
             "np": 2130, 
-            "rank": 7
+            "rank": {
+                "ample": 4, 
+                "ochiai": 7, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:235": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -163,7 +250,11 @@
             }, 
             "nf": 0, 
             "np": 2133, 
-            "rank": 2
+            "rank": {
+                "ample": 3, 
+                "ochiai": 2, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:236": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -178,7 +269,11 @@
             }, 
             "nf": 0, 
             "np": 2133, 
-            "rank": 3
+            "rank": {
+                "ample": 2, 
+                "ochiai": 3, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:240": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -193,7 +288,11 @@
             }, 
             "nf": 0, 
             "np": 2128, 
-            "rank": 11
+            "rank": {
+                "ample": 10, 
+                "ochiai": 11, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:241": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -208,7 +307,11 @@
             }, 
             "nf": 0, 
             "np": 2128, 
-            "rank": 12
+            "rank": {
+                "ample": 7, 
+                "ochiai": 12, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:243": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -223,7 +326,11 @@
             }, 
             "nf": 0, 
             "np": 2128, 
-            "rank": 13
+            "rank": {
+                "ample": 11, 
+                "ochiai": 13, 
+                "tarantula": 15
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:245": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -238,7 +345,11 @@
             }, 
             "nf": 0, 
             "np": 2128, 
-            "rank": 14
+            "rank": {
+                "ample": 13, 
+                "ochiai": 14, 
+                "tarantula": 17
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:248": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -253,7 +364,11 @@
             }, 
             "nf": 0, 
             "np": 2133, 
-            "rank": 4
+            "rank": {
+                "ample": 1, 
+                "ochiai": 4, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:318": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -268,7 +383,11 @@
             }, 
             "nf": 1, 
             "np": 2133, 
-            "rank": 16
+            "rank": {
+                "ample": 17, 
+                "ochiai": 16, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:321": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -283,7 +402,11 @@
             }, 
             "nf": 1, 
             "np": 2133, 
-            "rank": 17
+            "rank": {
+                "ample": 15, 
+                "ochiai": 17, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.lang3.RandomStringUtils:69": {
             "class": "org.apache.commons.lang3.RandomStringUtils", 
@@ -298,7 +421,11 @@
             }, 
             "nf": 1, 
             "np": 2133, 
-            "rank": 15
+            "rank": {
+                "ample": 16, 
+                "ochiai": 15, 
+                "tarantula": 6
+            }
         }
     }
 }

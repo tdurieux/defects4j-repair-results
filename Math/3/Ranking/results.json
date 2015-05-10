@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:52:48.463770", 
+    "date": "2015-05-10T23:33:15.021856", 
     "executedTest": 5059, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,26 @@
             "method": "testLinearCombinationWithSingleElementArray"
         }
     ], 
-    "node": "griffon-92.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.math3.util.MathArrays", 
+            "line": 821
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.util.MathArrays", 
+            "line": 822
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.util.MathArrays", 
+            "line": 823
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.util.MathArrays", 
+            "line": 824
+        }
+    ], 
+    "nbsuspicious": 18, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 5058, 
     "suspicious": {
         "org.apache.commons.math3.util.MathArrays:816": {
@@ -24,7 +43,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 1
+            "rank": {
+                "ample": 10, 
+                "ochiai": 1, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:817": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -39,7 +62,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 2
+            "rank": {
+                "ample": 11, 
+                "ochiai": 2, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:821": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -54,7 +81,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 3
+            "rank": {
+                "ample": 5, 
+                "ochiai": 3, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:822": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -69,7 +100,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 4
+            "rank": {
+                "ample": 7, 
+                "ochiai": 4, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:824": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -84,7 +119,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 5
+            "rank": {
+                "ample": 2, 
+                "ochiai": 5, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:825": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -99,7 +138,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 6
+            "rank": {
+                "ample": 1, 
+                "ochiai": 6, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:826": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -114,7 +157,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 7
+            "rank": {
+                "ample": 4, 
+                "ochiai": 7, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:827": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -129,7 +176,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 8
+            "rank": {
+                "ample": 3, 
+                "ochiai": 8, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:828": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -144,7 +195,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 9
+            "rank": {
+                "ample": 12, 
+                "ochiai": 9, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:830": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -159,7 +214,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 10
+            "rank": {
+                "ample": 18, 
+                "ochiai": 10, 
+                "tarantula": 18
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:831": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -174,7 +233,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 11
+            "rank": {
+                "ample": 17, 
+                "ochiai": 11, 
+                "tarantula": 17
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:832": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -189,7 +252,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 12
+            "rank": {
+                "ample": 8, 
+                "ochiai": 12, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:833": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -204,7 +271,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 13
+            "rank": {
+                "ample": 9, 
+                "ochiai": 13, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:834": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -219,7 +290,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 14
+            "rank": {
+                "ample": 13, 
+                "ochiai": 14, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:835": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -234,7 +309,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 15
+            "rank": {
+                "ample": 14, 
+                "ochiai": 15, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:839": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -249,7 +328,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 16
+            "rank": {
+                "ample": 15, 
+                "ochiai": 16, 
+                "tarantula": 15
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:843": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -264,7 +347,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 17
+            "rank": {
+                "ample": 6, 
+                "ochiai": 17, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.math3.util.MathArrays:844": {
             "class": "org.apache.commons.math3.util.MathArrays", 
@@ -279,7 +366,11 @@
             }, 
             "nf": 0, 
             "np": 5047, 
-            "rank": 18
+            "rank": {
+                "ample": 16, 
+                "ochiai": 18, 
+                "tarantula": 16
+            }
         }
     }
 }

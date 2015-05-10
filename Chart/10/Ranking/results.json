@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:52:20.648484", 
+    "date": "2015-05-10T23:33:34.801584", 
     "executedTest": 3625, 
     "failedTest": 2, 
     "failedTestDetails": [
@@ -12,7 +12,82 @@
             "method": "testGenerateURLFragment"
         }
     ], 
-    "node": "griffon-20.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "org.jfree.chart.imagemap.DynamicDriveToolTipTagFragmentGenerator", 
+            "line": 48
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.DynamicDriveToolTipTagFragmentGenerator", 
+            "line": 49
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.DynamicDriveToolTipTagFragmentGenerator", 
+            "line": 85
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.DynamicDriveToolTipTagFragmentGenerator", 
+            "line": 86
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.DynamicDriveToolTipTagFragmentGenerator", 
+            "line": 87
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.DynamicDriveToolTipTagFragmentGenerator", 
+            "line": 88
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator", 
+            "line": 48
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator", 
+            "line": 53
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator", 
+            "line": 54
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator", 
+            "line": 55
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator", 
+            "line": 65
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator", 
+            "line": 66
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.OverLIBToolTipTagFragmentGenerator", 
+            "line": 49
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.OverLIBToolTipTagFragmentGenerator", 
+            "line": 54
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.OverLIBToolTipTagFragmentGenerator", 
+            "line": 55
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.OverLIBToolTipTagFragmentGenerator", 
+            "line": 56
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.OverLIBToolTipTagFragmentGenerator", 
+            "line": 66
+        }, 
+        {
+            "class": "org.jfree.chart.imagemap.OverLIBToolTipTagFragmentGenerator", 
+            "line": 67
+        }
+    ], 
+    "nbsuspicious": 1, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 3623, 
     "suspicious": {
         "org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator:58": {
@@ -28,7 +103,11 @@
             }, 
             "nf": 0, 
             "np": 3623, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }
     }
 }

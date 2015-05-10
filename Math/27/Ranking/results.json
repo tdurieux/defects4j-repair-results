@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:54:14.340915", 
+    "date": "2015-05-10T23:33:16.426651", 
     "executedTest": 3982, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,14 @@
             "method": "testMath835"
         }
     ], 
-    "node": "griffon-31.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.math3.fraction.Fraction", 
+            "line": 597
+        }
+    ], 
+    "nbsuspicious": 21, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 3981, 
     "suspicious": {
         "org.apache.commons.math3.fraction.Fraction:319": {
@@ -24,7 +31,11 @@
             }, 
             "nf": 0, 
             "np": 3955, 
-            "rank": 3
+            "rank": {
+                "ample": 3, 
+                "ochiai": 3, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.math3.fraction.Fraction:555": {
             "class": "org.apache.commons.math3.fraction.Fraction", 
@@ -39,7 +50,11 @@
             }, 
             "nf": 0, 
             "np": 3979, 
-            "rank": 2
+            "rank": {
+                "ample": 2, 
+                "ochiai": 2, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.math3.fraction.Fraction:597": {
             "class": "org.apache.commons.math3.fraction.Fraction", 
@@ -54,7 +69,11 @@
             }, 
             "nf": 0, 
             "np": 3980, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:385": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -69,7 +88,11 @@
             }, 
             "nf": 0, 
             "np": 3780, 
-            "rank": 19
+            "rank": {
+                "ample": 19, 
+                "ochiai": 19, 
+                "tarantula": 19
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:386": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -84,7 +107,11 @@
             }, 
             "nf": 0, 
             "np": 3780, 
-            "rank": 20
+            "rank": {
+                "ample": 20, 
+                "ochiai": 20, 
+                "tarantula": 20
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:387": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -99,7 +126,11 @@
             }, 
             "nf": 0, 
             "np": 3780, 
-            "rank": 21
+            "rank": {
+                "ample": 21, 
+                "ochiai": 21, 
+                "tarantula": 21
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:399": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -114,7 +145,11 @@
             }, 
             "nf": 0, 
             "np": 3783, 
-            "rank": 7
+            "rank": {
+                "ample": 10, 
+                "ochiai": 7, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:400": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -129,7 +164,11 @@
             }, 
             "nf": 0, 
             "np": 3787, 
-            "rank": 6
+            "rank": {
+                "ample": 6, 
+                "ochiai": 6, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:402": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -144,7 +183,11 @@
             }, 
             "nf": 0, 
             "np": 3783, 
-            "rank": 8
+            "rank": {
+                "ample": 18, 
+                "ochiai": 8, 
+                "tarantula": 18
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:403": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -159,7 +202,11 @@
             }, 
             "nf": 0, 
             "np": 3783, 
-            "rank": 9
+            "rank": {
+                "ample": 9, 
+                "ochiai": 9, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:406": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -174,7 +221,11 @@
             }, 
             "nf": 0, 
             "np": 3783, 
-            "rank": 10
+            "rank": {
+                "ample": 7, 
+                "ochiai": 10, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:407": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -189,7 +240,11 @@
             }, 
             "nf": 0, 
             "np": 3783, 
-            "rank": 11
+            "rank": {
+                "ample": 8, 
+                "ochiai": 11, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:413": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -204,7 +259,11 @@
             }, 
             "nf": 0, 
             "np": 3783, 
-            "rank": 12
+            "rank": {
+                "ample": 17, 
+                "ochiai": 12, 
+                "tarantula": 17
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:419": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -219,7 +278,11 @@
             }, 
             "nf": 0, 
             "np": 3783, 
-            "rank": 13
+            "rank": {
+                "ample": 14, 
+                "ochiai": 13, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:425": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -234,7 +297,11 @@
             }, 
             "nf": 0, 
             "np": 3783, 
-            "rank": 14
+            "rank": {
+                "ample": 16, 
+                "ochiai": 14, 
+                "tarantula": 16
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:426": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -249,7 +316,11 @@
             }, 
             "nf": 0, 
             "np": 3791, 
-            "rank": 5
+            "rank": {
+                "ample": 5, 
+                "ochiai": 5, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:429": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -264,7 +335,11 @@
             }, 
             "nf": 0, 
             "np": 3783, 
-            "rank": 15
+            "rank": {
+                "ample": 11, 
+                "ochiai": 15, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:430": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -279,7 +354,11 @@
             }, 
             "nf": 0, 
             "np": 3793, 
-            "rank": 4
+            "rank": {
+                "ample": 4, 
+                "ochiai": 4, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:435": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -294,7 +373,11 @@
             }, 
             "nf": 0, 
             "np": 3783, 
-            "rank": 16
+            "rank": {
+                "ample": 15, 
+                "ochiai": 16, 
+                "tarantula": 15
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:438": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -309,7 +392,11 @@
             }, 
             "nf": 0, 
             "np": 3783, 
-            "rank": 17
+            "rank": {
+                "ample": 12, 
+                "ochiai": 17, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.math3.util.ArithmeticUtils:439": {
             "class": "org.apache.commons.math3.util.ArithmeticUtils", 
@@ -324,7 +411,11 @@
             }, 
             "nf": 0, 
             "np": 3783, 
-            "rank": 18
+            "rank": {
+                "ample": 13, 
+                "ochiai": 18, 
+                "tarantula": 13
+            }
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:51:46.705257", 
+    "date": "2015-05-10T23:33:32.928275", 
     "executedTest": 3303, 
     "failedTest": 2, 
     "failedTestDetails": [
@@ -12,7 +12,322 @@
             "method": "testGetRangeBounds"
         }
     ], 
-    "node": "griffon-91.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 129
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 130
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 144
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 145
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 152
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 153
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 154
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 155
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 157
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 159
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 160
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 161
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 162
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 163
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 164
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 165
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 166
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 168
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 169
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 170
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 171
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 172
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 173
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 174
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 175
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 176
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 177
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 179
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 180
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 181
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 182
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 183
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 184
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 185
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 186
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 187
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 188
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 741
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 742
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 743
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 744
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 745
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 746
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 747
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 748
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 749
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 750
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 751
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 752
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 753
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 754
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 755
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 756
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 757
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 758
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 759
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 760
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 761
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 762
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 763
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 764
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 765
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 766
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 767
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 768
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 769
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 770
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 771
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 772
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 773
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 774
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 775
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 776
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 777
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 778
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 779
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 780
+        }, 
+        {
+            "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
+            "line": 781
+        }
+    ], 
+    "nbsuspicious": 80, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 3301, 
     "suspicious": {
         "org.jfree.data.KeyedObject:103": {
@@ -28,7 +343,11 @@
             }, 
             "nf": 0, 
             "np": 3287, 
-            "rank": 11
+            "rank": {
+                "ample": 12, 
+                "ochiai": 11, 
+                "tarantula": 12
+            }
         }, 
         "org.jfree.data.KeyedObject:104": {
             "class": "org.jfree.data.KeyedObject", 
@@ -43,7 +362,11 @@
             }, 
             "nf": 0, 
             "np": 3287, 
-            "rank": 12
+            "rank": {
+                "ample": 11, 
+                "ochiai": 12, 
+                "tarantula": 11
+            }
         }, 
         "org.jfree.data.KeyedObject:85": {
             "class": "org.jfree.data.KeyedObject", 
@@ -58,7 +381,11 @@
             }, 
             "nf": 0, 
             "np": 3217, 
-            "rank": 58
+            "rank": {
+                "ample": 59, 
+                "ochiai": 58, 
+                "tarantula": 59
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:150": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -73,7 +400,11 @@
             }, 
             "nf": 0, 
             "np": 3249, 
-            "rank": 42
+            "rank": {
+                "ample": 42, 
+                "ochiai": 42, 
+                "tarantula": 42
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:187": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -88,7 +419,11 @@
             }, 
             "nf": 0, 
             "np": 3249, 
-            "rank": 41
+            "rank": {
+                "ample": 41, 
+                "ochiai": 41, 
+                "tarantula": 41
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:250": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -103,7 +438,11 @@
             }, 
             "nf": 0, 
             "np": 3243, 
-            "rank": 43
+            "rank": {
+                "ample": 44, 
+                "ochiai": 43, 
+                "tarantula": 44
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:251": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -118,7 +457,11 @@
             }, 
             "nf": 0, 
             "np": 3243, 
-            "rank": 44
+            "rank": {
+                "ample": 43, 
+                "ochiai": 44, 
+                "tarantula": 43
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:263": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -133,7 +476,11 @@
             }, 
             "nf": 0, 
             "np": 3231, 
-            "rank": 45
+            "rank": {
+                "ample": 50, 
+                "ochiai": 45, 
+                "tarantula": 50
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:266": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -148,7 +495,11 @@
             }, 
             "nf": 0, 
             "np": 3231, 
-            "rank": 46
+            "rank": {
+                "ample": 52, 
+                "ochiai": 46, 
+                "tarantula": 52
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:270": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -163,7 +514,11 @@
             }, 
             "nf": 0, 
             "np": 3231, 
-            "rank": 47
+            "rank": {
+                "ample": 51, 
+                "ochiai": 47, 
+                "tarantula": 51
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:271": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -178,7 +533,11 @@
             }, 
             "nf": 0, 
             "np": 3231, 
-            "rank": 48
+            "rank": {
+                "ample": 48, 
+                "ochiai": 48, 
+                "tarantula": 48
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:272": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -193,7 +552,11 @@
             }, 
             "nf": 0, 
             "np": 3269, 
-            "rank": 40
+            "rank": {
+                "ample": 40, 
+                "ochiai": 40, 
+                "tarantula": 40
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:275": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -208,7 +571,11 @@
             }, 
             "nf": 0, 
             "np": 3231, 
-            "rank": 49
+            "rank": {
+                "ample": 45, 
+                "ochiai": 49, 
+                "tarantula": 45
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:276": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -223,7 +590,11 @@
             }, 
             "nf": 0, 
             "np": 3231, 
-            "rank": 50
+            "rank": {
+                "ample": 46, 
+                "ochiai": 50, 
+                "tarantula": 46
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:277": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -238,7 +609,11 @@
             }, 
             "nf": 0, 
             "np": 3231, 
-            "rank": 51
+            "rank": {
+                "ample": 47, 
+                "ochiai": 51, 
+                "tarantula": 47
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:279": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -253,7 +628,11 @@
             }, 
             "nf": 0, 
             "np": 3231, 
-            "rank": 52
+            "rank": {
+                "ample": 49, 
+                "ochiai": 52, 
+                "tarantula": 49
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:280": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -268,7 +647,11 @@
             }, 
             "nf": 0, 
             "np": 3231, 
-            "rank": 53
+            "rank": {
+                "ample": 54, 
+                "ochiai": 53, 
+                "tarantula": 54
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:281": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -283,7 +666,11 @@
             }, 
             "nf": 0, 
             "np": 3231, 
-            "rank": 54
+            "rank": {
+                "ample": 53, 
+                "ochiai": 54, 
+                "tarantula": 53
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:282": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -298,7 +685,11 @@
             }, 
             "nf": 0, 
             "np": 3231, 
-            "rank": 55
+            "rank": {
+                "ample": 55, 
+                "ochiai": 55, 
+                "tarantula": 55
+            }
         }, 
         "org.jfree.data.KeyedObjects2D:285": {
             "class": "org.jfree.data.KeyedObjects2D", 
@@ -313,7 +704,11 @@
             }, 
             "nf": 0, 
             "np": 3231, 
-            "rank": 56
+            "rank": {
+                "ample": 56, 
+                "ochiai": 56, 
+                "tarantula": 56
+            }
         }, 
         "org.jfree.data.KeyedObjects:128": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -328,7 +723,11 @@
             }, 
             "nf": 0, 
             "np": 3211, 
-            "rank": 61
+            "rank": {
+                "ample": 63, 
+                "ochiai": 61, 
+                "tarantula": 63
+            }
         }, 
         "org.jfree.data.KeyedObjects:131": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -343,7 +742,11 @@
             }, 
             "nf": 0, 
             "np": 3211, 
-            "rank": 62
+            "rank": {
+                "ample": 61, 
+                "ochiai": 62, 
+                "tarantula": 61
+            }
         }, 
         "org.jfree.data.KeyedObjects:132": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -358,7 +761,11 @@
             }, 
             "nf": 0, 
             "np": 3211, 
-            "rank": 63
+            "rank": {
+                "ample": 64, 
+                "ochiai": 63, 
+                "tarantula": 64
+            }
         }, 
         "org.jfree.data.KeyedObjects:133": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -373,7 +780,11 @@
             }, 
             "nf": 0, 
             "np": 3211, 
-            "rank": 64
+            "rank": {
+                "ample": 70, 
+                "ochiai": 64, 
+                "tarantula": 70
+            }
         }, 
         "org.jfree.data.KeyedObjects:134": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -388,7 +799,11 @@
             }, 
             "nf": 0, 
             "np": 3217, 
-            "rank": 59
+            "rank": {
+                "ample": 58, 
+                "ochiai": 59, 
+                "tarantula": 58
+            }
         }, 
         "org.jfree.data.KeyedObjects:135": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -403,7 +818,11 @@
             }, 
             "nf": 0, 
             "np": 3217, 
-            "rank": 60
+            "rank": {
+                "ample": 60, 
+                "ochiai": 60, 
+                "tarantula": 60
+            }
         }, 
         "org.jfree.data.KeyedObjects:136": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -418,7 +837,11 @@
             }, 
             "nf": 0, 
             "np": 3227, 
-            "rank": 57
+            "rank": {
+                "ample": 57, 
+                "ochiai": 57, 
+                "tarantula": 57
+            }
         }, 
         "org.jfree.data.KeyedObjects:140": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -433,7 +856,11 @@
             }, 
             "nf": 0, 
             "np": 3211, 
-            "rank": 65
+            "rank": {
+                "ample": 68, 
+                "ochiai": 65, 
+                "tarantula": 68
+            }
         }, 
         "org.jfree.data.KeyedObjects:201": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -448,7 +875,11 @@
             }, 
             "nf": 0, 
             "np": 3211, 
-            "rank": 66
+            "rank": {
+                "ample": 69, 
+                "ochiai": 66, 
+                "tarantula": 69
+            }
         }, 
         "org.jfree.data.KeyedObjects:202": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -463,7 +894,11 @@
             }, 
             "nf": 0, 
             "np": 3211, 
-            "rank": 67
+            "rank": {
+                "ample": 66, 
+                "ochiai": 67, 
+                "tarantula": 66
+            }
         }, 
         "org.jfree.data.KeyedObjects:203": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -478,7 +913,11 @@
             }, 
             "nf": 0, 
             "np": 3287, 
-            "rank": 13
+            "rank": {
+                "ample": 15, 
+                "ochiai": 13, 
+                "tarantula": 15
+            }
         }, 
         "org.jfree.data.KeyedObjects:204": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -493,7 +932,11 @@
             }, 
             "nf": 0, 
             "np": 3287, 
-            "rank": 14
+            "rank": {
+                "ample": 14, 
+                "ochiai": 14, 
+                "tarantula": 14
+            }
         }, 
         "org.jfree.data.KeyedObjects:205": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -508,7 +951,11 @@
             }, 
             "nf": 0, 
             "np": 3287, 
-            "rank": 15
+            "rank": {
+                "ample": 13, 
+                "ochiai": 15, 
+                "tarantula": 13
+            }
         }, 
         "org.jfree.data.KeyedObjects:207": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -523,7 +970,11 @@
             }, 
             "nf": 0, 
             "np": 3211, 
-            "rank": 68
+            "rank": {
+                "ample": 67, 
+                "ochiai": 68, 
+                "tarantula": 67
+            }
         }, 
         "org.jfree.data.KeyedObjects:208": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -538,7 +989,11 @@
             }, 
             "nf": 0, 
             "np": 3211, 
-            "rank": 69
+            "rank": {
+                "ample": 62, 
+                "ochiai": 69, 
+                "tarantula": 62
+            }
         }, 
         "org.jfree.data.KeyedObjects:210": {
             "class": "org.jfree.data.KeyedObjects", 
@@ -553,7 +1008,11 @@
             }, 
             "nf": 0, 
             "np": 3211, 
-            "rank": 70
+            "rank": {
+                "ample": 65, 
+                "ochiai": 70, 
+                "tarantula": 65
+            }
         }, 
         "org.jfree.data.Range:330": {
             "class": "org.jfree.data.Range", 
@@ -568,7 +1027,11 @@
             }, 
             "nf": 0, 
             "np": 3135, 
-            "rank": 71
+            "rank": {
+                "ample": 73, 
+                "ochiai": 71, 
+                "tarantula": 73
+            }
         }, 
         "org.jfree.data.Range:333": {
             "class": "org.jfree.data.Range", 
@@ -583,7 +1046,11 @@
             }, 
             "nf": 0, 
             "np": 3135, 
-            "rank": 72
+            "rank": {
+                "ample": 72, 
+                "ochiai": 72, 
+                "tarantula": 72
+            }
         }, 
         "org.jfree.data.Range:334": {
             "class": "org.jfree.data.Range", 
@@ -598,7 +1065,11 @@
             }, 
             "nf": 0, 
             "np": 3135, 
-            "rank": 73
+            "rank": {
+                "ample": 75, 
+                "ochiai": 73, 
+                "tarantula": 75
+            }
         }, 
         "org.jfree.data.Range:335": {
             "class": "org.jfree.data.Range", 
@@ -613,7 +1084,11 @@
             }, 
             "nf": 0, 
             "np": 3291, 
-            "rank": 9
+            "rank": {
+                "ample": 9, 
+                "ochiai": 9, 
+                "tarantula": 9
+            }
         }, 
         "org.jfree.data.Range:337": {
             "class": "org.jfree.data.Range", 
@@ -628,7 +1103,11 @@
             }, 
             "nf": 0, 
             "np": 3135, 
-            "rank": 74
+            "rank": {
+                "ample": 74, 
+                "ochiai": 74, 
+                "tarantula": 74
+            }
         }, 
         "org.jfree.data.Range:340": {
             "class": "org.jfree.data.Range", 
@@ -643,7 +1122,11 @@
             }, 
             "nf": 0, 
             "np": 3135, 
-            "rank": 75
+            "rank": {
+                "ample": 71, 
+                "ochiai": 75, 
+                "tarantula": 71
+            }
         }, 
         "org.jfree.data.Range:365": {
             "class": "org.jfree.data.Range", 
@@ -658,7 +1141,11 @@
             }, 
             "nf": 0, 
             "np": 3301, 
-            "rank": 4
+            "rank": {
+                "ample": 1, 
+                "ochiai": 4, 
+                "tarantula": 1
+            }
         }, 
         "org.jfree.data.general.AbstractDataset:172": {
             "class": "org.jfree.data.general.AbstractDataset", 
@@ -673,7 +1160,11 @@
             }, 
             "nf": 0, 
             "np": 2683, 
-            "rank": 76
+            "rank": {
+                "ample": 77, 
+                "ochiai": 76, 
+                "tarantula": 77
+            }
         }, 
         "org.jfree.data.general.AbstractDataset:173": {
             "class": "org.jfree.data.general.AbstractDataset", 
@@ -688,7 +1179,11 @@
             }, 
             "nf": 0, 
             "np": 2683, 
-            "rank": 77
+            "rank": {
+                "ample": 76, 
+                "ochiai": 77, 
+                "tarantula": 76
+            }
         }, 
         "org.jfree.data.general.AbstractDataset:186": {
             "class": "org.jfree.data.general.AbstractDataset", 
@@ -703,7 +1198,11 @@
             }, 
             "nf": 0, 
             "np": 2607, 
-            "rank": 78
+            "rank": {
+                "ample": 78, 
+                "ochiai": 78, 
+                "tarantula": 78
+            }
         }, 
         "org.jfree.data.general.AbstractDataset:187": {
             "class": "org.jfree.data.general.AbstractDataset", 
@@ -718,7 +1217,11 @@
             }, 
             "nf": 0, 
             "np": 2607, 
-            "rank": 79
+            "rank": {
+                "ample": 80, 
+                "ochiai": 79, 
+                "tarantula": 80
+            }
         }, 
         "org.jfree.data.general.AbstractDataset:194": {
             "class": "org.jfree.data.general.AbstractDataset", 
@@ -733,7 +1236,11 @@
             }, 
             "nf": 0, 
             "np": 2607, 
-            "rank": 80
+            "rank": {
+                "ample": 79, 
+                "ochiai": 80, 
+                "tarantula": 79
+            }
         }, 
         "org.jfree.data.statistics.BoxAndWhiskerItem:214": {
             "class": "org.jfree.data.statistics.BoxAndWhiskerItem", 
@@ -748,7 +1255,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 16
+            "rank": {
+                "ample": 16, 
+                "ochiai": 16, 
+                "tarantula": 16
+            }
         }, 
         "org.jfree.data.statistics.BoxAndWhiskerItem:223": {
             "class": "org.jfree.data.statistics.BoxAndWhiskerItem", 
@@ -763,7 +1274,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 17
+            "rank": {
+                "ample": 31, 
+                "ochiai": 17, 
+                "tarantula": 31
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:144": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -778,7 +1293,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 18
+            "rank": {
+                "ample": 34, 
+                "ochiai": 18, 
+                "tarantula": 34
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:147": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -793,7 +1312,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 19
+            "rank": {
+                "ample": 32, 
+                "ochiai": 19, 
+                "tarantula": 32
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:148": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -808,7 +1331,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 20
+            "rank": {
+                "ample": 27, 
+                "ochiai": 20, 
+                "tarantula": 27
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:149": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -823,7 +1350,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 21
+            "rank": {
+                "ample": 26, 
+                "ochiai": 21, 
+                "tarantula": 26
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:151": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -838,7 +1369,11 @@
             }, 
             "nf": 0, 
             "np": 3299, 
-            "rank": 5
+            "rank": {
+                "ample": 6, 
+                "ochiai": 5, 
+                "tarantula": 6
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:153": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -853,7 +1388,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 22
+            "rank": {
+                "ample": 19, 
+                "ochiai": 22, 
+                "tarantula": 19
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:155": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -868,7 +1407,11 @@
             }, 
             "nf": 0, 
             "np": 3299, 
-            "rank": 6
+            "rank": {
+                "ample": 5, 
+                "ochiai": 6, 
+                "tarantula": 5
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:159": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -883,7 +1426,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 23
+            "rank": {
+                "ample": 39, 
+                "ochiai": 23, 
+                "tarantula": 39
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:160": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -898,7 +1445,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 24
+            "rank": {
+                "ample": 29, 
+                "ochiai": 24, 
+                "tarantula": 29
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:161": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -913,7 +1464,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 25
+            "rank": {
+                "ample": 28, 
+                "ochiai": 25, 
+                "tarantula": 28
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:163": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -928,7 +1483,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 26
+            "rank": {
+                "ample": 30, 
+                "ochiai": 26, 
+                "tarantula": 30
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:164": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -943,7 +1502,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 27
+            "rank": {
+                "ample": 25, 
+                "ochiai": 27, 
+                "tarantula": 25
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:165": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -958,7 +1521,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 28
+            "rank": {
+                "ample": 24, 
+                "ochiai": 28, 
+                "tarantula": 24
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:168": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -973,7 +1540,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 29
+            "rank": {
+                "ample": 33, 
+                "ochiai": 29, 
+                "tarantula": 33
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:169": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -988,7 +1559,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 30
+            "rank": {
+                "ample": 20, 
+                "ochiai": 30, 
+                "tarantula": 20
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:170": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1003,7 +1578,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 31
+            "rank": {
+                "ample": 17, 
+                "ochiai": 31, 
+                "tarantula": 17
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:171": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1018,7 +1597,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 32
+            "rank": {
+                "ample": 18, 
+                "ochiai": 32, 
+                "tarantula": 18
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:173": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1033,7 +1616,11 @@
             }, 
             "nf": 0, 
             "np": 3297, 
-            "rank": 8
+            "rank": {
+                "ample": 8, 
+                "ochiai": 8, 
+                "tarantula": 8
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:174": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1048,7 +1635,11 @@
             }, 
             "nf": 0, 
             "np": 3301, 
-            "rank": 1
+            "rank": {
+                "ample": 3, 
+                "ochiai": 1, 
+                "tarantula": 3
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:175": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1063,7 +1654,11 @@
             }, 
             "nf": 0, 
             "np": 3301, 
-            "rank": 2
+            "rank": {
+                "ample": 4, 
+                "ochiai": 2, 
+                "tarantula": 4
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:176": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1078,7 +1673,11 @@
             }, 
             "nf": 0, 
             "np": 3301, 
-            "rank": 3
+            "rank": {
+                "ample": 2, 
+                "ochiai": 3, 
+                "tarantula": 2
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:179": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1093,7 +1692,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 33
+            "rank": {
+                "ample": 22, 
+                "ochiai": 33, 
+                "tarantula": 22
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:180": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1108,7 +1711,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 34
+            "rank": {
+                "ample": 38, 
+                "ochiai": 34, 
+                "tarantula": 38
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:181": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1123,7 +1730,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 35
+            "rank": {
+                "ample": 37, 
+                "ochiai": 35, 
+                "tarantula": 37
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:182": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1138,7 +1749,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 36
+            "rank": {
+                "ample": 36, 
+                "ochiai": 36, 
+                "tarantula": 36
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:184": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1153,7 +1768,11 @@
             }, 
             "nf": 0, 
             "np": 3299, 
-            "rank": 7
+            "rank": {
+                "ample": 7, 
+                "ochiai": 7, 
+                "tarantula": 7
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:190": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1168,7 +1787,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 37
+            "rank": {
+                "ample": 21, 
+                "ochiai": 37, 
+                "tarantula": 21
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:193": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1183,7 +1806,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 38
+            "rank": {
+                "ample": 35, 
+                "ochiai": 38, 
+                "tarantula": 35
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:195": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1198,7 +1825,11 @@
             }, 
             "nf": 0, 
             "np": 3281, 
-            "rank": 39
+            "rank": {
+                "ample": 23, 
+                "ochiai": 39, 
+                "tarantula": 23
+            }
         }, 
         "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset:534": {
             "class": "org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset", 
@@ -1213,7 +1844,11 @@
             }, 
             "nf": 0, 
             "np": 3289, 
-            "rank": 10
+            "rank": {
+                "ample": 10, 
+                "ochiai": 10, 
+                "tarantula": 10
+            }
         }
     }
 }

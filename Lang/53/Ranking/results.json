@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:48:14.528485", 
+    "date": "2015-05-10T23:33:27.011038", 
     "executedTest": 1718, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,34 @@
             "method": "testRoundLang346"
         }
     ], 
-    "node": "griffon-67.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.lang.time.DateUtils", 
+            "line": 643
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.time.DateUtils", 
+            "line": 644
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.time.DateUtils", 
+            "line": 645
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.time.DateUtils", 
+            "line": 652
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.time.DateUtils", 
+            "line": 653
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.time.DateUtils", 
+            "line": 654
+        }
+    ], 
+    "nbsuspicious": 38, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 1717, 
     "suspicious": {
         "org.apache.commons.lang.time.DateUtils:437": {
@@ -24,7 +51,11 @@
             }, 
             "nf": 0, 
             "np": 1715, 
-            "rank": 3
+            "rank": {
+                "ample": 7, 
+                "ochiai": 3, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:440": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -39,7 +70,11 @@
             }, 
             "nf": 0, 
             "np": 1715, 
-            "rank": 4
+            "rank": {
+                "ample": 3, 
+                "ochiai": 4, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:441": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -54,7 +89,11 @@
             }, 
             "nf": 0, 
             "np": 1715, 
-            "rank": 5
+            "rank": {
+                "ample": 4, 
+                "ochiai": 5, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:442": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -69,7 +108,11 @@
             }, 
             "nf": 0, 
             "np": 1715, 
-            "rank": 6
+            "rank": {
+                "ample": 5, 
+                "ochiai": 6, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:443": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -84,7 +127,11 @@
             }, 
             "nf": 0, 
             "np": 1715, 
-            "rank": 7
+            "rank": {
+                "ample": 6, 
+                "ochiai": 7, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:621": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -99,7 +146,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 8
+            "rank": {
+                "ample": 31, 
+                "ochiai": 8, 
+                "tarantula": 31
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:625": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -114,7 +165,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 9
+            "rank": {
+                "ample": 32, 
+                "ochiai": 9, 
+                "tarantula": 32
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:635": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -129,7 +184,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 10
+            "rank": {
+                "ample": 13, 
+                "ochiai": 10, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:636": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -144,7 +203,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 11
+            "rank": {
+                "ample": 12, 
+                "ochiai": 11, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:637": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -159,7 +222,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 12
+            "rank": {
+                "ample": 11, 
+                "ochiai": 12, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:640": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -174,7 +241,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 13
+            "rank": {
+                "ample": 36, 
+                "ochiai": 13, 
+                "tarantula": 36
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:641": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -189,7 +260,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 14
+            "rank": {
+                "ample": 37, 
+                "ochiai": 14, 
+                "tarantula": 37
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:649": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -204,7 +279,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 15
+            "rank": {
+                "ample": 33, 
+                "ochiai": 15, 
+                "tarantula": 33
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:650": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -219,7 +298,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 16
+            "rank": {
+                "ample": 20, 
+                "ochiai": 16, 
+                "tarantula": 20
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:658": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -234,7 +317,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 17
+            "rank": {
+                "ample": 15, 
+                "ochiai": 17, 
+                "tarantula": 15
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:659": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -249,7 +336,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 18
+            "rank": {
+                "ample": 14, 
+                "ochiai": 18, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:660": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -264,7 +355,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 19
+            "rank": {
+                "ample": 38, 
+                "ochiai": 19, 
+                "tarantula": 38
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:664": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -279,7 +374,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 20
+            "rank": {
+                "ample": 34, 
+                "ochiai": 20, 
+                "tarantula": 34
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:665": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -294,7 +393,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 21
+            "rank": {
+                "ample": 35, 
+                "ochiai": 21, 
+                "tarantula": 35
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:666": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -309,7 +412,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 22
+            "rank": {
+                "ample": 28, 
+                "ochiai": 22, 
+                "tarantula": 28
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:670": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -324,7 +431,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 23
+            "rank": {
+                "ample": 17, 
+                "ochiai": 23, 
+                "tarantula": 17
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:671": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -339,7 +450,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 24
+            "rank": {
+                "ample": 16, 
+                "ochiai": 24, 
+                "tarantula": 16
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:672": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -354,7 +469,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 25
+            "rank": {
+                "ample": 10, 
+                "ochiai": 25, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:673": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -369,7 +488,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 26
+            "rank": {
+                "ample": 9, 
+                "ochiai": 26, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:675": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -384,7 +507,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 27
+            "rank": {
+                "ample": 18, 
+                "ochiai": 27, 
+                "tarantula": 18
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:676": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -399,7 +526,11 @@
             }, 
             "nf": 0, 
             "np": 1716, 
-            "rank": 1
+            "rank": {
+                "ample": 2, 
+                "ochiai": 1, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:689": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -414,7 +545,11 @@
             }, 
             "nf": 0, 
             "np": 1716, 
-            "rank": 2
+            "rank": {
+                "ample": 1, 
+                "ochiai": 2, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:692": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -429,7 +564,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 28
+            "rank": {
+                "ample": 29, 
+                "ochiai": 28, 
+                "tarantula": 29
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:696": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -444,7 +583,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 29
+            "rank": {
+                "ample": 27, 
+                "ochiai": 29, 
+                "tarantula": 27
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:697": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -459,7 +602,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 30
+            "rank": {
+                "ample": 26, 
+                "ochiai": 30, 
+                "tarantula": 26
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:699": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -474,7 +621,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 31
+            "rank": {
+                "ample": 24, 
+                "ochiai": 31, 
+                "tarantula": 24
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:729": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -489,7 +640,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 32
+            "rank": {
+                "ample": 8, 
+                "ochiai": 32, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:730": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -504,7 +659,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 33
+            "rank": {
+                "ample": 23, 
+                "ochiai": 33, 
+                "tarantula": 23
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:731": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -519,7 +678,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 34
+            "rank": {
+                "ample": 19, 
+                "ochiai": 34, 
+                "tarantula": 19
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:733": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -534,7 +697,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 35
+            "rank": {
+                "ample": 22, 
+                "ochiai": 35, 
+                "tarantula": 22
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:735": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -549,7 +716,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 36
+            "rank": {
+                "ample": 25, 
+                "ochiai": 36, 
+                "tarantula": 25
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:738": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -564,7 +735,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 37
+            "rank": {
+                "ample": 21, 
+                "ochiai": 37, 
+                "tarantula": 21
+            }
         }, 
         "org.apache.commons.lang.time.DateUtils:739": {
             "class": "org.apache.commons.lang.time.DateUtils", 
@@ -579,7 +754,11 @@
             }, 
             "nf": 0, 
             "np": 1712, 
-            "rank": 38
+            "rank": {
+                "ample": 30, 
+                "ochiai": 38, 
+                "tarantula": 30
+            }
         }
     }
 }

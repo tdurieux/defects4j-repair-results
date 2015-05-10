@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:52:51.778090", 
+    "date": "2015-05-10T23:33:17.287445", 
     "executedTest": 3559, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,14 @@
             "method": "testIterator"
         }
     ], 
-    "node": "griffon-39.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.math3.genetics.ListPopulation", 
+            "line": 209
+        }
+    ], 
+    "nbsuspicious": 13, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 3558, 
     "suspicious": {
         "org.apache.commons.math3.genetics.BinaryChromosome:58": {
@@ -24,7 +31,11 @@
             }, 
             "nf": 0, 
             "np": 3545, 
-            "rank": 10
+            "rank": {
+                "ample": 10, 
+                "ochiai": 10, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.math3.genetics.BinaryChromosome:59": {
             "class": "org.apache.commons.math3.genetics.BinaryChromosome", 
@@ -39,7 +50,11 @@
             }, 
             "nf": 0, 
             "np": 3545, 
-            "rank": 11
+            "rank": {
+                "ample": 11, 
+                "ochiai": 11, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.math3.genetics.BinaryChromosome:63": {
             "class": "org.apache.commons.math3.genetics.BinaryChromosome", 
@@ -54,7 +69,11 @@
             }, 
             "nf": 0, 
             "np": 3545, 
-            "rank": 12
+            "rank": {
+                "ample": 12, 
+                "ochiai": 12, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.math3.genetics.BinaryChromosome:64": {
             "class": "org.apache.commons.math3.genetics.BinaryChromosome", 
@@ -69,7 +88,11 @@
             }, 
             "nf": 0, 
             "np": 3546, 
-            "rank": 9
+            "rank": {
+                "ample": 9, 
+                "ochiai": 9, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.math3.genetics.BinaryChromosome:73": {
             "class": "org.apache.commons.math3.genetics.BinaryChromosome", 
@@ -84,7 +107,11 @@
             }, 
             "nf": 0, 
             "np": 3548, 
-            "rank": 5
+            "rank": {
+                "ample": 5, 
+                "ochiai": 5, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.math3.genetics.BinaryChromosome:74": {
             "class": "org.apache.commons.math3.genetics.BinaryChromosome", 
@@ -99,7 +126,11 @@
             }, 
             "nf": 0, 
             "np": 3548, 
-            "rank": 6
+            "rank": {
+                "ample": 6, 
+                "ochiai": 6, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.math3.genetics.BinaryChromosome:75": {
             "class": "org.apache.commons.math3.genetics.BinaryChromosome", 
@@ -114,7 +145,11 @@
             }, 
             "nf": 0, 
             "np": 3548, 
-            "rank": 7
+            "rank": {
+                "ample": 7, 
+                "ochiai": 7, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.math3.genetics.BinaryChromosome:77": {
             "class": "org.apache.commons.math3.genetics.BinaryChromosome", 
@@ -129,7 +164,11 @@
             }, 
             "nf": 0, 
             "np": 3548, 
-            "rank": 8
+            "rank": {
+                "ample": 8, 
+                "ochiai": 8, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.math3.genetics.GeneticAlgorithm:104": {
             "class": "org.apache.commons.math3.genetics.GeneticAlgorithm", 
@@ -144,7 +183,11 @@
             }, 
             "nf": 0, 
             "np": 3543, 
-            "rank": 13
+            "rank": {
+                "ample": 13, 
+                "ochiai": 13, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.math3.genetics.ListPopulation:108": {
             "class": "org.apache.commons.math3.genetics.ListPopulation", 
@@ -159,7 +202,11 @@
             }, 
             "nf": 0, 
             "np": 3556, 
-            "rank": 4
+            "rank": {
+                "ample": 4, 
+                "ochiai": 4, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.math3.genetics.ListPopulation:112": {
             "class": "org.apache.commons.math3.genetics.ListPopulation", 
@@ -174,7 +221,11 @@
             }, 
             "nf": 0, 
             "np": 3557, 
-            "rank": 2
+            "rank": {
+                "ample": 2, 
+                "ochiai": 2, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.math3.genetics.ListPopulation:113": {
             "class": "org.apache.commons.math3.genetics.ListPopulation", 
@@ -189,7 +240,11 @@
             }, 
             "nf": 0, 
             "np": 3557, 
-            "rank": 3
+            "rank": {
+                "ample": 3, 
+                "ochiai": 3, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.math3.genetics.ListPopulation:208": {
             "class": "org.apache.commons.math3.genetics.ListPopulation", 
@@ -204,7 +259,11 @@
             }, 
             "nf": 0, 
             "np": 3557, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }
     }
 }

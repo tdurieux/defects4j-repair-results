@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:52:01.174166", 
+    "date": "2015-05-10T23:33:33.863159", 
     "executedTest": 3575, 
     "failedTest": 16, 
     "failedTestDetails": [
@@ -68,7 +68,26 @@
             "method": "testCloning2"
         }
     ], 
-    "node": "griffon-35.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
+            "line": 67
+        }, 
+        {
+            "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
+            "line": 207
+        }, 
+        {
+            "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
+            "line": 208
+        }, 
+        {
+            "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
+            "line": 338
+        }
+    ], 
+    "nbsuspicious": 20, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 3559, 
     "suspicious": {
         "org.jfree.data.DataUtilities:125": {
@@ -84,7 +103,11 @@
             }, 
             "nf": 0, 
             "np": 3531, 
-            "rank": 1
+            "rank": {
+                "ample": 3, 
+                "ochiai": 1, 
+                "tarantula": 11
+            }
         }, 
         "org.jfree.data.DataUtilities:128": {
             "class": "org.jfree.data.DataUtilities", 
@@ -99,7 +122,11 @@
             }, 
             "nf": 0, 
             "np": 3531, 
-            "rank": 2
+            "rank": {
+                "ample": 5, 
+                "ochiai": 2, 
+                "tarantula": 13
+            }
         }, 
         "org.jfree.data.DataUtilities:129": {
             "class": "org.jfree.data.DataUtilities", 
@@ -114,7 +141,11 @@
             }, 
             "nf": 0, 
             "np": 3531, 
-            "rank": 3
+            "rank": {
+                "ample": 4, 
+                "ochiai": 3, 
+                "tarantula": 12
+            }
         }, 
         "org.jfree.data.DataUtilities:130": {
             "class": "org.jfree.data.DataUtilities", 
@@ -129,7 +160,11 @@
             }, 
             "nf": 0, 
             "np": 3531, 
-            "rank": 4
+            "rank": {
+                "ample": 2, 
+                "ochiai": 4, 
+                "tarantula": 10
+            }
         }, 
         "org.jfree.data.DataUtilities:133": {
             "class": "org.jfree.data.DataUtilities", 
@@ -144,7 +179,11 @@
             }, 
             "nf": 0, 
             "np": 3531, 
-            "rank": 5
+            "rank": {
+                "ample": 1, 
+                "ochiai": 5, 
+                "tarantula": 9
+            }
         }, 
         "org.jfree.data.category.DefaultIntervalCategoryDataset:241": {
             "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
@@ -159,7 +198,11 @@
             }, 
             "nf": 12, 
             "np": 3553, 
-            "rank": 10
+            "rank": {
+                "ample": 7, 
+                "ochiai": 10, 
+                "tarantula": 7
+            }
         }, 
         "org.jfree.data.category.DefaultIntervalCategoryDataset:242": {
             "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
@@ -174,7 +217,11 @@
             }, 
             "nf": 12, 
             "np": 3553, 
-            "rank": 11
+            "rank": {
+                "ample": 8, 
+                "ochiai": 11, 
+                "tarantula": 8
+            }
         }, 
         "org.jfree.data.category.DefaultIntervalCategoryDataset:335": {
             "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
@@ -189,7 +236,11 @@
             }, 
             "nf": 14, 
             "np": 3559, 
-            "rank": 7
+            "rank": {
+                "ample": 13, 
+                "ochiai": 7, 
+                "tarantula": 3
+            }
         }, 
         "org.jfree.data.category.DefaultIntervalCategoryDataset:338": {
             "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
@@ -204,7 +255,11 @@
             }, 
             "nf": 14, 
             "np": 3559, 
-            "rank": 8
+            "rank": {
+                "ample": 12, 
+                "ochiai": 8, 
+                "tarantula": 2
+            }
         }, 
         "org.jfree.data.category.DefaultIntervalCategoryDataset:573": {
             "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
@@ -219,7 +274,11 @@
             }, 
             "nf": 12, 
             "np": 3551, 
-            "rank": 12
+            "rank": {
+                "ample": 10, 
+                "ochiai": 12, 
+                "tarantula": 15
+            }
         }, 
         "org.jfree.data.category.DefaultIntervalCategoryDataset:574": {
             "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
@@ -234,7 +293,11 @@
             }, 
             "nf": 12, 
             "np": 3551, 
-            "rank": 13
+            "rank": {
+                "ample": 9, 
+                "ochiai": 13, 
+                "tarantula": 14
+            }
         }, 
         "org.jfree.data.category.DefaultIntervalCategoryDataset:625": {
             "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
@@ -249,7 +312,11 @@
             }, 
             "nf": 14, 
             "np": 3553, 
-            "rank": 16
+            "rank": {
+                "ample": 16, 
+                "ochiai": 16, 
+                "tarantula": 16
+            }
         }, 
         "org.jfree.data.category.DefaultIntervalCategoryDataset:628": {
             "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
@@ -264,7 +331,11 @@
             }, 
             "nf": 14, 
             "np": 3553, 
-            "rank": 17
+            "rank": {
+                "ample": 17, 
+                "ochiai": 17, 
+                "tarantula": 17
+            }
         }, 
         "org.jfree.data.category.DefaultIntervalCategoryDataset:641": {
             "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
@@ -279,7 +350,11 @@
             }, 
             "nf": 14, 
             "np": 3559, 
-            "rank": 9
+            "rank": {
+                "ample": 11, 
+                "ochiai": 9, 
+                "tarantula": 1
+            }
         }, 
         "org.jfree.data.category.DefaultIntervalCategoryDataset:690": {
             "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
@@ -294,7 +369,11 @@
             }, 
             "nf": 12, 
             "np": 3555, 
-            "rank": 6
+            "rank": {
+                "ample": 6, 
+                "ochiai": 6, 
+                "tarantula": 4
+            }
         }, 
         "org.jfree.data.category.DefaultIntervalCategoryDataset:746": {
             "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
@@ -309,7 +388,11 @@
             }, 
             "nf": 14, 
             "np": 3557, 
-            "rank": 14
+            "rank": {
+                "ample": 14, 
+                "ochiai": 14, 
+                "tarantula": 5
+            }
         }, 
         "org.jfree.data.category.DefaultIntervalCategoryDataset:748": {
             "class": "org.jfree.data.category.DefaultIntervalCategoryDataset", 
@@ -324,7 +407,11 @@
             }, 
             "nf": 14, 
             "np": 3557, 
-            "rank": 15
+            "rank": {
+                "ample": 15, 
+                "ochiai": 15, 
+                "tarantula": 6
+            }
         }, 
         "org.jfree.data.general.AbstractDataset:205": {
             "class": "org.jfree.data.general.AbstractDataset", 
@@ -339,7 +426,11 @@
             }, 
             "nf": 14, 
             "np": 3491, 
-            "rank": 18
+            "rank": {
+                "ample": 18, 
+                "ochiai": 18, 
+                "tarantula": 18
+            }
         }, 
         "org.jfree.data.general.AbstractDataset:206": {
             "class": "org.jfree.data.general.AbstractDataset", 
@@ -354,7 +445,11 @@
             }, 
             "nf": 14, 
             "np": 3491, 
-            "rank": 19
+            "rank": {
+                "ample": 20, 
+                "ochiai": 19, 
+                "tarantula": 20
+            }
         }, 
         "org.jfree.data.general.AbstractDataset:207": {
             "class": "org.jfree.data.general.AbstractDataset", 
@@ -369,7 +464,11 @@
             }, 
             "nf": 14, 
             "np": 3491, 
-            "rank": 20
+            "rank": {
+                "ample": 19, 
+                "ochiai": 20, 
+                "tarantula": 19
+            }
         }
     }
 }

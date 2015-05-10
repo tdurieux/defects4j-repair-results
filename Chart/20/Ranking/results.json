@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:51:46.865254", 
+    "date": "2015-05-10T23:33:34.101192", 
     "executedTest": 3311, 
     "failedTest": 2, 
     "failedTestDetails": [
@@ -12,7 +12,14 @@
             "method": "test1808376"
         }
     ], 
-    "node": "griffon-74.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "org.jfree.chart.plot.ValueMarker", 
+            "line": 95
+        }
+    ], 
+    "nbsuspicious": 4, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 3309, 
     "suspicious": {
         "org.jfree.chart.plot.Marker:211": {
@@ -28,7 +35,11 @@
             }, 
             "nf": 0, 
             "np": 3251, 
-            "rank": 3
+            "rank": {
+                "ample": 3, 
+                "ochiai": 3, 
+                "tarantula": 3
+            }
         }, 
         "org.jfree.chart.plot.Marker:238": {
             "class": "org.jfree.chart.plot.Marker", 
@@ -43,7 +54,11 @@
             }, 
             "nf": 0, 
             "np": 3257, 
-            "rank": 2
+            "rank": {
+                "ample": 2, 
+                "ochiai": 2, 
+                "tarantula": 2
+            }
         }, 
         "org.jfree.chart.plot.Marker:265": {
             "class": "org.jfree.chart.plot.Marker", 
@@ -58,7 +73,11 @@
             }, 
             "nf": 0, 
             "np": 3301, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }, 
         "org.jfree.chart.plot.ValueMarker:107": {
             "class": "org.jfree.chart.plot.ValueMarker", 
@@ -73,7 +92,11 @@
             }, 
             "nf": 0, 
             "np": 3249, 
-            "rank": 4
+            "rank": {
+                "ample": 4, 
+                "ochiai": 4, 
+                "tarantula": 4
+            }
         }
     }
 }

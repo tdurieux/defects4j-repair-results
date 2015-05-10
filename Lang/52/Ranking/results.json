@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:48:13.349051", 
+    "date": "2015-05-10T23:33:27.084858", 
     "executedTest": 1725, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,26 @@
             "method": "testEscapeJavaScript"
         }
     ], 
-    "node": "griffon-63.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.lang.StringEscapeUtils", 
+            "line": 236
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.StringEscapeUtils", 
+            "line": 237
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.StringEscapeUtils", 
+            "line": 238
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.StringEscapeUtils", 
+            "line": 239
+        }
+    ], 
+    "nbsuspicious": 27, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 1724, 
     "suspicious": {
         "org.apache.commons.lang.StringEscapeUtils:122": {
@@ -24,7 +43,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:138": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -39,7 +62,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 2
+            "rank": {
+                "ample": 3, 
+                "ochiai": 2, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:149": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -54,7 +81,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 12
+            "rank": {
+                "ample": 12, 
+                "ochiai": 12, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:150": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -69,7 +100,11 @@
             }, 
             "nf": 0, 
             "np": 1723, 
-            "rank": 4
+            "rank": {
+                "ample": 5, 
+                "ochiai": 4, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:153": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -84,7 +119,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 13
+            "rank": {
+                "ample": 19, 
+                "ochiai": 13, 
+                "tarantula": 19
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:154": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -99,7 +138,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 14
+            "rank": {
+                "ample": 20, 
+                "ochiai": 14, 
+                "tarantula": 20
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:155": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -114,7 +157,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 15
+            "rank": {
+                "ample": 21, 
+                "ochiai": 15, 
+                "tarantula": 21
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:172": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -129,7 +176,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 16
+            "rank": {
+                "ample": 26, 
+                "ochiai": 16, 
+                "tarantula": 26
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:173": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -144,7 +195,11 @@
             }, 
             "nf": 0, 
             "np": 1723, 
-            "rank": 5
+            "rank": {
+                "ample": 8, 
+                "ochiai": 5, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:175": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -159,7 +214,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 17
+            "rank": {
+                "ample": 27, 
+                "ochiai": 17, 
+                "tarantula": 27
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:179": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -174,7 +233,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 18
+            "rank": {
+                "ample": 23, 
+                "ochiai": 18, 
+                "tarantula": 23
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:180": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -189,7 +252,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 19
+            "rank": {
+                "ample": 17, 
+                "ochiai": 19, 
+                "tarantula": 17
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:181": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -204,7 +271,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 20
+            "rank": {
+                "ample": 16, 
+                "ochiai": 20, 
+                "tarantula": 16
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:184": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -219,7 +290,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 21
+            "rank": {
+                "ample": 14, 
+                "ochiai": 21, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:186": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -234,7 +309,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 22
+            "rank": {
+                "ample": 15, 
+                "ochiai": 22, 
+                "tarantula": 15
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:188": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -249,7 +328,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 23
+            "rank": {
+                "ample": 18, 
+                "ochiai": 23, 
+                "tarantula": 18
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:190": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -264,7 +347,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 24
+            "rank": {
+                "ample": 25, 
+                "ochiai": 24, 
+                "tarantula": 25
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:221": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -279,7 +366,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 25
+            "rank": {
+                "ample": 13, 
+                "ochiai": 25, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:223": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -294,7 +385,11 @@
             }, 
             "nf": 0, 
             "np": 1722, 
-            "rank": 9
+            "rank": {
+                "ample": 11, 
+                "ochiai": 9, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:224": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -309,7 +404,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 3
+            "rank": {
+                "ample": 2, 
+                "ochiai": 3, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:226": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -324,7 +423,11 @@
             }, 
             "nf": 0, 
             "np": 1722, 
-            "rank": 10
+            "rank": {
+                "ample": 9, 
+                "ochiai": 10, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:227": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -339,7 +442,11 @@
             }, 
             "nf": 0, 
             "np": 1722, 
-            "rank": 11
+            "rank": {
+                "ample": 10, 
+                "ochiai": 11, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:229": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -354,7 +461,11 @@
             }, 
             "nf": 0, 
             "np": 1723, 
-            "rank": 6
+            "rank": {
+                "ample": 4, 
+                "ochiai": 6, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:230": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -369,7 +480,11 @@
             }, 
             "nf": 0, 
             "np": 1723, 
-            "rank": 7
+            "rank": {
+                "ample": 7, 
+                "ochiai": 7, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:231": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -384,7 +499,11 @@
             }, 
             "nf": 0, 
             "np": 1723, 
-            "rank": 8
+            "rank": {
+                "ample": 6, 
+                "ochiai": 8, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:237": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -399,7 +518,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 26
+            "rank": {
+                "ample": 24, 
+                "ochiai": 26, 
+                "tarantula": 24
+            }
         }, 
         "org.apache.commons.lang.StringEscapeUtils:242": {
             "class": "org.apache.commons.lang.StringEscapeUtils", 
@@ -414,7 +537,11 @@
             }, 
             "nf": 0, 
             "np": 1721, 
-            "rank": 27
+            "rank": {
+                "ample": 22, 
+                "ochiai": 27, 
+                "tarantula": 22
+            }
         }
     }
 }

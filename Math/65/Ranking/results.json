@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:42:41.209618", 
+    "date": "2015-05-10T23:33:15.164117", 
     "executedTest": 2273, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,30 @@
             "method": "testCircleFitting"
         }
     ], 
-    "node": "griffon-57.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.math.linear.EigenDecompositionImpl", 
+            "line": 564
+        }, 
+        {
+            "class": "a.org.apache.commons.math.linear.SingularValueDecompositionImpl", 
+            "line": 111
+        }, 
+        {
+            "class": "a.org.apache.commons.math.linear.SingularValueDecompositionImpl", 
+            "line": 143
+        }, 
+        {
+            "class": "a.org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
+            "line": 240
+        }, 
+        {
+            "class": "a.org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
+            "line": 253
+        }
+    ], 
+    "nbsuspicious": 323, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 2272, 
     "suspicious": {
         "org.apache.commons.math.linear.AbstractRealMatrix:638": {
@@ -24,7 +47,11 @@
             }, 
             "nf": 0, 
             "np": 2148, 
-            "rank": 296
+            "rank": {
+                "ample": 296, 
+                "ochiai": 296, 
+                "tarantula": 296
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:298": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -39,7 +66,11 @@
             }, 
             "nf": 0, 
             "np": 2144, 
-            "rank": 297
+            "rank": {
+                "ample": 297, 
+                "ochiai": 297, 
+                "tarantula": 297
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:316": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -54,7 +85,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 307
+            "rank": {
+                "ample": 321, 
+                "ochiai": 307, 
+                "tarantula": 321
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:317": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -69,7 +104,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 308
+            "rank": {
+                "ample": 317, 
+                "ochiai": 308, 
+                "tarantula": 317
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:321": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -84,7 +123,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 309
+            "rank": {
+                "ample": 318, 
+                "ochiai": 309, 
+                "tarantula": 318
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:325": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -99,7 +142,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 310
+            "rank": {
+                "ample": 310, 
+                "ochiai": 310, 
+                "tarantula": 310
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:326": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -114,7 +161,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 311
+            "rank": {
+                "ample": 309, 
+                "ochiai": 311, 
+                "tarantula": 309
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:331": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -129,7 +180,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 312
+            "rank": {
+                "ample": 312, 
+                "ochiai": 312, 
+                "tarantula": 312
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:332": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -144,7 +199,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 313
+            "rank": {
+                "ample": 313, 
+                "ochiai": 313, 
+                "tarantula": 313
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:336": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -159,7 +218,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 314
+            "rank": {
+                "ample": 316, 
+                "ochiai": 314, 
+                "tarantula": 316
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:337": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -174,7 +237,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 315
+            "rank": {
+                "ample": 307, 
+                "ochiai": 315, 
+                "tarantula": 307
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:338": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -189,7 +256,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 316
+            "rank": {
+                "ample": 319, 
+                "ochiai": 316, 
+                "tarantula": 319
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:342": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -204,7 +275,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 317
+            "rank": {
+                "ample": 315, 
+                "ochiai": 317, 
+                "tarantula": 315
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:344": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -219,7 +294,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 318
+            "rank": {
+                "ample": 314, 
+                "ochiai": 318, 
+                "tarantula": 314
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:348": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -234,7 +313,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 319
+            "rank": {
+                "ample": 320, 
+                "ochiai": 319, 
+                "tarantula": 320
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:355": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -249,7 +332,11 @@
             }, 
             "nf": 0, 
             "np": 2113, 
-            "rank": 303
+            "rank": {
+                "ample": 303, 
+                "ochiai": 303, 
+                "tarantula": 303
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:367": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -264,7 +351,11 @@
             }, 
             "nf": 0, 
             "np": 2098, 
-            "rank": 304
+            "rank": {
+                "ample": 305, 
+                "ochiai": 304, 
+                "tarantula": 305
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:371": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -279,7 +370,11 @@
             }, 
             "nf": 0, 
             "np": 2098, 
-            "rank": 305
+            "rank": {
+                "ample": 304, 
+                "ochiai": 305, 
+                "tarantula": 304
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:372": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -294,7 +389,11 @@
             }, 
             "nf": 0, 
             "np": 2098, 
-            "rank": 306
+            "rank": {
+                "ample": 306, 
+                "ochiai": 306, 
+                "tarantula": 306
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:401": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -309,7 +408,11 @@
             }, 
             "nf": 0, 
             "np": 2047, 
-            "rank": 323
+            "rank": {
+                "ample": 323, 
+                "ochiai": 323, 
+                "tarantula": 323
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:407": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -324,7 +427,11 @@
             }, 
             "nf": 0, 
             "np": 2048, 
-            "rank": 322
+            "rank": {
+                "ample": 322, 
+                "ochiai": 322, 
+                "tarantula": 322
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:597": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -339,7 +446,11 @@
             }, 
             "nf": 0, 
             "np": 2142, 
-            "rank": 298
+            "rank": {
+                "ample": 302, 
+                "ochiai": 298, 
+                "tarantula": 302
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:598": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -354,7 +465,11 @@
             }, 
             "nf": 0, 
             "np": 2142, 
-            "rank": 299
+            "rank": {
+                "ample": 298, 
+                "ochiai": 299, 
+                "tarantula": 298
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:600": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -369,7 +484,11 @@
             }, 
             "nf": 0, 
             "np": 2142, 
-            "rank": 300
+            "rank": {
+                "ample": 300, 
+                "ochiai": 300, 
+                "tarantula": 300
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:601": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -384,7 +503,11 @@
             }, 
             "nf": 0, 
             "np": 2142, 
-            "rank": 301
+            "rank": {
+                "ample": 301, 
+                "ochiai": 301, 
+                "tarantula": 301
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:603": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -399,7 +522,11 @@
             }, 
             "nf": 0, 
             "np": 2142, 
-            "rank": 302
+            "rank": {
+                "ample": 299, 
+                "ochiai": 302, 
+                "tarantula": 299
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:617": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -414,7 +541,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 320
+            "rank": {
+                "ample": 308, 
+                "ochiai": 320, 
+                "tarantula": 308
+            }
         }, 
         "org.apache.commons.math.linear.Array2DRowRealMatrix:618": {
             "class": "org.apache.commons.math.linear.Array2DRowRealMatrix", 
@@ -429,7 +560,11 @@
             }, 
             "nf": 0, 
             "np": 2097, 
-            "rank": 321
+            "rank": {
+                "ample": 311, 
+                "ochiai": 321, 
+                "tarantula": 311
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:361": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -444,7 +579,11 @@
             }, 
             "nf": 0, 
             "np": 2250, 
-            "rank": 53
+            "rank": {
+                "ample": 53, 
+                "ochiai": 53, 
+                "tarantula": 53
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:362": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -459,7 +598,11 @@
             }, 
             "nf": 0, 
             "np": 2250, 
-            "rank": 54
+            "rank": {
+                "ample": 54, 
+                "ochiai": 54, 
+                "tarantula": 54
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:367": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -474,7 +617,11 @@
             }, 
             "nf": 0, 
             "np": 2251, 
-            "rank": 52
+            "rank": {
+                "ample": 52, 
+                "ochiai": 52, 
+                "tarantula": 52
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:371": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -489,7 +636,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 26
+            "rank": {
+                "ample": 44, 
+                "ochiai": 26, 
+                "tarantula": 44
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:374": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -504,7 +655,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 27
+            "rank": {
+                "ample": 43, 
+                "ochiai": 27, 
+                "tarantula": 43
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:375": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -519,7 +674,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 28
+            "rank": {
+                "ample": 42, 
+                "ochiai": 28, 
+                "tarantula": 42
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:376": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -534,7 +693,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 29
+            "rank": {
+                "ample": 41, 
+                "ochiai": 29, 
+                "tarantula": 41
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:377": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -549,7 +712,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 30
+            "rank": {
+                "ample": 40, 
+                "ochiai": 30, 
+                "tarantula": 40
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:378": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -564,7 +731,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 31
+            "rank": {
+                "ample": 39, 
+                "ochiai": 31, 
+                "tarantula": 39
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:379": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -579,7 +750,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 32
+            "rank": {
+                "ample": 38, 
+                "ochiai": 32, 
+                "tarantula": 38
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:384": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -594,7 +769,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 33
+            "rank": {
+                "ample": 34, 
+                "ochiai": 33, 
+                "tarantula": 34
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:385": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -609,7 +788,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 34
+            "rank": {
+                "ample": 35, 
+                "ochiai": 34, 
+                "tarantula": 35
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:386": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -624,7 +807,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 35
+            "rank": {
+                "ample": 32, 
+                "ochiai": 35, 
+                "tarantula": 32
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:387": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -639,7 +826,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 36
+            "rank": {
+                "ample": 33, 
+                "ochiai": 36, 
+                "tarantula": 33
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:388": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -654,7 +845,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 37
+            "rank": {
+                "ample": 36, 
+                "ochiai": 37, 
+                "tarantula": 36
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:389": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -669,7 +864,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 38
+            "rank": {
+                "ample": 37, 
+                "ochiai": 38, 
+                "tarantula": 37
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:390": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -684,7 +883,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 39
+            "rank": {
+                "ample": 29, 
+                "ochiai": 39, 
+                "tarantula": 29
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:396": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -699,7 +902,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 40
+            "rank": {
+                "ample": 28, 
+                "ochiai": 40, 
+                "tarantula": 28
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:397": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -714,7 +921,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 41
+            "rank": {
+                "ample": 27, 
+                "ochiai": 41, 
+                "tarantula": 27
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:398": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -729,7 +940,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 42
+            "rank": {
+                "ample": 31, 
+                "ochiai": 42, 
+                "tarantula": 31
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:399": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -744,7 +959,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 43
+            "rank": {
+                "ample": 30, 
+                "ochiai": 43, 
+                "tarantula": 30
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:400": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -759,7 +978,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 44
+            "rank": {
+                "ample": 45, 
+                "ochiai": 44, 
+                "tarantula": 45
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:402": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -774,7 +997,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 45
+            "rank": {
+                "ample": 47, 
+                "ochiai": 45, 
+                "tarantula": 47
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:403": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -789,7 +1016,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 46
+            "rank": {
+                "ample": 46, 
+                "ochiai": 46, 
+                "tarantula": 46
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:404": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -804,7 +1035,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 47
+            "rank": {
+                "ample": 49, 
+                "ochiai": 47, 
+                "tarantula": 49
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:405": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -819,7 +1054,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 48
+            "rank": {
+                "ample": 48, 
+                "ochiai": 48, 
+                "tarantula": 48
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:406": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -834,7 +1073,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 49
+            "rank": {
+                "ample": 50, 
+                "ochiai": 49, 
+                "tarantula": 50
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:411": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -849,7 +1092,11 @@
             }, 
             "nf": 0, 
             "np": 2254, 
-            "rank": 50
+            "rank": {
+                "ample": 26, 
+                "ochiai": 50, 
+                "tarantula": 26
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl$Solver:417": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl$Solver", 
@@ -864,7 +1111,11 @@
             }, 
             "nf": 0, 
             "np": 2253, 
-            "rank": 51
+            "rank": {
+                "ample": 51, 
+                "ochiai": 51, 
+                "tarantula": 51
+            }
         }, 
         "org.apache.commons.math.linear.LUDecompositionImpl:227": {
             "class": "org.apache.commons.math.linear.LUDecompositionImpl", 
@@ -879,7 +1130,11 @@
             }, 
             "nf": 0, 
             "np": 2215, 
-            "rank": 249
+            "rank": {
+                "ample": 249, 
+                "ochiai": 249, 
+                "tarantula": 249
+            }
         }, 
         "org.apache.commons.math.linear.MatrixUtils:107": {
             "class": "org.apache.commons.math.linear.MatrixUtils", 
@@ -894,7 +1149,11 @@
             }, 
             "nf": 0, 
             "np": 2175, 
-            "rank": 294
+            "rank": {
+                "ample": 294, 
+                "ochiai": 294, 
+                "tarantula": 294
+            }
         }, 
         "org.apache.commons.math.linear.MatrixUtils:143": {
             "class": "org.apache.commons.math.linear.MatrixUtils", 
@@ -909,7 +1168,11 @@
             }, 
             "nf": 0, 
             "np": 2238, 
-            "rank": 58
+            "rank": {
+                "ample": 58, 
+                "ochiai": 58, 
+                "tarantula": 58
+            }
         }, 
         "org.apache.commons.math.linear.MatrixUtils:144": {
             "class": "org.apache.commons.math.linear.MatrixUtils", 
@@ -924,7 +1187,11 @@
             }, 
             "nf": 0, 
             "np": 2240, 
-            "rank": 55
+            "rank": {
+                "ample": 56, 
+                "ochiai": 55, 
+                "tarantula": 56
+            }
         }, 
         "org.apache.commons.math.linear.MatrixUtils:145": {
             "class": "org.apache.commons.math.linear.MatrixUtils", 
@@ -939,7 +1206,11 @@
             }, 
             "nf": 0, 
             "np": 2240, 
-            "rank": 56
+            "rank": {
+                "ample": 57, 
+                "ochiai": 56, 
+                "tarantula": 57
+            }
         }, 
         "org.apache.commons.math.linear.MatrixUtils:147": {
             "class": "org.apache.commons.math.linear.MatrixUtils", 
@@ -954,7 +1225,11 @@
             }, 
             "nf": 0, 
             "np": 2240, 
-            "rank": 57
+            "rank": {
+                "ample": 55, 
+                "ochiai": 57, 
+                "tarantula": 55
+            }
         }, 
         "org.apache.commons.math.linear.MatrixUtils:62": {
             "class": "org.apache.commons.math.linear.MatrixUtils", 
@@ -969,7 +1244,11 @@
             }, 
             "nf": 0, 
             "np": 2152, 
-            "rank": 295
+            "rank": {
+                "ample": 295, 
+                "ochiai": 295, 
+                "tarantula": 295
+            }
         }, 
         "org.apache.commons.math.optimization.VectorialPointValuePair:81": {
             "class": "org.apache.commons.math.optimization.VectorialPointValuePair", 
@@ -984,7 +1263,11 @@
             }, 
             "nf": 0, 
             "np": 2227, 
-            "rank": 65
+            "rank": {
+                "ample": 66, 
+                "ochiai": 65, 
+                "tarantula": 66
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:124": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -999,7 +1282,11 @@
             }, 
             "nf": 0, 
             "np": 2199, 
-            "rank": 288
+            "rank": {
+                "ample": 290, 
+                "ochiai": 288, 
+                "tarantula": 290
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:125": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1014,7 +1301,11 @@
             }, 
             "nf": 0, 
             "np": 2199, 
-            "rank": 289
+            "rank": {
+                "ample": 291, 
+                "ochiai": 289, 
+                "tarantula": 291
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:139": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1029,7 +1320,11 @@
             }, 
             "nf": 0, 
             "np": 2199, 
-            "rank": 290
+            "rank": {
+                "ample": 292, 
+                "ochiai": 290, 
+                "tarantula": 292
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:140": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1044,7 +1339,11 @@
             }, 
             "nf": 0, 
             "np": 2199, 
-            "rank": 291
+            "rank": {
+                "ample": 293, 
+                "ochiai": 291, 
+                "tarantula": 293
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:149": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1059,7 +1358,11 @@
             }, 
             "nf": 0, 
             "np": 2269, 
-            "rank": 24
+            "rank": {
+                "ample": 25, 
+                "ochiai": 24, 
+                "tarantula": 25
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:154": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1074,7 +1377,11 @@
             }, 
             "nf": 0, 
             "np": 2269, 
-            "rank": 25
+            "rank": {
+                "ample": 24, 
+                "ochiai": 25, 
+                "tarantula": 24
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:159": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1089,7 +1396,11 @@
             }, 
             "nf": 0, 
             "np": 2199, 
-            "rank": 292
+            "rank": {
+                "ample": 289, 
+                "ochiai": 292, 
+                "tarantula": 289
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:160": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1104,7 +1415,11 @@
             }, 
             "nf": 0, 
             "np": 2199, 
-            "rank": 293
+            "rank": {
+                "ample": 288, 
+                "ochiai": 293, 
+                "tarantula": 288
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:173": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1119,7 +1434,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 269
+            "rank": {
+                "ample": 278, 
+                "ochiai": 269, 
+                "tarantula": 278
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:176": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1134,7 +1453,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 270
+            "rank": {
+                "ample": 279, 
+                "ochiai": 270, 
+                "tarantula": 279
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:184": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1149,7 +1472,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 250
+            "rank": {
+                "ample": 255, 
+                "ochiai": 250, 
+                "tarantula": 255
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:185": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1164,7 +1491,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 251
+            "rank": {
+                "ample": 258, 
+                "ochiai": 251, 
+                "tarantula": 258
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:186": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1179,7 +1510,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 252
+            "rank": {
+                "ample": 257, 
+                "ochiai": 252, 
+                "tarantula": 257
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:190": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1194,7 +1529,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 253
+            "rank": {
+                "ample": 253, 
+                "ochiai": 253, 
+                "tarantula": 253
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:191": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1209,7 +1548,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 254
+            "rank": {
+                "ample": 252, 
+                "ochiai": 254, 
+                "tarantula": 252
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:192": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1224,7 +1567,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 255
+            "rank": {
+                "ample": 263, 
+                "ochiai": 255, 
+                "tarantula": 263
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:193": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1239,7 +1586,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 256
+            "rank": {
+                "ample": 254, 
+                "ochiai": 256, 
+                "tarantula": 254
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:194": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1254,7 +1605,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 257
+            "rank": {
+                "ample": 260, 
+                "ochiai": 257, 
+                "tarantula": 260
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:197": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1269,7 +1624,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 258
+            "rank": {
+                "ample": 251, 
+                "ochiai": 258, 
+                "tarantula": 251
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:208": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1284,7 +1643,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 271
+            "rank": {
+                "ample": 277, 
+                "ochiai": 271, 
+                "tarantula": 277
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:212": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1299,7 +1662,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 272
+            "rank": {
+                "ample": 287, 
+                "ochiai": 272, 
+                "tarantula": 287
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:213": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1314,7 +1681,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 259
+            "rank": {
+                "ample": 250, 
+                "ochiai": 259, 
+                "tarantula": 250
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:217": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1329,7 +1700,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 260
+            "rank": {
+                "ample": 261, 
+                "ochiai": 260, 
+                "tarantula": 261
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:218": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1344,7 +1719,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 261
+            "rank": {
+                "ample": 256, 
+                "ochiai": 261, 
+                "tarantula": 256
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:219": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1359,7 +1738,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 262
+            "rank": {
+                "ample": 262, 
+                "ochiai": 262, 
+                "tarantula": 262
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:220": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1374,7 +1757,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 263
+            "rank": {
+                "ample": 268, 
+                "ochiai": 263, 
+                "tarantula": 268
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:221": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1389,7 +1776,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 264
+            "rank": {
+                "ample": 267, 
+                "ochiai": 264, 
+                "tarantula": 267
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:222": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1404,7 +1795,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 265
+            "rank": {
+                "ample": 259, 
+                "ochiai": 265, 
+                "tarantula": 259
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:223": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1419,7 +1814,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 266
+            "rank": {
+                "ample": 266, 
+                "ochiai": 266, 
+                "tarantula": 266
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:225": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1434,7 +1833,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 267
+            "rank": {
+                "ample": 265, 
+                "ochiai": 267, 
+                "tarantula": 265
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:227": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1449,7 +1852,11 @@
             }, 
             "nf": 0, 
             "np": 2202, 
-            "rank": 268
+            "rank": {
+                "ample": 264, 
+                "ochiai": 268, 
+                "tarantula": 264
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:240": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1464,7 +1871,11 @@
             }, 
             "nf": 0, 
             "np": 2229, 
-            "rank": 60
+            "rank": {
+                "ample": 61, 
+                "ochiai": 60, 
+                "tarantula": 61
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:241": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1479,7 +1890,11 @@
             }, 
             "nf": 0, 
             "np": 2229, 
-            "rank": 61
+            "rank": {
+                "ample": 60, 
+                "ochiai": 61, 
+                "tarantula": 60
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:242": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1494,7 +1909,11 @@
             }, 
             "nf": 0, 
             "np": 2229, 
-            "rank": 62
+            "rank": {
+                "ample": 63, 
+                "ochiai": 62, 
+                "tarantula": 63
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:243": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1509,7 +1928,11 @@
             }, 
             "nf": 0, 
             "np": 2229, 
-            "rank": 63
+            "rank": {
+                "ample": 62, 
+                "ochiai": 63, 
+                "tarantula": 62
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:245": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1524,7 +1947,11 @@
             }, 
             "nf": 0, 
             "np": 2229, 
-            "rank": 64
+            "rank": {
+                "ample": 64, 
+                "ochiai": 64, 
+                "tarantula": 64
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:253": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1539,7 +1966,11 @@
             }, 
             "nf": 0, 
             "np": 2272, 
-            "rank": 1
+            "rank": {
+                "ample": 8, 
+                "ochiai": 1, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:254": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1554,7 +1985,11 @@
             }, 
             "nf": 0, 
             "np": 2272, 
-            "rank": 2
+            "rank": {
+                "ample": 10, 
+                "ochiai": 2, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:255": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1569,7 +2004,11 @@
             }, 
             "nf": 0, 
             "np": 2272, 
-            "rank": 3
+            "rank": {
+                "ample": 11, 
+                "ochiai": 3, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:256": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1584,7 +2023,11 @@
             }, 
             "nf": 0, 
             "np": 2272, 
-            "rank": 4
+            "rank": {
+                "ample": 9, 
+                "ochiai": 4, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:258": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1599,7 +2042,11 @@
             }, 
             "nf": 0, 
             "np": 2272, 
-            "rank": 5
+            "rank": {
+                "ample": 12, 
+                "ochiai": 5, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:273": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1614,7 +2061,11 @@
             }, 
             "nf": 0, 
             "np": 2271, 
-            "rank": 14
+            "rank": {
+                "ample": 17, 
+                "ochiai": 14, 
+                "tarantula": 17
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:276": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1629,7 +2080,11 @@
             }, 
             "nf": 0, 
             "np": 2271, 
-            "rank": 15
+            "rank": {
+                "ample": 15, 
+                "ochiai": 15, 
+                "tarantula": 15
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:277": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1644,7 +2099,11 @@
             }, 
             "nf": 0, 
             "np": 2271, 
-            "rank": 16
+            "rank": {
+                "ample": 16, 
+                "ochiai": 16, 
+                "tarantula": 16
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:278": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1659,7 +2118,11 @@
             }, 
             "nf": 0, 
             "np": 2271, 
-            "rank": 17
+            "rank": {
+                "ample": 13, 
+                "ochiai": 17, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:279": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1674,7 +2137,11 @@
             }, 
             "nf": 0, 
             "np": 2271, 
-            "rank": 18
+            "rank": {
+                "ample": 14, 
+                "ochiai": 18, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:280": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1689,7 +2156,11 @@
             }, 
             "nf": 0, 
             "np": 2271, 
-            "rank": 19
+            "rank": {
+                "ample": 22, 
+                "ochiai": 19, 
+                "tarantula": 22
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:281": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1704,7 +2175,11 @@
             }, 
             "nf": 0, 
             "np": 2271, 
-            "rank": 20
+            "rank": {
+                "ample": 21, 
+                "ochiai": 20, 
+                "tarantula": 21
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:283": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1719,7 +2194,11 @@
             }, 
             "nf": 0, 
             "np": 2271, 
-            "rank": 21
+            "rank": {
+                "ample": 23, 
+                "ochiai": 21, 
+                "tarantula": 23
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:284": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1734,7 +2213,11 @@
             }, 
             "nf": 0, 
             "np": 2271, 
-            "rank": 22
+            "rank": {
+                "ample": 20, 
+                "ochiai": 22, 
+                "tarantula": 20
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:290": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1749,7 +2232,11 @@
             }, 
             "nf": 0, 
             "np": 2271, 
-            "rank": 23
+            "rank": {
+                "ample": 19, 
+                "ochiai": 23, 
+                "tarantula": 19
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:292": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1764,7 +2251,11 @@
             }, 
             "nf": 0, 
             "np": 2272, 
-            "rank": 6
+            "rank": {
+                "ample": 6, 
+                "ochiai": 6, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:310": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1779,7 +2270,11 @@
             }, 
             "nf": 0, 
             "np": 2271, 
-            "rank": 13
+            "rank": {
+                "ample": 18, 
+                "ochiai": 13, 
+                "tarantula": 18
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:315": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1794,7 +2289,11 @@
             }, 
             "nf": 0, 
             "np": 2272, 
-            "rank": 7
+            "rank": {
+                "ample": 3, 
+                "ochiai": 7, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:316": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1809,7 +2308,11 @@
             }, 
             "nf": 0, 
             "np": 2272, 
-            "rank": 8
+            "rank": {
+                "ample": 2, 
+                "ochiai": 8, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:317": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1824,7 +2327,11 @@
             }, 
             "nf": 0, 
             "np": 2272, 
-            "rank": 9
+            "rank": {
+                "ample": 1, 
+                "ochiai": 9, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:318": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1839,7 +2346,11 @@
             }, 
             "nf": 0, 
             "np": 2272, 
-            "rank": 10
+            "rank": {
+                "ample": 5, 
+                "ochiai": 10, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:319": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1854,7 +2365,11 @@
             }, 
             "nf": 0, 
             "np": 2272, 
-            "rank": 11
+            "rank": {
+                "ample": 4, 
+                "ochiai": 11, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:321": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1869,7 +2384,11 @@
             }, 
             "nf": 0, 
             "np": 2272, 
-            "rank": 12
+            "rank": {
+                "ample": 7, 
+                "ochiai": 12, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:330": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1884,7 +2403,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 273
+            "rank": {
+                "ample": 286, 
+                "ochiai": 273, 
+                "tarantula": 286
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:336": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1899,7 +2422,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 274
+            "rank": {
+                "ample": 282, 
+                "ochiai": 274, 
+                "tarantula": 282
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:337": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1914,7 +2441,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 275
+            "rank": {
+                "ample": 285, 
+                "ochiai": 275, 
+                "tarantula": 285
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:338": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1929,7 +2460,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 276
+            "rank": {
+                "ample": 281, 
+                "ochiai": 276, 
+                "tarantula": 281
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:341": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1944,7 +2479,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 277
+            "rank": {
+                "ample": 269, 
+                "ochiai": 277, 
+                "tarantula": 269
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:342": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1959,7 +2498,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 278
+            "rank": {
+                "ample": 274, 
+                "ochiai": 278, 
+                "tarantula": 274
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:343": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1974,7 +2517,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 279
+            "rank": {
+                "ample": 270, 
+                "ochiai": 279, 
+                "tarantula": 270
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:344": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -1989,7 +2536,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 280
+            "rank": {
+                "ample": 275, 
+                "ochiai": 280, 
+                "tarantula": 275
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:345": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -2004,7 +2555,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 281
+            "rank": {
+                "ample": 276, 
+                "ochiai": 281, 
+                "tarantula": 276
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:346": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -2019,7 +2574,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 282
+            "rank": {
+                "ample": 272, 
+                "ochiai": 282, 
+                "tarantula": 272
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:349": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -2034,7 +2593,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 283
+            "rank": {
+                "ample": 280, 
+                "ochiai": 283, 
+                "tarantula": 280
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:350": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -2049,7 +2612,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 284
+            "rank": {
+                "ample": 283, 
+                "ochiai": 284, 
+                "tarantula": 283
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:351": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -2064,7 +2631,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 285
+            "rank": {
+                "ample": 273, 
+                "ochiai": 285, 
+                "tarantula": 273
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:353": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -2079,7 +2650,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 286
+            "rank": {
+                "ample": 271, 
+                "ochiai": 286, 
+                "tarantula": 271
+            }
         }, 
         "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer:355": {
             "class": "org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer", 
@@ -2094,7 +2669,11 @@
             }, 
             "nf": 0, 
             "np": 2201, 
-            "rank": 287
+            "rank": {
+                "ample": 284, 
+                "ochiai": 287, 
+                "tarantula": 284
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:191": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2109,7 +2688,11 @@
             }, 
             "nf": 0, 
             "np": 2220, 
-            "rank": 239
+            "rank": {
+                "ample": 248, 
+                "ochiai": 239, 
+                "tarantula": 248
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:192": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2124,7 +2707,11 @@
             }, 
             "nf": 0, 
             "np": 2220, 
-            "rank": 240
+            "rank": {
+                "ample": 245, 
+                "ochiai": 240, 
+                "tarantula": 245
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:201": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2139,7 +2726,11 @@
             }, 
             "nf": 0, 
             "np": 2220, 
-            "rank": 241
+            "rank": {
+                "ample": 246, 
+                "ochiai": 241, 
+                "tarantula": 246
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:202": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2154,7 +2745,11 @@
             }, 
             "nf": 0, 
             "np": 2220, 
-            "rank": 242
+            "rank": {
+                "ample": 243, 
+                "ochiai": 242, 
+                "tarantula": 243
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:212": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2169,7 +2764,11 @@
             }, 
             "nf": 0, 
             "np": 2220, 
-            "rank": 243
+            "rank": {
+                "ample": 239, 
+                "ochiai": 243, 
+                "tarantula": 239
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:213": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2184,7 +2783,11 @@
             }, 
             "nf": 0, 
             "np": 2220, 
-            "rank": 244
+            "rank": {
+                "ample": 244, 
+                "ochiai": 244, 
+                "tarantula": 244
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:223": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2199,7 +2802,11 @@
             }, 
             "nf": 0, 
             "np": 2220, 
-            "rank": 245
+            "rank": {
+                "ample": 240, 
+                "ochiai": 245, 
+                "tarantula": 240
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:224": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2214,7 +2821,11 @@
             }, 
             "nf": 0, 
             "np": 2220, 
-            "rank": 246
+            "rank": {
+                "ample": 247, 
+                "ochiai": 246, 
+                "tarantula": 247
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:236": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2229,7 +2840,11 @@
             }, 
             "nf": 0, 
             "np": 2220, 
-            "rank": 247
+            "rank": {
+                "ample": 241, 
+                "ochiai": 247, 
+                "tarantula": 241
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:237": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2244,7 +2859,11 @@
             }, 
             "nf": 0, 
             "np": 2220, 
-            "rank": 248
+            "rank": {
+                "ample": 242, 
+                "ochiai": 248, 
+                "tarantula": 242
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:245": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2259,7 +2878,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 187
+            "rank": {
+                "ample": 188, 
+                "ochiai": 187, 
+                "tarantula": 188
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:246": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2274,7 +2897,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 188
+            "rank": {
+                "ample": 189, 
+                "ochiai": 188, 
+                "tarantula": 189
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:247": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2289,7 +2916,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 189
+            "rank": {
+                "ample": 211, 
+                "ochiai": 189, 
+                "tarantula": 211
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:248": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2304,7 +2935,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 190
+            "rank": {
+                "ample": 191, 
+                "ochiai": 190, 
+                "tarantula": 191
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:249": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2319,7 +2954,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 191
+            "rank": {
+                "ample": 190, 
+                "ochiai": 191, 
+                "tarantula": 190
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:250": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2334,7 +2973,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 192
+            "rank": {
+                "ample": 238, 
+                "ochiai": 192, 
+                "tarantula": 238
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:253": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2349,7 +2992,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 193
+            "rank": {
+                "ample": 221, 
+                "ochiai": 193, 
+                "tarantula": 221
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:254": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2364,7 +3011,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 194
+            "rank": {
+                "ample": 195, 
+                "ochiai": 194, 
+                "tarantula": 195
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:255": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2379,7 +3030,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 195
+            "rank": {
+                "ample": 196, 
+                "ochiai": 195, 
+                "tarantula": 196
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:256": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2394,7 +3049,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 196
+            "rank": {
+                "ample": 198, 
+                "ochiai": 196, 
+                "tarantula": 198
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:257": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2409,7 +3068,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 197
+            "rank": {
+                "ample": 203, 
+                "ochiai": 197, 
+                "tarantula": 203
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:258": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2424,7 +3087,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 198
+            "rank": {
+                "ample": 193, 
+                "ochiai": 198, 
+                "tarantula": 193
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:259": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2439,7 +3106,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 199
+            "rank": {
+                "ample": 215, 
+                "ochiai": 199, 
+                "tarantula": 215
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:260": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2454,7 +3125,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 200
+            "rank": {
+                "ample": 187, 
+                "ochiai": 200, 
+                "tarantula": 187
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:263": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2469,7 +3144,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 201
+            "rank": {
+                "ample": 231, 
+                "ochiai": 201, 
+                "tarantula": 231
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:266": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2484,7 +3163,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 202
+            "rank": {
+                "ample": 230, 
+                "ochiai": 202, 
+                "tarantula": 230
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:267": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2499,7 +3182,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 203
+            "rank": {
+                "ample": 229, 
+                "ochiai": 203, 
+                "tarantula": 229
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:268": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2514,7 +3201,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 204
+            "rank": {
+                "ample": 228, 
+                "ochiai": 204, 
+                "tarantula": 228
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:271": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2529,7 +3220,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 205
+            "rank": {
+                "ample": 235, 
+                "ochiai": 205, 
+                "tarantula": 235
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:274": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2544,7 +3239,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 206
+            "rank": {
+                "ample": 232, 
+                "ochiai": 206, 
+                "tarantula": 232
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:275": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2559,7 +3258,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 207
+            "rank": {
+                "ample": 225, 
+                "ochiai": 207, 
+                "tarantula": 225
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:276": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2574,7 +3277,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 208
+            "rank": {
+                "ample": 233, 
+                "ochiai": 208, 
+                "tarantula": 233
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:279": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2589,7 +3296,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 78
+            "rank": {
+                "ample": 181, 
+                "ochiai": 78, 
+                "tarantula": 181
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:283": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2604,7 +3315,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 79
+            "rank": {
+                "ample": 125, 
+                "ochiai": 79, 
+                "tarantula": 125
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:284": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2619,7 +3334,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 80
+            "rank": {
+                "ample": 127, 
+                "ochiai": 80, 
+                "tarantula": 127
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:285": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2634,7 +3353,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 81
+            "rank": {
+                "ample": 126, 
+                "ochiai": 81, 
+                "tarantula": 126
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:288": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2649,7 +3372,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 82
+            "rank": {
+                "ample": 128, 
+                "ochiai": 82, 
+                "tarantula": 128
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:292": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2664,7 +3391,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 83
+            "rank": {
+                "ample": 136, 
+                "ochiai": 83, 
+                "tarantula": 136
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:293": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2679,7 +3410,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 84
+            "rank": {
+                "ample": 137, 
+                "ochiai": 84, 
+                "tarantula": 137
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:294": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2694,7 +3429,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 85
+            "rank": {
+                "ample": 134, 
+                "ochiai": 85, 
+                "tarantula": 134
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:295": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2709,7 +3448,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 86
+            "rank": {
+                "ample": 135, 
+                "ochiai": 86, 
+                "tarantula": 135
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:298": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2724,7 +3467,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 87
+            "rank": {
+                "ample": 138, 
+                "ochiai": 87, 
+                "tarantula": 138
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:299": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2739,7 +3486,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 88
+            "rank": {
+                "ample": 139, 
+                "ochiai": 88, 
+                "tarantula": 139
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:300": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2754,7 +3505,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 89
+            "rank": {
+                "ample": 166, 
+                "ochiai": 89, 
+                "tarantula": 166
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:302": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2769,7 +3524,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 90
+            "rank": {
+                "ample": 168, 
+                "ochiai": 90, 
+                "tarantula": 168
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:305": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2784,7 +3543,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 91
+            "rank": {
+                "ample": 169, 
+                "ochiai": 91, 
+                "tarantula": 169
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:310": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2799,7 +3562,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 92
+            "rank": {
+                "ample": 106, 
+                "ochiai": 92, 
+                "tarantula": 106
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:311": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2814,7 +3581,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 93
+            "rank": {
+                "ample": 100, 
+                "ochiai": 93, 
+                "tarantula": 100
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:312": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2829,7 +3600,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 94
+            "rank": {
+                "ample": 99, 
+                "ochiai": 94, 
+                "tarantula": 99
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:313": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2844,7 +3619,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 95
+            "rank": {
+                "ample": 98, 
+                "ochiai": 95, 
+                "tarantula": 98
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:314": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2859,7 +3638,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 96
+            "rank": {
+                "ample": 101, 
+                "ochiai": 96, 
+                "tarantula": 101
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:315": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2874,7 +3657,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 97
+            "rank": {
+                "ample": 119, 
+                "ochiai": 97, 
+                "tarantula": 119
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:316": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2889,7 +3676,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 98
+            "rank": {
+                "ample": 113, 
+                "ochiai": 98, 
+                "tarantula": 113
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:317": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2904,7 +3695,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 99
+            "rank": {
+                "ample": 96, 
+                "ochiai": 99, 
+                "tarantula": 96
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:318": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2919,7 +3714,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 100
+            "rank": {
+                "ample": 104, 
+                "ochiai": 100, 
+                "tarantula": 104
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:320": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2934,7 +3733,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 101
+            "rank": {
+                "ample": 80, 
+                "ochiai": 101, 
+                "tarantula": 80
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:324": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2949,7 +3752,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 102
+            "rank": {
+                "ample": 79, 
+                "ochiai": 102, 
+                "tarantula": 79
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:330": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2964,7 +3771,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 103
+            "rank": {
+                "ample": 117, 
+                "ochiai": 103, 
+                "tarantula": 117
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:331": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2979,7 +3790,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 104
+            "rank": {
+                "ample": 116, 
+                "ochiai": 104, 
+                "tarantula": 116
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:335": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -2994,7 +3809,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 105
+            "rank": {
+                "ample": 118, 
+                "ochiai": 105, 
+                "tarantula": 118
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:338": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3009,7 +3828,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 106
+            "rank": {
+                "ample": 115, 
+                "ochiai": 106, 
+                "tarantula": 115
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:339": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3024,7 +3847,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 107
+            "rank": {
+                "ample": 114, 
+                "ochiai": 107, 
+                "tarantula": 114
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:340": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3039,7 +3866,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 108
+            "rank": {
+                "ample": 109, 
+                "ochiai": 108, 
+                "tarantula": 109
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:342": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3054,7 +3885,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 109
+            "rank": {
+                "ample": 110, 
+                "ochiai": 109, 
+                "tarantula": 110
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:343": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3069,7 +3904,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 110
+            "rank": {
+                "ample": 111, 
+                "ochiai": 110, 
+                "tarantula": 111
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:344": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3084,7 +3923,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 111
+            "rank": {
+                "ample": 107, 
+                "ochiai": 111, 
+                "tarantula": 107
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:345": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3099,7 +3942,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 112
+            "rank": {
+                "ample": 108, 
+                "ochiai": 112, 
+                "tarantula": 108
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:348": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3114,7 +3961,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 113
+            "rank": {
+                "ample": 177, 
+                "ochiai": 113, 
+                "tarantula": 177
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:351": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3129,7 +3980,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 114
+            "rank": {
+                "ample": 152, 
+                "ochiai": 114, 
+                "tarantula": 152
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:352": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3144,7 +3999,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 115
+            "rank": {
+                "ample": 151, 
+                "ochiai": 115, 
+                "tarantula": 151
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:353": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3159,7 +4018,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 116
+            "rank": {
+                "ample": 150, 
+                "ochiai": 116, 
+                "tarantula": 150
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:354": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3174,7 +4037,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 117
+            "rank": {
+                "ample": 149, 
+                "ochiai": 117, 
+                "tarantula": 149
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:355": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3189,7 +4056,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 118
+            "rank": {
+                "ample": 148, 
+                "ochiai": 118, 
+                "tarantula": 148
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:356": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3204,7 +4075,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 119
+            "rank": {
+                "ample": 147, 
+                "ochiai": 119, 
+                "tarantula": 147
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:357": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3219,7 +4094,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 120
+            "rank": {
+                "ample": 146, 
+                "ochiai": 120, 
+                "tarantula": 146
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:359": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3234,7 +4113,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 121
+            "rank": {
+                "ample": 133, 
+                "ochiai": 121, 
+                "tarantula": 133
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:362": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3249,7 +4132,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 122
+            "rank": {
+                "ample": 130, 
+                "ochiai": 122, 
+                "tarantula": 130
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:363": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3264,7 +4151,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 123
+            "rank": {
+                "ample": 131, 
+                "ochiai": 123, 
+                "tarantula": 131
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:367": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3279,7 +4170,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 124
+            "rank": {
+                "ample": 132, 
+                "ochiai": 124, 
+                "tarantula": 132
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:368": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3294,7 +4189,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 125
+            "rank": {
+                "ample": 129, 
+                "ochiai": 125, 
+                "tarantula": 129
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:371": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3309,7 +4208,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 126
+            "rank": {
+                "ample": 180, 
+                "ochiai": 126, 
+                "tarantula": 180
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:372": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3324,7 +4227,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 127
+            "rank": {
+                "ample": 183, 
+                "ochiai": 127, 
+                "tarantula": 183
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:373": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3339,7 +4246,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 128
+            "rank": {
+                "ample": 182, 
+                "ochiai": 128, 
+                "tarantula": 182
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:374": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3354,7 +4265,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 129
+            "rank": {
+                "ample": 179, 
+                "ochiai": 129, 
+                "tarantula": 179
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:379": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3369,7 +4284,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 130
+            "rank": {
+                "ample": 185, 
+                "ochiai": 130, 
+                "tarantula": 185
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:380": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3384,7 +4303,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 131
+            "rank": {
+                "ample": 157, 
+                "ochiai": 131, 
+                "tarantula": 157
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:381": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3399,7 +4322,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 132
+            "rank": {
+                "ample": 158, 
+                "ochiai": 132, 
+                "tarantula": 158
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:382": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3414,7 +4341,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 133
+            "rank": {
+                "ample": 159, 
+                "ochiai": 133, 
+                "tarantula": 159
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:383": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3429,7 +4360,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 134
+            "rank": {
+                "ample": 160, 
+                "ochiai": 134, 
+                "tarantula": 160
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:384": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3444,7 +4379,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 135
+            "rank": {
+                "ample": 161, 
+                "ochiai": 135, 
+                "tarantula": 161
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:387": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3459,7 +4398,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 136
+            "rank": {
+                "ample": 162, 
+                "ochiai": 136, 
+                "tarantula": 162
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:388": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3474,7 +4417,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 137
+            "rank": {
+                "ample": 154, 
+                "ochiai": 137, 
+                "tarantula": 154
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:389": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3489,7 +4436,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 138
+            "rank": {
+                "ample": 155, 
+                "ochiai": 138, 
+                "tarantula": 155
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:391": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3504,7 +4455,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 139
+            "rank": {
+                "ample": 92, 
+                "ochiai": 139, 
+                "tarantula": 92
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:392": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3519,7 +4474,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 140
+            "rank": {
+                "ample": 91, 
+                "ochiai": 140, 
+                "tarantula": 91
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:393": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3534,7 +4493,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 141
+            "rank": {
+                "ample": 90, 
+                "ochiai": 141, 
+                "tarantula": 90
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:394": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3549,7 +4512,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 142
+            "rank": {
+                "ample": 94, 
+                "ochiai": 142, 
+                "tarantula": 94
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:395": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3564,7 +4531,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 143
+            "rank": {
+                "ample": 93, 
+                "ochiai": 143, 
+                "tarantula": 93
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:398": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3579,7 +4550,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 144
+            "rank": {
+                "ample": 89, 
+                "ochiai": 144, 
+                "tarantula": 89
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:401": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3594,7 +4569,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 145
+            "rank": {
+                "ample": 82, 
+                "ochiai": 145, 
+                "tarantula": 82
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:410": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3609,7 +4588,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 146
+            "rank": {
+                "ample": 103, 
+                "ochiai": 146, 
+                "tarantula": 103
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:411": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3624,7 +4607,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 147
+            "rank": {
+                "ample": 105, 
+                "ochiai": 147, 
+                "tarantula": 105
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:415": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3639,7 +4626,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 148
+            "rank": {
+                "ample": 102, 
+                "ochiai": 148, 
+                "tarantula": 102
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:417": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3654,7 +4645,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 149
+            "rank": {
+                "ample": 170, 
+                "ochiai": 149, 
+                "tarantula": 170
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:418": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3669,7 +4664,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 150
+            "rank": {
+                "ample": 167, 
+                "ochiai": 150, 
+                "tarantula": 167
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:419": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3684,7 +4683,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 151
+            "rank": {
+                "ample": 173, 
+                "ochiai": 151, 
+                "tarantula": 173
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:420": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3699,7 +4702,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 152
+            "rank": {
+                "ample": 153, 
+                "ochiai": 152, 
+                "tarantula": 153
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:421": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3714,7 +4721,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 153
+            "rank": {
+                "ample": 140, 
+                "ochiai": 153, 
+                "tarantula": 140
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:423": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3729,7 +4740,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 154
+            "rank": {
+                "ample": 95, 
+                "ochiai": 154, 
+                "tarantula": 95
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:437": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3744,7 +4759,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 155
+            "rank": {
+                "ample": 83, 
+                "ochiai": 155, 
+                "tarantula": 83
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:444": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3759,7 +4778,11 @@
             }, 
             "nf": 0, 
             "np": 2224, 
-            "rank": 69
+            "rank": {
+                "ample": 75, 
+                "ochiai": 69, 
+                "tarantula": 75
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:448": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3774,7 +4797,11 @@
             }, 
             "nf": 0, 
             "np": 2235, 
-            "rank": 59
+            "rank": {
+                "ample": 59, 
+                "ochiai": 59, 
+                "tarantula": 59
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:454": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3789,7 +4816,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 156
+            "rank": {
+                "ample": 184, 
+                "ochiai": 156, 
+                "tarantula": 184
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:457": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3804,7 +4835,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 157
+            "rank": {
+                "ample": 145, 
+                "ochiai": 157, 
+                "tarantula": 145
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:460": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3819,7 +4854,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 158
+            "rank": {
+                "ample": 171, 
+                "ochiai": 158, 
+                "tarantula": 171
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:465": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3834,7 +4873,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 159
+            "rank": {
+                "ample": 165, 
+                "ochiai": 159, 
+                "tarantula": 165
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:467": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3849,7 +4892,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 160
+            "rank": {
+                "ample": 172, 
+                "ochiai": 160, 
+                "tarantula": 172
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:498": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3864,7 +4911,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 161
+            "rank": {
+                "ample": 97, 
+                "ochiai": 161, 
+                "tarantula": 97
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:499": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3879,7 +4930,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 162
+            "rank": {
+                "ample": 112, 
+                "ochiai": 162, 
+                "tarantula": 112
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:501": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3894,7 +4949,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 163
+            "rank": {
+                "ample": 178, 
+                "ochiai": 163, 
+                "tarantula": 178
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:504": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3909,7 +4968,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 164
+            "rank": {
+                "ample": 176, 
+                "ochiai": 164, 
+                "tarantula": 176
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:505": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3924,7 +4987,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 165
+            "rank": {
+                "ample": 123, 
+                "ochiai": 165, 
+                "tarantula": 123
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:506": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3939,7 +5006,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 166
+            "rank": {
+                "ample": 174, 
+                "ochiai": 166, 
+                "tarantula": 174
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:507": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3954,7 +5025,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 167
+            "rank": {
+                "ample": 175, 
+                "ochiai": 167, 
+                "tarantula": 175
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:508": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3969,7 +5044,11 @@
             }, 
             "nf": 0, 
             "np": 2226, 
-            "rank": 68
+            "rank": {
+                "ample": 68, 
+                "ochiai": 68, 
+                "tarantula": 68
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:510": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3984,7 +5063,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 168
+            "rank": {
+                "ample": 163, 
+                "ochiai": 168, 
+                "tarantula": 163
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:515": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -3999,7 +5082,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 169
+            "rank": {
+                "ample": 164, 
+                "ochiai": 169, 
+                "tarantula": 164
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:516": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4014,7 +5101,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 170
+            "rank": {
+                "ample": 78, 
+                "ochiai": 170, 
+                "tarantula": 78
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:517": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4029,7 +5120,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 171
+            "rank": {
+                "ample": 156, 
+                "ochiai": 171, 
+                "tarantula": 156
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:518": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4044,7 +5139,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 172
+            "rank": {
+                "ample": 88, 
+                "ochiai": 172, 
+                "tarantula": 88
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:519": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4059,7 +5158,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 173
+            "rank": {
+                "ample": 81, 
+                "ochiai": 173, 
+                "tarantula": 81
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:520": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4074,7 +5177,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 174
+            "rank": {
+                "ample": 141, 
+                "ochiai": 174, 
+                "tarantula": 141
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:522": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4089,7 +5196,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 175
+            "rank": {
+                "ample": 142, 
+                "ochiai": 175, 
+                "tarantula": 142
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:523": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4104,7 +5215,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 176
+            "rank": {
+                "ample": 143, 
+                "ochiai": 176, 
+                "tarantula": 143
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:524": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4119,7 +5234,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 177
+            "rank": {
+                "ample": 144, 
+                "ochiai": 177, 
+                "tarantula": 144
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:525": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4134,7 +5253,11 @@
             }, 
             "nf": 0, 
             "np": 2224, 
-            "rank": 70
+            "rank": {
+                "ample": 76, 
+                "ochiai": 70, 
+                "tarantula": 76
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:526": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4149,7 +5272,11 @@
             }, 
             "nf": 0, 
             "np": 2224, 
-            "rank": 71
+            "rank": {
+                "ample": 77, 
+                "ochiai": 71, 
+                "tarantula": 77
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:791": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4164,7 +5291,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 209
+            "rank": {
+                "ample": 210, 
+                "ochiai": 209, 
+                "tarantula": 210
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:792": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4179,7 +5310,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 210
+            "rank": {
+                "ample": 209, 
+                "ochiai": 210, 
+                "tarantula": 209
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:793": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4194,7 +5329,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 211
+            "rank": {
+                "ample": 208, 
+                "ochiai": 211, 
+                "tarantula": 208
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:794": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4209,7 +5348,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 212
+            "rank": {
+                "ample": 207, 
+                "ochiai": 212, 
+                "tarantula": 207
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:795": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4224,7 +5367,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 213
+            "rank": {
+                "ample": 206, 
+                "ochiai": 213, 
+                "tarantula": 206
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:796": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4239,7 +5386,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 214
+            "rank": {
+                "ample": 205, 
+                "ochiai": 214, 
+                "tarantula": 205
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:798": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4254,7 +5405,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 215
+            "rank": {
+                "ample": 192, 
+                "ochiai": 215, 
+                "tarantula": 192
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:802": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4269,7 +5424,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 216
+            "rank": {
+                "ample": 199, 
+                "ochiai": 216, 
+                "tarantula": 199
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:805": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4284,7 +5443,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 217
+            "rank": {
+                "ample": 224, 
+                "ochiai": 217, 
+                "tarantula": 224
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:806": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4299,7 +5462,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 218
+            "rank": {
+                "ample": 223, 
+                "ochiai": 218, 
+                "tarantula": 223
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:807": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4314,7 +5481,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 219
+            "rank": {
+                "ample": 222, 
+                "ochiai": 219, 
+                "tarantula": 222
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:808": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4329,7 +5500,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 220
+            "rank": {
+                "ample": 227, 
+                "ochiai": 220, 
+                "tarantula": 227
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:809": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4344,7 +5519,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 221
+            "rank": {
+                "ample": 226, 
+                "ochiai": 221, 
+                "tarantula": 226
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:810": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4359,7 +5538,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 222
+            "rank": {
+                "ample": 200, 
+                "ochiai": 222, 
+                "tarantula": 200
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:811": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4374,7 +5557,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 223
+            "rank": {
+                "ample": 201, 
+                "ochiai": 223, 
+                "tarantula": 201
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:813": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4389,7 +5576,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 224
+            "rank": {
+                "ample": 202, 
+                "ochiai": 224, 
+                "tarantula": 202
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:817": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4404,7 +5595,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 225
+            "rank": {
+                "ample": 212, 
+                "ochiai": 225, 
+                "tarantula": 212
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:818": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4419,7 +5614,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 226
+            "rank": {
+                "ample": 204, 
+                "ochiai": 226, 
+                "tarantula": 204
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:819": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4434,7 +5633,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 227
+            "rank": {
+                "ample": 194, 
+                "ochiai": 227, 
+                "tarantula": 194
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:822": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4449,7 +5652,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 228
+            "rank": {
+                "ample": 234, 
+                "ochiai": 228, 
+                "tarantula": 234
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:826": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4464,7 +5671,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 229
+            "rank": {
+                "ample": 237, 
+                "ochiai": 229, 
+                "tarantula": 237
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:827": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4479,7 +5690,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 230
+            "rank": {
+                "ample": 236, 
+                "ochiai": 230, 
+                "tarantula": 236
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:828": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4494,7 +5709,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 231
+            "rank": {
+                "ample": 220, 
+                "ochiai": 231, 
+                "tarantula": 220
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:831": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4509,7 +5728,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 232
+            "rank": {
+                "ample": 216, 
+                "ochiai": 232, 
+                "tarantula": 216
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:832": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4524,7 +5747,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 233
+            "rank": {
+                "ample": 219, 
+                "ochiai": 233, 
+                "tarantula": 219
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:833": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4539,7 +5766,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 234
+            "rank": {
+                "ample": 214, 
+                "ochiai": 234, 
+                "tarantula": 214
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:834": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4554,7 +5785,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 235
+            "rank": {
+                "ample": 218, 
+                "ochiai": 235, 
+                "tarantula": 218
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:837": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4569,7 +5804,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 236
+            "rank": {
+                "ample": 213, 
+                "ochiai": 236, 
+                "tarantula": 213
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:838": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4584,7 +5823,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 237
+            "rank": {
+                "ample": 217, 
+                "ochiai": 237, 
+                "tarantula": 217
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:841": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4599,7 +5842,11 @@
             }, 
             "nf": 0, 
             "np": 2222, 
-            "rank": 238
+            "rank": {
+                "ample": 197, 
+                "ochiai": 238, 
+                "tarantula": 197
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:842": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4614,7 +5861,11 @@
             }, 
             "nf": 0, 
             "np": 2224, 
-            "rank": 72
+            "rank": {
+                "ample": 74, 
+                "ochiai": 72, 
+                "tarantula": 74
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:843": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4629,7 +5880,11 @@
             }, 
             "nf": 0, 
             "np": 2224, 
-            "rank": 73
+            "rank": {
+                "ample": 73, 
+                "ochiai": 73, 
+                "tarantula": 73
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:844": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4644,7 +5899,11 @@
             }, 
             "nf": 0, 
             "np": 2224, 
-            "rank": 74
+            "rank": {
+                "ample": 72, 
+                "ochiai": 74, 
+                "tarantula": 72
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:846": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4659,7 +5918,11 @@
             }, 
             "nf": 0, 
             "np": 2224, 
-            "rank": 75
+            "rank": {
+                "ample": 71, 
+                "ochiai": 75, 
+                "tarantula": 71
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:847": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4674,7 +5937,11 @@
             }, 
             "nf": 0, 
             "np": 2224, 
-            "rank": 76
+            "rank": {
+                "ample": 70, 
+                "ochiai": 76, 
+                "tarantula": 70
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:848": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4689,7 +5956,11 @@
             }, 
             "nf": 0, 
             "np": 2224, 
-            "rank": 77
+            "rank": {
+                "ample": 69, 
+                "ochiai": 77, 
+                "tarantula": 69
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:854": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4704,7 +5975,11 @@
             }, 
             "nf": 0, 
             "np": 2227, 
-            "rank": 66
+            "rank": {
+                "ample": 67, 
+                "ochiai": 66, 
+                "tarantula": 67
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:856": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4719,7 +5994,11 @@
             }, 
             "nf": 0, 
             "np": 2227, 
-            "rank": 67
+            "rank": {
+                "ample": 65, 
+                "ochiai": 67, 
+                "tarantula": 65
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:864": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4734,7 +6013,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 178
+            "rank": {
+                "ample": 121, 
+                "ochiai": 178, 
+                "tarantula": 121
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:865": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4749,7 +6032,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 179
+            "rank": {
+                "ample": 120, 
+                "ochiai": 179, 
+                "tarantula": 120
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:866": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4764,7 +6051,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 180
+            "rank": {
+                "ample": 186, 
+                "ochiai": 180, 
+                "tarantula": 186
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:867": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4779,7 +6070,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 181
+            "rank": {
+                "ample": 122, 
+                "ochiai": 181, 
+                "tarantula": 122
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:868": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4794,7 +6089,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 182
+            "rank": {
+                "ample": 124, 
+                "ochiai": 182, 
+                "tarantula": 124
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:870": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4809,7 +6108,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 183
+            "rank": {
+                "ample": 85, 
+                "ochiai": 183, 
+                "tarantula": 85
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:871": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4824,7 +6127,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 184
+            "rank": {
+                "ample": 86, 
+                "ochiai": 184, 
+                "tarantula": 86
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:872": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4839,7 +6146,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 185
+            "rank": {
+                "ample": 84, 
+                "ochiai": 185, 
+                "tarantula": 84
+            }
         }, 
         "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:875": {
             "class": "org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer", 
@@ -4854,7 +6165,11 @@
             }, 
             "nf": 0, 
             "np": 2223, 
-            "rank": 186
+            "rank": {
+                "ample": 87, 
+                "ochiai": 186, 
+                "tarantula": 87
+            }
         }
     }
 }

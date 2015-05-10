@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:52:21.222344", 
+    "date": "2015-05-10T23:33:34.769915", 
     "executedTest": 3621, 
     "failedTest": 2, 
     "failedTestDetails": [
@@ -12,7 +12,30 @@
             "method": "testEqualGeneralPaths"
         }
     ], 
-    "node": "griffon-59.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "org.jfree.chart.util.ShapeUtilities", 
+            "line": 275
+        }, 
+        {
+            "class": "org.jfree.chart.util.SerialUtilities", 
+            "line": 318
+        }, 
+        {
+            "class": "org.jfree.chart.util.SerialUtilities", 
+            "line": 319
+        }, 
+        {
+            "class": "org.jfree.chart.util.SerialUtilities", 
+            "line": 325
+        }, 
+        {
+            "class": "org.jfree.chart.util.SerialUtilities", 
+            "line": 329
+        }
+    ], 
+    "nbsuspicious": 19, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 3619, 
     "suspicious": {
         "org.jfree.chart.util.ShapeUtilities:265": {
@@ -28,7 +51,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 1
+            "rank": {
+                "ample": 11, 
+                "ochiai": 1, 
+                "tarantula": 11
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:268": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -43,7 +70,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 2
+            "rank": {
+                "ample": 14, 
+                "ochiai": 2, 
+                "tarantula": 14
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:271": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -58,7 +89,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 3
+            "rank": {
+                "ample": 9, 
+                "ochiai": 3, 
+                "tarantula": 9
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:274": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -73,7 +108,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 4
+            "rank": {
+                "ample": 6, 
+                "ochiai": 4, 
+                "tarantula": 6
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:275": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -88,7 +127,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 5
+            "rank": {
+                "ample": 5, 
+                "ochiai": 5, 
+                "tarantula": 5
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:276": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -103,7 +146,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 6
+            "rank": {
+                "ample": 8, 
+                "ochiai": 6, 
+                "tarantula": 8
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:277": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -118,7 +165,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 7
+            "rank": {
+                "ample": 7, 
+                "ochiai": 7, 
+                "tarantula": 7
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:278": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -133,7 +184,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 8
+            "rank": {
+                "ample": 17, 
+                "ochiai": 8, 
+                "tarantula": 17
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:279": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -148,7 +203,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 9
+            "rank": {
+                "ample": 16, 
+                "ochiai": 9, 
+                "tarantula": 16
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:280": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -163,7 +222,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 10
+            "rank": {
+                "ample": 2, 
+                "ochiai": 10, 
+                "tarantula": 2
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:283": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -178,7 +241,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 11
+            "rank": {
+                "ample": 19, 
+                "ochiai": 11, 
+                "tarantula": 19
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:284": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -193,7 +260,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 12
+            "rank": {
+                "ample": 12, 
+                "ochiai": 12, 
+                "tarantula": 12
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:285": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -208,7 +279,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 13
+            "rank": {
+                "ample": 13, 
+                "ochiai": 13, 
+                "tarantula": 13
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:288": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -223,7 +298,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 14
+            "rank": {
+                "ample": 1, 
+                "ochiai": 14, 
+                "tarantula": 1
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:291": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -238,7 +317,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 15
+            "rank": {
+                "ample": 18, 
+                "ochiai": 15, 
+                "tarantula": 18
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:292": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -253,7 +336,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 16
+            "rank": {
+                "ample": 4, 
+                "ochiai": 16, 
+                "tarantula": 4
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:293": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -268,7 +355,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 17
+            "rank": {
+                "ample": 10, 
+                "ochiai": 17, 
+                "tarantula": 10
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:294": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -283,7 +374,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 18
+            "rank": {
+                "ample": 15, 
+                "ochiai": 18, 
+                "tarantula": 15
+            }
         }, 
         "org.jfree.chart.util.ShapeUtilities:295": {
             "class": "org.jfree.chart.util.ShapeUtilities", 
@@ -298,7 +393,11 @@
             }, 
             "nf": 0, 
             "np": 3589, 
-            "rank": 19
+            "rank": {
+                "ample": 3, 
+                "ochiai": 19, 
+                "tarantula": 3
+            }
         }
     }
 }

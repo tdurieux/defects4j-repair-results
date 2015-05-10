@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:49:55.114262", 
+    "date": "2015-05-10T23:33:26.844176", 
     "executedTest": 1877, 
     "failedTest": 2, 
     "failedTestDetails": [
@@ -12,7 +12,70 @@
             "method": "testOutOfBounds"
         }
     ], 
-    "node": "griffon-41.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 38
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 39
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 40
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 49
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 50
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 51
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 52
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 56
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 57
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 58
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 59
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 60
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 72
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 84
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
+            "line": 86
+        }
+    ], 
+    "nbsuspicious": 23, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 1875, 
     "suspicious": {
         "org.apache.commons.lang3.text.translate.CharSequenceTranslator:105": {
@@ -28,7 +91,11 @@
             }, 
             "nf": 1, 
             "np": 1846, 
-            "rank": 23
+            "rank": {
+                "ample": 23, 
+                "ochiai": 23, 
+                "tarantula": 23
+            }
         }, 
         "org.apache.commons.lang3.text.translate.CharSequenceTranslator:54": {
             "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
@@ -43,7 +110,11 @@
             }, 
             "nf": 0, 
             "np": 1847, 
-            "rank": 13
+            "rank": {
+                "ample": 7, 
+                "ochiai": 13, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.lang3.text.translate.CharSequenceTranslator:58": {
             "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
@@ -58,7 +129,11 @@
             }, 
             "nf": 0, 
             "np": 1847, 
-            "rank": 14
+            "rank": {
+                "ample": 9, 
+                "ochiai": 14, 
+                "tarantula": 15
+            }
         }, 
         "org.apache.commons.lang3.text.translate.CharSequenceTranslator:59": {
             "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
@@ -73,7 +148,11 @@
             }, 
             "nf": 0, 
             "np": 1847, 
-            "rank": 15
+            "rank": {
+                "ample": 8, 
+                "ochiai": 15, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.lang3.text.translate.CharSequenceTranslator:60": {
             "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
@@ -88,7 +167,11 @@
             }, 
             "nf": 1, 
             "np": 1848, 
-            "rank": 22
+            "rank": {
+                "ample": 22, 
+                "ochiai": 22, 
+                "tarantula": 22
+            }
         }, 
         "org.apache.commons.lang3.text.translate.CharSequenceTranslator:76": {
             "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
@@ -103,7 +186,11 @@
             }, 
             "nf": 0, 
             "np": 1845, 
-            "rank": 16
+            "rank": {
+                "ample": 12, 
+                "ochiai": 16, 
+                "tarantula": 18
+            }
         }, 
         "org.apache.commons.lang3.text.translate.CharSequenceTranslator:79": {
             "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
@@ -118,7 +205,11 @@
             }, 
             "nf": 0, 
             "np": 1845, 
-            "rank": 17
+            "rank": {
+                "ample": 10, 
+                "ochiai": 17, 
+                "tarantula": 16
+            }
         }, 
         "org.apache.commons.lang3.text.translate.CharSequenceTranslator:82": {
             "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
@@ -133,7 +224,11 @@
             }, 
             "nf": 0, 
             "np": 1845, 
-            "rank": 18
+            "rank": {
+                "ample": 11, 
+                "ochiai": 18, 
+                "tarantula": 17
+            }
         }, 
         "org.apache.commons.lang3.text.translate.CharSequenceTranslator:83": {
             "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
@@ -148,7 +243,11 @@
             }, 
             "nf": 0, 
             "np": 1845, 
-            "rank": 19
+            "rank": {
+                "ample": 13, 
+                "ochiai": 19, 
+                "tarantula": 19
+            }
         }, 
         "org.apache.commons.lang3.text.translate.CharSequenceTranslator:86": {
             "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
@@ -163,7 +262,11 @@
             }, 
             "nf": 0, 
             "np": 1845, 
-            "rank": 20
+            "rank": {
+                "ample": 14, 
+                "ochiai": 20, 
+                "tarantula": 20
+            }
         }, 
         "org.apache.commons.lang3.text.translate.CharSequenceTranslator:88": {
             "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
@@ -178,7 +281,11 @@
             }, 
             "nf": 0, 
             "np": 1845, 
-            "rank": 21
+            "rank": {
+                "ample": 15, 
+                "ochiai": 21, 
+                "tarantula": 21
+            }
         }, 
         "org.apache.commons.lang3.text.translate.CharSequenceTranslator:89": {
             "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator", 
@@ -193,7 +300,11 @@
             }, 
             "nf": 0, 
             "np": 1854, 
-            "rank": 12
+            "rank": {
+                "ample": 6, 
+                "ochiai": 12, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.lang3.text.translate.NumericEntityUnescaper:38": {
             "class": "org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
@@ -208,7 +319,11 @@
             }, 
             "nf": 0, 
             "np": 1866, 
-            "rank": 7
+            "rank": {
+                "ample": 5, 
+                "ochiai": 7, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.lang3.text.translate.NumericEntityUnescaper:39": {
             "class": "org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
@@ -223,7 +338,11 @@
             }, 
             "nf": 0, 
             "np": 1871, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.lang3.text.translate.NumericEntityUnescaper:40": {
             "class": "org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
@@ -238,7 +357,11 @@
             }, 
             "nf": 0, 
             "np": 1871, 
-            "rank": 2
+            "rank": {
+                "ample": 2, 
+                "ochiai": 2, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.lang3.text.translate.NumericEntityUnescaper:42": {
             "class": "org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
@@ -253,7 +376,11 @@
             }, 
             "nf": 0, 
             "np": 1871, 
-            "rank": 3
+            "rank": {
+                "ample": 3, 
+                "ochiai": 3, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.lang3.text.translate.NumericEntityUnescaper:43": {
             "class": "org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
@@ -268,7 +395,11 @@
             }, 
             "nf": 1, 
             "np": 1871, 
-            "rank": 8
+            "rank": {
+                "ample": 19, 
+                "ochiai": 8, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.lang3.text.translate.NumericEntityUnescaper:44": {
             "class": "org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
@@ -283,7 +414,11 @@
             }, 
             "nf": 1, 
             "np": 1874, 
-            "rank": 4
+            "rank": {
+                "ample": 17, 
+                "ochiai": 4, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.lang3.text.translate.NumericEntityUnescaper:45": {
             "class": "org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
@@ -298,7 +433,11 @@
             }, 
             "nf": 1, 
             "np": 1874, 
-            "rank": 5
+            "rank": {
+                "ample": 16, 
+                "ochiai": 5, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.lang3.text.translate.NumericEntityUnescaper:48": {
             "class": "org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
@@ -313,7 +452,11 @@
             }, 
             "nf": 1, 
             "np": 1871, 
-            "rank": 9
+            "rank": {
+                "ample": 21, 
+                "ochiai": 9, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.lang3.text.translate.NumericEntityUnescaper:49": {
             "class": "org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
@@ -328,7 +471,11 @@
             }, 
             "nf": 1, 
             "np": 1871, 
-            "rank": 10
+            "rank": {
+                "ample": 20, 
+                "ochiai": 10, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.lang3.text.translate.NumericEntityUnescaper:50": {
             "class": "org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
@@ -343,7 +490,11 @@
             }, 
             "nf": 1, 
             "np": 1871, 
-            "rank": 11
+            "rank": {
+                "ample": 18, 
+                "ochiai": 11, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.lang3.text.translate.NumericEntityUnescaper:73": {
             "class": "org.apache.commons.lang3.text.translate.NumericEntityUnescaper", 
@@ -358,7 +509,11 @@
             }, 
             "nf": 0, 
             "np": 1868, 
-            "rank": 6
+            "rank": {
+                "ample": 4, 
+                "ochiai": 6, 
+                "tarantula": 6
+            }
         }
     }
 }

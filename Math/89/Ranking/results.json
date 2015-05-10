@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:41:39.967679", 
+    "date": "2015-05-10T23:33:17.317114", 
     "executedTest": 1692, 
     "failedTest": 2, 
     "failedTestDetails": [
@@ -12,7 +12,30 @@
             "method": "warning"
         }
     ], 
-    "node": "griffon-15.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.math.stat.Frequency", 
+            "line": 110
+        }, 
+        {
+            "class": "a.org.apache.commons.math.stat.Frequency", 
+            "line": 111
+        }, 
+        {
+            "class": "a.org.apache.commons.math.stat.Frequency", 
+            "line": 112
+        }, 
+        {
+            "class": "a.org.apache.commons.math.stat.Frequency", 
+            "line": 113
+        }, 
+        {
+            "class": "a.org.apache.commons.math.stat.Frequency", 
+            "line": 114
+        }
+    ], 
+    "nbsuspicious": 1, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 1690, 
     "suspicious": {
         "org.apache.commons.math.stat.Frequency:110": {
@@ -28,7 +51,11 @@
             }, 
             "nf": 1, 
             "np": 1689, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }
     }
 }

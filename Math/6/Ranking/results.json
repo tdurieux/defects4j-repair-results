@@ -1,0 +1,64 @@
+{
+    "date": "2015-05-10T23:33:18.930497", 
+    "executedTest": null, 
+    "failedTest": null, 
+    "failedTestDetails": [], 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.math3.optim.BaseOptimizer", 
+            "line": 51
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer", 
+            "line": 216
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer", 
+            "line": 222
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizer", 
+            "line": 276
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizer", 
+            "line": 388
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer", 
+            "line": 192
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizer", 
+            "line": 226
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer", 
+            "line": 158
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizer", 
+            "line": 175
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizer", 
+            "line": 107
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizer", 
+            "line": 159
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer", 
+            "line": 324
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizer", 
+            "line": 489
+        }
+    ], 
+    "nbsuspicious": 0, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
+    "successfulTest": null, 
+    "suspicious": {}
+}

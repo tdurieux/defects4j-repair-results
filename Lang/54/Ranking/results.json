@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:48:05.345709", 
+    "date": "2015-05-10T23:33:25.429025", 
     "executedTest": 1710, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,22 @@
             "method": "testLang328"
         }
     ], 
-    "node": "griffon-4.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.lang.LocaleUtils", 
+            "line": 114
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.LocaleUtils", 
+            "line": 115
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.LocaleUtils", 
+            "line": 116
+        }
+    ], 
+    "nbsuspicious": 14, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 1709, 
     "suspicious": {
         "org.apache.commons.lang.LocaleUtils:102": {
@@ -24,7 +39,11 @@
             }, 
             "nf": 0, 
             "np": 1706, 
-            "rank": 9
+            "rank": {
+                "ample": 12, 
+                "ochiai": 9, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.lang.LocaleUtils:103": {
             "class": "org.apache.commons.lang.LocaleUtils", 
@@ -39,7 +58,11 @@
             }, 
             "nf": 0, 
             "np": 1706, 
-            "rank": 10
+            "rank": {
+                "ample": 7, 
+                "ochiai": 10, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.lang.LocaleUtils:104": {
             "class": "org.apache.commons.lang.LocaleUtils", 
@@ -54,7 +77,11 @@
             }, 
             "nf": 0, 
             "np": 1706, 
-            "rank": 11
+            "rank": {
+                "ample": 11, 
+                "ochiai": 11, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.lang.LocaleUtils:107": {
             "class": "org.apache.commons.lang.LocaleUtils", 
@@ -69,7 +96,11 @@
             }, 
             "nf": 0, 
             "np": 1706, 
-            "rank": 12
+            "rank": {
+                "ample": 10, 
+                "ochiai": 12, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.lang.LocaleUtils:110": {
             "class": "org.apache.commons.lang.LocaleUtils", 
@@ -84,7 +115,11 @@
             }, 
             "nf": 0, 
             "np": 1707, 
-            "rank": 2
+            "rank": {
+                "ample": 4, 
+                "ochiai": 2, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.lang.LocaleUtils:113": {
             "class": "org.apache.commons.lang.LocaleUtils", 
@@ -99,7 +134,11 @@
             }, 
             "nf": 0, 
             "np": 1707, 
-            "rank": 3
+            "rank": {
+                "ample": 5, 
+                "ochiai": 3, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.lang.LocaleUtils:114": {
             "class": "org.apache.commons.lang.LocaleUtils", 
@@ -114,7 +153,11 @@
             }, 
             "nf": 0, 
             "np": 1707, 
-            "rank": 4
+            "rank": {
+                "ample": 2, 
+                "ochiai": 4, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.lang.LocaleUtils:115": {
             "class": "org.apache.commons.lang.LocaleUtils", 
@@ -129,7 +172,11 @@
             }, 
             "nf": 0, 
             "np": 1707, 
-            "rank": 5
+            "rank": {
+                "ample": 3, 
+                "ochiai": 5, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.lang.LocaleUtils:116": {
             "class": "org.apache.commons.lang.LocaleUtils", 
@@ -144,7 +191,11 @@
             }, 
             "nf": 0, 
             "np": 1708, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.lang.LocaleUtils:192": {
             "class": "org.apache.commons.lang.LocaleUtils", 
@@ -159,7 +210,11 @@
             }, 
             "nf": 0, 
             "np": 1698, 
-            "rank": 13
+            "rank": {
+                "ample": 13, 
+                "ochiai": 13, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.lang.LocaleUtils:223": {
             "class": "org.apache.commons.lang.LocaleUtils", 
@@ -174,7 +229,11 @@
             }, 
             "nf": 0, 
             "np": 1698, 
-            "rank": 14
+            "rank": {
+                "ample": 14, 
+                "ochiai": 14, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.lang.LocaleUtils:95": {
             "class": "org.apache.commons.lang.LocaleUtils", 
@@ -189,7 +248,11 @@
             }, 
             "nf": 0, 
             "np": 1706, 
-            "rank": 6
+            "rank": {
+                "ample": 6, 
+                "ochiai": 6, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.lang.LocaleUtils:98": {
             "class": "org.apache.commons.lang.LocaleUtils", 
@@ -204,7 +267,11 @@
             }, 
             "nf": 0, 
             "np": 1706, 
-            "rank": 7
+            "rank": {
+                "ample": 8, 
+                "ochiai": 7, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.lang.LocaleUtils:99": {
             "class": "org.apache.commons.lang.LocaleUtils", 
@@ -219,7 +286,11 @@
             }, 
             "nf": 0, 
             "np": 1706, 
-            "rank": 8
+            "rank": {
+                "ample": 9, 
+                "ochiai": 8, 
+                "tarantula": 9
+            }
         }
     }
 }

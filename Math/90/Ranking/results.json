@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:41:34.903550", 
+    "date": "2015-05-10T23:33:23.673984", 
     "executedTest": 1692, 
     "failedTest": 2, 
     "failedTestDetails": [
@@ -12,7 +12,26 @@
             "method": "warning"
         }
     ], 
-    "node": "graphite-3.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.math.stat.Frequency", 
+            "line": 108
+        }, 
+        {
+            "class": "a.org.apache.commons.math.stat.Frequency", 
+            "line": 110
+        }, 
+        {
+            "class": "a.org.apache.commons.math.stat.Frequency", 
+            "line": 111
+        }, 
+        {
+            "class": "a.org.apache.commons.math.stat.Frequency", 
+            "line": 123
+        }
+    ], 
+    "nbsuspicious": 4, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 1690, 
     "suspicious": {
         "org.apache.commons.math.stat.Frequency:107": {
@@ -28,7 +47,11 @@
             }, 
             "nf": 1, 
             "np": 1663, 
-            "rank": 2
+            "rank": {
+                "ample": 2, 
+                "ochiai": 2, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:108": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -43,7 +66,11 @@
             }, 
             "nf": 1, 
             "np": 1663, 
-            "rank": 3
+            "rank": {
+                "ample": 4, 
+                "ochiai": 3, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:112": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -58,7 +85,11 @@
             }, 
             "nf": 1, 
             "np": 1663, 
-            "rank": 4
+            "rank": {
+                "ample": 3, 
+                "ochiai": 4, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.math.stat.Frequency:120": {
             "class": "org.apache.commons.math.stat.Frequency", 
@@ -73,7 +104,11 @@
             }, 
             "nf": 1, 
             "np": 1689, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }
     }
 }

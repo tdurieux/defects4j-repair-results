@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:52:31.030232", 
+    "date": "2015-05-10T23:33:15.402374", 
     "executedTest": 3540, 
     "failedTest": 2, 
     "failedTestDetails": [
@@ -12,7 +12,90 @@
             "method": "testDoubleValueForLargeNumeratorAndDenominator"
         }
     ], 
-    "node": "griffon-13.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 685
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 686
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 687
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 688
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 689
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 690
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 691
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 692
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 693
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 694
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 738
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 739
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 740
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 741
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 742
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 743
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 744
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 745
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 746
+        }, 
+        {
+            "class": "a.org.apache.commons.math.fraction.BigFraction", 
+            "line": 747
+        }
+    ], 
+    "nbsuspicious": 4, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 3538, 
     "suspicious": {
         "org.apache.commons.math.fraction.BigFraction:685": {
@@ -28,7 +111,11 @@
             }, 
             "nf": 1, 
             "np": 3513, 
-            "rank": 4
+            "rank": {
+                "ample": 4, 
+                "ochiai": 4, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.math.fraction.BigFraction:729": {
             "class": "org.apache.commons.math.fraction.BigFraction", 
@@ -43,7 +130,11 @@
             }, 
             "nf": 1, 
             "np": 3537, 
-            "rank": 1
+            "rank": {
+                "ample": 3, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.math.util.MathUtils:244": {
             "class": "org.apache.commons.math.util.MathUtils", 
@@ -58,7 +149,11 @@
             }, 
             "nf": 0, 
             "np": 3493, 
-            "rank": 3
+            "rank": {
+                "ample": 2, 
+                "ochiai": 3, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.math.util.MathUtils:247": {
             "class": "org.apache.commons.math.util.MathUtils", 
@@ -73,7 +168,11 @@
             }, 
             "nf": 0, 
             "np": 3494, 
-            "rank": 2
+            "rank": {
+                "ample": 1, 
+                "ochiai": 2, 
+                "tarantula": 2
+            }
         }
     }
 }

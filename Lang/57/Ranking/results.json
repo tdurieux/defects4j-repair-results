@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:47:42.321309", 
+    "date": "2015-05-10T23:33:25.035951", 
     "executedTest": 1690, 
     "failedTest": 11, 
     "failedTestDetails": [
@@ -48,7 +48,14 @@
             "method": "testConstructor"
         }
     ], 
-    "node": "griffon-91.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.lang.LocaleUtils", 
+            "line": 223
+        }
+    ], 
+    "nbsuspicious": 1, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 1679, 
     "suspicious": {
         "org.apache.commons.lang.LocaleUtils:223": {
@@ -64,7 +71,11 @@
             }, 
             "nf": 0, 
             "np": 1679, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:45:57.643526", 
+    "date": "2015-05-10T23:33:15.323495", 
     "executedTest": 3074, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,30 @@
             "method": "testMath679"
         }
     ], 
-    "node": "griffon-4.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.math.linear.OpenMapRealMatrix", 
+            "line": 50
+        }, 
+        {
+            "class": "a.org.apache.commons.math.linear.OpenMapRealMatrix", 
+            "line": 51
+        }, 
+        {
+            "class": "a.org.apache.commons.math.linear.OpenMapRealMatrix", 
+            "line": 52
+        }, 
+        {
+            "class": "a.org.apache.commons.math.linear.OpenMapRealMatrix", 
+            "line": 53
+        }, 
+        {
+            "class": "a.org.apache.commons.math.linear.OpenMapRealMatrix", 
+            "line": 54
+        }
+    ], 
+    "nbsuspicious": 15, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 3073, 
     "suspicious": {
         "org.apache.commons.math.util.FastMath:3317": {
@@ -24,7 +47,11 @@
             }, 
             "nf": 0, 
             "np": 2695, 
-            "rank": 14
+            "rank": {
+                "ample": 15, 
+                "ochiai": 14, 
+                "tarantula": 15
+            }
         }, 
         "org.apache.commons.math.util.FastMath:3321": {
             "class": "org.apache.commons.math.util.FastMath", 
@@ -39,7 +66,11 @@
             }, 
             "nf": 0, 
             "np": 2695, 
-            "rank": 15
+            "rank": {
+                "ample": 14, 
+                "ochiai": 15, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.math.util.FastMath:3325": {
             "class": "org.apache.commons.math.util.FastMath", 
@@ -54,7 +85,11 @@
             }, 
             "nf": 0, 
             "np": 2697, 
-            "rank": 11
+            "rank": {
+                "ample": 13, 
+                "ochiai": 11, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.math.util.FastMath:3326": {
             "class": "org.apache.commons.math.util.FastMath", 
@@ -69,7 +104,11 @@
             }, 
             "nf": 0, 
             "np": 2697, 
-            "rank": 12
+            "rank": {
+                "ample": 12, 
+                "ochiai": 12, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.math.util.FastMath:3330": {
             "class": "org.apache.commons.math.util.FastMath", 
@@ -84,7 +123,11 @@
             }, 
             "nf": 0, 
             "np": 2697, 
-            "rank": 13
+            "rank": {
+                "ample": 11, 
+                "ochiai": 13, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.math.util.FastMath:3334": {
             "class": "org.apache.commons.math.util.FastMath", 
@@ -99,7 +142,11 @@
             }, 
             "nf": 0, 
             "np": 2743, 
-            "rank": 10
+            "rank": {
+                "ample": 10, 
+                "ochiai": 10, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.math.util.FastMath:3344": {
             "class": "org.apache.commons.math.util.FastMath", 
@@ -114,7 +161,11 @@
             }, 
             "nf": 0, 
             "np": 2883, 
-            "rank": 7
+            "rank": {
+                "ample": 8, 
+                "ochiai": 7, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.math.util.FastMath:3348": {
             "class": "org.apache.commons.math.util.FastMath", 
@@ -129,7 +180,11 @@
             }, 
             "nf": 0, 
             "np": 2883, 
-            "rank": 8
+            "rank": {
+                "ample": 7, 
+                "ochiai": 8, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.math.util.FastMath:3349": {
             "class": "org.apache.commons.math.util.FastMath", 
@@ -144,7 +199,11 @@
             }, 
             "nf": 0, 
             "np": 2883, 
-            "rank": 9
+            "rank": {
+                "ample": 9, 
+                "ochiai": 9, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.math.util.FastMath:3350": {
             "class": "org.apache.commons.math.util.FastMath", 
@@ -159,7 +218,11 @@
             }, 
             "nf": 0, 
             "np": 2897, 
-            "rank": 6
+            "rank": {
+                "ample": 6, 
+                "ochiai": 6, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.math.util.OpenIntToDoubleHashMap:150": {
             "class": "org.apache.commons.math.util.OpenIntToDoubleHashMap", 
@@ -174,7 +237,11 @@
             }, 
             "nf": 0, 
             "np": 3009, 
-            "rank": 5
+            "rank": {
+                "ample": 5, 
+                "ochiai": 5, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.math.util.OpenIntToDoubleHashMap:153": {
             "class": "org.apache.commons.math.util.OpenIntToDoubleHashMap", 
@@ -189,7 +256,11 @@
             }, 
             "nf": 0, 
             "np": 3010, 
-            "rank": 2
+            "rank": {
+                "ample": 4, 
+                "ochiai": 2, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.math.util.OpenIntToDoubleHashMap:154": {
             "class": "org.apache.commons.math.util.OpenIntToDoubleHashMap", 
@@ -204,7 +275,11 @@
             }, 
             "nf": 0, 
             "np": 3010, 
-            "rank": 3
+            "rank": {
+                "ample": 2, 
+                "ochiai": 3, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.math.util.OpenIntToDoubleHashMap:155": {
             "class": "org.apache.commons.math.util.OpenIntToDoubleHashMap", 
@@ -219,7 +294,11 @@
             }, 
             "nf": 0, 
             "np": 3010, 
-            "rank": 4
+            "rank": {
+                "ample": 3, 
+                "ochiai": 4, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.math.util.OpenIntToDoubleHashMap:156": {
             "class": "org.apache.commons.math.util.OpenIntToDoubleHashMap", 
@@ -234,7 +313,11 @@
             }, 
             "nf": 0, 
             "np": 3011, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }
     }
 }

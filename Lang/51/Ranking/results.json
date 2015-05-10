@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:48:15.302771", 
+    "date": "2015-05-10T23:33:24.831503", 
     "executedTest": 1725, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,14 @@
             "method": "test_toBoolean_String"
         }
     ], 
-    "node": "griffon-74.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.lang.BooleanUtils", 
+            "line": 682
+        }
+    ], 
+    "nbsuspicious": 19, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 1724, 
     "suspicious": {
         "org.apache.commons.lang.BooleanUtils:656": {
@@ -24,7 +31,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 1
+            "rank": {
+                "ample": 9, 
+                "ochiai": 1, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:657": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -39,7 +50,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 2
+            "rank": {
+                "ample": 10, 
+                "ochiai": 2, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:659": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -54,7 +69,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 3
+            "rank": {
+                "ample": 2, 
+                "ochiai": 3, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:660": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -69,7 +88,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 4
+            "rank": {
+                "ample": 19, 
+                "ochiai": 4, 
+                "tarantula": 19
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:662": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -84,7 +107,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 5
+            "rank": {
+                "ample": 17, 
+                "ochiai": 5, 
+                "tarantula": 17
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:664": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -99,7 +126,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 6
+            "rank": {
+                "ample": 15, 
+                "ochiai": 6, 
+                "tarantula": 15
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:665": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -114,7 +145,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 7
+            "rank": {
+                "ample": 14, 
+                "ochiai": 7, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:666": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -129,7 +164,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 8
+            "rank": {
+                "ample": 13, 
+                "ochiai": 8, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:671": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -144,7 +183,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 9
+            "rank": {
+                "ample": 6, 
+                "ochiai": 9, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:672": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -159,7 +202,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 10
+            "rank": {
+                "ample": 18, 
+                "ochiai": 10, 
+                "tarantula": 18
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:673": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -174,7 +221,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 11
+            "rank": {
+                "ample": 12, 
+                "ochiai": 11, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:677": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -189,7 +240,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 12
+            "rank": {
+                "ample": 1, 
+                "ochiai": 12, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:678": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -204,7 +259,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 13
+            "rank": {
+                "ample": 5, 
+                "ochiai": 13, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:684": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -219,7 +278,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 14
+            "rank": {
+                "ample": 3, 
+                "ochiai": 14, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:685": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -234,7 +297,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 15
+            "rank": {
+                "ample": 4, 
+                "ochiai": 15, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:686": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -249,7 +316,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 16
+            "rank": {
+                "ample": 11, 
+                "ochiai": 16, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:691": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -264,7 +335,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 17
+            "rank": {
+                "ample": 7, 
+                "ochiai": 17, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:692": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -279,7 +354,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 18
+            "rank": {
+                "ample": 16, 
+                "ochiai": 18, 
+                "tarantula": 16
+            }
         }, 
         "org.apache.commons.lang.BooleanUtils:699": {
             "class": "org.apache.commons.lang.BooleanUtils", 
@@ -294,7 +373,11 @@
             }, 
             "nf": 0, 
             "np": 1724, 
-            "rank": 19
+            "rank": {
+                "ample": 8, 
+                "ochiai": 19, 
+                "tarantula": 8
+            }
         }
     }
 }

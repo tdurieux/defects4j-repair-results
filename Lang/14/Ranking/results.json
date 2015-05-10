@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:50:15.687493", 
+    "date": "2015-05-10T23:33:24.995663", 
     "executedTest": 2073, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,50 @@
             "method": "testEquals"
         }
     ], 
-    "node": "griffon-34.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.lang3.StringUtils", 
+            "line": 782
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.StringUtils", 
+            "line": 783
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.StringUtils", 
+            "line": 784
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.StringUtils", 
+            "line": 785
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.StringUtils", 
+            "line": 786
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.StringUtils", 
+            "line": 787
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.StringUtils", 
+            "line": 788
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.StringUtils", 
+            "line": 789
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.StringUtils", 
+            "line": 790
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.StringUtils", 
+            "line": 791
+        }
+    ], 
+    "nbsuspicious": 1, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 2072, 
     "suspicious": {
         "org.apache.commons.lang3.StringUtils:782": {
@@ -24,7 +67,11 @@
             }, 
             "nf": 0, 
             "np": 2056, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }
     }
 }

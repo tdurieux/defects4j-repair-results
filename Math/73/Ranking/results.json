@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:42:25.559030", 
+    "date": "2015-05-10T23:33:16.466804", 
     "executedTest": 2140, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,46 @@
             "method": "testBadEndpoints"
         }
     ], 
-    "node": "griffon-56.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.math.analysis.solvers.BrentSolver", 
+            "line": 35
+        }, 
+        {
+            "class": "a.org.apache.commons.math.analysis.solvers.BrentSolver", 
+            "line": 36
+        }, 
+        {
+            "class": "a.org.apache.commons.math.analysis.solvers.BrentSolver", 
+            "line": 37
+        }, 
+        {
+            "class": "a.org.apache.commons.math.analysis.solvers.BrentSolver", 
+            "line": 38
+        }, 
+        {
+            "class": "a.org.apache.commons.math.analysis.solvers.BrentSolver", 
+            "line": 136
+        }, 
+        {
+            "class": "a.org.apache.commons.math.analysis.solvers.BrentSolver", 
+            "line": 137
+        }, 
+        {
+            "class": "a.org.apache.commons.math.analysis.solvers.BrentSolver", 
+            "line": 138
+        }, 
+        {
+            "class": "a.org.apache.commons.math.analysis.solvers.BrentSolver", 
+            "line": 139
+        }, 
+        {
+            "class": "a.org.apache.commons.math.analysis.solvers.BrentSolver", 
+            "line": 189
+        }
+    ], 
+    "nbsuspicious": 77, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 2139, 
     "suspicious": {
         "org.apache.commons.math.MathRuntimeException:305": {
@@ -24,7 +63,11 @@
             }, 
             "nf": 0, 
             "np": 1896, 
-            "rank": 77
+            "rank": {
+                "ample": 77, 
+                "ochiai": 77, 
+                "tarantula": 77
+            }
         }, 
         "org.apache.commons.math.analysis.SinFunction:37": {
             "class": "org.apache.commons.math.analysis.SinFunction", 
@@ -39,7 +82,11 @@
             }, 
             "nf": 0, 
             "np": 2104, 
-            "rank": 21
+            "rank": {
+                "ample": 21, 
+                "ochiai": 21, 
+                "tarantula": 21
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:101": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -54,7 +101,11 @@
             }, 
             "nf": 0, 
             "np": 2138, 
-            "rank": 4
+            "rank": {
+                "ample": 3, 
+                "ochiai": 4, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:102": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -69,7 +120,11 @@
             }, 
             "nf": 0, 
             "np": 2138, 
-            "rank": 5
+            "rank": {
+                "ample": 2, 
+                "ochiai": 5, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:108": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -84,7 +139,11 @@
             }, 
             "nf": 0, 
             "np": 2138, 
-            "rank": 6
+            "rank": {
+                "ample": 5, 
+                "ochiai": 6, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:109": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -99,7 +158,11 @@
             }, 
             "nf": 0, 
             "np": 2138, 
-            "rank": 7
+            "rank": {
+                "ample": 4, 
+                "ochiai": 7, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:115": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -114,7 +177,11 @@
             }, 
             "nf": 0, 
             "np": 2138, 
-            "rank": 8
+            "rank": {
+                "ample": 10, 
+                "ochiai": 8, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:120": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -129,7 +196,11 @@
             }, 
             "nf": 0, 
             "np": 2138, 
-            "rank": 9
+            "rank": {
+                "ample": 7, 
+                "ochiai": 9, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:121": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -144,7 +215,11 @@
             }, 
             "nf": 0, 
             "np": 2138, 
-            "rank": 10
+            "rank": {
+                "ample": 6, 
+                "ochiai": 10, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:127": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -159,7 +234,11 @@
             }, 
             "nf": 0, 
             "np": 2138, 
-            "rank": 11
+            "rank": {
+                "ample": 8, 
+                "ochiai": 11, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:132": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -174,7 +253,11 @@
             }, 
             "nf": 0, 
             "np": 2139, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:158": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -189,7 +272,11 @@
             }, 
             "nf": 0, 
             "np": 2016, 
-            "rank": 61
+            "rank": {
+                "ample": 67, 
+                "ochiai": 61, 
+                "tarantula": 67
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:159": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -204,7 +291,11 @@
             }, 
             "nf": 0, 
             "np": 2016, 
-            "rank": 62
+            "rank": {
+                "ample": 66, 
+                "ochiai": 62, 
+                "tarantula": 66
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:161": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -219,7 +310,11 @@
             }, 
             "nf": 0, 
             "np": 2016, 
-            "rank": 63
+            "rank": {
+                "ample": 63, 
+                "ochiai": 63, 
+                "tarantula": 63
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:163": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -234,7 +329,11 @@
             }, 
             "nf": 0, 
             "np": 2016, 
-            "rank": 64
+            "rank": {
+                "ample": 64, 
+                "ochiai": 64, 
+                "tarantula": 64
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:164": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -249,7 +348,11 @@
             }, 
             "nf": 0, 
             "np": 2016, 
-            "rank": 65
+            "rank": {
+                "ample": 61, 
+                "ochiai": 65, 
+                "tarantula": 61
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:167": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -264,7 +367,11 @@
             }, 
             "nf": 0, 
             "np": 2016, 
-            "rank": 66
+            "rank": {
+                "ample": 62, 
+                "ochiai": 66, 
+                "tarantula": 62
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:168": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -279,7 +386,11 @@
             }, 
             "nf": 0, 
             "np": 2016, 
-            "rank": 67
+            "rank": {
+                "ample": 65, 
+                "ochiai": 67, 
+                "tarantula": 65
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:170": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -294,7 +405,11 @@
             }, 
             "nf": 0, 
             "np": 2137, 
-            "rank": 13
+            "rank": {
+                "ample": 14, 
+                "ochiai": 13, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:173": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -309,7 +424,11 @@
             }, 
             "nf": 0, 
             "np": 2137, 
-            "rank": 14
+            "rank": {
+                "ample": 13, 
+                "ochiai": 14, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:178": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -324,7 +443,11 @@
             }, 
             "nf": 0, 
             "np": 2138, 
-            "rank": 12
+            "rank": {
+                "ample": 12, 
+                "ochiai": 12, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:221": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -339,7 +462,11 @@
             }, 
             "nf": 0, 
             "np": 2019, 
-            "rank": 55
+            "rank": {
+                "ample": 59, 
+                "ochiai": 55, 
+                "tarantula": 59
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:222": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -354,7 +481,11 @@
             }, 
             "nf": 0, 
             "np": 2019, 
-            "rank": 56
+            "rank": {
+                "ample": 60, 
+                "ochiai": 56, 
+                "tarantula": 60
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:224": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -369,7 +500,11 @@
             }, 
             "nf": 0, 
             "np": 2019, 
-            "rank": 57
+            "rank": {
+                "ample": 58, 
+                "ochiai": 57, 
+                "tarantula": 58
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:225": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -384,7 +519,11 @@
             }, 
             "nf": 0, 
             "np": 2019, 
-            "rank": 58
+            "rank": {
+                "ample": 56, 
+                "ochiai": 58, 
+                "tarantula": 56
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:226": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -399,7 +538,11 @@
             }, 
             "nf": 0, 
             "np": 2019, 
-            "rank": 59
+            "rank": {
+                "ample": 57, 
+                "ochiai": 59, 
+                "tarantula": 57
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:228": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -414,7 +557,11 @@
             }, 
             "nf": 0, 
             "np": 2023, 
-            "rank": 32
+            "rank": {
+                "ample": 42, 
+                "ochiai": 32, 
+                "tarantula": 42
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:229": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -429,7 +576,11 @@
             }, 
             "nf": 0, 
             "np": 2023, 
-            "rank": 33
+            "rank": {
+                "ample": 43, 
+                "ochiai": 33, 
+                "tarantula": 43
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:230": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -444,7 +595,11 @@
             }, 
             "nf": 0, 
             "np": 2023, 
-            "rank": 34
+            "rank": {
+                "ample": 35, 
+                "ochiai": 34, 
+                "tarantula": 35
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:231": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -459,7 +614,11 @@
             }, 
             "nf": 0, 
             "np": 2023, 
-            "rank": 35
+            "rank": {
+                "ample": 34, 
+                "ochiai": 35, 
+                "tarantula": 34
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:232": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -474,7 +633,11 @@
             }, 
             "nf": 0, 
             "np": 2023, 
-            "rank": 36
+            "rank": {
+                "ample": 37, 
+                "ochiai": 36, 
+                "tarantula": 37
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:233": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -489,7 +652,11 @@
             }, 
             "nf": 0, 
             "np": 2023, 
-            "rank": 37
+            "rank": {
+                "ample": 36, 
+                "ochiai": 37, 
+                "tarantula": 36
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:235": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -504,7 +671,11 @@
             }, 
             "nf": 0, 
             "np": 2019, 
-            "rank": 60
+            "rank": {
+                "ample": 55, 
+                "ochiai": 60, 
+                "tarantula": 55
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:242": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -519,7 +690,11 @@
             }, 
             "nf": 0, 
             "np": 2022, 
-            "rank": 44
+            "rank": {
+                "ample": 45, 
+                "ochiai": 44, 
+                "tarantula": 45
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:243": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -534,7 +709,11 @@
             }, 
             "nf": 0, 
             "np": 2022, 
-            "rank": 45
+            "rank": {
+                "ample": 49, 
+                "ochiai": 45, 
+                "tarantula": 49
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:245": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -549,7 +728,11 @@
             }, 
             "nf": 0, 
             "np": 2022, 
-            "rank": 46
+            "rank": {
+                "ample": 53, 
+                "ochiai": 46, 
+                "tarantula": 53
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:246": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -564,7 +747,11 @@
             }, 
             "nf": 0, 
             "np": 2049, 
-            "rank": 23
+            "rank": {
+                "ample": 24, 
+                "ochiai": 23, 
+                "tarantula": 24
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:247": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -579,7 +766,11 @@
             }, 
             "nf": 0, 
             "np": 2049, 
-            "rank": 24
+            "rank": {
+                "ample": 25, 
+                "ochiai": 24, 
+                "tarantula": 25
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:249": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -594,7 +785,11 @@
             }, 
             "nf": 0, 
             "np": 2022, 
-            "rank": 47
+            "rank": {
+                "ample": 54, 
+                "ochiai": 47, 
+                "tarantula": 54
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:255": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -609,7 +804,11 @@
             }, 
             "nf": 0, 
             "np": 2023, 
-            "rank": 38
+            "rank": {
+                "ample": 38, 
+                "ochiai": 38, 
+                "tarantula": 38
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:261": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -624,7 +823,11 @@
             }, 
             "nf": 0, 
             "np": 2023, 
-            "rank": 39
+            "rank": {
+                "ample": 39, 
+                "ochiai": 39, 
+                "tarantula": 39
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:263": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -639,7 +842,11 @@
             }, 
             "nf": 0, 
             "np": 2023, 
-            "rank": 40
+            "rank": {
+                "ample": 32, 
+                "ochiai": 40, 
+                "tarantula": 32
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:264": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -654,7 +861,11 @@
             }, 
             "nf": 0, 
             "np": 2023, 
-            "rank": 41
+            "rank": {
+                "ample": 33, 
+                "ochiai": 41, 
+                "tarantula": 33
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:272": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -669,7 +880,11 @@
             }, 
             "nf": 0, 
             "np": 2023, 
-            "rank": 42
+            "rank": {
+                "ample": 41, 
+                "ochiai": 42, 
+                "tarantula": 41
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:273": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -684,7 +899,11 @@
             }, 
             "nf": 0, 
             "np": 2044, 
-            "rank": 26
+            "rank": {
+                "ample": 26, 
+                "ochiai": 26, 
+                "tarantula": 26
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:277": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -699,7 +918,11 @@
             }, 
             "nf": 0, 
             "np": 2023, 
-            "rank": 43
+            "rank": {
+                "ample": 40, 
+                "ochiai": 43, 
+                "tarantula": 40
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:282": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -714,7 +937,11 @@
             }, 
             "nf": 0, 
             "np": 2128, 
-            "rank": 18
+            "rank": {
+                "ample": 19, 
+                "ochiai": 18, 
+                "tarantula": 19
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:283": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -729,7 +956,11 @@
             }, 
             "nf": 0, 
             "np": 2128, 
-            "rank": 19
+            "rank": {
+                "ample": 18, 
+                "ochiai": 19, 
+                "tarantula": 18
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:290": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -744,7 +975,11 @@
             }, 
             "nf": 0, 
             "np": 2022, 
-            "rank": 48
+            "rank": {
+                "ample": 44, 
+                "ochiai": 48, 
+                "tarantula": 44
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:291": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -759,7 +994,11 @@
             }, 
             "nf": 0, 
             "np": 2022, 
-            "rank": 49
+            "rank": {
+                "ample": 51, 
+                "ochiai": 49, 
+                "tarantula": 51
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:293": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -774,7 +1013,11 @@
             }, 
             "nf": 0, 
             "np": 2022, 
-            "rank": 50
+            "rank": {
+                "ample": 47, 
+                "ochiai": 50, 
+                "tarantula": 47
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:294": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -789,7 +1032,11 @@
             }, 
             "nf": 0, 
             "np": 2039, 
-            "rank": 27
+            "rank": {
+                "ample": 27, 
+                "ochiai": 27, 
+                "tarantula": 27
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:295": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -804,7 +1051,11 @@
             }, 
             "nf": 0, 
             "np": 2049, 
-            "rank": 25
+            "rank": {
+                "ample": 23, 
+                "ochiai": 25, 
+                "tarantula": 23
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:296": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -819,7 +1070,11 @@
             }, 
             "nf": 0, 
             "np": 2101, 
-            "rank": 22
+            "rank": {
+                "ample": 22, 
+                "ochiai": 22, 
+                "tarantula": 22
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:300": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -834,7 +1089,11 @@
             }, 
             "nf": 0, 
             "np": 2022, 
-            "rank": 51
+            "rank": {
+                "ample": 46, 
+                "ochiai": 51, 
+                "tarantula": 46
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:301": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -849,7 +1108,11 @@
             }, 
             "nf": 0, 
             "np": 2022, 
-            "rank": 52
+            "rank": {
+                "ample": 52, 
+                "ochiai": 52, 
+                "tarantula": 52
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:302": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -864,7 +1127,11 @@
             }, 
             "nf": 0, 
             "np": 2037, 
-            "rank": 28
+            "rank": {
+                "ample": 30, 
+                "ochiai": 28, 
+                "tarantula": 30
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:303": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -879,7 +1146,11 @@
             }, 
             "nf": 0, 
             "np": 2037, 
-            "rank": 29
+            "rank": {
+                "ample": 28, 
+                "ochiai": 29, 
+                "tarantula": 28
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:304": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -894,7 +1165,11 @@
             }, 
             "nf": 0, 
             "np": 2037, 
-            "rank": 30
+            "rank": {
+                "ample": 29, 
+                "ochiai": 30, 
+                "tarantula": 29
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:305": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -909,7 +1184,11 @@
             }, 
             "nf": 0, 
             "np": 2037, 
-            "rank": 31
+            "rank": {
+                "ample": 31, 
+                "ochiai": 31, 
+                "tarantula": 31
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:307": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -924,7 +1203,11 @@
             }, 
             "nf": 0, 
             "np": 2022, 
-            "rank": 53
+            "rank": {
+                "ample": 48, 
+                "ochiai": 53, 
+                "tarantula": 48
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:308": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -939,7 +1222,11 @@
             }, 
             "nf": 0, 
             "np": 2022, 
-            "rank": 54
+            "rank": {
+                "ample": 50, 
+                "ochiai": 54, 
+                "tarantula": 50
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:97": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -954,7 +1241,11 @@
             }, 
             "nf": 0, 
             "np": 2138, 
-            "rank": 2
+            "rank": {
+                "ample": 9, 
+                "ochiai": 2, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.BrentSolver:98": {
             "class": "org.apache.commons.math.analysis.solvers.BrentSolver", 
@@ -969,7 +1260,11 @@
             }, 
             "nf": 0, 
             "np": 2138, 
-            "rank": 3
+            "rank": {
+                "ample": 11, 
+                "ochiai": 3, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:141": {
             "class": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
@@ -984,7 +1279,11 @@
             }, 
             "nf": 0, 
             "np": 1998, 
-            "rank": 71
+            "rank": {
+                "ample": 71, 
+                "ochiai": 71, 
+                "tarantula": 71
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:142": {
             "class": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
@@ -999,7 +1298,11 @@
             }, 
             "nf": 0, 
             "np": 1998, 
-            "rank": 72
+            "rank": {
+                "ample": 73, 
+                "ochiai": 72, 
+                "tarantula": 73
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:143": {
             "class": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
@@ -1014,7 +1317,11 @@
             }, 
             "nf": 0, 
             "np": 1998, 
-            "rank": 73
+            "rank": {
+                "ample": 72, 
+                "ochiai": 73, 
+                "tarantula": 72
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:144": {
             "class": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
@@ -1029,7 +1336,11 @@
             }, 
             "nf": 0, 
             "np": 1998, 
-            "rank": 74
+            "rank": {
+                "ample": 74, 
+                "ochiai": 74, 
+                "tarantula": 74
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:165": {
             "class": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
@@ -1044,7 +1355,11 @@
             }, 
             "nf": 0, 
             "np": 2010, 
-            "rank": 68
+            "rank": {
+                "ample": 70, 
+                "ochiai": 68, 
+                "tarantula": 70
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:166": {
             "class": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
@@ -1059,7 +1374,11 @@
             }, 
             "nf": 0, 
             "np": 2010, 
-            "rank": 69
+            "rank": {
+                "ample": 69, 
+                "ochiai": 69, 
+                "tarantula": 69
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:167": {
             "class": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
@@ -1074,7 +1393,11 @@
             }, 
             "nf": 0, 
             "np": 2010, 
-            "rank": 70
+            "rank": {
+                "ample": 68, 
+                "ochiai": 70, 
+                "tarantula": 68
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:196": {
             "class": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
@@ -1089,7 +1412,11 @@
             }, 
             "nf": 0, 
             "np": 2127, 
-            "rank": 20
+            "rank": {
+                "ample": 20, 
+                "ochiai": 20, 
+                "tarantula": 20
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:208": {
             "class": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
@@ -1104,7 +1431,11 @@
             }, 
             "nf": 0, 
             "np": 1994, 
-            "rank": 75
+            "rank": {
+                "ample": 76, 
+                "ochiai": 75, 
+                "tarantula": 76
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:209": {
             "class": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
@@ -1119,7 +1450,11 @@
             }, 
             "nf": 0, 
             "np": 2136, 
-            "rank": 15
+            "rank": {
+                "ample": 15, 
+                "ochiai": 15, 
+                "tarantula": 15
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:213": {
             "class": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
@@ -1134,7 +1469,11 @@
             }, 
             "nf": 0, 
             "np": 1994, 
-            "rank": 76
+            "rank": {
+                "ample": 75, 
+                "ochiai": 76, 
+                "tarantula": 75
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:225": {
             "class": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
@@ -1149,7 +1488,11 @@
             }, 
             "nf": 0, 
             "np": 2135, 
-            "rank": 16
+            "rank": {
+                "ample": 17, 
+                "ochiai": 16, 
+                "tarantula": 17
+            }
         }, 
         "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:230": {
             "class": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl", 
@@ -1164,7 +1507,11 @@
             }, 
             "nf": 0, 
             "np": 2135, 
-            "rank": 17
+            "rank": {
+                "ample": 16, 
+                "ochiai": 17, 
+                "tarantula": 16
+            }
         }
     }
 }

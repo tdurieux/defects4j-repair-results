@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:49:13.524490", 
+    "date": "2015-05-10T23:33:25.905536", 
     "executedTest": 1670, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,14 @@
             "method": "testToClass_object"
         }
     ], 
-    "node": "griffon-56.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.lang3.ClassUtils", 
+            "line": 910
+        }
+    ], 
+    "nbsuspicious": 8, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 1669, 
     "suspicious": {
         "org.apache.commons.lang3.ClassUtils:903": {
@@ -24,7 +31,11 @@
             }, 
             "nf": 0, 
             "np": 1669, 
-            "rank": 1
+            "rank": {
+                "ample": 3, 
+                "ochiai": 1, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.lang3.ClassUtils:904": {
             "class": "org.apache.commons.lang3.ClassUtils", 
@@ -39,7 +50,11 @@
             }, 
             "nf": 0, 
             "np": 1669, 
-            "rank": 2
+            "rank": {
+                "ample": 4, 
+                "ochiai": 2, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.lang3.ClassUtils:905": {
             "class": "org.apache.commons.lang3.ClassUtils", 
@@ -54,7 +69,11 @@
             }, 
             "nf": 0, 
             "np": 1669, 
-            "rank": 3
+            "rank": {
+                "ample": 5, 
+                "ochiai": 3, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.lang3.ClassUtils:906": {
             "class": "org.apache.commons.lang3.ClassUtils", 
@@ -69,7 +88,11 @@
             }, 
             "nf": 0, 
             "np": 1669, 
-            "rank": 4
+            "rank": {
+                "ample": 6, 
+                "ochiai": 4, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.lang3.ClassUtils:908": {
             "class": "org.apache.commons.lang3.ClassUtils", 
@@ -84,7 +107,11 @@
             }, 
             "nf": 0, 
             "np": 1669, 
-            "rank": 5
+            "rank": {
+                "ample": 7, 
+                "ochiai": 5, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.lang3.ClassUtils:909": {
             "class": "org.apache.commons.lang3.ClassUtils", 
@@ -99,7 +126,11 @@
             }, 
             "nf": 0, 
             "np": 1669, 
-            "rank": 6
+            "rank": {
+                "ample": 8, 
+                "ochiai": 6, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.lang3.ClassUtils:910": {
             "class": "org.apache.commons.lang3.ClassUtils", 
@@ -114,7 +145,11 @@
             }, 
             "nf": 0, 
             "np": 1669, 
-            "rank": 7
+            "rank": {
+                "ample": 2, 
+                "ochiai": 7, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.lang3.ClassUtils:912": {
             "class": "org.apache.commons.lang3.ClassUtils", 
@@ -129,7 +164,11 @@
             }, 
             "nf": 0, 
             "np": 1669, 
-            "rank": 8
+            "rank": {
+                "ample": 1, 
+                "ochiai": 8, 
+                "tarantula": 1
+            }
         }
     }
 }

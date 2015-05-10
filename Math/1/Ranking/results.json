@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:53:23.211491", 
+    "date": "2015-05-10T23:33:14.614373", 
     "executedTest": 5222, 
     "failedTest": 2, 
     "failedTestDetails": [
@@ -12,7 +12,62 @@
             "method": "testDigitLimitConstructor"
         }
     ], 
-    "node": "griffon-85.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.math3.fraction.BigFraction", 
+            "line": 304
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.fraction.BigFraction", 
+            "line": 305
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.fraction.BigFraction", 
+            "line": 306
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.fraction.BigFraction", 
+            "line": 307
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.fraction.BigFraction", 
+            "line": 308
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.fraction.Fraction", 
+            "line": 86
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.fraction.Fraction", 
+            "line": 87
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.fraction.Fraction", 
+            "line": 102
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.fraction.Fraction", 
+            "line": 213
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.fraction.Fraction", 
+            "line": 214
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.fraction.Fraction", 
+            "line": 215
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.fraction.Fraction", 
+            "line": 216
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.fraction.Fraction", 
+            "line": 217
+        }
+    ], 
+    "nbsuspicious": 43, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 5220, 
     "suspicious": {
         "org.apache.commons.math3.exception.MathIllegalStateException:74": {
@@ -28,7 +83,11 @@
             }, 
             "nf": 0, 
             "np": 5149, 
-            "rank": 22
+            "rank": {
+                "ample": 20, 
+                "ochiai": 22, 
+                "tarantula": 24
+            }
         }, 
         "org.apache.commons.math3.exception.MathIllegalStateException:80": {
             "class": "org.apache.commons.math3.exception.MathIllegalStateException", 
@@ -43,7 +102,11 @@
             }, 
             "nf": 0, 
             "np": 5220, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.math3.exception.MathIllegalStateException:86": {
             "class": "org.apache.commons.math3.exception.MathIllegalStateException", 
@@ -58,7 +121,11 @@
             }, 
             "nf": 0, 
             "np": 5219, 
-            "rank": 2
+            "rank": {
+                "ample": 3, 
+                "ochiai": 2, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.math3.exception.util.ArgUtils:42": {
             "class": "org.apache.commons.math3.exception.util.ArgUtils", 
@@ -73,7 +140,11 @@
             }, 
             "nf": 0, 
             "np": 4135, 
-            "rank": 37
+            "rank": {
+                "ample": 35, 
+                "ochiai": 37, 
+                "tarantula": 39
+            }
         }, 
         "org.apache.commons.math3.exception.util.ArgUtils:43": {
             "class": "org.apache.commons.math3.exception.util.ArgUtils", 
@@ -88,7 +159,11 @@
             }, 
             "nf": 0, 
             "np": 4135, 
-            "rank": 38
+            "rank": {
+                "ample": 36, 
+                "ochiai": 38, 
+                "tarantula": 40
+            }
         }, 
         "org.apache.commons.math3.exception.util.ArgUtils:44": {
             "class": "org.apache.commons.math3.exception.util.ArgUtils", 
@@ -103,7 +178,11 @@
             }, 
             "nf": 0, 
             "np": 4135, 
-            "rank": 39
+            "rank": {
+                "ample": 34, 
+                "ochiai": 39, 
+                "tarantula": 38
+            }
         }, 
         "org.apache.commons.math3.exception.util.ArgUtils:45": {
             "class": "org.apache.commons.math3.exception.util.ArgUtils", 
@@ -118,7 +197,11 @@
             }, 
             "nf": 0, 
             "np": 4329, 
-            "rank": 32
+            "rank": {
+                "ample": 29, 
+                "ochiai": 32, 
+                "tarantula": 33
+            }
         }, 
         "org.apache.commons.math3.exception.util.ArgUtils:50": {
             "class": "org.apache.commons.math3.exception.util.ArgUtils", 
@@ -133,7 +216,11 @@
             }, 
             "nf": 0, 
             "np": 4329, 
-            "rank": 33
+            "rank": {
+                "ample": 28, 
+                "ochiai": 33, 
+                "tarantula": 32
+            }
         }, 
         "org.apache.commons.math3.exception.util.ArgUtils:54": {
             "class": "org.apache.commons.math3.exception.util.ArgUtils", 
@@ -148,7 +235,11 @@
             }, 
             "nf": 0, 
             "np": 4135, 
-            "rank": 40
+            "rank": {
+                "ample": 33, 
+                "ochiai": 40, 
+                "tarantula": 37
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:128": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -163,7 +254,11 @@
             }, 
             "nf": 0, 
             "np": 5215, 
-            "rank": 5
+            "rank": {
+                "ample": 5, 
+                "ochiai": 5, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:137": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -178,7 +273,11 @@
             }, 
             "nf": 0, 
             "np": 5219, 
-            "rank": 3
+            "rank": {
+                "ample": 2, 
+                "ochiai": 3, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:147": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -193,7 +292,11 @@
             }, 
             "nf": 0, 
             "np": 5214, 
-            "rank": 6
+            "rank": {
+                "ample": 6, 
+                "ochiai": 6, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:171": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -208,7 +311,11 @@
             }, 
             "nf": 0, 
             "np": 5213, 
-            "rank": 7
+            "rank": {
+                "ample": 9, 
+                "ochiai": 7, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:172": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -223,7 +330,11 @@
             }, 
             "nf": 0, 
             "np": 5213, 
-            "rank": 8
+            "rank": {
+                "ample": 7, 
+                "ochiai": 8, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:173": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -238,7 +349,11 @@
             }, 
             "nf": 0, 
             "np": 5213, 
-            "rank": 9
+            "rank": {
+                "ample": 8, 
+                "ochiai": 9, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:174": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -253,7 +368,11 @@
             }, 
             "nf": 0, 
             "np": 5213, 
-            "rank": 10
+            "rank": {
+                "ample": 12, 
+                "ochiai": 10, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:175": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -268,7 +387,11 @@
             }, 
             "nf": 0, 
             "np": 5213, 
-            "rank": 11
+            "rank": {
+                "ample": 13, 
+                "ochiai": 11, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:176": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -283,7 +406,11 @@
             }, 
             "nf": 0, 
             "np": 5213, 
-            "rank": 12
+            "rank": {
+                "ample": 10, 
+                "ochiai": 12, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:177": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -298,7 +425,11 @@
             }, 
             "nf": 0, 
             "np": 5213, 
-            "rank": 13
+            "rank": {
+                "ample": 11, 
+                "ochiai": 13, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:179": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -313,7 +444,11 @@
             }, 
             "nf": 0, 
             "np": 5213, 
-            "rank": 14
+            "rank": {
+                "ample": 14, 
+                "ochiai": 14, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:180": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -328,7 +463,11 @@
             }, 
             "nf": 0, 
             "np": 5213, 
-            "rank": 15
+            "rank": {
+                "ample": 15, 
+                "ochiai": 15, 
+                "tarantula": 15
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:182": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -343,7 +482,11 @@
             }, 
             "nf": 0, 
             "np": 5218, 
-            "rank": 4
+            "rank": {
+                "ample": 4, 
+                "ochiai": 4, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:186": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -358,7 +501,11 @@
             }, 
             "nf": 0, 
             "np": 5213, 
-            "rank": 16
+            "rank": {
+                "ample": 16, 
+                "ochiai": 16, 
+                "tarantula": 16
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:87": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -373,7 +520,11 @@
             }, 
             "nf": 0, 
             "np": 4136, 
-            "rank": 34
+            "rank": {
+                "ample": 31, 
+                "ochiai": 34, 
+                "tarantula": 35
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:88": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -388,7 +539,11 @@
             }, 
             "nf": 0, 
             "np": 4136, 
-            "rank": 35
+            "rank": {
+                "ample": 32, 
+                "ochiai": 35, 
+                "tarantula": 36
+            }
         }, 
         "org.apache.commons.math3.exception.util.ExceptionContext:89": {
             "class": "org.apache.commons.math3.exception.util.ExceptionContext", 
@@ -403,7 +558,11 @@
             }, 
             "nf": 0, 
             "np": 4136, 
-            "rank": 36
+            "rank": {
+                "ample": 30, 
+                "ochiai": 36, 
+                "tarantula": 34
+            }
         }, 
         "org.apache.commons.math3.exception.util.LocalizedFormats:382": {
             "class": "org.apache.commons.math3.exception.util.LocalizedFormats", 
@@ -418,7 +577,11 @@
             }, 
             "nf": 0, 
             "np": 5210, 
-            "rank": 18
+            "rank": {
+                "ample": 18, 
+                "ochiai": 18, 
+                "tarantula": 18
+            }
         }, 
         "org.apache.commons.math3.exception.util.LocalizedFormats:383": {
             "class": "org.apache.commons.math3.exception.util.LocalizedFormats", 
@@ -433,7 +596,11 @@
             }, 
             "nf": 0, 
             "np": 5210, 
-            "rank": 19
+            "rank": {
+                "ample": 19, 
+                "ochiai": 19, 
+                "tarantula": 19
+            }
         }, 
         "org.apache.commons.math3.exception.util.LocalizedFormats:396": {
             "class": "org.apache.commons.math3.exception.util.LocalizedFormats", 
@@ -448,7 +615,11 @@
             }, 
             "nf": 0, 
             "np": 5212, 
-            "rank": 17
+            "rank": {
+                "ample": 17, 
+                "ochiai": 17, 
+                "tarantula": 17
+            }
         }, 
         "org.apache.commons.math3.fraction.BigFraction:766": {
             "class": "org.apache.commons.math3.fraction.BigFraction", 
@@ -463,7 +634,11 @@
             }, 
             "nf": 1, 
             "np": 5206, 
-            "rank": 20
+            "rank": {
+                "ample": 38, 
+                "ochiai": 20, 
+                "tarantula": 20
+            }
         }, 
         "org.apache.commons.math3.fraction.BigFraction:799": {
             "class": "org.apache.commons.math3.fraction.BigFraction", 
@@ -478,7 +653,11 @@
             }, 
             "nf": 1, 
             "np": 5205, 
-            "rank": 21
+            "rank": {
+                "ample": 39, 
+                "ochiai": 21, 
+                "tarantula": 21
+            }
         }, 
         "org.apache.commons.math3.fraction.Fraction:360": {
             "class": "org.apache.commons.math3.fraction.Fraction", 
@@ -493,7 +672,11 @@
             }, 
             "nf": 1, 
             "np": 5193, 
-            "rank": 23
+            "rank": {
+                "ample": 40, 
+                "ochiai": 23, 
+                "tarantula": 22
+            }
         }, 
         "org.apache.commons.math3.fraction.Fraction:368": {
             "class": "org.apache.commons.math3.fraction.Fraction", 
@@ -508,7 +691,11 @@
             }, 
             "nf": 1, 
             "np": 5192, 
-            "rank": 24
+            "rank": {
+                "ample": 41, 
+                "ochiai": 24, 
+                "tarantula": 23
+            }
         }, 
         "org.apache.commons.math3.util.FastMath:3001": {
             "class": "org.apache.commons.math3.util.FastMath", 
@@ -523,7 +710,11 @@
             }, 
             "nf": 1, 
             "np": 4246, 
-            "rank": 42
+            "rank": {
+                "ample": 43, 
+                "ochiai": 42, 
+                "tarantula": 42
+            }
         }, 
         "org.apache.commons.math3.util.FastMath:3006": {
             "class": "org.apache.commons.math3.util.FastMath", 
@@ -538,7 +729,11 @@
             }, 
             "nf": 1, 
             "np": 4246, 
-            "rank": 43
+            "rank": {
+                "ample": 42, 
+                "ochiai": 43, 
+                "tarantula": 41
+            }
         }, 
         "org.apache.commons.math3.util.FastMath:3024": {
             "class": "org.apache.commons.math3.util.FastMath", 
@@ -553,7 +748,11 @@
             }, 
             "nf": 0, 
             "np": 3008, 
-            "rank": 41
+            "rank": {
+                "ample": 37, 
+                "ochiai": 41, 
+                "tarantula": 43
+            }
         }, 
         "org.apache.commons.math3.util.FastMath:3338": {
             "class": "org.apache.commons.math3.util.FastMath", 
@@ -568,7 +767,11 @@
             }, 
             "nf": 0, 
             "np": 4426, 
-            "rank": 30
+            "rank": {
+                "ample": 27, 
+                "ochiai": 30, 
+                "tarantula": 31
+            }
         }, 
         "org.apache.commons.math3.util.FastMath:3342": {
             "class": "org.apache.commons.math3.util.FastMath", 
@@ -583,7 +786,11 @@
             }, 
             "nf": 0, 
             "np": 4426, 
-            "rank": 31
+            "rank": {
+                "ample": 26, 
+                "ochiai": 31, 
+                "tarantula": 30
+            }
         }, 
         "org.apache.commons.math3.util.FastMath:3346": {
             "class": "org.apache.commons.math3.util.FastMath", 
@@ -598,7 +805,11 @@
             }, 
             "nf": 0, 
             "np": 4428, 
-            "rank": 27
+            "rank": {
+                "ample": 23, 
+                "ochiai": 27, 
+                "tarantula": 27
+            }
         }, 
         "org.apache.commons.math3.util.FastMath:3347": {
             "class": "org.apache.commons.math3.util.FastMath", 
@@ -613,7 +824,11 @@
             }, 
             "nf": 0, 
             "np": 4428, 
-            "rank": 28
+            "rank": {
+                "ample": 24, 
+                "ochiai": 28, 
+                "tarantula": 28
+            }
         }, 
         "org.apache.commons.math3.util.FastMath:3351": {
             "class": "org.apache.commons.math3.util.FastMath", 
@@ -628,7 +843,11 @@
             }, 
             "nf": 0, 
             "np": 4428, 
-            "rank": 29
+            "rank": {
+                "ample": 25, 
+                "ochiai": 29, 
+                "tarantula": 29
+            }
         }, 
         "org.apache.commons.math3.util.FastMath:3352": {
             "class": "org.apache.commons.math3.util.FastMath", 
@@ -643,7 +862,11 @@
             }, 
             "nf": 0, 
             "np": 4959, 
-            "rank": 25
+            "rank": {
+                "ample": 21, 
+                "ochiai": 25, 
+                "tarantula": 25
+            }
         }, 
         "org.apache.commons.math3.util.FastMath:3355": {
             "class": "org.apache.commons.math3.util.FastMath", 
@@ -658,7 +881,11 @@
             }, 
             "nf": 0, 
             "np": 4491, 
-            "rank": 26
+            "rank": {
+                "ample": 22, 
+                "ochiai": 26, 
+                "tarantula": 26
+            }
         }
     }
 }

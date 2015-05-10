@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:51:23.982390", 
+    "date": "2015-05-10T23:33:34.621383", 
     "executedTest": 3253, 
     "failedTest": 2, 
     "failedTestDetails": [
@@ -12,7 +12,14 @@
             "method": "testGetPaint"
         }
     ], 
-    "node": "griffon-59.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "org.jfree.chart.renderer.GrayPaintScale", 
+            "line": 126
+        }
+    ], 
+    "nbsuspicious": 4, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 3251, 
     "suspicious": {
         "org.jfree.chart.renderer.GrayPaintScale:123": {
@@ -28,7 +35,11 @@
             }, 
             "nf": 0, 
             "np": 3251, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }, 
         "org.jfree.chart.renderer.GrayPaintScale:124": {
             "class": "org.jfree.chart.renderer.GrayPaintScale", 
@@ -43,7 +54,11 @@
             }, 
             "nf": 0, 
             "np": 3251, 
-            "rank": 2
+            "rank": {
+                "ample": 2, 
+                "ochiai": 2, 
+                "tarantula": 2
+            }
         }, 
         "org.jfree.chart.renderer.GrayPaintScale:125": {
             "class": "org.jfree.chart.renderer.GrayPaintScale", 
@@ -58,7 +73,11 @@
             }, 
             "nf": 0, 
             "np": 3251, 
-            "rank": 3
+            "rank": {
+                "ample": 3, 
+                "ochiai": 3, 
+                "tarantula": 3
+            }
         }, 
         "org.jfree.chart.renderer.GrayPaintScale:127": {
             "class": "org.jfree.chart.renderer.GrayPaintScale", 
@@ -73,7 +92,11 @@
             }, 
             "nf": 0, 
             "np": 3251, 
-            "rank": 4
+            "rank": {
+                "ample": 4, 
+                "ochiai": 4, 
+                "tarantula": 4
+            }
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:48:01.377295", 
+    "date": "2015-05-10T23:33:25.621229", 
     "executedTest": 1710, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,22 @@
             "method": "testLang315"
         }
     ], 
-    "node": "griffon-1.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.lang.time.StopWatch", 
+            "line": 118
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.time.StopWatch", 
+            "line": 119
+        }, 
+        {
+            "class": "a.org.apache.commons.lang.time.StopWatch", 
+            "line": 120
+        }
+    ], 
+    "nbsuspicious": 16, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 1709, 
     "suspicious": {
         "org.apache.commons.lang.time.StopWatch:102": {
@@ -24,7 +39,11 @@
             }, 
             "nf": 0, 
             "np": 1704, 
-            "rank": 13
+            "rank": {
+                "ample": 12, 
+                "ochiai": 13, 
+                "tarantula": 12
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:103": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -39,7 +58,11 @@
             }, 
             "nf": 0, 
             "np": 1704, 
-            "rank": 14
+            "rank": {
+                "ample": 15, 
+                "ochiai": 14, 
+                "tarantula": 15
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:104": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -54,7 +77,11 @@
             }, 
             "nf": 0, 
             "np": 1704, 
-            "rank": 15
+            "rank": {
+                "ample": 14, 
+                "ochiai": 15, 
+                "tarantula": 14
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:105": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -69,7 +96,11 @@
             }, 
             "nf": 0, 
             "np": 1704, 
-            "rank": 16
+            "rank": {
+                "ample": 13, 
+                "ochiai": 16, 
+                "tarantula": 13
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:115": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -84,7 +115,11 @@
             }, 
             "nf": 0, 
             "np": 1705, 
-            "rank": 6
+            "rank": {
+                "ample": 10, 
+                "ochiai": 6, 
+                "tarantula": 10
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:118": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -99,7 +134,11 @@
             }, 
             "nf": 0, 
             "np": 1705, 
-            "rank": 7
+            "rank": {
+                "ample": 8, 
+                "ochiai": 7, 
+                "tarantula": 8
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:119": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -114,7 +153,11 @@
             }, 
             "nf": 0, 
             "np": 1705, 
-            "rank": 8
+            "rank": {
+                "ample": 9, 
+                "ochiai": 8, 
+                "tarantula": 9
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:120": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -129,7 +172,11 @@
             }, 
             "nf": 0, 
             "np": 1705, 
-            "rank": 9
+            "rank": {
+                "ample": 6, 
+                "ochiai": 9, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:176": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -144,7 +191,11 @@
             }, 
             "nf": 0, 
             "np": 1707, 
-            "rank": 4
+            "rank": {
+                "ample": 4, 
+                "ochiai": 4, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:179": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -159,7 +210,11 @@
             }, 
             "nf": 0, 
             "np": 1708, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:180": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -174,7 +229,11 @@
             }, 
             "nf": 0, 
             "np": 1708, 
-            "rank": 2
+            "rank": {
+                "ample": 3, 
+                "ochiai": 2, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:181": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -189,7 +248,11 @@
             }, 
             "nf": 0, 
             "np": 1708, 
-            "rank": 3
+            "rank": {
+                "ample": 2, 
+                "ochiai": 3, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:209": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -204,7 +267,11 @@
             }, 
             "nf": 0, 
             "np": 1705, 
-            "rank": 10
+            "rank": {
+                "ample": 7, 
+                "ochiai": 10, 
+                "tarantula": 7
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:210": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -219,7 +286,11 @@
             }, 
             "nf": 0, 
             "np": 1706, 
-            "rank": 5
+            "rank": {
+                "ample": 5, 
+                "ochiai": 5, 
+                "tarantula": 5
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:96": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -234,7 +305,11 @@
             }, 
             "nf": 0, 
             "np": 1704, 
-            "rank": 11
+            "rank": {
+                "ample": 11, 
+                "ochiai": 11, 
+                "tarantula": 11
+            }
         }, 
         "org.apache.commons.lang.time.StopWatch:99": {
             "class": "org.apache.commons.lang.time.StopWatch", 
@@ -249,7 +324,11 @@
             }, 
             "nf": 0, 
             "np": 1704, 
-            "rank": 12
+            "rank": {
+                "ample": 16, 
+                "ochiai": 12, 
+                "tarantula": 16
+            }
         }
     }
 }

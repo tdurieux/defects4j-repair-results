@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:53:22.319617", 
+    "date": "2015-05-10T23:33:14.844344", 
     "executedTest": 3550, 
     "failedTest": 4, 
     "failedTestDetails": [
@@ -20,7 +20,18 @@
             "method": "testChromosomeListConstructorTooHigh"
         }
     ], 
-    "node": "griffon-62.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.math3.genetics.ElitisticListPopulation", 
+            "line": 51
+        }, 
+        {
+            "class": "a.org.apache.commons.math3.genetics.ElitisticListPopulation", 
+            "line": 65
+        }
+    ], 
+    "nbsuspicious": 0, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 3546, 
     "suspicious": {}
 }

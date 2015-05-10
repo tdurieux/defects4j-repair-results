@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-07T08:49:02.954182", 
+    "date": "2015-05-10T23:33:25.058428", 
     "executedTest": 1644, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -8,7 +8,50 @@
             "method": "testLANG571"
         }
     ], 
-    "node": "griffon-20.nancy.grid5000.fr\n", 
+    "modifiedLines": [
+        {
+            "class": "a.org.apache.commons.lang3.ArrayUtils", 
+            "line": 3289
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.ArrayUtils", 
+            "line": 3290
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.ArrayUtils", 
+            "line": 3291
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.ArrayUtils", 
+            "line": 3292
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.ArrayUtils", 
+            "line": 3293
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.ArrayUtils", 
+            "line": 3294
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.ArrayUtils", 
+            "line": 3295
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.ArrayUtils", 
+            "line": 3296
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.ArrayUtils", 
+            "line": 3297
+        }, 
+        {
+            "class": "a.org.apache.commons.lang3.ArrayUtils", 
+            "line": 3574
+        }
+    ], 
+    "nbsuspicious": 6, 
+    "node": "fnancy.nancy.grid5000.fr\n", 
     "successfulTest": 1643, 
     "suspicious": {
         "org.apache.commons.lang3.ArrayUtils:3288": {
@@ -24,7 +67,11 @@
             }, 
             "nf": 0, 
             "np": 1641, 
-            "rank": 1
+            "rank": {
+                "ample": 1, 
+                "ochiai": 1, 
+                "tarantula": 1
+            }
         }, 
         "org.apache.commons.lang3.ArrayUtils:3290": {
             "class": "org.apache.commons.lang3.ArrayUtils", 
@@ -39,7 +86,11 @@
             }, 
             "nf": 0, 
             "np": 1641, 
-            "rank": 2
+            "rank": {
+                "ample": 3, 
+                "ochiai": 2, 
+                "tarantula": 3
+            }
         }, 
         "org.apache.commons.lang3.ArrayUtils:3291": {
             "class": "org.apache.commons.lang3.ArrayUtils", 
@@ -54,7 +105,11 @@
             }, 
             "nf": 0, 
             "np": 1641, 
-            "rank": 3
+            "rank": {
+                "ample": 2, 
+                "ochiai": 3, 
+                "tarantula": 2
+            }
         }, 
         "org.apache.commons.lang3.ArrayUtils:3292": {
             "class": "org.apache.commons.lang3.ArrayUtils", 
@@ -69,7 +124,11 @@
             }, 
             "nf": 0, 
             "np": 1641, 
-            "rank": 4
+            "rank": {
+                "ample": 4, 
+                "ochiai": 4, 
+                "tarantula": 4
+            }
         }, 
         "org.apache.commons.lang3.ArrayUtils:3521": {
             "class": "org.apache.commons.lang3.ArrayUtils", 
@@ -84,7 +143,11 @@
             }, 
             "nf": 0, 
             "np": 1633, 
-            "rank": 6
+            "rank": {
+                "ample": 6, 
+                "ochiai": 6, 
+                "tarantula": 6
+            }
         }, 
         "org.apache.commons.lang3.ArrayUtils:3527": {
             "class": "org.apache.commons.lang3.ArrayUtils", 
@@ -99,7 +162,11 @@
             }, 
             "nf": 0, 
             "np": 1635, 
-            "rank": 5
+            "rank": {
+                "ample": 5, 
+                "ochiai": 5, 
+                "tarantula": 5
+            }
         }
     }
 }
