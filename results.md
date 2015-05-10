@@ -1,230 +1,279 @@
-BugId | NopolPC | NopolC | Brutpol | Genprog | Kali | Total
------ | ------- | ------ | ------- | ------- | ---- | -----
-[L1](#lang-1)| ERROR   | EMPTY  |         | EMPTY   | No   | 0
-[L2](#lang-2)| ERROR   | EMPTY  |         | EMPTY   | No   | 0
-[L3](#lang-3)| ERROR   | EMPTY  |         | EMPTY   | No   | 0
-[L4](#lang-4)| ERROR   | EMPTY  |         | EMPTY   | No   | 0
-[L5](#lang-5)| ERROR   | EMPTY  |         | EMPTY   | No   | 0
-[L6](#lang-6)| ERROR   | EMPTY  |         | EMPTY   | No   | 0
-[L7](#lang-7)| ERROR   | EMPTY  |         | EMPTY   | No   | 0
-[L8](#lang-8)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[L9](#lang-9)| ERROR   | No     |         | EMPTY   | No   | 0
-[L10](#lang-10)| ERROR   | EMPTY  |         | EMPTY   | No   | 0
-[L11](#lang-11)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[L12](#lang-12)| No      | No     |         | EMPTY   | No   | 0
-[L13](#lang-13)| No      | No     |         | EMPTY   | No   | 0
-[L14](#lang-14)| No      | No     |         | EMPTY   | No   | 0
-[L15](#lang-15)| ERROR   | No     |         | EMPTY   | No   | 0
-[L16](#lang-16)| No      | No     |         | EMPTY   | No   | 0
-[L17](#lang-17)| No      | No     |         | EMPTY   | No   | 0
-[L18](#lang-18)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[L19](#lang-19)| No      | No     |         | EMPTY   | No   | 0
-[L20](#lang-20)| No      | No     |         | EMPTY   | No   | 0
-[L21](#lang-21)| No      | No     |         | EMPTY   | No   | 0
-[L22](#lang-22)| EMPTY   | EMPTY  |         | EMPTY   | No   | 0
-[L23](#lang-23)| EMPTY   | ERROR  |         | EMPTY   | No   | 0
-[L24](#lang-24)| ERROR   | No     |         | EMPTY   | No   | 0
-[L25](#lang-25)| No      | No     |         | EMPTY   | No   | 0
-[L26](#lang-26)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[L27](#lang-27)| No      | No     |         | EMPTY   | No   | 0
-[L28](#lang-28)| ERROR   | No     |         | EMPTY   | No   | 0
-[L29](#lang-29)| No      | No     |         | EMPTY   | No   | 0
-[L30](#lang-30)| No      | No     |         | EMPTY   | No   | 0
-[L31](#lang-31)| No      | No     |         | EMPTY   | No   | 0
-[L32](#lang-32)| No      | No     |         | EMPTY   | No   | 0
-[L33](#lang-33)| No      | No     |         | EMPTY   | No   | 0
-[L34](#lang-34)| ERROR   | EMPTY  |         | EMPTY   | No   | 0
-[L35](#lang-35)| No      | No     |         | EMPTY   | No   | 0
-[L36](#lang-36)| ERROR   | No     |         | EMPTY   | No   | 0
-[L37](#lang-37)| No      | No     |         | EMPTY   | No   | 0
-[L38](#lang-38)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[L39](#lang-39)| EMPTY   | EMPTY  |         | EMPTY   | No   | 0
-[L40](#lang-40)| No      | No     |         | EMPTY   | No   | 0
-[L41](#lang-41)| No      | No     |         | EMPTY   | No   | 0
-[L42](#lang-42)| No      | No     |         | EMPTY   | No   | 0
-[L43](#lang-43)| EMPTY   | EMPTY  |         | EMPTY   | No   | 0
-[L44](#lang-44)| Yes     | EMPTY  |         | EMPTY   | No   | 1
-[L45](#lang-45)| No      | No     |         | EMPTY   | No   | 0
-[L46](#lang-46)| Yes     | No     |         | EMPTY   | No   | 1
-[L47](#lang-47)| No      | No     |         | EMPTY   | No   | 0
-[L48](#lang-48)| EMPTY   | EMPTY  |         | EMPTY   | No   | 0
-[L49](#lang-49)| EMPTY   | EMPTY  |         | EMPTY   | No   | 0
-[L50](#lang-50)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[L51](#lang-51)| No      | Yes    |         | EMPTY   | No   | 1
-[L52](#lang-52)| No      | No     |         | EMPTY   | No   | 0
-[L53](#lang-53)| EMPTY   | EMPTY  |         | EMPTY   | No   | 0
-[L54](#lang-54)| No      | No     |         | EMPTY   | No   | 0
-[L55](#lang-55)| Yes     | No     |         | EMPTY   | No   | 1
-[L56](#lang-56)| No      | No     |         | EMPTY   | No   | 0
-[L57](#lang-57)| No      | No     |         | EMPTY   | No   | 0
-[L58](#lang-58)| Yes     | Yes    |         | EMPTY   | No   | 2
-[L59](#lang-59)| No      | No     |         | EMPTY   | No   | 0
-[L60](#lang-60)| No      | No     |         | EMPTY   | No   | 0
-[L61](#lang-61)| EMPTY   | No     |         | EMPTY   | No   | 0
-[L62](#lang-62)| No      | No     |         | EMPTY   | No   | 0
-[L63](#lang-63)| ERROR   | No     |         | ERROR   | No   | 0
-[L64](#lang-64)| No      | No     |         | EMPTY   | No   | 0
-[L65](#lang-65)| No      | No     |         | EMPTY   | No   | 0
-[C1](#chart-1)| No      | No     |         | ERROR   | No   | 0
-[C2](#chart-2)| No      | No     |         | ERROR   | No   | 0
-[C3](#chart-3)| No      | ERROR  |         | ERROR   | No   | 0
-[C4](#chart-4)| No      | ERROR  |         | ERROR   | No   | 0
-[C5](#chart-5)| No      | Yes    |         | ERROR   | No   | 1
-[C6](#chart-6)| ERROR   | No     |         | ERROR   | No   | 0
-[C7](#chart-7)| No      | No     |         | ERROR   | No   | 0
-[C8](#chart-8)| ERROR   | ERROR  |         | ERROR   | ERROR | 0
-[C9](#chart-9)| Yes     | Yes    |         | ERROR   | No   | 2
-[C10](#chart-10)| No      | No     |         | ERROR   | No   | 0
-[C11](#chart-11)| No      | No     |         | ERROR   | No   | 0
-[C12](#chart-12)| No      | No     |         | ERROR   | No   | 0
-[C13](#chart-13)| Yes     | ERROR  |         | ERROR   | No   | 1
-[C14](#chart-14)| No      | No     |         | ERROR   | No   | 0
-[C15](#chart-15)| No      | No     |         | ERROR   | No   | 0
-[C16](#chart-16)| ERROR   | ERROR  |         | ERROR   | No   | 0
-[C17](#chart-17)| Yes     | Yes    |         | ERROR   | No   | 2
-[C18](#chart-18)| No      | No     |         | ERROR   | No   | 0
-[C19](#chart-19)| No      | No     |         | ERROR   | No   | 0
-[C20](#chart-20)| No      | No     |         | ERROR   | No   | 0
-[C21](#chart-21)| Yes     | No     |         | ERROR   | No   | 1
-[C22](#chart-22)| No      | No     |         | ERROR   | No   | 0
-[C23](#chart-23)| No      | No     |         | ERROR   | No   | 0
-[C24](#chart-24)| No      | No     |         | ERROR   | No   | 0
-[C25](#chart-25)| Yes     | Yes    |         | ERROR   | No   | 2
-[C26](#chart-26)| ERROR   | ERROR  |         | ERROR   | No   | 0
-[M1](#math-1)| No      | No     |         | EMPTY   | No   | 0
-[M2](#math-2)| EMPTY   | EMPTY  |         | Yes     | Yes  | 2
-[M3](#math-3)| No      | No     |         | EMPTY   | No   | 0
-[M4](#math-4)| EMPTY   | EMPTY  |         | EMPTY   | No   | 0
-[M5](#math-5)| No      | No     |         | EMPTY   | No   | 0
-[M6](#math-6)| ERROR   | EMPTY  |         | ERROR   | ERROR | 0
-[M7](#math-7)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[M8](#math-8)| No      | EMPTY  |         | Yes     | Yes  | 2
-[M9](#math-9)| No      | No     |         | EMPTY   | No   | 0
-[M10](#math-10)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[M11](#math-11)| No      | ERROR  |         | EMPTY   | No   | 0
-[M12](#math-12)| ERROR   | ERROR  |         | ERROR   | No   | 0
-[M13](#math-13)| No      | No     |         | EMPTY   | No   | 0
-[M14](#math-14)| No      | No     |         | EMPTY   | No   | 0
-[M15](#math-15)| EMPTY   | EMPTY  |         | EMPTY   | No   | 0
-[M16](#math-16)| EMPTY   | EMPTY  |         | EMPTY   | No   | 0
-[M17](#math-17)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[M18](#math-18)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[M19](#math-19)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[M20](#math-20)| ERROR   | ERROR  |         | ERROR   | ERROR | 0
-[M21](#math-21)| No      | No     |         | EMPTY   | No   | 0
-[M22](#math-22)| No      | EMPTY  |         | EMPTY   | No   | 0
-[M23](#math-23)| No      | ERROR  |         | EMPTY   | No   | 0
-[M24](#math-24)| ERROR   | No     |         | EMPTY   | No   | 0
-[M25](#math-25)| No      | No     |         | EMPTY   | No   | 0
-[M26](#math-26)| No      | EMPTY  |         | EMPTY   | No   | 0
-[M27](#math-27)| EMPTY   | EMPTY  |         | EMPTY   | No   | 0
-[M28](#math-28)| ERROR   | EMPTY  |         | EMPTY   | No   | 0
-[M29](#math-29)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[M30](#math-30)| No      | No     |         | EMPTY   | No   | 0
-[M31](#math-31)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[M32](#math-32)| Yes     | ERROR  |         | ERROR   | No   | 1
-[M33](#math-33)| Yes     | Yes    |         | EMPTY   | No   | 2
-[M34](#math-34)| No      | No     |         | EMPTY   | No   | 0
-[M35](#math-35)| ERROR   | ERROR  |         | ERROR   | ERROR | 0
-[M36](#math-36)| No      | No     |         | EMPTY   | No   | 0
-[M37](#math-37)| ERROR   | EMPTY  |         | ERROR   | No   | 0
-[M38](#math-38)| ERROR   | ERROR  |         | ERROR   | No   | 0
-[M39](#math-39)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[M40](#math-40)| ERROR   | Yes    |         | Yes     | No   | 2
-[M41](#math-41)| No      | No     |         | EMPTY   | No   | 0
-[M42](#math-42)| Yes     | EMPTY  |         | EMPTY   | No   | 1
-[M43](#math-43)| No      | ERROR  |         | ERROR   | No   | 0
-[M44](#math-44)| EMPTY   | ERROR  |         | Yes     | No   | 1
-[M45](#math-45)| No      | No     |         | EMPTY   | No   | 0
-[M46](#math-46)| No      | No     |         | EMPTY   | No   | 0
-[M47](#math-47)| No      | EMPTY  |         | EMPTY   | No   | 0
-[M48](#math-48)| ERROR   | No     |         | EMPTY   | No   | 0
-[M49](#math-49)| Yes     | No     |         | Yes     | Yes  | 3
-[M50](#math-50)| Yes     | Yes    |         | Yes     | Yes  | 4
-[M51](#math-51)| ERROR   | No     |         | ERROR   | ERROR | 0
-[M52](#math-52)| No      | No     |         | EMPTY   | No   | 0
-[M53](#math-53)| No      | No     |         | No      | No   | 0
-[M54](#math-54)| ERROR   | EMPTY  |         | EMPTY   | EMPTY | 0
-[M55](#math-55)| No      | No     |         | EMPTY   | No   | 0
-[M56](#math-56)| ERROR   | No     |         | No      | No   | 0
-[M57](#math-57)| EMPTY   | Yes    |         | EMPTY   | No   | 1
-[M58](#math-58)| ERROR   | Yes    |         | EMPTY   | No   | 1
-[M59](#math-59)| EMPTY   | EMPTY  |         | EMPTY   | No   | 0
-[M60](#math-60)| ERROR   | No     |         | EMPTY   | No   | 0
-[M61](#math-61)| No      | No     |         | EMPTY   | No   | 0
-[M62](#math-62)| No      | No     |         | EMPTY   | No   | 0
-[M63](#math-63)| No      | No     |         | EMPTY   | No   | 0
-[M64](#math-64)| ERROR   | ERROR  |         | Yes     | No   | 1
-[M65](#math-65)| No      | No     |         | EMPTY   | No   | 0
-[M66](#math-66)| No      | No     |         | EMPTY   | No   | 0
-[M67](#math-67)| No      | No     |         | EMPTY   | No   | 0
-[M68](#math-68)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[M69](#math-69)| Yes     | No     |         | EMPTY   | No   | 1
-[M70](#math-70)| No      | No     |         | Yes     | No   | 1
-[M71](#math-71)| EMPTY   | ERROR  |         | No      | ERROR | 0
-[M72](#math-72)| No      | No     |         | EMPTY   | No   | 0
-[M73](#math-73)| No      | Yes    |         | Yes     | No   | 2
-[M74](#math-74)| EMPTY   | EMPTY  |         | EMPTY   | EMPTY | 0
-[M75](#math-75)| No      | No     |         | EMPTY   | No   | 0
-[M76](#math-76)| No      | No     |         | ERROR   | No   | 0
-[M77](#math-77)| No      | No     |         | EMPTY   | No   | 0
-[M78](#math-78)| Yes     | ERROR  |         | Yes     | Yes  | 3
-[M79](#math-79)| Yes     | No     |         | No      | No   | 1
-[M80](#math-80)| Yes     | ERROR  |         | Yes     | Yes  | 3
-[M81](#math-81)| Yes     | Yes    |         | Yes     | Yes  | 4
-[M82](#math-82)| Yes     | No     |         | Yes     | Yes  | 3
-[M83](#math-83)| No      | No     |         | EMPTY   | No   | 0
-[M84](#math-84)| EMPTY   | No     |         | EMPTY   | No   | 0
-[M85](#math-85)| ERROR   | Yes    |         | Yes     | Yes  | 3
-[M86](#math-86)| ERROR   | No     |         | EMPTY   | No   | 0
-[M87](#math-87)| Yes     | Yes    |         | EMPTY   | No   | 2
-[M88](#math-88)| Yes     | EMPTY  |         | EMPTY   | No   | 1
-[M89](#math-89)| No      | No     |         | EMPTY   | No   | 0
-[M90](#math-90)| No      | No     |         | EMPTY   | No   | 0
-[M91](#math-91)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[M92](#math-92)| No      | EMPTY  |         | EMPTY   | No   | 0
-[M93](#math-93)| No      | No     |         | EMPTY   | No   | 0
-[M94](#math-94)| ERROR   | EMPTY  |         | EMPTY   | No   | 0
-[M95](#math-95)| ERROR   | No     |         | Yes     | No   | 1
-[M96](#math-96)| No      | No     |         | EMPTY   | No   | 0
-[M97](#math-97)| Yes     | Yes    |         | EMPTY   | No   | 2
-[M98](#math-98)| No      | No     |         | EMPTY   | No   | 0
-[M99](#math-99)| Yes     | Yes    |         | EMPTY   | No   | 2
-[M100](#math-100)| ERROR   | No     |         | EMPTY   | No   | 0
-[M101](#math-101)| No      | No     |         | ERROR   | No   | 0
-[M102](#math-102)| ERROR   | No     |         | EMPTY   | No   | 0
-[M103](#math-103)| No      | No     |         | EMPTY   | No   | 0
-[M104](#math-104)| ERROR   | No     |         | EMPTY   | No   | 0
-[M105](#math-105)| Yes     | No     |         | EMPTY   | No   | 1
-[M106](#math-106)| No      | ERROR  |         | ERROR   | No   | 0
-[T1](#time-1)| No      | EMPTY  |         | EMPTY   | No   | 0
-[T2](#time-2)| No      | No     |         | EMPTY   | No   | 0
-[T3](#time-3)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[T4](#time-4)| No      | No     |         | EMPTY   | No   | 0
-[T5](#time-5)| ERROR   | No     |         | EMPTY   | No   | 0
-[T6](#time-6)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[T7](#time-7)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[T8](#time-8)| No      | No     |         | EMPTY   | No   | 0
-[T9](#time-9)| No      | No     |         | EMPTY   | No   | 0
-[T10](#time-10)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[T11](#time-11)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[T12](#time-12)| ERROR   | EMPTY  |         | ERROR   | No   | 0
-[T13](#time-13)| No      | ERROR  |         | EMPTY   | No   | 0
-[T14](#time-14)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[T15](#time-15)| No      | No     |         | EMPTY   | No   | 0
-[T16](#time-16)| EMPTY   | ERROR  |         | EMPTY   | No   | 0
-[T17](#time-17)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[T18](#time-18)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[T19](#time-19)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[T20](#time-20)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[T21](#time-21)| EMPTY   | EMPTY  |         | EMPTY   | No   | 0
-[T22](#time-22)| ERROR   | EMPTY  |         | EMPTY   | No   | 0
-[T23](#time-23)| ERROR   | EMPTY  |         | EMPTY   | No   | 0
-[T24](#time-24)| ERROR   | ERROR  |         | ERROR   | ERROR | 0
-[T25](#time-25)| ERROR   | ERROR  |         | EMPTY   | No   | 0
-[T26](#time-26)| ERROR   | EMPTY  |         | EMPTY   | No   | 0
-[T27](#time-27)| ERROR   | ERROR  |         | ERROR   | ERROR | 0
-Total | 25      | 17     | 0       | 15      | 9    | 66
+# Summary
+
+BugId             | NopolPC | NopolC | Genprog | Kali | Total
+----------------- | ------- | ------ | ------- | ---- | ------
+[L44](#lang-44)   | Yes     | No     | No      | No   | 1
+[L46](#lang-46)   | Yes     | No     | No      | No   | 1
+[L51](#lang-51)   | No      | Yes    | No      | No   | 1
+[L55](#lang-55)   | Yes     | No     | No      | No   | 1
+[L58](#lang-58)   | Yes     | Yes    | No      | No   | 2
+[C5](#chart-5)    | No      | Yes    | No      | No   | 1
+[C9](#chart-9)    | Yes     | Yes    | No      | No   | 2
+[C13](#chart-13)  | Yes     | No     | No      | No   | 1
+[C17](#chart-17)  | Yes     | Yes    | No      | No   | 2
+[C21](#chart-21)  | Yes     | No     | No      | No   | 1
+[C25](#chart-25)  | Yes     | Yes    | No      | No   | 2
+[M2](#math-2)     | No      | No     | Yes     | Yes  | 2
+[M8](#math-8)     | No      | No     | Yes     | Yes  | 2
+[M32](#math-32)   | Yes     | No     | No      | No   | 1
+[M33](#math-33)   | Yes     | Yes    | No      | No   | 2
+[M40](#math-40)   | No      | Yes    | Yes     | No   | 2
+[M42](#math-42)   | Yes     | No     | No      | No   | 1
+[M44](#math-44)   | No      | No     | Yes     | No   | 1
+[M49](#math-49)   | Yes     | No     | Yes     | Yes  | 3
+[M50](#math-50)   | Yes     | Yes    | Yes     | Yes  | 4
+[M57](#math-57)   | No      | Yes    | No      | No   | 1
+[M58](#math-58)   | No      | Yes    | No      | No   | 1
+[M64](#math-64)   | No      | No     | Yes     | No   | 1
+[M69](#math-69)   | Yes     | No     | No      | No   | 1
+[M70](#math-70)   | No      | No     | Yes     | No   | 1
+[M73](#math-73)   | No      | Yes    | Yes     | No   | 2
+[M78](#math-78)   | Yes     | No     | Yes     | Yes  | 3
+[M79](#math-79)   | Yes     | No     | No      | No   | 1
+[M80](#math-80)   | Yes     | No     | Yes     | Yes  | 3
+[M81](#math-81)   | Yes     | Yes    | Yes     | Yes  | 4
+[M82](#math-82)   | Yes     | No     | Yes     | Yes  | 3
+[M85](#math-85)   | No      | Yes    | Yes     | Yes  | 3
+[M87](#math-87)   | Yes     | Yes    | No      | No   | 2
+[M88](#math-88)   | Yes     | No     | No      | No   | 1
+[M95](#math-95)   | No      | No     | Yes     | No   | 1
+[M97](#math-97)   | Yes     | Yes    | No      | No   | 2
+[M99](#math-99)   | Yes     | Yes    | No      | No   | 2
+[M105](#math-105) | Yes     | No     | No      | No   | 1
+Total             | 25 (11%) | 17 (7%) | 15 (6%) | 9 (4%) | 66
+Fixed bugs: 38/224 (16%)
+
+# Complete data
+
+BugId             | NopolPC | NopolC | Genprog | Kali | Total
+----------------- | ------- | ------ | ------- | ---- | ------
+[L1](#lang-1)     | ERROR   | EMPTY  | EMPTY   | No   | 0
+[L2](#lang-2)     | ERROR   | EMPTY  | EMPTY   | No   | 0
+[L3](#lang-3)     | ERROR   | EMPTY  | EMPTY   | No   | 0
+[L4](#lang-4)     | ERROR   | EMPTY  | EMPTY   | No   | 0
+[L5](#lang-5)     | ERROR   | EMPTY  | EMPTY   | No   | 0
+[L6](#lang-6)     | ERROR   | EMPTY  | EMPTY   | No   | 0
+[L7](#lang-7)     | ERROR   | EMPTY  | EMPTY   | No   | 0
+[L8](#lang-8)     | ERROR   | ERROR  | EMPTY   | No   | 0
+[L9](#lang-9)     | ERROR   | No     | EMPTY   | No   | 0
+[L10](#lang-10)   | ERROR   | EMPTY  | EMPTY   | No   | 0
+[L11](#lang-11)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[L12](#lang-12)   | No      | No     | EMPTY   | No   | 0
+[L13](#lang-13)   | No      | No     | EMPTY   | No   | 0
+[L14](#lang-14)   | No      | No     | EMPTY   | No   | 0
+[L15](#lang-15)   | ERROR   | No     | EMPTY   | No   | 0
+[L16](#lang-16)   | No      | No     | EMPTY   | No   | 0
+[L17](#lang-17)   | No      | No     | EMPTY   | No   | 0
+[L18](#lang-18)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[L19](#lang-19)   | No      | No     | EMPTY   | No   | 0
+[L20](#lang-20)   | No      | No     | EMPTY   | No   | 0
+[L21](#lang-21)   | No      | No     | EMPTY   | No   | 0
+[L22](#lang-22)   | EMPTY   | EMPTY  | EMPTY   | No   | 0
+[L23](#lang-23)   | EMPTY   | ERROR  | EMPTY   | No   | 0
+[L24](#lang-24)   | ERROR   | No     | EMPTY   | No   | 0
+[L25](#lang-25)   | No      | No     | EMPTY   | No   | 0
+[L26](#lang-26)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[L27](#lang-27)   | No      | No     | EMPTY   | No   | 0
+[L28](#lang-28)   | ERROR   | No     | EMPTY   | No   | 0
+[L29](#lang-29)   | No      | No     | EMPTY   | No   | 0
+[L30](#lang-30)   | No      | No     | EMPTY   | No   | 0
+[L31](#lang-31)   | No      | No     | EMPTY   | No   | 0
+[L32](#lang-32)   | No      | No     | EMPTY   | No   | 0
+[L33](#lang-33)   | No      | No     | EMPTY   | No   | 0
+[L34](#lang-34)   | ERROR   | EMPTY  | EMPTY   | No   | 0
+[L35](#lang-35)   | No      | No     | EMPTY   | No   | 0
+[L36](#lang-36)   | ERROR   | No     | EMPTY   | No   | 0
+[L37](#lang-37)   | No      | No     | EMPTY   | No   | 0
+[L38](#lang-38)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[L39](#lang-39)   | EMPTY   | EMPTY  | EMPTY   | No   | 0
+[L40](#lang-40)   | No      | No     | EMPTY   | No   | 0
+[L41](#lang-41)   | No      | No     | EMPTY   | No   | 0
+[L42](#lang-42)   | No      | No     | EMPTY   | No   | 0
+[L43](#lang-43)   | EMPTY   | EMPTY  | EMPTY   | No   | 0
+[L44](#lang-44)   | Yes     | EMPTY  | EMPTY   | No   | 1
+[L45](#lang-45)   | No      | No     | EMPTY   | No   | 0
+[L46](#lang-46)   | Yes     | No     | EMPTY   | No   | 1
+[L47](#lang-47)   | No      | No     | EMPTY   | No   | 0
+[L48](#lang-48)   | EMPTY   | EMPTY  | EMPTY   | No   | 0
+[L49](#lang-49)   | EMPTY   | EMPTY  | EMPTY   | No   | 0
+[L50](#lang-50)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[L51](#lang-51)   | No      | Yes    | EMPTY   | No   | 1
+[L52](#lang-52)   | No      | No     | EMPTY   | No   | 0
+[L53](#lang-53)   | EMPTY   | EMPTY  | EMPTY   | No   | 0
+[L54](#lang-54)   | No      | No     | EMPTY   | No   | 0
+[L55](#lang-55)   | Yes     | No     | EMPTY   | No   | 1
+[L56](#lang-56)   | No      | No     | EMPTY   | No   | 0
+[L57](#lang-57)   | No      | No     | EMPTY   | No   | 0
+[L58](#lang-58)   | Yes     | Yes    | EMPTY   | No   | 2
+[L59](#lang-59)   | No      | No     | EMPTY   | No   | 0
+[L60](#lang-60)   | No      | No     | EMPTY   | No   | 0
+[L61](#lang-61)   | EMPTY   | No     | EMPTY   | No   | 0
+[L62](#lang-62)   | No      | No     | EMPTY   | No   | 0
+[L63](#lang-63)   | ERROR   | No     | ERROR   | No   | 0
+[L64](#lang-64)   | No      | No     | EMPTY   | No   | 0
+[L65](#lang-65)   | No      | No     | EMPTY   | No   | 0
+[C1](#chart-1)    | No      | No     | ERROR   | No   | 0
+[C2](#chart-2)    | No      | No     | ERROR   | No   | 0
+[C3](#chart-3)    | No      | ERROR  | ERROR   | No   | 0
+[C4](#chart-4)    | No      | ERROR  | ERROR   | No   | 0
+[C5](#chart-5)    | No      | Yes    | ERROR   | No   | 1
+[C6](#chart-6)    | ERROR   | No     | ERROR   | No   | 0
+[C7](#chart-7)    | No      | No     | ERROR   | No   | 0
+[C8](#chart-8)    | ERROR   | ERROR  | ERROR   | ERROR | 0
+[C9](#chart-9)    | Yes     | Yes    | ERROR   | No   | 2
+[C10](#chart-10)  | No      | No     | ERROR   | No   | 0
+[C11](#chart-11)  | No      | No     | ERROR   | No   | 0
+[C12](#chart-12)  | No      | No     | ERROR   | No   | 0
+[C13](#chart-13)  | Yes     | ERROR  | ERROR   | No   | 1
+[C14](#chart-14)  | No      | No     | ERROR   | No   | 0
+[C15](#chart-15)  | No      | No     | ERROR   | No   | 0
+[C16](#chart-16)  | ERROR   | ERROR  | ERROR   | No   | 0
+[C17](#chart-17)  | Yes     | Yes    | ERROR   | No   | 2
+[C18](#chart-18)  | No      | No     | ERROR   | No   | 0
+[C19](#chart-19)  | No      | No     | ERROR   | No   | 0
+[C20](#chart-20)  | No      | No     | ERROR   | No   | 0
+[C21](#chart-21)  | Yes     | No     | ERROR   | No   | 1
+[C22](#chart-22)  | No      | No     | ERROR   | No   | 0
+[C23](#chart-23)  | No      | No     | ERROR   | No   | 0
+[C24](#chart-24)  | No      | No     | ERROR   | No   | 0
+[C25](#chart-25)  | Yes     | Yes    | ERROR   | No   | 2
+[C26](#chart-26)  | ERROR   | ERROR  | ERROR   | No   | 0
+[M1](#math-1)     | No      | No     | EMPTY   | No   | 0
+[M2](#math-2)     | EMPTY   | EMPTY  | Yes     | Yes  | 2
+[M3](#math-3)     | No      | No     | EMPTY   | No   | 0
+[M4](#math-4)     | EMPTY   | EMPTY  | EMPTY   | No   | 0
+[M5](#math-5)     | No      | No     | EMPTY   | No   | 0
+[M6](#math-6)     | ERROR   | EMPTY  | ERROR   | ERROR | 0
+[M7](#math-7)     | ERROR   | ERROR  | EMPTY   | No   | 0
+[M8](#math-8)     | No      | EMPTY  | Yes     | Yes  | 2
+[M9](#math-9)     | No      | No     | EMPTY   | No   | 0
+[M10](#math-10)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[M11](#math-11)   | No      | ERROR  | EMPTY   | No   | 0
+[M12](#math-12)   | ERROR   | ERROR  | ERROR   | No   | 0
+[M13](#math-13)   | No      | No     | EMPTY   | No   | 0
+[M14](#math-14)   | No      | No     | EMPTY   | No   | 0
+[M15](#math-15)   | EMPTY   | EMPTY  | EMPTY   | No   | 0
+[M16](#math-16)   | EMPTY   | EMPTY  | EMPTY   | No   | 0
+[M17](#math-17)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[M18](#math-18)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[M19](#math-19)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[M20](#math-20)   | ERROR   | ERROR  | ERROR   | ERROR | 0
+[M21](#math-21)   | No      | No     | EMPTY   | No   | 0
+[M22](#math-22)   | No      | EMPTY  | EMPTY   | No   | 0
+[M23](#math-23)   | No      | ERROR  | EMPTY   | No   | 0
+[M24](#math-24)   | ERROR   | No     | EMPTY   | No   | 0
+[M25](#math-25)   | No      | No     | EMPTY   | No   | 0
+[M26](#math-26)   | No      | EMPTY  | EMPTY   | No   | 0
+[M27](#math-27)   | EMPTY   | EMPTY  | EMPTY   | No   | 0
+[M28](#math-28)   | ERROR   | EMPTY  | EMPTY   | No   | 0
+[M29](#math-29)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[M30](#math-30)   | No      | No     | EMPTY   | No   | 0
+[M31](#math-31)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[M32](#math-32)   | Yes     | ERROR  | ERROR   | No   | 1
+[M33](#math-33)   | Yes     | Yes    | EMPTY   | No   | 2
+[M34](#math-34)   | No      | No     | EMPTY   | No   | 0
+[M35](#math-35)   | ERROR   | ERROR  | ERROR   | ERROR | 0
+[M36](#math-36)   | No      | No     | EMPTY   | No   | 0
+[M37](#math-37)   | ERROR   | EMPTY  | ERROR   | No   | 0
+[M38](#math-38)   | ERROR   | ERROR  | ERROR   | No   | 0
+[M39](#math-39)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[M40](#math-40)   | ERROR   | Yes    | Yes     | No   | 2
+[M41](#math-41)   | No      | No     | EMPTY   | No   | 0
+[M42](#math-42)   | Yes     | EMPTY  | EMPTY   | No   | 1
+[M43](#math-43)   | No      | ERROR  | ERROR   | No   | 0
+[M44](#math-44)   | EMPTY   | ERROR  | Yes     | No   | 1
+[M45](#math-45)   | No      | No     | EMPTY   | No   | 0
+[M46](#math-46)   | No      | No     | EMPTY   | No   | 0
+[M47](#math-47)   | No      | EMPTY  | EMPTY   | No   | 0
+[M48](#math-48)   | ERROR   | No     | EMPTY   | No   | 0
+[M49](#math-49)   | Yes     | No     | Yes     | Yes  | 3
+[M50](#math-50)   | Yes     | Yes    | Yes     | Yes  | 4
+[M51](#math-51)   | ERROR   | No     | ERROR   | ERROR | 0
+[M52](#math-52)   | No      | No     | EMPTY   | No   | 0
+[M53](#math-53)   | No      | No     | No      | No   | 0
+[M54](#math-54)   | ERROR   | EMPTY  | EMPTY   | EMPTY | 0
+[M55](#math-55)   | No      | No     | EMPTY   | No   | 0
+[M56](#math-56)   | ERROR   | No     | No      | No   | 0
+[M57](#math-57)   | EMPTY   | Yes    | EMPTY   | No   | 1
+[M58](#math-58)   | ERROR   | Yes    | EMPTY   | No   | 1
+[M59](#math-59)   | EMPTY   | EMPTY  | EMPTY   | No   | 0
+[M60](#math-60)   | ERROR   | No     | EMPTY   | No   | 0
+[M61](#math-61)   | No      | No     | EMPTY   | No   | 0
+[M62](#math-62)   | No      | No     | EMPTY   | No   | 0
+[M63](#math-63)   | No      | No     | EMPTY   | No   | 0
+[M64](#math-64)   | ERROR   | ERROR  | Yes     | No   | 1
+[M65](#math-65)   | No      | No     | EMPTY   | No   | 0
+[M66](#math-66)   | No      | No     | EMPTY   | No   | 0
+[M67](#math-67)   | No      | No     | EMPTY   | No   | 0
+[M68](#math-68)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[M69](#math-69)   | Yes     | No     | EMPTY   | No   | 1
+[M70](#math-70)   | No      | No     | Yes     | No   | 1
+[M71](#math-71)   | EMPTY   | ERROR  | No      | ERROR | 0
+[M72](#math-72)   | No      | No     | EMPTY   | No   | 0
+[M73](#math-73)   | No      | Yes    | Yes     | No   | 2
+[M74](#math-74)   | EMPTY   | EMPTY  | EMPTY   | EMPTY | 0
+[M75](#math-75)   | No      | No     | EMPTY   | No   | 0
+[M76](#math-76)   | No      | No     | ERROR   | No   | 0
+[M77](#math-77)   | No      | No     | EMPTY   | No   | 0
+[M78](#math-78)   | Yes     | ERROR  | Yes     | Yes  | 3
+[M79](#math-79)   | Yes     | No     | No      | No   | 1
+[M80](#math-80)   | Yes     | ERROR  | Yes     | Yes  | 3
+[M81](#math-81)   | Yes     | Yes    | Yes     | Yes  | 4
+[M82](#math-82)   | Yes     | No     | Yes     | Yes  | 3
+[M83](#math-83)   | No      | No     | EMPTY   | No   | 0
+[M84](#math-84)   | EMPTY   | No     | EMPTY   | No   | 0
+[M85](#math-85)   | ERROR   | Yes    | Yes     | Yes  | 3
+[M86](#math-86)   | ERROR   | No     | EMPTY   | No   | 0
+[M87](#math-87)   | Yes     | Yes    | EMPTY   | No   | 2
+[M88](#math-88)   | Yes     | EMPTY  | EMPTY   | No   | 1
+[M89](#math-89)   | No      | No     | EMPTY   | No   | 0
+[M90](#math-90)   | No      | No     | EMPTY   | No   | 0
+[M91](#math-91)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[M92](#math-92)   | No      | EMPTY  | EMPTY   | No   | 0
+[M93](#math-93)   | No      | No     | EMPTY   | No   | 0
+[M94](#math-94)   | ERROR   | EMPTY  | EMPTY   | No   | 0
+[M95](#math-95)   | ERROR   | No     | Yes     | No   | 1
+[M96](#math-96)   | No      | No     | EMPTY   | No   | 0
+[M97](#math-97)   | Yes     | Yes    | EMPTY   | No   | 2
+[M98](#math-98)   | No      | No     | EMPTY   | No   | 0
+[M99](#math-99)   | Yes     | Yes    | EMPTY   | No   | 2
+[M100](#math-100) | ERROR   | No     | EMPTY   | No   | 0
+[M101](#math-101) | No      | No     | ERROR   | No   | 0
+[M102](#math-102) | ERROR   | No     | EMPTY   | No   | 0
+[M103](#math-103) | No      | No     | EMPTY   | No   | 0
+[M104](#math-104) | ERROR   | No     | EMPTY   | No   | 0
+[M105](#math-105) | Yes     | No     | EMPTY   | No   | 1
+[M106](#math-106) | No      | ERROR  | ERROR   | No   | 0
+[T1](#time-1)     | No      | EMPTY  | EMPTY   | No   | 0
+[T2](#time-2)     | No      | No     | EMPTY   | No   | 0
+[T3](#time-3)     | ERROR   | ERROR  | EMPTY   | No   | 0
+[T4](#time-4)     | No      | No     | EMPTY   | No   | 0
+[T5](#time-5)     | ERROR   | No     | EMPTY   | No   | 0
+[T6](#time-6)     | ERROR   | ERROR  | EMPTY   | No   | 0
+[T7](#time-7)     | ERROR   | ERROR  | EMPTY   | No   | 0
+[T8](#time-8)     | No      | No     | EMPTY   | No   | 0
+[T9](#time-9)     | No      | No     | EMPTY   | No   | 0
+[T10](#time-10)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[T11](#time-11)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[T12](#time-12)   | ERROR   | EMPTY  | ERROR   | No   | 0
+[T13](#time-13)   | No      | ERROR  | EMPTY   | No   | 0
+[T14](#time-14)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[T15](#time-15)   | No      | No     | EMPTY   | No   | 0
+[T16](#time-16)   | EMPTY   | ERROR  | EMPTY   | No   | 0
+[T17](#time-17)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[T18](#time-18)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[T19](#time-19)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[T20](#time-20)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[T21](#time-21)   | EMPTY   | EMPTY  | EMPTY   | No   | 0
+[T22](#time-22)   | ERROR   | EMPTY  | EMPTY   | No   | 0
+[T23](#time-23)   | ERROR   | EMPTY  | EMPTY   | No   | 0
+[T24](#time-24)   | ERROR   | ERROR  | ERROR   | ERROR | 0
+[T25](#time-25)   | ERROR   | ERROR  | EMPTY   | No   | 0
+[T26](#time-26)   | ERROR   | EMPTY  | EMPTY   | No   | 0
+[T27](#time-27)   | ERROR   | ERROR  | ERROR   | ERROR | 0
+Total             | 25 (11%) | 17 (7%) | 15 (6%) | 9 (4%) | 66
+Fixed bugs: 38/224 (16%)
+
 
 
 
@@ -1245,6 +1294,10 @@ index 711852e..6b8c2e4 100644
 # Lang 21
 
 
+Nb Executed tests: None
+
+Nb Failing tests: None
+
 
 ## Human Patch 
 
@@ -2110,6 +2163,10 @@ index 3a543ce..79c80bd 100644
 # Lang 36
 
 
+Nb Executed tests: None
+
+Nb Failing tests: None
+
 
 ## Human Patch 
 
@@ -2365,6 +2422,10 @@ index 478b377..ebfd25a 100644
 # Lang 42
 
 
+Nb Executed tests: None
+
+Nb Failing tests: None
+
 
 ## Human Patch 
 
@@ -2452,7 +2513,7 @@ index c5ca8cd..18a05ef 100644
 
 ## NopolPC 
 
-org.apache.commons.lang.NumberUtils:193 (Suspicious rank: 18)
+org.apache.commons.lang.NumberUtils:193 (Suspicious rank: 18 (Ochiai), 13 (Ample), 13 (Tarantula))
 ```Java
 (numeric.length())!=(0)
 ```
@@ -2646,7 +2707,7 @@ index d4f98ec..c30c663 100644
 
 ## NopolPC 
 
-org.apache.commons.lang.StringEscapeUtils:242 (Suspicious rank: 1)
+org.apache.commons.lang.StringEscapeUtils:242 (Suspicious rank: 1 (Ochiai), 1 (Ample), 1 (Tarantula))
 ```Java
 escapeSingleQuote
 ```
@@ -2854,7 +2915,7 @@ index 8b5028c..3fda4ec 100644
 
 ## NopolC 
 
-org.apache.commons.lang.BooleanUtils:672 (Suspicious rank: 10)
+org.apache.commons.lang.BooleanUtils:672 (Suspicious rank: 10 (Ochiai), 18 (Ample), 18 (Tarantula))
 ```Java
 str!=null
 ```
@@ -3003,7 +3064,7 @@ index 0f0786a..607e9b6 100644
 
 ## NopolPC 
 
-org.apache.commons.lang.time.StopWatch:118 (Suspicious rank: 7)
+org.apache.commons.lang.time.StopWatch:118 (Suspicious rank: 7 (Ochiai), 8 (Ample), 8 (Tarantula))
 ```Java
 (org.apache.commons.lang.time.StopWatch.this.stopTime)<(org.apache.commons.lang.time.StopWatch.STATE_RUNNING)
 ```
@@ -3133,7 +3194,7 @@ index eb74e72..c0f06a4 100644
 
 ## NopolPC 
 
-org.apache.commons.lang.math.NumberUtils:464 (Suspicious rank: 1)
+org.apache.commons.lang.math.NumberUtils:464 (Suspicious rank: 1 (Ochiai), 2 (Ample), 2 (Tarantula))
 ```Java
 (-1)<(expPos)
 ```
@@ -3149,7 +3210,7 @@ Grid5000 node: griffon-59.nancy.grid5000.fr
 
 ## NopolC 
 
-org.apache.commons.lang.math.NumberUtils:452 (Suspicious rank: 20)
+org.apache.commons.lang.math.NumberUtils:452 (Suspicious rank: 20 (Ochiai), 10 (Ample), 10 (Tarantula))
 ```Java
 ((dec == null) && (exp == null))
 ```
@@ -3776,7 +3837,7 @@ Index: org/jfree/data/xy/XYSeries.java
 
 ## NopolC 
 
-org.jfree.data.xy.XYSeries:561 (Suspicious rank: 3)
+org.jfree.data.xy.XYSeries:561 (Suspicious rank: 3 (Ochiai), 3 (Ample), 3 (Tarantula))
 ```Java
 !(org.jfree.data.xy.XYSeries.this.allowDuplicateXValues)
 ```
@@ -3969,7 +4030,7 @@ Index: org/jfree/data/time/TimeSeries.java
 
 ## NopolPC 
 
-org.jfree.data.time.TimeSeries:940 (Suspicious rank: 10)
+org.jfree.data.time.TimeSeries:940 (Suspicious rank: 10 (Ochiai), 14 (Ample), 14 (Tarantula))
 ```Java
 (org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.length())==(org.jfree.data.time.TimeSeries.this.data.size())
 ```
@@ -3985,7 +4046,7 @@ Grid5000 node: griffon-41.nancy.grid5000.fr
 
 ## NopolC 
 
-org.jfree.data.time.TimeSeries:935 (Suspicious rank: 8)
+org.jfree.data.time.TimeSeries:935 (Suspicious rank: 8 (Ochiai), 9 (Ample), 9 (Tarantula))
 ```Java
 ((org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.length())==(startIndex))||((!((startIndex)!=(1)))&&(start!=null))
 ```
@@ -5206,7 +5267,7 @@ Index: org/jfree/chart/block/BorderArrangement.java
 
 ## NopolPC 
 
-org.jfree.chart.block.BorderArrangement:482 (Suspicious rank: 38)
+org.jfree.chart.block.BorderArrangement:482 (Suspicious rank: 38 (Ochiai), 4 (Ample), 4 (Tarantula))
 ```Java
 null!=null
 ```
@@ -5443,7 +5504,7 @@ Index: org/jfree/data/time/TimeSeries.java
 
 ## NopolPC 
 
-org.jfree.data.time.TimeSeries:880 (Suspicious rank: 1)
+org.jfree.data.time.TimeSeries:880 (Suspicious rank: 1 (Ochiai), 1 (Ample), 1 (Tarantula))
 ```Java
 (1)==(start)
 ```
@@ -5459,7 +5520,7 @@ Grid5000 node: griffon-14.nancy.grid5000.fr
 
 ## NopolC 
 
-org.jfree.data.time.TimeSeries:879 (Suspicious rank: 4)
+org.jfree.data.time.TimeSeries:879 (Suspicious rank: 4 (Ochiai), 3 (Ample), 3 (Tarantula))
 ```Java
 (org.jfree.data.time.TimeSeries.this.range.length()==0)||(((org.jfree.data.time.TimeSeries.this.data.size())!=(start))&&(end < start))
 ```
@@ -5909,7 +5970,7 @@ Index: org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java
 
 ## NopolPC 
 
-org.jfree.data.Range:335 (Suspicious rank: 9)
+org.jfree.data.Range:335 (Suspicious rank: 9 (Ochiai), 9 (Ample), 9 (Tarantula))
 ```Java
 ((((-1)-(1))+(org.jfree.data.Range.this.upper))<=(0))||((org.jfree.data.Range.this.lower)<(((-1)-(1))+(org.jfree.data.Range.this.upper)))
 ```
@@ -6539,7 +6600,7 @@ Index: org/jfree/chart/renderer/category/StatisticalBarRenderer.java
 
 ## NopolPC 
 
-org.jfree.chart.renderer.category.StatisticalBarRenderer:207 (Suspicious rank: 4)
+org.jfree.chart.renderer.category.StatisticalBarRenderer:207 (Suspicious rank: 4 (Ochiai), 1 (Ample), 47 (Tarantula))
 ```Java
 (org.jfree.chart.renderer.category.StatisticalBarRenderer.serialVersionUID)==(1)
 ```
@@ -6555,7 +6616,7 @@ Grid5000 node: griffon-59.nancy.grid5000.fr
 
 ## NopolC 
 
-org.jfree.data.statistics.DefaultStatisticalCategoryDataset:110 (Suspicious rank: 8)
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset:110 (Suspicious rank: 8 (Ochiai), 12 (Ample), 70 (Tarantula))
 ```Java
 !(((1)==(org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValue))||((org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValueIncStdDev)<=(org.jfree.data.statistics.DefaultStatisticalCategoryDataset.this.maximumRangeValue)))
 ```
@@ -6751,7 +6812,7 @@ index 81e180c..2769127 100644
 
 ## Genprog 
 
-org.apache.commons.math3.distribution.AbstractIntegerDistribution:137 (Suspicious rank: 21)
+org.apache.commons.math3.distribution.AbstractIntegerDistribution:137 (Suspicious rank: 21 (Ochiai), 22 (Ample), 22 (Tarantula))
 ```Java
 remove
 ```
@@ -6763,17 +6824,17 @@ Grid5000 node : griffon-15.nancy.grid5000.fr
 
 ## Kali 
 
-org.apache.commons.math3.distribution.AbstractIntegerDistribution:137 (Suspicious rank: 21)
+org.apache.commons.math3.distribution.AbstractIntegerDistribution:137 (Suspicious rank: 21 (Ochiai), 22 (Ample), 22 (Tarantula))
 ```Java
 remove
 ```
 
-org.apache.commons.math3.distribution.AbstractIntegerDistribution:138 (Suspicious rank: 22)
+org.apache.commons.math3.distribution.AbstractIntegerDistribution:138 (Suspicious rank: 22 (Ochiai), 16 (Ample), 16 (Tarantula))
 ```Java
 remove
 ```
 
-org.apache.commons.math3.distribution.AbstractIntegerDistribution:129 (Suspicious rank: 26)
+org.apache.commons.math3.distribution.AbstractIntegerDistribution:129 (Suspicious rank: 26 (Ochiai), 24 (Ample), 24 (Tarantula))
 ```Java
 remove
 ```
@@ -6861,6 +6922,10 @@ index ea9e96a..a9d621a 100644
 # Math 5
 
 
+Nb Executed tests: None
+
+Nb Failing tests: None
+
 
 ## Human Patch 
 
@@ -6883,6 +6948,10 @@ index ac8185b..22b23f2 100644
 
 # Math 6
 
+
+Nb Executed tests: None
+
+Nb Failing tests: None
 
 
 ## Human Patch 
@@ -7049,6 +7118,10 @@ index 4016131..ca2d138 100644
 # Math 7
 
 
+Nb Executed tests: None
+
+Nb Failing tests: None
+
 
 ## Human Patch 
 
@@ -7108,6 +7181,10 @@ index 6e0237f..00827db 100644
 
 # Math 8
 
+
+Nb Executed tests: None
+
+Nb Failing tests: None
 
 
 ## Human Patch 
@@ -7180,6 +7257,10 @@ Grid5000 node : griffon-39.nancy.grid5000.fr
 # Math 9
 
 
+Nb Executed tests: None
+
+Nb Failing tests: None
+
 
 ## Human Patch 
 
@@ -7205,6 +7286,10 @@ index 7c9a28f..0c39411 100644
 # Math 10
 
 
+Nb Executed tests: None
+
+Nb Failing tests: None
+
 
 ## Human Patch 
 
@@ -7229,6 +7314,10 @@ index d5a3c18..9d08555 100644
 # Math 11
 
 
+Nb Executed tests: None
+
+Nb Failing tests: None
+
 
 ## Human Patch 
 
@@ -7251,6 +7340,10 @@ index fd18c28..1570681 100644
 
 # Math 12
 
+
+Nb Executed tests: None
+
+Nb Failing tests: None
 
 
 ## Human Patch 
@@ -7297,6 +7390,10 @@ index fab295b..a621d7b 100644
 
 # Math 13
 
+
+Nb Executed tests: None
+
+Nb Failing tests: None
 
 
 ## Human Patch 
@@ -7356,6 +7453,10 @@ index 982e559..b6c97e7 100644
 
 # Math 14
 
+
+Nb Executed tests: None
+
+Nb Failing tests: None
 
 
 ## Human Patch 
@@ -8482,7 +8583,7 @@ index add24ac..6ba72be 100644
 
 ## NopolPC 
 
-org.apache.commons.math3.geometry.partitioning.AbstractRegion:214 (Suspicious rank: 215)
+org.apache.commons.math3.geometry.partitioning.AbstractRegion:214 (Suspicious rank: 215 (Ochiai), 188 (Ample), 188 (Tarantula))
 ```Java
 ((!(((boundary.size())-(plusList.size()))<(minusList.size())))&&((1)<=(plusList.size())))||((minusList.size())==((boundary.size())+(-1)))
 ```
@@ -8526,7 +8627,7 @@ index 327b2ae..9a6993a 100644
 
 ## NopolPC 
 
-org.apache.commons.math3.optimization.linear.SimplexTableau:339 (Suspicious rank: 6)
+org.apache.commons.math3.optimization.linear.SimplexTableau:339 (Suspicious rank: 6 (Ochiai), 4 (Ample), 4 (Tarantula))
 ```Java
 (org.apache.commons.math3.optimization.linear.SimplexTableau.this.constraints.size())!=(org.apache.commons.math3.optimization.linear.SimplexTableau.this.numSlackVariables)
 ```
@@ -8542,7 +8643,7 @@ Grid5000 node: griffon-85.nancy.grid5000.fr
 
 ## NopolC 
 
-org.apache.commons.math3.optimization.linear.SimplexTableau:338 (Suspicious rank: 22)
+org.apache.commons.math3.optimization.linear.SimplexTableau:338 (Suspicious rank: 22 (Ochiai), 17 (Ample), 17 (Tarantula))
 ```Java
 !(((org.apache.commons.math3.optimization.linear.SimplexTableau.this.numSlackVariables)==(org.apache.commons.math3.optimization.linear.SimplexTableau.this.constraints.size()))||((entry)<=(0)))
 ```
@@ -8903,7 +9004,7 @@ index 59dc461..93dd3bb 100644
 
 ## NopolC 
 
-org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:260 (Suspicious rank: 31)
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:260 (Suspicious rank: 31 (Ochiai), 40 (Ample), 40 (Tarantula))
 ```Java
 (((xA)<=(absYA))||((signChangeIndex - start) >= (end - signChangeIndex)))&&(x!=null)
 ```
@@ -8919,7 +9020,7 @@ Grid5000 node: griffon-58.nancy.grid5000.fr
 
 ## Genprog 
 
-org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:296 (Suspicious rank: 29)
+org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver:296 (Suspicious rank: 29 (Ochiai), 27 (Ample), 27 (Tarantula))
 ```Java
 java.lang.System.arraycopy(y, 1, y, 0, nbPoints)
 ```
@@ -8992,7 +9093,7 @@ index d96c916..fd89432 100644
 
 ## NopolPC 
 
-org.apache.commons.math.optimization.linear.SimplexTableau:317 (Suspicious rank: 24)
+org.apache.commons.math.optimization.linear.SimplexTableau:317 (Suspicious rank: 24 (Ochiai), 27 (Ample), 27 (Tarantula))
 ```Java
 !((org.apache.commons.math.optimization.linear.SimplexTableau.this.restrictToNonNegative)&&(((org.apache.commons.math.optimization.linear.SimplexTableau.this.numSlackVariables)<=(org.apache.commons.math.optimization.linear.SimplexTableau.this.epsilon))||(org.apache.commons.math.optimization.linear.SimplexTableau.this.constraints.isEmpty())))
 ```
@@ -9104,7 +9205,7 @@ index 8f315e3..2d878b1 100644
 
 ## Genprog 
 
-org.apache.commons.math.ode.AbstractIntegrator:325 (Suspicious rank: 31)
+org.apache.commons.math.ode.AbstractIntegrator:325 (Suspicious rank: 31 (Ochiai), 28 (Ample), 28 (Tarantula))
 ```Java
 statesInitialized = false
 ```
@@ -9342,7 +9443,7 @@ index 13ebfd2..5db4884 100644
 
 ## NopolPC 
 
-org.apache.commons.math.linear.OpenMapRealVector:667 (Suspicious rank: 14)
+org.apache.commons.math.linear.OpenMapRealVector:667 (Suspicious rank: 14 (Ochiai), 13 (Ample), 13 (Tarantula))
 ```Java
 (org.apache.commons.math.linear.OpenMapRealVector.this.epsilon)==(org.apache.commons.math.linear.OpenMapRealVector.DEFAULT_ZERO_TOLERANCE)
 ```
@@ -9358,7 +9459,7 @@ Grid5000 node: griffon-22.nancy.grid5000.fr
 
 ## Genprog 
 
-org.apache.commons.math.util.OpenIntToDoubleHashMap:399 (Suspicious rank: 44)
+org.apache.commons.math.util.OpenIntToDoubleHashMap:399 (Suspicious rank: 44 (Ochiai), 40 (Ample), 40 (Tarantula))
 ```Java
 remove
 ```
@@ -9370,7 +9471,7 @@ Grid5000 node : griffon-32.nancy.grid5000.fr
 
 ## Kali 
 
-org.apache.commons.math.util.OpenIntToDoubleHashMap:399 (Suspicious rank: 44)
+org.apache.commons.math.util.OpenIntToDoubleHashMap:399 (Suspicious rank: 44 (Ochiai), 40 (Ample), 40 (Tarantula))
 ```Java
 remove
 ```
@@ -9417,7 +9518,7 @@ index c781a90..b3a23a1 100644
 
 ## NopolPC 
 
-org.apache.commons.math.analysis.solvers.BaseSecantSolver:186 (Suspicious rank: 6)
+org.apache.commons.math.analysis.solvers.BaseSecantSolver:186 (Suspicious rank: 6 (Ochiai), 6 (Ample), 6 (Tarantula))
 ```Java
 !(((x)==(1))||(((1)<(x))&&(inverted)))
 ```
@@ -9433,7 +9534,7 @@ Grid5000 node: griffon-11.nancy.grid5000.fr
 
 ## NopolC 
 
-org.apache.commons.math.analysis.solvers.BaseSecantSolver:186 (Suspicious rank: 6)
+org.apache.commons.math.analysis.solvers.BaseSecantSolver:186 (Suspicious rank: 6 (Ochiai), 6 (Ample), 6 (Tarantula))
 ```Java
 (f0)<(-1)
 ```
@@ -9449,7 +9550,7 @@ Grid5000 node: griffon-38.nancy.grid5000.fr
 
 ## Genprog 
 
-org.apache.commons.math.analysis.solvers.BaseSecantSolver:191 (Suspicious rank: 2)
+org.apache.commons.math.analysis.solvers.BaseSecantSolver:191 (Suspicious rank: 2 (Ochiai), 3 (Ample), 3 (Tarantula))
 ```Java
 this.allowed = org.apache.commons.math.analysis.solvers.AllowedSolution.ANY_SIDE
 ```
@@ -9461,7 +9562,7 @@ Grid5000 node : graphene-22.nancy.grid5000.fr
 
 ## Kali 
 
-org.apache.commons.math.analysis.solvers.BaseSecantSolver:191 (Suspicious rank: 2)
+org.apache.commons.math.analysis.solvers.BaseSecantSolver:191 (Suspicious rank: 2 (Ochiai), 3 (Ample), 3 (Tarantula))
 ```Java
 remove
 ```
@@ -9917,7 +10018,7 @@ index e09bbc3..b73ac9d 100644
 
 ## NopolC 
 
-org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:85 (Suspicious rank: 50)
+org.apache.commons.math.stat.clustering.EuclideanIntegerPoint:85 (Suspicious rank: 50 (Ochiai), 48 (Ample), 48 (Tarantula))
 ```Java
 ((1)<(otherPoint.length))&&((point[i]) != (otherPoint[i]))
 ```
@@ -9963,7 +10064,7 @@ index e1b54f4..8c107de 100644
 
 ## NopolC 
 
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:613 (Suspicious rank: 92)
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:613 (Suspicious rank: 92 (Ochiai), 85 (Ample), 85 (Tarantula))
 ```Java
 (fp > 0)||((gNorm)<=(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.this.orthoTolerance))
 ```
@@ -10604,7 +10705,7 @@ index b41456e..4cf4ee0 100644
 
 ## Genprog 
 
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:426 (Suspicious rank: 38)
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:426 (Suspicious rank: 38 (Ochiai), 42 (Ample), 42 (Tarantula))
 ```Java
 current = new org.apache.commons.math.optimization.VectorialPointValuePair(point , objective)
 ```
@@ -10971,7 +11072,7 @@ index dc83314..83b4c41 100644
 
 ## NopolPC 
 
-org.apache.commons.math.stat.correlation.PearsonsCorrelation:189 (Suspicious rank: 15)
+org.apache.commons.math.stat.correlation.PearsonsCorrelation:189 (Suspicious rank: 15 (Ochiai), 51 (Ample), 79 (Tarantula))
 ```Java
 ((1)-((-1)+(-1)))<=(nVars)
 ```
@@ -11015,7 +11116,7 @@ index 180caef..3f66927 100644
 
 ## Genprog 
 
-org.apache.commons.math.analysis.solvers.BisectionSolver:72 (Suspicious rank: 1)
+org.apache.commons.math.analysis.solvers.BisectionSolver:72 (Suspicious rank: 1 (Ochiai), 1 (Ample), 1 (Tarantula))
 ```Java
 return solve(f, min, max)
 ```
@@ -11225,7 +11326,7 @@ index e0cb427..4e95ed5 100644
 
 ## NopolC 
 
-org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:225 (Suspicious rank: 16)
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl:225 (Suspicious rank: 16 (Ochiai), 17 (Ample), 17 (Tarantula))
 ```Java
 ((initial)<=(lower))||((!((1)!=(lower)))&&((org.apache.commons.math.analysis.solvers.UnivariateRealSolverImpl.this.result)<(1)))
 ```
@@ -11241,7 +11342,7 @@ Grid5000 node: graphene-77.nancy.grid5000.fr
 
 ## Genprog 
 
-org.apache.commons.math.analysis.solvers.BrentSolver:132 (Suspicious rank: 1)
+org.apache.commons.math.analysis.solvers.BrentSolver:132 (Suspicious rank: 1 (Ochiai), 1 (Ample), 1 (Tarantula))
 ```Java
 return solve(f, min, max)
 ```
@@ -11645,7 +11746,7 @@ index ff09646..44f6742 100644
 
 ## NopolPC 
 
-org.apache.commons.math.analysis.solvers.BrentSolver:282 (Suspicious rank: 8)
+org.apache.commons.math.analysis.solvers.BrentSolver:282 (Suspicious rank: 8 (Ochiai), 8 (Ample), 8 (Tarantula))
 ```Java
 (-1)<=(delta)
 ```
@@ -11661,7 +11762,7 @@ Grid5000 node: griffon-33.nancy.grid5000.fr
 
 ## Genprog 
 
-org.apache.commons.math.ode.events.EventState:179 (Suspicious rank: 47)
+org.apache.commons.math.ode.events.EventState:179 (Suspicious rank: 47 (Ochiai), 41 (Ample), 41 (Tarantula))
 ```Java
 ta = tb
 ```
@@ -11673,7 +11774,7 @@ Grid5000 node : griffon-62.nancy.grid5000.fr
 
 ## Kali 
 
-org.apache.commons.math.ode.events.EventState:283 (Suspicious rank: 56)
+org.apache.commons.math.ode.events.EventState:283 (Suspicious rank: 56 (Ochiai), 50 (Ample), 50 (Tarantula))
 ```Java
 remove
 ```
@@ -11717,7 +11818,7 @@ index ad77a56..46368dc 100644
 
 ## NopolPC 
 
-org.apache.commons.math.util.MathUtils:1627 (Suspicious rank: 103)
+org.apache.commons.math.util.MathUtils:1627 (Suspicious rank: 103 (Ochiai), 95 (Ample), 95 (Tarantula))
 ```Java
 (p2!=null)&&(!(((dp)<=((org.apache.commons.math.util.MathUtils.TWO_PI)-((org.apache.commons.math.util.MathUtils.FACTORIALS.length)+(org.apache.commons.math.util.MathUtils.FACTORIALS.length))))||(((org.apache.commons.math.util.MathUtils.FACTORIALS.length)+(org.apache.commons.math.util.MathUtils.FACTORIALS.length))<(dp))))
 ```
@@ -11761,7 +11862,7 @@ index 9d1b797..3fc328d 100644
 
 ## NopolPC 
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1137 (Suspicious rank: 16)
+org.apache.commons.math.linear.EigenDecompositionImpl:1137 (Suspicious rank: 16 (Ochiai), 28 (Ample), 28 (Tarantula))
 ```Java
 org.apache.commons.math.linear.EigenDecompositionImpl.this.cachedD!=null
 ```
@@ -11777,7 +11878,7 @@ Grid5000 node: griffon-5.nancy.grid5000.fr
 
 ## Genprog 
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1137 (Suspicious rank: 16)
+org.apache.commons.math.linear.EigenDecompositionImpl:1137 (Suspicious rank: 16 (Ochiai), 28 (Ample), 28 (Tarantula))
 ```Java
 remove
 ```
@@ -11789,27 +11890,27 @@ Grid5000 node : griffon-63.nancy.grid5000.fr
 
 ## Kali 
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1136 (Suspicious rank: 15)
+org.apache.commons.math.linear.EigenDecompositionImpl:1136 (Suspicious rank: 15 (Ochiai), 5 (Ample), 5 (Tarantula))
 ```Java
 remove
 ```
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1137 (Suspicious rank: 16)
+org.apache.commons.math.linear.EigenDecompositionImpl:1137 (Suspicious rank: 16 (Ochiai), 28 (Ample), 28 (Tarantula))
 ```Java
 remove
 ```
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1139 (Suspicious rank: 18)
+org.apache.commons.math.linear.EigenDecompositionImpl:1139 (Suspicious rank: 18 (Ochiai), 3 (Ample), 3 (Tarantula))
 ```Java
 remove
 ```
 
-org.apache.commons.math.linear.EigenDecompositionImpl:840 (Suspicious rank: 110)
+org.apache.commons.math.linear.EigenDecompositionImpl:840 (Suspicious rank: 110 (Ochiai), 124 (Ample), 124 (Tarantula))
 ```Java
 remove
 ```
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1133 (Suspicious rank: 195)
+org.apache.commons.math.linear.EigenDecompositionImpl:1133 (Suspicious rank: 195 (Ochiai), 125 (Ample), 125 (Tarantula))
 ```Java
 remove
 ```
@@ -11875,7 +11976,7 @@ index 3fc328d..53a40f0 100644
 
 ## NopolPC 
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1540 (Suspicious rank: 10)
+org.apache.commons.math.linear.EigenDecompositionImpl:1540 (Suspicious rank: 10 (Ochiai), 14 (Ample), 14 (Tarantula))
 ```Java
 (org.apache.commons.math.linear.EigenDecompositionImpl.this.eMin)!=(b2)
 ```
@@ -11891,7 +11992,7 @@ Grid5000 node: griffon-33.nancy.grid5000.fr
 
 ## NopolC 
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1534 (Suspicious rank: 8)
+org.apache.commons.math.linear.EigenDecompositionImpl:1534 (Suspicious rank: 8 (Ochiai), 12 (Ample), 12 (Tarantula))
 ```Java
 (org.apache.commons.math.linear.EigenDecompositionImpl.TOLERANCE)<=(org.apache.commons.math.linear.EigenDecompositionImpl.this.lowerSpectra)
 ```
@@ -11907,7 +12008,7 @@ Grid5000 node: graphene-7.nancy.grid5000.fr
 
 ## Genprog 
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1477 (Suspicious rank: 17)
+org.apache.commons.math.linear.EigenDecompositionImpl:1477 (Suspicious rank: 17 (Ochiai), 22 (Ample), 22 (Tarantula))
 ```Java
 remove
 ```
@@ -11919,32 +12020,32 @@ Grid5000 node : griffon-23.nancy.grid5000.fr
 
 ## Kali 
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1540 (Suspicious rank: 10)
+org.apache.commons.math.linear.EigenDecompositionImpl:1540 (Suspicious rank: 10 (Ochiai), 14 (Ample), 14 (Tarantula))
 ```Java
 remove
 ```
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1541 (Suspicious rank: 11)
+org.apache.commons.math.linear.EigenDecompositionImpl:1541 (Suspicious rank: 11 (Ochiai), 15 (Ample), 15 (Tarantula))
 ```Java
 remove
 ```
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1477 (Suspicious rank: 17)
+org.apache.commons.math.linear.EigenDecompositionImpl:1477 (Suspicious rank: 17 (Ochiai), 22 (Ample), 22 (Tarantula))
 ```Java
 remove
 ```
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1481 (Suspicious rank: 19)
+org.apache.commons.math.linear.EigenDecompositionImpl:1481 (Suspicious rank: 19 (Ochiai), 27 (Ample), 27 (Tarantula))
 ```Java
 remove
 ```
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1517 (Suspicious rank: 40)
+org.apache.commons.math.linear.EigenDecompositionImpl:1517 (Suspicious rank: 40 (Ochiai), 41 (Ample), 41 (Tarantula))
 ```Java
 remove
 ```
 
-org.apache.commons.math.linear.EigenDecompositionImpl:1518 (Suspicious rank: 41)
+org.apache.commons.math.linear.EigenDecompositionImpl:1518 (Suspicious rank: 41 (Ochiai), 42 (Ample), 42 (Tarantula))
 ```Java
 remove
 ```
@@ -11989,7 +12090,7 @@ index 60a1b3a..16d3bae 100644
 
 ## NopolPC 
 
-org.apache.commons.math.optimization.linear.SimplexSolver:63 (Suspicious rank: 47)
+org.apache.commons.math.optimization.linear.SimplexSolver:63 (Suspicious rank: 47 (Ochiai), 32 (Ample), 32 (Tarantula))
 ```Java
 (0)!=(minValue)
 ```
@@ -12005,7 +12106,7 @@ Grid5000 node: graphene-65.nancy.grid5000.fr
 
 ## Genprog 
 
-org.apache.commons.math.optimization.linear.SimplexSolver:63 (Suspicious rank: 47)
+org.apache.commons.math.optimization.linear.SimplexSolver:63 (Suspicious rank: 47 (Ochiai), 32 (Ample), 32 (Tarantula))
 ```Java
 remove
 ```
@@ -12017,7 +12118,7 @@ Grid5000 node : griffon-62.nancy.grid5000.fr
 
 ## Kali 
 
-org.apache.commons.math.optimization.linear.SimplexSolver:63 (Suspicious rank: 47)
+org.apache.commons.math.optimization.linear.SimplexSolver:63 (Suspicious rank: 47 (Ochiai), 32 (Ample), 32 (Tarantula))
 ```Java
 remove
 ```
@@ -12118,6 +12219,10 @@ index 929560c..955d0d8 100644
 
 # Math 85
 
+
+Nb Executed tests: None
+
+Nb Failing tests: None
 
 
 ## Human Patch 
@@ -12267,7 +12372,7 @@ index b0d114e..a6d7419 100644
 
 ## NopolPC 
 
-org.apache.commons.math.optimization.linear.SimplexTableau:161 (Suspicious rank: 25)
+org.apache.commons.math.optimization.linear.SimplexTableau:161 (Suspicious rank: 25 (Ochiai), 73 (Ample), 73 (Tarantula))
 ```Java
 (org.apache.commons.math.optimization.linear.SimplexTableau.this.numSlackVariables)!=(1)
 ```
@@ -12283,7 +12388,7 @@ Grid5000 node: graphene-68.nancy.grid5000.fr
 
 ## NopolC 
 
-org.apache.commons.math.optimization.linear.SimplexTableau:160 (Suspicious rank: 127)
+org.apache.commons.math.optimization.linear.SimplexTableau:160 (Suspicious rank: 127 (Ochiai), 120 (Ample), 120 (Tarantula))
 ```Java
 ((1)!=(org.apache.commons.math.optimization.linear.SimplexTableau.this.numSlackVariables))&&(!(restrictToNonNegative))
 ```
@@ -12373,7 +12478,7 @@ index a6d7419..ba57722 100644
 
 ## NopolPC 
 
-org.apache.commons.math.optimization.linear.SimplexTableau:352 (Suspicious rank: 1)
+org.apache.commons.math.optimization.linear.SimplexTableau:352 (Suspicious rank: 1 (Ochiai), 1 (Ample), 1 (Tarantula))
 ```Java
 (org.apache.commons.math.optimization.linear.SimplexTableau.this.numSlackVariables)<(org.apache.commons.math.optimization.linear.SimplexTableau.this.constraints.size())
 ```
@@ -13029,7 +13134,7 @@ index 59aeb07..3959403 100644
 
 ## Genprog 
 
-org.apache.commons.math.distribution.FDistributionImpl:144 (Suspicious rank: 105)
+org.apache.commons.math.distribution.FDistributionImpl:144 (Suspicious rank: 105 (Ochiai), 168 (Ample), 83 (Tarantula))
 ```Java
 return 0.0
 ```
@@ -13221,7 +13326,7 @@ index 57f64a9..01a9ee5 100644
 
 ## NopolPC 
 
-org.apache.commons.math.analysis.BrentSolver:136 (Suspicious rank: 68)
+org.apache.commons.math.analysis.BrentSolver:136 (Suspicious rank: 68 (Ochiai), 68 (Ample), 68 (Tarantula))
 ```Java
 (min)<=(1)
 ```
@@ -13237,7 +13342,7 @@ Grid5000 node: griffon-17.nancy.grid5000.fr
 
 ## NopolC 
 
-org.apache.commons.math.analysis.BrentSolver:135 (Suspicious rank: 90)
+org.apache.commons.math.analysis.BrentSolver:135 (Suspicious rank: 90 (Ochiai), 95 (Ample), 87 (Tarantula))
 ```Java
 (((yMin)<(yMax))&&((yMin * yMax) >= 0))||((min)==(yMin))
 ```
@@ -13432,7 +13537,7 @@ index da8b3f5..01a9ee5 100644
 
 ## NopolPC 
 
-org.apache.commons.math.analysis.BrentSolver:136 (Suspicious rank: 68)
+org.apache.commons.math.analysis.BrentSolver:136 (Suspicious rank: 68 (Ochiai), 68 (Ample), 68 (Tarantula))
 ```Java
 (min)<=(1)
 ```
@@ -13448,7 +13553,7 @@ Grid5000 node: griffon-5.nancy.grid5000.fr
 
 ## NopolC 
 
-org.apache.commons.math.analysis.BrentSolver:135 (Suspicious rank: 90)
+org.apache.commons.math.analysis.BrentSolver:135 (Suspicious rank: 90 (Ochiai), 95 (Ample), 87 (Tarantula))
 ```Java
 ((!((1)<(min)))||((yMax)<=(org.apache.commons.math.analysis.BrentSolver.serialVersionUID)))&&((yMin * yMax) >= 0)
 ```
@@ -13906,7 +14011,7 @@ index d9fa592..c105a41 100644
 
 ## NopolPC 
 
-org.apache.commons.math.stat.regression.SimpleRegression:107 (Suspicious rank: 69)
+org.apache.commons.math.stat.regression.SimpleRegression:107 (Suspicious rank: 69 (Ochiai), 72 (Ample), 72 (Tarantula))
 ```Java
 (((y)<=(x))&&((y)<=(x)))||(!((1)<(x)))
 ```
@@ -14688,6 +14793,10 @@ index 64da5ea..6efe071 100644
 
 # Time 12
 
+
+Nb Executed tests: None
+
+Nb Failing tests: None
 
 
 ## Human Patch 
