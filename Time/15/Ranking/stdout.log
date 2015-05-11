@@ -1,5 +1,5 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/time/time_15 /tmp/time_15_Ranking;cd /tmp/time_15_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Time/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/time_15_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath build/classes/:build/tests/:lib/joda-convert-1.2.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/time_15_Ranking;
+cd /tmp/time_15_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath build/classes/:build/tests/:lib/joda-convert-1.2.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/time_15_Ranking;
 
 /************************/
 Executed tests:   11687
@@ -248,7 +248,7 @@ org.joda.time.chrono.JulianChronology:136 -> 0.054744890145135894 (ep: 426, ef: 
 org.joda.time.tz.FixedDateTimeZone:57 -> 0.05258304820496189 (ep: 462, ef: 3, np: 11218, nf: 4)
 org.joda.time.field.MillisDurationField:125 -> 0.05159393703675823 (ep: 480, ef: 3, np: 11200, nf: 4)
 org.joda.time.field.MillisDurationField:71 -> 0.04808779227281261 (ep: 553, ef: 3, np: 11127, nf: 4)
-org.joda.time.tz.FixedDateTimeZone:102 -> 0.046681653306710785 (ep: 587, ef: 3, np: 11093, nf: 4)
+org.joda.time.tz.FixedDateTimeZone:102 -> 0.04757711097716634 (ep: 565, ef: 3, np: 11115, nf: 4)
 org.joda.time.field.PreciseDurationField:114 -> 0.046368350080138974 (ep: 595, ef: 3, np: 11085, nf: 4)
 org.joda.time.field.PreciseDurationField:115 -> 0.046368350080138974 (ep: 595, ef: 3, np: 11085, nf: 4)
 org.joda.time.DurationFieldType$StandardDurationFieldType:292 -> 0.04629100498862758 (ep: 597, ef: 3, np: 11083, nf: 4)
@@ -296,7 +296,7 @@ org.joda.time.PeriodType:617 -> 0.02805086180584045 (ep: 1631, ef: 3, np: 10049,
 org.joda.time.chrono.AssembledChronology:256 -> 0.02690610012503157 (ep: 1773, ef: 3, np: 9907, nf: 4)
 org.joda.time.chrono.AssembledChronology:220 -> 0.025965511853767716 (ep: 1904, ef: 3, np: 9776, nf: 4)
 org.joda.time.field.MillisDurationField:117 -> 0.024679031826570236 (ep: 2108, ef: 3, np: 9572, nf: 4)
-org.joda.time.DateTimeZone:706 -> 0.02403309231823047 (ep: 2223, ef: 3, np: 9457, nf: 4)
+org.joda.time.DateTimeZone:706 -> 0.02414726442081476 (ep: 2202, ef: 3, np: 9478, nf: 4)
 org.joda.time.DurationFieldType$StandardDurationFieldType:282 -> 0.023952525238265177 (ep: 2238, ef: 3, np: 9442, nf: 4)
 org.joda.time.DurationFieldType$StandardDurationFieldType:284 -> 0.023952525238265177 (ep: 2238, ef: 3, np: 9442, nf: 4)
 org.joda.time.field.PreciseDurationField:104 -> 0.023111822294066463 (ep: 2404, ef: 3, np: 9276, nf: 4)
@@ -306,15 +306,15 @@ org.joda.time.field.FieldUtils:84 -> 0.02116932257052422 (ep: 2866, ef: 3, np: 8
 org.joda.time.field.FieldUtils:88 -> 0.02116932257052422 (ep: 2866, ef: 3, np: 8814, nf: 4)
 org.joda.time.DateTimeUtils:253 -> 0.019454696555061955 (ep: 3394, ef: 3, np: 8286, nf: 4)
 org.joda.time.chrono.ISOChronology:86 -> 0.01525616579639444 (ep: 5521, ef: 3, np: 6159, nf: 4)
-org.joda.time.chrono.ISOChronology:102 -> 0.014144964899666775 (ep: 6423, ef: 3, np: 5257, nf: 4)
+org.joda.time.chrono.ISOChronology:102 -> 0.01412300406527749 (ep: 6443, ef: 3, np: 5237, nf: 4)
 org.joda.time.chrono.ZonedChronology:86 -> 0.014011503496075477 (ep: 6546, ef: 3, np: 5134, nf: 4)
 org.joda.time.chrono.AssembledChronology:315 -> 0.014007226480256638 (ep: 6550, ef: 3, np: 5130, nf: 4)
 org.joda.time.chrono.ISOChronology:96 -> 0.013985899996389377 (ep: 6570, ef: 3, np: 5110, nf: 4)
 org.joda.time.chrono.ISOChronology:99 -> 0.013985899996389377 (ep: 6570, ef: 3, np: 5110, nf: 4)
 org.joda.time.chrono.ISOChronology:100 -> 0.013985899996389377 (ep: 6570, ef: 3, np: 5110, nf: 4)
 org.joda.time.chrono.ISOChronology:101 -> 0.013985899996389377 (ep: 6570, ef: 3, np: 5110, nf: 4)
-org.joda.time.chrono.AssembledChronology:107 -> 0.013239518037357892 (ep: 7332, ef: 3, np: 4348, nf: 4)
-org.joda.time.chrono.AssembledChronology:108 -> 0.013239518037357892 (ep: 7332, ef: 3, np: 4348, nf: 4)
+org.joda.time.chrono.AssembledChronology:107 -> 0.013238615640326046 (ep: 7333, ef: 3, np: 4347, nf: 4)
+org.joda.time.chrono.AssembledChronology:108 -> 0.013238615640326046 (ep: 7333, ef: 3, np: 4347, nf: 4)
 org.joda.time.DateTimeUtils:255 -> 0.013111442300614298 (ep: 7476, ef: 3, np: 4204, nf: 4)
 org.joda.time.DateTimeUtils:252 -> 0.012215729000673962 (ep: 8613, ef: 3, np: 3067, nf: 4)
 org.joda.time.DateTimeZone:133 -> 0.011554711093948629 (ep: 9627, ef: 3, np: 2053, nf: 4)

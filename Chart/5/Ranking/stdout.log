@@ -1,5 +1,10 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/chart/chart_5 /tmp/chart_5_Ranking;cd /tmp/chart_5_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Chart/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/chart_5_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 4 --source source/ --classpath build/:build-tests/:lib/cobertura-lib/servlet-api-2.5-6.1.14.jar:lib/servlet.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/chart_5_Ranking;
+cd /tmp/chart_5_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 4 --source source/ --classpath build/:build-tests/:lib/cobertura-lib/servlet-api-2.5-6.1.14.jar:lib/servlet.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";rm -rf /tmp/chart_5_Ranking;
 
 /************************/
 Executed tests:   4081
@@ -90,5 +95,12 @@ org.jfree.data.general.Series:316 -> 0.0601929265428846 (ep: 550, ef: 2, np: 352
 org.jfree.data.general.Series:326 -> 0.0601929265428846 (ep: 550, ef: 2, np: 3529, nf: 0)
 org.jfree.data.general.Series:327 -> 0.0601929265428846 (ep: 550, ef: 2, np: 3529, nf: 0)
 org.jfree.data.general.Series:334 -> 0.0601929265428846 (ep: 550, ef: 2, np: 3529, nf: 0)
+
+
+
+Node: griffon-41.nancy.grid5000.fr
+
+
+Date: Mon May 11 08:04:19 CEST 2015
 
 

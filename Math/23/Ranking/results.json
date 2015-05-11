@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-10T23:33:17.778874", 
+    "date": "2015-05-11T08:05:10.207627", 
     "executedTest": 4096, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -71,7 +71,7 @@
         }
     ], 
     "nbsuspicious": 221, 
-    "node": "fnancy.nancy.grid5000.fr\n", 
+    "node": "griffon-85.nancy.grid5000.fr\n", 
     "successfulTest": 4095, 
     "suspicious": {
         "org.apache.commons.math3.analysis.FunctionUtils$4:144": {
@@ -3592,16 +3592,16 @@
         "org.apache.commons.math3.util.FastMath:2253": {
             "class": "org.apache.commons.math3.util.FastMath", 
             "ef": 1, 
-            "ep": 246, 
+            "ep": 245, 
             "line": 2253, 
             "metrics": {
-                "ample": 0.9399267399267399, 
-                "gzoltar": 0.06362847629757777, 
-                "ochiai": 0.06362847629757777, 
-                "tarantula": 0.9433310297166552
+                "ample": 0.9401709401709402, 
+                "gzoltar": 0.06375767130633382, 
+                "ochiai": 0.06375767130633382, 
+                "tarantula": 0.9435483870967741
             }, 
             "nf": 0, 
-            "np": 3849, 
+            "np": 3850, 
             "rank": {
                 "ample": 133, 
                 "ochiai": 133, 
@@ -3611,16 +3611,16 @@
         "org.apache.commons.math3.util.FastMath:2255": {
             "class": "org.apache.commons.math3.util.FastMath", 
             "ef": 1, 
-            "ep": 187, 
+            "ep": 188, 
             "line": 2255, 
             "metrics": {
-                "ample": 0.9543345543345544, 
-                "gzoltar": 0.07293249574894728, 
-                "ochiai": 0.07293249574894728, 
-                "tarantula": 0.9563288183092012
+                "ample": 0.954090354090354, 
+                "gzoltar": 0.07273929674533079, 
+                "ochiai": 0.07273929674533079, 
+                "tarantula": 0.9561055335045529
             }, 
             "nf": 0, 
-            "np": 3908, 
+            "np": 3907, 
             "rank": {
                 "ample": 132, 
                 "ochiai": 132, 

@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-10T23:33:17.710501", 
+    "date": "2015-05-11T08:05:57.113592", 
     "executedTest": 4261, 
     "failedTest": 2, 
     "failedTestDetails": [
@@ -154,8 +154,8 @@
             "line": 479
         }
     ], 
-    "nbsuspicious": 126, 
-    "node": "fnancy.nancy.grid5000.fr\n", 
+    "nbsuspicious": 128, 
+    "node": "griffon-61.nancy.grid5000.fr\n", 
     "successfulTest": 4259, 
     "suspicious": {
         "org.apache.commons.math3.dfp.Dfp:1418": {
@@ -1084,9 +1084,9 @@
             "nf": 0, 
             "np": 3201, 
             "rank": {
-                "ample": 122, 
-                "ochiai": 124, 
-                "tarantula": 125
+                "ample": 124, 
+                "ochiai": 128, 
+                "tarantula": 127
             }
         }, 
         "org.apache.commons.math3.random.BitsStreamGenerator:166": {
@@ -1103,9 +1103,9 @@
             "nf": 0, 
             "np": 3201, 
             "rank": {
-                "ample": 121, 
-                "ochiai": 125, 
-                "tarantula": 124
+                "ample": 123, 
+                "ochiai": 129, 
+                "tarantula": 126
             }
         }, 
         "org.apache.commons.math3.random.MersenneTwister:144": {
@@ -1792,6 +1792,44 @@
                 "tarantula": 56
             }
         }, 
+        "org.apache.commons.math3.util.FastMath$ExpFracTable:3719": {
+            "class": "org.apache.commons.math3.util.FastMath$ExpFracTable", 
+            "ef": 2, 
+            "ep": 921, 
+            "line": 3719, 
+            "metrics": {
+                "ample": 0.783752054472881, 
+                "gzoltar": 0.04654940641157277, 
+                "ochiai": 0.04654940641157277, 
+                "tarantula": 0.8222007722007721
+            }, 
+            "nf": 0, 
+            "np": 3338, 
+            "rank": {
+                "ample": 121, 
+                "ochiai": 126, 
+                "tarantula": 124
+            }
+        }, 
+        "org.apache.commons.math3.util.FastMath$ExpIntTable:3680": {
+            "class": "org.apache.commons.math3.util.FastMath$ExpIntTable", 
+            "ef": 2, 
+            "ep": 917, 
+            "line": 3680, 
+            "metrics": {
+                "ample": 0.7846912420756046, 
+                "gzoltar": 0.046650600892766084, 
+                "ochiai": 0.046650600892766084, 
+                "tarantula": 0.8228361669242658
+            }, 
+            "nf": 0, 
+            "np": 3342, 
+            "rank": {
+                "ample": 105, 
+                "ochiai": 109, 
+                "tarantula": 108
+            }
+        }, 
         "org.apache.commons.math3.util.FastMath:2992": {
             "class": "org.apache.commons.math3.util.FastMath", 
             "ef": 2, 
@@ -1806,9 +1844,9 @@
             "nf": 0, 
             "np": 2617, 
             "rank": {
-                "ample": 123, 
-                "ochiai": 126, 
-                "tarantula": 126
+                "ample": 125, 
+                "ochiai": 130, 
+                "tarantula": 128
             }
         }, 
         "org.apache.commons.math3.util.FastMath:3001": {
@@ -2053,7 +2091,7 @@
             "nf": 1, 
             "np": 4249, 
             "rank": {
-                "ample": 124, 
+                "ample": 126, 
                 "ochiai": 5, 
                 "tarantula": 1
             }
@@ -2072,7 +2110,7 @@
             "nf": 1, 
             "np": 4231, 
             "rank": {
-                "ample": 126, 
+                "ample": 128, 
                 "ochiai": 84, 
                 "tarantula": 7
             }
@@ -2091,7 +2129,7 @@
             "nf": 1, 
             "np": 4249, 
             "rank": {
-                "ample": 125, 
+                "ample": 127, 
                 "ochiai": 6, 
                 "tarantula": 2
             }
@@ -2129,9 +2167,9 @@
             "nf": 0, 
             "np": 3322, 
             "rank": {
-                "ample": 120, 
-                "ochiai": 123, 
-                "tarantula": 123
+                "ample": 122, 
+                "ochiai": 127, 
+                "tarantula": 125
             }
         }, 
         "org.apache.commons.math3.util.FastMath:864": {
@@ -2262,9 +2300,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 107, 
-                "ochiai": 108, 
-                "tarantula": 110
+                "ample": 108, 
+                "ochiai": 110, 
+                "tarantula": 111
             }
         }, 
         "org.apache.commons.math3.util.FastMath:883": {
@@ -2281,9 +2319,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 111, 
-                "ochiai": 109, 
-                "tarantula": 114
+                "ample": 112, 
+                "ochiai": 111, 
+                "tarantula": 115
             }
         }, 
         "org.apache.commons.math3.util.FastMath:884": {
@@ -2300,9 +2338,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 109, 
-                "ochiai": 110, 
-                "tarantula": 112
+                "ample": 110, 
+                "ochiai": 112, 
+                "tarantula": 113
             }
         }, 
         "org.apache.commons.math3.util.FastMath:890": {
@@ -2319,9 +2357,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 106, 
-                "ochiai": 111, 
-                "tarantula": 109
+                "ample": 107, 
+                "ochiai": 113, 
+                "tarantula": 110
             }
         }, 
         "org.apache.commons.math3.util.FastMath:899": {
@@ -2338,9 +2376,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 105, 
-                "ochiai": 112, 
-                "tarantula": 108
+                "ample": 106, 
+                "ochiai": 114, 
+                "tarantula": 109
             }
         }, 
         "org.apache.commons.math3.util.FastMath:900": {
@@ -2357,9 +2395,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 112, 
-                "ochiai": 113, 
-                "tarantula": 115
+                "ample": 113, 
+                "ochiai": 115, 
+                "tarantula": 116
             }
         }, 
         "org.apache.commons.math3.util.FastMath:901": {
@@ -2376,9 +2414,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 113, 
-                "ochiai": 114, 
-                "tarantula": 116
+                "ample": 114, 
+                "ochiai": 116, 
+                "tarantula": 117
             }
         }, 
         "org.apache.commons.math3.util.FastMath:902": {
@@ -2395,9 +2433,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 114, 
-                "ochiai": 115, 
-                "tarantula": 117
+                "ample": 115, 
+                "ochiai": 117, 
+                "tarantula": 118
             }
         }, 
         "org.apache.commons.math3.util.FastMath:903": {
@@ -2414,9 +2452,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 115, 
-                "ochiai": 116, 
-                "tarantula": 118
+                "ample": 116, 
+                "ochiai": 118, 
+                "tarantula": 119
             }
         }, 
         "org.apache.commons.math3.util.FastMath:910": {
@@ -2433,9 +2471,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 119, 
-                "ochiai": 117, 
-                "tarantula": 122
+                "ample": 120, 
+                "ochiai": 119, 
+                "tarantula": 123
             }
         }, 
         "org.apache.commons.math3.util.FastMath:911": {
@@ -2452,9 +2490,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 118, 
-                "ochiai": 118, 
-                "tarantula": 121
+                "ample": 119, 
+                "ochiai": 120, 
+                "tarantula": 122
             }
         }, 
         "org.apache.commons.math3.util.FastMath:917": {
@@ -2471,9 +2509,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 117, 
-                "ochiai": 119, 
-                "tarantula": 120
+                "ample": 118, 
+                "ochiai": 121, 
+                "tarantula": 121
             }
         }, 
         "org.apache.commons.math3.util.FastMath:919": {
@@ -2490,9 +2528,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 116, 
-                "ochiai": 120, 
-                "tarantula": 119
+                "ample": 117, 
+                "ochiai": 122, 
+                "tarantula": 120
             }
         }, 
         "org.apache.commons.math3.util.FastMath:922": {
@@ -2528,9 +2566,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 108, 
-                "ochiai": 121, 
-                "tarantula": 111
+                "ample": 109, 
+                "ochiai": 123, 
+                "tarantula": 112
             }
         }, 
         "org.apache.commons.math3.util.FastMath:931": {
@@ -2547,9 +2585,9 @@
             "nf": 0, 
             "np": 3342, 
             "rank": {
-                "ample": 110, 
-                "ochiai": 122, 
-                "tarantula": 113
+                "ample": 111, 
+                "ochiai": 124, 
+                "tarantula": 114
             }
         }
     }

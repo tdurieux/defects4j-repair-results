@@ -1,5 +1,10 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/lang/lang_48 /tmp/lang_48_Ranking;cd /tmp/lang_48_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Lang/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/lang_48_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 3 --source src/java/ --classpath target/classes/:target/tests/:lib/asm.jar:lib/cglib.jar:lib/commons-io.jar:lib/easymock.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/lang_48_Ranking;
+cd /tmp/lang_48_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 3 --source src/java/ --classpath target/classes/:target/tests/:lib/asm.jar:lib/cglib.jar:lib/commons-io.jar:lib/easymock.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";rm -rf /tmp/lang_48_Ranking;
 
 /************************/
 Executed tests:   1764
@@ -44,5 +49,12 @@ org.apache.commons.lang.builder.EqualsBuilder:378 -> 0.14744195615489714 (ep: 45
 org.apache.commons.lang.builder.EqualsBuilder:379 -> 0.14744195615489714 (ep: 45, ef: 1, np: 1718, nf: 0)
 org.apache.commons.lang.builder.EqualsBuilder:408 -> 0.14744195615489714 (ep: 45, ef: 1, np: 1718, nf: 0)
 org.apache.commons.lang.builder.EqualsBuilder:831 -> 0.1270001270001905 (ep: 61, ef: 1, np: 1702, nf: 0)
+
+
+
+Node: griffon-1.nancy.grid5000.fr
+
+
+Date: Mon May 11 07:59:27 CEST 2015
 
 

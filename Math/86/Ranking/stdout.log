@@ -1,5 +1,5 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_86 /tmp/math_86_Ranking;cd /tmp/math_86_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/math_86_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/java/ --classpath target/classes/:target/test-classes/:lib/commons-discovery-0.5.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/math_86_Ranking;
+cd /tmp/math_86_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/java/ --classpath target/classes/:target/test-classes/:lib/commons-discovery-0.5.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/math_86_Ranking;
 
 /************************/
 Executed tests:   1894
@@ -114,7 +114,7 @@ org.apache.commons.math.linear.DenseRealMatrix:1323 -> 0.09470274476207569 (ep: 
 org.apache.commons.math.linear.DenseRealMatrix:492 -> 0.0944911182523068 (ep: 55, ef: 1, np: 1837, nf: 1)
 org.apache.commons.math.linear.DenseRealMatrix:596 -> 0.0944911182523068 (ep: 55, ef: 1, np: 1837, nf: 1)
 org.apache.commons.math.linear.DenseRealMatrix:597 -> 0.0944911182523068 (ep: 55, ef: 1, np: 1837, nf: 1)
-org.apache.commons.math.linear.DenseRealMatrix:64 -> 0.0944911182523068 (ep: 222, ef: 2, np: 1670, nf: 0)
+org.apache.commons.math.linear.DenseRealMatrix:64 -> 0.0944911182523068 (ep: 55, ef: 1, np: 1837, nf: 1)
 org.apache.commons.math.linear.DenseRealMatrix:1317 -> 0.09428090415820634 (ep: 223, ef: 2, np: 1669, nf: 0)
 org.apache.commons.math.linear.DenseRealMatrix:555 -> 0.0936585811581694 (ep: 56, ef: 1, np: 1836, nf: 1)
 org.apache.commons.math.linear.DenseRealMatrix:557 -> 0.0936585811581694 (ep: 56, ef: 1, np: 1836, nf: 1)
@@ -145,7 +145,7 @@ org.apache.commons.math.linear.DenseRealMatrix:599 -> 0.0936585811581694 (ep: 56
 org.apache.commons.math.linear.DenseRealMatrix:605 -> 0.0936585811581694 (ep: 56, ef: 1, np: 1836, nf: 1)
 org.apache.commons.math.linear.DenseRealMatrix:610 -> 0.0936585811581694 (ep: 56, ef: 1, np: 1836, nf: 1)
 org.apache.commons.math.linear.DenseRealMatrix:1635 -> 0.09205746178983235 (ep: 234, ef: 2, np: 1658, nf: 0)
-org.apache.commons.math.linear.DenseRealMatrix:64 -> 0.079555728417573 (ep: 222, ef: 2, np: 1670, nf: 0)
+org.apache.commons.math.linear.DenseRealMatrix:64 -> 0.079555728417573 (ep: 78, ef: 1, np: 1814, nf: 1)
 org.apache.commons.math.linear.DenseRealMatrix:1281 -> 0.07905694150420949 (ep: 79, ef: 1, np: 1813, nf: 1)
 org.apache.commons.math.linear.DenseRealMatrix:1282 -> 0.07905694150420949 (ep: 79, ef: 1, np: 1813, nf: 1)
 org.apache.commons.math.linear.DenseRealMatrix:1283 -> 0.07905694150420949 (ep: 79, ef: 1, np: 1813, nf: 1)

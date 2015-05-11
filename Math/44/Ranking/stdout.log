@@ -1,5 +1,5 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_44 /tmp/math_44_Ranking;cd /tmp/math_44_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/math_44_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/commons-discovery-0.5.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/math_44_Ranking;
+cd /tmp/math_44_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/commons-discovery-0.5.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/math_44_Ranking;
 
 /************************/
 Executed tests:   3119
@@ -635,10 +635,10 @@ org.apache.commons.math.util.FastMath:917 -> 0.040996003084539386 (ep: 594, ef: 
 org.apache.commons.math.util.FastMath:919 -> 0.040996003084539386 (ep: 594, ef: 1, np: 2524, nf: 0)
 org.apache.commons.math.util.FastMath:925 -> 0.040996003084539386 (ep: 594, ef: 1, np: 2524, nf: 0)
 org.apache.commons.math.util.FastMath:931 -> 0.040996003084539386 (ep: 594, ef: 1, np: 2524, nf: 0)
-org.apache.commons.math.util.FastMath$ExpIntTable:3711 -> 0.040996003084539386 (ep: 1188, ef: 2, np: 1930, nf: -1)
-org.apache.commons.math.util.FastMath$ExpIntTable:3711 -> 0.040996003084539386 (ep: 1188, ef: 2, np: 1930, nf: -1)
-org.apache.commons.math.util.FastMath$ExpFracTable:3754 -> 0.04085889232227185 (ep: 1196, ef: 2, np: 1922, nf: -1)
-org.apache.commons.math.util.FastMath$ExpFracTable:3754 -> 0.04085889232227185 (ep: 1196, ef: 2, np: 1922, nf: -1)
+org.apache.commons.math.util.FastMath$ExpIntTable:3711 -> 0.040996003084539386 (ep: 594, ef: 1, np: 2524, nf: 0)
+org.apache.commons.math.util.FastMath$ExpIntTable:3711 -> 0.040996003084539386 (ep: 594, ef: 1, np: 2524, nf: 0)
+org.apache.commons.math.util.FastMath$ExpFracTable:3754 -> 0.04085889232227185 (ep: 598, ef: 1, np: 2520, nf: 0)
+org.apache.commons.math.util.FastMath$ExpFracTable:3754 -> 0.04085889232227185 (ep: 598, ef: 1, np: 2520, nf: 0)
 org.apache.commons.math.util.FastMath$lnMant:3791 -> 0.040824829046386304 (ep: 599, ef: 1, np: 2519, nf: 0)
 org.apache.commons.math.util.FastMath:1202 -> 0.040824829046386304 (ep: 599, ef: 1, np: 2519, nf: 0)
 org.apache.commons.math.util.FastMath:1213 -> 0.040824829046386304 (ep: 599, ef: 1, np: 2519, nf: 0)

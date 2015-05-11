@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-10T23:33:34.574180", 
+    "date": "2015-05-11T08:03:25.826097", 
     "executedTest": 3459, 
     "failedTest": 4, 
     "failedTestDetails": [
@@ -47,7 +47,7 @@
         }
     ], 
     "nbsuspicious": 272, 
-    "node": "fnancy.nancy.grid5000.fr\n", 
+    "node": "graphene-86.nancy.grid5000.fr\n", 
     "successfulTest": 3455, 
     "suspicious": {
         "org.jfree.chart.axis.Axis:1000": {
@@ -64,9 +64,9 @@
             "nf": 0, 
             "np": 3101, 
             "rank": {
-                "ample": 121, 
+                "ample": 122, 
                 "ochiai": 159, 
-                "tarantula": 155
+                "tarantula": 156
             }
         }, 
         "org.jfree.chart.axis.Axis:1035": {
@@ -235,9 +235,9 @@
             "nf": 0, 
             "np": 3101, 
             "rank": {
-                "ample": 123, 
+                "ample": 124, 
                 "ochiai": 155, 
-                "tarantula": 157
+                "tarantula": 158
             }
         }, 
         "org.jfree.chart.axis.Axis:899": {
@@ -273,28 +273,28 @@
             "nf": 0, 
             "np": 3101, 
             "rank": {
-                "ample": 122, 
+                "ample": 123, 
                 "ochiai": 157, 
-                "tarantula": 156
+                "tarantula": 157
             }
         }, 
         "org.jfree.chart.axis.Axis:999": {
             "class": "org.jfree.chart.axis.Axis", 
             "ef": 4, 
-            "ep": 355, 
+            "ep": 354, 
             "line": 999, 
             "metrics": {
-                "ample": 0.8972503617945007, 
+                "ample": 0.8975397973950796, 
                 "gzoltar": 0.10570328451633798, 
-                "ochiai": 0.1055559627938519, 
-                "tarantula": 0.9068241469816273
+                "ochiai": 0.10570328451633798, 
+                "tarantula": 0.9070622210553951
             }, 
             "nf": 0, 
-            "np": 3100, 
+            "np": 3101, 
             "rank": {
-                "ample": 126, 
+                "ample": 121, 
                 "ochiai": 158, 
-                "tarantula": 160
+                "tarantula": 155
             }
         }, 
         "org.jfree.chart.axis.CategoryAxis:827": {
@@ -425,9 +425,9 @@
             "nf": 0, 
             "np": 3101, 
             "rank": {
-                "ample": 124, 
+                "ample": 125, 
                 "ochiai": 153, 
-                "tarantula": 158
+                "tarantula": 159
             }
         }, 
         "org.jfree.chart.axis.NumberAxis:422": {
@@ -444,9 +444,9 @@
             "nf": 0, 
             "np": 3101, 
             "rank": {
-                "ample": 125, 
+                "ample": 126, 
                 "ochiai": 154, 
-                "tarantula": 159
+                "tarantula": 160
             }
         }, 
         "org.jfree.chart.axis.NumberAxis:423": {
@@ -4727,20 +4727,20 @@
         "org.jfree.chart.plot.Marker:534": {
             "class": "org.jfree.chart.plot.Marker", 
             "ef": 4, 
-            "ep": 249, 
+            "ep": 248, 
             "line": 534, 
             "metrics": {
-                "ample": 0.9279305354558611, 
+                "ample": 0.9282199710564399, 
                 "gzoltar": 0.1259881576697424, 
-                "ochiai": 0.1257389226923863, 
-                "tarantula": 0.9327753779697625
+                "ochiai": 0.1259881576697424, 
+                "tarantula": 0.9330272751822847
             }, 
             "nf": 0, 
-            "np": 3206, 
+            "np": 3207, 
             "rank": {
-                "ample": 83, 
+                "ample": 82, 
                 "ochiai": 115, 
-                "tarantula": 117
+                "tarantula": 116
             }
         }, 
         "org.jfree.chart.plot.Marker:535": {
@@ -4757,9 +4757,9 @@
             "nf": 0, 
             "np": 3207, 
             "rank": {
-                "ample": 82, 
+                "ample": 83, 
                 "ochiai": 116, 
-                "tarantula": 116
+                "tarantula": 117
             }
         }, 
         "org.jfree.chart.plot.Plot:435": {

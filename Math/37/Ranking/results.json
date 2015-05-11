@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-10T23:33:18.719492", 
+    "date": "2015-05-11T08:03:20.916208", 
     "executedTest": 3582, 
     "failedTest": 4, 
     "failedTestDetails": [
@@ -78,8 +78,8 @@
             "line": 1077
         }
     ], 
-    "nbsuspicious": 226, 
-    "node": "fnancy.nancy.grid5000.fr\n", 
+    "nbsuspicious": 228, 
+    "node": "griffon-41.nancy.grid5000.fr\n", 
     "successfulTest": 3578, 
     "suspicious": {
         "org.apache.commons.math.TestUtils:77": {
@@ -96,7 +96,7 @@
             "nf": 2, 
             "np": 3558, 
             "rank": {
-                "ample": 215, 
+                "ample": 217, 
                 "ochiai": 80, 
                 "tarantula": 81
             }
@@ -115,7 +115,7 @@
             "nf": 2, 
             "np": 3558, 
             "rank": {
-                "ample": 214, 
+                "ample": 216, 
                 "ochiai": 81, 
                 "tarantula": 80
             }
@@ -134,7 +134,7 @@
             "nf": 2, 
             "np": 3560, 
             "rank": {
-                "ample": 213, 
+                "ample": 215, 
                 "ochiai": 78, 
                 "tarantula": 77
             }
@@ -153,7 +153,7 @@
             "nf": 2, 
             "np": 3560, 
             "rank": {
-                "ample": 212, 
+                "ample": 214, 
                 "ochiai": 79, 
                 "tarantula": 76
             }
@@ -172,7 +172,7 @@
             "nf": 3, 
             "np": 3560, 
             "rank": {
-                "ample": 223, 
+                "ample": 225, 
                 "ochiai": 131, 
                 "tarantula": 87
             }
@@ -191,7 +191,7 @@
             "nf": 2, 
             "np": 3555, 
             "rank": {
-                "ample": 217, 
+                "ample": 219, 
                 "ochiai": 82, 
                 "tarantula": 83
             }
@@ -210,7 +210,7 @@
             "nf": 2, 
             "np": 3555, 
             "rank": {
-                "ample": 216, 
+                "ample": 218, 
                 "ochiai": 83, 
                 "tarantula": 82
             }
@@ -229,7 +229,7 @@
             "nf": 2, 
             "np": 3555, 
             "rank": {
-                "ample": 218, 
+                "ample": 220, 
                 "ochiai": 84, 
                 "tarantula": 84
             }
@@ -248,7 +248,7 @@
             "nf": 2, 
             "np": 3576, 
             "rank": {
-                "ample": 211, 
+                "ample": 213, 
                 "ochiai": 14, 
                 "tarantula": 12
             }
@@ -267,7 +267,7 @@
             "nf": 2, 
             "np": 3577, 
             "rank": {
-                "ample": 208, 
+                "ample": 210, 
                 "ochiai": 9, 
                 "tarantula": 9
             }
@@ -286,7 +286,7 @@
             "nf": 2, 
             "np": 3577, 
             "rank": {
-                "ample": 207, 
+                "ample": 209, 
                 "ochiai": 10, 
                 "tarantula": 8
             }
@@ -305,7 +305,7 @@
             "nf": 2, 
             "np": 3577, 
             "rank": {
-                "ample": 205, 
+                "ample": 207, 
                 "ochiai": 11, 
                 "tarantula": 6
             }
@@ -324,7 +324,7 @@
             "nf": 2, 
             "np": 3577, 
             "rank": {
-                "ample": 206, 
+                "ample": 208, 
                 "ochiai": 12, 
                 "tarantula": 7
             }
@@ -343,7 +343,7 @@
             "nf": 2, 
             "np": 3576, 
             "rank": {
-                "ample": 210, 
+                "ample": 212, 
                 "ochiai": 13, 
                 "tarantula": 11
             }
@@ -362,7 +362,7 @@
             "nf": 2, 
             "np": 3577, 
             "rank": {
-                "ample": 204, 
+                "ample": 206, 
                 "ochiai": 5, 
                 "tarantula": 5
             }
@@ -381,7 +381,7 @@
             "nf": 2, 
             "np": 3577, 
             "rank": {
-                "ample": 203, 
+                "ample": 205, 
                 "ochiai": 6, 
                 "tarantula": 4
             }
@@ -400,7 +400,7 @@
             "nf": 2, 
             "np": 3577, 
             "rank": {
-                "ample": 202, 
+                "ample": 204, 
                 "ochiai": 7, 
                 "tarantula": 3
             }
@@ -419,7 +419,7 @@
             "nf": 2, 
             "np": 3577, 
             "rank": {
-                "ample": 209, 
+                "ample": 211, 
                 "ochiai": 8, 
                 "tarantula": 10
             }
@@ -457,7 +457,7 @@
             "nf": 2, 
             "np": 3578, 
             "rank": {
-                "ample": 201, 
+                "ample": 203, 
                 "ochiai": 1, 
                 "tarantula": 2
             }
@@ -476,7 +476,7 @@
             "nf": 2, 
             "np": 3578, 
             "rank": {
-                "ample": 200, 
+                "ample": 202, 
                 "ochiai": 2, 
                 "tarantula": 1
             }
@@ -517,6 +517,44 @@
                 "ample": 11, 
                 "ochiai": 86, 
                 "tarantula": 90
+            }
+        }, 
+        "org.apache.commons.math.util.FastMath$ExpFracTable:3754": {
+            "class": "org.apache.commons.math.util.FastMath$ExpFracTable", 
+            "ef": 3, 
+            "ep": 770, 
+            "line": 3754, 
+            "metrics": {
+                "ample": 0.5347959754052544, 
+                "gzoltar": 0.05395125009492048, 
+                "ochiai": 0.05395125009492048, 
+                "tarantula": 0.7770377877515564
+            }, 
+            "nf": 1, 
+            "np": 2808, 
+            "rank": {
+                "ample": 201, 
+                "ochiai": 228, 
+                "tarantula": 228
+            }
+        }, 
+        "org.apache.commons.math.util.FastMath$ExpIntTable:3711": {
+            "class": "org.apache.commons.math.util.FastMath$ExpIntTable", 
+            "ef": 3, 
+            "ep": 766, 
+            "line": 3711, 
+            "metrics": {
+                "ample": 0.5359139183901621, 
+                "gzoltar": 0.054091383448096414, 
+                "ochiai": 0.054091383448096414, 
+                "tarantula": 0.7779388317147413
+            }, 
+            "nf": 1, 
+            "np": 2812, 
+            "rank": {
+                "ample": 199, 
+                "ochiai": 226, 
+                "tarantula": 226
             }
         }, 
         "org.apache.commons.math.util.FastMath:1588": {
@@ -1692,8 +1730,8 @@
             "nf": 3, 
             "np": 3482, 
             "rank": {
-                "ample": 226, 
-                "ochiai": 225, 
+                "ample": 228, 
+                "ochiai": 229, 
                 "tarantula": 206
             }
         }, 
@@ -1711,8 +1749,8 @@
             "nf": 3, 
             "np": 3482, 
             "rank": {
-                "ample": 225, 
-                "ochiai": 226, 
+                "ample": 227, 
+                "ochiai": 230, 
                 "tarantula": 205
             }
         }, 
@@ -1768,7 +1806,7 @@
             "nf": 3, 
             "np": 3566, 
             "rank": {
-                "ample": 222, 
+                "ample": 224, 
                 "ochiai": 105, 
                 "tarantula": 86
             }
@@ -1795,16 +1833,16 @@
         "org.apache.commons.math.util.FastMath:2175": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2175, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 42, 
                 "ochiai": 114, 
@@ -1814,16 +1852,16 @@
         "org.apache.commons.math.util.FastMath:2181": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2181, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 51, 
                 "ochiai": 115, 
@@ -1833,16 +1871,16 @@
         "org.apache.commons.math.util.FastMath:2182": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2182, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 38, 
                 "ochiai": 116, 
@@ -1852,16 +1890,16 @@
         "org.apache.commons.math.util.FastMath:2183": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2183, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 50, 
                 "ochiai": 117, 
@@ -1871,16 +1909,16 @@
         "org.apache.commons.math.util.FastMath:2185": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2185, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 39, 
                 "ochiai": 118, 
@@ -1890,16 +1928,16 @@
         "org.apache.commons.math.util.FastMath:2186": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2186, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 41, 
                 "ochiai": 119, 
@@ -1909,16 +1947,16 @@
         "org.apache.commons.math.util.FastMath:2187": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2187, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 40, 
                 "ochiai": 120, 
@@ -1928,16 +1966,16 @@
         "org.apache.commons.math.util.FastMath:2188": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2188, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 52, 
                 "ochiai": 121, 
@@ -1947,16 +1985,16 @@
         "org.apache.commons.math.util.FastMath:2190": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2190, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 45, 
                 "ochiai": 122, 
@@ -1966,16 +2004,16 @@
         "org.apache.commons.math.util.FastMath:2191": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2191, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 53, 
                 "ochiai": 123, 
@@ -1985,16 +2023,16 @@
         "org.apache.commons.math.util.FastMath:2192": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2192, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 43, 
                 "ochiai": 124, 
@@ -2004,16 +2042,16 @@
         "org.apache.commons.math.util.FastMath:2193": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2193, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 44, 
                 "ochiai": 125, 
@@ -2023,16 +2061,16 @@
         "org.apache.commons.math.util.FastMath:2195": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2195, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 37, 
                 "ochiai": 126, 
@@ -2042,16 +2080,16 @@
         "org.apache.commons.math.util.FastMath:2196": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2196, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 46, 
                 "ochiai": 127, 
@@ -2061,16 +2099,16 @@
         "org.apache.commons.math.util.FastMath:2204": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2204, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 48, 
                 "ochiai": 128, 
@@ -2080,16 +2118,16 @@
         "org.apache.commons.math.util.FastMath:2205": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2205, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 49, 
                 "ochiai": 129, 
@@ -2099,16 +2137,16 @@
         "org.apache.commons.math.util.FastMath:2206": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 265, 
+            "ep": 266, 
             "line": 2206, 
             "metrics": {
-                "ample": 0.9259362772498603, 
-                "gzoltar": 0.12194215216993846, 
-                "ochiai": 0.12194215216993846, 
-                "tarantula": 0.9310434556336196
+                "ample": 0.9256567915036333, 
+                "gzoltar": 0.12171612389003691, 
+                "ochiai": 0.12171612389003691, 
+                "tarantula": 0.9308012486992716
             }, 
             "nf": 0, 
-            "np": 3313, 
+            "np": 3312, 
             "rank": {
                 "ample": 47, 
                 "ochiai": 130, 
@@ -2175,18 +2213,18 @@
         "org.apache.commons.math.util.FastMath:2221": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 2, 
-            "ep": 190, 
+            "ep": 191, 
             "line": 2221, 
             "metrics": {
-                "ample": 0.44689770821688096, 
-                "gzoltar": 0.07216878364870323, 
-                "ochiai": 0.07216878364870323, 
-                "tarantula": 0.9039919151086406
+                "ample": 0.44661822247065397, 
+                "gzoltar": 0.07198157507486945, 
+                "ochiai": 0.07198157507486945, 
+                "tarantula": 0.9035353535353535
             }, 
             "nf": 2, 
-            "np": 3388, 
+            "np": 3387, 
             "rank": {
-                "ample": 220, 
+                "ample": 222, 
                 "ochiai": 207, 
                 "tarantula": 204
             }
@@ -2262,7 +2300,7 @@
             "nf": 3, 
             "np": 3551, 
             "rank": {
-                "ample": 224, 
+                "ample": 226, 
                 "ochiai": 202, 
                 "tarantula": 88
             }
@@ -2300,7 +2338,7 @@
             "nf": 3, 
             "np": 3566, 
             "rank": {
-                "ample": 221, 
+                "ample": 223, 
                 "ochiai": 106, 
                 "tarantula": 85
             }
@@ -2346,16 +2384,16 @@
         "org.apache.commons.math.util.FastMath:2261": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2261, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 14, 
                 "ochiai": 88, 
@@ -2365,16 +2403,16 @@
         "org.apache.commons.math.util.FastMath:2267": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2267, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 15, 
                 "ochiai": 89, 
@@ -2384,16 +2422,16 @@
         "org.apache.commons.math.util.FastMath:2268": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2268, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 16, 
                 "ochiai": 90, 
@@ -2403,16 +2441,16 @@
         "org.apache.commons.math.util.FastMath:2269": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2269, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 17, 
                 "ochiai": 91, 
@@ -2422,16 +2460,16 @@
         "org.apache.commons.math.util.FastMath:2271": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2271, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 13, 
                 "ochiai": 92, 
@@ -2441,16 +2479,16 @@
         "org.apache.commons.math.util.FastMath:2272": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2272, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 29, 
                 "ochiai": 93, 
@@ -2460,16 +2498,16 @@
         "org.apache.commons.math.util.FastMath:2273": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2273, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 19, 
                 "ochiai": 94, 
@@ -2479,16 +2517,16 @@
         "org.apache.commons.math.util.FastMath:2274": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2274, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 28, 
                 "ochiai": 95, 
@@ -2498,16 +2536,16 @@
         "org.apache.commons.math.util.FastMath:2276": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2276, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 24, 
                 "ochiai": 96, 
@@ -2517,16 +2555,16 @@
         "org.apache.commons.math.util.FastMath:2277": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2277, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 18, 
                 "ochiai": 97, 
@@ -2536,16 +2574,16 @@
         "org.apache.commons.math.util.FastMath:2278": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2278, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 21, 
                 "ochiai": 98, 
@@ -2555,16 +2593,16 @@
         "org.apache.commons.math.util.FastMath:2279": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2279, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 20, 
                 "ochiai": 99, 
@@ -2574,16 +2612,16 @@
         "org.apache.commons.math.util.FastMath:2281": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2281, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 23, 
                 "ochiai": 100, 
@@ -2593,16 +2631,16 @@
         "org.apache.commons.math.util.FastMath:2282": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2282, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 22, 
                 "ochiai": 101, 
@@ -2612,16 +2650,16 @@
         "org.apache.commons.math.util.FastMath:2290": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2290, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 26, 
                 "ochiai": 102, 
@@ -2631,16 +2669,16 @@
         "org.apache.commons.math.util.FastMath:2291": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2291, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 25, 
                 "ochiai": 103, 
@@ -2650,16 +2688,16 @@
         "org.apache.commons.math.util.FastMath:2292": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 4, 
-            "ep": 191, 
+            "ep": 192, 
             "line": 2292, 
             "metrics": {
-                "ample": 0.946618222470654, 
-                "gzoltar": 0.1432229748078866, 
-                "ochiai": 0.1432229748078866, 
-                "tarantula": 0.9493234279649775
+                "ample": 0.946338736724427, 
+                "gzoltar": 0.14285714285714285, 
+                "ochiai": 0.14285714285714285, 
+                "tarantula": 0.9490716180371354
             }, 
             "nf": 0, 
-            "np": 3387, 
+            "np": 3386, 
             "rank": {
                 "ample": 27, 
                 "ochiai": 104, 
@@ -2707,18 +2745,18 @@
         "org.apache.commons.math.util.FastMath:2306": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 2, 
-            "ep": 147, 
+            "ep": 148, 
             "line": 2306, 
             "metrics": {
-                "ample": 0.45891559530463943, 
-                "gzoltar": 0.08192319205190406, 
-                "ochiai": 0.08192319205190406, 
-                "tarantula": 0.9240702479338843
+                "ample": 0.4586361095584125, 
+                "gzoltar": 0.08164965809277261, 
+                "ochiai": 0.08164965809277261, 
+                "tarantula": 0.9235931853381517
             }, 
             "nf": 2, 
-            "np": 3431, 
+            "np": 3430, 
             "rank": {
-                "ample": 219, 
+                "ample": 221, 
                 "ochiai": 205, 
                 "tarantula": 134
             }
@@ -4105,9 +4143,9 @@
             "nf": 1, 
             "np": 2812, 
             "rank": {
-                "ample": 199, 
+                "ample": 200, 
                 "ochiai": 213, 
-                "tarantula": 226
+                "tarantula": 227
             }
         }, 
         "org.apache.commons.math.util.FastMath:899": {

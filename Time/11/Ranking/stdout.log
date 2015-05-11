@@ -1,5 +1,5 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/time/time_11 /tmp/time_11_Ranking;cd /tmp/time_11_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Time/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/time_11_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/joda-convert-1.2.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/time_11_Ranking;
+cd /tmp/time_11_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/joda-convert-1.2.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/time_11_Ranking;
 
 /************************/
 Executed tests:   11852
@@ -432,7 +432,7 @@ org.joda.time.field.FieldUtils:70 -> 0.03262411712177667 (ep: 2111, ef: 3, np: 9
 org.joda.time.field.MillisDurationField:117 -> 0.03260869565217391 (ep: 2113, ef: 3, np: 9735, nf: 1)
 org.joda.time.field.FieldUtils:64 -> 0.0325779182072302 (ep: 2117, ef: 3, np: 9731, nf: 1)
 org.joda.time.field.FieldUtils:66 -> 0.0325779182072302 (ep: 2117, ef: 3, np: 9731, nf: 1)
-org.joda.time.DateTimeZone:706 -> 0.031672082664862995 (ep: 2240, ef: 3, np: 9608, nf: 1)
+org.joda.time.DateTimeZone:706 -> 0.03185007711266894 (ep: 2215, ef: 3, np: 9633, nf: 1)
 org.joda.time.chrono.BasicGJChronology:180 -> 0.03165092327089791 (ep: 2243, ef: 3, np: 9605, nf: 1)
 org.joda.time.DurationFieldType$StandardDurationFieldType:282 -> 0.0316227766016838 (ep: 2247, ef: 3, np: 9601, nf: 1)
 org.joda.time.DurationFieldType$StandardDurationFieldType:284 -> 0.0316227766016838 (ep: 2247, ef: 3, np: 9601, nf: 1)

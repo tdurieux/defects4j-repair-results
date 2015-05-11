@@ -1,5 +1,10 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/chart/chart_4 /tmp/chart_4_Ranking;cd /tmp/chart_4_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Chart/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/chart_4_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 4 --source source/ --classpath build/:build-tests/:lib/cobertura-lib/servlet-api-2.5-6.1.14.jar:lib/servlet.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/chart_4_Ranking;
+cd /tmp/chart_4_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 4 --source source/ --classpath build/:build-tests/:lib/cobertura-lib/servlet-api-2.5-6.1.14.jar:lib/servlet.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";rm -rf /tmp/chart_4_Ranking;
 
 /************************/
 Executed tests:   4374
@@ -1375,7 +1380,7 @@ org.jfree.chart.util.AbstractObjectList:162 -> 0.338501600193165 (ep: 340, ef: 4
 org.jfree.chart.util.ObjectList:107 -> 0.338501600193165 (ep: 340, ef: 44, np: 3990, nf: 0)
 org.jfree.chart.axis.Axis:1043 -> 0.3283947887145927 (ep: 364, ef: 44, np: 3966, nf: 0)
 org.jfree.chart.axis.Axis:1044 -> 0.3283947887145927 (ep: 364, ef: 44, np: 3966, nf: 0)
-org.jfree.data.general.Series:295 -> 0.3231151638207484 (ep: 343, ef: 42, np: 3987, nf: 2)
+org.jfree.data.general.Series:295 -> 0.3231151638207484 (ep: 342, ef: 42, np: 3988, nf: 2)
 org.jfree.data.general.Series:296 -> 0.3231151638207484 (ep: 342, ef: 42, np: 3988, nf: 2)
 org.jfree.chart.axis.ValueAxis:951 -> 0.31840616903455665 (ep: 390, ef: 44, np: 3940, nf: 0)
 org.jfree.chart.axis.NumberAxis:703 -> 0.3120018152885698 (ep: 408, ef: 44, np: 3922, nf: 0)
@@ -1482,7 +1487,7 @@ org.jfree.chart.plot.Plot:962 -> 0.28080784639141065 (ep: 514, ef: 44, np: 3816,
 org.jfree.chart.plot.Plot:965 -> 0.28080784639141065 (ep: 514, ef: 44, np: 3816, nf: 0)
 org.jfree.chart.plot.Plot:966 -> 0.28080784639141065 (ep: 514, ef: 44, np: 3816, nf: 0)
 org.jfree.chart.plot.Plot:971 -> 0.28080784639141065 (ep: 514, ef: 44, np: 3816, nf: 0)
-org.jfree.data.general.AbstractDataset:130 -> 0.28080784639141065 (ep: 515, ef: 44, np: 3815, nf: 0)
+org.jfree.data.general.AbstractDataset:130 -> 0.28080784639141065 (ep: 514, ef: 44, np: 3816, nf: 0)
 org.jfree.data.general.AbstractDataset:131 -> 0.28080784639141065 (ep: 514, ef: 44, np: 3816, nf: 0)
 org.jfree.data.Range:102 -> 0.2771326538627136 (ep: 480, ef: 42, np: 3850, nf: 2)
 org.jfree.data.Range:111 -> 0.27660326913126193 (ep: 482, ef: 42, np: 3848, nf: 2)
@@ -2006,7 +2011,7 @@ org.jfree.chart.plot.Plot:619 -> 0.03403053909650287 (ep: 310, ef: 4, np: 4020, 
 org.jfree.chart.plot.Plot:620 -> 0.03403053909650287 (ep: 310, ef: 4, np: 4020, nf: 40)
 org.jfree.chart.plot.Plot:624 -> 0.03403053909650287 (ep: 310, ef: 4, np: 4020, nf: 40)
 org.jfree.chart.plot.Plot:626 -> 0.03403053909650287 (ep: 310, ef: 4, np: 4020, nf: 40)
-org.jfree.chart.title.Title:374 -> 0.033922676577637915 (ep: 313, ef: 4, np: 4017, nf: 40)
+org.jfree.chart.title.Title:374 -> 0.033922676577637915 (ep: 312, ef: 4, np: 4018, nf: 40)
 org.jfree.chart.title.Title:375 -> 0.033922676577637915 (ep: 312, ef: 4, np: 4018, nf: 40)
 org.jfree.data.time.TimeSeries:428 -> 0.03289758474798845 (ep: 82, ef: 2, np: 4248, nf: 42)
 org.jfree.data.time.TimeSeries:462 -> 0.03289758474798845 (ep: 82, ef: 2, np: 4248, nf: 42)
@@ -2062,7 +2067,7 @@ org.jfree.chart.title.Title:394 -> 0.0323254091917618 (ep: 344, ef: 4, np: 3986,
 org.jfree.chart.title.Title:395 -> 0.0323254091917618 (ep: 344, ef: 4, np: 3986, nf: 40)
 org.jfree.chart.title.Title:396 -> 0.0323254091917618 (ep: 344, ef: 4, np: 3986, nf: 40)
 org.jfree.chart.title.Title:403 -> 0.0323254091917618 (ep: 344, ef: 4, np: 3986, nf: 40)
-org.jfree.chart.plot.Plot:940 -> 0.03169416888856554 (ep: 359, ef: 4, np: 3971, nf: 40)
+org.jfree.chart.plot.Plot:940 -> 0.03169416888856554 (ep: 358, ef: 4, np: 3972, nf: 40)
 org.jfree.chart.plot.Plot:941 -> 0.03169416888856554 (ep: 358, ef: 4, np: 3972, nf: 40)
 org.jfree.chart.renderer.xy.AbstractXYItemRenderer:896 -> 0.031098520678556146 (ep: 92, ef: 2, np: 4238, nf: 42)
 org.jfree.data.time.TimeSeries:253 -> 0.031098520678556146 (ep: 92, ef: 2, np: 4238, nf: 42)
@@ -2297,7 +2302,7 @@ org.jfree.data.time.Day:348 -> 0.018214966464911487 (ep: 272, ef: 2, np: 4058, n
 org.jfree.data.time.Day:350 -> 0.018214966464911487 (ep: 272, ef: 2, np: 4058, nf: 42)
 org.jfree.chart.util.RectangleInsets:181 -> 0.016400055104277726 (ep: 336, ef: 2, np: 3994, nf: 42)
 org.jfree.chart.renderer.AbstractRenderer:2844 -> 0.016209350304978644 (ep: 344, ef: 2, np: 3986, nf: 42)
-org.jfree.chart.renderer.AbstractRenderer:2847 -> 0.016209350304978644 (ep: 345, ef: 2, np: 3985, nf: 42)
+org.jfree.chart.renderer.AbstractRenderer:2847 -> 0.016209350304978644 (ep: 344, ef: 2, np: 3986, nf: 42)
 org.jfree.chart.renderer.AbstractRenderer:2848 -> 0.016209350304978644 (ep: 344, ef: 2, np: 3986, nf: 42)
 org.jfree.chart.axis.NumberAxis:243 -> 0.016070608663330627 (ep: 350, ef: 2, np: 3980, nf: 42)
 org.jfree.chart.axis.NumberAxis:278 -> 0.016070608663330627 (ep: 350, ef: 2, np: 3980, nf: 42)
@@ -2326,7 +2331,7 @@ org.jfree.chart.axis.ValueAxis:1081 -> 0.01580348853102535 (ep: 362, ef: 2, np: 
 org.jfree.chart.axis.ValueAxis:1114 -> 0.01580348853102535 (ep: 362, ef: 2, np: 3968, nf: 42)
 org.jfree.chart.axis.ValueAxis:1144 -> 0.01580348853102535 (ep: 362, ef: 2, np: 3968, nf: 42)
 org.jfree.chart.axis.Axis:1045 -> 0.015760250451281974 (ep: 364, ef: 2, np: 3966, nf: 42)
-org.jfree.chart.axis.Axis:1187 -> 0.015549260339278073 (ep: 375, ef: 2, np: 3955, nf: 42)
+org.jfree.chart.axis.Axis:1187 -> 0.015549260339278073 (ep: 374, ef: 2, np: 3956, nf: 42)
 org.jfree.chart.axis.Axis:1188 -> 0.015549260339278073 (ep: 374, ef: 2, np: 3956, nf: 42)
 org.jfree.data.time.SerialDate:544 -> 0.015508070173307846 (ep: 376, ef: 2, np: 3954, nf: 42)
 org.jfree.data.time.SerialDate:545 -> 0.015508070173307846 (ep: 376, ef: 2, np: 3954, nf: 42)
@@ -2341,5 +2346,12 @@ org.jfree.data.DefaultKeyedValues:149 -> 0.014677342608268699 (ep: 420, ef: 2, n
 org.jfree.data.DefaultKeyedValues:152 -> 0.014677342608268699 (ep: 420, ef: 2, np: 3910, nf: 42)
 org.jfree.data.DefaultKeyedValues:153 -> 0.014677342608268699 (ep: 420, ef: 2, np: 3910, nf: 42)
 org.jfree.data.DefaultKeyedValues:154 -> 0.014677342608268699 (ep: 420, ef: 2, np: 3910, nf: 42)
+
+
+
+Node: graphene-88.nancy.grid5000.fr
+
+
+Date: Mon May 11 08:05:06 CEST 2015
 
 

@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-10T23:33:28.588818", 
+    "date": "2015-05-11T07:52:39.993703", 
     "executedTest": 11603, 
     "failedTest": 10, 
     "failedTestDetails": [
@@ -155,7 +155,7 @@
         }
     ], 
     "nbsuspicious": 465, 
-    "node": "fnancy.nancy.grid5000.fr\n", 
+    "node": "griffon-57.nancy.grid5000.fr\n", 
     "successfulTest": 11593, 
     "suspicious": {
         "org.joda.time.DateTimeUtils:252": {
@@ -172,7 +172,7 @@
             "nf": 7, 
             "np": 3028, 
             "rank": {
-                "ample": 46, 
+                "ample": 45, 
                 "ochiai": 466, 
                 "tarantula": 465
             }
@@ -495,7 +495,7 @@
             "nf": 4, 
             "np": 11159, 
             "rank": {
-                "ample": 29, 
+                "ample": 28, 
                 "ochiai": 175, 
                 "tarantula": 209
             }
@@ -514,7 +514,7 @@
             "nf": 4, 
             "np": 11159, 
             "rank": {
-                "ample": 28, 
+                "ample": 27, 
                 "ochiai": 176, 
                 "tarantula": 208
             }
@@ -533,7 +533,7 @@
             "nf": 4, 
             "np": 11177, 
             "rank": {
-                "ample": 26, 
+                "ample": 25, 
                 "ochiai": 157, 
                 "tarantula": 206
             }
@@ -552,7 +552,7 @@
             "nf": 4, 
             "np": 11177, 
             "rank": {
-                "ample": 25, 
+                "ample": 24, 
                 "ochiai": 158, 
                 "tarantula": 205
             }
@@ -571,7 +571,7 @@
             "nf": 4, 
             "np": 11198, 
             "rank": {
-                "ample": 24, 
+                "ample": 23, 
                 "ochiai": 141, 
                 "tarantula": 203
             }
@@ -590,7 +590,7 @@
             "nf": 4, 
             "np": 11468, 
             "rank": {
-                "ample": 14, 
+                "ample": 13, 
                 "ochiai": 102, 
                 "tarantula": 127
             }
@@ -609,7 +609,7 @@
             "nf": 4, 
             "np": 11468, 
             "rank": {
-                "ample": 13, 
+                "ample": 12, 
                 "ochiai": 103, 
                 "tarantula": 126
             }
@@ -628,7 +628,7 @@
             "nf": 4, 
             "np": 11474, 
             "rank": {
-                "ample": 12, 
+                "ample": 11, 
                 "ochiai": 99, 
                 "tarantula": 125
             }
@@ -647,7 +647,7 @@
             "nf": 4, 
             "np": 11468, 
             "rank": {
-                "ample": 15, 
+                "ample": 14, 
                 "ochiai": 104, 
                 "tarantula": 128
             }
@@ -666,7 +666,7 @@
             "nf": 4, 
             "np": 11468, 
             "rank": {
-                "ample": 17, 
+                "ample": 16, 
                 "ochiai": 105, 
                 "tarantula": 130
             }
@@ -685,7 +685,7 @@
             "nf": 4, 
             "np": 11468, 
             "rank": {
-                "ample": 18, 
+                "ample": 17, 
                 "ochiai": 106, 
                 "tarantula": 131
             }
@@ -704,7 +704,7 @@
             "nf": 4, 
             "np": 11468, 
             "rank": {
-                "ample": 16, 
+                "ample": 15, 
                 "ochiai": 107, 
                 "tarantula": 129
             }
@@ -723,7 +723,7 @@
             "nf": 4, 
             "np": 11468, 
             "rank": {
-                "ample": 21, 
+                "ample": 20, 
                 "ochiai": 108, 
                 "tarantula": 134
             }
@@ -742,7 +742,7 @@
             "nf": 4, 
             "np": 11468, 
             "rank": {
-                "ample": 22, 
+                "ample": 21, 
                 "ochiai": 109, 
                 "tarantula": 135
             }
@@ -761,7 +761,7 @@
             "nf": 4, 
             "np": 11468, 
             "rank": {
-                "ample": 19, 
+                "ample": 18, 
                 "ochiai": 110, 
                 "tarantula": 132
             }
@@ -780,7 +780,7 @@
             "nf": 4, 
             "np": 11468, 
             "rank": {
-                "ample": 20, 
+                "ample": 19, 
                 "ochiai": 111, 
                 "tarantula": 133
             }
@@ -799,7 +799,7 @@
             "nf": 4, 
             "np": 11468, 
             "rank": {
-                "ample": 23, 
+                "ample": 22, 
                 "ochiai": 112, 
                 "tarantula": 136
             }
@@ -807,18 +807,18 @@
         "org.joda.time.DateTimeZone:706": {
             "class": "org.joda.time.DateTimeZone", 
             "ef": 7, 
-            "ep": 2176, 
+            "ep": 2156, 
             "line": 706, 
             "metrics": {
-                "ample": 0.5123005261795911, 
-                "gzoltar": 0.04737739438650871, 
-                "ochiai": 0.04737739438650871, 
-                "tarantula": 0.7885551593124156
+                "ample": 0.514025705166911, 
+                "gzoltar": 0.04759592596309887, 
+                "ochiai": 0.04759592596309887, 
+                "tarantula": 0.7900906426770259
             }, 
             "nf": 3, 
-            "np": 9417, 
+            "np": 9437, 
             "rank": {
-                "ample": 34, 
+                "ample": 33, 
                 "ochiai": 237, 
                 "tarantula": 288
             }
@@ -1662,16 +1662,16 @@
         "org.joda.time.chrono.AssembledChronology:107": {
             "class": "org.joda.time.chrono.AssembledChronology", 
             "ef": 3, 
-            "ep": 7289, 
+            "ep": 7290, 
             "line": 107, 
             "metrics": {
-                "ample": 0.32874148192875013, 
-                "gzoltar": 0.011109587266749408, 
-                "ochiai": 0.011109587266749408, 
-                "tarantula": 0.3230177674168052
+                "ample": 0.3288277408781161, 
+                "gzoltar": 0.011108825579643733, 
+                "ochiai": 0.011108825579643733, 
+                "tarantula": 0.32298776920290867
             }, 
             "nf": 7, 
-            "np": 4304, 
+            "np": 4303, 
             "rank": {
                 "ample": 185, 
                 "ochiai": 463, 
@@ -1681,16 +1681,16 @@
         "org.joda.time.chrono.AssembledChronology:108": {
             "class": "org.joda.time.chrono.AssembledChronology", 
             "ef": 3, 
-            "ep": 7289, 
+            "ep": 7290, 
             "line": 108, 
             "metrics": {
-                "ample": 0.32874148192875013, 
-                "gzoltar": 0.011109587266749408, 
-                "ochiai": 0.011109587266749408, 
-                "tarantula": 0.3230177674168052
+                "ample": 0.3288277408781161, 
+                "gzoltar": 0.011108825579643733, 
+                "ochiai": 0.011108825579643733, 
+                "tarantula": 0.32298776920290867
             }, 
             "nf": 7, 
-            "np": 4304, 
+            "np": 4303, 
             "rank": {
                 "ample": 184, 
                 "ochiai": 464, 
@@ -3752,16 +3752,16 @@
         "org.joda.time.chrono.ISOChronology:102": {
             "class": "org.joda.time.chrono.ISOChronology", 
             "ef": 3, 
-            "ep": 6409, 
+            "ep": 6419, 
             "line": 102, 
             "metrics": {
-                "ample": 0.252833606486673, 
-                "gzoltar": 0.011847439452663559, 
-                "ochiai": 0.011847439452663559, 
-                "tarantula": 0.3517685017548473
+                "ample": 0.25369619598033294, 
+                "gzoltar": 0.0118382117548287, 
+                "ochiai": 0.0118382117548287, 
+                "tarantula": 0.351413068738696
             }, 
             "nf": 7, 
-            "np": 5184, 
+            "np": 5174, 
             "rank": {
                 "ample": 295, 
                 "ochiai": 456, 
@@ -4694,7 +4694,7 @@
             "nf": 3, 
             "np": 8851, 
             "rank": {
-                "ample": 42, 
+                "ample": 41, 
                 "ochiai": 258, 
                 "tarantula": 300
             }
@@ -4713,7 +4713,7 @@
             "nf": 3, 
             "np": 8851, 
             "rank": {
-                "ample": 41, 
+                "ample": 40, 
                 "ochiai": 259, 
                 "tarantula": 299
             }
@@ -4732,7 +4732,7 @@
             "nf": 3, 
             "np": 8851, 
             "rank": {
-                "ample": 40, 
+                "ample": 39, 
                 "ochiai": 260, 
                 "tarantula": 298
             }
@@ -4770,7 +4770,7 @@
             "nf": 3, 
             "np": 9613, 
             "rank": {
-                "ample": 33, 
+                "ample": 32, 
                 "ochiai": 229, 
                 "tarantula": 281
             }
@@ -4808,9 +4808,9 @@
             "nf": 7, 
             "np": 11043, 
             "rank": {
-                "ample": 296, 
-                "ochiai": 261, 
-                "tarantula": 247
+                "ample": 297, 
+                "ochiai": 262, 
+                "tarantula": 248
             }
         }, 
         "org.joda.time.field.PreciseDateTimeField:111": {
@@ -5017,7 +5017,7 @@
             "nf": 3, 
             "np": 9313, 
             "rank": {
-                "ample": 36, 
+                "ample": 35, 
                 "ochiai": 242, 
                 "tarantula": 293
             }
@@ -5036,7 +5036,7 @@
             "nf": 3, 
             "np": 9313, 
             "rank": {
-                "ample": 35, 
+                "ample": 34, 
                 "ochiai": 243, 
                 "tarantula": 292
             }
@@ -5112,7 +5112,7 @@
             "nf": 4, 
             "np": 9866, 
             "rank": {
-                "ample": 43, 
+                "ample": 42, 
                 "ochiai": 253, 
                 "tarantula": 283
             }
@@ -5131,7 +5131,7 @@
             "nf": 4, 
             "np": 9866, 
             "rank": {
-                "ample": 44, 
+                "ample": 43, 
                 "ochiai": 254, 
                 "tarantula": 284
             }
@@ -5150,7 +5150,7 @@
             "nf": 4, 
             "np": 10145, 
             "rank": {
-                "ample": 39, 
+                "ample": 38, 
                 "ochiai": 227, 
                 "tarantula": 273
             }
@@ -5169,7 +5169,7 @@
             "nf": 4, 
             "np": 10148, 
             "rank": {
-                "ample": 37, 
+                "ample": 36, 
                 "ochiai": 226, 
                 "tarantula": 271
             }
@@ -5188,7 +5188,7 @@
             "nf": 4, 
             "np": 10145, 
             "rank": {
-                "ample": 38, 
+                "ample": 37, 
                 "ochiai": 228, 
                 "tarantula": 272
             }
@@ -5207,7 +5207,7 @@
             "nf": 4, 
             "np": 9866, 
             "rank": {
-                "ample": 45, 
+                "ample": 44, 
                 "ochiai": 255, 
                 "tarantula": 285
             }
@@ -5226,7 +5226,7 @@
             "nf": 4, 
             "np": 11512, 
             "rank": {
-                "ample": 10, 
+                "ample": 9, 
                 "ochiai": 36, 
                 "tarantula": 107
             }
@@ -5245,7 +5245,7 @@
             "nf": 4, 
             "np": 11512, 
             "rank": {
-                "ample": 11, 
+                "ample": 10, 
                 "ochiai": 37, 
                 "tarantula": 108
             }
@@ -5264,7 +5264,7 @@
             "nf": 6, 
             "np": 11560, 
             "rank": {
-                "ample": 56, 
+                "ample": 55, 
                 "ochiai": 23, 
                 "tarantula": 37
             }
@@ -5283,7 +5283,7 @@
             "nf": 4, 
             "np": 11512, 
             "rank": {
-                "ample": 9, 
+                "ample": 8, 
                 "ochiai": 38, 
                 "tarantula": 106
             }
@@ -5378,7 +5378,7 @@
             "nf": 4, 
             "np": 11512, 
             "rank": {
-                "ample": 8, 
+                "ample": 7, 
                 "ochiai": 39, 
                 "tarantula": 105
             }
@@ -5758,7 +5758,7 @@
             "nf": 6, 
             "np": 11552, 
             "rank": {
-                "ample": 60, 
+                "ample": 59, 
                 "ochiai": 46, 
                 "tarantula": 45
             }
@@ -5777,7 +5777,7 @@
             "nf": 6, 
             "np": 11571, 
             "rank": {
-                "ample": 48, 
+                "ample": 47, 
                 "ochiai": 4, 
                 "tarantula": 14
             }
@@ -5891,28 +5891,28 @@
             "nf": 6, 
             "np": 11415, 
             "rank": {
-                "ample": 117, 
+                "ample": 118, 
                 "ochiai": 142, 
-                "tarantula": 140
+                "tarantula": 141
             }
         }, 
         "org.joda.time.tz.DateTimeZoneBuilder$DSTZone:1218": {
             "class": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone", 
             "ef": 4, 
-            "ep": 179, 
+            "ep": 178, 
             "line": 1218, 
             "metrics": {
-                "ample": 0.38455964806348664, 
+                "ample": 0.3846459070128526, 
                 "gzoltar": 0.09376144618769908, 
-                "ochiai": 0.09350491644243689, 
-                "tarantula": 0.9628337693617376
+                "ochiai": 0.09376144618769908, 
+                "tarantula": 0.9630337265326466
             }, 
             "nf": 6, 
-            "np": 11414, 
+            "np": 11415, 
             "rank": {
-                "ample": 118, 
+                "ample": 117, 
                 "ochiai": 143, 
-                "tarantula": 141
+                "tarantula": 140
             }
         }, 
         "org.joda.time.tz.DateTimeZoneBuilder$DSTZone:1221": {
@@ -6005,9 +6005,9 @@
             "nf": 6, 
             "np": 11403, 
             "rank": {
-                "ample": 141, 
+                "ample": 142, 
                 "ochiai": 164, 
-                "tarantula": 164
+                "tarantula": 165
             }
         }, 
         "org.joda.time.tz.DateTimeZoneBuilder$DSTZone:1305": {
@@ -6024,9 +6024,9 @@
             "nf": 6, 
             "np": 11403, 
             "rank": {
-                "ample": 140, 
+                "ample": 141, 
                 "ochiai": 165, 
-                "tarantula": 163
+                "tarantula": 164
             }
         }, 
         "org.joda.time.tz.DateTimeZoneBuilder$DSTZone:1306": {
@@ -6043,9 +6043,9 @@
             "nf": 6, 
             "np": 11403, 
             "rank": {
-                "ample": 139, 
+                "ample": 140, 
                 "ochiai": 166, 
-                "tarantula": 162
+                "tarantula": 163
             }
         }, 
         "org.joda.time.tz.DateTimeZoneBuilder$DSTZone:1311": {
@@ -6062,28 +6062,28 @@
             "nf": 6, 
             "np": 11403, 
             "rank": {
-                "ample": 143, 
+                "ample": 144, 
                 "ochiai": 167, 
-                "tarantula": 166
+                "tarantula": 167
             }
         }, 
         "org.joda.time.tz.DateTimeZoneBuilder$DSTZone:1319": {
             "class": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone", 
             "ef": 4, 
-            "ep": 190, 
+            "ep": 189, 
             "line": 1319, 
             "metrics": {
-                "ample": 0.38361079962046063, 
+                "ample": 0.38369705856982667, 
                 "gzoltar": 0.09105029072119708, 
-                "ochiai": 0.09081532183729997, 
-                "tarantula": 0.9606397083195227
+                "ochiai": 0.09105029072119708, 
+                "tarantula": 0.9608387551282583
             }, 
             "nf": 6, 
-            "np": 11403, 
+            "np": 11404, 
             "rank": {
-                "ample": 144, 
+                "ample": 135, 
                 "ochiai": 160, 
-                "tarantula": 167
+                "tarantula": 158
             }
         }, 
         "org.joda.time.tz.DateTimeZoneBuilder$DSTZone:1322": {
@@ -6100,9 +6100,9 @@
             "nf": 6, 
             "np": 11403, 
             "rank": {
-                "ample": 135, 
+                "ample": 136, 
                 "ochiai": 168, 
-                "tarantula": 158
+                "tarantula": 159
             }
         }, 
         "org.joda.time.tz.DateTimeZoneBuilder$DSTZone:1330": {
@@ -6119,9 +6119,9 @@
             "nf": 6, 
             "np": 11403, 
             "rank": {
-                "ample": 136, 
+                "ample": 137, 
                 "ochiai": 169, 
-                "tarantula": 159
+                "tarantula": 160
             }
         }, 
         "org.joda.time.tz.DateTimeZoneBuilder$DSTZone:1332": {
@@ -6138,9 +6138,9 @@
             "nf": 6, 
             "np": 11403, 
             "rank": {
-                "ample": 138, 
+                "ample": 139, 
                 "ochiai": 170, 
-                "tarantula": 161
+                "tarantula": 162
             }
         }, 
         "org.joda.time.tz.DateTimeZoneBuilder$OfYear:482": {
@@ -6157,7 +6157,7 @@
             "nf": 6, 
             "np": 11552, 
             "rank": {
-                "ample": 59, 
+                "ample": 58, 
                 "ochiai": 48, 
                 "tarantula": 44
             }
@@ -6404,9 +6404,9 @@
             "nf": 6, 
             "np": 11403, 
             "rank": {
-                "ample": 137, 
+                "ample": 138, 
                 "ochiai": 171, 
-                "tarantula": 160
+                "tarantula": 161
             }
         }, 
         "org.joda.time.tz.DateTimeZoneBuilder$OfYear:576": {
@@ -6803,7 +6803,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 93, 
+                "ample": 92, 
                 "ochiai": 65, 
                 "tarantula": 88
             }
@@ -6822,7 +6822,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 92, 
+                "ample": 91, 
                 "ochiai": 66, 
                 "tarantula": 87
             }
@@ -6841,7 +6841,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 91, 
+                "ample": 90, 
                 "ochiai": 67, 
                 "tarantula": 86
             }
@@ -6860,7 +6860,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 90, 
+                "ample": 89, 
                 "ochiai": 68, 
                 "tarantula": 85
             }
@@ -6879,7 +6879,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 89, 
+                "ample": 88, 
                 "ochiai": 69, 
                 "tarantula": 84
             }
@@ -6898,7 +6898,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 88, 
+                "ample": 87, 
                 "ochiai": 70, 
                 "tarantula": 83
             }
@@ -6917,7 +6917,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 87, 
+                "ample": 86, 
                 "ochiai": 71, 
                 "tarantula": 82
             }
@@ -6936,7 +6936,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 71, 
+                "ample": 70, 
                 "ochiai": 72, 
                 "tarantula": 66
             }
@@ -6955,7 +6955,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 72, 
+                "ample": 71, 
                 "ochiai": 73, 
                 "tarantula": 67
             }
@@ -6974,7 +6974,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 73, 
+                "ample": 72, 
                 "ochiai": 74, 
                 "tarantula": 68
             }
@@ -6993,7 +6993,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 68, 
+                "ample": 67, 
                 "ochiai": 75, 
                 "tarantula": 63
             }
@@ -7012,7 +7012,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 69, 
+                "ample": 68, 
                 "ochiai": 76, 
                 "tarantula": 64
             }
@@ -7031,7 +7031,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 70, 
+                "ample": 69, 
                 "ochiai": 77, 
                 "tarantula": 65
             }
@@ -7050,7 +7050,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 67, 
+                "ample": 66, 
                 "ochiai": 78, 
                 "tarantula": 62
             }
@@ -7069,7 +7069,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 80, 
+                "ample": 79, 
                 "ochiai": 79, 
                 "tarantula": 75
             }
@@ -7088,7 +7088,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 81, 
+                "ample": 80, 
                 "ochiai": 80, 
                 "tarantula": 76
             }
@@ -7107,7 +7107,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 83, 
+                "ample": 82, 
                 "ochiai": 81, 
                 "tarantula": 78
             }
@@ -7126,7 +7126,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 85, 
+                "ample": 84, 
                 "ochiai": 82, 
                 "tarantula": 80
             }
@@ -7145,7 +7145,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 86, 
+                "ample": 85, 
                 "ochiai": 83, 
                 "tarantula": 81
             }
@@ -7164,7 +7164,7 @@
             "nf": 6, 
             "np": 11552, 
             "rank": {
-                "ample": 58, 
+                "ample": 57, 
                 "ochiai": 49, 
                 "tarantula": 43
             }
@@ -7183,7 +7183,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 84, 
+                "ample": 83, 
                 "ochiai": 84, 
                 "tarantula": 79
             }
@@ -7202,7 +7202,7 @@
             "nf": 6, 
             "np": 11560, 
             "rank": {
-                "ample": 55, 
+                "ample": 54, 
                 "ochiai": 24, 
                 "tarantula": 36
             }
@@ -7221,7 +7221,7 @@
             "nf": 6, 
             "np": 11560, 
             "rank": {
-                "ample": 51, 
+                "ample": 50, 
                 "ochiai": 25, 
                 "tarantula": 32
             }
@@ -7240,7 +7240,7 @@
             "nf": 6, 
             "np": 11560, 
             "rank": {
-                "ample": 52, 
+                "ample": 51, 
                 "ochiai": 26, 
                 "tarantula": 33
             }
@@ -7259,7 +7259,7 @@
             "nf": 6, 
             "np": 11560, 
             "rank": {
-                "ample": 53, 
+                "ample": 52, 
                 "ochiai": 27, 
                 "tarantula": 34
             }
@@ -7278,7 +7278,7 @@
             "nf": 6, 
             "np": 11560, 
             "rank": {
-                "ample": 54, 
+                "ample": 53, 
                 "ochiai": 28, 
                 "tarantula": 35
             }
@@ -7297,7 +7297,7 @@
             "nf": 6, 
             "np": 11570, 
             "rank": {
-                "ample": 49, 
+                "ample": 48, 
                 "ochiai": 6, 
                 "tarantula": 15
             }
@@ -7316,7 +7316,7 @@
             "nf": 6, 
             "np": 11571, 
             "rank": {
-                "ample": 47, 
+                "ample": 46, 
                 "ochiai": 5, 
                 "tarantula": 13
             }
@@ -7544,9 +7544,9 @@
             "nf": 6, 
             "np": 11403, 
             "rank": {
-                "ample": 142, 
+                "ample": 143, 
                 "ochiai": 172, 
-                "tarantula": 165
+                "tarantula": 166
             }
         }, 
         "org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:1579": {
@@ -7620,7 +7620,7 @@
             "nf": 6, 
             "np": 11552, 
             "rank": {
-                "ample": 57, 
+                "ample": 56, 
                 "ochiai": 47, 
                 "tarantula": 42
             }
@@ -7658,7 +7658,7 @@
             "nf": 6, 
             "np": 11565, 
             "rank": {
-                "ample": 50, 
+                "ample": 49, 
                 "ochiai": 21, 
                 "tarantula": 27
             }
@@ -7715,7 +7715,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 82, 
+                "ample": 81, 
                 "ochiai": 58, 
                 "tarantula": 77
             }
@@ -7810,7 +7810,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 78, 
+                "ample": 77, 
                 "ochiai": 59, 
                 "tarantula": 73
             }
@@ -7829,7 +7829,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 77, 
+                "ample": 76, 
                 "ochiai": 60, 
                 "tarantula": 72
             }
@@ -7848,7 +7848,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 76, 
+                "ample": 75, 
                 "ochiai": 61, 
                 "tarantula": 71
             }
@@ -7867,7 +7867,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 75, 
+                "ample": 74, 
                 "ochiai": 62, 
                 "tarantula": 70
             }
@@ -7886,7 +7886,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 74, 
+                "ample": 73, 
                 "ochiai": 63, 
                 "tarantula": 69
             }
@@ -7905,7 +7905,7 @@
             "nf": 6, 
             "np": 11547, 
             "rank": {
-                "ample": 66, 
+                "ample": 65, 
                 "ochiai": 52, 
                 "tarantula": 60
             }
@@ -7924,7 +7924,7 @@
             "nf": 6, 
             "np": 11547, 
             "rank": {
-                "ample": 65, 
+                "ample": 64, 
                 "ochiai": 53, 
                 "tarantula": 59
             }
@@ -7943,7 +7943,7 @@
             "nf": 6, 
             "np": 11547, 
             "rank": {
-                "ample": 64, 
+                "ample": 63, 
                 "ochiai": 54, 
                 "tarantula": 58
             }
@@ -7962,7 +7962,7 @@
             "nf": 6, 
             "np": 11547, 
             "rank": {
-                "ample": 63, 
+                "ample": 62, 
                 "ochiai": 55, 
                 "tarantula": 57
             }
@@ -7981,7 +7981,7 @@
             "nf": 6, 
             "np": 11547, 
             "rank": {
-                "ample": 62, 
+                "ample": 61, 
                 "ochiai": 56, 
                 "tarantula": 56
             }
@@ -8000,7 +8000,7 @@
             "nf": 6, 
             "np": 11547, 
             "rank": {
-                "ample": 61, 
+                "ample": 60, 
                 "ochiai": 57, 
                 "tarantula": 55
             }
@@ -8019,7 +8019,7 @@
             "nf": 6, 
             "np": 11544, 
             "rank": {
-                "ample": 79, 
+                "ample": 78, 
                 "ochiai": 64, 
                 "tarantula": 74
             }
@@ -8152,7 +8152,7 @@
             "nf": 4, 
             "np": 11521, 
             "rank": {
-                "ample": 7, 
+                "ample": 6, 
                 "ochiai": 22, 
                 "tarantula": 61
             }
@@ -8171,7 +8171,7 @@
             "nf": 4, 
             "np": 11527, 
             "rank": {
-                "ample": 4, 
+                "ample": 3, 
                 "ochiai": 14, 
                 "tarantula": 52
             }
@@ -8190,7 +8190,7 @@
             "nf": 4, 
             "np": 11527, 
             "rank": {
-                "ample": 3, 
+                "ample": 2, 
                 "ochiai": 15, 
                 "tarantula": 51
             }
@@ -8228,7 +8228,7 @@
             "nf": 4, 
             "np": 11527, 
             "rank": {
-                "ample": 2, 
+                "ample": 1, 
                 "ochiai": 16, 
                 "tarantula": 49
             }
@@ -8247,7 +8247,7 @@
             "nf": 4, 
             "np": 11527, 
             "rank": {
-                "ample": 6, 
+                "ample": 5, 
                 "ochiai": 17, 
                 "tarantula": 54
             }
@@ -8437,7 +8437,7 @@
             "nf": 4, 
             "np": 11527, 
             "rank": {
-                "ample": 5, 
+                "ample": 4, 
                 "ochiai": 20, 
                 "tarantula": 53
             }
@@ -8464,20 +8464,20 @@
         "org.joda.time.tz.FixedDateTimeZone:102": {
             "class": "org.joda.time.tz.FixedDateTimeZone", 
             "ef": 3, 
-            "ep": 570, 
+            "ep": 537, 
             "line": 102, 
             "metrics": {
-                "ample": 0.25083239886138187, 
-                "gzoltar": 0.03963181333565563, 
-                "ochiai": 0.03963181333565563, 
-                "tarantula": 0.8591862447194842
+                "ample": 0.2536789441904598, 
+                "gzoltar": 0.0408248290463863, 
+                "ochiai": 0.0408248290463863, 
+                "tarantula": 0.866248225360532
             }, 
             "nf": 7, 
-            "np": 11023, 
+            "np": 11056, 
             "rank": {
-                "ample": 297, 
-                "ochiai": 262, 
-                "tarantula": 248
+                "ample": 296, 
+                "ochiai": 261, 
+                "tarantula": 247
             }
         }, 
         "org.joda.time.tz.FixedDateTimeZone:49": {
@@ -8551,7 +8551,7 @@
             "nf": 4, 
             "np": 11150, 
             "rank": {
-                "ample": 32, 
+                "ample": 31, 
                 "ochiai": 180, 
                 "tarantula": 212
             }
@@ -8570,7 +8570,7 @@
             "nf": 4, 
             "np": 11150, 
             "rank": {
-                "ample": 30, 
+                "ample": 29, 
                 "ochiai": 181, 
                 "tarantula": 210
             }
@@ -8589,7 +8589,7 @@
             "nf": 4, 
             "np": 11150, 
             "rank": {
-                "ample": 31, 
+                "ample": 30, 
                 "ochiai": 182, 
                 "tarantula": 211
             }
@@ -8608,7 +8608,7 @@
             "nf": 4, 
             "np": 11174, 
             "rank": {
-                "ample": 27, 
+                "ample": 26, 
                 "ochiai": 159, 
                 "tarantula": 207
             }
@@ -8627,7 +8627,7 @@
             "nf": 6, 
             "np": 11543, 
             "rank": {
-                "ample": 97, 
+                "ample": 96, 
                 "ochiai": 85, 
                 "tarantula": 92
             }
@@ -8779,7 +8779,7 @@
             "nf": 6, 
             "np": 11543, 
             "rank": {
-                "ample": 95, 
+                "ample": 94, 
                 "ochiai": 87, 
                 "tarantula": 90
             }
@@ -8798,7 +8798,7 @@
             "nf": 6, 
             "np": 11543, 
             "rank": {
-                "ample": 94, 
+                "ample": 93, 
                 "ochiai": 88, 
                 "tarantula": 89
             }
@@ -8817,7 +8817,7 @@
             "nf": 6, 
             "np": 11543, 
             "rank": {
-                "ample": 96, 
+                "ample": 95, 
                 "ochiai": 89, 
                 "tarantula": 91
             }
@@ -8976,19 +8976,19 @@
         }, 
         "org.joda.time.tz.ZoneInfoProvider:240": {
             "class": "org.joda.time.tz.ZoneInfoProvider", 
-            "ef": 8, 
-            "ep": 100, 
+            "ef": 4, 
+            "ep": 50, 
             "line": 240, 
             "metrics": {
-                "ample": 0.7913741050634003, 
+                "ample": 0.39568705253170017, 
                 "gzoltar": 0.17213259316477408, 
-                "ochiai": 0.24343224778007383, 
+                "ochiai": 0.17213259316477408, 
                 "tarantula": 0.9893326506229732
             }, 
-            "nf": 2, 
-            "np": 11493, 
+            "nf": 6, 
+            "np": 11543, 
             "rank": {
-                "ample": 1, 
+                "ample": 97, 
                 "ochiai": 98, 
                 "tarantula": 93
             }

@@ -1,5 +1,5 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/time/time_1 /tmp/time_1_Ranking;cd /tmp/time_1_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Time/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/time_1_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/joda-convert-1.2.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/time_1_Ranking;
+cd /tmp/time_1_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/joda-convert-1.2.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/time_1_Ranking;
 
 /************************/
 Executed tests:   12128
@@ -175,7 +175,7 @@ org.joda.time.chrono.ISOChronology:133 -> 0.021824098574224706 (ep: 4721, ef: 3,
 org.joda.time.chrono.AssembledChronology:268 -> 0.02142857142857143 (ep: 4897, ef: 3, np: 7227, nf: 1)
 org.joda.time.chrono.AssembledChronology:260 -> 0.021135147527014893 (ep: 5034, ef: 3, np: 7090, nf: 1)
 org.joda.time.chrono.ISOChronology:86 -> 0.019998222459224148 (ep: 5623, ef: 3, np: 6501, nf: 1)
-org.joda.time.chrono.ISOChronology:102 -> 0.018442777839082936 (ep: 6612, ef: 3, np: 5512, nf: 1)
+org.joda.time.chrono.ISOChronology:102 -> 0.018427462805585923 (ep: 6623, ef: 3, np: 5501, nf: 1)
 org.joda.time.chrono.ZonedChronology:85 -> 0.018211609919198703 (ep: 6781, ef: 3, np: 5343, nf: 1)
 org.joda.time.chrono.AssembledChronology:315 -> 0.018206243303517368 (ep: 6785, ef: 3, np: 5339, nf: 1)
 org.joda.time.chrono.ISOChronology:96 -> 0.01819017187772497 (ep: 6797, ef: 3, np: 5327, nf: 1)

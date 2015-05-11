@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-10T23:33:17.493268", 
+    "date": "2015-05-11T08:05:10.275047", 
     "executedTest": 4061, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -35,7 +35,7 @@
         }
     ], 
     "nbsuspicious": 145, 
-    "node": "fnancy.nancy.grid5000.fr\n", 
+    "node": "griffon-2.nancy.grid5000.fr\n", 
     "successfulTest": 4060, 
     "suspicious": {
         "org.apache.commons.math3.optimization.fitting.HarmonicFitter$ParameterGuesser:215": {
@@ -2606,16 +2606,16 @@
         "org.apache.commons.math3.util.FastMath:2303": {
             "class": "org.apache.commons.math3.util.FastMath", 
             "ef": 1, 
-            "ep": 214, 
+            "ep": 212, 
             "line": 2303, 
             "metrics": {
-                "ample": 0.9472906403940886, 
-                "gzoltar": 0.06819943394704735, 
-                "ochiai": 0.06819943394704735, 
-                "tarantula": 0.9499298081422555
+                "ample": 0.9477832512315271, 
+                "gzoltar": 0.06851887098275317, 
+                "ochiai": 0.06851887098275317, 
+                "tarantula": 0.950374531835206
             }, 
             "nf": 0, 
-            "np": 3846, 
+            "np": 3848, 
             "rank": {
                 "ample": 75, 
                 "ochiai": 75, 

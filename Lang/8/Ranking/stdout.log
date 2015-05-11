@@ -1,5 +1,10 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/lang/lang_8 /tmp/lang_8_Ranking;cd /tmp/lang_8_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Lang/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/lang_8_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/tests/:lib/asm.jar:lib/cglib.jar:lib/commons-io.jar:lib/easymock.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/lang_8_Ranking;
+cd /tmp/lang_8_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 6 --source src/main/java/ --classpath target/classes/:target/tests/:lib/asm.jar:lib/cglib.jar:lib/commons-io.jar:lib/easymock.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";rm -rf /tmp/lang_8_Ranking;
 
 /************************/
 Executed tests:   2205
@@ -7,7 +12,7 @@ Successful tests: 2203
 Failed tests:     2
 
 org.apache.commons.lang3.time.FastDatePrinterTest#testCalendarTimezoneRespected
-org.junit.ComparisonFailure: expected:<2:50AM [ADT]> but was:<2:50AM [UTC]>
+org.junit.ComparisonFailure: expected:<2:01AM [ADT]> but was:<2:01AM [UTC]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
 	at org.apache.commons.lang3.time.FastDatePrinterTest.testCalendarTimezoneRespected(FastDatePrinterTest.java:286)
@@ -34,7 +39,7 @@ org.junit.ComparisonFailure: expected:<2:50AM [ADT]> but was:<2:50AM [UTC]>
 	at com.gzoltar.core.instr.Runner.main(Runner.java:46)
 
 org.apache.commons.lang3.time.FastDateFormat_PrinterTest#testCalendarTimezoneRespected
-org.junit.ComparisonFailure: expected:<2:50AM [ADT]> but was:<2:50AM [UTC]>
+org.junit.ComparisonFailure: expected:<2:01AM [ADT]> but was:<2:01AM [UTC]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
 	at org.apache.commons.lang3.time.FastDatePrinterTest.testCalendarTimezoneRespected(FastDatePrinterTest.java:286)
@@ -139,7 +144,7 @@ org.apache.commons.lang3.time.FastDateParser:446 -> 0.14744195615489714 (ep: 22,
 org.apache.commons.lang3.time.FastDatePrinter:226 -> 0.14433756729740646 (ep: 23, ef: 1, np: 2180, nf: 1)
 org.apache.commons.lang3.time.FastDatePrinter:227 -> 0.14433756729740646 (ep: 23, ef: 1, np: 2180, nf: 1)
 org.apache.commons.lang3.time.FastDateParser:346 -> 0.12909944487358055 (ep: 29, ef: 1, np: 2174, nf: 1)
-org.apache.commons.lang3.time.FastDateParser:65 -> 0.12909944487358055 (ep: 98, ef: 2, np: 2105, nf: 0)
+org.apache.commons.lang3.time.FastDateParser:65 -> 0.12909944487358055 (ep: 29, ef: 1, np: 2174, nf: 1)
 org.apache.commons.lang3.time.FastDateParser$TextStrategy:578 -> 0.12909944487358055 (ep: 29, ef: 1, np: 2174, nf: 1)
 org.apache.commons.lang3.time.FastDateParser$TextStrategy:579 -> 0.12909944487358055 (ep: 29, ef: 1, np: 2174, nf: 1)
 org.apache.commons.lang3.time.FastDateParser$TextStrategy:580 -> 0.12909944487358055 (ep: 29, ef: 1, np: 2174, nf: 1)
@@ -236,7 +241,7 @@ org.apache.commons.lang3.time.FastDateParser:331 -> 0.08451542547285165 (ep: 69,
 org.apache.commons.lang3.time.FastDateParser:333 -> 0.08451542547285165 (ep: 69, ef: 1, np: 2134, nf: 1)
 org.apache.commons.lang3.time.FastDateParser:334 -> 0.08451542547285165 (ep: 69, ef: 1, np: 2134, nf: 1)
 org.apache.commons.lang3.time.FastDateParser:426 -> 0.08451542547285165 (ep: 69, ef: 1, np: 2134, nf: 1)
-org.apache.commons.lang3.time.FastDateParser:65 -> 0.08451542547285165 (ep: 98, ef: 2, np: 2105, nf: 0)
+org.apache.commons.lang3.time.FastDateParser:65 -> 0.08451542547285165 (ep: 69, ef: 1, np: 2134, nf: 1)
 org.apache.commons.lang3.time.FastDateParser$CopyQuotedStrategy:537 -> 0.08451542547285165 (ep: 69, ef: 1, np: 2134, nf: 1)
 org.apache.commons.lang3.time.FastDateParser$CopyQuotedStrategy:538 -> 0.08451542547285165 (ep: 69, ef: 1, np: 2134, nf: 1)
 org.apache.commons.lang3.time.FastDateParser:132 -> 0.08391813582966891 (ep: 70, ef: 1, np: 2133, nf: 1)
@@ -269,5 +274,12 @@ org.apache.commons.lang3.time.FastDateParser:419 -> 0.0827605888602368 (ep: 72, 
 org.apache.commons.lang3.time.FastDateParser$NumberStrategy:633 -> 0.0827605888602368 (ep: 72, ef: 1, np: 2131, nf: 1)
 org.apache.commons.lang3.time.FastDateParser$NumberStrategy:637 -> 0.0827605888602368 (ep: 72, ef: 1, np: 2131, nf: 1)
 org.apache.commons.lang3.time.FastDateParser$NumberStrategy:639 -> 0.0827605888602368 (ep: 72, ef: 1, np: 2131, nf: 1)
+
+
+
+Node: griffon-58.nancy.grid5000.fr
+
+
+Date: Mon May 11 08:01:49 CEST 2015
 
 

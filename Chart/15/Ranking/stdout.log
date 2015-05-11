@@ -1,5 +1,10 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/chart/chart_15 /tmp/chart_15_Ranking;cd /tmp/chart_15_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Chart/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/chart_15_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 4 --source source/ --classpath build/:build-tests/:lib/cobertura-lib/servlet-api-2.5-6.1.14.jar:lib/servlet.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/chart_15_Ranking;
+cd /tmp/chart_15_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 4 --source source/ --classpath build/:build-tests/:lib/cobertura-lib/servlet-api-2.5-6.1.14.jar:lib/servlet.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";rm -rf /tmp/chart_15_Ranking;
 
 /************************/
 Executed tests:   3579
@@ -607,9 +612,9 @@ org.jfree.chart.title.Title:358 -> 0.08247860988423225 (ep: 292, ef: 2, np: 3285
 org.jfree.chart.title.Title:359 -> 0.08247860988423225 (ep: 292, ef: 2, np: 3285, nf: 0)
 org.jfree.chart.title.Title:366 -> 0.08247860988423225 (ep: 292, ef: 2, np: 3285, nf: 0)
 org.jfree.chart.util.RectangleInsets:181 -> 0.08111071056538127 (ep: 302, ef: 2, np: 3275, nf: 0)
-org.jfree.chart.title.Title:337 -> 0.07905694150420949 (ep: 319, ef: 2, np: 3258, nf: 0)
+org.jfree.chart.title.Title:337 -> 0.07905694150420949 (ep: 318, ef: 2, np: 3259, nf: 0)
 org.jfree.chart.title.Title:338 -> 0.07905694150420949 (ep: 318, ef: 2, np: 3259, nf: 0)
-org.jfree.chart.plot.Plot:870 -> 0.07392212709545729 (ep: 365, ef: 2, np: 3212, nf: 0)
+org.jfree.chart.plot.Plot:870 -> 0.07392212709545729 (ep: 364, ef: 2, np: 3213, nf: 0)
 org.jfree.chart.plot.Plot:871 -> 0.07392212709545729 (ep: 364, ef: 2, np: 3213, nf: 0)
 org.jfree.chart.block.AbstractBlock:277 -> 0.07216878364870323 (ep: 382, ef: 2, np: 3195, nf: 0)
 org.jfree.chart.block.AbstractBlock:280 -> 0.07216878364870323 (ep: 382, ef: 2, np: 3195, nf: 0)
@@ -619,5 +624,12 @@ org.jfree.data.Range:108 -> 0.06819943394704735 (ep: 428, ef: 2, np: 3149, nf: 0
 org.jfree.chart.plot.Plot:890 -> 0.06375767130633382 (ep: 490, ef: 2, np: 3087, nf: 0)
 org.jfree.chart.plot.Plot:891 -> 0.06375767130633382 (ep: 490, ef: 2, np: 3087, nf: 0)
 org.jfree.chart.plot.Plot:896 -> 0.06375767130633382 (ep: 490, ef: 2, np: 3087, nf: 0)
+
+
+
+Node: graphene-85.nancy.grid5000.fr
+
+
+Date: Mon May 11 08:03:41 CEST 2015
 
 

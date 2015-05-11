@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-10T23:33:32.678309", 
+    "date": "2015-05-11T08:04:37.838714", 
     "executedTest": 4402, 
     "failedTest": 2, 
     "failedTestDetails": [
@@ -19,7 +19,7 @@
         }
     ], 
     "nbsuspicious": 178, 
-    "node": "fnancy.nancy.grid5000.fr\n", 
+    "node": "griffon-66.nancy.grid5000.fr\n", 
     "successfulTest": 4400, 
     "suspicious": {
         "org.jfree.chart.LegendItemCollection:107": {
@@ -2020,16 +2020,16 @@
         "org.jfree.chart.renderer.AbstractRenderer:2895": {
             "class": "org.jfree.chart.renderer.AbstractRenderer", 
             "ef": 2, 
-            "ep": 397, 
+            "ep": 396, 
             "line": 2895, 
             "metrics": {
-                "ample": 0.9097727272727273, 
+                "ample": 0.91, 
                 "gzoltar": 0.07088812050083358, 
-                "ochiai": 0.07079923254047886, 
-                "tarantula": 0.9172399416301854
+                "ochiai": 0.07088812050083358, 
+                "tarantula": 0.9174311926605504
             }, 
             "nf": 0, 
-            "np": 4003, 
+            "np": 4004, 
             "rank": {
                 "ample": 136, 
                 "ochiai": 135, 
@@ -3236,20 +3236,20 @@
         "org.jfree.data.general.AbstractDataset:133": {
             "class": "org.jfree.data.general.AbstractDataset", 
             "ef": 2, 
-            "ep": 561, 
+            "ep": 560, 
             "line": 133, 
             "metrics": {
-                "ample": 0.8725, 
+                "ample": 0.8727272727272728, 
                 "gzoltar": 0.05965499862718936, 
-                "ochiai": 0.05960199550821498, 
-                "tarantula": 0.8869179600886918
+                "ochiai": 0.05965499862718936, 
+                "tarantula": 0.8870967741935485
             }, 
             "nf": 0, 
-            "np": 3839, 
+            "np": 3840, 
             "rank": {
-                "ample": 165, 
+                "ample": 164, 
                 "ochiai": 164, 
-                "tarantula": 165
+                "tarantula": 164
             }
         }, 
         "org.jfree.data.general.AbstractDataset:134": {
@@ -3266,9 +3266,9 @@
             "nf": 0, 
             "np": 3840, 
             "rank": {
-                "ample": 164, 
+                "ample": 165, 
                 "ochiai": 165, 
-                "tarantula": 164
+                "tarantula": 165
             }
         }, 
         "org.jfree.data.general.AbstractDataset:176": {

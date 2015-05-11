@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-10T23:33:34.518104", 
+    "date": "2015-05-11T08:05:06.140712", 
     "executedTest": 4398, 
     "failedTest": 4, 
     "failedTestDetails": [
@@ -79,7 +79,7 @@
         }
     ], 
     "nbsuspicious": 103, 
-    "node": "fnancy.nancy.grid5000.fr\n", 
+    "node": "graphene-83.nancy.grid5000.fr\n", 
     "successfulTest": 4394, 
     "suspicious": {
         "org.jfree.data.ComparableObjectItem:95": {
@@ -1054,20 +1054,20 @@
         "org.jfree.data.general.Series:297": {
             "class": "org.jfree.data.general.Series", 
             "ef": 4, 
-            "ep": 385, 
+            "ep": 384, 
             "line": 297, 
             "metrics": {
-                "ample": 0.9123805188893946, 
+                "ample": 0.9126081019572144, 
                 "gzoltar": 0.10153461651336192, 
-                "ochiai": 0.10140402531267877, 
-                "tarantula": 0.9194392132245238
+                "ochiai": 0.10153461651336192, 
+                "tarantula": 0.9196316450397656
             }, 
             "nf": 0, 
-            "np": 4009, 
+            "np": 4010, 
             "rank": {
-                "ample": 27, 
+                "ample": 26, 
                 "ochiai": 91, 
-                "tarantula": 92
+                "tarantula": 91
             }
         }, 
         "org.jfree.data.general.Series:298": {
@@ -1084,9 +1084,9 @@
             "nf": 0, 
             "np": 4010, 
             "rank": {
-                "ample": 26, 
+                "ample": 27, 
                 "ochiai": 92, 
-                "tarantula": 91
+                "tarantula": 92
             }
         }, 
         "org.jfree.data.general.Series:315": {

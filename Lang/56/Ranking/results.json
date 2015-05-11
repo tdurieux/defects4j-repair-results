@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-10T23:33:25.083492", 
+    "date": "2015-05-11T07:58:40.636276", 
     "executedTest": 1691, 
     "failedTest": 1, 
     "failedTestDetails": [
@@ -42,8 +42,8 @@
             "line": 1025
         }
     ], 
-    "nbsuspicious": 40, 
-    "node": "fnancy.nancy.grid5000.fr\n", 
+    "nbsuspicious": 41, 
+    "node": "griffon-1.nancy.grid5000.fr\n", 
     "successfulTest": 1690, 
     "suspicious": {
         "org.apache.commons.lang.SerializationUtils:101": {
@@ -60,9 +60,9 @@
             "nf": 0, 
             "np": 1667, 
             "rank": {
-                "ample": 40, 
-                "ochiai": 40, 
-                "tarantula": 40
+                "ample": 41, 
+                "ochiai": 42, 
+                "tarantula": 41
             }
         }, 
         "org.apache.commons.lang.SerializationUtils:104": {
@@ -79,9 +79,9 @@
             "nf": 0, 
             "np": 1669, 
             "rank": {
-                "ample": 37, 
-                "ochiai": 38, 
-                "tarantula": 37
+                "ample": 39, 
+                "ochiai": 40, 
+                "tarantula": 39
             }
         }, 
         "org.apache.commons.lang.SerializationUtils:107": {
@@ -98,9 +98,9 @@
             "nf": 0, 
             "np": 1669, 
             "rank": {
-                "ample": 38, 
-                "ochiai": 39, 
-                "tarantula": 38
+                "ample": 40, 
+                "ochiai": 41, 
+                "tarantula": 40
             }
         }, 
         "org.apache.commons.lang.SerializationUtils:108": {
@@ -117,9 +117,9 @@
             "nf": 0, 
             "np": 1670, 
             "rank": {
-                "ample": 35, 
-                "ochiai": 37, 
-                "tarantula": 35
+                "ample": 38, 
+                "ochiai": 39, 
+                "tarantula": 38
             }
         }, 
         "org.apache.commons.lang.SerializationUtils:111": {
@@ -136,9 +136,9 @@
             "nf": 0, 
             "np": 1686, 
             "rank": {
-                "ample": 8, 
+                "ample": 9, 
                 "ochiai": 8, 
-                "tarantula": 8
+                "tarantula": 9
             }
         }, 
         "org.apache.commons.lang.SerializationUtils:113": {
@@ -155,47 +155,66 @@
             "nf": 0, 
             "np": 1686, 
             "rank": {
-                "ample": 7, 
+                "ample": 8, 
                 "ochiai": 9, 
-                "tarantula": 7
+                "tarantula": 8
             }
         }, 
         "org.apache.commons.lang.SerializationUtils:114": {
             "class": "org.apache.commons.lang.SerializationUtils", 
             "ef": 1, 
-            "ep": 21, 
+            "ep": 4, 
             "line": 114, 
             "metrics": {
-                "ample": 0.9875739644970414, 
+                "ample": 0.9976331360946745, 
                 "gzoltar": 0.4472135954999579, 
-                "ochiai": 0.21320071635561041, 
-                "tarantula": 0.9877264757451782
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9976387249114522
             }, 
             "nf": 0, 
-            "np": 1669, 
+            "np": 1686, 
             "rank": {
-                "ample": 39, 
+                "ample": 10, 
                 "ochiai": 10, 
-                "tarantula": 39
+                "tarantula": 10
             }
         }, 
         "org.apache.commons.lang.SerializationUtils:115": {
             "class": "org.apache.commons.lang.SerializationUtils", 
             "ef": 1, 
-            "ep": 20, 
+            "ep": 3, 
             "line": 115, 
             "metrics": {
-                "ample": 0.9881656804733728, 
+                "ample": 0.9982248520710059, 
                 "gzoltar": 0.5, 
-                "ochiai": 0.2182178902359924, 
-                "tarantula": 0.9883040935672514
+                "ochiai": 0.5, 
+                "tarantula": 0.9982279976373303
             }, 
             "nf": 0, 
-            "np": 1670, 
+            "np": 1687, 
             "rank": {
-                "ample": 36, 
+                "ample": 5, 
                 "ochiai": 5, 
-                "tarantula": 36
+                "tarantula": 5
+            }
+        }, 
+        "org.apache.commons.lang.SerializationUtils:119": {
+            "class": "org.apache.commons.lang.SerializationUtils", 
+            "ef": 1, 
+            "ep": 4, 
+            "line": 119, 
+            "metrics": {
+                "ample": 0.9976331360946745, 
+                "gzoltar": 0.4472135954999579, 
+                "ochiai": 0.4472135954999579, 
+                "tarantula": 0.9976387249114522
+            }, 
+            "nf": 0, 
+            "np": 1686, 
+            "rank": {
+                "ample": 11, 
+                "ochiai": 12, 
+                "tarantula": 11
             }
         }, 
         "org.apache.commons.lang.SerializationUtils:132": {
@@ -212,9 +231,9 @@
             "nf": 0, 
             "np": 1673, 
             "rank": {
-                "ample": 27, 
-                "ochiai": 35, 
-                "tarantula": 27
+                "ample": 31, 
+                "ochiai": 37, 
+                "tarantula": 31
             }
         }, 
         "org.apache.commons.lang.SerializationUtils:133": {
@@ -231,9 +250,9 @@
             "nf": 0, 
             "np": 1673, 
             "rank": {
-                "ample": 31, 
-                "ochiai": 36, 
-                "tarantula": 31
+                "ample": 30, 
+                "ochiai": 38, 
+                "tarantula": 30
             }
         }, 
         "org.apache.commons.lang.exception.ExceptionUtils:431": {
@@ -250,9 +269,9 @@
             "nf": 0, 
             "np": 1679, 
             "rank": {
-                "ample": 19, 
-                "ochiai": 18, 
-                "tarantula": 19
+                "ample": 22, 
+                "ochiai": 20, 
+                "tarantula": 22
             }
         }, 
         "org.apache.commons.lang.exception.NestableDelegate:311": {
@@ -269,9 +288,9 @@
             "nf": 0, 
             "np": 1681, 
             "rank": {
-                "ample": 14, 
-                "ochiai": 13, 
-                "tarantula": 14
+                "ample": 17, 
+                "ochiai": 15, 
+                "tarantula": 17
             }
         }, 
         "org.apache.commons.lang.exception.NestableDelegate:313": {
@@ -288,9 +307,9 @@
             "nf": 0, 
             "np": 1681, 
             "rank": {
-                "ample": 13, 
-                "ochiai": 14, 
-                "tarantula": 13
+                "ample": 16, 
+                "ochiai": 16, 
+                "tarantula": 16
             }
         }, 
         "org.apache.commons.lang.exception.NestableDelegate:314": {
@@ -307,9 +326,9 @@
             "nf": 0, 
             "np": 1681, 
             "rank": {
-                "ample": 11, 
-                "ochiai": 15, 
-                "tarantula": 11
+                "ample": 14, 
+                "ochiai": 17, 
+                "tarantula": 14
             }
         }, 
         "org.apache.commons.lang.exception.NestableDelegate:315": {
@@ -326,9 +345,9 @@
             "nf": 0, 
             "np": 1681, 
             "rank": {
-                "ample": 12, 
-                "ochiai": 16, 
-                "tarantula": 12
+                "ample": 15, 
+                "ochiai": 18, 
+                "tarantula": 15
             }
         }, 
         "org.apache.commons.lang.exception.NestableDelegate:319": {
@@ -345,9 +364,9 @@
             "nf": 0, 
             "np": 1681, 
             "rank": {
-                "ample": 15, 
-                "ochiai": 17, 
-                "tarantula": 15
+                "ample": 18, 
+                "ochiai": 19, 
+                "tarantula": 18
             }
         }, 
         "org.apache.commons.lang.exception.NestableRuntimeException:102": {
@@ -364,9 +383,9 @@
             "nf": 0, 
             "np": 1675, 
             "rank": {
-                "ample": 21, 
-                "ochiai": 23, 
-                "tarantula": 21
+                "ample": 24, 
+                "ochiai": 25, 
+                "tarantula": 24
             }
         }, 
         "org.apache.commons.lang.exception.NestableRuntimeException:113": {
@@ -383,9 +402,9 @@
             "nf": 0, 
             "np": 1682, 
             "rank": {
-                "ample": 10, 
-                "ochiai": 12, 
-                "tarantula": 10
+                "ample": 13, 
+                "ochiai": 14, 
+                "tarantula": 13
             }
         }, 
         "org.apache.commons.lang.exception.NestableRuntimeException:115": {
@@ -402,9 +421,9 @@
             "nf": 0, 
             "np": 1686, 
             "rank": {
-                "ample": 6, 
+                "ample": 7, 
                 "ochiai": 6, 
-                "tarantula": 6
+                "tarantula": 7
             }
         }, 
         "org.apache.commons.lang.exception.NestableRuntimeException:116": {
@@ -421,9 +440,9 @@
             "nf": 0, 
             "np": 1686, 
             "rank": {
-                "ample": 5, 
+                "ample": 6, 
                 "ochiai": 7, 
-                "tarantula": 5
+                "tarantula": 6
             }
         }, 
         "org.apache.commons.lang.exception.NestableRuntimeException:193": {
@@ -516,9 +535,9 @@
             "nf": 0, 
             "np": 1673, 
             "rank": {
-                "ample": 22, 
-                "ochiai": 28, 
-                "tarantula": 22
+                "ample": 25, 
+                "ochiai": 30, 
+                "tarantula": 25
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:1003": {
@@ -535,9 +554,9 @@
             "nf": 0, 
             "np": 1673, 
             "rank": {
-                "ample": 33, 
-                "ochiai": 29, 
-                "tarantula": 33
+                "ample": 36, 
+                "ochiai": 31, 
+                "tarantula": 36
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:1004": {
@@ -554,9 +573,9 @@
             "nf": 0, 
             "np": 1673, 
             "rank": {
-                "ample": 28, 
-                "ochiai": 30, 
-                "tarantula": 28
+                "ample": 32, 
+                "ochiai": 32, 
+                "tarantula": 32
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:1005": {
@@ -573,9 +592,9 @@
             "nf": 0, 
             "np": 1673, 
             "rank": {
-                "ample": 25, 
-                "ochiai": 31, 
-                "tarantula": 25
+                "ample": 28, 
+                "ochiai": 33, 
+                "tarantula": 28
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:1006": {
@@ -592,9 +611,9 @@
             "nf": 0, 
             "np": 1673, 
             "rank": {
-                "ample": 34, 
-                "ochiai": 32, 
-                "tarantula": 34
+                "ample": 37, 
+                "ochiai": 34, 
+                "tarantula": 37
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:1007": {
@@ -611,9 +630,9 @@
             "nf": 0, 
             "np": 1673, 
             "rank": {
-                "ample": 30, 
-                "ochiai": 33, 
-                "tarantula": 30
+                "ample": 34, 
+                "ochiai": 35, 
+                "tarantula": 34
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:1008": {
@@ -630,9 +649,9 @@
             "nf": 0, 
             "np": 1673, 
             "rank": {
-                "ample": 32, 
-                "ochiai": 34, 
-                "tarantula": 32
+                "ample": 35, 
+                "ochiai": 36, 
+                "tarantula": 35
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:167": {
@@ -649,9 +668,9 @@
             "nf": 0, 
             "np": 1683, 
             "rank": {
-                "ample": 9, 
-                "ochiai": 11, 
-                "tarantula": 9
+                "ample": 12, 
+                "ochiai": 13, 
+                "tarantula": 12
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:213": {
@@ -668,9 +687,9 @@
             "nf": 0, 
             "np": 1673, 
             "rank": {
-                "ample": 29, 
-                "ochiai": 24, 
-                "tarantula": 29
+                "ample": 33, 
+                "ochiai": 26, 
+                "tarantula": 33
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:214": {
@@ -687,9 +706,9 @@
             "nf": 0, 
             "np": 1673, 
             "rank": {
-                "ample": 24, 
-                "ochiai": 25, 
-                "tarantula": 24
+                "ample": 27, 
+                "ochiai": 27, 
+                "tarantula": 27
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:215": {
@@ -706,9 +725,9 @@
             "nf": 0, 
             "np": 1673, 
             "rank": {
-                "ample": 23, 
-                "ochiai": 26, 
-                "tarantula": 23
+                "ample": 26, 
+                "ochiai": 28, 
+                "tarantula": 26
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:220": {
@@ -725,9 +744,9 @@
             "nf": 0, 
             "np": 1673, 
             "rank": {
-                "ample": 26, 
-                "ochiai": 27, 
-                "tarantula": 26
+                "ample": 29, 
+                "ochiai": 29, 
+                "tarantula": 29
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:980": {
@@ -744,9 +763,9 @@
             "nf": 0, 
             "np": 1679, 
             "rank": {
-                "ample": 18, 
-                "ochiai": 19, 
-                "tarantula": 18
+                "ample": 21, 
+                "ochiai": 21, 
+                "tarantula": 21
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:983": {
@@ -763,9 +782,9 @@
             "nf": 0, 
             "np": 1679, 
             "rank": {
-                "ample": 17, 
-                "ochiai": 20, 
-                "tarantula": 17
+                "ample": 20, 
+                "ochiai": 22, 
+                "tarantula": 20
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:984": {
@@ -782,9 +801,9 @@
             "nf": 0, 
             "np": 1679, 
             "rank": {
-                "ample": 16, 
-                "ochiai": 21, 
-                "tarantula": 16
+                "ample": 19, 
+                "ochiai": 23, 
+                "tarantula": 19
             }
         }, 
         "org.apache.commons.lang.time.FastDateFormat:991": {
@@ -801,9 +820,9 @@
             "nf": 0, 
             "np": 1679, 
             "rank": {
-                "ample": 20, 
-                "ochiai": 22, 
-                "tarantula": 20
+                "ample": 23, 
+                "ochiai": 24, 
+                "tarantula": 23
             }
         }
     }

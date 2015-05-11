@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-10T23:33:32.761974", 
+    "date": "2015-05-11T08:03:42.788291", 
     "executedTest": 3589, 
     "failedTest": 8, 
     "failedTestDetails": [
@@ -87,7 +87,7 @@
         }
     ], 
     "nbsuspicious": 142, 
-    "node": "fnancy.nancy.grid5000.fr\n", 
+    "node": "graphene-81.nancy.grid5000.fr\n", 
     "successfulTest": 3581, 
     "suspicious": {
         "org.jfree.chart.event.ChartChangeEvent:131": {
@@ -1613,20 +1613,20 @@
         "org.jfree.chart.plot.Marker:534": {
             "class": "org.jfree.chart.plot.Marker", 
             "ef": 4, 
-            "ep": 255, 
+            "ep": 254, 
             "line": 534, 
             "metrics": {
-                "ample": 0.42879084054733313, 
+                "ample": 0.4290700921530299, 
                 "gzoltar": 0.08804509063256238, 
-                "ochiai": 0.08787495503274936, 
-                "tarantula": 0.8753361036421413
+                "ochiai": 0.08804509063256238, 
+                "tarantula": 0.8757642455368061
             }, 
             "nf": 4, 
-            "np": 3326, 
+            "np": 3327, 
             "rank": {
-                "ample": 107, 
+                "ample": 106, 
                 "ochiai": 136, 
-                "tarantula": 139
+                "tarantula": 138
             }
         }, 
         "org.jfree.chart.plot.Marker:535": {
@@ -1643,9 +1643,9 @@
             "nf": 4, 
             "np": 3327, 
             "rank": {
-                "ample": 106, 
+                "ample": 107, 
                 "ochiai": 137, 
-                "tarantula": 138
+                "tarantula": 139
             }
         }, 
         "org.jfree.chart.plot.Marker:559": {

@@ -1,5 +1,10 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/lang/lang_40 /tmp/lang_40_Ranking;cd /tmp/lang_40_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Lang/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/lang_40_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/java/ --classpath target/classes/:target/test-classes/:lib/asm.jar:lib/cglib.jar:lib/commons-io.jar:lib/easymock.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/lang_40_Ranking;
+cd /tmp/lang_40_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/java/ --classpath target/classes/:target/test-classes/:lib/asm.jar:lib/cglib.jar:lib/commons-io.jar:lib/easymock.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";rm -rf /tmp/lang_40_Ranking;
 
 /************************/
 Executed tests:   1643
@@ -39,5 +44,12 @@ org.apache.commons.lang.StringUtils:1045 -> 0.7071067811865475 (ep: 1, ef: 1, np
 org.apache.commons.lang.StringUtils:1048 -> 0.7071067811865475 (ep: 1, ef: 1, np: 1641, nf: 0)
 org.apache.commons.lang.StringUtils:1018 -> 0.5773502691896258 (ep: 2, ef: 1, np: 1640, nf: 0)
 org.apache.commons.lang.StringUtils:1015 -> 0.5 (ep: 3, ef: 1, np: 1639, nf: 0)
+
+
+
+Node: graphene-86.nancy.grid5000.fr
+
+
+Date: Mon May 11 07:59:43 CEST 2015
 
 

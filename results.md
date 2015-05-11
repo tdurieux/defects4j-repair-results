@@ -1294,10 +1294,11 @@ index 711852e..6b8c2e4 100644
 # Lang 21
 
 
-Nb Executed tests: None
+Nb Executed tests: 1827
 
-Nb Failing tests: None
+Nb Failing tests: 1
 
+>	org.apache.commons.lang3.time.DateUtilsTest#testIsSameLocalTime_Cal
 
 ## Human Patch 
 
@@ -2163,10 +2164,12 @@ index 3a543ce..79c80bd 100644
 # Lang 36
 
 
-Nb Executed tests: None
+Nb Executed tests: 1628
 
-Nb Failing tests: None
+Nb Failing tests: 2
 
+>	org.apache.commons.lang3.math.NumberUtilsTest#testCreateNumber
+>	org.apache.commons.lang3.math.NumberUtilsTest#testIsNumber
 
 ## Human Patch 
 
@@ -2422,10 +2425,11 @@ index 478b377..ebfd25a 100644
 # Lang 42
 
 
-Nb Executed tests: None
+Nb Executed tests: 1903
 
-Nb Failing tests: None
+Nb Failing tests: 1
 
+>	org.apache.commons.lang.StringEscapeUtilsTest#testEscapeHtmlHighUnicode
 
 ## Human Patch 
 
@@ -3168,8 +3172,9 @@ index 139d9a7..ceb886e 100644
 
 Nb Executed tests: 1689
 
-Nb Failing tests: 1
+Nb Failing tests: 2
 
+>	org.apache.commons.lang.math.RandomUtilsTest#testNextFloat2
 >	org.apache.commons.lang.math.NumberUtilsTest#testLang300
 
 ## Human Patch 
@@ -3194,7 +3199,7 @@ index eb74e72..c0f06a4 100644
 
 ## NopolPC 
 
-org.apache.commons.lang.math.NumberUtils:464 (Suspicious rank: 1 (Ochiai), 2 (Ample), 2 (Tarantula))
+org.apache.commons.lang.math.NumberUtils:464 (Suspicious rank: 2 (Ochiai), 2 (Ample), 2 (Tarantula))
 ```Java
 (-1)<(expPos)
 ```
@@ -3210,7 +3215,7 @@ Grid5000 node: griffon-59.nancy.grid5000.fr
 
 ## NopolC 
 
-org.apache.commons.lang.math.NumberUtils:452 (Suspicious rank: 20 (Ochiai), 10 (Ample), 10 (Tarantula))
+org.apache.commons.lang.math.NumberUtils:452 (Suspicious rank: 21 (Ochiai), 11 (Ample), 11 (Tarantula))
 ```Java
 ((dec == null) && (exp == null))
 ```
@@ -6922,10 +6927,11 @@ index ea9e96a..a9d621a 100644
 # Math 5
 
 
-Nb Executed tests: None
+Nb Executed tests: 4949
 
-Nb Failing tests: None
+Nb Failing tests: 1
 
+>	org.apache.commons.math3.complex.ComplexTest#testReciprocalZero
 
 ## Human Patch 
 
@@ -6949,10 +6955,38 @@ index ac8185b..22b23f2 100644
 # Math 6
 
 
-Nb Executed tests: None
+Nb Executed tests: 4942
 
-Nb Failing tests: None
+Nb Failing tests: 28
 
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.PowellOptimizerTest#testSumSinc
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest#testMaximize1
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest#testMaximize2
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest#testMinimize1
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerNelderMeadTest#testMinimize2
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testConstrainedRosen
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testElliRotated
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testEllipse
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testTwoAxes
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testCigar
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testRosen
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testRastrigin
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testDiagonalRosen
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testSsDiffPow
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testMaximize
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testAckley
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testCigTab
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testDiffPow
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testSphere
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testTablet
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.CMAESOptimizerTest#testCigarWithBoundaries
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest#testMaximize1
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest#testMaximize2
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest#testMinimize1
+>	org.apache.commons.math3.optim.nonlinear.scalar.noderiv.SimplexOptimizerMultiDirectionalTest#testMinimize2
+>	org.apache.commons.math3.optim.nonlinear.scalar.gradient.NonLinearConjugateGradientOptimizerTest#testTrivial
+>	org.apache.commons.math3.optim.nonlinear.vector.jacobian.LevenbergMarquardtOptimizerTest#testGetIterations
+>	org.apache.commons.math3.optim.nonlinear.vector.jacobian.GaussNewtonOptimizerTest#testGetIterations
 
 ## Human Patch 
 
@@ -7118,10 +7152,11 @@ index 4016131..ca2d138 100644
 # Math 7
 
 
-Nb Executed tests: None
+Nb Executed tests: 4933
 
-Nb Failing tests: None
+Nb Failing tests: 1
 
+>	org.apache.commons.math3.ode.nonstiff.DormandPrince853IntegratorTest#testEventsScheduling
 
 ## Human Patch 
 
@@ -7182,10 +7217,11 @@ index 6e0237f..00827db 100644
 # Math 8
 
 
-Nb Executed tests: None
+Nb Executed tests: 4850
 
-Nb Failing tests: None
+Nb Failing tests: 1
 
+>	org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testIssue942
 
 ## Human Patch 
 
@@ -7227,7 +7263,7 @@ index 879eb2a..8c08dbe 100644
 
 ## Genprog 
 
-org.apache.commons.math3.distribution.DiscreteDistribution:190
+org.apache.commons.math3.distribution.DiscreteDistribution:190 (Suspicious rank: 4 (Ochiai), 1 (Ample), 1 (Tarantula))
 ```Java
 remove
 ```
@@ -7239,12 +7275,12 @@ Grid5000 node : griffon-23.nancy.grid5000.fr
 
 ## Kali 
 
-org.apache.commons.math3.distribution.DiscreteDistribution:189
+org.apache.commons.math3.distribution.DiscreteDistribution:189 (Suspicious rank: 3 (Ochiai), 4 (Ample), 4 (Tarantula))
 ```Java
 remove
 ```
 
-org.apache.commons.math3.distribution.DiscreteDistribution:190
+org.apache.commons.math3.distribution.DiscreteDistribution:190 (Suspicious rank: 4 (Ochiai), 1 (Ample), 1 (Tarantula))
 ```Java
 remove
 ```
@@ -7257,10 +7293,11 @@ Grid5000 node : griffon-39.nancy.grid5000.fr
 # Math 9
 
 
-Nb Executed tests: None
+Nb Executed tests: 4826
 
-Nb Failing tests: None
+Nb Failing tests: 1
 
+>	org.apache.commons.math3.geometry.euclidean.threed.LineTest#testRevert
 
 ## Human Patch 
 
@@ -7286,10 +7323,11 @@ index 7c9a28f..0c39411 100644
 # Math 10
 
 
-Nb Executed tests: None
+Nb Executed tests: 4582
 
-Nb Failing tests: None
+Nb Failing tests: 1
 
+>	org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest#testAtan2SpecialCases
 
 ## Human Patch 
 
@@ -7314,10 +7352,11 @@ index d5a3c18..9d08555 100644
 # Math 11
 
 
-Nb Executed tests: None
+Nb Executed tests: 4560
 
-Nb Failing tests: None
+Nb Failing tests: 1
 
+>	org.apache.commons.math3.distribution.MultivariateNormalDistributionTest#testUnivariateDistribution
 
 ## Human Patch 
 
@@ -7341,10 +7380,14 @@ index fd18c28..1570681 100644
 # Math 12
 
 
-Nb Executed tests: None
+Nb Executed tests: 4546
 
-Nb Failing tests: None
+Nb Failing tests: 4
 
+>	org.apache.commons.math3.distribution.LogNormalDistributionTest#testDistributionClone
+>	org.apache.commons.math3.distribution.NormalDistributionTest#testDistributionClone
+>	org.apache.commons.math3.distribution.GammaDistributionTest#testDistributionClone
+>	org.apache.commons.math3.random.EmpiricalDistributionTest#testDistributionClone
 
 ## Human Patch 
 
@@ -7391,10 +7434,11 @@ index fab295b..a621d7b 100644
 # Math 13
 
 
-Nb Executed tests: None
+Nb Executed tests: 4534
 
-Nb Failing tests: None
+Nb Failing tests: 1
 
+>	org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testLargeSample
 
 ## Human Patch 
 
@@ -7454,10 +7498,11 @@ index 982e559..b6c97e7 100644
 # Math 14
 
 
-Nb Executed tests: None
+Nb Executed tests: 4533
 
-Nb Failing tests: None
+Nb Failing tests: 1
 
+>	org.apache.commons.math3.fitting.PolynomialFitterTest#testLargeSample
 
 ## Human Patch 
 
@@ -8583,7 +8628,7 @@ index add24ac..6ba72be 100644
 
 ## NopolPC 
 
-org.apache.commons.math3.geometry.partitioning.AbstractRegion:214 (Suspicious rank: 215 (Ochiai), 188 (Ample), 188 (Tarantula))
+org.apache.commons.math3.geometry.partitioning.AbstractRegion:214 (Suspicious rank: 221 (Ochiai), 190 (Ample), 190 (Tarantula))
 ```Java
 ((!(((boundary.size())-(plusList.size()))<(minusList.size())))&&((1)<=(plusList.size())))||((minusList.size())==((boundary.size())+(-1)))
 ```
@@ -9443,7 +9488,7 @@ index 13ebfd2..5db4884 100644
 
 ## NopolPC 
 
-org.apache.commons.math.linear.OpenMapRealVector:667 (Suspicious rank: 14 (Ochiai), 13 (Ample), 13 (Tarantula))
+org.apache.commons.math.linear.OpenMapRealVector:667 (Suspicious rank: 14 (Ochiai), 14 (Ample), 14 (Tarantula))
 ```Java
 (org.apache.commons.math.linear.OpenMapRealVector.this.epsilon)==(org.apache.commons.math.linear.OpenMapRealVector.DEFAULT_ZERO_TOLERANCE)
 ```
@@ -10064,7 +10109,7 @@ index e1b54f4..8c107de 100644
 
 ## NopolC 
 
-org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:613 (Suspicious rank: 92 (Ochiai), 85 (Ample), 85 (Tarantula))
+org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer:613 (Suspicious rank: 92 (Ochiai), 86 (Ample), 86 (Tarantula))
 ```Java
 (fp > 0)||((gNorm)<=(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.this.orthoTolerance))
 ```
@@ -11045,11 +11090,10 @@ index 28aee43..ea0f20d 100644
 
 Nb Executed tests: 2186
 
-Nb Failing tests: 3
+Nb Failing tests: 2
 
 >	org.apache.commons.math.stat.correlation.PearsonsCorrelationTest#testPValueNearZero
 >	org.apache.commons.math.stat.correlation.SpearmansRankCorrelationTest#testPValueNearZero
->	org.apache.commons.math.random.RandomDataTest#testNextPoissonConsistency
 
 ## Human Patch 
 
@@ -11072,7 +11116,7 @@ index dc83314..83b4c41 100644
 
 ## NopolPC 
 
-org.apache.commons.math.stat.correlation.PearsonsCorrelation:189 (Suspicious rank: 15 (Ochiai), 51 (Ample), 79 (Tarantula))
+org.apache.commons.math.stat.correlation.PearsonsCorrelation:189 (Suspicious rank: 14 (Ochiai), 21 (Ample), 21 (Tarantula))
 ```Java
 ((1)-((-1)+(-1)))<=(nVars)
 ```
@@ -11537,9 +11581,8 @@ index e418c08..6003ed6 100644
 
 Nb Executed tests: 2129
 
-Nb Failing tests: 3
+Nb Failing tests: 2
 
->	org.apache.commons.math.stat.descriptive.summary.SumTest#testWeightedConsistency
 >	org.apache.commons.math.linear.ArrayRealVectorTest#testBasicFunctions
 >	org.apache.commons.math.linear.SparseRealVectorTest#testBasicFunctions
 
@@ -11789,9 +11832,8 @@ Grid5000 node : graphene-74.nancy.grid5000.fr
 
 Nb Executed tests: 2104
 
-Nb Failing tests: 2
+Nb Failing tests: 1
 
->	org.apache.commons.math.random.AbstractRandomGeneratorTest#testNextPoissonConsistency
 >	org.apache.commons.math.stat.clustering.KMeansPlusPlusClustererTest#testPerformClusterAnalysisDegenerate
 
 ## Human Patch 
@@ -11818,7 +11860,7 @@ index ad77a56..46368dc 100644
 
 ## NopolPC 
 
-org.apache.commons.math.util.MathUtils:1627 (Suspicious rank: 103 (Ochiai), 95 (Ample), 95 (Tarantula))
+org.apache.commons.math.util.MathUtils:1627 (Suspicious rank: 26 (Ochiai), 24 (Ample), 24 (Tarantula))
 ```Java
 (p2!=null)&&(!(((dp)<=((org.apache.commons.math.util.MathUtils.TWO_PI)-((org.apache.commons.math.util.MathUtils.FACTORIALS.length)+(org.apache.commons.math.util.MathUtils.FACTORIALS.length))))||(((org.apache.commons.math.util.MathUtils.FACTORIALS.length)+(org.apache.commons.math.util.MathUtils.FACTORIALS.length))<(dp))))
 ```
@@ -12220,10 +12262,11 @@ index 929560c..955d0d8 100644
 # Math 85
 
 
-Nb Executed tests: None
+Nb Executed tests: 1983
 
-Nb Failing tests: None
+Nb Failing tests: 1
 
+>	org.apache.commons.math.distribution.NormalDistributionTest#testMath280
 
 ## Human Patch 
 
@@ -12246,7 +12289,7 @@ index e6398f6..5b76415 100644
 
 ## NopolC 
 
-org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198 (Suspicious rank: 46 (Ochiai), 38 (Ample), 38 (Tarantula))
 ```Java
 (fa)==(maximumIterations)
 ```
@@ -12262,7 +12305,7 @@ Grid5000 node: graphene-7.nancy.grid5000.fr
 
 ## Genprog 
 
-org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:199
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:199 (Suspicious rank: 1 (Ochiai), 2 (Ample), 2 (Tarantula))
 ```Java
 remove
 ```
@@ -12274,12 +12317,12 @@ Grid5000 node : griffon-30.nancy.grid5000.fr
 
 ## Kali 
 
-org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:199
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:199 (Suspicious rank: 1 (Ochiai), 2 (Ample), 2 (Tarantula))
 ```Java
 remove
 ```
 
-org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils:198 (Suspicious rank: 46 (Ochiai), 38 (Ample), 38 (Tarantula))
 ```Java
 remove
 ```
@@ -14794,10 +14837,35 @@ index 64da5ea..6efe071 100644
 # Time 12
 
 
-Nb Executed tests: None
+Nb Executed tests: 11813
 
-Nb Failing tests: None
+Nb Failing tests: 25
 
+>	org.joda.time.TestLocalDateTime_Constructors#testFactory_fromDateFields_beforeYearZero1
+>	org.joda.time.TestLocalDateTime_Constructors#testFactory_fromDateFields_beforeYearZero3
+>	org.joda.time.TestLocalDateTime_Constructors#testFactory_fromCalendarFields_beforeYearZero1
+>	org.joda.time.TestLocalDateTime_Constructors#testFactory_fromCalendarFields_beforeYearZero3
+>	org.joda.time.TestLocalDate_Constructors#testFactory_fromDateFields_beforeYearZero1
+>	org.joda.time.TestLocalDate_Constructors#testFactory_fromDateFields_beforeYearZero3
+>	org.joda.time.TestLocalDate_Constructors#testFactory_fromCalendarFields_beforeYearZero1
+>	org.joda.time.TestLocalDate_Constructors#testFactory_fromCalendarFields_beforeYearZero3
+>	org.joda.time.TestLocalDate_Constructors#testFactory_fromDateFields_beforeYearZero1
+>	org.joda.time.TestLocalDate_Constructors#testFactory_fromDateFields_beforeYearZero3
+>	org.joda.time.TestLocalDate_Constructors#testFactory_fromCalendarFields_beforeYearZero1
+>	org.joda.time.TestLocalDate_Constructors#testFactory_fromCalendarFields_beforeYearZero3
+>	org.joda.time.TestLocalDateTime_Constructors#testFactory_fromDateFields_beforeYearZero1
+>	org.joda.time.TestLocalDateTime_Constructors#testFactory_fromDateFields_beforeYearZero3
+>	org.joda.time.TestLocalDateTime_Constructors#testFactory_fromCalendarFields_beforeYearZero1
+>	org.joda.time.TestLocalDateTime_Constructors#testFactory_fromCalendarFields_beforeYearZero3
+>	org.joda.time.TestLocalDate_Constructors#testFactory_fromDateFields_beforeYearZero1
+>	org.joda.time.TestLocalDate_Constructors#testFactory_fromDateFields_beforeYearZero3
+>	org.joda.time.TestLocalDate_Constructors#testFactory_fromCalendarFields_beforeYearZero1
+>	org.joda.time.TestLocalDate_Constructors#testFactory_fromCalendarFields_beforeYearZero3
+>	junit.framework.TestSuite$1#warning
+>	org.joda.time.TestLocalDateTime_Constructors#testFactory_fromDateFields_beforeYearZero1
+>	org.joda.time.TestLocalDateTime_Constructors#testFactory_fromDateFields_beforeYearZero3
+>	org.joda.time.TestLocalDateTime_Constructors#testFactory_fromCalendarFields_beforeYearZero1
+>	org.joda.time.TestLocalDateTime_Constructors#testFactory_fromCalendarFields_beforeYearZero3
 
 ## Human Patch 
 

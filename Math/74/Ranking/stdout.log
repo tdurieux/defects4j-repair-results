@@ -1,5 +1,5 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_74 /tmp/math_74_Ranking;cd /tmp/math_74_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/math_74_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/commons-discovery-0.5.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/math_74_Ranking;
+cd /tmp/math_74_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/commons-discovery-0.5.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/math_74_Ranking;
 
 /************************/
 Executed tests:   2131
@@ -38,11 +38,11 @@ java.lang.AssertionError
 /************************/
 /* Suspicious statement */
 /************************/
-org.apache.commons.math.fraction.BigFractionField:33 -> 0.7071067811865475 (ep: 2, ef: 2, np: 2128, nf: -1)
-org.apache.commons.math.fraction.BigFractionField:33 -> 0.7071067811865475 (ep: 2, ef: 2, np: 2128, nf: -1)
-org.apache.commons.math.fraction.BigFraction:34 -> 0.7071067811865475 (ep: 5, ef: 4, np: 2125, nf: -3)
-org.apache.commons.math.fraction.BigFraction:34 -> 0.7071067811865475 (ep: 5, ef: 4, np: 2125, nf: -3)
-org.apache.commons.math.fraction.BigFraction:34 -> 0.7071067811865475 (ep: 5, ef: 4, np: 2125, nf: -3)
+org.apache.commons.math.fraction.BigFractionField:33 -> 0.7071067811865475 (ep: 1, ef: 1, np: 2129, nf: 0)
+org.apache.commons.math.fraction.BigFractionField:33 -> 0.7071067811865475 (ep: 1, ef: 1, np: 2129, nf: 0)
+org.apache.commons.math.fraction.BigFraction:34 -> 0.7071067811865475 (ep: 1, ef: 1, np: 2129, nf: 0)
+org.apache.commons.math.fraction.BigFraction:34 -> 0.7071067811865475 (ep: 1, ef: 1, np: 2129, nf: 0)
+org.apache.commons.math.fraction.BigFraction:34 -> 0.7071067811865475 (ep: 1, ef: 1, np: 2129, nf: 0)
 org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator:309 -> 0.7071067811865475 (ep: 1, ef: 1, np: 2129, nf: 0)
 org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator:310 -> 0.7071067811865475 (ep: 1, ef: 1, np: 2129, nf: 0)
 org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator:311 -> 0.7071067811865475 (ep: 1, ef: 1, np: 2129, nf: 0)
@@ -67,7 +67,7 @@ org.apache.commons.math.linear.MatrixUtils:710 -> 0.5773502691896258 (ep: 2, ef:
 org.apache.commons.math.fraction.BigFraction:674 -> 0.5773502691896258 (ep: 2, ef: 1, np: 2128, nf: 0)
 org.apache.commons.math.fraction.BigFraction:678 -> 0.5773502691896258 (ep: 2, ef: 1, np: 2128, nf: 0)
 org.apache.commons.math.fraction.BigFraction:1133 -> 0.5773502691896258 (ep: 2, ef: 1, np: 2128, nf: 0)
-org.apache.commons.math.fraction.BigFraction:34 -> 0.5773502691896258 (ep: 5, ef: 4, np: 2125, nf: -3)
+org.apache.commons.math.fraction.BigFraction:34 -> 0.5773502691896258 (ep: 2, ef: 1, np: 2128, nf: 0)
 org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator:290 -> 0.5773502691896258 (ep: 2, ef: 1, np: 2128, nf: 0)
 org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator:291 -> 0.5773502691896258 (ep: 2, ef: 1, np: 2128, nf: 0)
 org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegrator:296 -> 0.5773502691896258 (ep: 2, ef: 1, np: 2128, nf: 0)

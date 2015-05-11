@@ -1,5 +1,5 @@
 {
-    "date": "2015-05-10T23:33:18.274437", 
+    "date": "2015-05-11T07:57:17.906065", 
     "executedTest": 2997, 
     "failedTest": 2, 
     "failedTestDetails": [
@@ -47,7 +47,7 @@
         }
     ], 
     "nbsuspicious": 105, 
-    "node": "fnancy.nancy.grid5000.fr\n", 
+    "node": "griffon-15.nancy.grid5000.fr\n", 
     "successfulTest": 2995, 
     "suspicious": {
         "org.apache.commons.math.complex.Complex:1125": {
@@ -1079,16 +1079,16 @@
         "org.apache.commons.math.util.FastMath:1315": {
             "class": "org.apache.commons.math.util.FastMath", 
             "ef": 1, 
-            "ep": 436, 
+            "ep": 435, 
             "line": 1315, 
             "metrics": {
-                "ample": 0.35442404006677797, 
-                "gzoltar": 0.03382550457458692, 
-                "ochiai": 0.03382550457458692, 
-                "tarantula": 0.7745021980863719
+                "ample": 0.3547579298831386, 
+                "gzoltar": 0.03386427307392982, 
+                "ochiai": 0.03386427307392982, 
+                "tarantula": 0.7749029754204398
             }, 
             "nf": 1, 
-            "np": 2559, 
+            "np": 2560, 
             "rank": {
                 "ample": 66, 
                 "ochiai": 66, 

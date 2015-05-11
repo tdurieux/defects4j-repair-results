@@ -1,5 +1,10 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/lang/lang_17 /tmp/lang_17_Ranking;cd /tmp/lang_17_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Lang/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/lang_17_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/tests/:lib/asm.jar:lib/cglib.jar:lib/commons-io.jar:lib/easymock.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/lang_17_Ranking;
+cd /tmp/lang_17_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/tests/:lib/asm.jar:lib/cglib.jar:lib/commons-io.jar:lib/easymock.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";rm -rf /tmp/lang_17_Ranking;
 
 /************************/
 Executed tests:   1903
@@ -58,5 +63,12 @@ org.apache.commons.lang3.text.translate.CharSequenceTranslator:82 -> 0.171498585
 org.apache.commons.lang3.text.translate.CharSequenceTranslator:83 -> 0.17149858514250882 (ep: 33, ef: 1, np: 1869, nf: 0)
 org.apache.commons.lang3.text.translate.CharSequenceTranslator:86 -> 0.17149858514250882 (ep: 33, ef: 1, np: 1869, nf: 0)
 org.apache.commons.lang3.text.translate.CharSequenceTranslator:88 -> 0.17149858514250882 (ep: 33, ef: 1, np: 1869, nf: 0)
+
+
+
+Node: graphene-86.nancy.grid5000.fr
+
+
+Date: Mon May 11 08:01:07 CEST 2015
 
 

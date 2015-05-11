@@ -1,5 +1,10 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/lang/lang_5 /tmp/lang_5_Ranking;cd /tmp/lang_5_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Lang/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/lang_5_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/tests/:lib/asm.jar:lib/cglib.jar:lib/commons-io.jar:lib/easymock.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/lang_5_Ranking;
+cd /tmp/lang_5_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 6 --source src/main/java/ --classpath target/classes/:target/tests/:lib/asm.jar:lib/cglib.jar:lib/commons-io.jar:lib/easymock.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;echo "
+
+Node: `hostname`
+";echo "
+Date: `date`
+";rm -rf /tmp/lang_5_Ranking;
 
 /************************/
 Executed tests:   2271
@@ -35,7 +40,7 @@ java.lang.IllegalArgumentException: Invalid locale format: _GB
 	at com.gzoltar.core.instr.Runner.main(Runner.java:46)
 
 org.apache.commons.lang3.time.FastDatePrinterTest#testCalendarTimezoneRespected
-org.junit.ComparisonFailure: expected:<2:50AM A[D]T> but was:<2:50AM A[S]T>
+org.junit.ComparisonFailure: expected:<2:01AM A[D]T> but was:<2:01AM A[S]T>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
 	at org.apache.commons.lang3.time.FastDatePrinterTest.testCalendarTimezoneRespected(FastDatePrinterTest.java:286)
@@ -62,7 +67,7 @@ org.junit.ComparisonFailure: expected:<2:50AM A[D]T> but was:<2:50AM A[S]T>
 	at com.gzoltar.core.instr.Runner.main(Runner.java:46)
 
 org.apache.commons.lang3.time.FastDateFormat_PrinterTest#testCalendarTimezoneRespected
-org.junit.ComparisonFailure: expected:<2:50AM A[D]T> but was:<2:50AM A[S]T>
+org.junit.ComparisonFailure: expected:<2:01AM A[D]T> but was:<2:01AM A[S]T>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at org.junit.Assert.assertEquals(Assert.java:144)
 	at org.apache.commons.lang3.time.FastDatePrinterTest.testCalendarTimezoneRespected(FastDatePrinterTest.java:286)
@@ -148,7 +153,7 @@ org.apache.commons.lang3.time.FastDatePrinter:465 -> 0.16329931618554522 (ep: 48
 org.apache.commons.lang3.time.FastDatePrinter:467 -> 0.16329931618554522 (ep: 48, ef: 2, np: 2220, nf: 1)
 org.apache.commons.lang3.LocaleUtils:189 -> 0.16012815380508713 (ep: 12, ef: 1, np: 2256, nf: 2)
 org.apache.commons.lang3.LocaleUtils:214 -> 0.16012815380508713 (ep: 12, ef: 1, np: 2256, nf: 2)
-org.apache.commons.lang3.LocaleUtils$SyncAvoid:284 -> 0.16012815380508713 (ep: 14, ef: 1, np: 2254, nf: 2)
+org.apache.commons.lang3.LocaleUtils$SyncAvoid:284 -> 0.16012815380508713 (ep: 12, ef: 1, np: 2256, nf: 2)
 org.apache.commons.lang3.time.FastDatePrinter:250 -> 0.1543033499620919 (ep: 13, ef: 1, np: 2255, nf: 2)
 org.apache.commons.lang3.time.FastDatePrinter:251 -> 0.1543033499620919 (ep: 13, ef: 1, np: 2255, nf: 2)
 org.apache.commons.lang3.time.FormatCache:70 -> 0.1432229748078866 (ep: 63, ef: 2, np: 2205, nf: 1)
@@ -179,7 +184,7 @@ org.apache.commons.lang3.time.FastDateParser:455 -> 0.1203858530857692 (ep: 22, 
 org.apache.commons.lang3.time.FastDatePrinter:226 -> 0.1091089451179962 (ep: 27, ef: 1, np: 2241, nf: 2)
 org.apache.commons.lang3.time.FastDatePrinter:227 -> 0.1091089451179962 (ep: 27, ef: 1, np: 2241, nf: 2)
 org.apache.commons.lang3.time.FastDateParser:346 -> 0.10540925533894598 (ep: 29, ef: 1, np: 2239, nf: 2)
-org.apache.commons.lang3.time.FastDateParser:65 -> 0.10540925533894598 (ep: 98, ef: 2, np: 2170, nf: 1)
+org.apache.commons.lang3.time.FastDateParser:65 -> 0.10540925533894598 (ep: 29, ef: 1, np: 2239, nf: 2)
 org.apache.commons.lang3.time.FastDateParser$TextStrategy:572 -> 0.10540925533894598 (ep: 29, ef: 1, np: 2239, nf: 2)
 org.apache.commons.lang3.time.FastDateParser$TextStrategy:573 -> 0.10540925533894598 (ep: 29, ef: 1, np: 2239, nf: 2)
 org.apache.commons.lang3.time.FastDateParser$TextStrategy:574 -> 0.10540925533894598 (ep: 29, ef: 1, np: 2239, nf: 2)
@@ -276,7 +281,7 @@ org.apache.commons.lang3.time.FastDateParser:331 -> 0.06900655593423542 (ep: 69,
 org.apache.commons.lang3.time.FastDateParser:333 -> 0.06900655593423542 (ep: 69, ef: 1, np: 2199, nf: 2)
 org.apache.commons.lang3.time.FastDateParser:334 -> 0.06900655593423542 (ep: 69, ef: 1, np: 2199, nf: 2)
 org.apache.commons.lang3.time.FastDateParser:435 -> 0.06900655593423542 (ep: 69, ef: 1, np: 2199, nf: 2)
-org.apache.commons.lang3.time.FastDateParser:65 -> 0.06900655593423542 (ep: 98, ef: 2, np: 2170, nf: 1)
+org.apache.commons.lang3.time.FastDateParser:65 -> 0.06900655593423542 (ep: 69, ef: 1, np: 2199, nf: 2)
 org.apache.commons.lang3.time.FastDateParser$CopyQuotedStrategy:546 -> 0.06900655593423542 (ep: 69, ef: 1, np: 2199, nf: 2)
 org.apache.commons.lang3.time.FastDateParser$CopyQuotedStrategy:547 -> 0.06900655593423542 (ep: 69, ef: 1, np: 2199, nf: 2)
 org.apache.commons.lang3.time.FastDateParser:132 -> 0.06851887098275317 (ep: 70, ef: 1, np: 2198, nf: 2)
@@ -309,5 +314,12 @@ org.apache.commons.lang3.time.FastDateParser:428 -> 0.06757373783994859 (ep: 72,
 org.apache.commons.lang3.time.FastDateParser$NumberStrategy:627 -> 0.06757373783994859 (ep: 72, ef: 1, np: 2196, nf: 2)
 org.apache.commons.lang3.time.FastDateParser$NumberStrategy:631 -> 0.06757373783994859 (ep: 72, ef: 1, np: 2196, nf: 2)
 org.apache.commons.lang3.time.FastDateParser$NumberStrategy:633 -> 0.06757373783994859 (ep: 72, ef: 1, np: 2196, nf: 2)
+
+
+
+Node: graphene-83.nancy.grid5000.fr
+
+
+Date: Mon May 11 08:01:50 CEST 2015
 
 

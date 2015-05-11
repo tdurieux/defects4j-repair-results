@@ -1,5 +1,5 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_19 /tmp/math_19_Ranking;cd /tmp/math_19_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/math_19_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/commons-discovery-0.5.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/math_19_Ranking;
+cd /tmp/math_19_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/commons-discovery-0.5.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/math_19_Ranking;
 
 /************************/
 Executed tests:   4165
@@ -216,7 +216,7 @@ org.apache.commons.math3.optimization.direct.CMAESOptimizer:1262 -> 0.2425356250
 org.apache.commons.math3.optimization.direct.CMAESOptimizer:1263 -> 0.24253562503633297 (ep: 16, ef: 1, np: 4148, nf: 0)
 org.apache.commons.math3.optimization.direct.CMAESOptimizer:1264 -> 0.24253562503633297 (ep: 16, ef: 1, np: 4148, nf: 0)
 org.apache.commons.math3.optimization.direct.CMAESOptimizer:1268 -> 0.24253562503633297 (ep: 16, ef: 1, np: 4148, nf: 0)
-org.apache.commons.math3.optimization.direct.CMAESOptimizer:91 -> 0.24253562503633297 (ep: 32, ef: 1, np: 4132, nf: 0)
+org.apache.commons.math3.optimization.direct.CMAESOptimizer:91 -> 0.24253562503633297 (ep: 16, ef: 1, np: 4148, nf: 0)
 org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction:911 -> 0.24253562503633297 (ep: 16, ef: 1, np: 4148, nf: 0)
 org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction:937 -> 0.24253562503633297 (ep: 16, ef: 1, np: 4148, nf: 0)
 org.apache.commons.math3.optimization.direct.CMAESOptimizer$FitnessFunction:954 -> 0.24253562503633297 (ep: 16, ef: 1, np: 4148, nf: 0)

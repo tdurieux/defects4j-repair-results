@@ -1,5 +1,5 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_1 /tmp/math_1_Ranking;cd /tmp/math_1_Ranking;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
-cd /tmp/math_1_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/commons-discovery-0.5.jar:/home/tdurieux/nopol/nopol-0.0.4-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/math_1_Ranking;
+cd /tmp/math_1_Ranking;cp -r /home/tdurieux/nopol/z3-x64-debian-7.7/bin/ lib/z3;time java -cp /home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar fr.inria.lille.repair.Main --mode ranking --type condition --oracle angelic --synthesis smt --solver z3 --solver-path lib/z3/z3 --complianceLevel 5 --source src/main/java/ --classpath target/classes/:target/test-classes/:lib/commons-discovery-0.5.jar:/home/tdurieux/nopol/nopol-0.0.3-SNAPSHOT-jar-with-dependencies.jar;rm -rf /tmp/math_1_Ranking;
 
 /************************/
 Executed tests:   5222
@@ -97,13 +97,13 @@ org.apache.commons.math3.util.FastMath:3338 -> 0.05012547071170855 (ep: 794, ef:
 org.apache.commons.math3.util.FastMath:3342 -> 0.05012547071170855 (ep: 794, ef: 2, np: 4426, nf: 0)
 org.apache.commons.math3.exception.util.ArgUtils:45 -> 0.047324852428030105 (ep: 891, ef: 2, np: 4329, nf: 0)
 org.apache.commons.math3.exception.util.ArgUtils:50 -> 0.047324852428030105 (ep: 891, ef: 2, np: 4329, nf: 0)
-org.apache.commons.math3.exception.util.ExceptionContext:87 -> 0.04291410754228745 (ep: 1084, ef: 2, np: 4136, nf: 0)
-org.apache.commons.math3.exception.util.ExceptionContext:88 -> 0.04291410754228745 (ep: 1084, ef: 2, np: 4136, nf: 0)
-org.apache.commons.math3.exception.util.ExceptionContext:89 -> 0.04291410754228745 (ep: 1084, ef: 2, np: 4136, nf: 0)
-org.apache.commons.math3.exception.util.ArgUtils:42 -> 0.042894363300367125 (ep: 1085, ef: 2, np: 4135, nf: 0)
-org.apache.commons.math3.exception.util.ArgUtils:43 -> 0.042894363300367125 (ep: 1085, ef: 2, np: 4135, nf: 0)
-org.apache.commons.math3.exception.util.ArgUtils:44 -> 0.042894363300367125 (ep: 1085, ef: 2, np: 4135, nf: 0)
-org.apache.commons.math3.exception.util.ArgUtils:54 -> 0.042894363300367125 (ep: 1085, ef: 2, np: 4135, nf: 0)
+org.apache.commons.math3.exception.util.ExceptionContext:87 -> 0.042933879074109185 (ep: 1083, ef: 2, np: 4137, nf: 0)
+org.apache.commons.math3.exception.util.ExceptionContext:88 -> 0.042933879074109185 (ep: 1083, ef: 2, np: 4137, nf: 0)
+org.apache.commons.math3.exception.util.ExceptionContext:89 -> 0.042933879074109185 (ep: 1083, ef: 2, np: 4137, nf: 0)
+org.apache.commons.math3.exception.util.ArgUtils:42 -> 0.04291410754228745 (ep: 1084, ef: 2, np: 4136, nf: 0)
+org.apache.commons.math3.exception.util.ArgUtils:43 -> 0.04291410754228745 (ep: 1084, ef: 2, np: 4136, nf: 0)
+org.apache.commons.math3.exception.util.ArgUtils:44 -> 0.04291410754228745 (ep: 1084, ef: 2, np: 4136, nf: 0)
+org.apache.commons.math3.exception.util.ArgUtils:54 -> 0.04291410754228745 (ep: 1084, ef: 2, np: 4136, nf: 0)
 org.apache.commons.math3.util.FastMath:3024 -> 0.03005565448891441 (ep: 2212, ef: 2, np: 3008, nf: 0)
 org.apache.commons.math3.util.FastMath:3001 -> 0.022645540682891915 (ep: 974, ef: 1, np: 4246, nf: 1)
 org.apache.commons.math3.util.FastMath:3006 -> 0.022645540682891915 (ep: 974, ef: 1, np: 4246, nf: 1)
