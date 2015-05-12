@@ -1,4 +1,4 @@
-Exception in thread "Thread-251" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@6f8fb714
+Exception in thread "Thread-251" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@114987
 	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:186)
 	at org.joda.time.tz.ZoneInfoProvider.loadZoneData(ZoneInfoProvider.java:201)
 	at org.joda.time.tz.ZoneInfoProvider.getZone(ZoneInfoProvider.java:142)
@@ -56,3 +56,4 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:71)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:52)
 	at fr.inria.lille.repair.Main.main(Main.java:60)
+## OAR [2015-05-11 21:00:47] Job 1499029 KILLED

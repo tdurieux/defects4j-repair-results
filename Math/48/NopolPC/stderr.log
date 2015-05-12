@@ -14,3 +14,21 @@ xxl.java.compiler.DynamicCompilationException: Aborting: dynamic compilation fai
 	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:71)
 	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:52)
 	at fr.inria.lille.repair.Main.main(Main.java:60)
+java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:84)
+	at xxl.java.junit.TestSuiteExecution.runTestCase(TestSuiteExecution.java:41)
+	at xxl.java.junit.TestSuiteExecution.runTestCases(TestSuiteExecution.java:71)
+	at fr.inria.lille.repair.nopol.synth.ConstraintModelBuilder.buildFor(ConstraintModelBuilder.java:69)
+	at fr.inria.lille.repair.nopol.synth.DefaultSynthesizer.buildPatch(DefaultSynthesizer.java:67)
+	at fr.inria.lille.repair.nopol.NoPol.solveWithMultipleBuild(NoPol.java:139)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:81)
+	at fr.inria.lille.repair.nopol.NoPol.build(NoPol.java:71)
+	at fr.inria.lille.repair.nopol.NoPolLauncher.launch(NoPolLauncher.java:52)
+	at fr.inria.lille.repair.Main.main(Main.java:60)
+Caused by: java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:202)
+	at xxl.java.junit.TestSuiteExecution.executionResult(TestSuiteExecution.java:80)
+	... 9 more
+Caused by: java.lang.OutOfMemoryError: Java heap space
+## OAR [2015-05-12 00:00:27] Job 1499216 KILLED

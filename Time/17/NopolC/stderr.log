@@ -1,4 +1,4 @@
-Exception in thread "Thread-11815" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@7714e1af
+Exception in thread "Thread-11815" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@72889b46
 	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:184)
 	at org.joda.time.tz.ZoneInfoProvider.loadZoneData(ZoneInfoProvider.java:199)
 	at org.joda.time.tz.ZoneInfoProvider.getZone(ZoneInfoProvider.java:140)
@@ -24,7 +24,7 @@ Exception in thread "Thread-11815" java.io.IOException: Resource not found: "org
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
-Exception in thread "Thread-11876" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@816d397
+Exception in thread "Thread-11876" java.io.IOException: Resource not found: "org/joda/time/tz/data/UTC" ClassLoader: xxl.java.compiler.BytecodeClassLoader@47560fa3
 	at org.joda.time.tz.ZoneInfoProvider.openResource(ZoneInfoProvider.java:180)
 	at org.joda.time.tz.ZoneInfoProvider.loadZoneData(ZoneInfoProvider.java:195)
 	at org.joda.time.tz.ZoneInfoProvider.getZone(ZoneInfoProvider.java:127)
@@ -50,3 +50,4 @@ Exception in thread "Thread-11876" java.io.IOException: Resource not found: "org
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 	at java.lang.Thread.run(Thread.java:745)
+## OAR [2015-05-11 20:59:17] Job 1499003 KILLED
