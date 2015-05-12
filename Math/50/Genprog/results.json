@@ -1,11 +1,20 @@
 {
-    "date": "2015-05-07T01:27:53.068128", 
-    "gen": "35", 
-    "node": "graphene-22.nancy.grid5000.fr\n", 
+    "FailingTestCase": "9", 
+    "FailingTestCaseExecution": "6", 
+    "InmutatedGen": "0", 
+    "NotAppliedOp": "0", 
+    "OfAppliedOp": "12", 
+    "RegressionTestCases": "2822", 
+    "RegressionTestExecution": "1", 
+    "RightCompilation": "5", 
+    "WrongCompilation": "7", 
+    "date": "`date`", 
+    "gen": "12", 
+    "node": "graphene-103.nancy.grid5000.fr", 
     "operations": [
         {
-            "generation": 35, 
-            "patch": "this.allowed = org.apache.commons.math.analysis.solvers.AllowedSolution.ANY_SIDE", 
+            "generation": 12, 
+            "patch": "remove", 
             "patchLocation": {
                 "className": "org.apache.commons.math.analysis.solvers.BaseSecantSolver", 
                 "line": 191
@@ -13,21 +22,19 @@
         }
     ], 
     "patches": "1", 
-    "programVariant": "70", 
-    "timeEvaluation": "49659", 
-    "timeTotal": "229256", 
+    "programVariant": "24", 
+    "timeEvaluation": "51318", 
+    "timeTotal": "226161", 
     "timeVal1": [
-        267, 
-        272, 
-        279, 
-        274, 
-        272, 
-        277, 
         265, 
-        253, 
+        265, 
+        261, 
+        266, 
+        260, 
         258
     ], 
     "timeVal2": [
-        44346
-    ]
+        48077
+    ], 
+    "unfinishValidation": "0"
 }

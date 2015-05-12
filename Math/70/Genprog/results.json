@@ -1,10 +1,19 @@
 {
-    "date": "2015-05-08T02:04:49.732099", 
-    "gen": "34", 
-    "node": "griffon-39.nancy.grid5000.fr\n", 
+    "FailingTestCase": "12", 
+    "FailingTestCaseExecution": "5", 
+    "InmutatedGen": "0", 
+    "NotAppliedOp": "0", 
+    "OfAppliedOp": "17", 
+    "RegressionTestCases": "2074", 
+    "RegressionTestExecution": "1", 
+    "RightCompilation": "4", 
+    "WrongCompilation": "13", 
+    "date": "`date`", 
+    "gen": "17", 
+    "node": "graphene-102.nancy.grid5000.fr", 
     "operations": [
         {
-            "generation": 34, 
+            "generation": 17, 
             "patch": "return solve(f, min, max)", 
             "patchLocation": {
                 "className": "org.apache.commons.math.analysis.solvers.BisectionSolver", 
@@ -13,19 +22,18 @@
         }
     ], 
     "patches": "1", 
-    "programVariant": "68", 
-    "timeEvaluation": "14986", 
-    "timeTotal": "50511", 
+    "programVariant": "34", 
+    "timeEvaluation": "12922", 
+    "timeTotal": "45360", 
     "timeVal1": [
-        193, 
-        187, 
-        188, 
         185, 
-        186, 
-        187, 
-        186
+        163, 
+        170, 
+        163, 
+        161
     ], 
     "timeVal2": [
-        11848
-    ]
+        10731
+    ], 
+    "unfinishValidation": "0"
 }

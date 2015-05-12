@@ -1,37 +1,49 @@
 export PATH="/home/tdurieux/defects4j/framework/bin:$PATH";cp -r /home/tdurieux/projects/math/math_81 /tmp/math_81_Genprog;cd /tmp/math_81_Genprog;defects4j compile;mkdir lib/;cp -r /home/tdurieux/defects4j/framework/projects/lib/* lib/;cp -r /home/tdurieux/defects4j/framework/projects/Math/lib/* lib/;find . -type f -name "package-info.java" -delete;
 /home/tdurieux/results/Math/81/Genprog/result
-cd /tmp/math_81_Genprog;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -dependencies lib/ -failing org.apache.commons.math.linear.EigenDecompositionImplTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;rm -rf /tmp/math_81_Genprog;
+cd /tmp/math_81_Genprog;time java -cp /home/tdurieux/astor/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement -location . -dependencies lib/ -failing org.apache.commons.math.linear.EigenDecompositionImplTest: -package org.apache.commons -jvm4testexecution /usr/lib/jvm/java-1.7.0-openjdk-amd64/bin/ -javacompliancelevel 5 -maxgen 1000000 -population 1 -srcjavafolder src/main/java/ -srctestfolder src/test/java/ -binjavafolder target/classes/ -bintestfolder target/test-classes/;echo "
 
-ProgramVariant 206
+Node: `hostname`
+";echo "
+Date: `date`
+";rm -rf /tmp/math_81_Genprog;
+
+ProgramVariant 148
  
  operation: 
 location= org.apache.commons.math.linear.EigenDecompositionImpl
- line= 1477
- original statement= a2 = 0.0
- fix (remove original statement) "a2 = 0.0"
- generation= 103
+ line= 1541
+ original statement= b2 = (work[(nn - 13)]) / (work[(nn - 15)])
+ fix (remove original statement) "b2 = (work[(nn - 13)]) / (work[(nn - 15)])"
+ generation= 74
  
  ----
-Time Evolution(ms): 286707
+Time Evolution(ms): 98467
 
 ----stats: 
 
-spaces: [77]: [298, 766, 198, 298, 198, 766, 766, 198, 298, 198, 766, 298, 766, 86, 55, 766, 766, 766, 766, 766, 766, 766, 298, 185, 36, 2, 55, 766, 766, 298, 49, 185, 766, 766, 298, 766, 198, 766, 766, 766, 298, 49, 766, 298, 766, 86, 766, 198, 766, 766, 766, 766, 766, 766, 766, 766, 298, 298, 766, 766, 766, 766, 766, 766, 766, 198, 766, 766, 766, 766, 766, 766, 766, 86, 766, 766, 766]
-time val1 [43]: [369, 368, 363, 366, 366, 368, 364, 381, 367, 365, 365, 60001, 360, 367, 382, 366, 364, 365, 366, 365, 366, 367, 60001, 367, 364, 348, 370, 365, 60001, 360, 375, 365, 371, 364, 375, 366, 60001, 367, 373, 365, 367, 366, 367]
-time val2 [1]: [10423]
-#gen: 103
+spaces: [56]: [53, 298, 766, 766, 766, 298, 298, 766, 766, 766, 49, 766, 55, 766, 766, 766, 198, 766, 766, 766, 298, 766, 766, 27, 198, 766, 766, 766, 766, 766, 766, 766, 198, 298, 766, 766, 766, 298, 198, 766, 766, 766, 766, 298, 198, 766, 766, 298, 40, 298, 766, 766, 766, 86, 766, 766]
+time val1 [23]: [333, 340, 308, 319, 368, 347, 318, 319, 321, 327, 322, 332, 60002, 322, 321, 334, 321, 321, 323, 324, 320, 363, 319]
+time val2 [2]: [8422, 9000]
+#gen: 74
 #patches: 1
-#RightCompilation: 42
-#WrongCompilation: 61
-#FailingTestCaseExecution: 43
-#RegressionTestExecution: 1
-#TestcasesExecutedval1: 663
-#TestcasesExecutedval2: 1993
+#RightCompilation: 22
+#WrongCompilation: 52
+#FailingTestCaseExecution: 23
+#RegressionTestExecution: 2
+#TestcasesExecutedval1: 374
+#TestcasesExecutedval2: 3986
 #FailingTestCase: 17
 #RegressionTestCases: 1993
-#OfAppliedOp: 103
+#OfAppliedOp: 74
 #NotAppliedOp: 0
-#InmutatedGen: 1
+#InmutatedGen: 0
 #unfinishValidation: 0
-Time Total(ms): 323435
+Time Total(ms): 129255
+
+
+Node: graphene-1.nancy.grid5000.fr
+
+
+Date: Tue May 12 00:53:49 CEST 2015
+
 

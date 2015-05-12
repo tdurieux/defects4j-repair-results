@@ -1,10 +1,19 @@
 {
-    "date": "2015-05-08T02:02:17.627419", 
-    "gen": "85", 
-    "node": "griffon-30.nancy.grid5000.fr\n", 
+    "FailingTestCase": "13", 
+    "FailingTestCaseExecution": "10", 
+    "InmutatedGen": "0", 
+    "NotAppliedOp": "0", 
+    "OfAppliedOp": "28", 
+    "RegressionTestCases": "1875", 
+    "RegressionTestExecution": "1", 
+    "RightCompilation": "9", 
+    "WrongCompilation": "19", 
+    "date": "`date`", 
+    "gen": "28", 
+    "node": "graphene-104.nancy.grid5000.fr", 
     "operations": [
         {
-            "generation": 85, 
+            "generation": 28, 
             "patch": "remove", 
             "patchLocation": {
                 "className": "org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils", 
@@ -13,41 +22,23 @@
         }
     ], 
     "patches": "1", 
-    "programVariant": "170", 
-    "timeEvaluation": "319697", 
-    "timeTotal": "349160", 
+    "programVariant": "56", 
+    "timeEvaluation": "11227", 
+    "timeTotal": "37372", 
     "timeVal1": [
-        242, 
-        253, 
-        251, 
-        253, 
-        241, 
-        249, 
-        253, 
-        237, 
-        251, 
-        60002, 
-        60002, 
-        254, 
-        252, 
-        254, 
-        239, 
-        252, 
-        250, 
-        252, 
-        243, 
-        250, 
-        60001, 
-        234, 
-        60002, 
-        251, 
-        60001, 
-        253, 
-        252, 
-        251, 
-        247
+        219, 
+        212, 
+        222, 
+        221, 
+        227, 
+        206, 
+        212, 
+        228, 
+        226, 
+        224
     ], 
     "timeVal2": [
-        7719
-    ]
+        6791
+    ], 
+    "unfinishValidation": "0"
 }

@@ -5,7 +5,7 @@ java.lang.IllegalArgumentException: The validation process does not execute well
 	at java.lang.Class.forName(Class.java:191)
 	at fr.inria.astor.junitexec.JUnitTestExecutor.main(JUnitTestExecutor.java:106)
 Caused by: java.lang.NullPointerException
-	at org.joda.time.chrono.GJChronology.getInstance(GJChronology.java:57)
+	at org.joda.time.chrono.GJChronology.getInstance(GJChronology.java:54)
 	at org.joda.time.chrono.GJChronology.getInstance(GJChronology.java:35)
 	at org.joda.time.chrono.BuddhistChronology.getInstance(BuddhistChronology.java:110)
 	at org.joda.time.chrono.BuddhistChronology.<clinit>(BuddhistChronology.java:74)
@@ -28,7 +28,7 @@ Exception in thread "main" java.lang.AssertionError: The validation process does
 	at java.lang.Class.forName(Class.java:191)
 	at fr.inria.astor.junitexec.JUnitTestExecutor.main(JUnitTestExecutor.java:106)
 Caused by: java.lang.NullPointerException
-	at org.joda.time.chrono.GJChronology.getInstance(GJChronology.java:57)
+	at org.joda.time.chrono.GJChronology.getInstance(GJChronology.java:54)
 	at org.joda.time.chrono.GJChronology.getInstance(GJChronology.java:35)
 	at org.joda.time.chrono.BuddhistChronology.getInstance(BuddhistChronology.java:110)
 	at org.joda.time.chrono.BuddhistChronology.<clinit>(BuddhistChronology.java:74)
@@ -38,6 +38,6 @@ Caused by: java.lang.NullPointerException
 	at fr.inria.main.evolution.MainjGenProg.run(MainjGenProg.java:140)
 	at fr.inria.main.evolution.MainjGenProg.main(MainjGenProg.java:171)
 
-real	9m24.106s
-user	11m2.953s
-sys	0m10.569s
+real	5m54.253s
+user	6m54.054s
+sys	0m5.388s
